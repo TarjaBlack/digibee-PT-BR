@@ -1,0 +1,153 @@
+---
+description: Como adicionar um valor a diferentes itens da lista
+---
+
+# Transformer - Adicionar valores aos elementos da lista
+
+**Como adicionar um valor Fixo em diferentes elementos da lista:**
+
+**Entrada:**
+
+```
+{
+   "happy": "true",
+  "statistics": [
+    {
+      "id": "A",
+      "min": "2.0",
+      "max": "10.0",
+      "avg": "7.9"
+    },
+    {
+      "min": "6",
+      "max": "6",
+      "avg": "6"
+    },
+    {
+      "id": "C"
+    }
+  ]
+}
+```
+
+**Transformer Spec:**\
+
+
+```
+[
+  {
+    "operation": "modify-overwrite-beta",
+//para adicionar o valor somente se ele não existir, mude a operation para "modify-default-beta"
+    "spec": {
+      "statistics": {
+        "*": {
+          "valorNovo": "teste123"
+        }
+      }
+    }
+  }
+]
+```
+
+**Saída:**
+
+```
+{
+  "happy": "true",
+  "statistics" : [ {
+    "id" : "A",
+    "min" : "2.0",
+    "max" : "10.0",
+    "avg" : "7.9",
+    "valorNovo" : "teste123"
+  }, {
+    "min" : "6",
+    "max" : "6",
+    "avg" : "6",
+    "valorNovo" : "teste123"
+  }, {
+    "id" : "C",
+    "valorNovo" : "teste123"
+  } ]
+}
+```
+
+\
+**Adicionar Valores Dinâmicos**
+
+Para adicionar o valor de forma dinâmica, utilizar por exemplo o Transformer Spec abaixo:
+
+```
+[
+  {
+    "operation": "modify-overwrite-beta",
+    //para adicionar o valor somente se ele não existir, mude a operation para "modify-default-beta"
+    "spec": {
+      "statistics": {
+        "*": {
+          "valorNovo": "@(3,happy)"
+        }
+      }
+    }
+  }
+]
+```
+
+\
+Observação: No exemplo acima, o número 3 indica a quantidade de níveis que deve-se "subir" para acessar o objeto Json. Para entender melhor abaixo um outro exemplo:
+
+\
+**Entrada:**
+
+```
+{
+  "nivelA": {
+    "nivelB": {
+      "happy": "true"
+    }
+  },
+  "nivelX": {
+    "statistics": [
+      {
+        "id": "A",
+        "min": "2.0",
+        "max": "10.0",
+        "avg": "7.9"
+      },
+      {
+        "min": "6",
+        "max": "6",
+        "avg": "6"
+      },
+      {
+        "id": "C"
+      }
+    ]
+  }
+}
+```
+
+**Transformer Spec:**
+
+```
+[
+  {
+    "operation": "modify-overwrite-beta",
+     "spec": {
+      "nivelX": {
+        "statistics": {
+//o item "*" (todos elementos da lista, também é considerado um nível)
+          "*": {
+            "valorNovo": "@(5,nivelA.nivelB.happy)"
+          }
+        }
+      }
+    }
+  }
+]
+```
+
+\
+
+
+\
