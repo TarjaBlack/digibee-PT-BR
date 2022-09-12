@@ -47,7 +47,7 @@ Logo em seguida, será essencial realizar a configuração dos endpoints enviado
 
 ### **5.Validar ambiente**
 
-Uma vez que todas as configurações foram realizadas, o acesso a plataforma Digibee por este fluxo de integração, deverá ser realizado através da URL fornecida pela Digibee que possui o seguinte formato:
+Uma vez que todas as configurações foram realizadas, o acesso a Digibee Integration Plaform por este fluxo de integração, deverá ser realizado através da URL fornecida pela Digibee que possui o seguinte formato:
 
 **"https://{cliente}.auth.godigibee.io/oauth2/authorize?client\_id={cliente-id}\&response\_type=code\&redirect\_uri=%2Flogin"**
 

@@ -6,7 +6,7 @@ description: Conheça o novo layout e o que ele oferece.
 
 ## O que é o novo layout? <a href="#h_a4496d9519" id="h_a4496d9519"></a>
 
-O novo layout da Plataforma Digibee é o primeiro passo da revolução que estamos promovendo na nossa interface.
+O novo layout da Digibee Integration Plaform é o primeiro passo da revolução que estamos promovendo na nossa interface.
 
 O novo layout foi pensado para representar o ciclo de construção de integrações. Por isso, você encontrará 3 novos menus:
 

@@ -1,14 +1,14 @@
 ---
-description: Conheça a funcionalidade Test mode da Plataforma Digibee
+description: Conheça a funcionalidade Test mode da Digibee Integration Plaform
 ---
 
 # Test mode
 
-O _Test mode_ é uma funcionalidade da Plataforma Digibee muito utilizada na construção de _pipelines_ por possibilitar uma maneira de executar e testar o _pipeline_ diretamente da sua área de desenvolvimento. Ele é muito utilizado para avaliar a lógica de implementação, depurar e solucionar problemas de integrações antes de implantar o _pipeline_ em produção.
+O _Test mode_ é uma funcionalidade da Digibee Integration Plaform muito utilizada na construção de _pipelines_ por possibilitar uma maneira de executar e testar o _pipeline_ diretamente da sua área de desenvolvimento. Ele é muito utilizado para avaliar a lógica de implementação, depurar e solucionar problemas de integrações antes de implantar o _pipeline_ em produção.
 
 ## Informações iniciais <a href="#h_675b51f516" id="h_675b51f516"></a>
 
-O _Test mode_ executa o _pipeline_ no ambiente _test_. Ou seja, utilizamos do ambiente _test_ da Plataforma Digibee para que seu _pipeline_ seja executado e a lógica de integração validada. Além disso, o _Test mod_e utiliza de valores de _test_ registrados nos serviços de _Globals_, Contas, Relacionamento e Multi-Instância.
+O _Test mode_ executa o _pipeline_ no ambiente _test_. Ou seja, utilizamos do ambiente _test_ da Digibee Integration Plaform para que seu _pipeline_ seja executado e a lógica de integração validada. Além disso, o _Test mod_e utiliza de valores de _test_ registrados nos serviços de _Globals_, Contas, Relacionamento e Multi-Instância.
 
 **IMPORTANTE:** Dependendo da quantidade de transações de dados a ser executada, o _Test mode_ poderá exibir a mensagem “_Out of memory_”.
 

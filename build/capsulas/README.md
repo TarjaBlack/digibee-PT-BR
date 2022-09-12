@@ -6,7 +6,7 @@ description: Saiba como aproveitar o novo recurso da Digibee HIP.
 
 ### O que são Cápsulas? <a href="#h_4a365c4396" id="h_4a365c4396"></a>
 
-Cápsulas são uma nova e grande funcionalidade da Digibee, parte integrante da Plataforma Digibee HIP. As Cápsulas Digibee **** são componentes reutilizáveis que podem ser criados por qualquer usuário da Plataforma ao aplicar o mesmo modelo de desenvolvimento visual concebido na criação do _pipeline_, provendo uma lógica de negócio reutilizável, segura, validada e evolutiva.
+Cápsulas são uma nova e grande funcionalidade da Digibee, parte integrante da Digibee Integration Plaform HIP. As Cápsulas Digibee **** são componentes reutilizáveis que podem ser criados por qualquer usuário da Plataforma ao aplicar o mesmo modelo de desenvolvimento visual concebido na criação do _pipeline_, provendo uma lógica de negócio reutilizável, segura, validada e evolutiva.
 
 Uma Cápsula permite que a integração de fluxos seja publicada na paleta de componentes para ser utilizada em outro momento, de maneira simplificada e ainda mais rápida.
 
@@ -20,7 +20,7 @@ As Cápsulas também abrem uma nova vertente de trabalho na Plataforma, já que 
 
 ### Como usar Cápsulas? <a href="#h_b67a17d36d" id="h_b67a17d36d"></a>
 
-Para utilizar a Cápsula dentro da Plataforma Digibee, basta acessá-la a partir do menu principal, clicar no botão CRIAR para criar uma nova Cápsula e assim construir uma lógica com a já conhecida interface da Plataforma Digibee.
+Para utilizar a Cápsula dentro da Digibee Integration Plaform, basta acessá-la a partir do menu principal, clicar no botão CRIAR para criar uma nova Cápsula e assim construir uma lógica com a já conhecida interface da Digibee Integration Plaform.
 
 ### Cápsula <a href="#h_f4aa32c090" id="h_f4aa32c090"></a>
 
@@ -222,7 +222,7 @@ Exemplo de Cápsula que teve todos os requisitos atendidos e pode ser publicada:
 
 #### **Versionamento** <a href="#h_cfaf3bcda9" id="h_cfaf3bcda9"></a>
 
-Para garantir confiabilidade nas atualizações das Cápsulas, a Digibee adotou um controle de versionamento composto por 3 níveis. Quando as versões precisam ser atualizadas, a Plataforma Digibee HIP analisa uma Cápsula automaticamente e determina quais serão os valores dos níveis.
+Para garantir confiabilidade nas atualizações das Cápsulas, a Digibee adotou um controle de versionamento composto por 3 níveis. Quando as versões precisam ser atualizadas, a Digibee Integration Plaform HIP analisa uma Cápsula automaticamente e determina quais serão os valores dos níveis.
 
 Estes são os 3 níveis de versionamento:
 

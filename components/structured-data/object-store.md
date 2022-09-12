@@ -13,7 +13,7 @@ O Object Store é uma base de dados (NoSQL) auxiliar para integrações. Sua uti
 * O Object Store desempenha a função de uma base de dados intermediária, isto é, para intermediação de informações entre fluxos de uma integração. Sendo assim, ele deve ser utilizado unicamente para armazenamento de informações relevantes para a integração __ em questão.
 * O Object Store é uma base de dados temporária. Uma vez utilizado apenas para intermediação de informações pertinentes ao fluxo de integração, dados antigos e dispensáveis devem ser removidos da base de dados periodicamente.
 * Por se tratar de uma base auxiliar, o componente Object Store não deve ser utilizado como uma base de dados permanente, mas sim de maneira pontual, com o objetivo de apoiar o usuário no desenvolvimento das integrações.
-* Todo e qualquer dado é armazenado com o máximo de segurança dentro da Plataforma Digibee. Ainda assim, recomendamos que dados sensíveis armazenados no Object Store sejam criptografados. Para isso, utilize nossos conectores de criptografia disponíveis no _Canvas_.
+* Todo e qualquer dado é armazenado com o máximo de segurança dentro da Digibee Integration Plaform. Ainda assim, recomendamos que dados sensíveis armazenados no Object Store sejam criptografados. Para isso, utilize nossos conectores de criptografia disponíveis no _Canvas_.
 
 
 

@@ -6,7 +6,7 @@ description: Entenda mais sobre provedores de autenticação OAuth
 
 O OAuth2 é um protocolo padrão para autorização comumente utilizado por APIs web. Para realizar integrações que utilizem o OAuth2, basta logar-se em um provedor - podendo ser o Google, Microsoft, Mercado Livre, Amazon, etc. - e receber um token de acesso. Através deste token, é possível acessar os dados de um usuário sem precisar informar suas credenciais.
 
-Para adicioná-lo em nossa Plataforma, é necessário criar previamente uma aplicação no provedor que deseja utilizar. Uma vez criada a aplicação no provedor, será possível cadastrar e utilizar o protocolo OAuth2 na Plataforma Digibee.
+Para adicioná-lo em nossa Plataforma, é necessário criar previamente uma aplicação no provedor que deseja utilizar. Uma vez criada a aplicação no provedor, será possível cadastrar e utilizar o protocolo OAuth2 na Digibee Integration Plaform.
 
 ### **Cadastrando um novo provedor OAuth a partir de um provedor existente**
 
@@ -21,7 +21,7 @@ No campo **Redirect URI**, será preciso utilizar o seguinte endereço:
 * Para SaaS: [https//:www.godigibee.io/oauth2/success](http://www.godigibee.io/oauth/success)
 * Para SaaS dedicado: [https//:www.${DEDICATED\_SAAS\_HOST}/oauth2/success](http://www.godigibee.io/oauth/success)
 
-Criada a aplicação, você terá em mãos o **Client ID** e o **Client Secret**, que são as chaves de autenticação do OAuth que deverão ser informados posteriormente durante a criação do novo provedor, em uma conta da Plataforma Digibee (vide o tutorial ao final deste artigo).
+Criada a aplicação, você terá em mãos o **Client ID** e o **Client Secret**, que são as chaves de autenticação do OAuth que deverão ser informados posteriormente durante a criação do novo provedor, em uma conta da Digibee Integration Plaform (vide o tutorial ao final deste artigo).
 
 ### **Como funciona a obtenção do token?**
 
@@ -54,11 +54,11 @@ O _refresh token_ pode não retornar por diversos motivos, mas são frequentes o
 * [Provedor Microsoft](https://account.live.com/consent/Manage);
 * [Provedor Mercado Livre](https://appstore.mercadolivre.com.br/apps/permissions).
 
-Após isso, é necessário realizar o _login_ no provedor através da Plataforma Digibee novamente e, por fim, salvar a sua conta.
+Após isso, é necessário realizar o _login_ no provedor através da Digibee Integration Plaform novamente e, por fim, salvar a sua conta.
 
 ### **Como solicitar novos provedores?**
 
-Para solicitar um provedor inexistente em nossa lista, entre em contato conosco através do _chat_ da Plataforma Digibee. Assim, poderemos adicioná-lo manualmente.
+Para solicitar um provedor inexistente em nossa lista, entre em contato conosco através do _chat_ da Digibee Integration Plaform. Assim, poderemos adicioná-lo manualmente.
 
 ### **Como utilizar o token no **_**pipeline**_**?**
 
@@ -100,6 +100,6 @@ Chamando a API que retorna informações sobre sua conta no Mercado Livre:
 **IMPORTANTE:** Uma vez que a conta OAuth criada anteriormente seja informada no campo _Account_ do componente Rest V2, o cabeçalho _Authorization_ será adicionado automaticamente.
 {% endhint %}
 
-Uma vez criada a aplicação no provedor, será possível cadastrar seu novo provedor OAuth2 na Plataforma Digibee seguindo o tutorial [Cadastro de novos provedores](cadastro-de-novos-provedores-oauth.md).
+Uma vez criada a aplicação no provedor, será possível cadastrar seu novo provedor OAuth2 na Digibee Integration Plaform seguindo o tutorial [Cadastro de novos provedores](cadastro-de-novos-provedores-oauth.md).
 
 \

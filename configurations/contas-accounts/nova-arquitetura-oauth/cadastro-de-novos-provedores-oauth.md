@@ -6,15 +6,15 @@ description: Como cadastrar um novo provedor a partir de um existente
 
 O OAuth 2.0 é um protocolo de autorização baseado em token que permite que uma aplicação acesse recursos e informações de um usuário sem precisar requerer suas credenciais.
 
-Até então, era possível integrar novos provedores OAuth2 através de uma solicitação ao time de suporte. Considerando que esse processo acabava por limitar as decisões e a performance dos nossos clientes, implementamos uma nova arquitetura de OAuth2 na qual o próprio usuário da Plataforma Digibee conseguirá cadastrar novos provedores e os utilizar em suas integrações de maneira independente e autônoma.
+Até então, era possível integrar novos provedores OAuth2 através de uma solicitação ao time de suporte. Considerando que esse processo acabava por limitar as decisões e a performance dos nossos clientes, implementamos uma nova arquitetura de OAuth2 na qual o próprio usuário da Digibee Integration Plaform conseguirá cadastrar novos provedores e os utilizar em suas integrações de maneira independente e autônoma.
 
-Desse modo, agora é possível adicionar novos provedores OAuth a partir dos já existentes na Plataforma Digibee, basta ter em mãos o **Client ID** e o **Client Secret** da sua aplicação OAuth. Para saber como criar sua aplicação, consulte o artigo [Nova Arquitetura do OAuth2](./).
+Desse modo, agora é possível adicionar novos provedores OAuth a partir dos já existentes na Digibee Integration Plaform, basta ter em mãos o **Client ID** e o **Client Secret** da sua aplicação OAuth. Para saber como criar sua aplicação, consulte o artigo [Nova Arquitetura do OAuth2](./).
 
-Uma vez criada a aplicação no provedor, será possível cadastrar seu novo provedor OAuth2 na Plataforma Digibee seguindo o tutorial abaixo:
+Uma vez criada a aplicação no provedor, será possível cadastrar seu novo provedor OAuth2 na Digibee Integration Plaform seguindo o tutorial abaixo:
 
 ### **1. Como cadastrar um novo provedor**
 
-Em Settings, acesse a tela Account. Nesta tela, clique no submenu “Provedor OAuth”. Aqui será possível cadastrar novos provedores a partir de um provedor já existente e cadastrado pela Plataforma Digibee.
+Em Settings, acesse a tela Account. Nesta tela, clique no submenu “Provedor OAuth”. Aqui será possível cadastrar novos provedores a partir de um provedor já existente e cadastrado pela Digibee Integration Plaform.
 
 Desse modo, para criar um novo provedor, clique em + CRIAR. Assim, você poderá configurar a autenticação do novo provedor a partir de um já existente para que ele possa ser utilizado em seu pipeline posteriormente.
 
@@ -24,7 +24,7 @@ Desse modo, para criar um novo provedor, clique em + CRIAR. Assim, você poderá
 
 ![](<../../../.gitbook/assets/02 (11).png>)
 
-Nesta tela, selecione um provedor-base existente cadastrado pela Plataforma Digibee para que o campo “URL de autenticação” seja preenchido automaticamente. Também será necessário definir o nome do seu novo provedor conforme o exemplo abaixo:
+Nesta tela, selecione um provedor-base existente cadastrado pela Digibee Integration Plaform para que o campo “URL de autenticação” seja preenchido automaticamente. Também será necessário definir o nome do seu novo provedor conforme o exemplo abaixo:
 
 ![](<../../../.gitbook/assets/03 (10).png>)
 

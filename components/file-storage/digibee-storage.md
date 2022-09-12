@@ -4,7 +4,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # Digibee Storage
 
-O _**Digibee Storage**_ se conecta ao _storage_ da Plataforma Digibee, possibilitando que sejam realizadas as seguintes operações com arquivos: _List_, _Download_, _Upload_ e _Delete_.
+O _**Digibee Storage**_ se conecta ao _storage_ da Digibee Integration Plaform, possibilitando que sejam realizadas as seguintes operações com arquivos: _List_, _Download_, _Upload_ e _Delete_.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 

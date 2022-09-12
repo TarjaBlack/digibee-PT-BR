@@ -32,7 +32,7 @@ Leia os seguintes artigos e conheça mais sobre o funcionamento do Novo Controle
 
 Para criar uma integração, siga os seguintes passos:
 
-1. Faça login na Plataforma Digibee;
+1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 

@@ -6,9 +6,9 @@ description: Conheça mais sobre as URLs utilizadas na Plataforma e seus usos
 
 URL é um acrônimo para Uniform Resource Locator e é uma referência que funciona como um endereço a um recurso na Internet.
 
-A Plataforma Digibee utiliza um conjunto de URLs para identificar seus recursos. Os URLs são utilizados desde o Portal Web que pode ser acessado pelos usuários para criar, publicar e monitorar os pipelines, até, por exemplo, o Endpoint Transacional de APIs que pode ser utilizado pelos pipelines para receber requisições.
+A Digibee Integration Plaform utiliza um conjunto de URLs para identificar seus recursos. Os URLs são utilizados desde o Portal Web que pode ser acessado pelos usuários para criar, publicar e monitorar os pipelines, até, por exemplo, o Endpoint Transacional de APIs que pode ser utilizado pelos pipelines para receber requisições.
 
-Este artigo apresenta os detalhes do sistema de URLs da Plataforma Digibee.
+Este artigo apresenta os detalhes do sistema de URLs da Digibee Integration Plaform.
 
 #### **Sistema de URL Atual** <a href="#h_dfbf424bac" id="h_dfbf424bac"></a>
 

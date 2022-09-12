@@ -4,7 +4,7 @@ description: Saiba quais são os requisitos mínimos para utilizar a Plataforma.
 
 # Requisitos de sistema
 
-Para poder utilizar a Plataforma Digibee, atente-se aos requisitos mínimos de sistema, _hardware_ e _software_.
+Para poder utilizar a Digibee Integration Plaform, atente-se aos requisitos mínimos de sistema, _hardware_ e _software_.
 
 ### Processador <a href="#processador" id="processador"></a>
 

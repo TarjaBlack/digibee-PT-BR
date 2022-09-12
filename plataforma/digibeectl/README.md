@@ -6,7 +6,7 @@ description: Saiba como usar o digibeectl e seus comandos
 
 ## **Primeiros passos com o digibeectl** <a href="#h_c6f1522829" id="h_c6f1522829"></a>
 
-O digibeectl é uma aplicação que não somente expõe comandos para o gerenciamento dos seus _pipelines_, mas também viabiliza interações com as suas respectivas implantações em cada estágio na Plataforma Digibee. Aqui você saberá quais são os primeiros passos para manusear o digibeectl, incluindo o processo de instalação e a autenticação de usuários.
+O digibeectl é uma aplicação que não somente expõe comandos para o gerenciamento dos seus _pipelines_, mas também viabiliza interações com as suas respectivas implantações em cada estágio na Digibee Integration Plaform. Aqui você saberá quais são os primeiros passos para manusear o digibeectl, incluindo o processo de instalação e a autenticação de usuários.
 
 ## **Instalando o digibeectl** <a href="#h_e0e4d4a6f8" id="h_e0e4d4a6f8"></a>
 
@@ -28,7 +28,7 @@ Não suportado. Está em desenvolvimento.
 
 ## **Configurando o digibeectl** <a href="#h_05f438ac2a" id="h_05f438ac2a"></a>
 
-Para utilizar o digibeectl é necessário obter o arquivo de configurações através da Plataforma Digibee seguindo o passo a passo descrito [aqui](./#h\_05f438ac2a).
+Para utilizar o digibeectl é necessário obter o arquivo de configurações através da Digibee Integration Plaform seguindo o passo a passo descrito [aqui](./#h\_05f438ac2a).
 
 O digibeectl utiliza os comandos GET e SET para que você possa configurar o seu cliente sem dificuldades. As informações são salvas automaticamente em um arquivo de configuração, o qual é usado para comandos subsequentes.
 

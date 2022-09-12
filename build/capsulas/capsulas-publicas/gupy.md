@@ -10,7 +10,7 @@ Gupy é uma ferramenta de seleção e admissão de candidatos. Com a Gupy você 
 
 #### Pré requisitos Gerais <a href="#h_54bb08168f" id="h_54bb08168f"></a>
 
-Para utilizar as Cápsulas dos serviços Gupy, é necessário possuir um token de autorização, que deve estar cadastrado em uma _account_ do tipo ‘oauth-bearer’ na Plataforma Digibee.
+Para utilizar as Cápsulas dos serviços Gupy, é necessário possuir um token de autorização, que deve estar cadastrado em uma _account_ do tipo ‘oauth-bearer’ na Digibee Integration Plaform.
 
 #### **Cápsulas Gupy** <a href="#h_e04c742e16" id="h_e04c742e16"></a>
 

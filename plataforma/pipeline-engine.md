@@ -4,7 +4,7 @@ description: Conheça o motor de execução dos pipelines.
 
 # Pipeline Engine
 
-A Plataforma Digibee utiliza um motor que não somente interpreta os pipelines construídos através da interface, mas também os executa. Esse motor é chamado de _Pipeline Engine_.&#x20;
+A Digibee Integration Plaform utiliza um motor que não somente interpreta os pipelines construídos através da interface, mas também os executa. Esse motor é chamado de _Pipeline Engine_.&#x20;
 
 &#x20;              \
 Dê uma olhada nos conceitos e na arquitetura de operação do _Pipeline Engine_.         &#x20;
@@ -21,7 +21,7 @@ Tenha a visão em alto nível do Pipeline Engine em relação aos nossos demais 
 
 ### Arquitetura de Operação <a href="#arquitetura-de-operao" id="arquitetura-de-operao"></a>
 
-Cada fluxo (_pipeline_) criado é convertido em um container Docker, executado com a tecnologia Kubernetes - base da plataforma Digibee. Veja as principais garantias desse modelo de operação:
+Cada fluxo (_pipeline_) criado é convertido em um container Docker, executado com a tecnologia Kubernetes - base da Digibee Integration Plaform. Veja as principais garantias desse modelo de operação:
 
 * **isolamento:** cada container é executado na infraestrutura de maneira exclusiva (os espaços de memória e o consumo de CPU são completamente exclusivos para cada _pipeline_)
 * **segurança:** _pipelines_ NÃO conversam entre si, a não ser que seja através das interfaces providas pela nossa Plataforma

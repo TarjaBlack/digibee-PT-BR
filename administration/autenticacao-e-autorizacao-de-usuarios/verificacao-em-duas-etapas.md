@@ -8,7 +8,7 @@ description: >-
 
 ## Como habilito a Verificação em Duas Etapas? <a href="#como-habilito-a-verificao-em-duas-etapas" id="como-habilito-a-verificao-em-duas-etapas"></a>
 
-1\. Faça o login normalmente na plataforma Digibee com suas credenciais;
+1\. Faça o login normalmente na Digibee Integration Plaform com suas credenciais;
 
 2\. Acesse o menu de usuário, clicando sobre seu email no canto superior direito da plataforma;
 
@@ -20,7 +20,7 @@ description: >-
 
 5\. Escaneie o QRCode com o app de geração de código
 
-6\. O app irá gerar um código para a plataforma Digibee. Informe o código na tela Configurar autenticação e clique em "Ativar".
+6\. O app irá gerar um código para a Digibee Integration Plaform. Informe o código na tela Configurar autenticação e clique em "Ativar".
 
 A verificação em duas etapas está habilitada. Tenha seu smartphone sempre em mãos para validar seu próximo acesso.
 

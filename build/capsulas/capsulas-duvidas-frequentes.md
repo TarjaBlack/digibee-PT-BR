@@ -4,11 +4,11 @@ description: Tire suas dúvidas sobre as Cápsulas.
 
 # Cápsulas - Dúvidas Frequentes
 
-Para te ajudar a aproveitar ainda mais as Cápsulas, separamos as perguntas mais frequentes sobre esse novo recurso da Plataforma Digibee HIP.&#x20;
+Para te ajudar a aproveitar ainda mais as Cápsulas, separamos as perguntas mais frequentes sobre esse novo recurso da Digibee Integration Plaform HIP.&#x20;
 
 ### O que são Cápsulas?
 
-Cápsulas são uma nova e grande funcionalidade da Digibee, parte integrante da Plataforma Digibee HIP.
+Cápsulas são uma nova e grande funcionalidade da Digibee, parte integrante da Digibee Integration Plaform HIP.
 
 As **Cápsulas Digibee** são componentes reutilizáveis que podem ser utilizados ou criados por qualquer usuário da Plataforma ao aplicar o mesmo modelo de desenvolvimento visual concebido na criação do _pipeline_, provendo uma lógica de negócio reutilizável, segura, validada e evolutiva.
 
@@ -24,7 +24,7 @@ Pense, por exemplo, em uma organização onde existem diversos fluxos de dados r
 
 Tornar os fluxos de qualquer parte de um _pipeline_ mais acessíveis permite que você defina objetivos mais amplos para o negócio. Por isso, criamos essa funcionalidade que reúne fluxos e os torna reutilizáveis e auto documentados assim como os nossos componentes _core._ Assim, os fluxos se tornam mais fáceis de serem utilizados e ficam conhecidos por toda a sua organização, bastando consultar diretamente a paleta de componentes.
 
-As Cápsulas possuem os componentes _core_ da Plataforma Digibee HIP, ou seja, têm todas as funcionalidades entregues por eles.
+As Cápsulas possuem os componentes _core_ da Digibee Integration Plaform HIP, ou seja, têm todas as funcionalidades entregues por eles.
 
 
 
@@ -48,7 +48,7 @@ Por exemplo, um banco pode utilizar uma Cápsula de microcrédito já pronta par
 
 ### A Cápsula é segura para compartilhar os meus dados sensíveis?&#x20;
 
-Sim. As Cápsulas e a Plataforma Digibee possuem uma série de recursos para proteger os seus dados em trânsito e em repouso quando estão sob a nossa responsabilidade.
+Sim. As Cápsulas e a Digibee Integration Plaform possuem uma série de recursos para proteger os seus dados em trânsito e em repouso quando estão sob a nossa responsabilidade.
 
 Por serem incorporadas dentro do _pipeline_ de uma organização, as Cápsulas são executadas isoladamente, mesmo dentro da sua própria organizaçã
 
@@ -56,7 +56,7 @@ Por serem incorporadas dentro do _pipeline_ de uma organização, as Cápsulas s
 
 ### As Cápsulas são compatíveis com a demanda de informação do meu legado?&#x20;
 
-Sim. As Cápsulas são construídas a partir dos componentes _core_ da Plataforma Digibee HIP, que são utilizados nos _pipelines_. É neles que todas as suas funcionalidades ficam registradas.
+Sim. As Cápsulas são construídas a partir dos componentes _core_ da Digibee Integration Plaform HIP, que são utilizados nos _pipelines_. É neles que todas as suas funcionalidades ficam registradas.
 
 ### As Cápsulas ajudam na migração de sistemas para nuvem?&#x20;
 
@@ -106,7 +106,7 @@ As Cápsulas criadas pela Digibee são identificadas por meio do ícone _Certifi
 
 ### **Quais são as diferenças entre as Cápsulas e as Bibliotecas?**
 
-As Bibliotecas foram uma versão experimental criada pela Digibee para aprender sobre reutilização utilizando a Plataforma Digibee HIP.
+As Bibliotecas foram uma versão experimental criada pela Digibee para aprender sobre reutilização utilizando a Digibee Integration Plaform HIP.
 
 As Cápsulas contemplam todos os aprendizados coletados na experiência com as bibliotecas e estão disponíveis nos modos de:
 
@@ -132,7 +132,7 @@ Sim. As Cápsulas ficam restritas a cada empresa que as estiver utilizando.
 
 ### **Como funciona o versionamento e a manutenção das Cápsulas? Como eu posso garantir que o meu negócio não será afetado?**
 
-Para garantir confiabilidade nas atualizações das Cápsulas, a Digibee adotou um controle de versionamento composto por 3 níveis. Quando as versões precisam ser atualizadas, a Plataforma Digibee HIP analisa uma Cápsula automaticamente e determina quais serão os valores dos níveis.
+Para garantir confiabilidade nas atualizações das Cápsulas, a Digibee adotou um controle de versionamento composto por 3 níveis. Quando as versões precisam ser atualizadas, a Digibee Integration Plaform HIP analisa uma Cápsula automaticamente e determina quais serão os valores dos níveis.
 
 Estes são os 3 níveis de versionamento:
 
@@ -146,7 +146,7 @@ Após a publicação da Cápsula, a versão “1.0.0” será definida como não
 
 ### &#x20;**Como funciona o processo de atualização das Cápsulas nos meus **_**pipelines**_**?**&#x20;
 
-A Plataforma Digibee nunca realiza alterações diretas na estrutura ou informação de _pipelines_ implantados. Com isso, jamais afetamos um _pipeline_ sem que um usuário autorizado na sua organização faça uma nova implantação.
+A Digibee Integration Plaform nunca realiza alterações diretas na estrutura ou informação de _pipelines_ implantados. Com isso, jamais afetamos um _pipeline_ sem que um usuário autorizado na sua organização faça uma nova implantação.
 
 Como precisamos ajudar na distribuição simplificada das Cápsulas, adotamos a seguinte estratégia:
 
@@ -172,7 +172,7 @@ Ao concluir a construção de uma Cápsula, é preciso publicá-la para que se t
 
 ### **Existe um processo de governança para as Cápsulas da Digibee?**
 
-Sim. Todos os componentes abertos passam pelos processos de qualidade e segurança que garantem os mesmos padrões aplicados nos componentes _core_ da Plataforma Digibee HIP.
+Sim. Todos os componentes abertos passam pelos processos de qualidade e segurança que garantem os mesmos padrões aplicados nos componentes _core_ da Digibee Integration Plaform HIP.
 
 ### **Como eu controlo o acesso às Cápsulas dentro da minha organização?**
 

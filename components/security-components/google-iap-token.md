@@ -12,7 +12,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Private Key:** Chave para o _account_ com o _private key_ do _Google service account._
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado da propriedade _success_ será _false_ na saída do componente.
 
-**IMPORTANTE:** Para gerar o token, é necessário criar um _service account_ no Google Cloud e utilizar a _private key_ para configurar um Account na plataforma Digibee.
+**IMPORTANTE:** Para gerar o token, é necessário criar um _service account_ no Google Cloud e utilizar a _private key_ para configurar um Account na Digibee Integration Plaform.
 
 ## Fluxo de mensagens <a href="#h_c8faba169d" id="h_c8faba169d"></a>
 

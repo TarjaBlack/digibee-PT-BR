@@ -1,10 +1,10 @@
 ---
-description: Conheça a funcionalidade de auditoria da Plataforma Digibee
+description: Conheça a funcionalidade de auditoria da Digibee Integration Plaform
 ---
 
 # Auditoria
 
-Para auxiliar na governança e no mapeamento de ações, toda e qualquer operação realizada dentro da Plataforma Digibee é armazenada em segurança e apresentada no submenu Auditoria, localizado na página de Administração da Plataforma.
+Para auxiliar na governança e no mapeamento de ações, toda e qualquer operação realizada dentro da Digibee Integration Plaform é armazenada em segurança e apresentada no submenu Auditoria, localizado na página de Administração da Plataforma.
 
 ## Seletor de Período <a href="#h_e3f6a0edc4" id="h_e3f6a0edc4"></a>
 

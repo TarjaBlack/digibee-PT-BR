@@ -44,7 +44,7 @@ Assim como o __ SAP GUI, as Cápsulas precisam das informações de conexão par
 
 **4) Credenciais**
 
-Tanto o usuário quanto a senha para acesso ao SAP devem estar cadastrados na Plataforma Digibee. Deve ser utilizada uma conta do tipo “Basic”.
+Tanto o usuário quanto a senha para acesso ao SAP devem estar cadastrados na Digibee Integration Plaform. Deve ser utilizada uma conta do tipo “Basic”.
 
 ### Cápsulas SAP <a href="#h_3121b2fcb2" id="h_3121b2fcb2"></a>
 

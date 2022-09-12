@@ -4,7 +4,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # Digibee JWT
 
-O **Digibee JWT** gera e decodifica _tokens_ JWT para uso interno na Plataforma Digibee. Em outras palavras, o _token_ gerado por esse componente serve para as comunicações que ocorrem entre _pipelines_ configurados com o _REST Trigger_ ou HTTP Trigger e seus derivados - desde que as autenticações do tipo JWT sejam configuradas.
+O **Digibee JWT** gera e decodifica _tokens_ JWT para uso interno na Digibee Integration Plaform. Em outras palavras, o _token_ gerado por esse componente serve para as comunicações que ocorrem entre _pipelines_ configurados com o _REST Trigger_ ou HTTP Trigger e seus derivados - desde que as autenticações do tipo JWT sejam configuradas.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 

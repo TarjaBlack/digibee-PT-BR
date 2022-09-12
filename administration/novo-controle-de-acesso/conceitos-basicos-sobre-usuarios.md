@@ -4,7 +4,7 @@ description: Entenda mais sobre usuários e a gestão de acesso.
 
 # Conceitos básicos sobre Usuários
 
-Um usuário da Plataforma Digibee pode operar a plataforma e suas funcionalidades com base na estrutura de controle de acesso ao qual ele está vinculado, ou seja, os grupos a que o usuário pertence.
+Um usuário da Digibee Integration Plaform pode operar a plataforma e suas funcionalidades com base na estrutura de controle de acesso ao qual ele está vinculado, ou seja, os grupos a que o usuário pertence.
 
 ## Antes de começar: <a href="#h_9cf2e7ba37" id="h_9cf2e7ba37"></a>
 
@@ -16,7 +16,7 @@ Leia o seguinte artigo e conheça mais sobre o Novo Controle de Acesso:
 
 Para criar um usuário siga os seguintes passos:
 
-1. Faça login na Plataforma Digibee;
+1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Usuários”;
 
@@ -40,7 +40,7 @@ Para criar um usuário siga os seguintes passos:
 
 Para editar um usuário siga os seguintes passos:
 
-1. Faça login na Plataforma Digibee;
+1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Usuários”;
 4. Busque o usuário na barra de pesquisa;
@@ -63,7 +63,7 @@ Para editar um usuário siga os seguintes passos:
 
 Para arquivar um usuário siga os seguintes passos:
 
-1. Faça login na Plataforma Digibee;
+1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Usuários”;
 4.  Busque o usuário na barra de pesquisa;

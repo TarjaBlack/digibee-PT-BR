@@ -1,5 +1,5 @@
 ---
-description: Conheça a funcionalidade multi-instância da Plataforma Digibee
+description: Conheça a funcionalidade multi-instância da Digibee Integration Plaform
 ---
 
 # Multi-Instância
@@ -27,13 +27,13 @@ Assim, você estará aplicando uma estratégia que utiliza de datas específicas
 
 Além do caso de uso acima, você consegue utilizar um _pipeline_ multi-instância para executar uma consulta idêntica em bancos de dados instalados em ambientes diferentes.
 
-Também é possível publicar _pipelines_ em dois ambientes diferentes. Para isso, basta publicar um _pipeline_ multi-instância no ambiente _test_ da Plataforma Digibee e configurá-lo para reportar a dois dos seus ambientes, por exemplo, _QA_ e _test_. Assim, teríamos duas publicações em _test_ reportando para dois ambientes.
+Também é possível publicar _pipelines_ em dois ambientes diferentes. Para isso, basta publicar um _pipeline_ multi-instância no ambiente _test_ da Digibee Integration Plaform e configurá-lo para reportar a dois dos seus ambientes, por exemplo, _QA_ e _test_. Assim, teríamos duas publicações em _test_ reportando para dois ambientes.
 
 ### Visão geral <a href="#h_ad75aa73e6" id="h_ad75aa73e6"></a>
 
 ![](<../.gitbook/assets/01 (7).png>)
 
-Localizado na página de configurações da Plataforma Digibee, a página Multi-instância disponibiliza a listagem de todos os modelos de multi-instância já criados dentro da Plataforma e seus respectivos parâmetros de configuração. São eles:
+Localizado na página de configurações da Digibee Integration Plaform, a página Multi-instância disponibiliza a listagem de todos os modelos de multi-instância já criados dentro da Plataforma e seus respectivos parâmetros de configuração. São eles:
 
 * **Nome:** nome do modelo de multi-instância;
 * **Descrição:** descrição do modelo de multi-instância;

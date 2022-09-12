@@ -34,7 +34,7 @@ Durante o 3º trimestre, o time Build vai explorar mais regras a serem implement
 
 ## Platform Governance: <a href="#h_ec65e1f7bc" id="h_ec65e1f7bc"></a>
 
-O time Platform Governance é responsável pelo escopo de Gestão de Identidade e Acessos na Plataforma Digibee.
+O time Platform Governance é responsável pelo escopo de Gestão de Identidade e Acessos na Digibee Integration Plaform.
 
 Nosso objetivo para o 3º trimestre é aumentar a confiança do gestor de acesso ao realizar o gerenciamento de identidade e acessos para _realms_ integrados a um provedor de identidade.
 
@@ -46,7 +46,7 @@ Destacamos as seguintes _features_ a serem lançadas em Q3/22:
 
 ## Components <a href="#h_74fef86296" id="h_74fef86296"></a>
 
-O time Components é responsável por criar e atualizar _Triggers_ e Componentes da Plataforma Digibee.
+O time Components é responsável por criar e atualizar _Triggers_ e Componentes da Digibee Integration Plaform.
 
 Destacamos as seguintes _features_ a serem lançadas em Q3/22:
 
@@ -66,7 +66,7 @@ Destacamos as seguintes _features_ a serem lançadas em Q3/22:
 
 ## Monitor <a href="#h_981328b301" id="h_981328b301"></a>
 
-O time Monitor é responsável por criar a melhor experiência de Monitoramento e _Troubleshooting_ na Plataforma Digibee.
+O time Monitor é responsável por criar a melhor experiência de Monitoramento e _Troubleshooting_ na Digibee Integration Plaform.
 
 Destacamos as seguintes _features_ a serem lançadas em Q3/22:
 

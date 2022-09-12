@@ -1,5 +1,5 @@
 ---
-description: Saiba mais sobre o Intellisense da Plataforma Digibee
+description: Saiba mais sobre o Intellisense da Digibee Integration Plaform
 ---
 
 # Intellisense

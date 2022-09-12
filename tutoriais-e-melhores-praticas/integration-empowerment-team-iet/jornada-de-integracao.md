@@ -1,12 +1,12 @@
 ---
-description: Passo-a-passo para integração de sistemas com a Plataforma Digibee.
+description: Passo-a-passo para integração de sistemas com a Digibee Integration Plaform.
 ---
 
 # Jornada de Integração
 
 ![](<../../.gitbook/assets/img1 (2).png>)
 
-O processo de integração de sistemas com a plataforma Digibee é bastante simples. Basta envolvermos as equipes corretas e seguirmos os passos descritos abaixo.&#x20;
+O processo de integração de sistemas com a Digibee Integration Plaform é bastante simples. Basta envolvermos as equipes corretas e seguirmos os passos descritos abaixo.&#x20;
 
 **1. AMBIENTES**
 

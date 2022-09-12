@@ -43,7 +43,7 @@ Para saber como utilizar essas novas funções condicionais, clique [aqui](https
 
 ### INTERFACE GRÁFICA <a href="#interface-grfica" id="interface-grfica"></a>
 
-Estamos sempre investindo na melhoria da experiência visual da Plataforma Digibee.
+Estamos sempre investindo na melhoria da experiência visual da Digibee Integration Plaform.
 
 Desta vez, criamos ícones e formas para facilitar a identificação dos componentes:
 
@@ -290,7 +290,7 @@ Nós também solucionamos alguns _bugs_:
 * **Versões minor:** _pipelines_ arquivados não são mais mostrados indevidamente na tela de _deployment_.
 * **Input number:** agora o componente do tipo “input number” está com fonte e altura corretas.
 * **Scroll:** a barra de _scroll_ já está disponível na tela de configuração de _pipelines_.
-* **Resolução de tela:** a resolução mínima foi ajustada para 1280 x 720 px nos [requisitos mínimos de sistema](https://docs.digibee.com/documentation/v/pt-br/plataforma/requisitos-de-sistema) da Plataforma Digibee.
+* **Resolução de tela:** a resolução mínima foi ajustada para 1280 x 720 px nos [requisitos mínimos de sistema](https://docs.digibee.com/documentation/v/pt-br/plataforma/requisitos-de-sistema) da Digibee Integration Plaform.
 * **Log:** corrigimos a falha que deixava a tela branca quando a sequência _log - detalhes - mensagens_ era clicada.
 * **Re-execução de pipeline:** corrigimos o problema que impedia a re-execução do _pipeline_ a partir do _log_.
 
@@ -308,7 +308,7 @@ Nós também solucionamos alguns _bugs_:
 
 #### INTERFACE GRÁFICA <a href="#interface-grfica" id="interface-grfica"></a>
 
-Estamos sempre investindo na melhoria da experiência visual da Plataforma Digibee.
+Estamos sempre investindo na melhoria da experiência visual da Digibee Integration Plaform.
 
 Desta vez, você vai ver as alterações nas telas de:
 
@@ -368,7 +368,7 @@ Adicionamos a possibilidade de restaurar permissões removidas de usuários.
 
 #### INTERFACE GRÁFICA <a href="#interface-grfica" id="interface-grfica"></a>
 
-Estamos sempre investindo na melhoria da experiência visual da Plataforma Digibee.
+Estamos sempre investindo na melhoria da experiência visual da Digibee Integration Plaform.
 
 Desta vez, você vai ver as alterações:
 
@@ -464,7 +464,7 @@ Gostaríamos de compartilhar algumas melhorias e novidades:\
 
 #### INTERFACE GRÁFICA <a href="#interface-grfica" id="interface-grfica"></a>
 
-Estamos sempre investindo na melhoria da experiência visual da Plataforma Digibee.
+Estamos sempre investindo na melhoria da experiência visual da Digibee Integration Plaform.
 
 Desta vez, você vai ver as alterações em:
 

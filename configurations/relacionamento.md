@@ -1,12 +1,12 @@
 ---
-description: Conheça a funcionalidade Relacionamento da Plataforma Digibee
+description: Conheça a funcionalidade Relacionamento da Digibee Integration Plaform
 ---
 
 # Relacionamento
 
 A funcionalidade Relacionamento, baseada no conceito de Modelagem Relacional de Dados, permite criar modelos de relacionamento entre entidades com base em diferentes tipos de relações, que poderão ser utilizados posteriormente na construção de _pipelines_ através do [componente Relationship](../components/structured-data/relationship.md).
 
-Localizado na página de configurações da Plataforma Digibee, o submenu Relacionamento disponibiliza a listagem de todos os modelos de relacionamento já criados dentro da Plataforma com seus parâmetros de configuração. Além disso, também é possível editar e excluir Relacionamentos existentes, assim como consultar dados de entidades relacionadas através de ações, conforme explicado neste artigo.
+Localizado na página de configurações da Digibee Integration Plaform, o submenu Relacionamento disponibiliza a listagem de todos os modelos de relacionamento já criados dentro da Plataforma com seus parâmetros de configuração. Além disso, também é possível editar e excluir Relacionamentos existentes, assim como consultar dados de entidades relacionadas através de ações, conforme explicado neste artigo.
 
 ![](<../.gitbook/assets/01 (21).png>)
 

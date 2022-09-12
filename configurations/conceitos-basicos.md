@@ -1,5 +1,5 @@
 ---
-description: Conheça a funcionalidade de variáveis globais da Plataforma Digibee.
+description: Conheça a funcionalidade de variáveis globais da Digibee Integration Plaform.
 ---
 
 # Globals
@@ -12,7 +12,7 @@ A manutibilidade também é facilitada, permitindo alterar os parâmetros utiliz
 
 Para criar uma _global,_ siga os seguintes passos:
 
-1. Faça login na Plataforma Digibee;
+1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção de menu “_Globals_”;
 
@@ -43,7 +43,7 @@ Caso necessite armazenar dados criptografados utilize [**Accounts.**](contas-acc
 
 Para editar uma _global,_ siga os seguintes passos:
 
-1. Faça login na Plataforma Digibee;
+1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção de menu “_Globals_”;
 4. Busque a _global_ na barra de pesquisa;
@@ -62,7 +62,7 @@ Após realizar estes passos, a _global_ será editada com sucesso.
 
 Para remover uma _global,_ siga os seguintes passos:
 
-1. Faça login na Plataforma Digibee;
+1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção de menu “_Globals_”;
 
