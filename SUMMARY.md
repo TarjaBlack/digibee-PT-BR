@@ -26,7 +26,7 @@
   * [Subpipelines](build/pipelines/subpipelines.md)
   * [Histórico de versões de pipelines](build/pipelines/historico-de-versoes-de-pipelines.md)
   * [Processamento de mensagens](build/pipelines/processamento-de-mensagens.md)
-  * [Validação de construção do pipeline](build/pipelines/validacao-de-construcao-do-pipeline.md)
+  * [Validação de construção do pipeline (Beta restrito)](build/pipelines/validacao-de-construcao-do-pipeline.md)
 * [Cápsulas](build/capsulas/README.md)
   * [Criação de Coleções de Cápsulas](build/capsulas/criacao-de-colecoes-de-capsulas.md)
   * [Criando uma Cápsula](build/capsulas/criando-uma-capsula.md)
@@ -110,7 +110,7 @@
 
 * [Triggers](components/triggers/README.md)
   * [Email Trigger V2](components/triggers/email-trigger-v2.md)
-  * [Email Trigger ](components/triggers/email-trigger.md)
+  * [Email Trigger](components/triggers/email-trigger.md)
   * [Event Trigger](components/triggers/event-trigger.md)
   * [HTTP File Trigger](components/triggers/http-file-trigger/README.md)
     * [HTTP File Trigger - Downloads](components/triggers/http-file-trigger/http-file-trigger-downloads.md)
