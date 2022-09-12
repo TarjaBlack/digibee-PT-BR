@@ -20,13 +20,13 @@ O novo layout foi pensado para representar o ciclo de construção de integraç�
 
 As telas de Configuração e Administração são acessadas através do ícone de "Administração":
 
-![](<../.gitbook/assets/03 (14).png>)
+![](<../.gitbook/assets/03 (14) (3).png>)
 
 ![](<../.gitbook/assets/04 (5).png>)
 
 ![](<../.gitbook/assets/05 (10).png>)
 
-![](<../.gitbook/assets/06 (3).png>)
+![](<../.gitbook/assets/06 (3) (1).png>)
 
 Você encontrará estruturas fixas que ajudam nas tarefas mais comuns:
 

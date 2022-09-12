@@ -59,7 +59,7 @@ Não é necessário especificar o intervalo de colunas. No entanto, é preciso i
 
 _Array_ passado para a Cápsula por meio de expressões _Double Braces_.
 
-![](<../../../.gitbook/assets/01 (16).png>)
+![](<../../../.gitbook/assets/01 (14).png>)
 
 {% hint style="info" %}
 **IMPORTANTE:** a Cápsula “Append Data” possui características que impossibilitam a escrita de dados na mesma página da sua planilha. Em caso de escritas realizadas simultaneamente, os dados podem ser sobrescritos pelas requisições. Não utilize em fluxos que permitam o paralelismo.

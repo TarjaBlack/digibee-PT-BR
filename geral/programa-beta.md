@@ -31,7 +31,7 @@ Para utilização de funcionalidade em beta, você deve:
 
 A Plataforma já possui um canal para que os usuários enviem _feedbacks_. Veja:
 
-![](<../.gitbook/assets/01 (13).png>)
+![](../.gitbook/assets/maio\_05.png)
 
 Você deve encaminhar todas as suas sugestões, elogios, reclamações e comentários por meio desse canal. Dessa forma, os seus _feedbacks_ são encaminhados para a equipe responsável, que se encarrega de fazer ajustes e melhorias.
 

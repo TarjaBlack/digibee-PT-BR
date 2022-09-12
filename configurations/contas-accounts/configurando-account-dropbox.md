@@ -13,7 +13,7 @@ Clique em "Create app", selecione um dos tipos de API, um dos tipos de acesso e 
 
 ![](<../../.gitbook/assets/01 (19).png>)
 
-![](<../../.gitbook/assets/02 (2).png>)
+![](<../../.gitbook/assets/02 (4).png>)
 
 Feito isso, ao clicar em "Create app" você será redirecionado à página de configurações do seu novo app:
 

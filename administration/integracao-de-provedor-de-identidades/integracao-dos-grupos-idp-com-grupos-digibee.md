@@ -44,26 +44,22 @@ Para criar uma integração, siga os seguintes passos:
 
 <figure><img src="../../.gitbook/assets/Imagem 4 (2).png" alt=""><figcaption></figcaption></figure>
 
-6\. **** Um formulário solicitando a seguintes informações será exibido:
+6\. \*\*\*\* Um formulário solicitando a seguintes informações será exibido:
 
 * **Nome:** nome desejado para a integração.
 * **SAML Scheme:** esquema de organização do seu provedor de identidade.
 * **Código ID do provedor de identidade:** código identificador do grupo no provedor de identidade.
 * **Grupo Digibee:** grupo da Plataforma que será integrado.
 
-
-
-Caso seja selecionado “**Custom Scheme**” no campo SAML Scheme, um novo campo será exibido:                                                                                                                                                                                                    &#x20;
+Caso seja selecionado “**Custom Scheme**” no campo SAML Scheme, um novo campo será exibido:
 
 * **Xpath:** caminho do XML para obter os IDs do grupo do provedor de identidade.
 
-
-
 **Nota:** caso seu provedor de identidade seja apresentado na listagem de SAML Scheme, não é necessário localizar o XPath.
 
-7\. Após preencher os campos, clique em **“SALVAR”**  no canto inferior direito.
+7\. Após preencher os campos, clique em **“SALVAR”** no canto inferior direito.
 
-8\. Uma caixa de  diálogo de confirmação aparecerá.Digite uma breve explicação da integração que foi criada. Esta informação será adicionada no Registro de Auditoria da Plataforma.
+8\. Uma caixa de diálogo de confirmação aparecerá.Digite uma breve explicação da integração que foi criada. Esta informação será adicionada no Registro de Auditoria da Plataforma.
 
 9\. Clique em **“CRIAR INTEGRAÇÃO”**
 
@@ -78,7 +74,7 @@ Para editar uma integração, siga os seguintes passos:
 
     **Nota:** É possível buscar a integração por qualquer atributo da integração (nome, código, ID, grupo Digibee, ou SAML)
 
-<figure><img src="../../.gitbook/assets/Imagem 5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 5 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Clique no ícone de lápis (“Editar integração”);
 
@@ -86,7 +82,7 @@ Para editar uma integração, siga os seguintes passos:
 
 4\. Faça as alterações desejadas.
 
-5\. Após realizar as alterações clique em **“SALVAR"**  no canto inferior direito.
+5\. Após realizar as alterações clique em **“SALVAR"** no canto inferior direito.
 
 6\. Uma caixa de diálogo de confirmação aparecerá. Digite uma breve explicação do que foi editado. Esta informação será adicionada no Registro de Auditoria da Plataforma.
 
@@ -107,7 +103,7 @@ Para arquivar uma integração siga os seguintes passos:
 
 **Nota:** É possível buscar a integração por qualquer atributo da integração (nome, código, ID, grupo Digibee, ou SAML)
 
-3**.** Clique no ícone de **“**Arquivar integração**”;**
+3\*\*.\*\* Clique no ícone de **“Arquivar integração”;**
 
 <figure><img src="../../.gitbook/assets/imagem 8.png" alt=""><figcaption></figcaption></figure>
 

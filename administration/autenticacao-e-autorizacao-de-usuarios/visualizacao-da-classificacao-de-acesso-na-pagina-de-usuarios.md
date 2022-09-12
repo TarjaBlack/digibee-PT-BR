@@ -26,13 +26,13 @@ Já a coluna de **Autorização**, sinaliza as características de autorização
 * **Não pertence a nenhum grupo IdP:**  usuário não está contido em nenhum grupo do provedor de identidade ou se houve falha na configuração da Integração de Grupos
 * **Autorização não definida:** não foi identificado nenhum login por parte do usuário**.**
 
-<figure><img src="../../.gitbook/assets/Design sem nome (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Design sem nome (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 Além disso, ao clicar em **Editar** o usuário a plataforma também exibe outras informações:
 
 **Para um usuário que faz login via IdP:**
 
-<figure><img src="../../.gitbook/assets/Users_List_Sidesheet (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Users_List_Sidesheet.png" alt=""><figcaption></figcaption></figure>
 
 * **Alerta:** o Gestor de Acesso que quiser editar grupos de um usuário que tenha feito login via IdP só poderá fazer essas alterações via provedor de identidade ou alterando o mapeamento dos grupos na área de Integração de Grupos.
 

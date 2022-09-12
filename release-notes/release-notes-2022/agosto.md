@@ -80,13 +80,13 @@ Visando melhorar nossa documentação, criamos o artigo abaixo:
 
 Criamos uma funcionalidade que permite que um usuário com permissão de apenas leitura tenha acesso à visualização de detalhes na página de Contas ao clicar no ícone de olho.
 
-![](<../../.gitbook/assets/rn (2).png>)
+![](<../../.gitbook/assets/rn (1).png>)
 
 #### **CHAVES DE API** <a href="#h_4e1196e031" id="h_4e1196e031"></a>
 
 Criamos uma funcionalidade que permite que um usuário com permissão de apenas leitura tenha acesso à visualização de detalhes na página de Chaves de API ao clicar no ícone de olho.
 
-![](<../../.gitbook/assets/rn2 (1).png>)
+![](../../.gitbook/assets/rn2.png)
 
 #### **DOCUMENTAÇÃO** <a href="#h_28bc8c5457" id="h_28bc8c5457"></a>
 

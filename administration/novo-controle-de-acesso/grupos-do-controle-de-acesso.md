@@ -28,7 +28,7 @@ Para criar um grupo, siga os passos a seguir:
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 
-![](<../../.gitbook/assets/Imagem 1 (1).png>)
+![](<../../.gitbook/assets/Imagem 1 (1) (4).png>)
 
 4\. Clique no botão **+ CRIAR** no canto superior direito;
 
@@ -70,7 +70,7 @@ Para editar um grupo, siga os passos a seguir:
 
 4\. Procure o grupo desejado na barra de pesquisa;
 
-![](<../../.gitbook/assets/Imagem 7 (1).png>)
+![](<../../.gitbook/assets/Imagem 7 (1) (2).png>)
 
 5\. Clique em “Editar”;
 

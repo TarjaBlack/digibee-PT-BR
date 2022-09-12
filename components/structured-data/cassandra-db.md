@@ -22,7 +22,7 @@ O CQL (Cassandra Query Language), como já diz o nome, é a linguagem de consult
 
 ### Operação _INSERT_
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.34.40 (1) (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.34.40 (1) (2).png>)
 
 ### Saída&#x20;
 
@@ -34,7 +34,7 @@ O CQL (Cassandra Query Language), como já diz o nome, é a linguagem de consult
 
 ### **Operação **_**UPDATE**_
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.00 (1) (2).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.00 (1) (1) (1).png>)
 
 ### Saída
 
@@ -46,7 +46,7 @@ O CQL (Cassandra Query Language), como já diz o nome, é a linguagem de consult
 
 ### Operação _SELECT_
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.21 (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.21 (1) (1).png>)
 
 ### **Saída**
 
@@ -64,7 +64,7 @@ O CQL (Cassandra Query Language), como já diz o nome, é a linguagem de consult
 
 ### Operação _DELETE_
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.39.07 (1) (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.39.07 (1).png>)
 
 ### Saída
 
@@ -78,4 +78,4 @@ O CQL (Cassandra Query Language), como já diz o nome, é a linguagem de consult
 
 ### Opção _Advanced_
 
-![](../../.gitbook/assets/Screenshot\_1.png)
+![](<../../.gitbook/assets/Screenshot\_1 (1).png>)

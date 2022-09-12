@@ -12,7 +12,7 @@ Você pode selecionar o ambiente desejado no canto superior esquerdo. O históri
 
 Quando você seleciona um ambiente, a página inteira atualiza e mostra os dados correspondentes.
 
-![](<../.gitbook/assets/seletordeambiente (1).png>)
+![](<../.gitbook/assets/seletordeambiente (2).png>)
 
 ## Campos de Busca <a href="#h_00048f8780" id="h_00048f8780"></a>
 

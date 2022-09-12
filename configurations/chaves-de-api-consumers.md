@@ -24,7 +24,7 @@ Chaves de API são credenciais de acesso fornecidas para consultas em pipelines 
 
 4\. Defina um nome e uma descrição para a chave de API e, na sequência, clique em ![](<../.gitbook/assets/image5 (1).png>) para associar _pipelines_.
 
-<figure><img src="../.gitbook/assets/image1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image1 (1).png" alt=""><figcaption></figcaption></figure>
 
 5\. Selecione o projeto e os _pipelines_ que utilizarão essa autenticação. Confirme a configuração.
 
@@ -49,8 +49,8 @@ Ao clicar em Editar (![](<../.gitbook/assets/image7 (1).png>)), é possível:
 
 1\. chave deverá ser enviada no _header_, com o parâmetro "apikey", e seu respectivo valor. Informe também o Content-Type esperado pelo pipeline (_exemplo: application/json):_
 
-<figure><img src="../.gitbook/assets/image5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/04 (8).png" alt=""><figcaption></figcaption></figure>
 
 2\. Caso não seja possível alterar o _header_ da chamada no sistema legado, outra opção é incluir a chave de API como parâmetro de chamada na URL. Esta, porém, não é uma opção segura para serviços expostos. Neste caso, garanta que apenas o serviço autorizado poderá chamar a API exposta pela Digibee (controle de _consumers_).
 
-<figure><img src="../.gitbook/assets/image9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/05 (1).png" alt=""><figcaption></figcaption></figure>

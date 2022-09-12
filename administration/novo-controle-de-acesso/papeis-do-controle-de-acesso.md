@@ -25,7 +25,7 @@ Para criar um papel siga os seguintes passos:
 2. Clique no ícone de “Administração”
 3. Entre na opção do menu “Papéis”.
 
-![](<../../.gitbook/assets/Imagem 1 (9).png>)
+![](<../../.gitbook/assets/Imagem 1 (9) (1).png>)
 
 4\. Clique no botão **+ CRIAR** no canto superior direito.
 
@@ -70,11 +70,9 @@ Para editar um papel siga os seguintes passos:
 
 ![](<../../.gitbook/assets/Imagem 5 (4).png>)
 
-
-
 8\. Após realizar as alterações, clique em **SALVAR.**
 
-****
+***
 
 ## Como arquivar um papel <a href="#h_5511fe06e1" id="h_5511fe06e1"></a>
 
@@ -87,7 +85,7 @@ Para arquivar um papel siga os seguintes passos:
 
 ![](<../../.gitbook/assets/Imagem 6 (7).png>)
 
-5\.  Clique em “Arquivar”;
+5\. Clique em “Arquivar”;
 
 6\. Uma tela solicitando uma justificativa da arquivação aparecerá. Após digitar, clique em **CONFIRMAR**;
 
@@ -95,11 +93,11 @@ Para arquivar um papel siga os seguintes passos:
 
 ## Perguntas frequentes <a href="#h_f4c0b05002" id="h_f4c0b05002"></a>
 
-1.  ### Quem pode criar novos papéis? <a href="#h_17bc6286e4" id="h_17bc6286e4"></a>
+1.  #### Quem pode criar novos papéis? <a href="#h_17bc6286e4" id="h_17bc6286e4"></a>
 
     Com o novo Controle de Acesso, teremos novos recursos que não existiam na plataforma, entre eles: Grupos e Papéis. Para liberar acesso a estes novos recursos, durante a implantação, todos os usuários que tiverem a permissão USER:CREATE e USER:UPDATE no antigo modelo, receberão automaticamente as novas permissões para criar grupos e papéis no modelo antigo.
 
     Recomenda-se associar os usuários aos grupos padrões ou criar novos grupos e papéis onde os usuários terão um acesso adequado no novo modelo. Após a validação do novo modelo, o administrador do realm deve desligar o modelo antigo.
-2. ### Como eu devo utilizar os papéis pré-definidos da Plataforma? <a href="#h_776475740c" id="h_776475740c"></a>
+2. #### Como eu devo utilizar os papéis pré-definidos da Plataforma? <a href="#h_776475740c" id="h_776475740c"></a>
 
 O sistema já traz alguns papéis pré-definidos para facilitar a criação de grupos, com esses papéis pré-definidos ou a criação de novos papéis a partir da sua cópia. Para maiores detalhes, consulte o documento sobre [Papéis de sistemas e grupos padrão.](https://intercom.help/godigibee/pt-BR/articles/5811758-papeis-de-sistema-e-grupos-padrao)

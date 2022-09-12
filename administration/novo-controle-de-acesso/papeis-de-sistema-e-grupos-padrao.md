@@ -98,4 +98,4 @@ Acesse a tela de Grupos, selecione um grupo padrão e associe os usuários. Os g
 
 Gostaríamos de saber quais são os seus comentários e sugestões sobre essa funcionalidade. Veja como é fácil enviar o seu feedback:
 
-![](../../.gitbook/assets/Gif.gif)
+![](<../../.gitbook/assets/8 - Gif - feeback.gif>)

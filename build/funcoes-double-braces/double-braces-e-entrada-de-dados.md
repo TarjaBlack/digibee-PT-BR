@@ -136,7 +136,7 @@ No exemplo acima, \<account label key> é o local onde deve ser informada a chav
 
 Hoje somente 2 conectores suportam esse tipo de expressão: _**REST V2**_ e _**Soap V2**_. Isso acontece porque o acesso ao cofre deve ser feito com segurança, evitando o vazamento de credenciais. Os componentes foram preparados para isso e restringem o acesso ao cofre de credenciais em apenas 2 propriedades configuráveis - “body” e "headers".
 
-![](<../../.gitbook/assets/05 (6).png>)
+![](<../../.gitbook/assets/05 (11).png>)
 
 No exemplo acima, o REST V2 adiciona 2 novos _accounts_ configuráveis, denominados “Custom Account #1” e “Custom Account #2”. Eles podem ser acessados através dos _account label keys_ "custom-1" e "custom-2". Dessa maneira, a expressão com _Double Braces_ para acessar o campo “username” dentro da credencial informada em “Custom 1” é:
 

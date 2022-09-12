@@ -18,13 +18,13 @@ Depois, escolha um pipeline na barra de busca e selecione o período desejado pa
 
 ### Execuções de pipeline por segundo (eps)
 
-![](../.gitbook/assets/executionspersecond.png)
+![](<../.gitbook/assets/image (4).png>)
 
 Esse gráfico mostra o número médio de execuções por segundo, em diversos intervalos de tempo durante o período de tempo selecionado, para todas as réplicas.
 
 ### Tempo de resposta do pipeline (ms)
 
-![](../.gitbook/assets/responsetime.png)
+![](<../.gitbook/assets/image (3).png>)
 
 Esse gráfico mostra o tempo médio (em milissegundos) decorridos para que o pipeline gerasse uma resposta, em diversos intervalos de tempo durante o período de tempo selecionado, para todas as réplicas.
 
@@ -34,7 +34,7 @@ Você pode aprender mais sobre filas de execução na seção "Mensagens de Pipe
 
 ### Execuções de pipeline em andamento (_inflights_)
 
-![](../.gitbook/assets/currentlyrunning.png)
+![](<../.gitbook/assets/image (24).png>)
 
 Esse gráfico mostra o número total de requisições simultâneas feitas ao pipeline - para todas as réplicas - durante diversos intervalos no período de tempo selecionado.
 
@@ -44,7 +44,7 @@ Para aprender mais sobre tamanho da implementação, execuções simultâneas e 
 
 ### Tamanho da mensagem do pipeline (bytes)
 
-![](../.gitbook/assets/messagesizes.png)
+![](<../.gitbook/assets/image (16).png>)
 
 As linhas nesse gráfico exibem o tamanho médio (em bytes) das mensagens recebidas e retornadas pelo pipeline. Você pode ver o _label_ de cada linha passando seu cursor por cima dela.
 
@@ -64,7 +64,7 @@ Para aprender mais sobre tamanho da implementação, execuções simultâneas e 
 
 ### Mensagens na fila do pipeline
 
-![](../.gitbook/assets/messagesinqueue.png)
+![](<../.gitbook/assets/image (1).png>)
 
 Esse gráfico mostra o número total de mensagens na fila de execução, isto é, o número de mensagens aguardando para serem processadas, para todas as réplicas do pipeline, durante diversos intervalos durante o período de tempo selecionado.
 

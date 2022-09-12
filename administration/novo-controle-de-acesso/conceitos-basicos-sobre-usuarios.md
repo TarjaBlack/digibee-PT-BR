@@ -22,15 +22,11 @@ Para criar um usuário siga os seguintes passos:
 
 ![](<../../.gitbook/assets/Imagem 1 (6).png>)
 
-
-
 4\. Clique no botão **+ CRIAR** no canto superior direito;
 
 5\. Preencha as informações do usuário;
 
 ![](<../../.gitbook/assets/Imagem 2 (6).png>)
-
-
 
 6\. Em seguida, clique em **SALVAR**.
 
@@ -46,8 +42,6 @@ Para editar um usuário siga os seguintes passos:
 4. Busque o usuário na barra de pesquisa;
 
 ![](<../../.gitbook/assets/Imagem 3 (3).png>)
-
-
 
 5\. Clique no ícone de “Editar usuário”;
 
@@ -70,8 +64,6 @@ Para arquivar um usuário siga os seguintes passos:
 
     ![](<../../.gitbook/assets/Imagem 5 (3).png>)
 
-
-
 5\. Clique no ícone de “Arquivar usuário";
 
 6\. Uma tela de confirmação aparecerá, clique em **CONFIRMAR**.
@@ -80,10 +72,10 @@ Para arquivar um usuário siga os seguintes passos:
 
 ## Perguntas frequentes <a href="#h_75acb46a36" id="h_75acb46a36"></a>
 
-1.  ### Como posso associar usuários e papéis? <a href="#h_b666d38576" id="h_b666d38576"></a>
+1.  #### Como posso associar usuários e papéis? <a href="#h_b666d38576" id="h_b666d38576"></a>
 
     A Plataforma não permite associar usuários e papéis diretamente. Para associar um usuário a um papel, é necessário criar um grupo que associa usuários e papéis. Para saber mais sobre grupos, leia o artigo "[Grupos do Controle de Acesso](https://intercom.help/godigibee/pt-BR/articles/5810361-grupos-do-controle-de-acesso)"
-2. ### O que posso fazer com os usuários arquivados? <a href="#h_551e1f9a09" id="h_551e1f9a09"></a>
+2. #### O que posso fazer com os usuários arquivados? <a href="#h_551e1f9a09" id="h_551e1f9a09"></a>
 
 * Visualizar usuários arquivados;
 * Visualizar permissões de um usuário arquivados;

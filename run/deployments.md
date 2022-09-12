@@ -30,11 +30,11 @@ O processo para implantar o _pipeline_ em teste ou em produção é simples. Vej
 
 3\. Selecione a quantidade de execuções simultâneas como no exemplo abaixo:
 
-![](<../.gitbook/assets/implantação\_1 (1).png>)
+![](<../.gitbook/assets/implantação\_1 (1).png>)
 
 4\. Defina a quantidade de réplicas a serem utilizadas:
 
-![](../.gitbook/assets/implantação\_2.png)
+![](../.gitbook/assets/implantação\_2.png)
 
 5\. Clique no botão “IMPLANTAR”. Ao clicar no botão "IMPLANTAR", um resumo de todas as escolhas feitas será exibido.
 
@@ -52,4 +52,4 @@ Para usuários com Modelo Baseado em _Subscription_ será exibida uma tela com o
 
 Gostaríamos de saber quais são os seus comentários e sugestões sobre essa funcionalidade. Veja como é fácil enviar o seu feedback:
 
-![](<../.gitbook/assets/8 - Gif - feeback.gif>)
+![](../.gitbook/assets/Gif.gif)

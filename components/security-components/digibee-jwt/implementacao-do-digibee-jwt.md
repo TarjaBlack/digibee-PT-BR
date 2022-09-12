@@ -8,7 +8,7 @@ A utilização mais comum do JWT acontece durante a autorização de um serviço
 
 Veja a ilustração a seguir, que mostra a forma e a arquitetura do padrão:
 
-![](<../../../.gitbook/assets/implementação jwt.png>)
+![](<../../../.gitbook/assets/implementação jwt (1) (1).png>)
 
 Para acessar os serviços, é necessário realizar o _login_ em um _pipeline_, que ficará responsável pela geração do _token_ JWT. Com esse _token_ em mãos, você tem acesso às rotas, aos serviços e aos recursos permitidos.
 

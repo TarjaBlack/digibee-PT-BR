@@ -8,7 +8,7 @@ A funcionalidade _**Globals**_ foi criada para auxiliar e agilizar a construçã
 
 A manutibilidade também é facilitada, permitindo alterar os parâmetros utilizados por um conjunto de _pipelines_ somente alterando o valor da _global_.
 
-## **Como criar uma **_**global**_ <a href="#h_89a17b068b" id="h_89a17b068b"></a>
+## **Como criar uma \_global**\_ <a href="#h_89a17b068b" id="h_89a17b068b"></a>
 
 Para criar uma _global,_ siga os seguintes passos:
 
@@ -16,7 +16,7 @@ Para criar uma _global,_ siga os seguintes passos:
 2. Clique no ícone de “Administração”;
 3. Entre na opção de menu “_Globals_”;
 
-![](<../.gitbook/assets/01 (17).png>)
+![](<../.gitbook/assets/01 (17) (1).png>)
 
 1. Clique no botão **+ CRIAR** no canto superior direito;
 
@@ -39,7 +39,7 @@ Após realizar estes passos, a _global_ será criada com sucesso.
 
 Caso necessite armazenar dados criptografados utilize [**Accounts.**](contas-accounts/)
 
-## **Como editar uma **_**global**_ <a href="#h_e5f70703b2" id="h_e5f70703b2"></a>
+## **Como editar uma \_global**\_ <a href="#h_e5f70703b2" id="h_e5f70703b2"></a>
 
 Para editar uma _global,_ siga os seguintes passos:
 
@@ -58,7 +58,7 @@ Para editar uma _global,_ siga os seguintes passos:
 
 Após realizar estes passos, a _global_ será editada com sucesso.
 
-## **Como remover uma **_**global**_ <a href="#h_8ef332c3b4" id="h_8ef332c3b4"></a>
+## **Como remover uma \_global**\_ <a href="#h_8ef332c3b4" id="h_8ef332c3b4"></a>
 
 Para remover uma _global,_ siga os seguintes passos:
 
@@ -77,7 +77,7 @@ Para remover uma _global,_ siga os seguintes passos:
 
 Após realizar estes passos, a _global_ será removida com sucesso.
 
-## **Como utilizar as **_**globals**_ <a href="#h_8cb725f0e7" id="h_8cb725f0e7"></a>
+## **Como utilizar as \_globals**\_ <a href="#h_8cb725f0e7" id="h_8cb725f0e7"></a>
 
 As _globals_ podem ser utilizadas das seguintes maneiras:
 

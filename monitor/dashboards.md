@@ -14,7 +14,7 @@ A aba de **Visão Geral** traz mais visibilidade e informação aos usuários, p
 
 ### **Seletor de Ambiente** <a href="#h_77202433c3" id="h_77202433c3"></a>
 
-![](<../.gitbook/assets/seletordeambiente (2).png>)
+![](<../.gitbook/assets/seletordeambiente (1).png>)
 
 Na parte superior esquerda da tela, é possível selecionar o ambiente desejado a qualquer momento na página. Ao selecionar o ambiente, a página inteira é atualizada.
 

@@ -5,8 +5,7 @@
 EEscrito por Erick Rubiales\
 Atualizado há mais de uma semana
 
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 ### COMPONENTES <a href="#componentes" id="componentes"></a>
 
@@ -16,8 +15,7 @@ Construímos um novo componente que te permite efetuar invocações a outros _pi
 
 #### DB <a href="#db" id="db"></a>
 
-Homologamos o banco de dados _DB Informix_ para que você possa utilizá-lo quando estiver configurando as diferentes versões do componente DB.\
-
+Homologamos o banco de dados _DB Informix_ para que você possa utilizá-lo quando estiver configurando as diferentes versões do componente DB.\\
 
 #### REST V2 <a href="#rest-v2" id="rest-v2"></a>
 
@@ -56,8 +54,7 @@ Os ícones dos demais componentes mantiveram os seus formatos.
 
 ### TELA DE CONFIGURAÇÃO DE CONTAS <a href="#tela-de-configurao-de-contas" id="tela-de-configurao-de-contas"></a>
 
-Agora ocultamos dados de campos sensíveis na tela de configuração de contas (_accounts_) durante a digitação.\
-
+Agora ocultamos dados de campos sensíveis na tela de configuração de contas (_accounts_) durante a digitação.\\
 
 ### DASHBOARD <a href="#dashboard" id="dashboard"></a>
 
@@ -65,8 +62,7 @@ Modificamos o comportamento do filtro de buscas quando datas são utilizadas. Ve
 
 **Data de início:** 21/12/2020 15:47
 
-**Data de fim:** 21/12/2020 15:52\
-
+**Data de fim:** 21/12/2020 15:52\\
 
 Como a busca será efetuada:
 
@@ -75,8 +71,6 @@ Como a busca será efetuada:
 **Data de fim:** 21/12/2020 15:52:**59.999**
 
 ![](<../.gitbook/assets/dez\_02 (1).png>)
-
-
 
 Nós também solucionamos alguns _bugs_:
 
@@ -87,10 +81,7 @@ Nós também solucionamos alguns _bugs_:
 
 ## Novidades 08/12/2020
 
-
-
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 #### COMPONENTES <a href="#componentes" id="componentes"></a>
 
@@ -128,8 +119,6 @@ Melhoramos a aparência do Canvas do Pipeline para você ter uma experiência vi
 
 ![](../.gitbook/assets/dez\_04.png)
 
-
-
 Nós também solucionamos alguns _bugs_:
 
 * **REST, HTTP e HTTP File Trigger:** ajustamos a falha que gerava _deploy_ falho quando os métodos eram escritos com letras minúsculas ou eram inválidos. Agora você pode configurar esses _triggers_ tanto com letra maiúscula quanto com minúscula.
@@ -149,8 +138,8 @@ Gostaríamos de compartilhar algumas melhorias e novidades:
 
 #### TELA DE LOGS <a href="#tela-de-logs" id="tela-de-logs"></a>
 
-* **Campo **_**payload**_**:** criamos um novo artigo que explica o funcionamento do campo _payload_ na tela de busca de _logs_ da Plataforma.&#x20;
-* _**Payloads**_** truncados:** passamos a exibir alertas que informam a ausência do _payload_ completo dependendo do seu tamanho. Anteriormente, o _payload_ era identificado com a propriedade _@@DGB\_TRUNCATED@@_.
+* **Campo \_payload**\_**:** criamos um novo artigo que explica o funcionamento do campo _payload_ na tela de busca de _logs_ da Plataforma.
+* _**Payloads**_\*\* truncados:\*\* passamos a exibir alertas que informam a ausência do _payload_ completo dependendo do seu tamanho. Anteriormente, o _payload_ era identificado com a propriedade _@@DGB\_TRUNCATED@@_.
 
 #### CADASTRO E EDIÇÃO DE USUÁRIOS <a href="#cadastro-e-edio-de-usurios" id="cadastro-e-edio-de-usurios"></a>
 
@@ -174,18 +163,13 @@ Entenda a nova divisão clicando clique [aqui](https://docs.digibee.com/document
 
 Nós também solucionamos alguns _bugs_:
 
-* **Exibições em **_**logs**_** e nos **_**payloads**_** de re-execuções:** corrigimos um defeito que fazia a truncagem incorreta de números com muitos algarismos e alguns números com alta precisão.
+* **Exibições em \_logs**_\*\* e nos \*\*_**payloads**\_\*\* de re-execuções:\*\* corrigimos um defeito que fazia a truncagem incorreta de números com muitos algarismos e alguns números com alta precisão.
 * **SFTP:** corrigimos um _bug_ que causava duplicidade de registros na operação de listagem de diretórios do componente SFTP.
-* **Object Store:** corrigimos o problema que, em algumas situações, não criava o índice mesmo que o _**Object Store** _ fosse definido como _unique_. A partir de agora, caso o _pipeline_ não consiga criar o índice após 3 tentativas, não será feita a sua inicialização.
-
-
+* **Object Store:** corrigimos o problema que, em algumas situações, não criava o índice mesmo que o \_**Object Store** \_ fosse definido como _unique_. A partir de agora, caso o _pipeline_ não consiga criar o índice após 3 tentativas, não será feita a sua inicialização.
 
 ## Novidades 10/11/2020
 
-
-
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 #### COMPONENTES <a href="#componentes" id="componentes"></a>
 
@@ -203,12 +187,9 @@ Nós também solucionamos alguns _bugs_:
 * **Exibição de números grandes e fracionados:** corrigimos um defeito que fazia a truncagem incorreta de números com muitos algarismos e alguns números com alta precisão em execuções TEST MODE.
 * **Tratamento de erros:** conforme anunciado em comunicado prévio, resolvemos a questão que estava causando mudança de comportamento no tratamento de erros de componentes que possuem _subpipeline_ e, com isso, não há mais quebra de compatibilidade em _pipelines_ já implementados.
 
-
-
 ## Novidades 27/10/2020
 
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 #### COMPONENTES <a href="#componentes" id="componentes"></a>
 
@@ -237,22 +218,18 @@ Estamos revisando a nossa documentação para que você tenha acesso a leituras 
 * [Hash](https://docs.digibee.com/documentation/v/pt-br/components/security-components/hash)
 * [Template Transformer](https://docs.digibee.com/documentation/v/pt-br/components/tools/template-transformer)
 
-\
-
+\\
 
 Nós também solucionamos um _bug_:
 
 * **Retry:** corrigimos o erro que surgia em fluxos bem sucedidos, quando o componente Retry era configurado com 1 tentativa e tinha a opção “failOnError” habilitada. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/logic/retry) para acessar o artigo revisado desse componente.
-
-
 
 ## Novidades 14/10/2020
 
 EEscrito por Erick Rubiales\
 Atualizado há mais de uma semana
 
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 #### COMPONENTES <a href="#componentes" id="componentes"></a>
 
@@ -294,8 +271,6 @@ Nós também solucionamos alguns _bugs_:
 * **Log:** corrigimos a falha que deixava a tela branca quando a sequência _log - detalhes - mensagens_ era clicada.
 * **Re-execução de pipeline:** corrigimos o problema que impedia a re-execução do _pipeline_ a partir do _log_.
 
-
-
 ## Novidades 29/09/2020
 
 #### COMPONENTES <a href="#componentes" id="componentes"></a>
@@ -334,16 +309,13 @@ Desta vez, você vai ver as alterações nas telas de:
 * _Logs_
 
 \
-Com isso, a experiência em todas as telas está renovada.\
-
+Com isso, a experiência em todas as telas está renovada.\\
 
 Nós também solucionamos alguns _bugs_:
 
 * **Forgot password:** fizemos ajustes nas indicações de erro para que você saiba quando o _link_ da função "Esqueci minha senha" expirou.
 * **Configuração de componentes:** corrigimos um problema que fazia aparecer as configurações do componente incorreto em algumas situações não usuais.
-* **Execução de **_**pipeline**_**:** eliminamos o erro de Zip File Closed que ocorria após a implantação de _pipelines_, nas primeiras execuções.
-
-
+* **Execução de \_pipeline**\_**:** eliminamos o erro de Zip File Closed que ocorria após a implantação de _pipelines_, nas primeiras execuções.
 
 ## Novidades 15/09/2020
 
@@ -378,16 +350,14 @@ Desta vez, você vai ver as alterações:
 
 ## Atualizações de Segurança Digibee
 
-Setembro/2020, 2ª edição\
-
+Setembro/2020, 2ª edição\\
 
 #### Tudo o que você precisa saber sobre os nossos avanços na Segurança <a href="#tudo-o-que-voc-precisa-saber-sobre-os-nossos-avanos-na-segurana" id="tudo-o-que-voc-precisa-saber-sobre-os-nossos-avanos-na-segurana"></a>
 
 #### O QUE EU PRECISO SABER? <a href="#o-que-eu-preciso-saber" id="o-que-eu-preciso-saber"></a>
 
 Seguindo as melhores práticas de mercado, atualizamos os nossos certificados de criptografia de _endpoints_ HTTPS a cada 3 meses. Logo, a próxima atualização está prevista para 21/09/2020 às 22:00 (horário de Brasília).\
-\
-
+\\
 
 #### O QUE SERÁ ALTERADO <a href="#o-que-ser-alterado" id="o-que-ser-alterado"></a>
 
@@ -402,18 +372,15 @@ A disponibilidade desses _endpoints_ não será afetada durante o processo de at
 
 #### EU TENHO QUE FAZER ALGUMA COISA? <a href="#eu-tenho-que-fazer-alguma-coisa" id="eu-tenho-que-fazer-alguma-coisa"></a>
 
-Se os sistemas que acessam os _endpoints_ da Digibee…\
-
+Se os sistemas que acessam os _endpoints_ da Digibee…\\
 
 * **tiverem o certificado da Digibee manualmente importado**
 
-então os certificados deverão passar pela atualização. Recomendamos que os certificados raiz sejam importados no lugar do certificado da Digibee para que o processo seja transparente.\
-
+então os certificados deverão passar pela atualização. Recomendamos que os certificados raiz sejam importados no lugar do certificado da Digibee para que o processo seja transparente.\\
 
 * **tiverem o certificado raiz manualmente importado**
 
-então você não precisa fazer nada, pois o processo de atualização já está pronto para ser completamente transparente.\
-
+então você não precisa fazer nada, pois o processo de atualização já está pronto para ser completamente transparente.\\
 
 * **utilizarem certificadoras globais**
 
@@ -428,8 +395,7 @@ Setembro/2020
 A Digibee executa testes de penetração de segurança regularmente e incluímos na nossa demanda a realização de _**Pentests**_ a cada 6 meses. Durante esses testes, nós podemos encontrar questões que precisem da nossa atenção e que podem nos levar a fazer mudanças ou ajustes no produto para beneficiar você, usuário.
 
 Se quiser saber mais sobre os últimos testes que realizamos, é só acompanhar os detalhes abaixo.\
-\
-
+\\
 
 #### O QUE EU PRECISO SABER? <a href="#o-que-eu-preciso-saber" id="o-que-eu-preciso-saber"></a>
 
@@ -441,14 +407,9 @@ Se quiser saber mais sobre os últimos testes que realizamos, é só acompanhar 
 
 Por enquanto, apenas recomendamos que você faça um _upgrade_ no seu _browser_ caso ele não suporte o TLS 1.2+, já que os nossos _endpoints_ rejeitam conexões que utilizam versões descontinuadas do TLS.
 
-
-
 ## Novidades 01/09/2020
 
-
-
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 #### COMPONENTES <a href="#componentes" id="componentes"></a>
 
@@ -472,11 +433,7 @@ Desta vez, você vai ver as alterações em:
 * histórico de versões
 * tela de Runtime
 
-
-
 ## Novidades 18/08/2020
-
-
 
 Gostaríamos de compartilhar algumas melhorias e novidades:
 
@@ -490,8 +447,6 @@ Nós também solucionamos alguns _bugs_:
 
 * **DB Connector V2:** ajustamos a exibição do _status_ da execução do _batch mode_ quando ocorrem falhas na utilização do banco de dados Oracle. Também ajustamos uma falha na tela de configurações desse componente, que excluía o item incorreto na sessão “Type Properties”.
 * **Pipelines:** corrigimos o problema que impedia salvar uma nova versão do _pipeline_, criada a partir de outra que estava arquivada.
-
-
 
 ## Novidades 04/08/2020
 
@@ -541,11 +496,7 @@ Nós também solucionamos alguns _bugs_:
 * **Chat:** fizemos ajustes para que as notificações de mensagens do _chat_ fiquem sobre a interface na tela de criação de _pipelines_.
 * **JMS Connector:** corrigimos a falha que encerrava o _pool_ de conexões desse componente e impedia o envio de novas mensagens.
 
-
-
 ## Novidades 21/07/2020
-
-
 
 Gostaríamos de compartilhar algumas melhorias e novidades:
 
@@ -603,32 +554,27 @@ Nós também solucionamos alguns _bugs_:
 
 ## Novidades 22/06/2020
 
-
-
 Gostaríamos de compartilhar algumas melhorias e novidades:
 
 #### CONECTORES <a href="#conectores" id="conectores"></a>
 
-* **CMS Connector:** o novo componente permite que você assine _payload_s e campos, além de verificar assinaturas no padrão de criptografia CMS. Você pode clicar [aqui](https://en.wikipedia.org/wiki/Cryptographic\_Message\_Syntax) para entender o conceito de _Cryptographic Message Syntax_. E para saber mais sobre o conector, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/security-components/cms) e leia o nosso artigo.
+* **CMS Connector:** o novo componente permite que você assine \_payload\_s e campos, além de verificar assinaturas no padrão de criptografia CMS. Você pode clicar [aqui](https://en.wikipedia.org/wiki/Cryptographic\_Message\_Syntax) para entender o conceito de _Cryptographic Message Syntax_. E para saber mais sobre o conector, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/security-components/cms) e leia o nosso artigo.
 
 #### ACCOUNTS <a href="#accounts" id="accounts"></a>
 
 * **Kerberos:** criamos um novo tipo de _account_ para que você possa configurar o _principal_ e a _keytab_.
 
-\
-
+\\
 
 #### KERBEROS <a href="#kerberos" id="kerberos"></a>
 
 As versões mais recentes de todos os conectores de banco de dados suportam a autenticação do tipo Kerberos. Se você quiser utilizar esse tipo de autenticação, entre em contato com o nosso suporte.
 
-\
-
+\\
 
 #### DOUBLE BRACES <a href="#double-braces" id="double-braces"></a>
 
-* **Accounts:** agora você pode informar mais de uma conta no REST Connector V2 e no Soap Connector V2, o que traz mais flexibilidade e segurança na permissão de uso das credenciais através de expressões _Double Braces_. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/build/funcoes-double-braces/funcoes-condicionais) para ler o nosso artigo sobre o tema.\
-
+* **Accounts:** agora você pode informar mais de uma conta no REST Connector V2 e no Soap Connector V2, o que traz mais flexibilidade e segurança na permissão de uso das credenciais através de expressões _Double Braces_. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/build/funcoes-double-braces/funcoes-condicionais) para ler o nosso artigo sobre o tema.\\
 
 #### GERENCIAMENTO DE USUÁRIOS <a href="#gerenciamento-de-usurios" id="gerenciamento-de-usurios"></a>
 
@@ -668,8 +614,7 @@ Nós também solucionamos um _bug_:
 \
 _**⚠ Pipelines existentes que utilizam CSV To Excel**_
 
-_O recebimento do nome do arquivo em Excel foi modificado (propriedade: EXCEL FILE NAME) e isso impacta a saída da propriedade fileName do conector. Por favor, altere o parâmetro para passar o nome completo do arquivo em Excel com a extensão fileName.xlsx antes de reimplantar o pipeline._\
-
+_O recebimento do nome do arquivo em Excel foi modificado (propriedade: EXCEL FILE NAME) e isso impacta a saída da propriedade fileName do conector. Por favor, altere o parâmetro para passar o nome completo do arquivo em Excel com a extensão fileName.xlsx antes de reimplantar o pipeline._\\
 
 ## Novidades 12/05/2020
 
@@ -686,45 +631,41 @@ _O recebimento do nome do arquivo em Excel foi modificado (propriedade: EXCEL FI
 
 Em _pipelines_ implantados é possível obter informações mais completas dos _endpoints_ configurados.
 
-
-
 ## Novidades 28/04/2020
 
 #### CONECTORES <a href="#conectores" id="conectores"></a>
 
-* **Google Drive:** pode ser configurado para listar, fazer _upload_ e _download_, remover e mover objetos do Google Drive para o _pipeline_ e vice-versa. Para ler o artigo sobre esse conector, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/google-drive).           &#x20;
+* **Google Drive:** pode ser configurado para listar, fazer _upload_ e _download_, remover e mover objetos do Google Drive para o _pipeline_ e vice-versa. Para ler o artigo sobre esse conector, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/google-drive).
 
 #### TRIGGERS <a href="#triggers" id="triggers"></a>
 
-* **Kafka:** permite a realização de subscrições para o disparo do _pipeline_. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/triggers/kafka-trigger) e conheça melhor esse novo _trigger_.&#x20;
-* **Allow Redelivery:** essa configuração avançada pode ser aplicada a qualquer _trigger_ para que seja determinado se o _pipeline_ deve reprocessar mensagens descartadas ou perdidas.           &#x20;
+* **Kafka:** permite a realização de subscrições para o disparo do _pipeline_. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/triggers/kafka-trigger) e conheça melhor esse novo _trigger_.
+* **Allow Redelivery:** essa configuração avançada pode ser aplicada a qualquer _trigger_ para que seja determinado se o _pipeline_ deve reprocessar mensagens descartadas ou perdidas.
 
 #### DOUBLE BRACES <a href="#double-braces" id="double-braces"></a>
 
-É possível acessar detalhes particulares (metadata.execution.key, metadata.execution.timeout, metadata.execution.startTimestamp e metadata.execution.redelivery) da execução de _pipelines_ através do contexto metadata de Double Braces.            &#x20;
+É possível acessar detalhes particulares (metadata.execution.key, metadata.execution.timeout, metadata.execution.startTimestamp e metadata.execution.redelivery) da execução de _pipelines_ através do contexto metadata de Double Braces.
 
 #### PIPELINE ENGINE <a href="#pipeline-engine" id="pipeline-engine"></a>
 
 Aprimoramos alguns mecanismos do motor de execução dos _pipelines_:
 
-* **Processamento de mensagens:** o tempo de expiração das mensagens não é mais afetado, já que o Pipeline Engine não realiza a remoção prematura das mensagens para processamento. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/plataforma/pipeline-engine) e entenda mais lendo o nosso artigo.&#x20;
-* **Tempo de início do **_**pipeline**_**:** a infraestrutura aguarda a disponibilidade do Pipeline Engine antes de habilitar os acessos de _triggers_ para ele.
-* _**Crashes**_** do **_**pipeline**_**:** o _pipeline_ é reiniciado automaticamente quando ocorre falta de memória (OOM).                     &#x20;
+* **Processamento de mensagens:** o tempo de expiração das mensagens não é mais afetado, já que o Pipeline Engine não realiza a remoção prematura das mensagens para processamento. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/plataforma/pipeline-engine) e entenda mais lendo o nosso artigo.
+* **Tempo de início do \_pipeline**\_**:** a infraestrutura aguarda a disponibilidade do Pipeline Engine antes de habilitar os acessos de _triggers_ para ele.
+* _**Crashes**_\*\* do **\_**pipeline**\_**:\*\* o _pipeline_ é reiniciado automaticamente quando ocorre falta de memória (OOM).
 
 #### RUNTIME <a href="#runtime" id="runtime"></a>
 
-É atribuído o status STARTING na tela do Runtime aos pipelines com implantação em andamento. Quando a implantação é concluída, os status ACTIVE ou ACTIVE BUT DEGRADED indicam que os _pipelines_ estão disponíveis.                 &#x20;
+É atribuído o status STARTING na tela do Runtime aos pipelines com implantação em andamento. Quando a implantação é concluída, os status ACTIVE ou ACTIVE BUT DEGRADED indicam que os _pipelines_ estão disponíveis.
 
 #### DESIGN <a href="#design" id="design"></a>
 
-A aplicação da paleta de cores em nossos botões gera mais familiaridade entre as páginas do sistema e facilita a identificação de componentes.           &#x20;
+A aplicação da paleta de cores em nossos botões gera mais familiaridade entre as páginas do sistema e facilita a identificação de componentes.
 
 Nós também solucionamos alguns _bugs_:
 
-* **Rest / HTTP / HTTP-File Trigger:** agora é possível construir fluxos que recebam _tokens_ personalizados no header Authorization quando não se deseja utilizar o mecanismo JWT da Digibee. Para isso, desabilite a opção JWT na configuração do _trigger_.&#x20;
+* **Rest / HTTP / HTTP-File Trigger:** agora é possível construir fluxos que recebam _tokens_ personalizados no header Authorization quando não se deseja utilizar o mecanismo JWT da Digibee. Para isso, desabilite a opção JWT na configuração do _trigger_.
 * **Scheduler Trigger:** em raras situações, poderiam ocorrer duplicações da execução do pipeline. Foi adicionado um mecanismo de proteção para impedir que isso aconteça. Deseja saber mais sobre esse _trigger_? Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/triggers/scheduler-trigger) para ler o nosso artigo.
-
-
 
 ## Novidades 15/04/2020
 
@@ -733,47 +674,43 @@ Gostaríamos de compartilhar algumas melhorias e novidades:
 #### CONECTORES <a href="#conectores" id="conectores"></a>
 
 Melhoramos a usabilidade da lista de conectores, tornando os itens visíveis tanto para os usuários que não possuem mouse de rolagem quanto para os que preferem utilizar o _scroll_.\
-&#x20;                       &#x20;
 
-* **Choice:** a nossa nova mensagem de erro indica o caminho para que os itens repetidos sejam encontrados. Para ler o artigo sobre esse conector, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/logic/choice).&#x20;
-* **File Reader:** adicionamos uma capacidade para leitura consolidada de todas as linhas em um único _string_ facilita o processamento de arquivos.&#x20;
-* **Rest Connector V2:** é possível informar o tipo do arquivo no envio baseado no multipart/form-data.                  &#x20;
+
+* **Choice:** a nossa nova mensagem de erro indica o caminho para que os itens repetidos sejam encontrados. Para ler o artigo sobre esse conector, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/logic/choice).
+* **File Reader:** adicionamos uma capacidade para leitura consolidada de todas as linhas em um único _string_ facilita o processamento de arquivos.
+* **Rest Connector V2:** é possível informar o tipo do arquivo no envio baseado no multipart/form-data.
 
 #### TRIGGERS <a href="#triggers" id="triggers"></a>
 
-* **JMS:** _pipelines_ construídos com esse trigger adicionam mais resiliência ao parametrizar o consumo de mensagens/tópicos JMS. Para ler o artigo sobre esse _trigger_, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/queues-and-messaging/jms).                        &#x20;
+* **JMS:** _pipelines_ construídos com esse trigger adicionam mais resiliência ao parametrizar o consumo de mensagens/tópicos JMS. Para ler o artigo sobre esse _trigger_, clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/queues-and-messaging/jms).
 
 #### CANVAS <a href="#canvas" id="canvas"></a>
 
-A paleta de componentes é acessível mesmo quando o test-mode se encontra aberto.&#x20;
+A paleta de componentes é acessível mesmo quando o test-mode se encontra aberto.
 
 Nós também solucionamos alguns _bugs_:
 
-* **Rest / HTTP / HTTP-File Triggers:** a mensagem de _log_ passou a mostrar o _payload_ inválido que é apresentado ao _pipeline_.&#x20;
-* **Execuções Simultâneas:** eliminamos o erro que não permitia a edição do execuções simultâneas quando o seu _pipeline_ associado era apagado.&#x20;
-* **Atalhos de Teclado:** agora a lista de atalhos possui uma barra de rolagem.&#x20;
-* **Breadcrumb:** voltou a ser possível copiar e colar o nome do _pipeline_/nível.&#x20;
+* **Rest / HTTP / HTTP-File Triggers:** a mensagem de _log_ passou a mostrar o _payload_ inválido que é apresentado ao _pipeline_.
+* **Execuções Simultâneas:** eliminamos o erro que não permitia a edição do execuções simultâneas quando o seu _pipeline_ associado era apagado.
+* **Atalhos de Teclado:** agora a lista de atalhos possui uma barra de rolagem.
+* **Breadcrumb:** voltou a ser possível copiar e colar o nome do _pipeline_/nível.
 
 ## Novidades 30/03/2020
 
-
-
 #### CONECTORES <a href="#conectores" id="conectores"></a>
 
-* **JMS:** agora suporta _double braces_ dinâmicos e estáticos. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/queues-and-messaging/jms) para saber mais sobre esse conector.&#x20;
+* **JMS:** agora suporta _double braces_ dinâmicos e estáticos. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/queues-and-messaging/jms) para saber mais sobre esse conector.
 * **SAP:** atualizamos a documentação desse conector com informações sobre iDoc. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/build/capsulas/capsulas-publicas/sap) para ler.
-* **Do-While:** criamos uma nova _feature_ que permite o seguimento normal do fluxo em caso de erros. Também atualizamos a documentação desse conector. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/logic/do-while) para ler. &#x20;
-
-&#x20;     &#x20;
+* **Do-While:** criamos uma nova _feature_ que permite o seguimento normal do fluxo em caso de erros. Também atualizamos a documentação desse conector. Clique [aqui](https://docs.digibee.com/documentation/v/pt-br/components/logic/do-while) para ler.
 
 #### DESIGN <a href="#design" id="design"></a>
 
 O modal de atalhos com mais espaçamento entre os itens e clareamento da linha entre eles facilita a leitura dos dados.\
-&#x20;            &#x20;
+
 
 #### CANVAS <a href="#canvas" id="canvas"></a>
 
-O atalho _Shift + Delete_ é capaz de remover conectores durante a edição do _pipeline_, assim como o _Ctrl + Delete_.  &#x20;
+O atalho _Shift + Delete_ é capaz de remover conectores durante a edição do _pipeline_, assim como o _Ctrl + Delete_.
 
 #### BREADCRUMB <a href="#breadcrumb" id="breadcrumb"></a>
 
@@ -783,20 +720,18 @@ O menu “more” exibe todos os links que não cabem no _header_. Além disso, 
 
 Nós também solucionamos alguns _bugs_:
 
-* **Dificuldades no login:** o Realm passou a poder ser digitado com letra minúscula, maiúscula ou intercalando as duas opções.&#x20;
-* **Mensagem de erro:** corrigimos uma falha de grafia em um aviso que aparecia durante a edição de _pipelines_.&#x20;
-* **OAuth Authentication:** resolvemos o problema que impedia a execução consecutiva de _pipelines_ utilizando a autenticação OAuth.&#x20;
-* **OAuth:** melhoramos o tratamento de obtenção de _tokens_ através do mecanismo OAuth utilizando recursos específicos dos provedores como Google e Microsoft. &#x20;
-* **iDoc SAP:** ajustamos uma limitação de envio do XML nesse modelo.&#x20;
-* **Kafka Connector:** agora são suportados os _security protocols_ SASL\_SSL e SSL.&#x20;
-* **Trigger:** solucionamos o problema de rota que esporadicamente tornava inacessíveis alguns _pipelines_ implantados.&#x20;
+* **Dificuldades no login:** o Realm passou a poder ser digitado com letra minúscula, maiúscula ou intercalando as duas opções.
+* **Mensagem de erro:** corrigimos uma falha de grafia em um aviso que aparecia durante a edição de _pipelines_.
+* **OAuth Authentication:** resolvemos o problema que impedia a execução consecutiva de _pipelines_ utilizando a autenticação OAuth.
+* **OAuth:** melhoramos o tratamento de obtenção de _tokens_ através do mecanismo OAuth utilizando recursos específicos dos provedores como Google e Microsoft.
+* **iDoc SAP:** ajustamos uma limitação de envio do XML nesse modelo.
+* **Kafka Connector:** agora são suportados os _security protocols_ SASL\_SSL e SSL.
+* **Trigger:** solucionamos o problema de rota que esporadicamente tornava inacessíveis alguns _pipelines_ implantados.
 * **JWT Connector:** as _requests_ deixaram de ser barradas em um cenário específico.
 
 ## Novidades 15/03/2020
 
-
-
-Gostaríamos de compartilhar algumas melhorias e novidades:   &#x20;
+Gostaríamos de compartilhar algumas melhorias e novidades:
 
 #### CONECTORES <a href="#conectores" id="conectores"></a>
 
@@ -808,42 +743,40 @@ Agora suportam _double braces_ estáticos:
 
 Para saber mais sobre os conectores, leia os artigos atualizados que disponibilizamos no nosso Help Center.
 
-&#x20;    &#x20;
-
 #### TRIGGERS <a href="#triggers" id="triggers"></a>
 
-* Rest / HTTP / HTTP-File: Nova interface de configuração e nova funcionalidade que permitem adição de rotas personalizadas, promovendo maior flexibilidade, controle e segurança. [Saiba mais.](https://docs.digibee.com/documentation/v/pt-br/components/triggers/configuracoes-de-triggers/nova-interface-de-configuracao-e-rotas-personalizaveis)&#x20;
+* Rest / HTTP / HTTP-File: Nova interface de configuração e nova funcionalidade que permitem adição de rotas personalizadas, promovendo maior flexibilidade, controle e segurança. [Saiba mais.](https://docs.digibee.com/documentation/v/pt-br/components/triggers/configuracoes-de-triggers/nova-interface-de-configuracao-e-rotas-personalizaveis)
 
-&#x20;  \
+\
 Nós também solucionamos alguns _bugs_:
 
 * **Diálogo de confirmação indevido:** resolvemos as mensagens intermitentes que surgiam ao salvar _pipelines_ e _libraries_.
 * **Campo Account:** substituímos o campo Account por um menu suspenso na configuração do E-mail Trigger.
 * **Choice Connector:** reparamos a falha de execução em linhas de Choice com nomes repetidos em OnProcess/OnException aninhados.
-* **Rest Connector**: ajustamos a apresentação dos _headers_ padrão __ desse conector na tela de configuração.
+* **Rest Connector**: ajustamos a apresentação dos _headers_ padrão \_\_ desse conector na tela de configuração.
 * **Estabilidade:** melhorias de estabilidade em caso de indisponibilidade de serviços.
 
-## &#x20;Novidades 27/02/2020
+## Novidades 27/02/2020
 
-Gostaríamos de compartilhar algumas melhorias e novidades:&#x20;
+Gostaríamos de compartilhar algumas melhorias e novidades:
 
-#### Trigger E-mail (BETA)  <a href="#trigger-e-mail-beta" id="trigger-e-mail-beta"></a>
+#### Trigger E-mail (BETA) <a href="#trigger-e-mail-beta" id="trigger-e-mail-beta"></a>
 
 Os serviços de e-mail com suporte a IMAP são verificados por meio desse gatilho, que identifica mensagens não lidas e dispara o _pipeline_.\
-&#x20;&#x20;
+
 
 #### SQS - Amazon Simple Queue Service <a href="#sqs---amazon-simple-queue-service" id="sqs---amazon-simple-queue-service"></a>
 
-#### ▸Connector (BETA)  <a href="#connector-beta" id="connector-beta"></a>
+#### ▸Connector (BETA) <a href="#connector-beta" id="connector-beta"></a>
 
 Habilitamos o gerenciamento de filas de mensagens com o novo conector SQS.
 
-#### ▸Trigger (BETA)  <a href="#trigger-beta" id="trigger-beta"></a>
+#### ▸Trigger (BETA) <a href="#trigger-beta" id="trigger-beta"></a>
 
 As mensagens SQS são processadas de acordo com ordem de entrada.\
-&#x20;
 
-#### Melhorias no Breadcrumb  <a href="#melhorias-no-breadcrumb" id="melhorias-no-breadcrumb"></a>
+
+#### Melhorias no Breadcrumb <a href="#melhorias-no-breadcrumb" id="melhorias-no-breadcrumb"></a>
 
 Agora o nome dado ao conector do tipo OnProcess/OnException é mantido no Breadcrumb, o que facilita a identificação durante a sua edição.
 
@@ -851,13 +784,11 @@ Agora o nome dado ao conector do tipo OnProcess/OnException é mantido no Breadc
 
 Nós também solucionamos alguns bugs:
 
-* **Problemas com **_**copy-paste**_**:** em algumas situações, esse comando não estava retornando o valor esperado.
+* **Problemas com \_copy-paste**\_**:** em algumas situações, esse comando não estava retornando o valor esperado.
 * **Mensagem indevida no Choice:** removemos a confirmação de saída da plataforma que surgia durante a edição desse conector.
-* **Idioma **_**tooltip**_**:** alguns _tooltips_ não estavam no idioma correto.&#x20;
+* **Idioma \_tooltip**\_**:** alguns _tooltips_ não estavam no idioma correto.
 
 ## Novidades 15/02/2020
-
-
 
 #### Novidades nos Conectores <a href="#novidades-nos-conectores" id="novidades-nos-conectores"></a>
 
@@ -866,10 +797,10 @@ Confira mais detalhes [aqui](https://docs.digibee.com/documentation/v/pt-br/comp
 
 #### Correção de bugs <a href="#correo-de-bugs" id="correo-de-bugs"></a>
 
-▸  Contexto do atalho copiar e colar\
-▸  Limitações de acesso ao Intercom\
-▸  Ajustes no conector OAuth\
-▸  Melhorias de usabilidade
+▸ Contexto do atalho copiar e colar\
+▸ Limitações de acesso ao Intercom\
+▸ Ajustes no conector OAuth\
+▸ Melhorias de usabilidade
 
 ## Novidades 30/01/2020
 
@@ -882,8 +813,7 @@ DBConectorV2 com suporte a query para teste de conexão e opção para manter a 
 
 Caso haja alguma alteração que exija sua ação nos pipelines você será notificado diretamente através da interface da plataforma.
 
-\
-
+\\
 
 ![](../.gitbook/assets/jan\_01.gif)
 
@@ -891,7 +821,7 @@ Caso haja alguma alteração que exija sua ação nos pipelines você será noti
 
 #### Correção de bugs <a href="#correo-de-bugs" id="correo-de-bugs"></a>
 
-▸  Ajustes de usabilidade
+▸ Ajustes de usabilidade
 
 ## Novidades - 15/01/2020
 
@@ -916,9 +846,9 @@ Google Storage Connector e Digibee Storage Connector agora possui a função de 
 
 #### Correção de bugs <a href="#correo-de-bugs" id="correo-de-bugs"></a>
 
-▸  Ajustes no processo de recuperação de mensagens e logs
+▸ Ajustes no processo de recuperação de mensagens e logs
 
-▸  Usabilidade - Diversos ajustes relacionados feedback, alinhamento e contraste
+▸ Usabilidade - Diversos ajustes relacionados feedback, alinhamento e contraste
 
 ## 15/07/2019
 
@@ -928,11 +858,9 @@ Nossa nova tela de login está com visual repaginado, além de incluir diversas 
 
 ![](../.gitbook/assets/2019\_01.jpg)
 
-
-
 #### Força da senha <a href="#fora-da-senha" id="fora-da-senha"></a>
 
-Novo padrão para cadastro de senha na plataforma:&#x20;
+Novo padrão para cadastro de senha na plataforma:
 
 * mínimo de 8 caracteres
 * ao menos uma letra maiúscula
@@ -967,7 +895,7 @@ Conheça as funções disponíveis para simplificar conversões e transformaçõ
 
 **Novos:**
 
-* _Json Generator Connector_ - Componente que gera e transforma jsons de forma genérica. [veja aqui a documentação](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-generator)&#x20;
+* _Json Generator Connector_ - Componente que gera e transforma jsons de forma genérica. [veja aqui a documentação](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-generator)
 * _Object Store_ - Base de dados da Digibee onde os clientes podem armazenar dados e realizar consultas, edições e exclusões de uma forma mais simplificada. [veja aqui a documentação](https://docs.digibee.com/documentation/v/pt-br/components/structured-data/object-store)
 
 **Atualização e melhoria:**

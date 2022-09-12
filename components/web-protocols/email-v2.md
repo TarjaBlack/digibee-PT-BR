@@ -132,7 +132,7 @@ O resultado será:
 
 ## Veja como passar valores de forma dinâmica usando o conector: <a href="#tecnologia" id="tecnologia"></a>
 
-![](<../../.gitbook/assets/ezgif.com-gif-maker (20).gif>)
+![](<../../.gitbook/assets/ezgif.com-gif-maker (20) (1).gif>)
 
 #### Neste exemplo de uso dinâmico, passamos variáveis indicando a emissão de notas fiscais `<a href='${NF}' com uma segunda variável indicando o vencimento ${M_VENC}.`
 

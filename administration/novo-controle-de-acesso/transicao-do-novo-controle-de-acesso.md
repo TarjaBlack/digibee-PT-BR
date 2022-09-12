@@ -35,9 +35,9 @@ Ao final da transição, todos os usuários devem apresentar um ícone de checkm
 
 ![](<../../.gitbook/assets/Imagem 2 (4).png>)
 
-### Tutorial sobre a transição para o novo controle de acesso&#x20;
+### Tutorial sobre a transição para o novo controle de acesso
 
-Você pode assistir ao vídeo a seguir ou continuar lendo esse artigo para aprender como realizar a transição do seu realm para o novo controle de acesso:&#x20;
+Você pode assistir ao vídeo a seguir ou continuar lendo esse artigo para aprender como realizar a transição do seu realm para o novo controle de acesso:
 
 {% embed url="https://vimeo.com/689012591" %}
 
@@ -46,8 +46,6 @@ Você pode assistir ao vídeo a seguir ou continuar lendo esse artigo para apren
 Neste exemplo abaixo, os três usuários já estão vinculados a um ou mais grupos. Ao clicar em "**Verificar**'', é possível visualizar os grupos aos quais o usuário pertence e a lista de permissões de cada um deles.
 
 ![](<../../.gitbook/assets/Imagem 3 (6).png>)
-
-
 
 ### Para usuários ainda sem acessos replicados no novo modelo: <a href="#h_8a410827cf" id="h_8a410827cf"></a>
 
@@ -65,17 +63,13 @@ A transição de usuários pode ser realizada um a um ou de múltiplos usuários
 
 1. Faça login na Digibee Integration Plaform;
 2. Clique no ícone de “Administração”;
-3.  Entre na opção do menu “Usuários”
+3. Entre na opção do menu “Usuários”
 
-
-
-![](<../../.gitbook/assets/image (21).png>)
-
-
+![](<../../.gitbook/assets/image (21) (1).png>)
 
 4\. Busque o usuário na barra de pesquisa;
 
-5\. Clique em **“VERIFICAR”** ao lado do usuário**;**
+5\. Clique em **“VERIFICAR”** ao lado do usuário\*\*;\*\*
 
 ![](<../../.gitbook/assets/Imagem 6 (5).png>)
 
@@ -102,8 +96,6 @@ Nesta tela podemos ver fatores importante como:
 * Um botão de download, que permite baixar um JSON contendo as permissões;
 
 ![](<../../.gitbook/assets/Imagem 9 (2).png>)
-
-
 
 Para realizar a transição de todos os acessos antigos de todos os usuários de uma vez só, tenha certeza que eles já foram vinculados a novos grupos contendo suas antigas permissões. Caso contrário eles perderão acesso às funcionalidades e serviços da Digibee Integration Plaform.
 

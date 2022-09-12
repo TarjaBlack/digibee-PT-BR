@@ -8,7 +8,7 @@ _Subpipeline_ é um subprocesso do _pipeline_ principal. _Subpipelines_ são nec
 
 Vamos imaginar um processo chamado _Validação de Dados de Cliente_. Esse processo obtém os dados de _endpoint_ REST e então verifica se cada registro de cliente possui as informações necessárias. Para iterar por essa coleção de registros, usaremos o componente “For Each” (Processa Clientes).
 
-![](../../.gitbook/assets/Exemplo.png)
+![](<../../.gitbook/assets/Exemplo (1).png>)
 
 Toda vez que um componente com capacidade de iterar por coleções é adicionado a um _pipeline_, 2 _subpipelines_ são criados: _**onProcess**_** ** e _**onException**_.
 
@@ -22,7 +22,7 @@ Nesse _subpipeline_ é implementado o fluxo que processa cada item da coleção.
 
 No caso do processo _Validação de Dados de Cliente_, o _subpipeline **onProcess**_ irá tratar todos os registros da coleção de clientes individualmente, verificando se cada um deles possui o atributo _Data de Nascimento_ preenchido:
 
-![](<../../.gitbook/assets/4 (1).png>)
+![](../../.gitbook/assets/4.png)
 
 Ao término de cada execução do _subpipeline **onProcess**_, um atributo _success_ é retornado, indicando se houve sucesso ou falha na execução. Por padrão, esse atributo é retornado com valor _false_. Assim, você precisa informar explicitamente quando a execução ocorreu conforme esperado.
 
