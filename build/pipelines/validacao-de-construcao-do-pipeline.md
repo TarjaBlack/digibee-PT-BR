@@ -126,4 +126,4 @@ A Cápsula que você está tentando utilizar não existe no _realm_ no qual voc�
 
 
 
-**IMPORTANTE:** esta funcionalidade está em Beta restrito, ou seja, disponível apenas para clientes que tenham interesse em ativar a autorização integrada em seus realms.
+**IMPORTANTE:** esta funcionalidade está em Beta restrito. Para saber mais, leia o artigo [Programa Beta](../../geral/programa-beta.md).
