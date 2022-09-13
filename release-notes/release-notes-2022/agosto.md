@@ -68,6 +68,14 @@ Visando melhorar nossa documentação, criamos o artigo abaixo:
 
 * [Cápsulas Públicas](https://docs.digibee.com/documentation/v/pt-br/build/capsulas/capsulas-publicas)
 
+
+
+
+
+Nós também solucionamos um _bug_:
+
+* **Execuções concluídas:** corrigimos um _bug_ no filtro de tempo do tipo “específico”, que fazia com que a data selecionada fosse travada na data atual.
+
 ## Novidades 02/08/2022
 
 #### **COMPONENTES** <a href="#h_8f6b4d5b07" id="h_8f6b4d5b07"></a>
