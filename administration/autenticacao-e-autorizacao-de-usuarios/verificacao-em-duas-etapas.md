@@ -24,8 +24,6 @@ description: >-
 
 A verificação em duas etapas está habilitada. Tenha seu smartphone sempre em mãos para validar seu próximo acesso.
 
-&#x20;  &#x20;
-
 ## Como faço login quando a Verificação em Duas Etapas está habilitada? <a href="#como-fao-login-quando-a-verificao-em-duas-etapas-est-habilitada" id="como-fao-login-quando-a-verificao-em-duas-etapas-est-habilitada"></a>
 
 1\. Acesse [https://www.godigibee.io/login](https://www.godigibee.io/login)
@@ -33,7 +31,7 @@ A verificação em duas etapas está habilitada. Tenha seu smartphone sempre em 
 2\. Será apresentada a tela de login:
 
 \
-![](<../../.gitbook/assets/Imagem 2 (5).png>)
+![](<../../.gitbook/assets/Imagem 2 (5) (1).png>)
 
 3\. Informe o seu realm, e-mail e senha;
 
@@ -42,13 +40,10 @@ A verificação em duas etapas está habilitada. Tenha seu smartphone sempre em 
 ![](<../../.gitbook/assets/Imagem 3 (4).png>)
 
 \
-5\. No campo "Verificação em Duas Etapas", digite o código mostrado no app e clique em Login.&#x20;
+5\. No campo "Verificação em Duas Etapas", digite o código mostrado no app e clique em Login.
 
 \
-_**Importante: Enquanto a Verificação em Duas Etapas estiver habilitada, em todo login será necessário informar o código gerado pelo app.**_\
-
-
-&#x20; &#x20;
+_**Importante: Enquanto a Verificação em Duas Etapas estiver habilitada, em todo login será necessário informar o código gerado pelo app.**_\\
 
 ## Como desabilito a Verificação em Duas Etapas? <a href="#como-desabilito-a-verificao-em-duas-etapas" id="como-desabilito-a-verificao-em-duas-etapas"></a>
 

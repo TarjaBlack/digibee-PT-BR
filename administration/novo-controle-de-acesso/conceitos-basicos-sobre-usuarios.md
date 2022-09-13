@@ -68,7 +68,7 @@ Para arquivar um usuário siga os seguintes passos:
 
 6\. Uma tela de confirmação aparecerá, clique em **CONFIRMAR**.
 
-![](<../../.gitbook/assets/Imagem 6 (1).png>)
+![](<../../.gitbook/assets/Imagem 6 (1) (1).png>)
 
 ## Perguntas frequentes <a href="#h_75acb46a36" id="h_75acb46a36"></a>
 

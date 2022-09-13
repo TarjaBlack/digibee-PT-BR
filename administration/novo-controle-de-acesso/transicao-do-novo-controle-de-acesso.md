@@ -53,7 +53,7 @@ Se algum usuário não pertencer a um ou mais grupos, você verá o ícone de at
 
 ao lado do usuário.
 
-![](<../../.gitbook/assets/Imagem 4.png>)
+![](<../../.gitbook/assets/Imagem 4 (1).png>)
 
 Neste cenário, você deve criar ou atualizar grupos e papéis para adicionar permissões aos usuários.
 
