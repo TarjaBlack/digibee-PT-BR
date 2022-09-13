@@ -32,7 +32,7 @@ Para criar um grupo, siga os passos a seguir:
 
 4\. Clique no botão **+ CRIAR** no canto superior direito;
 
-![](<../../.gitbook/assets/Imagem 2 (7).png>)
+![](<../../.gitbook/assets/Imagem 2.png>)
 
 5\. Preencha os campos de nome, descrição e caso deseje já incluir os usuários, selecione os usuários que pertencerão àquele grupo;
 

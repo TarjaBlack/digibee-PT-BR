@@ -60,7 +60,7 @@ Para editar um papel siga os seguintes passos:
 2. Clique no ícone de “Administração”
 3. Entre na opção do menu “Papéis”;
 
-![](<../../.gitbook/assets/Imagem 4 (4).png>)
+![](<../../.gitbook/assets/Imagem 4 (4) (1).png>)
 
 5\. Busque na barra de pesquisa ou na tela de navegação o papel a ser editado;
 

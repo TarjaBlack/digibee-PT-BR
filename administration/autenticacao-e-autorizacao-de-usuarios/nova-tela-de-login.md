@@ -16,7 +16,7 @@ Caso tenha esquecido sua senha, basta clicar no link "esqueceu sua senha?" e pre
 ### Verificação em duas etapas <a href="#verificao-em-duas-etapas" id="verificao-em-duas-etapas"></a>
 
 Depois de fazer seu login, acesse o menu de usuário clicando sobre seu email no canto superior direito da plataforma.\
-![](<../../.gitbook/assets/Imagem 2 (1) (1).png>)
+![](<../../.gitbook/assets/Imagem 2 (1).png>)
 
 Clique em "Autenticação".\
 Em seguida será exibido na tela um QRcode que deve ser escaneado usando um aplicativo de autenticação. Baixe um aplicativo de autenticação (_Google Authenticator,_ _Microsoft Authenticator_ ou _LastPass Password Manager_) através da loja do sistema operacional do seu smartphone.\

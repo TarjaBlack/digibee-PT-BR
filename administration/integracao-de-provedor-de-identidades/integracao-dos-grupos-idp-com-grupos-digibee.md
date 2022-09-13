@@ -42,7 +42,7 @@ Para criar uma integração, siga os seguintes passos:
 
 5 Clique no botão **+ CRIAR** no canto superior direito;
 
-<figure><img src="../../.gitbook/assets/Imagem 4 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 4 (2).png" alt=""><figcaption></figcaption></figure>
 
 6\. \*\*\*\* Um formulário solicitando a seguintes informações será exibido:
 
@@ -77,7 +77,7 @@ A simulação da integração é um mecanismo que tem por objetivo validar, atra
 
 Para iniciar a simulação, acesse o menu **Administração** > **Grupos** > **Aba Integrações de grupos** e localize o ícone ‘play’ (na coluna Ações) ao lado da integração que será simulada.
 
-<figure><img src="../../.gitbook/assets/Imagem 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 1 (10).png" alt=""><figcaption></figcaption></figure>
 
 **Nota:** Para integrações que foram criadas e que não foram simuladas ainda, o status é exibido como **não executado**.
 
@@ -85,7 +85,7 @@ Para iniciar a simulação, acesse o menu **Administração** > **Grupos** > **A
 
 Nesta etapa, é obrigatório fornecer o e-mail do usuário de teste para que a Plataforma identifique o usuário e gere o link para a simulação do login via IdP.
 
-<figure><img src="../../.gitbook/assets/Imagem 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 2 (6).png" alt=""><figcaption></figcaption></figure>
 
 **IMPORTANTE:**&#x20;
 
@@ -100,20 +100,20 @@ Após clicar em testar, é exibida a tela “Instruções de testes de integraç
 
 * Caso o e-mail de login fornecido esteja sendo utilizado numa outra integração, uma tela de aviso aparece alertando que, caso clique em **INICIAR,** o teste que já está utilizando o e-mail fornecido será **cancelado**.
 
-<figure><img src="../../.gitbook/assets/Imagem 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 4 (4).png" alt=""><figcaption></figcaption></figure>
 
 **4. Copiar link**
 
 Na tela de “Instruções de teste de integração”, a Plataforma oferece o link a ser copiado para a fazer a simulação. Neste momento, o temporizador começa a fazer a contagem regressiva.
 
-<figure><img src="../../.gitbook/assets/Imagem 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 5 (5).png" alt=""><figcaption></figcaption></figure>
 
 **IMPORTANTE:**
 
 * O link fornecido precisa ser colado numa janela anônima. Caso o link seja colado numa aba/janela normal, a Plataforma entende que foi feito um login real e substitui a sessão atual. Assim, o fluxo de teste feito até o momento é perdido.&#x20;
 * Caso seja clicado **FECHAR** neste momento, aparece um aviso informando que não será mais possível ver nem o tempo restante  bem como o link de login do IdP.
 
-<figure><img src="../../.gitbook/assets/Imagem 6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 6 (4).png" alt=""><figcaption></figcaption></figure>
 
 * Se porventura for dada continuidade clicando em **SAIR**, a sua integração terá o status de **pendente** até que o tempo limite termine, passando para o status de **expirado**.
 
@@ -124,7 +124,7 @@ Existe duas formas para abrir a janela anônima no navegador Chrome:
 * Ctrl + Shift + N
 * Personalizar e controlar o Google Chrome > janela anônima
 
-<figure><img src="../../.gitbook/assets/Imagem 7 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 7 (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 **IMPORTANTE:** Para cada simulação a ser testada, é necessário abrir uma nova janela anônima e não somente uma nova aba anônima.
 

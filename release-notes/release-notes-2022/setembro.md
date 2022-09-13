@@ -14,7 +14,7 @@ Criamos uma nova funcionalidade, e partir de agora, os clientes que queiram ativ
 
 IMPORTANTE: essa funcionalidade está em Beta restrito, ou seja, disponível apenas para clientes que tenham interesse em ativar a autorização integrada em seus realms.
 
-Para saber mais, leia a nossa documentação sobre como [simular integrações de grupos](https://docs.digibee.com/documentation/v/pt-br/administration/integracao-de-provedor-de-identidades/integracao-dos-grupos-idp-com-grupos-digibee#como-simular-uma-integracao).
+Para saber mais, leia a nossa documentação sobre [como simular integrações de grupos](https://docs.digibee.com/documentation/v/pt-br/administration/integracao-de-provedor-de-identidades/integracao-dos-grupos-idp-com-grupos-digibee#como-simular-uma-integracao).
 
 ####
 
