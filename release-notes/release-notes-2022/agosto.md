@@ -38,6 +38,14 @@ Visando melhorar nossa documentação, criamos os artigos abaixo:
 * [Chaves de API (Consumers)](https://docs.digibee.com/documentation/v/pt-br/configurations/chaves-de-api-consumers)
 * [Como enviar logs para serviços externos](https://docs.digibee.com/documentation/v/pt-br/tutoriais-e-melhores-praticas/como-enviar-logs-para-servicos-externos)
 
+
+
+
+
+Nós também solucionamos um _bug_:
+
+* **Execuções concluídas:** corrigimos a unidade de tempo exibida na coluna “Tempo decorrido” da tabela de execuções concluídas. A unidade correta é milissegundos, não segundos, como mostrado anteriormente.
+
 ## Novidades 17/08/2022
 
 #### NOVO PORTAL DE DOCUMENTAÇÃO
