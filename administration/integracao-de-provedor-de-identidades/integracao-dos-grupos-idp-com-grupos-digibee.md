@@ -42,7 +42,7 @@ Para criar uma integração, siga os seguintes passos:
 
 5 Clique no botão **+ CRIAR** no canto superior direito;
 
-<figure><img src="../../.gitbook/assets/Imagem 4 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 4 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 6\. \*\*\*\* Um formulário solicitando a seguintes informações será exibido:
 
@@ -124,7 +124,7 @@ Existe duas formas para abrir a janela anônima no navegador Chrome:
 * Ctrl + Shift + N
 * Personalizar e controlar o Google Chrome > janela anônima
 
-<figure><img src="../../.gitbook/assets/Imagem 7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 7 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **IMPORTANTE:** Para cada simulação a ser testada, é necessário abrir uma nova janela anônima e não somente uma nova aba anônima.
 

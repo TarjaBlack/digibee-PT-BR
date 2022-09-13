@@ -40,7 +40,7 @@ Além disso, ao clicar em **Editar** o usuário a plataforma também exibe outra
 
 * **Ícone:** indica que o usuário está no modelo integrado e que faz login via provedor de identidade. Ao clicar nele, o Gestor é direcionado para a página de Integração de Grupos.
 
-<figure><img src="../../.gitbook/assets/Imagem 5 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 5 (2).png" alt=""><figcaption></figcaption></figure>
 
 * **Aba de Grupos:** visualização e edição dos grupos atribuídos àquele usuário. Caso seja um um usuário que faz login via IdP e o realm esteja com a autorização integrada ativa, a aba em questão só exibe a opção de visualização (conforme alerta).
 

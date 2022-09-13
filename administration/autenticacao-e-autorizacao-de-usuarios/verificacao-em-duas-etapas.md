@@ -31,7 +31,7 @@ A verificação em duas etapas está habilitada. Tenha seu smartphone sempre em 
 2\. Será apresentada a tela de login:
 
 \
-![](<../../.gitbook/assets/Imagem 2 (5) (1).png>)
+![](<../../.gitbook/assets/Imagem 2 (5).png>)
 
 3\. Informe o seu realm, e-mail e senha;
 
