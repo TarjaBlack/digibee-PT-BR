@@ -14,7 +14,7 @@ As atualizações passaram a permitir o agrupamento e reuso de perfis de acessos
 
 Agora o **Controle de Acesso** possui 3 etapas de criação de acesso: **usuários, papéis e grupos**. Desta forma, para o usuário ter acesso às funcionalidades da Plataforma o mesmo deve pertencer a um grupo que por sua vez possui um ou mais papéis associados
 
-![](<../../.gitbook/assets/Imagem 1.png>)
+![](<../../.gitbook/assets/Imagem 1 (1).png>)
 
 **Usuários:** Representam as pessoas que têm acesso à Plataforma e possui os dados pessoais dos usuário, como nome, sobrenome, e-mail e fuso horário .
 

@@ -38,25 +38,43 @@ Para criar um grupo, siga os passos a seguir:
 
 6\. Após preencher, clique em **SALVAR ;**
 
-7\. Procure o grupo na barra de pesquisa;
+### **Como vincular um papel a um grupo**
 
-![](<../../.gitbook/assets/Imagem 3 (5).png>)
+Pré-requisitos:&#x20;
 
-8\. Clique em “Editar”;
+* O papel com as permissões necessárias precisa já ter sido criado previamente. Para saber mais, leia nossa [documentação sobre como criar um papel](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/papeis-do-controle-de-acesso#h\_3cbcaa1595).
 
-9\. A janela de edição do grupo abrirá, clique em "Permissões";
+1.Clique em **GRUPOS** a partir do menu **ADMINISTRAÇÃO**
 
-![](<../../.gitbook/assets/Imagem 4 (1).png>)
+<figure><img src="../../.gitbook/assets/Imagem 1.png" alt=""><figcaption></figcaption></figure>
 
-10\. Nesta tela, clique em “**+ Vínculo"**
+2\. Clique no ícone para **EDITAR** a partir do grupo que deseja vincular papéis.
 
-![](<../../.gitbook/assets/imagem 5 (1).png>)
+<figure><img src="../../.gitbook/assets/imagem 2.png" alt=""><figcaption></figcaption></figure>
 
-11\. Selecione o papel e o ambiente.
+3\. **** Clique na aba **PERMISSÕES** para acessar a lista de vínculos.
 
-12\. Clique em **SALVAR**.
+<figure><img src="../../.gitbook/assets/Imagem 3.png" alt=""><figcaption></figcaption></figure>
 
-**IMPORTANTE:** É possível vincular um ou mais papéis ao mesmo grupo, criando um acúmulo de permissões.
+4\. Clique em **+ VÍNCULO**
+
+<figure><img src="../../.gitbook/assets/Imagem 4.png" alt=""><figcaption></figcaption></figure>
+
+5\. Clique na caixa de seleção referente a **PAPEL** e escolha o papel previamente criado com as permissões desejadas.
+
+<figure><img src="../../.gitbook/assets/Imagem 5.png" alt=""><figcaption></figcaption></figure>
+
+**Observação:** neste momento, dependendo do papel selecionado, você poderá escolher o ambiente que esse papel será vinculado: **test** ou **prod.**
+
+<figure><img src="../../.gitbook/assets/Imagem 6.png" alt=""><figcaption></figcaption></figure>
+
+6\. Clique em **SALVAR.**
+
+<figure><img src="../../.gitbook/assets/Imagem 7.png" alt=""><figcaption></figcaption></figure>
+
+**Observação:** É possível vincular um ou mais papéis ao mesmo grupo, criando um acúmulo de permissões. Para verificar as permissões vinculadas ao grupo, clique em **RESUMO DE PERMISSÕES**
+
+<figure><img src="../../.gitbook/assets/Imagem 8.png" alt=""><figcaption></figcaption></figure>
 
 ## Como editar um grupo <a href="#h_8dbe8e58b4" id="h_8dbe8e58b4"></a>
 

@@ -15,7 +15,7 @@ Quando ativada a integração de Grupos IdP, o controle de acesso terá o seguin
 
 <figure><img src="../../.gitbook/assets/Imagem 1 (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/imagem 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagem 2 (2).png" alt=""><figcaption></figcaption></figure>
 
 **Nota:** Caso solicitado, a opção de usuários nativos pode ser desativada no realm, após a validação de todo o ambiente.
 
@@ -36,13 +36,13 @@ Para criar uma integração, siga os seguintes passos:
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 
-<figure><img src="../../.gitbook/assets/Imagem 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 3 (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Selecione a aba “Integração de grupos”;
 
 5 Clique no botão **+ CRIAR** no canto superior direito;
 
-<figure><img src="../../.gitbook/assets/Imagem 4 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 4 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 6\. \*\*\*\* Um formulário solicitando a seguintes informações será exibido:
 
@@ -113,7 +113,7 @@ Na tela de “Instruções de teste de integração”, a Plataforma oferece o l
 * O link fornecido precisa ser colado numa janela anônima. Caso o link seja colado numa aba/janela normal, a Plataforma entende que foi feito um login real e substitui a sessão atual. Assim, o fluxo de teste feito até o momento é perdido.&#x20;
 * Caso seja clicado **FECHAR** neste momento, aparece um aviso informando que não será mais possível ver nem o tempo restante  bem como o link de login do IdP.
 
-<figure><img src="../../.gitbook/assets/Imagem 6 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 6 (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Se porventura for dada continuidade clicando em **SAIR**, a sua integração terá o status de **pendente** até que o tempo limite termine, passando para o status de **expirado**.
 
@@ -184,7 +184,7 @@ Para editar uma integração, siga os seguintes passos:
 
     **Nota:** É possível buscar a integração por qualquer atributo da integração (nome, código, ID, grupo Digibee, ou SAML)
 
-<figure><img src="../../.gitbook/assets/Imagem 5 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 5 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Clique no ícone de lápis (“Editar integração”);
 
@@ -209,7 +209,7 @@ Para arquivar uma integração siga os seguintes passos:
 1. Vá para a aba “Integração de grupos”;
 2. Busque a integração desejada na barra de pesquisa;
 
-<figure><img src="../../.gitbook/assets/Imagem 7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 7 (5).png" alt=""><figcaption></figcaption></figure>
 
 **Nota:** É possível buscar a integração por qualquer atributo da integração (nome, código, ID, grupo Digibee, ou SAML)
 
