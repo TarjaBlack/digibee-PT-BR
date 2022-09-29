@@ -1,16 +1,16 @@
 ---
-description: Saiba mais sobre o ambiente de construção de pipelines da Digibee Integration Plaform
+description: >-
+  Saiba mais sobre o ambiente de construção de pipelines da Digibee Integration
+  Plaform
 ---
 
 # Canvas
 
 O _Canvas_ é o ambiente de construção de _pipelines_ da Digibee Integration Plaform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
 
-Todo _pipeline_ é composto por um _trigger_ e por pelo menos um componente, que devem ser conectados entre si para que possam estabelecer um fluxo de integração. No _Canvas_ você consegue organizar e configurar o _trigger_ e os componentes do seu _pipeline_ de acordo com a sua necessidade de negócio.
-
 ## Informações iniciais <a href="#h_c2c95ff14a" id="h_c2c95ff14a"></a>
 
-Para criar seu pipeline, acesse a página de Build e clique em **+CRIAR**, selecionando a opção _**Pipeline**_.
+Para criar seu pipeline, acesse a aba Build e clique em **+CRIAR**, selecionando a opção _**Pipeline**_.
 
 ## Configurações do _pipeline_ <a href="#h_8e2011d038" id="h_8e2011d038"></a>
 
@@ -28,9 +28,11 @@ Na página de configurações do _pipeline_, se necessário, configure os seguin
 * **InSpec:** especifique a entrada do fluxo do _pipeline_.
 * **OutSpec:** especifique a saída do fluxo do _pipeline_.
 
+Após configurar o _pipeline_, você poderá partir para a construção do fluxo.&#x20;
+
 ## Crie um fluxo <a href="#h_c35f0fc316" id="h_c35f0fc316"></a>
 
-Após configurar o _pipeline_, você poderá partir para a construção do fluxo. Para saber mais sobre os elementos que constituem um _pipeline_, continue lendo.
+Todo _pipeline_ é composto por um _trigger_ e por pelo menos um componente, que devem ser conectados entre si para que possam estabelecer um fluxo de integração. No _Canvas_ você consegue organizar e configurar o _trigger_ e os componentes do seu _pipeline_ de acordo com a sua necessidade de negócio.
 
 ### Trigger <a href="#h_080f25dba4" id="h_080f25dba4"></a>
 
@@ -65,7 +67,7 @@ Para configurar o componente a ser utilizado, clique na engrenagem sobre ele (![
 
 ![](<../../.gitbook/assets/06 (1).gif>)
 
-Para saber mais a respeito de cada componente disponível em nossa lista, acesse a nossa [Documentação de componentes](broken-reference).
+Para saber mais a respeito de cada componente disponível em nossa lista, acesse a nossa [Documentação de componentes](broken-reference/).
 
 ### Botões de controle do _Canvas_ <a href="#h_18ac7e89a6" id="h_18ac7e89a6"></a>
 
