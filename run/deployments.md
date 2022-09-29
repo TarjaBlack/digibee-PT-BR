@@ -14,7 +14,7 @@ O processo para implantar o _pipeline_ em teste ou em produção é simples. Vej
 
 1. Acesse a tela de _Run_ e clique no botão "+ CRIAR".
 
-![](<../.gitbook/assets/1 - Run - Tela Principal.jpg>)
+![](<../.gitbook/assets/1 - Run - Tela Principal (1).jpg>)
 
 2\. Selecione um pipeline e sua versão, e em seguida, escolha o tamanho da implantação, como no exemplo abaixo:
 
