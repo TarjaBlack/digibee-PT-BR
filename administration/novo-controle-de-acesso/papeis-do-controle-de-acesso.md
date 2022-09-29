@@ -37,6 +37,8 @@ Para criar um papel siga os seguintes passos:
 
 7\. Após feito esse processo, clique em **SALVAR** no canto inferior direito.
 
+**Observação:** Após criar um papel, você pode vinculá-lo a um grupo. Para saber mais leia a nossa [documentação sobre como vincular um papel a um grupo](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/grupos-do-controle-de-acesso#como-vincular-um-papel-a-um-grupo).
+
 Existe também a possibilidade de criar os papéis a partir dos papéis já predefinidos na Plataforma usando a opção de duplicar papéis:
 
 1. Entre no menu “Papéis”.
