@@ -20,7 +20,7 @@ As versões _Minor_, por sua vez, contemplam as alterações realizadas dentro d
 
 Por padrão, toda vez que um _pipeline_ é modificado e salvo, a Plataforma entende que uma nova versão _Minor_ deve ser criada e o faz automaticamente. Por exemplo: quando implantamos a última versão _Minor_ de um _pipeline_ e posteriormente o alteramos, uma outra versão _Minor_ é gerada para que a versão implantada seja preservada.
 
-Além disso, versões _Minor_s não permitem múltiplas implantações simultâneas, pois essas são sempre pertinentes a uma mesma versão _Major_.
+Além disso, versões Minors não permitem múltiplas implantações simultâneas, pois essas são sempre pertinentes a uma mesma versão _Major_.
 
 **IMPORTANTE:** Para que uma nova versão _Major_ seja gerada, é necessário realizar o procedimento manualmente a partir de uma versão _Major_ existente.
 
@@ -50,7 +50,7 @@ Dentre as principais informações trazidas pelo Histórico, estão:
 * **Versão:** Cada versão _Minor_ do _pipeline_;
 * **Alterado por:** Nome e e-mail do usuário que alterou determinada versão do _pipeline_ pela última vez;
 * **Alterado em:** Data e hora em que a versão _Minor_ foi alterada;
-* **Descrição do **_**pipeline**_**:** Descrição do _pipeline_.
+* **Descrição do pipeline:** Descrição do _pipeline_.
 
 Também é possível selecionar quantos itens (ou seja, versões) por página você deseja que o histórico apresente e, além disso, navegar por ele utilizando a paginação no canto inferior direito.
 
@@ -60,15 +60,15 @@ Também é possível selecionar quantos itens (ou seja, versões) por página vo
 
 A depender da versão _Minor_ do _pipeline_, determinadas ações podem ser realizadas através do próprio Histórico. São elas:
 
-### Editar _pipeline_ ![](<../../.gitbook/assets/04 (15).png>)__ <a href="#h_8458b2c7ed" id="h_8458b2c7ed"></a>
+### Editar _pipeline_ ![](<../../.gitbook/assets/04 (15).png>) <a href="#h_8458b2c7ed" id="h_8458b2c7ed"></a>
 
-Através do Histórico, é possível editar a versão _Minor_ mais recente __ do _pipeline_ desde que esta não esteja arquivada.
+Através do Histórico, é possível editar a versão _Minor_ mais recente do _pipeline_ desde que esta não esteja arquivada.
 
 Para editá-la, basta clicar no botão “Editar _pipeline_”, que lhe redirecionará ao _Canvas_.
 
 **IMPORTANTE:** Ao editar a última versão do _pipeline_ e clicar em “Salvar”, você estará criando uma nova versão _Minor_, portanto, a versão atual do _pipeline_. Além disso, é importante informar que apenas a última versão _Minor_ pode ser editada.
 
-### Visualizar _pipeline_ ![](<../../.gitbook/assets/05 (9).png>)__ <a href="#h_f14bdfa10b" id="h_f14bdfa10b"></a>
+### Visualizar _pipeline_ ![](<../../.gitbook/assets/05 (9).png>) <a href="#h_f14bdfa10b" id="h_f14bdfa10b"></a>
 
 Todas as versões _Minor_ antigas de um _pipeline_ são disponibilizadas para visualização desde que não estejam arquivadas.
 
@@ -90,13 +90,13 @@ Também é possível visualizar a versão atual do pipeline através do botão �
 
 Por fim, ao clicar em “Voltar para o histórico” no canto superior esquerdo, você será redirecionado ao histórico.
 
-### Arquivar _pipeline_ ![](<../../.gitbook/assets/08 (2).png>)__ <a href="#h_b7f9ca2319" id="h_b7f9ca2319"></a>
+### Arquivar _pipeline_ ![](<../../.gitbook/assets/08 (2).png>) <a href="#h_b7f9ca2319" id="h_b7f9ca2319"></a>
 
 É possível arquivar qualquer versão do _pipeline_, seja ela antiga ou a mais recente, clicando em “Arquivar pipeline”.
 
 **IMPORTANTE:** Apenas versões não arquivadas podem ser implantadas nos ambientes de **test** e **prod** no menu Run. Ou seja, se uma versão está arquivada, ela não será apresentada no momento da criação de novas implantações.
 
-### Restaurar _pipeline_ ![](<../../.gitbook/assets/09 (1).png>)__ <a href="#h_19edab1486" id="h_19edab1486"></a>
+### Restaurar _pipeline_ ![](<../../.gitbook/assets/09 (1).png>) <a href="#h_19edab1486" id="h_19edab1486"></a>
 
 Uma vez que uma versão do _pipeline_ é arquivada, é possível restaurá-la através do botão “Restaurar _pipeline_” e, assim, disponibilizá-la acesso.
 
@@ -109,10 +109,3 @@ Uma vez que uma versão do _pipeline_ é arquivada, é possível restaurá-la at
 ## Termos de uso <a href="#h_71d1c196fa" id="h_71d1c196fa"></a>
 
 Ao utilizar o Histórico de versões de _pipelines_, você automaticamente faz sua adesão ao programa Beta e concorda com os termos de uso. Para mais informações sobre a adesão, acesse a [documentação sobre versões beta](../../geral/programa-beta.md).
-
-## Feedback <a href="#h_d46ec2ce21" id="h_d46ec2ce21"></a>
-
-Gostaríamos de saber quais são os seus comentários e sugestões sobre essa funcionalidade. Veja como é fácil enviar o seu feedback:
-
-![](../../.gitbook/assets/11.gif)
-
