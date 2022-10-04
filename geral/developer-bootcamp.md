@@ -34,23 +34,8 @@ Clientes / Parceiros / Digibees que lidam com integrações no seu dia a dia e q
 * SQL&#x20;
 * NoSQL
 
-## Limitações da capacidade do Bootcamp&#x20;
 
-O Bootcamp tem limitações na capacidade de participantes (que também dependem do tipo de participante) e cada classe possui uma quantidade separada de slots para cada tipo de participante.&#x20;
 
-Considerando que em nossas aulas o número máximo de participantes é de 15 pessoas, caso você não seja contemplado no próximo Bootcamp ficaremos muito felizes em contar com você nos Bootcamps subsequentes.
+## Como se inscrever?
 
-## Como se inscrever?&#x20;
-
-Para se inscrever, você precisa preencher este formulário disponível em 3 idiomas. Escolha o formulário referente ao idioma que você possui maior familiaridade ([PT-BR](https://forms.gle/UDg5dhRjXceqYJZE8), [EN](https://forms.gle/dbzaBcArct5fhstU8), [ES](https://forms.gle/6qgv7h7w2reBRbTE8)) e preencha as informações listadas aqui:&#x20;
-
-* Nome completo&#x20;
-* Cargo&#x20;
-* Departamento (opcional)&#x20;
-* Empresa&#x20;
-* E-mail&#x20;
-* Número de telefone (opcional)&#x20;
-
-## Próximas Turmas
-
-Entre em contato com o Suporte para saber sobre as próximas turmas. Esperamos que esse Bootcamp traga muitos aprendizados e ótimos resultados ao utilizar a nossa Plataforma no seu dia a dia de trabalho.
+Entre em contato com o Suporte para saber sobre como se inscrever nas próximas turmas. Esperamos que esse Bootcamp traga muitos aprendizados e ótimos resultados ao utilizar a nossa Plataforma no seu dia a dia de trabalho.
