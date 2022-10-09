@@ -6,7 +6,7 @@ description: Saiba como implantar um pipeline em teste ou em produção
 
 Uma vez que o fluxo do _pipeline_ tenha sido criado, o próximo passo é disponibilizá-lo para uso, isto é, implantá-lo. Na aba _Run_, você consegue implantar seu _pipeline_ em segundos com base no tamanho da implantação. Essa implantação pode acontecer tanto no ambiente de teste (_test_) quanto no ambiente de produção (_prod_).
 
-Se quiser saber mais sobre a etapa de Run, onde é feita a gestão das implantações, consulte o [artigo Runtime](runtime.md).
+Se quiser saber mais sobre a etapa de Run, onde é feita a gestão das implantações, consulte o [artigo Conceitos de Run](runtime.md).
 
 ### **Como implantar um **_**pipeline**_**?** <a href="#h_a34f6b010d" id="h_a34f6b010d"></a>
 

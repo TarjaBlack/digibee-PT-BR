@@ -10,7 +10,7 @@ Na aba de execuções concluídas, você pode acompanhar as execuções dos pipe
 
 Você pode selecionar o ambiente desejado no canto superior esquerdo. Quando você seleciona um ambiente, a página inteira é atualizada para mostrar os dados relativos aos pipelines naquele ambiente.
 
-![](<../.gitbook/assets/seletordeambiente (2).png>)
+![](<../.gitbook/assets/seletordeambiente (2) (1).png>)
 
 ## **Campos de Busca**
 

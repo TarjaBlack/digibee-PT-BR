@@ -46,7 +46,7 @@ Pré-requisitos:&#x20;
 
 1.Clique em **GRUPOS** a partir do menu **ADMINISTRAÇÃO**
 
-<figure><img src="../../.gitbook/assets/Imagem 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 1 (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. Clique no ícone para **EDITAR** a partir do grupo que deseja vincular papéis.
 
@@ -54,15 +54,15 @@ Pré-requisitos:&#x20;
 
 3\. **** Clique na aba **PERMISSÕES** para acessar a lista de vínculos.
 
-<figure><img src="../../.gitbook/assets/Imagem 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 3 (3).png" alt=""><figcaption></figcaption></figure>
 
 4\. Clique em **+ VÍNCULO**
 
-<figure><img src="../../.gitbook/assets/Imagem 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 4 (4).png" alt=""><figcaption></figcaption></figure>
 
 5\. Clique na caixa de seleção referente a **PAPEL** e escolha o papel previamente criado com as permissões desejadas.
 
-<figure><img src="../../.gitbook/assets/Imagem 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 5 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Observação:** neste momento, dependendo do papel selecionado, você poderá escolher o ambiente que esse papel será vinculado: **test** ou **prod.**
 
@@ -70,7 +70,7 @@ Pré-requisitos:&#x20;
 
 6\. Clique em **SALVAR.**
 
-<figure><img src="../../.gitbook/assets/Imagem 7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 7 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Observação:** É possível vincular um ou mais papéis ao mesmo grupo, criando um acúmulo de permissões. Para verificar as permissões vinculadas ao grupo, clique em **RESUMO DE PERMISSÕES**
 

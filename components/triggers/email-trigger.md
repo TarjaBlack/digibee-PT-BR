@@ -2,7 +2,7 @@
 description: Conheça o trigger e saiba como utilizá-lo.
 ---
 
-# Email Trigger&#x20;
+# Email Trigger
 
 _Suportamos apenas o protocolo IMAP, sem anexos._\
 &#x20;   &#x20;
@@ -29,7 +29,7 @@ Digamos que você esteja no Canvas e queira receber dados de uma caixa de e-mail
 **5.** Conecte os seus componentes.\
 **6.** Faça o _deploy_ do _pipeline_:
 
-* Clique em "Runtime", localizado na parte superior da tela.
+* Clique em "Run", localizado na parte superior da tela.
 * Selecione o ambiente, que pode ser _**test**_ ou _**prod**_.
 * Clique em "Criar uma nova implantação".&#x20;
 * Selecione o pipeline com a sua versão e capacidade.

@@ -41,7 +41,7 @@ Para editar um usuário siga os seguintes passos:
 3. Entre na opção do menu “Usuários”;
 4. Busque o usuário na barra de pesquisa;
 
-![](<../../.gitbook/assets/Imagem 3 (3).png>)
+![](<../../.gitbook/assets/Imagem 3 (3) (1).png>)
 
 5\. Clique no ícone de “Editar usuário”;
 

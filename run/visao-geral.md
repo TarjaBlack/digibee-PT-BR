@@ -16,7 +16,7 @@ Ao selecionar a fase Run, o layout da página aparecerá como na imagem abaixo. 
 
 Há dois ambientes nos quais é possível fazer a execução dos _pipelines_: ** **_**test**_ ou _**prod**_.
 
-<figure><img src="../.gitbook/assets/seletordeambiente (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/seletordeambiente (2).png" alt=""><figcaption></figcaption></figure>
 
 O ambiente ** **_**test**_** ** é usado para avaliar a construção do _pipeline_, ou seja, para testar e modificar suas aplicações. Desta forma, você tem um ambiente onde pode validar os _pipelines_ antes de irem para produção.
 
