@@ -31,7 +31,7 @@ Digamos que você esteja no Canvas e queira receber dados de uma caixa de e-mail
 
 **6.** Faça o _deploy_ do pipeline:
 
-* Clique em "Runtime", localizado na parte superior da tela.
+* Clique em "Run", localizado na parte superior da tela.
 * Selecione o ambiente, que pode ser _**test**_ ou _**prod**_.
 * Clique em "Criar uma nova implantação".
 * Selecione o _pipeline_ com a sua versão e capacidade.
