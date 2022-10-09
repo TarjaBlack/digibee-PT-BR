@@ -74,7 +74,7 @@ Por exemplo, se você configurar 10 _consumers_ (SMALL) para a execução do seu
 
 Os ambientes de execução dos _pipelines_ podem ser teste (_test_) e produção (_prod_):
 
-<figure><img src="../.gitbook/assets/seletordeambiente (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/seletordeambiente.png" alt=""><figcaption></figcaption></figure>
 
 O propósito do ambiente de teste é avaliar a construção do _pipeline_ e, por isso, não possui as mesmas características de atendimento do ambiente de produção. Consequentemente, você tem um ambiente de trabalho que permite a livre construção, onde as aplicações podem ser testadas e validadas.
 

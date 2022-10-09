@@ -4,7 +4,7 @@ description: Conheça o trigger e saiba como utilizá-lo.
 
 # REST Trigger
 
-Quando um _pipeline_ é configurado e publicado com o _**REST Trigger**_, um _endpoint_ REST é criado automaticamente. Você pode visualizar esse _endpoint_ após a implantação - basta clicar no cartão do _pipeline_ na tela de Runtime.
+Quando um _pipeline_ é configurado e publicado com o _**REST Trigger**_, um _endpoint_ REST é criado automaticamente. Você pode visualizar esse _endpoint_ após a implantação - basta clicar no cartão do _pipeline_ na tela de Run.
 
 Com esse _trigger_, você pode criar APIs que atendem o padrão REST e definir rapidamente quais os métodos que seu _endpoint_ responderá.
 
