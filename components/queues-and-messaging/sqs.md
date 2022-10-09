@@ -46,7 +46,7 @@ Digamos que você queira utilizar um componente para realizar a subscrição em 
 \
 **6.** Faça o _deploy_ do _pipeline_:
 
-\- Clique em "Runtime", localizado na parte superior da tela.\
+\- Clique em "Run", localizado na parte superior da tela.\
 \- Selecione o ambiente, que pode ser _**test**_ ou _**prod**_.\
 \- Clique em "Criar uma nova implantação".\
 \- Selecione o _pipeline_ com a sua versão e capacidade.\

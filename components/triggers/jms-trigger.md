@@ -81,7 +81,7 @@ Se você deseja disparar o _trigger_, será necessário publicar o _pipeline_.
 
 Veja como realizar o _deploy_:
 
-\- Clique em "Runtime", localizado na parte superior da tela.\
+\- Clique em "Run", localizado na parte superior da tela.\
 \- Selecione o ambiente, que pode ser _**test**_ ou _**prod**_.\
 \- Clique em "Criar uma nova implantação".\
 \- Selecione o _pipeline_ com a sua versão e capacidade.\

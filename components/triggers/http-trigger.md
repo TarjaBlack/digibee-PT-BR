@@ -4,7 +4,7 @@ description: Conheça o trigger e saiba como utilizá-lo.
 
 # HTTP Trigger
 
-Quando um _pipeline_ é configurado e publicado com o _**HTTP Trigger**_, um _endpoint_ HTTP é criado automaticamente. Você pode visualizar esse _endpoint_ após a implantação - basta clicar no cartão do _pipeline_ na tela de Runtime.
+Quando um _pipeline_ é configurado e publicado com o _**HTTP Trigger**_, um _endpoint_ HTTP é criado automaticamente. Você pode visualizar esse _endpoint_ após a implantação - basta clicar no cartão do _pipeline_ na tela de Run.
 
 Com esse _trigger_, você tem a flexibilidade de definir diferentes tipos de conteúdo tanto para a requisição como para a resposta do _endpoint_.
 

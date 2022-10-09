@@ -141,4 +141,4 @@ Quando o _pipeline_ precisar ser executado com um número máximo de _consumers_
 
 Por exemplo, se o _pipeline_ permite a execução de até 2 requisições simultâneas, mas o Runtime esteja configurado com 10 requisições simultâneas e a Cápsulas com 2, então um erro é lançado nas execuções para que as configurações sejam corrigidas. No entanto, se na configuração da Cápsula constar 2 requisições simultâneas, a implantação deve ser configurada com 1 ou 2 _consumers_ no máximo.
 
-Clique [aqui](../../../run/runtime.md) para saber mais sobre Runtime.
+Clique [aqui](../../../run/runtime.md) para saber mais sobre Run.
