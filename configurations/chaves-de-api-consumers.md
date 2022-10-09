@@ -16,15 +16,15 @@ Chaves de API são credenciais de acesso fornecidas para consultas em pipelines 
 
 2\. No menu de configurações, clique em **Chaves de API (Consumers)**.
 
-<figure><img src="../.gitbook/assets/image2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\. Selecione o ambiente (_test_ ou _prod_) e clique em **Criar**.
 
 <figure><img src="../.gitbook/assets/image7 (4).png" alt=""><figcaption></figcaption></figure>
 
-4\. Defina um nome e uma descrição para a chave de API e, na sequência, clique em ![](<../.gitbook/assets/image5 (1) (1).png>) para associar _pipelines_.
+4\. Defina um nome e uma descrição para a chave de API e, na sequência, clique em ![](<../.gitbook/assets/image5 (1).png>) para associar _pipelines_.
 
-<figure><img src="../.gitbook/assets/image1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5\. Selecione o projeto e os _pipelines_ que utilizarão essa autenticação. Confirme a configuração.
 

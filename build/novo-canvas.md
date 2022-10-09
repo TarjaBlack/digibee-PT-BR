@@ -10,9 +10,9 @@ description: >-
 **IMPORTANTE:** a nova versão do Canvas está em Beta restrito. Para saber mais, leia o artigo [Programa Beta](../geral/programa-beta.md).
 {% endhint %}
 
-O Canvas é o ambiente de construção de pipelines da Plataforma Digibee. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando conectores pré-configurados com rapidez e precisão.
+O Canvas é o ambiente de construção de _pipelines_ da Plataforma Digibee. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando conectores pré-configurados com rapidez e precisão.
 
-O Novo Canvas traz melhorias relacionadas à experiência de navegação e construção de pipelines se comparado ao antigo Canvas.
+O Novo Canvas traz melhorias relacionadas à experiência de navegação e construção de _pipelines_ se comparado ao antigo Canvas.
 
 {% hint style="info" %}
 **Nota:** Ambas as versões do Canvas estarão ativas e coexistirão por tempo indeterminado, com suporte disponível para as duas versões.
@@ -24,7 +24,7 @@ Para utilizar o Novo Canvas, acesse a aba **Build** e clique em **USAR NOVO CANV
 
 <figure><img src="../.gitbook/assets/image5.png" alt=""><figcaption></figcaption></figure>
 
-Esse aviso também estará presente em todos os pipelines criados no Canvas antigo. Ao clicar em **USAR NOVO CANVAS**, você será redirecionado para o Novo Canvas e o pipeline será transferido para a nova versão sem perder nenhum conector, não necessitando de reimplantação.
+Esse aviso também estará presente em todos os _pipelines_ criados no Canvas antigo. Ao clicar em **USAR NOVO CANVAS**, você será redirecionado para o Novo Canvas e o _pipeline_ será transferido para a nova versão sem perder nenhum conector, não necessitando de reimplantação.
 
 Ainda na aba **Build**, você também pode acessar o Novo Canvas clicando em **+CRIAR** e em **Pipeline Beta**.
 
@@ -38,9 +38,9 @@ A tag **Novo Canvas** estará destacada em azul no cabeçalho:
 
 <figure><img src="../.gitbook/assets/image13.png" alt=""><figcaption></figcaption></figure>
 
-### Configurações do pipeline
+### Configurações do _pipeline_
 
-Antes de partir para a construção do fluxo, é preciso configurar o pipeline. Para isso, clique na engrenagem (![](../.gitbook/assets/image16.png)) no canto superior direito do Canvas.
+Antes de partir para a construção do fluxo, é preciso configurar o _pipeline_. Para isso, clique na engrenagem (![](../.gitbook/assets/image16.png)) no canto superior direito do Canvas.
 
 <figure><img src="../.gitbook/assets/image15.png" alt=""><figcaption></figcaption></figure>
 
@@ -76,7 +76,7 @@ Os conectores representam etapas do fluxo e são escolhidos de acordo com as sua
 **Nota:** Nesta nova versão do Canvas, a seta magnética facilita a conexão entre conectores.
 {% endhint %}
 
-Para excluir uma linha conectora ou um conector específico do fluxo, clique no ícone de lixeira (![](../.gitbook/assets/image1.png)) e no **X**.
+Para excluir uma linha conectora ou um conector específico do fluxo, clique no ícone de lixeira (![](<../.gitbook/assets/image1 (1).png>)) e no **X**.
 
 <figure><img src="../.gitbook/assets/image10.gif" alt=""><figcaption></figcaption></figure>
 
@@ -114,7 +114,7 @@ Além das funcionalidades apresentadas neste artigo, o Novo Canvas conta com out
 
 Durante a coexistência das duas versões do Canvas, você pode transportar seu _pipeline_ para o Canvas antigo. Para isso, abra seu _pipeline_ no Novo Canvas, clique no menu de ajuda e, em seguida, na opção **Suporte ao novo Canvas**.
 
-<figure><img src="../.gitbook/assets/image2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
 Em seguida, basta responder por que você gostaria de usar o Canvas antigo e clicar em **MUDAR**.
 
