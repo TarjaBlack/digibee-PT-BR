@@ -23,6 +23,7 @@
   * [Test mode](build/canvas/test-mode/README.md)
     * [ERRO: Network error: Failed to fetch (test-mode)](build/canvas/test-mode/erro-network-error-failed-to-fetch-test-mode.md)
   * [Intellisense](build/canvas/intellisense.md)
+* [Novo Canvas](build/novo-canvas.md)
 * [Pipeline](build/pipelines/README.md)
   * [Subpipelines](build/pipelines/subpipelines.md)
   * [Histórico de versões de pipelines](build/pipelines/historico-de-versoes-de-pipelines.md)

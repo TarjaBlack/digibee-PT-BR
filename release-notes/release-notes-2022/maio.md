@@ -22,7 +22,7 @@
 
 **IMPORTANTE**: em breve adicionaremos essa funcionalidade em outras páginas da Plataforma.
 
-![](../../.gitbook/assets/image1.png)
+![](<../../.gitbook/assets/image1 (2).png>)
 
 #### **ASSOCIAÇÃO DE ITENS**
 
