@@ -270,7 +270,7 @@
   * [Jornada de Integração](tutoriais-e-melhores-praticas/integration-empowerment-team-iet/jornada-de-integracao.md)
 * [Exemplos de paginação](tutoriais-e-melhores-praticas/exemplos-de-paginacao.md)
 * [Processamento em lote](tutoriais-e-melhores-praticas/processamento-em-lote.md)
-* [Arquitetura Orientada a Eventos](tutoriais-e-melhores-praticas/arquitetura-orientada-a-eventos.md)
+* [Arquitetura orientada a eventos](tutoriais-e-melhores-praticas/arquitetura-orientada-a-eventos.md)
 * [Pipelines: checklist de construção](tutoriais-e-melhores-praticas/pipelines-checklist-de-construcao.md)
 * [Validando mensagens em um Consumer](tutoriais-e-melhores-praticas/validando-mensagens-em-um-consumer.md)
 * [Funções e Utilidades para banco de dados](tutoriais-e-melhores-praticas/funcoes-e-utilidades-para-banco-de-dados.md)

@@ -64,7 +64,7 @@ Para aprender mais sobre tamanho da implementação, execuções simultâneas e 
 
 ### Mensagens na fila do pipeline
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 Esse gráfico mostra o número total de mensagens na fila de execução, isto é, o número de mensagens aguardando para serem processadas, para todas as réplicas do pipeline, durante diversos intervalos durante o período de tempo selecionado.
 
