@@ -22,7 +22,7 @@ Chaves de API são credenciais de acesso fornecidas para consultas em pipelines 
 
 <figure><img src="../.gitbook/assets/image7 (4).png" alt=""><figcaption></figcaption></figure>
 
-4\. Defina um nome e uma descrição para a chave de API e, na sequência, clique em ![](<../.gitbook/assets/image5 (1).png>) para associar _pipelines_.
+4\. Defina um nome e uma descrição para a chave de API e, na sequência, clique em ![](<../.gitbook/assets/image5 (1) (1).png>) para associar _pipelines_.
 
 <figure><img src="../.gitbook/assets/image1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 

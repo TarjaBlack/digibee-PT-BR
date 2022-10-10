@@ -22,7 +22,7 @@ O Novo Canvas traz melhorias relacionadas à experiência de navegação e const
 
 Para utilizar o Novo Canvas, acesse a aba **Build** e clique em **USAR NOVO CANVAS**.
 
-<figure><img src="../../.gitbook/assets/image5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image5 (1).png" alt=""><figcaption></figcaption></figure>
 
 Esse aviso também estará presente em todos os _pipelines_ criados no Canvas antigo. Ao clicar em **USAR NOVO CANVAS**, você será redirecionado para o Novo Canvas e o _pipeline_ será transferido para a nova versão sem perder nenhum conector, não necessitando de reimplantação.
 
@@ -62,7 +62,7 @@ Todo _pipeline_ é composto por um _trigger_ e por pelo menos um conector, que d
 
 ### Trigger <a href="#h_d80b42e462" id="h_d80b42e462"></a>
 
-O primeiro passo para criar um fluxo é escolher um _trigger_. O _trigger_ é o elemento que define como a execução do _pipeline_ será iniciada - através de uma chamada externa, em resposta a um evento ou via agendamento, por exemplo. Para defini-lo, basta clicar na ícone de engrenagem sobre o trigger (![](<../../.gitbook/assets/image4 (1).png>)) e escolher entre as opções listadas, conforme o exemplo abaixo:
+O primeiro passo para criar um fluxo é escolher um _trigger_. O _trigger_ é o elemento que define como a execução do _pipeline_ será iniciada - através de uma chamada externa, em resposta a um evento ou via agendamento, por exemplo. Para defini-lo, basta clicar na ícone de engrenagem sobre o trigger (![](../../.gitbook/assets/image4.png)) e escolher entre as opções listadas, conforme o exemplo abaixo:
 
 <figure><img src="../../.gitbook/assets/image11.gif" alt=""><figcaption></figcaption></figure>
 
@@ -76,7 +76,7 @@ Os conectores representam etapas do fluxo e são escolhidos de acordo com as sua
 **Nota:** Nesta nova versão do Canvas, a seta magnética facilita a conexão entre conectores.
 {% endhint %}
 
-Para excluir uma linha conectora ou um conector específico do fluxo, clique no ícone de lixeira (![](<../../.gitbook/assets/image1 (1) (2).png>)) e no **X**.
+Para excluir uma linha conectora ou um conector específico do fluxo, clique no ícone de lixeira (![](<../../.gitbook/assets/image1 (1).png>)) e no **X**.
 
 <figure><img src="../../.gitbook/assets/image10.gif" alt=""><figcaption></figcaption></figure>
 
@@ -98,7 +98,7 @@ Usando o Test mode, você pode executar e testar seu _pipeline_ diretamente da �
 
 Por fim, após construir seu fluxo de integração, clique em **SALVAR** no canto superior direito da tela, e defina um nome, uma descrição (opcional) e o projeto no qual o _pipeline_ estará alocado.
 
-<figure><img src="../../.gitbook/assets/image3 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image7 (3).png" alt=""><figcaption></figcaption></figure>
 
