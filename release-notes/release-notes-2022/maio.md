@@ -22,13 +22,13 @@
 
 **IMPORTANTE**: em breve adicionaremos essa funcionalidade em outras páginas da Plataforma.
 
-![](<../../.gitbook/assets/image1 (3).png>)
+![](../../.gitbook/assets/image1.png)
 
 #### **ASSOCIAÇÃO DE ITENS**
 
 * Melhoramos a experiência de associação de itens na Plataforma para as páginas Usuários, Grupos, Projetos, digibeectl e Chaves de API. Agora, ao clicar fora do campo de seleção, os itens selecionados são automaticamente associados. Isso previne problemas relacionados a associações não salvas caso o usuário esqueça de clicar no botão de confirmação (ícone ☑).
 
-![](<../../.gitbook/assets/image2 (1).png>)
+![](<../../.gitbook/assets/image2 (1) (2).png>)
 
 Nós também solucionamos alguns _bugs_:
 
