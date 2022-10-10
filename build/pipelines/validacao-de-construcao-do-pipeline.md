@@ -6,7 +6,7 @@ description: Conheça funcionalidade de validação de construção de pipelines
 
 O Novo _Canvas_ exibe alertas durante a construção de _pipelines_ que ajudam os desenvolvedores a identificarem e corrigirem problemas comuns mais rapidamente.
 
-![](../../.gitbook/assets/gravacao-linter.gif)
+<figure><img src="../../.gitbook/assets/beta (2).gif" alt=""><figcaption></figcaption></figure>
 
 ## Localizar problemas <a href="#h_37abb7de8a" id="h_37abb7de8a"></a>
 
