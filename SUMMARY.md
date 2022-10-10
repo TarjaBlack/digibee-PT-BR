@@ -4,6 +4,7 @@
   * [Visão Geral do Layout da Plataforma](master/visao-geral-do-layout-da-plataforma.md)
 * [Release Notes](release-notes/README.md)
   * [Release Notes 2022](release-notes/release-notes-2022/README.md)
+    * [Outubro](release-notes/release-notes-2022/outubro.md)
     * [Setembro](release-notes/release-notes-2022/setembro.md)
     * [Agosto](release-notes/release-notes-2022/agosto.md)
     * [Julho](release-notes/release-notes-2022/julho.md)
