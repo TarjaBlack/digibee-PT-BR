@@ -24,6 +24,6 @@ No Novo Canvas, você pode navegar pelo _pipeline_ utilizando o minimapa no cant
 
 <figure><img src="../../.gitbook/assets/image2 (2).png" alt=""><figcaption></figcaption></figure>
 
-### _Auto pan_ <a href="#h_0009c98480" id="h_0009c98480"></a>
+### Movimentação automática <a href="#h_0009c98480" id="h_0009c98480"></a>
 
 Com o _auto pan_, ao segurar um conector e o arrastar, a nova tela segue o cursor, facilitando a navegação em _pipelines_ muito grandes. Desse modo, você consegue arrastar um conector para qualquer área do Canvas, e a tela o acompanhará.
