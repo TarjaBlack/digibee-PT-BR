@@ -1,11 +1,8 @@
-# Realease Notes 2020
+# Release notes 2020
 
 ## Novidades 22/12/2020
 
-EEscrito por Erick Rubiales\
-Atualizado há mais de uma semana
 
-Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 ### COMPONENTES <a href="#componentes" id="componentes"></a>
 

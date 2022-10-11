@@ -3,7 +3,7 @@
 * [Visão Geral](README.md)
   * [Visão Geral do Layout da Plataforma](master/visao-geral-do-layout-da-plataforma.md)
 * [Release notes](release-notes/README.md)
-  * [Release Notes 2022](release-notes/release-notes-2022/README.md)
+  * [Release notes 2022](release-notes/release-notes-2022/README.md)
     * [Outubro](release-notes/release-notes-2022/outubro.md)
     * [Setembro](release-notes/release-notes-2022/setembro.md)
     * [Agosto](release-notes/release-notes-2022/agosto.md)
@@ -14,8 +14,8 @@
     * [Março](release-notes/release-notes-2022/marco.md)
     * [Fevereiro](release-notes/release-notes-2022/fevereiro.md)
     * [Janeiro](release-notes/release-notes-2022/janeiro.md)
-  * [Release Notes 2021](release-notes/release-notes.md)
-  * [Realease Notes 2020](release-notes/realease-notes-2020.md)
+  * [Release notes 2021](release-notes/release-notes.md)
+  * [Release notes 2020](release-notes/realease-notes-2020.md)
 * [Digibee Academy](https://digibee.academy)
 
 ## Build
