@@ -46,7 +46,7 @@ Confira a documentação completa dos [gráficos de Pipeline Metrics](../../moni
 
 #### **AUDITORIA**
 
-Para auxiliar na governança e no mapeamento de ações, toda e qualquer operação realizada dentro da Digibee Integration Plaform é armazenada em segurança e apresentada no submenu ‘Auditoria’, localizado na página de Administração da Plataforma.
+Para auxiliar na governança e no mapeamento de ações, toda e qualquer operação realizada dentro da Digibee Integration Platform é armazenada em segurança e apresentada no submenu ‘Auditoria’, localizado na página de Administração da Plataforma.
 
 Nos últimos dias, melhoramos a experiência de consulta nos registros em Auditoria, trazendo o campo status:
 
@@ -56,9 +56,9 @@ Para saber mais, leia a [documentação completa de Auditoria](../../administrat
 
 #### **GRUPOS DIGIBEE - INTEGRAÇÃO COM PROVEDORES DE IDENTIDADE**
 
-Agora, você pode gerenciar usuários com seu provedor de identidade corporativo (IdP) e usar os serviços de _Active Directory_ de gerenciamento de identidade e acesso para autenticar usuários quando entrarem na Digibee Integration Plaform.
+Agora, você pode gerenciar usuários com seu provedor de identidade corporativo (IdP) e usar os serviços de _Active Directory_ de gerenciamento de identidade e acesso para autenticar usuários quando entrarem na Digibee Integration Platform.
 
-Para permitir isso, criamos uma seção dedicada chamada Integração de Grupos onde clientes, que possuem seu IdP configurado, possam realizar integrações entre grupos do Provedor de Identidade e grupos de acesso criados na Digibee Integration Plaform seguindo as políticas de controle de acesso por papéis e grupos para obter benefícios como:
+Para permitir isso, criamos uma seção dedicada chamada Integração de Grupos onde clientes, que possuem seu IdP configurado, possam realizar integrações entre grupos do Provedor de Identidade e grupos de acesso criados na Digibee Integration Platform seguindo as políticas de controle de acesso por papéis e grupos para obter benefícios como:
 
 * Maior flexibilidade e escalabilidade ao conceder ou fazer mudanças de permissões para grande volume de usuários;
 * Centralizar o gerenciamento de autorização de acesso no lado do cliente;
@@ -68,7 +68,7 @@ Para permitir isso, criamos uma seção dedicada chamada Integração de Grupos 
 
 Leia o artigo [Integração com Provedor de Identidade](../../administration/integracao-de-provedor-de-identidades/) para saber como configurar seu provedor de identidade.
 
-Leia o artigo sobre [Integração dos grupos IdP com grupos Digibee](../../administration/integracao-de-provedor-de-identidades/integracao-dos-grupos-idp-com-grupos-digibee.md) para saber tudo sobre como fazer suas integrações pela Digibee Integration Plaform.
+Leia o artigo sobre [Integração dos grupos IdP com grupos Digibee](../../administration/integracao-de-provedor-de-identidades/integracao-dos-grupos-idp-com-grupos-digibee.md) para saber tudo sobre como fazer suas integrações pela Digibee Integration Platform.
 
 #### **COMPONENTES**
 
@@ -101,7 +101,7 @@ Nós também solucionamos alguns _bugs_:
 
 #### HISTÓRICO DE VERSÕES DE PIPELINE (BETA) <a href="#h_155638b98e" id="h_155638b98e"></a>
 
-Evoluímos o histórico de versões de pipelines. Essa evolução traz informações mais detalhadas a respeito de cada versão _Minor_ de um pipeline com base em sua versão _Major_. Agora, é possível saber quem editou pela última vez cada versão e quando ela foi alterada, além de saber se determinada versão está implantada e em qual ambiente (test ou prod). Essas informações otimizam a experiência dos usuários da Digibee Integration Plaform no que se refere à organização e ao desenvolvimento de versões de _pipelines_.
+Evoluímos o histórico de versões de pipelines. Essa evolução traz informações mais detalhadas a respeito de cada versão _Minor_ de um pipeline com base em sua versão _Major_. Agora, é possível saber quem editou pela última vez cada versão e quando ela foi alterada, além de saber se determinada versão está implantada e em qual ambiente (test ou prod). Essas informações otimizam a experiência dos usuários da Digibee Integration Platform no que se refere à organização e ao desenvolvimento de versões de _pipelines_.
 
 Também é possível realizar diferentes ações no próprio histórico de versões, como editar a última versão _Minor_ do _pipeline_, visualizar e criar uma nova versão a partir de uma versão existente, e arquivar uma versão específica.\
 Leia a [documentação completa de histórico de versões de pipelines](../../build/pipelines/historico-de-versoes-de-pipelines.md).
@@ -119,7 +119,7 @@ Visando melhorar nossa documentação, atualizamos e criamos os artigos abaixo:
 
 #### TRIGGERS HTTP, HTTP File e REST - CORS (BETA) <a href="#h_2cb75cb72b" id="h_2cb75cb72b"></a>
 
-Agora, a Digibee Integration Plaform oferece a opção de configurar parâmetros de CORS para o seu realm.
+Agora, a Digibee Integration Platform oferece a opção de configurar parâmetros de CORS para o seu realm.
 
 O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições ao servidor.\
 Esta funcionalidade está em Beta, e para configurá-la é preciso contatar o suporte através do chat da plataforma.

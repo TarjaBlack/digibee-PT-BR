@@ -4,7 +4,7 @@ description: Entenda mais sobre papéis.
 
 # Papéis do Controle de Acesso
 
-Os papéis agrupam as permissões de acesso aos serviços da Digibee Integration Plaform. E devem ser usados para mapear os acessos dos usuários que fazem um trabalho similar dentro da Plataforma. Para isso, basta criar um papel e agrupar todas as permissões daquela função.
+Os papéis agrupam as permissões de acesso aos serviços da Digibee Integration Platform. E devem ser usados para mapear os acessos dos usuários que fazem um trabalho similar dentro da Plataforma. Para isso, basta criar um papel e agrupar todas as permissões daquela função.
 
 É possível, **criar, editar, duplicar e arquivar** um papel e também duplicar papéis de sistema para facilitar a criação de novos papéis. Para saber mais sobre papéis de sistemas, leia o artigo sobre [Papéis de sistema e grupos padrão.](https://intercom.help/godigibee/pt-BR/articles/5811758-papeis-de-sistema-e-grupos-padrao)
 
@@ -21,7 +21,7 @@ Leia os seguintes artigo e conheça mais sobre o Novo Controle de Acesso:
 
 Para criar um papel siga os seguintes passos:
 
-1. Faça login na Digibee Integration Plaform.
+1. Faça login na Digibee Integration Platform.
 2. Clique no ícone de “Administração”
 3. Entre na opção do menu “Papéis”.
 
@@ -58,7 +58,7 @@ O mesmo pode ser feito com papéis criados na Plataforma, facilitando a criaçã
 
 Para editar um papel siga os seguintes passos:
 
-1. Faça login na Digibee Integration Plaform;
+1. Faça login na Digibee Integration Platform;
 2. Clique no ícone de “Administração”
 3. Entre na opção do menu “Papéis”;
 
@@ -80,7 +80,7 @@ Para editar um papel siga os seguintes passos:
 
 Para arquivar um papel siga os seguintes passos:
 
-1. Faça login na Digibee Integration Plaform;
+1. Faça login na Digibee Integration Platform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Papéis”;
 4. Busque na barra de pesquisa ou na tela de navegação o papel a ser arquivado;

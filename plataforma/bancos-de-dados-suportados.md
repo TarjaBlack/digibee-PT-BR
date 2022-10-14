@@ -1,7 +1,7 @@
 ---
 description: >-
   Saiba quais são os tipos de bancos de dados e versões suportadas pela
-  Digibee Integration Plaform.
+  Digibee Integration Platform.
 ---
 
 # Bancos de Dados suportados
@@ -14,7 +14,7 @@ O acesso aos bancos de dados é feito por meio do uso de componentes próprios p
 
 Se quiser saber mais sobre os componentes acima, basta clicar em cima dos seus nomes ou das suas versões para ler os respectivos artigos.
 
-Atualmente a Digibee Integration Plaform suporta os seguintes bancos de dados:
+Atualmente a Digibee Integration Platform suporta os seguintes bancos de dados:
 
 ## SQL Server <a href="#sql-server" id="sql-server"></a>
 
@@ -80,7 +80,7 @@ Nas versões:
 jdbc:mysql://<host>:<port>/<database>
 ```
 
-**IMPORTANTE:** a Digibee Integration Plaform desabilita a interpretação de _strings_ Maria DB pelo _driver_ Mysql. No entanto, é possível utilizar o _driver_ Maria DB para se conectar a versões mais antigas do Mysql.
+**IMPORTANTE:** a Digibee Integration Platform desabilita a interpretação de _strings_ Maria DB pelo _driver_ Mysql. No entanto, é possível utilizar o _driver_ Maria DB para se conectar a versões mais antigas do Mysql.
 
 ## Maria DB <a href="#maria-db" id="maria-db"></a>
 
@@ -94,7 +94,7 @@ Na versão:
 jdbc:mariadb://<host>:<port>/<database>
 ```
 
-**IMPORTANTE:** a Digibee Integration Plaform desabilita a interpretação de _strings_ Maria DB pelo _driver_ Mysql.
+**IMPORTANTE:** a Digibee Integration Platform desabilita a interpretação de _strings_ Maria DB pelo _driver_ Mysql.
 
 ## Progress <a href="#progress" id="progress"></a>
 
@@ -250,7 +250,7 @@ Clique [aqui](https://docs.snowflake.com/en/user-guide/jdbc-configure.html) para
 
 **IMPORTANTE:**
 
-**1.** Está sendo utilizada a versão 3.10.3 do _driver_ JDBC devido a uma limitação nas suas versões mais atuais - não é possível trabalhar com micro serviço alocando memória de 64MB, configuração referente a um _pipeline small_ na Digibee Integration Plaform. Para mais informações sobre o _change log_ desse _driver_, clique [aqui](https://docs.snowflake.com/en/release-notes/client-change-log-jdbc.html).
+**1.** Está sendo utilizada a versão 3.10.3 do _driver_ JDBC devido a uma limitação nas suas versões mais atuais - não é possível trabalhar com micro serviço alocando memória de 64MB, configuração referente a um _pipeline small_ na Digibee Integration Platform. Para mais informações sobre o _change log_ desse _driver_, clique [aqui](https://docs.snowflake.com/en/release-notes/client-change-log-jdbc.html).
 
 **2.** O Snowflake não suporta os campos CLOB ou BLOB. Com isso, a opção “Blob as File” não funcionará nos componentes DB e Stream DB. Clique [aqui](https://docs.snowflake.com/en/sql-reference/data-types-unsupported.html) e [aqui](https://docs.snowflake.com/en/user-guide/binary-input-output.html) para obter mais informações.
 

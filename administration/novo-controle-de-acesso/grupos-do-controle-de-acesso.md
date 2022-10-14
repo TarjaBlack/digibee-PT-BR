@@ -24,7 +24,7 @@ Leia os seguintes artigos e conheça mais sobre o Novo Controle de Acesso:
 
 Para criar um grupo, siga os passos a seguir:
 
-1. Faça login na Digibee Integration Plaform.
+1. Faça login na Digibee Integration Platform.
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 
@@ -80,7 +80,7 @@ Pré-requisitos:&#x20;
 
 Para editar um grupo, siga os passos a seguir:
 
-1. Faça login na Digibee Integration Plaform.
+1. Faça login na Digibee Integration Platform.
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 
@@ -106,7 +106,7 @@ Para editar um grupo, siga os passos a seguir:
 
 Para arquivar um grupo, siga os passos abaixo:
 
-1. Faça login na Digibee Integration Plaform.
+1. Faça login na Digibee Integration Platform.
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 

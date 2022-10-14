@@ -4,7 +4,7 @@ description: Tutorial para receber informações do status page da plataforma
 
 # Status Page
 
-Acesse o site [https://www.digibee.com.br/](https://www.digibee.com.br/) vá até o footer(rodapé) e clique no link Status da Digibee Integration Plaform
+Acesse o site [https://www.digibee.com.br/](https://www.digibee.com.br/) vá até o footer(rodapé) e clique no link Status da Digibee Integration Platform
 
 ![](../.gitbook/assets/01.PNG)
 

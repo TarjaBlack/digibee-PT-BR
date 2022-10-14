@@ -47,7 +47,7 @@ Visando melhorar a experiência dos nossos usuários e dar mais clareza no uso d
 
 Realizamos melhorias na experiência de auditoria. Agora, os logs de auditoria contam com novos dados:
 
-Serviço - identificação da funcionalidade da Digibee Integration Plaform que foi auditada. Ex.: pipelines, globals, accounts.
+Serviço - identificação da funcionalidade da Digibee Integration Platform que foi auditada. Ex.: pipelines, globals, accounts.
 
 Ação - a ação realizada que originou o registro. Ex.: created, updated, deleted, viewed.
 
@@ -218,7 +218,7 @@ Nós também solucionamos um bug:
 
 ### digibeectl - BETA Restricted <a href="#h_8746b8c8a7" id="h_8746b8c8a7"></a>
 
-O digibeectl é o CLI (command-line interface) da Digibee que permite a execução de uma série de passos relacionados aos serviços disponíveis na Digibee Integration Plaform HIP, até então somente disponíveis através da interface gráfica. Para saber mais sobre o digibeectl e sua documentação [clique](https://intercom.help/godigibee/pt-BR/articles/5214735-guia-de-uso-do-digibeectl).\
+O digibeectl é o CLI (command-line interface) da Digibee que permite a execução de uma série de passos relacionados aos serviços disponíveis na Digibee Integration Platform HIP, até então somente disponíveis através da interface gráfica. Para saber mais sobre o digibeectl e sua documentação [clique](https://intercom.help/godigibee/pt-BR/articles/5214735-guia-de-uso-do-digibeectl).\
 \
 **IMPORTANTE:** Solicite sua participação no programa Beta Restricted do digibeectl via [chat ](https://www.godigibee.io/login)da plataforma ou com o time de Customer Success. Para entender o que é o programa Beta clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5267114-programa-beta).\
 
@@ -427,7 +427,7 @@ Tornou-se possível especificar o _charset_ do arquivo a ser lido pelo component
 
 ### CÁPSULAS PÚBLICAS <a href="#h_605356faa6" id="h_605356faa6"></a>
 
-Pensando facilitar cada vez mais o seu dia-a-dia com a Digibee Integration Plaform, estamos disponibilizando Cápsulas prontas para utilização.
+Pensando facilitar cada vez mais o seu dia-a-dia com a Digibee Integration Platform, estamos disponibilizando Cápsulas prontas para utilização.
 
 Veja quais são as Coleções que estão com novidades:
 
@@ -624,7 +624,7 @@ Nós também solucionamos alguns _bugs_:
 
 ### CÁPSULAS PÚBLICAS <a href="#h_721962c0d1" id="h_721962c0d1"></a>
 
-Pensando facilitar cada vez mais o seu dia-a-dia com a Digibee Integration Plaform, estamos disponibilizando Cápsulas prontas para utilização.
+Pensando facilitar cada vez mais o seu dia-a-dia com a Digibee Integration Platform, estamos disponibilizando Cápsulas prontas para utilização.
 
 Veja quais são as Coleções que estão com novidades:
 
@@ -644,7 +644,7 @@ Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5261176-digibee-too
 
 ## Novidades Digibee
 
-O que estamos entregando para melhorar a sua experiência com a Digibee Integration Plaform.
+O que estamos entregando para melhorar a sua experiência com a Digibee Integration Platform.
 
 ### **Tenha acesso ao novo **_**layout**_** e a Projetos!** <a href="#h_e137583221" id="h_e137583221"></a>
 
@@ -653,7 +653,7 @@ Sabia que a partir do dia **25/05/2021** você terá acesso à versão beta do n
 \
 **Novo layout**
 
-O novo _layout_ da Digibee Integration Plaform é o primeiro passo da revolução que estamos promovendo na nossa interface. A ideia é que você usufrua de uma navegação mais objetiva e com uma estética mais agradável, amigável e consistente. Com isso também queremos te oferecer, de maneira mais ágil, funcionalidades como Projetos.\
+O novo _layout_ da Digibee Integration Platform é o primeiro passo da revolução que estamos promovendo na nossa interface. A ideia é que você usufrua de uma navegação mais objetiva e com uma estética mais agradável, amigável e consistente. Com isso também queremos te oferecer, de maneira mais ágil, funcionalidades como Projetos.\
 \
 **Projetos**
 
@@ -723,7 +723,7 @@ Gostaríamos de compartilhar algumas melhorias e novidades:
 
 #### gRPC <a href="#h_c9677d898d" id="h_c9677d898d"></a>
 
-Disponibilizamos um novo componente que torna possíveis chamadas gRPC através da Digibee Integration Plaform. Com isso você pode executar chamadas do tipo _unary_ e _client stream_. Leia o artigo sobre o componente _gRPC_ clicando [aqui](https://intercom.help/godigibee/pt-BR/articles/5222262-grpc).
+Disponibilizamos um novo componente que torna possíveis chamadas gRPC através da Digibee Integration Platform. Com isso você pode executar chamadas do tipo _unary_ e _client stream_. Leia o artigo sobre o componente _gRPC_ clicando [aqui](https://intercom.help/godigibee/pt-BR/articles/5222262-grpc).
 
 #### Stream JSON File Reader <a href="#h_e288051798" id="h_e288051798"></a>
 
@@ -758,7 +758,7 @@ Nós também solucionamos alguns _bugs_:
 
 ### CÁPSULAS PÚBLICAS <a href="#h_78dc1f17aa" id="h_78dc1f17aa"></a>
 
-Pensando facilitar cada vez mais o seu dia a dia com a Digibee Integration Plaform, estamos disponibilizando Cápsulas prontas para utilização.
+Pensando facilitar cada vez mais o seu dia a dia com a Digibee Integration Platform, estamos disponibilizando Cápsulas prontas para utilização.
 
 Veja quais são as Coleções de Cápsulas que estão com novidades:
 
@@ -801,7 +801,7 @@ Lançamos uma funcionalidade que te permite acompanhar o que está acontecendo c
 
 ### NAVEGAÇÃO DA PLATAFORMA <a href="#h_30c8fc1751" id="h_30c8fc1751"></a>
 
-Para que você se familiarize melhor com os termos e conceitos relacionados à navegação da Digibee Integration Plaform, vamos lançar uma série de artigos esclarecedores.
+Para que você se familiarize melhor com os termos e conceitos relacionados à navegação da Digibee Integration Platform, vamos lançar uma série de artigos esclarecedores.
 
 Para começar, clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5182067-runtime) e leia sobre _Runtime_.
 
@@ -864,7 +864,7 @@ Corrigimos a informação de retenção de dados nas telas:
 
 ### CÁPSULAS PÚBLICAS <a href="#h_4f19e8dfaf" id="h_4f19e8dfaf"></a>
 
-Pensando facilitar cada vez mais o seu dia-a-dia com a Digibee Integration Plaform, estamos disponibilizando Cápsulas prontas para utilização.
+Pensando facilitar cada vez mais o seu dia-a-dia com a Digibee Integration Platform, estamos disponibilizando Cápsulas prontas para utilização.
 
 Veja quais são as Coleções que estão com novidades:
 

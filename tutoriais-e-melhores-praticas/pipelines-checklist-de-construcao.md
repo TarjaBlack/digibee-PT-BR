@@ -17,7 +17,7 @@ Ao utilizar os _triggers_ HTTP, API REST e HTTP File, serviços serão expostos 
 
 **API Key** é uma credencial de acesso fornecida para consultas em _pipelines_ que utilizam os _triggers_ mencionados acima. Essa é a garantia mínima de segurança exigida. Recomendamos que você utilize a API Key sempre que possível e que reforce a segurança com o uso de JWT (JSON Web Token).
 
-Para gerar uma chave (API Key) na nossa Digibee Integration Plaform, acesse "_Configurações > Consumers_", escolha o ambiente e clique em _CRIAR:_
+Para gerar uma chave (API Key) na nossa Digibee Integration Platform, acesse "_Configurações > Consumers_", escolha o ambiente e clique em _CRIAR:_
 
 ![](<../.gitbook/assets/img1 (1).png>)
 

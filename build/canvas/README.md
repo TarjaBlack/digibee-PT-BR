@@ -1,12 +1,12 @@
 ---
 description: >-
   Saiba mais sobre o ambiente de construção de pipelines da Digibee Integration
-  Plaform
+  Platform
 ---
 
 # Canvas
 
-O _Canvas_ é o ambiente de construção de _pipelines_ da Digibee Integration Plaform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
+O _Canvas_ é o ambiente de construção de _pipelines_ da Digibee Integration Platform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
 
 ## Informações iniciais <a href="#h_c2c95ff14a" id="h_c2c95ff14a"></a>
 
@@ -77,7 +77,7 @@ Você pode facilmente navegar pelo pipeline através dos botões **Reorganizar**
 
 ### Test mode <a href="#h_ae41fc1aa6" id="h_ae41fc1aa6"></a>
 
-O Test mode é uma funcionalidade da Digibee Integration Plaform que permite que você execute e teste seu _pipeline_ diretamente da área de desenvolvimento. Utilize o Test mode sempre que quiser avaliar o fluxo de integração, depurar e solucionar problemas. Para saber mais sobre essa funcionalidade, leia o artigo [Test mode](test-mode/).
+O Test mode é uma funcionalidade da Digibee Integration Platform que permite que você execute e teste seu _pipeline_ diretamente da área de desenvolvimento. Utilize o Test mode sempre que quiser avaliar o fluxo de integração, depurar e solucionar problemas. Para saber mais sobre essa funcionalidade, leia o artigo [Test mode](test-mode/).
 
 ## Salve o _pipeline_ <a href="#h_aa813df937" id="h_aa813df937"></a>
 

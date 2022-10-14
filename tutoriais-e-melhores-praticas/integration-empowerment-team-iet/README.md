@@ -10,7 +10,7 @@ O **Integration Empowerment Team (IET)** é a equipe responsável por liderar a 
 
 1. Define e orquestra a disciplina de integração
 2. Implementa a Hybrid Integration Platform
-3. Utiliza a Digibee Integration Plaform como ferramenta de trabalho
+3. Utiliza a Digibee Integration Platform como ferramenta de trabalho
 4. Provê serviços de suporte às integrações
 5. Descreve boas práticas de integrações
 6. Atua como provedor de serviços, e não como entidade normativa

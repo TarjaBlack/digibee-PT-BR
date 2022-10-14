@@ -21,7 +21,7 @@ Dê uma olhada nos parâmetros de configuração desse componente:
 
 #### Tratamento de erros padrão (customErrorEnabled) <a href="#tratamento-de-erros-padro-customerrorenabled" id="tratamento-de-erros-padro-customerrorenabled"></a>
 
-O _**Throw Error**_ pode ser utilizado para o tratamento de erros padrão. Erro padrão é aquele que segue as definições da Digibee Integration Plaform e que contém um código e uma mensagem.
+O _**Throw Error**_ pode ser utilizado para o tratamento de erros padrão. Erro padrão é aquele que segue as definições da Digibee Integration Platform e que contém um código e uma mensagem.
 
 Quando esse tipo de erro resulta na interrupção do _pipeline_, então a seguinte saída é produzida:
 

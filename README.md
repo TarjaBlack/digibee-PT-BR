@@ -18,7 +18,7 @@ Visite: [https://www.digibee.com.br](https://intercom.help/godigibee/pt-BR/)
 
 A Plataforma de Integração da Digibee conecta aplicações e serviços corporativos 10x mais rápido usando sua abordagem de Integration Low-Code, Cloud Native e Full Life-Cycle. Através de uma arquitetura moderna de integração, a Digibee executa com segurança suas integrações, oferecendo alto desempenho, flexibilidade e resiliência.&#x20;
 
-A Digibee Integration Plaform reduz drasticamente a complexidade dos ambientes de integração e permite que você transforme digitalmente seus sistemas legados 10 vezes mais rápido.&#x20;
+A Digibee Integration Platform reduz drasticamente a complexidade dos ambientes de integração e permite que você transforme digitalmente seus sistemas legados 10 vezes mais rápido.&#x20;
 
 Acesse a plataforma de integração Digibee em: [https://www.godigibee.io](https://www.godigibee.io)
 
@@ -32,6 +32,6 @@ Este portal de documentação está organizado nas seguintes seções:&#x20;
 * **Administração** - Em “Administração”, você aprenderá como gerenciar todos os recursos de governança, como auditoria e controle de acesso.
 * **Configurações** - Aprenda como lidar com suas configurações de _realm_, como Globals, Contas (Accounts), Chaves de API (Consumers), Relacionamento e Multi-Instância.
 * **Geral** - Esta seção apresenta recursos, documentos e programas gerais.
-* **Componentes** - Aqui você pode acessar nossa documentação de referência para Triggers e Conectores da Digibee Integration Plaform para construir um pipeline.&#x20;
+* **Componentes** - Aqui você pode acessar nossa documentação de referência para Triggers e Conectores da Digibee Integration Platform para construir um pipeline.&#x20;
 * **Tutoriais e Melhores Práticas -**  Acesse nossos guias e dicas para desenvolver os melhores pipelines.
-* **Plataforma -** Confira esta seção para saber mais sobre como a Digibee Integration Plaform foi implementada.
+* **Plataforma -** Confira esta seção para saber mais sobre como a Digibee Integration Platform foi implementada.

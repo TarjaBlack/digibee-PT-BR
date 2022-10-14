@@ -6,7 +6,7 @@ description: >-
 
 # Criação de Coleções de Cápsulas
 
-Cápsulas são funcionalidades poderosas da Digibee Integration Plaform, as quais permitem a criação de componentes personalizáveis e reaproveitáveis em inúmeros _pipelines_, sem requisição de licenças adicionais. Através das Cápsulas também é possível compartilhar unidades funcionais dentro e fora do seu _realm_.
+Cápsulas são funcionalidades poderosas da Digibee Integration Platform, as quais permitem a criação de componentes personalizáveis e reaproveitáveis em inúmeros _pipelines_, sem requisição de licenças adicionais. Através das Cápsulas também é possível compartilhar unidades funcionais dentro e fora do seu _realm_.
 
 Este artigo apresenta as melhores práticas na criação de Cápsulas e na organização das suas Coleções. Com isso, você deixa as suas Cápsulas ainda mais polidas, seja para uso interno ou externo.
 

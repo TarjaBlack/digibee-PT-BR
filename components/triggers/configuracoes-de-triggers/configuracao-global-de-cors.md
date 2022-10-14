@@ -4,7 +4,7 @@ description: Saiba mais sobre CORS para triggers HTTP, HTTP File e Rest.
 
 # Configuração Global de CORS
 
-O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições ao servidor. Na Digibee Integration Plaform, temos a opção de configurar os parâmetros do CORS de forma global. Ao configurar CORS globalmente, todas as _triggers_ que conversam utilizando o protocolo HTTP vão utilizar essas configurações e retornar os _headers_ de resposta conforme a especificação do CORS. Abaixo são exemplos da configuração de CORS.
+O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições ao servidor. Na Digibee Integration Platform, temos a opção de configurar os parâmetros do CORS de forma global. Ao configurar CORS globalmente, todas as _triggers_ que conversam utilizando o protocolo HTTP vão utilizar essas configurações e retornar os _headers_ de resposta conforme a especificação do CORS. Abaixo são exemplos da configuração de CORS.
 
 ```
 "Access-Control-Allow-origin":"meudominio1.com,meudominio2.com",

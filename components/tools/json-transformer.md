@@ -114,7 +114,7 @@ Neste exemplo, veja como renomear "a" para "id" e "b" para "name". As configura�
 
 * **Editando propriedades**
 
-Os valores podem ser transformados aplicando o _Double Braces_ e funções contidas na Digibee Integration Plaform. Essa propriedade pode estar em um _object_, _array_ ou na raiz.
+Os valores podem ser transformados aplicando o _Double Braces_ e funções contidas na Digibee Integration Platform. Essa propriedade pode estar em um _object_, _array_ ou na raiz.
 
 É possível aplicar as funções como _FORMATDATE, CONCAT, REPLACE, FORMATNUMBER_, dentre outras.
 

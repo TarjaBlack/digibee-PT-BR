@@ -41,9 +41,9 @@ Um certificado TLS é um arquivo de dados que inclui a já mencionada chave púb
 
 O aperto de mão TLS é um procedimento para se verificar o certificado TLS, bem como confirmar se o servidor possui a chave privada (ou não). O aperto de mão TLS, também determinará como a encriptação será efetuada dado que o aperto de mão esteja completo.
 
-## Como utilizar mTLS na Digibee Integration Plaform?         <a href="#docs-internal-guid-e445404a-7fff-7de6-10a8-08f5790d34c3" id="docs-internal-guid-e445404a-7fff-7de6-10a8-08f5790d34c3"></a>
+## Como utilizar mTLS na Digibee Integration Platform?         <a href="#docs-internal-guid-e445404a-7fff-7de6-10a8-08f5790d34c3" id="docs-internal-guid-e445404a-7fff-7de6-10a8-08f5790d34c3"></a>
 
-A Digibee Integration Plaform permite o consumo e publicação de APIs que utilizem o protocolo mTLS para identificar clientes e servidores (através de certificados TLS).&#x20;
+A Digibee Integration Platform permite o consumo e publicação de APIs que utilizem o protocolo mTLS para identificar clientes e servidores (através de certificados TLS).&#x20;
 
 Este artigo trata da publicação de APIs com mTLS habilitado. Para configurar e utilizar mTLS em suas APIs, siga os passos abaixo:
 

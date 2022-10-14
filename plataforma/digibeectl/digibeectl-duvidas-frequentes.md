@@ -6,7 +6,7 @@ description: Tire suas dúvidas sobre digibeectl
 
 **O que é o digibeectl?**
 
-O digibeectl é o CLI (_command-line interface_) da Digibee que permite a execução de uma série de passos relacionados aos serviços disponíveis na Digibee Integration Plaform HIP, até então somente disponíveis através da interface gráfica.
+O digibeectl é o CLI (_command-line interface_) da Digibee que permite a execução de uma série de passos relacionados aos serviços disponíveis na Digibee Integration Platform HIP, até então somente disponíveis através da interface gráfica.
 
 **Quais funcionalidades são resolvidas pelo digibeectl?**
 
@@ -24,7 +24,7 @@ Sim, o digibeectl baseia-se na arquitetura de segurança da Digibee. Um token ex
 
 **Como funciona o versionamento e a manutenção do digibeectl?**
 
-O digibeectl segue a cadência de releases da Digibee Integration Plaform. Como é um CLI que é instalado nos ambientes dos clientes, é importante mantê-lo sempre atualizado com as novas versões.
+O digibeectl segue a cadência de releases da Digibee Integration Platform. Como é um CLI que é instalado nos ambientes dos clientes, é importante mantê-lo sempre atualizado com as novas versões.
 
 * Versionamento: major.minor.fix
 * Exemplo da primeira versão: 0.1.x

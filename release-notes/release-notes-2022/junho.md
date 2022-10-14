@@ -8,7 +8,7 @@
 
 #### **INTEGRAÇÃO DE GRUPOS COM PROVEDORES DE IDENTIDADE** <a href="#h_87c2a5f031" id="h_87c2a5f031"></a>
 
-Implementamos a experiência de bloqueio de usuários e grupos integrados da Digibee Integration Plaform. Agora, não será possível atribuir usuários a grupos integrados pela interface da Digibee Integration Plaform. Se o gestor de acessos tentar realizar modificações, um aviso será exibido nas páginas de detalhes do grupo e usuário, informando que as integrações já foram realizadas, e edições deverão ser feitas via provedor de identidade ou na página de Integração de grupos. Veja os alertas:
+Implementamos a experiência de bloqueio de usuários e grupos integrados da Digibee Integration Platform. Agora, não será possível atribuir usuários a grupos integrados pela interface da Digibee Integration Platform. Se o gestor de acessos tentar realizar modificações, um aviso será exibido nas páginas de detalhes do grupo e usuário, informando que as integrações já foram realizadas, e edições deverão ser feitas via provedor de identidade ou na página de Integração de grupos. Veja os alertas:
 
 ![](<../../.gitbook/assets/im1 (1).png>)
 

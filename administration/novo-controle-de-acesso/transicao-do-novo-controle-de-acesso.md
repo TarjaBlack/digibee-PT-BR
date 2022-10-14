@@ -61,7 +61,7 @@ A transição de usuários pode ser realizada um a um ou de múltiplos usuários
 
 ## Como migrar os usuários individualmente <a href="#h_b245713d19" id="h_b245713d19"></a>
 
-1. Faça login na Digibee Integration Plaform;
+1. Faça login na Digibee Integration Platform;
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Usuários”
 
@@ -83,7 +83,7 @@ A transição de usuários pode ser realizada um a um ou de múltiplos usuários
 
 Para facilitar o processo de transição também é possível fazer a revogação em massa dos acessos antigos. No entanto, somente realize este processo caso tenha certeza que todos os usuários foram revisados e que estão com seus acesso configurados de maneira correta. Para realizar a transição em massa siga os seguintes passos:
 
-1. Faça login na Digibee Integration Plaform;
+1. Faça login na Digibee Integration Platform;
 2. Clique no ícone de “Administração” ;
 3. Entre na opção do menu “Usuários”;
 4. Clique em “**VERIFICAR TODOS**” no canto superior direito.
@@ -97,7 +97,7 @@ Nesta tela podemos ver fatores importante como:
 
 ![](<../../.gitbook/assets/Imagem 9 (2).png>)
 
-Para realizar a transição de todos os acessos antigos de todos os usuários de uma vez só, tenha certeza que eles já foram vinculados a novos grupos contendo suas antigas permissões. Caso contrário eles perderão acesso às funcionalidades e serviços da Digibee Integration Plaform.
+Para realizar a transição de todos os acessos antigos de todos os usuários de uma vez só, tenha certeza que eles já foram vinculados a novos grupos contendo suas antigas permissões. Caso contrário eles perderão acesso às funcionalidades e serviços da Digibee Integration Platform.
 
 **IMPORTANTE**: Ao clicar no botão "**REMOVER ACESSOS ANTIGOS**”, caso todos os usuários já tenham sido replicados no novo modelo. Não existirá tela de confirmação, e todos acessos antigos serão desligados.
 

@@ -4,11 +4,11 @@ description: Relembre os principais destaques do 2º trimestre de 2022
 
 # Retrospectiva, Q2/22
 
-Este artigo recapitula as principais funcionalidades lançadas na Digibee Integration Plaform no segundo trimestre de 2022.
+Este artigo recapitula as principais funcionalidades lançadas na Digibee Integration Platform no segundo trimestre de 2022.
 
 ****[**mTLS GA**](../components/triggers/configuracoes-de-triggers/mtls.md)****
 
-O protocolo mútuo TLS (mTLS) já está liberado para todos os clientes (_general availability_). Este protocolo de autenticação reforça a segurança da Digibee Integration Plaform, expondo APIs com mTLS sem que o cliente precise de um _gateway_ de API próprio.
+O protocolo mútuo TLS (mTLS) já está liberado para todos os clientes (_general availability_). Este protocolo de autenticação reforça a segurança da Digibee Integration Platform, expondo APIs com mTLS sem que o cliente precise de um _gateway_ de API próprio.
 
 ****[**Response Headers**](../components/triggers/http-trigger.md)****
 
@@ -24,7 +24,7 @@ Assim como o Componente Kafka, o Trigger Kafka é caracterizado pela velocidade 
 
 [**Auditoria da Plataforma - evolution**](../administration/auditoria.md)
 
-Essa funcionalidade registra toda e qualquer ação que um usuário faz na Plataforma, Portal, API Administrativa ou digibeectl, o que auxilia na governança e mapeamento das ações na Digibee Integration Plaform.
+Essa funcionalidade registra toda e qualquer ação que um usuário faz na Plataforma, Portal, API Administrativa ou digibeectl, o que auxilia na governança e mapeamento das ações na Digibee Integration Platform.
 
 ****[**Cassandra DB Component**](../components/structured-data/cassandra-db.md)****
 
@@ -32,4 +32,4 @@ Com este componente, os clientes Digibee que possuem grandes _workloads_ têm ac
 
 ****[**Azure Blob Storage Component**](../components/file-storage/azure-blob-storage.md)****
 
-Este componente permite aos clientes que usam o Blob Storage da Azure manipular os objetos armazenados na nuvem dentro da Digibee Integration Plaform.
+Este componente permite aos clientes que usam o Blob Storage da Azure manipular os objetos armazenados na nuvem dentro da Digibee Integration Platform.

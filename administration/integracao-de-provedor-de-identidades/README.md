@@ -23,7 +23,7 @@ Uma vez que seu provedor de identidade esteja integrado à Digibee Integration P
 
 * **Single Sign-On:** um logon único que elimina a necessidade de gerenciamento de diversos repositórios de senhas;&#x20;
 * **Autenticação Integrada:** permite que o acesso à plataforma seja verificado pelo próprio IdP, centralizando as informações e facilitando a gestão de acesso;
-* **Autorização integrada:** permite fazer a gestão de grupos do provedor de identidade que estão integrados a grupos de acesso da Digibee Integration Plaform e, dessa forma, controlar quem tem acesso aos serviços que cada grupo integrado Digibee disponibiliza;
+* **Autorização integrada:** permite fazer a gestão de grupos do provedor de identidade que estão integrados a grupos de acesso da Digibee Integration Platform e, dessa forma, controlar quem tem acesso aos serviços que cada grupo integrado Digibee disponibiliza;
 
 ### **Quais são os requisitos para poder integrar um provedor de identidade à Digibee Integration Platform**
 

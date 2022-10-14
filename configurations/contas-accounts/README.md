@@ -136,7 +136,7 @@ OAuth é um padrão aberto para autorização, comumente utilizado para permitir
 
 Suportamos os seguintes provedores:
 
-* **Microsoft**: é obrigatório o escopo "offline\_access" para utilização na Digibee Integration Plaform. Também é importante lembrar que esse provedor aceita apenas contas pessoais.
+* **Microsoft**: é obrigatório o escopo "offline\_access" para utilização na Digibee Integration Platform. Também é importante lembrar que esse provedor aceita apenas contas pessoais.
 * **Google**
 * **Mercado Livre**
 

@@ -7,7 +7,7 @@ description: Saiba como baixar o arquivo de configuração do digibeectl.
 Para iniciar o uso do _digibeectl_ é necessário baixar o arquivo de configuração criptografado que irá gerar um token único e exclusivo para acesso aos recursos do digibeectl.\
 \
 \
-Para baixar o arquivo basta estar logado na Digibee Integration Plaform e seguir este passo a passo:
+Para baixar o arquivo basta estar logado na Digibee Integration Platform e seguir este passo a passo:
 
 1\. Clique no botão 'Administração'&#x20;
 

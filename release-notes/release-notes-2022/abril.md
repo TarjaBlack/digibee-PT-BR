@@ -31,7 +31,7 @@ O mútuo TLS, ou mTLS, é um protocolo de autenticação bilateral. Ao validar q
 
 Nosso suporte já está atuando com atendimento 24 horas e em 3 idiomas (português, inglês e espanhol), para todos os clientes.
 
-Se precisar de ajuda, abra um _chat_ através da Digibee Integration Plaform no ícone "?"
+Se precisar de ajuda, abra um _chat_ através da Digibee Integration Platform no ícone "?"
 
 [Clique aqui para saber mais a respeito](../../geral/suporte-ao-cliente-digibee.md).
 
