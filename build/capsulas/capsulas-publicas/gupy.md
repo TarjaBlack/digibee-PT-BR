@@ -18,7 +18,7 @@ Para utilizar as Cápsulas dos serviços Gupy, é necessário possuir um token d
 
 Por meio dessa Cápsula, é possível configurar as requisições enviadas pela Gupy para a Digibee. É preciso configurar os diferentes tipos de notificações que devem ser enviadas ao _pipeline_ sempre que ocorrer uma atualização no ambiente Gupy.
 
-A Cápsula _**Configuring Webhook**_** ** permite criar, atualizar ou remover inscrições de eventos de notificações.
+A Cápsula _**Configuring Webhook**_\*\* \*\* permite criar, atualizar ou remover inscrições de eventos de notificações.
 
 Para configurar um novo _webhook_, basta escolher um dos eventos listados, inserir as informações do seu _pipeline_ e da respectiva API key para então executar a Cápsula.
 
@@ -46,7 +46,7 @@ O fluxo contempla a criação da vaga, bem o vínculo ao departamento e ao cargo
 
 Veja a seguir as explicações das entidades gerenciadas e como elas são tratadas ao longo do fluxo de negócio dentro da Cápsula:
 
-![](<../../../.gitbook/assets/01pt (1).png>)
+![](<../../../.gitbook/assets/01pt (2).png>)
 
 Para facilitar o seu primeiro uso da Cápsula, veja os campos requisitados para a criação de um novo registro. No exemplo abaixo, o formato utilizado é JSON:
 
@@ -87,4 +87,4 @@ Para facilitar o seu primeiro uso da Cápsula, veja os campos requisitados para 
 } 
 ```
 
-\
+\\

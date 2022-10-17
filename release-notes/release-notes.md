@@ -1,4 +1,4 @@
-# Release Notes 2021
+# Release notes 2021
 
 ## Novidades 21/12/2021
 
@@ -23,8 +23,7 @@ Exemplo da nova concessão de permissões:
 
 O novo modelo de Controle de Acesso conta com novos conceitos de Grupos, Papéis e Usuários que se relacionam como no modelo abaixo:
 
-\
-
+\\
 
 ![](../.gitbook/assets/dez\_02.png)
 
@@ -141,18 +140,14 @@ Para ler sobre esta e outras Funções de String clique [aqui](https://intercom.
 #### RANDOMNUMBERS <a href="#h_af64c1c7ff" id="h_af64c1c7ff"></a>
 
 A função possibilita gerar números aleatórios com base em um intervalo de valores inclusivos. Para saber mais sobre essa e outras Funções Numéricas clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4624062-double-braces-funcoes-numericas).\
-\
-
+\\
 
 Nós também solucionamos alguns _bugs_:
 
-* **Tela de Relacionamento:** corrigimos o erro que impossibilitava buscar registros na tela de configuração de Relacionamento.\
-
-* **Edição de Projetos:** corrigimos o erro que impedia acessar a tela de edição de Projetos.\
-
-* **Edição de Cápsulas:** corrigimos o erro que impedia acessar a tela de edição de Cápsulas.\
-
-* **Visualização de **_**logs**_**:** corrigimos o erro que impedia a consulta através do link de _Ver todos os Logs_ nos detalhes de uma transação.
+* **Tela de Relacionamento:** corrigimos o erro que impossibilitava buscar registros na tela de configuração de Relacionamento.\\
+* **Edição de Projetos:** corrigimos o erro que impedia acessar a tela de edição de Projetos.\\
+* **Edição de Cápsulas:** corrigimos o erro que impedia acessar a tela de edição de Cápsulas.\\
+* **Visualização de \_logs**\_**:** corrigimos o erro que impedia a consulta através do link de _Ver todos os Logs_ nos detalhes de uma transação.
 
 ## Novidades 02/11/2021
 
@@ -168,7 +163,7 @@ IMPORTANTE: os _tokens_ existentes em Accounts não são afetados. Novos _tokens
 
 ### COMPONENTES <a href="#h_bcec1427ad" id="h_bcec1427ad"></a>
 
-#### Google IAP Token  <a href="#h_55af042394" id="h_55af042394"></a>
+#### Google IAP Token <a href="#h_55af042394" id="h_55af042394"></a>
 
 O novo componente possibilita gerar tokens do tipo _OpenID_ para autenticações de _proxies_ IAP (Identity Aware Proxy). Clique [aqui ](https://intercom.help/godigibee/pt-BR/articles/5696361-google-iap-token)para ler o artigo completo.
 
@@ -185,18 +180,13 @@ A função possibilita aplicar uma cardinalidade de n:1 na estrutura informada, 
 #### CARDINALITYMANY <a href="#h_5a02ceacbe" id="h_5a02ceacbe"></a>
 
 A função possibilita normalizar a saída em cardinalidade múltipla. Ou seja, caso a entrada seja um array com n elementos, a saída será um array com n elementos e caso a entrada seja um único objeto, a saída será um array contendo este único objeto. Clique [aqui ](https://intercom.help/godigibee/pt-BR/articles/4623857-double-braces-funcoes-de-json)para ler o artigo completo de funções JSON.\
-\
-
+\\
 
 Nós também solucionamos alguns _bugs_:
 
-* **Componente LDAP**: corrigimos o erro que causava um bloqueio na execução de _pipelines_ que possuíam o componente LDAP.\
-
-* **Chat**: Removemos a obrigatoriedade de um usuário possuir a permissão USER:READ para acessar o chat.\
-
-* **Histórico de versões de um **_**pipeline**_**:** Corrigimos o erro que causava tela branca quando o todas as versões de um _pipeline_ fossem arquivadas e quando uma das versões fosse restaurada.
-
-
+* **Componente LDAP**: corrigimos o erro que causava um bloqueio na execução de _pipelines_ que possuíam o componente LDAP.\\
+* **Chat**: Removemos a obrigatoriedade de um usuário possuir a permissão USER:READ para acessar o chat.\\
+* **Histórico de versões de um \_pipeline**\_**:** Corrigimos o erro que causava tela branca quando o todas as versões de um _pipeline_ fossem arquivadas e quando uma das versões fosse restaurada.
 
 ## Novidades 19/10/2021
 
@@ -205,14 +195,11 @@ Nós também solucionamos alguns _bugs_:
 * **NFS:** O componente manipula arquivos. É possível listá-los, fazer o download e upload de arquivos e deletá-los. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5599772-nfs) para acessar o artigo sobre NFS.
 
 IMPORTANTE: o componente só é suportado em SaaS dedicado devido às características do protocolo NFS.\
-\
-
+\\
 
 Nós também solucionamos um bug:
 
 * **Seletor de ambiente em Monitor:** Corrigimos o bug que não armazenava o último ambiente selecionado ao alternar entre telas.
-
-
 
 ## Novidades 28/09/2021
 
@@ -220,10 +207,9 @@ Nós também solucionamos um bug:
 
 O digibeectl é o CLI (command-line interface) da Digibee que permite a execução de uma série de passos relacionados aos serviços disponíveis na Digibee Integration Platform HIP, até então somente disponíveis através da interface gráfica. Para saber mais sobre o digibeectl e sua documentação [clique](https://intercom.help/godigibee/pt-BR/articles/5214735-guia-de-uso-do-digibeectl).\
 \
-**IMPORTANTE:** Solicite sua participação no programa Beta Restricted do digibeectl via [chat ](https://www.godigibee.io/login)da plataforma ou com o time de Customer Success. Para entender o que é o programa Beta clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5267114-programa-beta).\
+**IMPORTANTE:** Solicite sua participação no programa Beta Restricted do digibeectl via [chat ](https://www.godigibee.io/login)da plataforma ou com o time de Customer Success. Para entender o que é o programa Beta clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5267114-programa-beta).\\
 
-
-### &#x20;TRIGGERS  <a href="#h_fc8d0c0f84" id="h_fc8d0c0f84"></a>
+### TRIGGERS <a href="#h_fc8d0c0f84" id="h_fc8d0c0f84"></a>
 
 * **Trigger HTTP/REST:** agora os Triggers REST, HTTP e HTTP File adicionam o path invocado como parte das informações do request que chegam ao pipeline.\
   Você pode acessar o artigo destes Triggers nos link abaixo:\
@@ -231,11 +217,10 @@ O digibeectl é o CLI (command-line interface) da Digibee que permite a execuç�
   [Trigger HTTP](https://intercom.help/godigibee/pt-BR/articles/2950053-http-trigger)\
   [Trigger HTTP FIle](https://intercom.help/godigibee/pt-BR/articles/3615656-http-file-trigger-uploads)
 
-### &#x20;FUNÇÕES { {DOUBLE BRACES} } <a href="#h_9c594f871e" id="h_9c594f871e"></a>
+### FUNÇÕES { {DOUBLE BRACES} } <a href="#h_9c594f871e" id="h_9c594f871e"></a>
 
 * **PUSH:** agora é possível utilizar a função PUSH(_array_, _element_) para inserir novos elementos no final de um _array_ com o intuito de implementar uma estrutura de pilha. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4623857-double-braces-funcoes-de-json) para acessar o artigo sobre PUSH e outras funções de JSON.\
-  \
-
+  \\
 * **POP:** agora é possível utilizar a função POP(_array_) para remover o último elemento de um _array_ com o intuito de implementar uma estrutura de pilha. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4623857-double-braces-funcoes-de-json) para acessar o artigo sobre POP e outras funções de JSON.
 
 ## Novidades 10/09/2021
@@ -248,7 +233,7 @@ Realizamos uma melhoria que visa diminuir o atraso na exibição dos logs de _pi
 \
 Nós também solucionamos alguns _bugs_:
 
-* **Listagem de **_**pipelines**_** vazia:** corrigimos um erro onde o botão de criar _pipeline_ não tinha ação.
+* **Listagem de \_pipelines**\_\*\* vazia:\*\* corrigimos um erro onde o botão de criar _pipeline_ não tinha ação.
 * **Listagem vazia de implantações:** corrigimos o botão de atualização de implantações que não exibia o texto correto.
 
 ## Novidades 31/08/2021
@@ -258,8 +243,7 @@ Nós também solucionamos alguns _bugs_:
 #### Hash <a href="#h_5942917a59" id="h_5942917a59"></a>
 
 Adicionamos o algoritmo BCrypt ao componente _Hash_. Para ler o artigo atualizado, clique [aqui](https://intercom.help/godigibee/pt-BR/articles/2950090-hash).\
-\
-
+\\
 
 ### NOVO LAYOUT <a href="#h_c6674e08d9" id="h_c6674e08d9"></a>
 
@@ -272,7 +256,7 @@ Mas não se preocupe…
 
 ​
 
-![](../.gitbook/assets/agosto\_01.png)
+![](../.gitbook/assets/agosto\_03.png)
 
 ​
 
@@ -282,8 +266,6 @@ Nós também solucionamos alguns _bugs_:
 * **Projetos:** corrigimos uma falha que não permitia a movimentação de _pipelines_ para projetos com caracteres especiais nos seus títulos. Além disso, _pipelines_ já existentes nos projetos não eram exibidos na tela de Run.
 * **Monitor e Build:** realizamos ajustes para melhorar o carregamento da listagem e dos _dashboard_ de _pipelines_ nas telas _Monitor_ e _Build_.
 * **Audit:** solucionamos o _bug_ que não permitia a visualização do menu de acesso no novo _layout_ da Plataforma.
-
-
 
 ## Novidades 17/08/2021
 
@@ -300,8 +282,7 @@ Agora está disponível o novo componente _JWT_, que gera e decodifica _tokens_ 
 **Nota:** para entender melhor a diferença entre os 2 componentes, clique nos títulos abaixo e acesse a documentação atualizada de cada um deles:
 
 [Digibee JWT](https://intercom.help/godigibee/pt-BR/articles/2950114-digibee-jwt) (uso interno)\
-[JWT](https://intercom.help/godigibee/pt-BR/articles/5489578-jwt) (uso externo)\
-
+[JWT](https://intercom.help/godigibee/pt-BR/articles/5489578-jwt) (uso externo)\\
 
 ### FUNÇÕES (DOUBLE BRACES) <a href="#h_a27a48419a" id="h_a27a48419a"></a>
 
@@ -315,8 +296,7 @@ Adicionamos uma nova validação do _pipeline_ que permite verificar se o _trigg
 
 ### NOVO LAYOUT <a href="#h_f546795dbb" id="h_f546795dbb"></a>
 
-Estamos realizando a habilitação automática do nosso novo _layout_. A partir de agora, ao fazer o _login_, você será direcionado para a Plataforma com uma estética consistente com o ciclo de construção de integrações, baseado em _Build_, _Run_ e _Monitor_.\
-
+Estamos realizando a habilitação automática do nosso novo _layout_. A partir de agora, ao fazer o _login_, você será direcionado para a Plataforma com uma estética consistente com o ciclo de construção de integrações, baseado em _Build_, _Run_ e _Monitor_.\\
 
 Mas não se preocupe…
 
@@ -329,9 +309,9 @@ Mas não se preocupe…
 
 * continuaremos recebendo os seus comentários sobre o novo _layout_ através do canal de _feedback_ ​
 
-![
+!\[
 
-](../.gitbook/assets/agosto\_03.png)
+]\(../.gitbook/assets/agosto\_03.png)
 
 Nós também solucionamos um _bug_:
 
@@ -373,8 +353,7 @@ Adicionamos um novo parâmetro à função SIZE. Com ele, é possível determina
 
 Por padrão, todos os Projetos atuais são visíveis para todos os usuários. Mas agora, além de criar e editar Projetos, você também pode dar permissões de visibilidade por usuário. Com essa melhoria, os seus Projetos serão visualizados por usuários específicos.\
 \
-\
-
+\\
 
 Nós também solucionamos alguns _bugs_:
 
@@ -393,8 +372,7 @@ Você pode acessar os novos artigos sobre:
 * [Retry](https://intercom.help/godigibee/pt-BR/articles/2950071-retry)
 * [XML to JSON Transformer](https://intercom.help/godigibee/pt-BR/articles/2950110-xml-to-json-transformer)
 
-\
-
+\\
 
 ### COMPONENTES <a href="#h_d2bde518f3" id="h_d2bde518f3"></a>
 
@@ -405,8 +383,7 @@ Realizamos melhorias no componente _DB V2_ para possibilitar o recebimento de ti
 #### Mongo DB <a href="#h_52db8615e2" id="h_52db8615e2"></a>
 
 Agora você pode configurar propriedades de conexão (ex.: _timeout_) no componente _Mongo DB_. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/2950098-mongo-db) para ler o artigo.\
-\
-
+\\
 
 Nós também solucionamos alguns _bugs_:
 
@@ -423,8 +400,6 @@ Tornou-se possível especificar o _charset_ do arquivo a ser lido pelo component
 * aperfeiçoamento na apresentação de informações sobre ajustes para a publicação de Cápsulas;
 * a listagem dos nomes de _pipelines_ movidos entre projetos passou a ser exibida em sua totalidade.
 
-
-
 ### CÁPSULAS PÚBLICAS <a href="#h_605356faa6" id="h_605356faa6"></a>
 
 Pensando facilitar cada vez mais o seu dia-a-dia com a Digibee Integration Platform, estamos disponibilizando Cápsulas prontas para utilização.
@@ -440,8 +415,7 @@ As Cápsulas da Coleção SAP foram todas projetadas para abstrair as chamadas a
 * **SAP RFC - Connectivity test:** Cápsula para testes de conectividade com o SAP.
 * SAP RFC - Read Table: consulta dados das tabelas do SAP através da RFC READ\_TABLE.
 
-Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5406297-sap) para ler o artigo completo sobre essa Coleção.#\
-
+Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5406297-sap) para ler o artigo completo sobre essa Coleção.#\\
 
 ## Novidades 06/07/2021
 
@@ -479,15 +453,13 @@ Estamos sempre buscando melhorar a sua experiência na Plataforma. Veja o que fi
 
 ![](../.gitbook/assets/julho\_01.png)
 
-![
+!\[
 
-](../.gitbook/assets/julho\_02.png)
+]\(../.gitbook/assets/julho\_02.png)
 
 Nós também solucionamos um _bug_:
 
 * **Coleções:** corrigimos uma falha que permitia a exibição de Coleções, Grupos e Cápsulas mesmo após arquivamento. Agora esses itens são exibidos apenas quando estão ativos.
-
-
 
 ## Novidades 22/06/2021
 
@@ -503,14 +475,11 @@ Estamos sempre buscando melhorar a sua experiência na Plataforma. Veja o que fi
 
 ![](../.gitbook/assets/julho\_03.gif)
 
-
-
 ### COMPONENTES <a href="#h_9f412c4fd8" id="h_9f412c4fd8"></a>
 
 #### DBs <a href="#h_d8aac01f87" id="h_d8aac01f87"></a>
 
-Os componentes [DB V2](https://intercom.help/godigibee/pt-BR/articles/3672590-db-v2) e [Stream DB V3](https://intercom.help/godigibee/pt-BR/articles/3527793-stream-db-v3) agora podem realizar consultas que manipulam o tipo CLOB como arquivo. Clique no título dos componentes para acessar a documentação atualizada.\
-
+Os componentes [DB V2](https://intercom.help/godigibee/pt-BR/articles/3672590-db-v2) e [Stream DB V3](https://intercom.help/godigibee/pt-BR/articles/3527793-stream-db-v3) agora podem realizar consultas que manipulam o tipo CLOB como arquivo. Clique no título dos componentes para acessar a documentação atualizada.\\
 
 #### Kafka <a href="#h_8b9d5648c8" id="h_8b9d5648c8"></a>
 
@@ -544,8 +513,6 @@ Agora você pode:
 
 ![](../.gitbook/assets/julho\_04.gif)
 
-
-
 ​
 
 \
@@ -554,14 +521,11 @@ _A funcionalidade acima requer permissões específicas que o seu usuário talve
 ### ORACLE <a href="#h_b20dae7989" id="h_b20dae7989"></a>
 
 Agora é possível receber tipos customizados do Oracle em _queries_ que utilizam os componentes DB V2 e Stream DB V3.\
-\
-
+\\
 
 Nós também solucionamos um _bug_:
 
 * **Stream DB V3:** solucionamos o _bug_ que interrompia a execução de um _pipeline_ com erro quando um BLOB nulo era recebido.
-
-
 
 ## Novidades 08/06/2021
 
@@ -630,8 +594,7 @@ Veja quais são as Coleções que estão com novidades:
 
 #### Digibee Tools <a href="#h_aa48a842e2" id="h_aa48a842e2"></a>
 
-Essa Coleção de Cápsula traz ferramentas que auxiliam na padronização do seu _pipeline_ por meio das melhores práticas, assim como agilidade, qualidade em validações e transformações prontas.\
-
+Essa Coleção de Cápsula traz ferramentas que auxiliam na padronização do seu _pipeline_ por meio das melhores práticas, assim como agilidade, qualidade em validações e transformações prontas.\\
 
 * **CPF CNPJ Validator:** possibilita que o número do dígito verificador de documentos brasileiros referente a cadastro de pessoas seja validado.
 * **Digibee Publish Error:** envia notificações de mensagens padronizadas para que se tenha maior clareza e eficiência nos alertas e tratamentos de erros.
@@ -639,14 +602,13 @@ Essa Coleção de Cápsula traz ferramentas que auxiliam na padronização do se
 * **Sort Array by field:** ordena listas no formato JSON a partir de um campo determinado.
 * **Validate Consumers:** valida a quantidade de _consumers_ configurados de acordo com o Runtime do _pipeline_.
 
-Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5261176-digibee-tools) para ler o artigo completo sobre essa Coleção.\
-
+Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5261176-digibee-tools) para ler o artigo completo sobre essa Coleção.\\
 
 ## Novidades Digibee
 
 O que estamos entregando para melhorar a sua experiência com a Digibee Integration Platform.
 
-### **Tenha acesso ao novo **_**layout**_** e a Projetos!** <a href="#h_e137583221" id="h_e137583221"></a>
+### **Tenha acesso ao novo \_layout**\_\*\* e a Projetos!\*\* <a href="#h_e137583221" id="h_e137583221"></a>
 
 Sabia que a partir do dia **25/05/2021** você terá acesso à versão beta do nosso novo _layout_ e da funcionalidade de Projetos?
 
@@ -665,15 +627,15 @@ Projetos são como pastas, que podem ser utilizados para organizar _pipelines_. 
 * criar _pipelines_ associados a um projeto;
 * arquivar projetos que não tenham _pipelines_.
 
-#### &#x20;O QUE VOCÊ PODE QUERER SABER... <a href="#h_cfb857ce1d" id="h_cfb857ce1d"></a>
+#### O QUE VOCÊ PODE QUERER SABER... <a href="#h_cfb857ce1d" id="h_cfb857ce1d"></a>
 
-#### &#x20;O que são versões beta? <a href="#h_d11183151d" id="h_d11183151d"></a>
+#### O que são versões beta? <a href="#h_d11183151d" id="h_d11183151d"></a>
 
 As versões beta surgem como uma oportunidade para verificarmos como os usuários da Plataforma se sentem em relação à estabilidade, à escalabilidade, ao desempenho e à usabilidade de novos _layouts_ e funcionalidades.
 
 Enquanto você estiver utilizando as versões beta, algumas situações indesejadas podem ocorrer. O motivo para isso é que elas não são as versões finais e ainda seguem em processo de melhoria. Ao final do período de teste, levando em consideração o _feedback_ dos usuários, o reporte de eventuais erros de execução ou a identificação de problemas de usabilidade, optaremos por prorrogar as versões beta ou disponibilizar as versões finais dos _layouts_ e das funcionalidades.
 
-#### &#x20; Como eu posso aderir às versões beta? <a href="#h_efbee7b5e5" id="h_efbee7b5e5"></a>
+#### Como eu posso aderir às versões beta? <a href="#h_efbee7b5e5" id="h_efbee7b5e5"></a>
 
 Todos os usuários da Plataforma podem aderir às versões beta. Ao ativar o novo _layout_, você automaticamente realiza a sua adesão e concorda com os termos de uso. Para acessar as funcionalidades, ative o Layout Beta a partir de sua conta:
 
@@ -690,8 +652,7 @@ Para utilização da versão beta, você deve:
 * respeitar todos os termos de uso da versão operacional;
 * concordar que a utilização da versão beta da Plataforma implica em não estar coberto pelo SLA aplicado à versão operacional ativa;
 * concordar que a versão beta e as suas funcionalidades podem não ser disponibilizadas em uma versão operacional;
-* não utilizar os meios normais de suporte. Comentários, críticas, elogios e sugestões devem ser registradas através do canal “Enviar Feedback”.\
-
+* não utilizar os meios normais de suporte. Comentários, críticas, elogios e sugestões devem ser registradas através do canal “Enviar Feedback”.\\
 
 **Como eu faço para enviar feedback sobre uma versão beta?**
 
@@ -699,7 +660,7 @@ A Plataforma já possui um canal para que os usuários enviem _feedbacks_. Veja:
 
 ​
 
-![](../.gitbook/assets/maio\_05.png)
+![](<../.gitbook/assets/01 (13).png>)
 
 ​
 
@@ -707,7 +668,7 @@ Você deve encaminhar todas as suas sugestões, elogios, reclamações e coment�
 
 Caso você tenha qualquer outra dúvida, fique à vontade para entrar em contato com o seu Customer Success Manager.
 
-#### &#x20; Como eu faço para voltar para o layout antigo? <a href="#h_aef62553b8" id="h_aef62553b8"></a>
+#### Como eu faço para voltar para o layout antigo? <a href="#h_aef62553b8" id="h_aef62553b8"></a>
 
 Basta acessar o menu do seu perfil (no exemplo abaixo representado pela letra A com fundo laranja) e selecionar a opção "Default Layout":
 
@@ -774,16 +735,13 @@ Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5209400-google-shee
 
 O _**gRPC Trigger**_ permitirá a exposição de _pipelines_ seguindo o protocolo gRPC.
 
-
-
 ## Novidades 27/04/2021
 
 Gostaríamos de compartilhar algumas melhorias e novidades:
 
 ### MÉTRICAS DE PIPELINE <a href="#h_b6cf5d94d9" id="h_b6cf5d94d9"></a>
 
-Lançamos uma funcionalidade que te permite acompanhar o que está acontecendo com os _pipelines_ por meio destes novos gráficos em tempo real:\
-
+Lançamos uma funcionalidade que te permite acompanhar o que está acontecendo com os _pipelines_ por meio destes novos gráficos em tempo real:\\
 
 * Execuções de _pipeline_ por segundo (eps)
 * Tempo de resposta do _pipeline_ (em milissegundos)
@@ -815,9 +773,7 @@ Agora você pode arquivar Coleções que não estão mais sendo utilizadas.
 
 ​
 
-![](../.gitbook/assets/abril\_02.gif)
-
-
+![](<../.gitbook/assets/abril\_02 (1).gif>)
 
 ### FUNÇÕES <a href="#h_a33557cafe" id="h_a33557cafe"></a>
 
@@ -840,8 +796,6 @@ Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4623887-double-brac
 
 Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4623857-double-braces-funcoes-de-json) para ler o artigo sobre essas e outras _Funções de JSON_.
 
-
-
 ### FAIL ON ERROR <a href="#h_310930424d" id="h_310930424d"></a>
 
 Atualizamos a descrição de _Fail On Error_ na documentação de alguns dos nossos componentes, sem modificar o comportamento desse parâmetro de configuração. Reveja os seguintes artigos:
@@ -851,8 +805,7 @@ Atualizamos a descrição de _Fail On Error_ na documentação de alguns dos nos
 * Stream DB ([V1](https://intercom.help/godigibee/pt-BR/articles/2950105-stream-db-v1) e [V3](https://intercom.help/godigibee/pt-BR/articles/3527793-stream-db-v3))
 * [Stream File Reader Pattern](https://intercom.help/godigibee/pt-BR/articles/4689428-stream-file-reader-pattern)
 * [Retry](https://intercom.help/godigibee/pt-BR/articles/2950071-retry)
-* [For Each](https://intercom.help/godigibee/pt-BR/articles/2950075-for-each)\
-
+* [For Each](https://intercom.help/godigibee/pt-BR/articles/2950075-for-each)\\
 
 ### RETENÇÃO DE EXECUÇÕES E LOGS <a href="#h_b904db21d8" id="h_b904db21d8"></a>
 
@@ -876,15 +829,12 @@ Veja quais são as Coleções que estão com novidades:
 
 Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/5152034-gupy) para ler o artigo completo sobre essa Coleção.
 
-\
-
+\\
 
 ### E VEM POR AÍ... <a href="#h_a515a9d5a3" id="h_a515a9d5a3"></a>
 
 * Em breve você poderá gerenciar as imagens dos cabeçalhos de Cápsulas e Coleções em uma área específica. Esse gerenciamento pode ser feito até mesmo por usuários que não têm permissão para criar Cápsula. Com isso, não há preocupações em relação à segurança das Cápsulas.
 * Estamos trabalhando para que a Plataforma suporte o uso do protocolo gRPC na construção de _pipelines_.
-
-
 
 ## Novidades 13/04/2021
 
@@ -920,12 +870,9 @@ Nós também solucionamos um _bug_:
 * **Projetos:** você poderá organizar melhor os seus _pipelines_, o que garante um processo de gestão mais efetivo.
 * **Métricas de pipelines:** que tal acompanhar o que está acontecendo com os seus _pipelines_ por meio de novos gráficos em tempo real?
 
-
-
 ## Novidades 30/03/2021
 
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 ### COMPONENTES <a href="#h_44d723d8de" id="h_44d723d8de"></a>
 
@@ -955,15 +902,12 @@ Para otimizar a sua experiência de leitura, melhoramos os exemplos no artigo �
 
 Atualizamos a leitura sobre um componente para que você tenha uma melhor experiência com as suas integrações.
 
-Acesse o novo artigo de Scheduler Trigger clicando [aqui](https://intercom.help/godigibee/pt-BR/articles/4184400-custom-scheduler-trigger).\
-
+Acesse o novo artigo de Scheduler Trigger clicando [aqui](https://intercom.help/godigibee/pt-BR/articles/4184400-custom-scheduler-trigger).\\
 
 \
 Nós também solucionamos um _bug_:
 
 * **Componentes DB:** resolvemos o problema que impedia o uso de componentes de bancos de dados com bases do tipo OLAP.
-
-
 
 ## Novidades 16/03/2021
 
@@ -978,8 +922,7 @@ Entregamos um novo componente que permite a execução de comandos em um servido
 \
 **Kafka**
 
-Adicionamos o recurso de inclusão de um ou mais cabeçalhos (_headers_) na mensagem enviada para o _broker_ Kafka. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/3576368-kafka) para ler o artigo completo e atualizado do componente.\
-
+Adicionamos o recurso de inclusão de um ou mais cabeçalhos (_headers_) na mensagem enviada para o _broker_ Kafka. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/3576368-kafka) para ler o artigo completo e atualizado do componente.\\
 
 ### DOCUMENTAÇÃO
 
@@ -990,13 +933,13 @@ Você pode acessar os novos artigos de:
 * [For Each](https://intercom.help/godigibee/pt-BR/articles/2950075-for-each)
 * [RabbitMQ](https://intercom.help/godigibee/pt-BR/articles/4223092-rabbitmq)
 
-### FEEDBACK  <a href="#h_4499c0218c" id="h_4499c0218c"></a>
+### FEEDBACK <a href="#h_4499c0218c" id="h_4499c0218c"></a>
 
 Gostaríamos de saber quais são os seus comentários e sugestões de melhoria para a Plataforma. Por isso, te convidamos a utilizar o novo recurso de compartilhamento de opiniões. Veja como é fácil enviar o seu _feedback_:
 
 ​
 
-![](../.gitbook/assets/março\_01.gif)
+![](../.gitbook/assets/março\_01.gif)
 
 ​\
 \
@@ -1007,12 +950,9 @@ Nós também solucionamos alguns _bugs_:
 * **Telas de configuração:** corrigimos um problema de proporção nas telas de configuração de Consumer, Global, Relation e Multi instance, que dificultava a visualização do formulário.
 * **Tela de erro padrão:** anteriormente erros não tratados geravam uma tela em branco. Agora uma tela com a exibição de erros padrão é mostrada.
 
-
-
 ## Novidades 02/03/2021
 
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 ### FUNÇÕES <a href="#h_95ddeb2d92" id="h_95ddeb2d92"></a>
 
@@ -1040,7 +980,7 @@ Redesenhamos a apresentação da listagem de _pipelines_ para que você possa ap
 
 Criamos um meio exclusivo para você compartilhar a sua opinião sobre a Plataforma, podendo enviar comentários gerais e sugestões de melhoria. Esse recurso está presente em cada uma das nossas telas, o que nos possibilita saber a origem da sua opinião. Veja como nos enviar o seu _feedback_:
 
-![](../.gitbook/assets/março\_02.gif)
+![](../.gitbook/assets/março\_02.gif)
 
 ​\
 \
@@ -1091,8 +1031,7 @@ Passamos a suportar o IBM MQ, um novo _broker_ do _JMS Trigger_. Clique [aqui](h
 
 ### BANCOS DE DADOS <a href="#h_24a049514f" id="h_24a049514f"></a>
 
-Homologamos na Plataforma o banco de dados Snowflake. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4520594-bancos-de-dados-suportados) para saber quais outros bancos de dados são suportados.\
-
+Homologamos na Plataforma o banco de dados Snowflake. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4520594-bancos-de-dados-suportados) para saber quais outros bancos de dados são suportados.\\
 
 ### TEMPO DE EXECUÇÃO EXCEDIDO <a href="#h_edf22ecace" id="h_edf22ecace"></a>
 
@@ -1231,8 +1170,7 @@ Nós também solucionamos um _bug_:
 
 ## Novidades 05/01/2021
 
-Gostaríamos de compartilhar algumas melhorias e novidades:\
-
+Gostaríamos de compartilhar algumas melhorias e novidades:\\
 
 ### COMPONENTES <a href="#componentes" id="componentes"></a>
 
@@ -1262,6 +1200,4 @@ Nós também solucionamos um _bug_:
 
 * **Multi-instance:** a Plataforma permitia erroneamente o cadastro de _fields_ com valores apenas numéricos, tornando-os inutilizáveis devido à falta de suporte para nomes compostos apenas por números. Por isso, foi criada uma regra para impedir a criação de _fields_ inválidos.
 
-
-
-\
+\\

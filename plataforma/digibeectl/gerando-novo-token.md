@@ -9,7 +9,7 @@ Para iniciar o uso do _digibeectl_ é necessário baixar o arquivo de configura�
 \
 Para baixar o arquivo basta estar logado na Digibee Integration Platform e seguir este passo a passo:
 
-1\. Clique no botão 'Administração'&#x20;
+1\. Clique no botão 'Administração'
 
 ![](<../../.gitbook/assets/01 (3).png>)
 
@@ -24,15 +24,14 @@ Para baixar o arquivo basta estar logado na Digibee Integration Platform e segui
 
 4\. Adicione as permissões desejadas ao token. Se houver dúvidas de quais fornecer, consulte todas as permissões necessárias para os comandos disponíveis clicando [aqui](./).
 
-![](<../../.gitbook/assets/04 (4).png>)
+![](<../../.gitbook/assets/05 (5).png>)
 
 5\. Selecione um prazo para a expiração do token. O prazo pode ser configurado para ter uma duração mínima de 1 hora e duração máxima de até 1 ano.
 
-![](<../../.gitbook/assets/05 (5).png>)
+![](<../../.gitbook/assets/04 (4).png>)
 
 \
-6\. Salve as configurações de permissões e expiração.\
-
+6\. Salve as configurações de permissões e expiração.\\
 
 7\. Copie a chave de criptografia gerado pela plataforma através do botão de copiar e salve o conteúdo para utilizá-lo posteriormente.\
 Em seguida, defina a senha de criptografia do seu arquivo.\
@@ -49,7 +48,6 @@ ATENÇÂO: Guarde a senha e chave em um local seguro pois elas não podem ser re
 digibeectl set config --file "path/file.json" --secret-key "chave-de-criptografia" --auth-key "senha-de-criptografia"
 ```
 
-\
-
+\\
 
 Para acessar o Guia de uso completo do digibeectl clique [aqui](./).

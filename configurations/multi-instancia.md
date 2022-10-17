@@ -6,11 +6,11 @@ description: Conheça a funcionalidade multi-instância da Digibee Integration P
 
 A funcionalidade multi-instância permite a implantação de um mesmo _pipeline_ múltiplas vezes, atendendo a parâmetros diferentes. Desse modo, é possível configurar múltiplas instâncias que processem os dados conforme os parâmetros configurados em cada uma, utilizando o mesmo fluxo de integração.
 
-Esta funcionalidade é muito utilizada quando precisamos utilizar o mesmo _pipeline_, isto é, a __ mesma lógica de construção, para acessar _endpoints_ diferentes, como Contas e _Globals_, dispensando a necessidade de diversas versões do mesmo _pipeline_.
+Esta funcionalidade é muito utilizada quando precisamos utilizar o mesmo _pipeline_, isto é, a \_\_ mesma lógica de construção, para acessar _endpoints_ diferentes, como Contas e _Globals_, dispensando a necessidade de diversas versões do mesmo _pipeline_.
 
 ## Casos de uso <a href="#h_92b44b29ba" id="h_92b44b29ba"></a>
 
-Imagine que você precise extrair grandes quantidades de dados de um único banco de dados, e que o tempo para a execução da extração seja limitado. A partir desta funcionalidade, você consegue arquitetar uma estratégia de extração acelerada de dados, a qual utiliza de _pipelines_ multi-instância para extrair grandes quantidades de dados de um banco de dados de maneira rápida e segura.&#x20;
+Imagine que você precise extrair grandes quantidades de dados de um único banco de dados, e que o tempo para a execução da extração seja limitado. A partir desta funcionalidade, você consegue arquitetar uma estratégia de extração acelerada de dados, a qual utiliza de _pipelines_ multi-instância para extrair grandes quantidades de dados de um banco de dados de maneira rápida e segura.
 
 Para isso, basta criar um _pipeline,_ defini-lo como multi-instância e também criar uma configuração com as instâncias a serem utilizadas, estabelecendo intervalos específicos para cada uma delas. Desse modo, cada instância fica encarregada de extrair dados entre determinadas datas, como no exemplo abaixo:
 
@@ -21,7 +21,7 @@ Para isso, basta criar um _pipeline,_ defini-lo como multi-instância e também 
 | Período 3     | 16-24/out     |
 | Período 4     | 24-31/out     |
 
-A instância **Período 1** é responsável por extrair todos os dados entre os dias 1 e 8 do mês de outubro, através de quantas execuções forem necessárias. As instâncias **Períodos** **2**, **3** e **4** utilizam da mesma lógica de extração da primeira para buscarem e extraírem todos os dados nos demais intervalos de tempo.&#x20;
+A instância **Período 1** é responsável por extrair todos os dados entre os dias 1 e 8 do mês de outubro, através de quantas execuções forem necessárias. As instâncias **Períodos** **2**, **3** e **4** utilizam da mesma lógica de extração da primeira para buscarem e extraírem todos os dados nos demais intervalos de tempo.
 
 Assim, você estará aplicando uma estratégia que utiliza de datas específicas e de _pipelines_ multi-instância para extrair uma grande quantidade de dados mais rapidamente. Seria perfeitamente possível realizar a extração de dados utilizando um _pipeline_ simples, no entanto, ao utilizar um _pipeline_ multi-instância, a extração pode ser realizada até 4 vezes mais rápido.
 
@@ -53,7 +53,7 @@ Esta ação permite criar, configurar e salvar as instâncias de cada modelo, in
 
 Através desta ação, é possível excluir um modelo de multi-instância caso este não esteja sendo utilizado na Plataforma, seja em _pipelines_ implantados, não implantados ou arquivados.
 
-## **Como implantar um **_**pipeline**_** multi-instância?** <a href="#h_b2fc3d4ffe" id="h_b2fc3d4ffe"></a>
+## **Como implantar um \_pipeline**\_\*\* multi-instância?\*\* <a href="#h_b2fc3d4ffe" id="h_b2fc3d4ffe"></a>
 
 ### 1. Crie o modelo de multi-instância <a href="#h_f1b978282c" id="h_f1b978282c"></a>
 
@@ -85,7 +85,7 @@ Nesta etapa, vamos criar um _pipeline_ e defini-lo como multi-instância. Para i
 
 Selecione a opção "É multi-instância?", como no exemplo abaixo:
 
-![](../.gitbook/assets/06.png)
+![](<../.gitbook/assets/06 (7).png>)
 
 Após a opção “É multi-instância?” ser selecionada, informe a qual modelo de multi-instância o _pipeline_ reportará. No nosso exemplo, estamos utilizando o modelo “_article-multi-instance_”.
 
@@ -97,7 +97,7 @@ Por ser um evento, devemos informar no _trigger_ uma variável da instância que
 
 ![](<../.gitbook/assets/07 (6).png>)
 
-#### **Realizando consultas no **_**Test mode**_
+#### **Realizando consultas no \_Test mode**\_
 
 Ao executar o _Test mode_ em um _pipeline_ multi-instância, a primeira coluna da aba TESTE permitirá que você informe a instância a qual pretende executar, como no exemplo abaixo:
 
@@ -109,7 +109,7 @@ Desse modo, é possível consultar os valores previamente configurados na instâ
 
 Agora que você já configurou o modelo e definiu o _pipeline_ como multi-instância, é necessário editar a solicitação do _pipeline_ com a instância em que pretende implantá-lo. Desse modo, o nome da instância será adicionado ao nome do _pipeline_ após a implantação. **Por exemplo**: uma vez que o _pipeline_ "_multi-instance-example_” for implantado na instância _a_, seu nome na aba “_Run_" será "_multi-instance-example-a_".
 
-No exemplo abaixo, o _pipeline_ “_multi-instance-example_” __ está __ sendo implantado na instância _a_.
+No exemplo abaixo, o _pipeline_ “_multi-instance-example_” \_\_ está \_\_ sendo implantado na instância _a_.
 
 ![](../.gitbook/assets/09.png)
 
@@ -119,6 +119,6 @@ No exemplo abaixo, o _pipeline_ “_multi-instance-example_” está sendo impla
 
 Após a edição, basta clicar em “IMPLANTAR”.
 
-Abaixo, o _pipeline_ “_multi-instance-example_” __ já __ implantado nas instâncias _a_ e _b_, __ na aba _“Run”_:
+Abaixo, o _pipeline_ “_multi-instance-example_” \_\_ já \_\_ implantado nas instâncias _a_ e _b_, \_\_ na aba _“Run”_:
 
 ![](<../.gitbook/assets/11 (1).png>)

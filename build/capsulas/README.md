@@ -6,7 +6,7 @@ description: Saiba como aproveitar o novo recurso da Digibee HIP.
 
 ### O que são Cápsulas? <a href="#h_4a365c4396" id="h_4a365c4396"></a>
 
-Cápsulas são uma nova e grande funcionalidade da Digibee, parte integrante da Digibee Integration Platform HIP. As Cápsulas Digibee **** são componentes reutilizáveis que podem ser criados por qualquer usuário da Plataforma ao aplicar o mesmo modelo de desenvolvimento visual concebido na criação do _pipeline_, provendo uma lógica de negócio reutilizável, segura, validada e evolutiva.
+Cápsulas são uma nova e grande funcionalidade da Digibee, parte integrante da Digibee Integration Platform HIP. As Cápsulas Digibee \*\*\*\* são componentes reutilizáveis que podem ser criados por qualquer usuário da Plataforma ao aplicar o mesmo modelo de desenvolvimento visual concebido na criação do _pipeline_, provendo uma lógica de negócio reutilizável, segura, validada e evolutiva.
 
 Uma Cápsula permite que a integração de fluxos seja publicada na paleta de componentes para ser utilizada em outro momento, de maneira simplificada e ainda mais rápida.
 
@@ -114,7 +114,7 @@ Veja abaixo um exemplo com 4 tipos diferentes de configurações (TEXT, SELECT T
 
 Observe o item “Prévia do Formulário” que aparece à direita. Esse recurso ajuda muito na criação do formulário de parâmetros, pois ele é atualizado em tempo real enquanto você adiciona, altera e organiza as suas escolhas.
 
-**Como utilizar os parâmetros declarados nessa seção nos componentes do **_**canvas**_**?**
+**Como utilizar os parâmetros declarados nessa seção nos componentes do \_canvas**\_**?**
 
 Na imagem acima, o campo “Property” foi preenchido com os valores _id_, _productType_, _status_ e _tags_.
 
@@ -139,7 +139,7 @@ _**Configurações na tela > aba Accounts**_
 
 Na tela descrita acima serão definidas as _Accounts_ com _Label_ e a descrição para orientar sobre o tipo de _Account_ que deve ser selecionado dentro do _pipeline_ _canvas_.
 
-![](<../../.gitbook/assets/08 (1).png>)
+![](<../../.gitbook/assets/01 (24).png>)
 
 No exemplo da tela acima, o SAP Account é o _placeholder_ apresentado ao usuário da Cápsula que, por sua vez, deve escolher uma _Account_ que possua informações válidas para acesso ao SAP. Dessa forma, as credenciais ficam fora da Cápsula, trazendo mais segurança na sua utilização.
 

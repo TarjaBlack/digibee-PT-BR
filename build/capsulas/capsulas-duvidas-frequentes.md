@@ -4,7 +4,7 @@ description: Tire suas dúvidas sobre as Cápsulas.
 
 # Cápsulas - Dúvidas Frequentes
 
-Para te ajudar a aproveitar ainda mais as Cápsulas, separamos as perguntas mais frequentes sobre esse novo recurso da Digibee Integration Platform HIP.&#x20;
+Para te ajudar a aproveitar ainda mais as Cápsulas, separamos as perguntas mais frequentes sobre esse novo recurso da Digibee Integration Platform HIP.
 
 ### O que são Cápsulas?
 
@@ -14,7 +14,7 @@ As **Cápsulas Digibee** são componentes reutilizáveis que podem ser utilizado
 
 Uma Cápsula permite que a integração de fluxos seja publicada na paleta de componentes para ser utilizada em outro momento, de maneira simplificada e ainda mais rápida
 
-****
+***
 
 ### **Quais funcionalidades são resolvidas pelas Cápsulas?**
 
@@ -26,8 +26,6 @@ Tornar os fluxos de qualquer parte de um _pipeline_ mais acessíveis permite que
 
 As Cápsulas possuem os componentes _core_ da Digibee Integration Platform HIP, ou seja, têm todas as funcionalidades entregues por eles.
 
-
-
 ### Como as Cápsulas são construídas?
 
 \
@@ -35,46 +33,41 @@ As Cápsulas podem ser construídas pela própria organização, que define de f
 
 Quando o cliente constrói a Cápsula, ele pode definir parâmetros, documentação e interface, além de conseguir orientar o uso. A liberdade de construir as Cápsulas vem com todas essas funcionalidades e a documentação fica dentro do próprio componente.
 
-
-
 ### Posso usar a Cápsula no meu ecossistema de parceiros e clientes?
 
 Sim. É possível ter Cápsulas com integrações prontas entre o sistema de uma empresa e do seu parceiro. As Cápsulas também podem ser reaproveitadas para outros parceiros com casos de uso semelhantes.
 
 Por exemplo, um banco pode utilizar uma Cápsula de microcrédito já pronta para uso com PDVs de diferentes redes de farmácias.
 
-\
 
 
-### A Cápsula é segura para compartilhar os meus dados sensíveis?&#x20;
+### A Cápsula é segura para compartilhar os meus dados sensíveis?
 
 Sim. As Cápsulas e a Digibee Integration Platform possuem uma série de recursos para proteger os seus dados em trânsito e em repouso quando estão sob a nossa responsabilidade.
 
-Por serem incorporadas dentro do _pipeline_ de uma organização, as Cápsulas são executadas isoladamente, mesmo dentro da sua própria organizaçã
+Por serem incorporadas dentro do _pipeline_ de uma organização, as Cápsulas são executadas isoladamente, mesmo dentro da sua própria organização.
 
-
-
-### As Cápsulas são compatíveis com a demanda de informação do meu legado?&#x20;
+### As Cápsulas são compatíveis com a demanda de informação do meu legado?
 
 Sim. As Cápsulas são construídas a partir dos componentes _core_ da Digibee Integration Platform HIP, que são utilizados nos _pipelines_. É neles que todas as suas funcionalidades ficam registradas.
 
-### As Cápsulas ajudam na migração de sistemas para nuvem?&#x20;
+### As Cápsulas ajudam na migração de sistemas para nuvem?
 
 Sim. Quando acontece um processo de migração para nuvem, é muito importante ter estratégias de convivência com _on premise_. Ao incorporar as Cápsulas nessa estratégia, é possível, por exemplo, desenvolver soluções que cadastrem dados no _on premise_, na nuvem ou em ambos.
 
 Além disso, a Digibee conta com uma grande variedade de Cápsulas de soluções _cloud native_ à sua disposição.
 
-### As Cápsulas Digibee oferecem suporte para ampliar o meu sistema de negócios?&#x20;
+### As Cápsulas Digibee oferecem suporte para ampliar o meu sistema de negócios?
 
 Sim. A Digibee conta com o time de Delivery, especialista em Cápsulas, e irá apoiar todos os clientes durante o processo de construção e desenvolvimento de projetos para cada organização, incluindo a criação de Cápsulas públicas (feitas de acordo com a solicitação da empresa).
 
-### Qual é o limite de utilização das Cápsulas nos meus pipelines?&#x20;
+### Qual é o limite de utilização das Cápsulas nos meus _pipelines_?
 
 A Plataforma não impõe um limite quantitativo de componentes que podem ser utilizados no _pipeline_, sejam eles componentes _core_ ou Cápsulas. Já o _pipeline_ possui limites como quantidade de execuções concorrentes, _timeout_ e capacidade controlada na implantação quando se escolhe SMALL, MEDIUM ou LARGE.
 
 ### Quantas Cápsulas podem ser criadas?
 
-É possível criar quantas Cápsulas for preciso.&#x20;
+É possível criar quantas Cápsulas for preciso.
 
 ### Por que é preciso informar um contrato de saída da Cápsula?
 
@@ -82,9 +75,9 @@ Como as Cápsulas são componentes reutilizáveis em _pipelines,_ recorremos ao 
 
 Além disso, o contrato de saída também apoia na automação do versionamento das Cápsulas (veja a resposta da pergunta [**Como funciona o versionamento e a manutenção das Cápsulas? Como eu posso garantir que o meu negócio não será afetado?**](https://intercom.help/godigibee/pt-BR/articles/4860435-como-funciona-o-versionamento-e-a-manutencao-das-capsulas-como-eu-posso-garantir-que-o-meu-negocio-nao-sera-afetado)).
 
-### **Como eu faço para utilizar **_**Accounts**_** dentro das Cápsulas?**
+### **Como eu faço para utilizar **_**Accounts**_ dentro das Cápsulas?
 
-_Accounts_ são funcionalidades utilizadas por componentes _core (_como o SAP, por exemplo) para realizar autenticação nos _endpoints_. Para recorrer a uma _Account_, basta encontrar a lista de _Accounts_ na tela _pipeline canvas_, que vêm direto do _Realm_ e são gerenciados no menu _Configurações_ > _Accounts_.
+_Accounts_ são funcionalidades utilizadas por componentes _core_ (como o SAP, por exemplo) para realizar autenticação nos _endpoints_. Para recorrer a uma _Account_, basta encontrar a lista de _Accounts_ na tela _pipeline canvas_, que vêm direto do _Realm_ e são gerenciados no menu _Configurações_ > _Accounts_.
 
 Nas Cápsulas, essa funcionalidade possui uma pequena diferença em relação ao _pipeline_ que irá utilizá-la, já que nem sempre _Accounts_ e _pipelines_ estão no mesmo _Realm_ de construção. Por isso, é necessário definir previamente uma lista de _Placeholder_ de _Accounts_. Essa lista pode ser definida na tela de Cápsulas clicando em:
 
@@ -92,17 +85,13 @@ Nas Cápsulas, essa funcionalidade possui uma pequena diferença em relação ao
 
 Na tela descrita acima serão definidas as _Accounts_ com _Label_ e a descrição para orientar sobre o tipo de _Account_ que deve ser selecionado dentro do _pipeline_ _canvas_.
 
-![](<../../.gitbook/assets/01 (24).png>)
-
-
+![](<../../.gitbook/assets/08 (1).png>)
 
 ### **Como eu posso identificar quais Cápsulas são criadas pela Digibee?**
 
 As Cápsulas criadas pela Digibee são identificadas por meio do ícone _Certificated_ (símbolo de verificação na cor azul). Veja abaixo como identificá-lo:
 
 ![](<../../.gitbook/assets/02 (8).png>)
-
-
 
 ### **Quais são as diferenças entre as Cápsulas e as Bibliotecas?**
 
@@ -120,13 +109,13 @@ As Cápsulas contemplam todos os aprendizados coletados na experiência com as b
 
 Não. As Cápsulas possuem uma série de permissões que são administradas pela Digibee. Essas permissões determinam quais usuários podem tornar uma Cápsula pública.
 
-### &#x20;**Parceiros de clientes podem publicar Cápsulas públicas?**&#x20;
+### **Parceiros de clientes podem publicar Cápsulas públicas?**
 
-Não. Essa configuração ainda não está disponível, mas está sendo avaliada para oportunidades futuras. ****&#x20;
+Não. Essa configuração ainda não está disponível, mas está sendo avaliada para oportunidades futuras.&#x20;
 
-****
+***
 
-### Cápsulas com a mesma funcionalidade sendo utilizadas por diferentes clientes/empresas ficam restritas?&#x20;
+### Cápsulas com a mesma funcionalidade sendo utilizadas por diferentes clientes/empresas ficam restritas?
 
 Sim. As Cápsulas ficam restritas a cada empresa que as estiver utilizando.
 
@@ -144,7 +133,7 @@ Estes são os 3 níveis de versionamento:
 
 Após a publicação da Cápsula, a versão “1.0.0” será definida como não editável. Então, quando uma nova atualização for realizada na mesma Cápsula, a Plataforma irá analisar o que foi alterado para determinar se o número da versão será acrescido na versão Major, Minor ou Fix.
 
-### &#x20;**Como funciona o processo de atualização das Cápsulas nos meus **_**pipelines**_**?**&#x20;
+### **Como funciona o processo de atualização das Cápsulas nos meus **_**pipelines**_**?**
 
 A Digibee Integration Platform nunca realiza alterações diretas na estrutura ou informação de _pipelines_ implantados. Com isso, jamais afetamos um _pipeline_ sem que um usuário autorizado na sua organização faça uma nova implantação.
 
@@ -154,8 +143,7 @@ Ao incluir uma Cápsula no seu _pipeline_, você está o associando a versão "M
 
 Mas se você se perguntar onde foi parar a versão "Fix”, saiba que um _pipeline_ sempre recebe automaticamente a versão "Fix” mais recente quando uma nova implantação é realizada ou quando o _test-mode_ é executado na tela do _pipeline_ _canvas_. Conforme mencionado anteriormente, a versão "Fix" é alterada apenas quando a modificação não for impactante para o _pipeline_.
 
-Os _pipelines_ não são afetados ou atualizados por versões "Major" ou "Minor" de uma Cápsula que faz parte das suas composições. Para utilizar essa Cápsula, um Analista de Integração responsável pelo _pipeline_ deverá realizar a aplicação manualmente.\
-
+Os _pipelines_ não são afetados ou atualizados por versões "Major" ou "Minor" de uma Cápsula que faz parte das suas composições. Para utilizar essa Cápsula, um Analista de Integração responsável pelo _pipeline_ deverá realizar a aplicação manualmente.\\
 
 ### **O que significa publicar uma Cápsula?**
 
@@ -168,7 +156,7 @@ Ao concluir a construção de uma Cápsula, é preciso publicá-la para que se t
 
 **Obs.:** se nenhuma das opções acima for exibida, consulte o gestor de acesso de sua empresa e solicite a inclusão da permissão _CAPSULE:UPDATE:PUBLISH_.
 
-****
+***
 
 ### **Existe um processo de governança para as Cápsulas da Digibee?**
 
@@ -210,9 +198,9 @@ CAPSULE:READ:HEADER - permite a visualização e escolha de um _header_ para o c
 
 CAPSULE:READ:CONSUMER - permite a utilização das Cápsulas dentro do _Pipeline canvas_.
 
-### **Por que eu não posso usar Object Store e Digibee Storage dentro de uma Cápsula?**&#x20;
+### **Por que eu não posso usar Object Store e Digibee Storage dentro de uma Cápsula?**
 
 \
-Esses componentes são recursos nativos do seu _Realm._ Portanto, são __ autorizados automaticamente por estarem dentro do contexto controlado do _Realm_. Como uma Cápsula pode ser construída para ser utilizada por outros _Realms,_ não é possível autorizar o acesso a dados desses componentes dentro da Cápsula.
+Esses componentes são recursos nativos do seu _Realm._ Portanto, são \_\_ autorizados automaticamente por estarem dentro do contexto controlado do _Realm_. Como uma Cápsula pode ser construída para ser utilizada por outros _Realms,_ não é possível autorizar o acesso a dados desses componentes dentro da Cápsula.
 
-\
+\\

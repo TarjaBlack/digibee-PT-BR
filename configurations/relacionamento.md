@@ -42,7 +42,7 @@ Assim, após criado o modelo, conseguiremos incorporá-lo no _pipeline_ para que
 
 ### Botão "+ Criar" <a href="#h_9f91acc973" id="h_9f91acc973"></a>
 
-![](<../.gitbook/assets/02 (3).png>)
+![](<../.gitbook/assets/02 (17).png>)
 
 Para criar um novo modelo de Relacionamento, basta clicar no botão “+ Criar”, no canto superior direito da página, e informar os seguintes parâmetros de configuração:
 
@@ -75,7 +75,7 @@ Esta ação permite realizar buscas por dados de entidades relacionadas dentro d
 
 **IMPORTANTE**: A inserção, atualização e exclusão de dados de um modelo de relacionamento é feita através do componente **Relationship**, que leva em consideração o ambiente no qual o _pipeline_ foi implantado para realizar essas ações.
 
-**Por exemplo:** para inserir, atualizar e excluir dados de um modelo de relacionamento criado em _**test**_, basta executar o _pipeline_ no próprio _test-mode_ ou implantá-lo __ no ambiente _**test**_; para inserir, atualizar e excluir dados de um modelo de relacionamento criado em **prod**, basta implantá-lo no ambiente **prod**.
+**Por exemplo:** para inserir, atualizar e excluir dados de um modelo de relacionamento criado em _**test**_, basta executar o _pipeline_ no próprio _test-mode_ ou implantá-lo \_\_ no ambiente _**test**_; para inserir, atualizar e excluir dados de um modelo de relacionamento criado em **prod**, basta implantá-lo no ambiente **prod**.
 
 ### Ação Remover Relacionamento (botão Lixeira) <a href="#h_f95399056d" id="h_f95399056d"></a>
 

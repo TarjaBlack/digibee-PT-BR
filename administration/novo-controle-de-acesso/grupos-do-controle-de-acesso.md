@@ -28,11 +28,11 @@ Para criar um grupo, siga os passos a seguir:
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 
-![](<../../.gitbook/assets/Imagem 1 (1) (4).png>)
+![](<../../.gitbook/assets/Imagem 1 (1) (4) (1).png>)
 
 4\. Clique no botão **+ CRIAR** no canto superior direito;
 
-![](<../../.gitbook/assets/Imagem 2.png>)
+![](<../../.gitbook/assets/Imagem 2 (2).png>)
 
 5\. Preencha os campos de nome, descrição e caso deseje já incluir os usuários, selecione os usuários que pertencerão àquele grupo;
 
@@ -40,7 +40,7 @@ Para criar um grupo, siga os passos a seguir:
 
 ### **Como vincular um papel a um grupo**
 
-Pré-requisitos:&#x20;
+Pré-requisitos:
 
 * O papel com as permissões necessárias precisa já ter sido criado previamente. Para saber mais, leia nossa [documentação sobre como criar um papel](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/papeis-do-controle-de-acesso#h\_3cbcaa1595).
 
@@ -52,7 +52,7 @@ Pré-requisitos:&#x20;
 
 <figure><img src="../../.gitbook/assets/imagem 2.png" alt=""><figcaption></figcaption></figure>
 
-3\. **** Clique na aba **PERMISSÕES** para acessar a lista de vínculos.
+3\. \*\*\*\* Clique na aba **PERMISSÕES** para acessar a lista de vínculos.
 
 <figure><img src="../../.gitbook/assets/Imagem 3 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +70,7 @@ Pré-requisitos:&#x20;
 
 6\. Clique em **SALVAR.**
 
-<figure><img src="../../.gitbook/assets/Imagem 7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 7 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Observação:** É possível vincular um ou mais papéis ao mesmo grupo, criando um acúmulo de permissões. Para verificar as permissões vinculadas ao grupo, clique em **RESUMO DE PERMISSÕES**
 
@@ -88,7 +88,7 @@ Para editar um grupo, siga os passos a seguir:
 
 4\. Procure o grupo desejado na barra de pesquisa;
 
-![](<../../.gitbook/assets/Imagem 7 (1) (2).png>)
+![](<../../.gitbook/assets/Imagem 7 (1) (1) (1).png>)
 
 5\. Clique em “Editar”;
 
@@ -120,9 +120,9 @@ Para arquivar um grupo, siga os passos abaixo:
 
 6\. Preencha o motivo do arquivamento do grupo;
 
-![](<../../.gitbook/assets/Imagem 11 (1).png>)
-
 ![](<../../.gitbook/assets/Imagem 11.png>)
+
+![](<../../.gitbook/assets/Imagem 11 (1).png>)
 
 7\. Após preencher, clique em “Arquivar”
 

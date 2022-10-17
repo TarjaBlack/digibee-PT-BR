@@ -26,7 +26,7 @@ Desse modo, para criar um novo provedor, clique em + CRIAR. Assim, você poderá
 
 Nesta tela, selecione um provedor-base existente cadastrado pela Digibee Integration Platform para que o campo “URL de autenticação” seja preenchido automaticamente. Também será necessário definir o nome do seu novo provedor conforme o exemplo abaixo:
 
-![](<../../../.gitbook/assets/03 (10).png>)
+![](<../../../.gitbook/assets/03 (3).png>)
 
 Finalizada esta etapa, clique em “Continuar”.
 

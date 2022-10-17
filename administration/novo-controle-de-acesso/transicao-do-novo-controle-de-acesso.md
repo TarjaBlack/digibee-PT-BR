@@ -33,7 +33,7 @@ Os usuários que ainda não tiveram seus acessos replicados no novo modelo (ou s
 
 Ao final da transição, todos os usuários devem apresentar um ícone de checkmark verde e a mensagem a seguir deve aparecer no topo da tela, substituíndo a mensagem sobre data limite da transição:
 
-![](<../../.gitbook/assets/Imagem 2 (4).png>)
+![](<../../.gitbook/assets/imagem 10.png>)
 
 ### Tutorial sobre a transição para o novo controle de acesso
 
@@ -65,7 +65,7 @@ A transição de usuários pode ser realizada um a um ou de múltiplos usuários
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Usuários”
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (25).png>)
 
 4\. Busque o usuário na barra de pesquisa;
 
@@ -105,7 +105,7 @@ Quando estiver tudo pronto, clique em “**REMOVER ACESSOS ANTIGOS**”.
 
 Caso haja alguma pendência, uma tela de confirmação aparecerá, caso queira prosseguir clique novamente em “**REMOVER ACESSOS ANTIGOS**”.
 
-![](<../../.gitbook/assets/imagem 10.png>)
+![](<../../.gitbook/assets/Imagem 2 (4).png>)
 
 Ao finalizar estes passos, a transição dos usuários terá sido feita com sucesso e a mensagem a seguir substituirá a mensagem original sobre a data limite da transição de acesso:
 

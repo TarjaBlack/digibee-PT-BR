@@ -16,7 +16,7 @@ description: >-
 
 4\. Será apresentada a tela Configurar autenticação. Em seu smartphone, instale um app de geração de código de verificação (Google Authenticator, Microsoft Authenticator ou LastPass Password Manager). O app pode ser baixado na Apple App Store (iPhone) ou Google Play (Android);
 
-![](<../../.gitbook/assets/Imagem 1 (8).png>)
+![](<../../.gitbook/assets/Imagem 3 (7).png>)
 
 5\. Escaneie o QRCode com o app de geração de código
 
@@ -53,7 +53,7 @@ _**Importante: Enquanto a Verificação em Duas Etapas estiver habilitada, em to
 
 3\. Será exibida a tela a seguir:
 
-![](<../../.gitbook/assets/Imagem 4 (8).png>)
+![](<../../.gitbook/assets/Imagem 4 (6).png>)
 
 4\. Abra o app de geração de código de autenticação instalado em seu smartphone;
 

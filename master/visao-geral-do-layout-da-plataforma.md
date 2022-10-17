@@ -14,9 +14,9 @@ O novo layout foi pensado para representar o ciclo de construção de integraç�
 * **Run:** é onde você fará a implantação de _pipelines_.
 * **Monitor:** é onde você visualiza os painéis para monitorar as suas integrações.
 
-![](../.gitbook/assets/01-novo.png)
+![](../.gitbook/assets/imagem1.jpg)
 
-![](<../.gitbook/assets/02 (18).png>)
+![](../.gitbook/assets/imagem2.jpg)
 
 As telas de Configuração e Administração são acessadas através do ícone de "Administração":
 
@@ -26,8 +26,8 @@ As telas de Configuração e Administração são acessadas através do ícone d
 
 ![](<../.gitbook/assets/05 (10).png>)
 
-![](<../.gitbook/assets/06 (3) (1).png>)
+![](<../.gitbook/assets/06 (6).png>)
 
 Você encontrará estruturas fixas que ajudam nas tarefas mais comuns:
 
-![](<../.gitbook/assets/07 (3).png>)
+![](../.gitbook/assets/imagem7.jpg)

@@ -74,7 +74,7 @@ Ainda que a cor cinza não seja recomendada, existem exceções para a sua adoç
 
 Agora só resta escolher o ícone que representa melhor a função da sua Cápsula. Por exemplo, se a Cápsula lida com autenticação no _Foursquare_, você poderia usar o seguinte ícone:
 
-![](../../.gitbook/assets/10.png)
+![](../../.gitbook/assets/four.png)
 
 ### Tamanho <a href="#h_2c8ee13bd4" id="h_2c8ee13bd4"></a>
 

@@ -16,7 +16,7 @@ Para criar uma _global,_ siga os seguintes passos:
 2. Clique no ícone de “Administração”;
 3. Entre na opção de menu “_Globals_”;
 
-![](<../.gitbook/assets/01 (17) (1).png>)
+![](<../.gitbook/assets/01 (17).png>)
 
 1. Clique no botão **+ CRIAR** no canto superior direito;
 
@@ -48,7 +48,7 @@ Para editar uma _global,_ siga os seguintes passos:
 3. Entre na opção de menu “_Globals_”;
 4. Busque a _global_ na barra de pesquisa;
 
-![](../.gitbook/assets/edit1.png)
+![](<../.gitbook/assets/03 (1).png>)
 
 1. Clique no ícone de lápis “Editar _global_”;
 
@@ -66,7 +66,7 @@ Para remover uma _global,_ siga os seguintes passos:
 2. Clique no ícone de “Administração”;
 3. Entre na opção de menu “_Globals_”;
 
-![](<../.gitbook/assets/03 (1).png>)
+![](../.gitbook/assets/edit1.png)
 
 1. Busque a _global_ na barra de pesquisa;
 2. Clique no ícone de lixeira “Remover _global_”;

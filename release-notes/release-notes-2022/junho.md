@@ -4,19 +4,17 @@
 
 #### **COMPONENTES** <a href="#h_79a80e4fc2" id="h_79a80e4fc2"></a>
 
-* **Blob Storage:** Lançamos um novo componente, o _Blob Storage (Azure),_ que permite manipular arquivos que estejam em contêineres _Azure Blob Storage_, especialmente quando é necessário realizar operações de _upload_ e _download,_ listar arquivos __ ou apagá-los_,_ usar _Double Braces_, etc. Leia a [documentação sobre o Azure Blob Storage aqui](../../components/file-storage/azure-blob-storage.md).
+* **Blob Storage:** Lançamos um novo componente, o _Blob Storage (Azure),_ que permite manipular arquivos que estejam em contêineres _Azure Blob Storage_, especialmente quando é necessário realizar operações de _upload_ e _download,_ listar arquivos \_\_ ou apagá-los\_,\_ usar _Double Braces_, etc. Leia a [documentação sobre o Azure Blob Storage aqui](../../components/file-storage/azure-blob-storage.md).
 
 #### **INTEGRAÇÃO DE GRUPOS COM PROVEDORES DE IDENTIDADE** <a href="#h_87c2a5f031" id="h_87c2a5f031"></a>
 
 Implementamos a experiência de bloqueio de usuários e grupos integrados da Digibee Integration Platform. Agora, não será possível atribuir usuários a grupos integrados pela interface da Digibee Integration Platform. Se o gestor de acessos tentar realizar modificações, um aviso será exibido nas páginas de detalhes do grupo e usuário, informando que as integrações já foram realizadas, e edições deverão ser feitas via provedor de identidade ou na página de Integração de grupos. Veja os alertas:
 
-![](<../../.gitbook/assets/im1 (1).png>)
+![](<../../.gitbook/assets/im1 (2).png>)
 
 ![](../../.gitbook/assets/im2.png)
 
 Para saber mais, leia o artigo [Integração de Grupos IdP com grupos Digibee](../../administration/integracao-de-provedor-de-identidades/integracao-dos-grupos-idp-com-grupos-digibee.md).
-
-
 
 Nós também solucionamos alguns _bugs_:
 
@@ -40,8 +38,6 @@ Criamos uma funcionalidade que permite que um usuário com permissão de apenas 
 #### **GRUPOS E PAPÉIS** <a href="#h_0c6c2edf8a" id="h_0c6c2edf8a"></a>
 
 Melhoramos a experiência na página de Grupos e Papéis. Agora, ao posicionar o cursor do mouse em cima da descrição de um grupo ou papel, é possível ler sua descrição completa e diferenciar seu propósito.
-
-
 
 Nós também solucionamos alguns _bugs_:
 

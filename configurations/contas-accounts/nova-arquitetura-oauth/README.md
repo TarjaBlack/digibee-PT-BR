@@ -60,9 +60,9 @@ Após isso, é necessário realizar o _login_ no provedor através da Digibee In
 
 Para solicitar um provedor inexistente em nossa lista, entre em contato conosco através do _chat_ da Digibee Integration Platform. Assim, poderemos adicioná-lo manualmente.
 
-### **Como utilizar o token no **_**pipeline**_**?**
+### **Como utilizar o token no \_pipeline**\_**?**
 
-Uma vez que a conta **oauth-2** esteja criada dentro, basta usá-la no campo _Account_ selecionando o conector Rest V2 no canvas. __ Também é necessário informar a URL do serviço a ser chamado, _headers_ e _query parameters_ necessários para que a chamada seja feita utilizando os tokens de acesso gerados.
+Uma vez que a conta **oauth-2** esteja criada dentro, basta usá-la no campo _Account_ selecionando o conector Rest V2 no canvas. \_\_ Também é necessário informar a URL do serviço a ser chamado, _headers_ e _query parameters_ necessários para que a chamada seja feita utilizando os tokens de acesso gerados.
 
 **Exemplos de chamadas:**
 
@@ -94,7 +94,7 @@ Chamando a API que retorna informações sobre sua conta no Mercado Livre:
 
 **Verb**: GET
 
-![](../../../.gitbook/assets/04.png)
+![](../../../.gitbook/assets/rest2.png)
 
 {% hint style="info" %}
 **IMPORTANTE:** Uma vez que a conta OAuth criada anteriormente seja informada no campo _Account_ do componente Rest V2, o cabeçalho _Authorization_ será adicionado automaticamente.
@@ -102,4 +102,4 @@ Chamando a API que retorna informações sobre sua conta no Mercado Livre:
 
 Uma vez criada a aplicação no provedor, será possível cadastrar seu novo provedor OAuth2 na Digibee Integration Platform seguindo o tutorial [Cadastro de novos provedores](cadastro-de-novos-provedores-oauth.md).
 
-\
+\\

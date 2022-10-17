@@ -13,9 +13,9 @@ Quando ativada a integração de Grupos IdP, o controle de acesso terá o seguin
 * **Usuários nativos** não são afetados pela integração de grupos IdP, assim eles podem ser associados a qualquer grupo Digibee (integrado ou não).
 * **Usuários integrados (IdP)** poderão participar apenas de **grupos integrados (IdP)** quando a integração for ativada pelo time de Suporte (após solicitação). Caso não esteja ativa, estes usuários podem ser associados manualmente a grupos Digibee.
 
-<figure><img src="../../.gitbook/assets/Imagem 1 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 1 (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/imagem 2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagem 2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Nota:** Caso solicitado, a opção de usuários nativos pode ser desativada no realm, após a validação de todo o ambiente.
 
@@ -36,13 +36,13 @@ Para criar uma integração, siga os seguintes passos:
 2. Clique no ícone de “Administração”;
 3. Entre na opção do menu “Grupos”;
 
-<figure><img src="../../.gitbook/assets/Imagem 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 3 (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Selecione a aba “Integração de grupos”;
 
 5 Clique no botão **+ CRIAR** no canto superior direito;
 
-<figure><img src="../../.gitbook/assets/Imagem 4 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 4 (3).png" alt=""><figcaption></figcaption></figure>
 
 6\. \*\*\*\* Um formulário solicitando a seguintes informações será exibido:
 
@@ -65,8 +65,6 @@ Caso seja selecionado “**Custom Scheme**” no campo SAML Scheme, um novo camp
 
 Após todos estes passos a integração será criada com sucesso.
 
-
-
 ### Como simular uma integração
 
 A simulação da integração é um mecanismo que tem por objetivo validar, através de um login simulado de um usuário teste, se uma integração de grupos está funcional.
@@ -87,14 +85,14 @@ Nesta etapa, é obrigatório fornecer o e-mail do usuário de teste para que a P
 
 <figure><img src="../../.gitbook/assets/Imagem 2 (6).png" alt=""><figcaption></figcaption></figure>
 
-**IMPORTANTE:**&#x20;
+**IMPORTANTE:**
 
 * Só é permitido um e-mail de teste para cada simulação de integração;
 * É imprescindível que o e-mail pertença a um usuário de teste contido no grupo IdP corresponde à integração que se pretende simular.
 
 **3. Clicar em TESTAR**
 
-Após clicar em testar, é exibida a tela “Instruções de testes de integração” (Passo 4) e o tempo limite para realizar o login simulado é de cinco minutos. Caso esse tempo se exceda, a Plataforma automaticamente atualizará o status da simulação para **expirado**.&#x20;
+Após clicar em testar, é exibida a tela “Instruções de testes de integração” (Passo 4) e o tempo limite para realizar o login simulado é de cinco minutos. Caso esse tempo se exceda, a Plataforma automaticamente atualizará o status da simulação para **expirado**.
 
 **IMPORTANTE:**
 
@@ -110,8 +108,8 @@ Na tela de “Instruções de teste de integração”, a Plataforma oferece o l
 
 **IMPORTANTE:**
 
-* O link fornecido precisa ser colado numa janela anônima. Caso o link seja colado numa aba/janela normal, a Plataforma entende que foi feito um login real e substitui a sessão atual. Assim, o fluxo de teste feito até o momento é perdido.&#x20;
-* Caso seja clicado **FECHAR** neste momento, aparece um aviso informando que não será mais possível ver nem o tempo restante  bem como o link de login do IdP.
+* O link fornecido precisa ser colado numa janela anônima. Caso o link seja colado numa aba/janela normal, a Plataforma entende que foi feito um login real e substitui a sessão atual. Assim, o fluxo de teste feito até o momento é perdido.
+* Caso seja clicado **FECHAR** neste momento, aparece um aviso informando que não será mais possível ver nem o tempo restante bem como o link de login do IdP.
 
 <figure><img src="../../.gitbook/assets/Imagem 6 (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -132,7 +130,7 @@ Existe duas formas para abrir a janela anônima no navegador Chrome:
 
 Ao colar o link previamente copiado na janela anônima, aparece uma tela de seleção do provedor de identidade no qual o usuário realizará o login.
 
-<figure><img src="../../.gitbook/assets/Imageee.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imageee (1).png" alt=""><figcaption></figcaption></figure>
 
 **7. Selecionar o provedor de identidade e preencher credenciais**
 
@@ -160,7 +158,7 @@ Após clicar em **FECHAR**, a Plataforma poderá apresentar alguns resultados re
 * A integração foi testada e está funcionando corretamente. O status que aprece é: **sucesso.**
 *   A integração foi testada, mas contém um ou mais erros e falhou. O status que aparece: **falha.**
 
-    Na eventualidade de aparecer essa mensagem, é necessário rever alguns passos:&#x20;
+    Na eventualidade de aparecer essa mensagem, é necessário rever alguns passos:
 
     * Se o e-mail de teste do usuário está contido no grupo do provedor de identidades correspondente.
     * Rever os parâmetros de configuração da integração de grupos criada.
@@ -184,11 +182,11 @@ Para editar uma integração, siga os seguintes passos:
 
     **Nota:** É possível buscar a integração por qualquer atributo da integração (nome, código, ID, grupo Digibee, ou SAML)
 
-<figure><img src="../../.gitbook/assets/Imagem 5 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 5.png" alt=""><figcaption></figcaption></figure>
 
 3\. Clique no ícone de lápis (“Editar integração”);
 
-<figure><img src="../../.gitbook/assets/Imagem 6 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Imagem 6 (2).png" alt=""><figcaption></figcaption></figure>
 
 4\. Faça as alterações desejadas.
 
