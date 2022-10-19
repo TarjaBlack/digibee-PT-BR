@@ -281,3 +281,48 @@ A informação abaixo deve ser passada no campo **** CUSTOM CONNECTION PROPERTIE
     "cancelQueryTimeout": 10
 }
 ```
+
+
+
+**Postgres**
+
+```
+{
+  "loginTimeout": "50",
+  "connectTimeout": "50",
+  "socketTimeout": "50",
+  "cancelSignalTimeout": "50"
+}
+```
+
+
+
+**SQLServer**
+
+```
+{
+    "cancelQueryTimeout": 5,
+    "queryTimeout": 15,
+    "lockTimeout": 15000,
+    "socketTimeout": 15000
+}
+```
+
+
+
+**Oracle**
+
+```
+{
+    "oracle.jdbc.ReadTimeout": 15000,
+    "oracle.net.CONNECT_TIMEOUT": 15000
+}
+```
+
+
+
+**MySQL (via URL)**
+
+```
+jdbc:mysql://{{mysql-dbo-ip}}/dbo?serverTimezone=UTC&connectTimeout=400000
+```
