@@ -53,31 +53,6 @@ Conforme explicado anteriormente, é possível definir um _subpipeline_ para tra
 
 Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4484877-subpipelines) para entender melhor o funcionamento dos _subpipelines_.
 
-## Cenários de utilização do componente _For Each_ com tratamento de erros <a href="#cenrios-de-utilizao-do-componente-for-each-com-tratamento-de-erros" id="cenrios-de-utilizao-do-componente-for-each-com-tratamento-de-erros"></a>
-
-### Propriedade "Fail on Error" habilitada e nenhum _subpipeline_ definido em _onException_ <a href="#propriedade-fail-on-error-habilitada-e-nenhum-subpipeline-definido-em-onexception" id="propriedade-fail-on-error-habilitada-e-nenhum-subpipeline-definido-em-onexception"></a>
-
-* o _pipeline_ será interrompido imediatamente
-* um erro será emitido a partir do componente _**For Each**_
-* nenhum outro componente será invocado após o _**For Each**_
-
-### Propriedade "Fail on Error" habilitada e um _subpipeline_ definido em _onException_ <a href="#propriedade-fail-on-error-habilitada-e-um-subpipeline-definido-em-onexception" id="propriedade-fail-on-error-habilitada-e-um-subpipeline-definido-em-onexception"></a>
-
-* o _pipeline_ será interrompido imediatamente
-* o _subpipeline_ definido em _onException_ será executado e a saída dele alimentará o próximo componente após o _**For Each**_
-* o componente após o _For Each_ será invocado
-
-### Propriedade "Fail on Error" desabilitada e nenhum _subpipeline_ definido em onException <a href="#propriedade-fail-on-error-desabilitada-e-nenhum-subpipeline-definido-em-onexception" id="propriedade-fail-on-error-desabilitada-e-nenhum-subpipeline-definido-em-onexception"></a>
-
-* a iteração onde ocorreu o erro será interrompida
-* uma mensagem de erro padrão será informada na entrada da próxima iteração e o _loop_ continuará a ser executado normalmente
-
-### Propriedade "Fail on Error" desabilitada e um _subpipeline_ definido em onException <a href="#propriedade-fail-on-error-desabilitada-e-um-subpipeline-definido-em-onexception" id="propriedade-fail-on-error-desabilitada-e-um-subpipeline-definido-em-onexception"></a>
-
-* a iteração onde ocorreu o erro será interrompida
-* o _subpipeline_ definido em _onException_ será executado e a saída dele alimentará a próxima iteração
-* o _loop_ continuará a ser executado normalmente
-
 ## Erro durante o _subpipeline_ onException <a href="#erro-durante-o-subpipeline-onexception" id="erro-durante-o-subpipeline-onexception"></a>
 
 * o _loop_ será interrompido
