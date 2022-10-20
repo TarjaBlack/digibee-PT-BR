@@ -24,7 +24,11 @@ O Bootcamp tem uma duração de 80h, sendo aproximadamente 24h utilizadas para r
 
 ## Perfil dos participantes&#x20;
 
-Clientes / Parceiros / Digibees que lidam com integrações no seu dia a dia e querem ter uma experiência mais profunda no desenvolvimento de integrações com a Digibee. Requisitos básicos de conhecimento Para um melhor aproveitamento do entendimento das aulas e aplicação dos conceitos de desenvolvimento de integração na Digibee Integration Platform, listamos alguns requisitos básicos de conhecimentos necessários:&#x20;
+Clientes / Parceiros / Digibees que lidam com integrações no seu dia a dia e querem ter uma experiência mais profunda no desenvolvimento de integrações com a Digibee.&#x20;
+
+## Requisitos básicos de conhecimento&#x20;
+
+Para um melhor aproveitamento do entendimento das aulas e aplicação dos conceitos de desenvolvimento de integração na Digibee Integration Platform, listamos alguns requisitos básicos de conhecimentos necessários:&#x20;
 
 * Arquitetura orientada por eventos&#x20;
 * Diagramas de Sequência&#x20;
@@ -34,7 +38,23 @@ Clientes / Parceiros / Digibees que lidam com integrações no seu dia a dia e q
 * SQL&#x20;
 * NoSQL
 
+## **Limitações da capacidade do Bootcamp**
 
+O Bootcamp tem limitações na capacidade de participantes (que também dependem do tipo de participante) e cada classe possui uma quantidade separada de _slots_ para cada tipo de participante.\
+Considerando que em nossas aulas o número máximo de participantes é de 15 pessoas, caso você não seja contemplado no próximo Bootcamp ficaremos muito felizes em contar com você nos Bootcamps subsequentes.
+
+## **Bootcamps autoguiados (**_**self-paced**_**)**
+
+A partir de 19/10/22, a equipe de Educação passa a oferecer a primeira versão **autoguiada** (_self-paced_) oficial do curso _Integration developer bootcamp_ via [Digibee Academy](https://digibee.academy/login/index.php)!\
+O curso ficará disponível no portfólio do Academy e basta clicar nele para começar a trilha de estudos.\
+A principal mudança é que as aulas do curso passam a ser desacopladas da certificação técnica, sendo oferecidas em módulos separados e com dois tipos de certificação, conforme disposto abaixo:
+
+* _Certificado de participação:_ será emitido após completar a trilha dos vídeos do curso _Integration developer bootcamp;_
+* _Certificação técnica:_ passa a ser um curso/módulo **opcional** separado das aulas e também será oferecido, em breve, via Digibee Academy. Consiste na realização de um desafio técnico que é submetido para correção (em breve disponibilizaremos mais informações). O prazo de entrega do desafio é de 10 dias corridos, conforme calendário.
+
+{% hint style="info" %}
+**Nota:** esta primeira versão só está disponível em português.
+{% endhint %}
 
 ## Como se inscrever?
 
