@@ -266,22 +266,6 @@ ORDER BY ID_EXAMPLE
 **Configuração Timeout Oracle**\
 A informação abaixo deve ser passada no campo **** CUSTOM CONNECTION PROPERTIES no DB Connector para que haja maior controle do _timeout_ da sua conexão com o banco de dados:
 
-```
-{
-    "oracle.jdbc.ReadTimeout": "60000",
-    "oracle.net.CONNECT_TIMEOUT": "10000"
-}
-```
-
-**Configuração Timeout SQL Server**
-
-```
-{
-    "queryTimeout": 10,
-    "cancelQueryTimeout": 10
-}
-```
-
 
 
 **Postgres**
