@@ -8,12 +8,15 @@ O Bootcamp para Desenvolvedor de Integração é um programa de treinamento inte
 
 Durante o programa, os desenvolvedores serão capazes de criar integrações com a Plataforma seguindo as melhores práticas de desenvolvimento e adotando padrões de Design e Arquitetura a fim de oferecer integrações performáticas, tolerante a falhas e fáceis de manter.&#x20;
 
-O Programa apresenta um conteúdo divididos em tópicos, onde cada um deles possui: &#x20;
+O Programa apresenta um conteúdo divididos em tópicos, onde cada um deles possui:
 
-* Apresentação de conteúdo&#x20;
-* Exercício prático orientado&#x20;
-* Desafios envolvendo os conceitos ensinados&#x20;
-* Solução dos desafios propostos
+* Apresentação de conteúdo
+* Exercício prático orientado
+
+O método de avaliação aplicado passa a ser padronizado da mesma forma que a modalidade autoguiada, ou seja:
+
+* _Certificado de participação:_ será emitido após as aulas guiadas do curso _Integration developer bootcamp;_
+* _Certificação técnica:_ desafio **opcional** a ser realizado após a conclusão das aulas de acordo com o calendário de avaliações (disponível no Academy). Também passa a ser um curso/módulo separado das aulas e será oferecido via [Digibee Academy](https://digibee.academy/login/index.php). O prazo de entrega do desafio é de 10 dias corridos, conforme calendário.
 
 ## Programa de Estudos&#x20;
 
