@@ -14,9 +14,9 @@ O Novo Canvas contém funcionalidades que melhoram a experiência de navegação
 
 <figure><img src="../../.gitbook/assets/image4 (1).png" alt=""><figcaption></figcaption></figure>
 
-Você pode facilmente navegar pelo _pipeline_ através dos botões **Reorganizar** (![](<../../.gitbook/assets/image3 (2).png>)), **Ampliar zoom** (![](../../.gitbook/assets/image1.png)) e **Reduzir zoom** (![](../../.gitbook/assets/image5.png)). O primeiro é utilizado para reorganizar os conectores utilizados de forma que facilite a visualização de cada etapa do fluxo; os outros dois são utilizados para controlar o zoom do Canvas.
+Você pode facilmente navegar pelo _pipeline_ através dos botões **Reorganizar** (![](<../../.gitbook/assets/image3 (2).png>)), **Ampliar zoom** (![](../../.gitbook/assets/image1.png)) e **Reduzir zoom** (![](../../.gitbook/assets/image5.png)). O primeiro é utilizado para reorganizar os componentes utilizados de forma que facilite a visualização de cada etapa do fluxo; os outros dois são utilizados para controlar o zoom do Canvas.
 
-Ao reorganizar, os conectores soltos (não conectados ao fluxo) são ajustados à esquerda da tela, um abaixo do outro. Já os conectores conectados ao fluxo, por sua vez, são alinhados horizontalmente.
+Ao reorganizar, os componentes soltos (não conectados ao fluxo) são ajustados à esquerda da tela, um abaixo do outro. Já os componentes conectados ao fluxo, por sua vez, são alinhados horizontalmente.
 
 ### Minimapa <a href="#h_45f6ee41a4" id="h_45f6ee41a4"></a>
 
@@ -26,4 +26,4 @@ No Novo Canvas, você pode navegar pelo _pipeline_ utilizando o minimapa no cant
 
 ### Movimentação automática <a href="#h_0009c98480" id="h_0009c98480"></a>
 
-Com o _auto pan_, ao segurar um conector e o arrastar, a nova tela segue o cursor, facilitando a navegação em _pipelines_ muito grandes. Desse modo, você consegue arrastar um conector para qualquer área do Canvas, e a tela o acompanhará.
+Com o _auto pan_, ao segurar um componente e o arrastar, a nova tela segue o cursor, facilitando a navegação em _pipelines_ muito grandes. Desse modo, você consegue arrastar um componente para qualquer área do Canvas, e a tela o acompanhará.
