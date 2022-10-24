@@ -10,7 +10,7 @@ description: >-
 **IMPORTANTE:** a nova versão do Canvas está em Beta restrito. Para saber mais, leia o artigo [Programa Beta](../../geral/programa-beta.md).
 {% endhint %}
 
-O Canvas é o ambiente de construção de _pipelines_ da Plataforma Digibee. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando conectores pré-configurados com rapidez e precisão.
+O Canvas é o ambiente de construção de _pipelines_ da Plataforma Digibee. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
 
 O Novo Canvas traz melhorias relacionadas à experiência de navegação e construção de _pipelines_ se comparado ao antigo Canvas.
 
@@ -24,7 +24,7 @@ Para utilizar o Novo Canvas, acesse a aba **Build** e clique em **USAR NOVO CANV
 
 <figure><img src="../../.gitbook/assets/image5 (1).png" alt=""><figcaption></figcaption></figure>
 
-Esse aviso também estará presente em todos os _pipelines_ criados no Canvas antigo. Ao clicar em **USAR NOVO CANVAS**, você será redirecionado para o Novo Canvas e o _pipeline_ será transferido para a nova versão sem perder nenhum conector, não necessitando de reimplantação.
+Esse aviso também estará presente em todos os _pipelines_ criados no Canvas antigo. Ao clicar em **USAR NOVO CANVAS**, você será redirecionado para o Novo Canvas e o _pipeline_ será transferido para a nova versão sem perder nenhum componente, não necessitando de reimplantação.
 
 Ainda na aba **Build**, você também pode acessar o Novo Canvas clicando em **+CRIAR** e em **Pipeline Beta**.
 
@@ -58,7 +58,7 @@ Após configurar o _pipeline_, você poderá partir para a construção do fluxo
 
 ### Crie um fluxo
 
-Todo _pipeline_ é composto por um _trigger_ e por pelo menos um conector, que devem ser conectados entre si para que possam estabelecer um fluxo de integração. No Novo Canvas você consegue organizar e configurar o _trigger_ e os conectores do seu _pipeline_ de acordo com a sua necessidade de negócio.
+Todo _pipeline_ é composto por um _trigger_ e por pelo menos um componente, que devem ser conectados entre si para que possam estabelecer um fluxo de integração. No Novo Canvas você consegue organizar e configurar o _trigger_ e os componentes do seu _pipeline_ de acordo com a sua necessidade de negócio.
 
 ### Trigger <a href="#h_d80b42e462" id="h_d80b42e462"></a>
 
@@ -66,25 +66,25 @@ O primeiro passo para criar um fluxo é escolher um _trigger_. O _trigger_ é o 
 
 <figure><img src="../../.gitbook/assets/image11.gif" alt=""><figcaption></figcaption></figure>
 
-### Conectores <a href="#h_eadc6e7b3f" id="h_eadc6e7b3f"></a>
+### Componentes <a href="#h_eadc6e7b3f" id="h_eadc6e7b3f"></a>
 
-Os conectores representam etapas do fluxo e são escolhidos de acordo com as suas necessidades de negócio. Combine todas as etapas do processo de integração que deseja realizar utilizando a lista de conectores à direita do _Canvas_.
+Os componentes representam etapas do fluxo e são escolhidos de acordo com as suas necessidades de negócio. Combine todas as etapas do processo de integração que deseja realizar utilizando a lista de componentes à direita do _Canvas_.
 
 <figure><img src="../../.gitbook/assets/image8.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Nota:** Nesta nova versão do Canvas, a seta magnética facilita a conexão entre conectores.
+**Nota:** Nesta nova versão do Canvas, a seta magnética facilita a conexão entre componentes.
 {% endhint %}
 
-Para excluir uma linha conectora ou um conector específico do fluxo, clique no ícone de lixeira (![](<../../.gitbook/assets/image1 (1).png>)) e no **X**.
+Para excluir uma linha conectora ou um componente específico do fluxo, clique no ícone de lixeira (![](<../../.gitbook/assets/image1 (1).png>)) e no **X**.
 
 <figure><img src="../../.gitbook/assets/image10.gif" alt=""><figcaption></figcaption></figure>
 
-Para configurar o conector a ser utilizado, clique no ícone de engrenagem (![](<../../.gitbook/assets/image4 (1) (1).png>)) para acessar o formulário de configuração. No exemplo abaixo, é possível visualizar o formulário do [conector Google Drive](../../components/file-storage/google-drive.md).
+Para configurar o componente a ser utilizado, clique no ícone de engrenagem (![](<../../.gitbook/assets/image4 (1) (1).png>)) para acessar o formulário de configuração. No exemplo abaixo, é possível visualizar o formulário do [componente Google Drive](../../components/file-storage/google-drive.md).
 
 <figure><img src="../../.gitbook/assets/image6.gif" alt=""><figcaption></figcaption></figure>
 
-Para saber mais a respeito de cada conector disponível em nossa lista, acesse a nossa [documentação de conectores](broken-reference).
+Para saber mais a respeito de cada componente disponível em nossa lista, acesse a nossa [documentação de componentes](broken-reference).
 
 ### Validação de construção do _pipeline_ <a href="#h_3e6ea3319e" id="h_3e6ea3319e"></a>
 
