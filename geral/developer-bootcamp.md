@@ -43,7 +43,7 @@ Para um melhor aproveitamento do entendimento das aulas e aplicação dos concei
 ## **Limitações da capacidade do Bootcamp**
 
 O Bootcamp tem limitações na capacidade de participantes (que também dependem do tipo de participante) e cada classe possui uma quantidade separada de _slots_ para cada tipo de participante.\
-Considerando que em nossas aulas o número máximo de participantes é de 15 pessoas, caso você não seja contemplado no próximo Bootcamp ficaremos muito felizes em contar com você nos Bootcamps subsequentes.
+Considerando que em nossas aulas o número máximo de participantes é de 30 pessoas, caso você não seja contemplado no próximo Bootcamp ficaremos muito felizes em contar com você nos Bootcamps subsequentes.
 
 ## **Bootcamps autoguiados (**_**self-paced**_**)**
 
