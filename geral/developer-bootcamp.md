@@ -20,10 +20,9 @@ O método de avaliação aplicado passa a ser padronizado da mesma forma que a m
 
 ## Programa de Estudos&#x20;
 
-O Bootcamp tem uma duração de 80h, sendo aproximadamente 24h utilizadas para reuniões e o restante na conclusão dos desafios que são apresentados durante o processo. A avaliação para o Bootcamp é dividida entre o comparecimento às aulas e a média ponderada das notas do desafio durante o curso. Os requisitos mínimos para a obtenção do certificado são:&#x20;
-
-* 80% de presença nas aulas online do programa&#x20;
-* 70% da classificação técnica
+O bootcamp tem duração de 20h utilizadas para reuniões teóricas e práticas.\
+A avaliação do Bootcamp é feita através de um desafio técnico opcional que pode ser feito via Digibee Academy e submetido para correção.\
+O requisito mínimo para a obtenção do certificado é 70% da classificação técnica.
 
 ## Perfil dos participantes&#x20;
 
