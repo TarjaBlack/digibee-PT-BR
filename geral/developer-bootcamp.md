@@ -15,8 +15,8 @@ O Programa apresenta um conteúdo divididos em tópicos, onde cada um deles poss
 
 O método de avaliação aplicado passa a ser padronizado da mesma forma que a modalidade autoguiada, ou seja:
 
-* _Certificado de participação:_ será emitido após as aulas guiadas do curso _Integration developer bootcamp;_
-* _Certificação técnica:_ desafio **opcional** a ser realizado após a conclusão das aulas de acordo com o calendário de avaliações (disponível no Academy). Também passa a ser um curso/módulo separado das aulas e será oferecido via [Digibee Academy](https://digibee.academy/login/index.php). O prazo de entrega do desafio é de 10 dias corridos, conforme calendário.
+* **Certificado de participação**: será emitido após as aulas guiadas do curso _Integration developer bootcamp;_
+* **Certificação técnica**: desafio **opcional** a ser realizado após a conclusão das aulas de acordo com o calendário de avaliações (disponível no Academy). Também passa a ser um curso/módulo separado das aulas e será oferecido via [Digibee Academy](https://digibee.academy/login/index.php). O prazo de entrega do desafio é de 10 dias corridos, conforme calendário.
 
 ## Programa de Estudos&#x20;
 
@@ -51,8 +51,8 @@ A partir de 19/10/22, a equipe de Educação passa a oferecer a primeira versão
 O curso ficará disponível no portfólio do Academy e basta clicar nele para começar a trilha de estudos.\
 A principal mudança é que as aulas do curso passam a ser desacopladas da certificação técnica, sendo oferecidas em módulos separados e com dois tipos de certificação, conforme disposto abaixo:
 
-* _Certificado de participação:_ será emitido após completar a trilha dos vídeos do curso _Integration developer bootcamp;_
-* _Certificação técnica:_ passa a ser um curso/módulo **opcional** separado das aulas e também será oferecido, em breve, via Digibee Academy. Consiste na realização de um desafio técnico que é submetido para correção (em breve disponibilizaremos mais informações). O prazo de entrega do desafio é de 10 dias corridos, conforme calendário.
+* **Certificado de participação:** será emitido após completar a trilha dos vídeos do curso _Integration developer bootcamp;_
+* **Certificação técnica:** desafio **opcional** a ser realizado após a conclusão das aulas de acordo com o calendário de avaliações (disponível no Academy). Também passa a ser um curso/módulo separado das aulas e será oferecido via [Digibee Academy](https://digibee.academy/login/index.php). O prazo de entrega do desafio é de 10 dias corridos, conforme calendário.
 
 {% hint style="info" %}
 **Nota:** esta primeira versão só está disponível em português.
