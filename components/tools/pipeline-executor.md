@@ -105,4 +105,18 @@ No cenário acima, será feita uma chamada assíncrona ao _pipeline_ configurado
 }
 ```
 
-\
+**Nota:** Ao realizar implantações de _pipelines_ que utilizem o Pipeline Executor, esteja atento às configurações de execuções concorrentes tanto no _pipeline_ de origem como no de destino, especialmente quando o  o parâmetro _Operation_ estiver configurado com o valor SYNC.
+
+Para evitar erros de enfileiramento de chamadas e timeout ao _pipeline_ de destino, é recomendável que a mesma configuração de execuções concorrentes seja adotada para ambos os _pipelines_ (origem e destino).
+
+**Exemplos de **_**Red Flags**_**:**\
+pipeline1(Medium) <-> pipeline2(Small)\
+pipeline1(Large) <-> pipeline2(Medium)\
+pipeline1(Medium) <-> pipeline2(Small)
+
+**Limite de Execuções Concorrentes por tipo de implantação:**\
+Small - max 10\
+Medium - max 20\
+Large - max 40\
+
+
