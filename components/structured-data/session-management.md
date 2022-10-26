@@ -9,8 +9,9 @@ O **Session Management** implementa o gerenciamento de sessão tradicional e a s
 
 Esse componente pode ser configurado nas seguintes operações:
 
-* **GET:** vai ser buscado na sessão o objeto especificado no "campo" parâmetro, para ser colocado no corpo da solicitação.
-* **PUT:** vai ser colocado na sessão, LOCAL ou GLOBAL, o objeto especificado do "campo" parâmetro do passo anterior.
+* **GET:** busca na sessão os objetos especificados no parâmetro "Fields", que serão inseridos em seguida no corpo da solicitação.&#x20;
+* **PUT:** insere na sessão (LOCAL ou GLOBAL) os objetos especificados no parâmetro "Fields".
+* **DELETE:** apaga da sessão os objetos especificados no parâmetro "Fields".
 
 ### LOCAL <a href="#local" id="local"></a>
 
