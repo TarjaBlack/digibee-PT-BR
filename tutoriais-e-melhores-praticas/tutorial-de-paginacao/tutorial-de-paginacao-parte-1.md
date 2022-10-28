@@ -1,4 +1,4 @@
-# Passos iniciais
+# Tutorial de paginação - parte 1
 
 Nos passos iniciais do pipeline de paginação, nós configuramos o trigger do pipeline e usamos uma sequência de componentes para configurar e salvar os parâmetros de paginação, como descrito abaixo:
 

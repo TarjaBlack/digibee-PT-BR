@@ -1,6 +1,6 @@
-# Caminho FINISHED
+# Tutorial de paginação - parte 2
 
-O fluxo de integração segue esse caminho se o processo de migração de dados diário já terminou ou se ainda não chegou a hora de iniciá-lo.
+O fluxo de integração segue o caminho FINISHED se o processo de migração de dados diário já terminou ou se ainda não chegou a hora de iniciá-lo.
 
 Primeiramente, verificamos se o parâmetro _next execution timestamp_ é nulo, isto é, não existe. Isso acontece durante a primeira execução do _pipeline_. Se for nulo, atribuímos um valor a ele.
 
