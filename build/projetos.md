@@ -16,9 +16,11 @@ Dê uma olhada no que você pode fazer com a versão beta de Projetos:
 
 ![](<../.gitbook/assets/01 (4).png>)
 
-* **Editar** nome e descrição de projetos:
+* **Editar** a descrição de projetos:
 
 ![](<../.gitbook/assets/02 (12).png>)
+
+**IMPORTANTE:** Não é possível editar o nome do projeto devido a questões de Auditoria. Caso o nome do projeto precise ser mudado, é necessário criar outro projeto com o nome correto e migrar os pipelines para ele.
 
 * **Mover** _pipeline_s de um projeto para outro clicando no ícone destacado na imagem abaixo e arrastando um _pipeline_ para qualquer projeto criado. Também é possível selecionar múltiplos _pipelines_. Para isso, basta segurar a tecla CTRL (ou CMD para Mac) e clicar nos _pipelines_ para arrastá-los utilizando o ícone indicado:
 
