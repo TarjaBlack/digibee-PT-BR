@@ -4,7 +4,9 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # FTP
 
-O _**FTP**_ permite estabelecer uma conexão com um serviço que suporte o protocolo FTP (File Transfer Protocol) e executar os comandos de _upload_, _delete_, _download_, _list_ ou _move_.
+O _**FTP**_ permite estabelecer uma conexão com um serviço que suporte o protocolo FTP (_File Transfer Protocol_) e executar os comandos de _upload_, _delete_, _download_, _list_ ou _move_.
+
+**Nota:** O conector _FTP_ não funciona via VPN (_Virtual Private Network_). Um diretório FTP poderá ser acessado no _pipeline_ apenas se estiver exposto na internet, e redes VPN não se aplicam a esta regra.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
