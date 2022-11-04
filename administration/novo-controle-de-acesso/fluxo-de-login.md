@@ -2,7 +2,7 @@
 description: Saiba mais sobre o fluxo de login da Digibee.
 ---
 
-# Fluxo de Login
+# Fluxo de login
 
 O acesso à Digibee Integration Platform pode acontecer de duas formas:
 
@@ -12,17 +12,17 @@ Neste modelo, as ações são feitas diretamente na plataforma. Para acessar a D
 
 ### **Primeiro Acesso:**
 
-1.Criar usuário na plataforma
+**1.Criar usuário na plataforma**
 
 Para que o usuário comece a utilizar a plataforma, o gestor de acesso deve primeiro criar o usuário. Para saber mais, leia a nossa documentação sobre [como criar um usuário](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios#h\_465025ea56).
 
-2.Definir senha de acesso
+**2.Definir senha de acesso**
 
 Assim que o usuário for criado, um email com a solicitação para criar uma senha de acesso é enviado para o email cadastrado pelo gestor de acesso.
 
 Clique em **CREATE A PASSWORD** para definir a senha de acesso.
 
-3.Login na Digibee Integration Platform
+**3.Login na Digibee Integration Platform**
 
 Após definir a senha de acesso, o usuário é direcionado para a tela de login, onde será necessário preencher o seu _realm_, email e senha de acesso e realizar o seu primeiro login.
 
