@@ -83,6 +83,7 @@
   * [Papéis do Controle de Acesso](administration/novo-controle-de-acesso/papeis-do-controle-de-acesso.md)
   * [Papéis de sistema e grupos padrão](administration/novo-controle-de-acesso/papeis-de-sistema-e-grupos-padrao.md)
   * [Transição do novo Controle de Acesso](administration/novo-controle-de-acesso/transicao-do-novo-controle-de-acesso.md)
+  * [Fluxo de Login](administration/novo-controle-de-acesso/fluxo-de-login.md)
 * [Integração de provedor de identidades](administration/integracao-de-provedor-de-identidades/README.md)
   * [Como integrar seu provedor de identidades](administration/integracao-de-provedor-de-identidades/como-integrar-seu-provedor-de-identidades.md)
   * [Integração dos grupos IdP com grupos Digibee](administration/integracao-de-provedor-de-identidades/integracao-dos-grupos-idp-com-grupos-digibee.md)
