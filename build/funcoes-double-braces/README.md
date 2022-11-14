@@ -162,7 +162,7 @@ Entrada\*\*:\*\*
 }
 ```
 
-DOUBLE BRACE - Expressão\*\*:\*\*
+DOUBLE BRACE~~S~~ - Expressão\*\*:\*\*
 
 ```
 {
