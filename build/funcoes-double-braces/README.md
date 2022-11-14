@@ -151,3 +151,32 @@ Você pode aplicar uma função para atribuir um valor padrão quando o elemento
 "tipo": {{ DEFAULT( TRIM(message.tipo), "PJ" ) }}
 }
 ```
+
+**Nota:** Lembre-se que uma expressão Double Braces irá resolver todas as funções contidas nessa expressão ao mesmo tempo, diferente de outras linguagens de programação onde a expressão é resolvida somente após confirmar a condição IF como verdadeira ou falsa. Uma expressão Double Braces irá funcionar da seguinte forma:
+
+Entrada\*\*:\*\*
+
+```
+{
+    "data": "2022-10-26T03:00:00Z"
+}
+```
+
+DOUBLE BRACE - Expressão\*\*:\*\*
+
+```
+{
+    "format": {{ IF(EQUALTO(SIZE(message.data),20),FORMATDATE( message.data, "yyyy-MM-dd'T'HH:mm:ss'Z'", "dd/MM/yyyy"),FORMATDATE( message.data, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", "dd/MM/yyyy")) }}
+}
+```
+
+Resultado\*\*:\*\*
+
+```
+{
+
+"success": false, "message": "Encountered a configuration error while generating JSON", "error": "com.digibee.pipelineengine.exception.PipelineEngineConfigurationException: com.digibee.doublebraces.service.DoubleBracesConfigurationException: Syntax error parsing double braces expression {{ IF(EQUALTO(SIZE(message.data),20),FORMATDATE( message.data, \"yyyy-MM-dd'T'HH:mm:ss'Z'\", \"dd/MM/yyyy\"),FORMATDATE( message.data, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\", \"dd/MM/yyyy\")) }}: Could not parse date/time evaluating function FORMATDATE. Error: Text '2022-10-26T03:00:00Z' could not be parsed at index 19"
+
+}
+```
+
