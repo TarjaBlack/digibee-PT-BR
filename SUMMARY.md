@@ -75,7 +75,7 @@
 
 * [Auditoria](administration/auditoria.md)
 * [Autenticação e Autorização de Usuários](administration/autenticacao-e-autorizacao-de-usuarios/README.md)
-  * [Verificação em duas etapas](administration/autenticacao-e-autorizacao-de-usuarios/verificacao-em-duas-etapas.md)
+  * [Como habilitar e desabilitar a autenticação de dois fatores](administration/autenticacao-e-autorizacao-de-usuarios/verificacao-em-duas-etapas.md)
   * [Nova tela de login](administration/autenticacao-e-autorizacao-de-usuarios/nova-tela-de-login.md)
   * [Visualização da classificação de acesso na página de usuários](administration/autenticacao-e-autorizacao-de-usuarios/visualizacao-da-classificacao-de-acesso-na-pagina-de-usuarios.md)
 * [Novo Controle de Acesso](administration/novo-controle-de-acesso/README.md)

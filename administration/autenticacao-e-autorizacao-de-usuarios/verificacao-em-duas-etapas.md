@@ -1,64 +1,36 @@
 ---
 description: >-
-  A verificação em duas etapas (two-factor authentication) adiciona uma camada
-  extra de proteção à sua conta. Saiba como utilizá-la.
+  Veja aqui os passos para habilitar e desabilitar a autenticação de dois
+  fatores na Digibee Integration Platform.
 ---
 
-# Verificação em duas etapas
+# Como habilitar e desabilitar a autenticação de dois fatores
 
-## Como habilito a Verificação em Duas Etapas? <a href="#como-habilito-a-verificao-em-duas-etapas" id="como-habilito-a-verificao-em-duas-etapas"></a>
+A autenticação de dois fatores é um recurso que coloca uma camada a mais de proteção e garante um acesso seguro a qualquer sistema.
 
-1\. Faça o login normalmente na Digibee Integration Platform com suas credenciais;
+Na Digibee Integration Platform, é possível habilitar a autenticação de dois fatores na própria plataforma e assim proteger o seu login. Veja os passos a seguir.
 
-2\. Acesse o menu de usuário, clicando sobre seu email no canto superior direito da plataforma;
+**IMPORTANTE:** Caso o seu acesso seja efetuado via provedor de identidade integrado à Digibee Integration Platform, esse recurso de autenticação não é necessário.
 
-3\. Clique em "Autenticação";
+## **Como habilitar a autenticação de dois fatores**
 
-4\. Será apresentada a tela Configurar autenticação. Em seu smartphone, instale um app de geração de código de verificação (Google Authenticator, Microsoft Authenticator ou LastPass Password Manager). O app pode ser baixado na Apple App Store (iPhone) ou Google Play (Android);
+1. Faça o login na Digibee Integration Platform
+2. Clique no menu do usuário no canto superior direito
+3. Clique em **AUTENTICAÇÃO DE DOIS FATORES**
+4. Escolha o aplicativo de autenticação e faça o download no seu celular
+5. Abra o aplicativo escolhido, leia o QR code e coloque o código que aparecer no aplicativo
+6. Clique em **ATIVAR**
 
-![](<../../.gitbook/assets/Imagem 3 (7).png>)
+**IMPORTANTE:** Logo que clicar em **ATIVAR**, a plataforma direciona o usuário para uma página de desativação. Só é necessário preencher essa página caso queira desabilitar o recurso.
 
-5\. Escaneie o QRCode com o app de geração de código
+A partir deste momento, será obrigatório informar o código de segurança do aplicativo todas as vezes que fizer o login via Digibee Integration Platform. Para saber mais, leia nossa documentação de **** [fluxo de login](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/fluxo-de-login).
 
-6\. O app irá gerar um código para a Digibee Integration Platform. Informe o código na tela Configurar autenticação e clique em "Ativar".
+**IMPORTANTE:** Se por algum motivo não for possível acessar o aplicativo na hora do login, entre em contato com o suporte.
 
-A verificação em duas etapas está habilitada. Tenha seu smartphone sempre em mãos para validar seu próximo acesso.
+## **Como desabilitar a autenticação de dois fatores**
 
-## Como faço login quando a Verificação em Duas Etapas está habilitada? <a href="#como-fao-login-quando-a-verificao-em-duas-etapas-est-habilitada" id="como-fao-login-quando-a-verificao-em-duas-etapas-est-habilitada"></a>
-
-1\. Acesse [https://www.godigibee.io/login](https://www.godigibee.io/login)
-
-2\. Será apresentada a tela de login:
-
-\
-![](<../../.gitbook/assets/Imagem 2 (5).png>)
-
-3\. Informe o seu realm, e-mail e senha;
-
-4\. Abra o aplicativo de geração de código de autenticação e localize a conta Digibee:
-
-![](<../../.gitbook/assets/Imagem 3 (4).png>)
-
-\
-5\. No campo "Verificação em Duas Etapas", digite o código mostrado no app e clique em Login.
-
-\
-_**Importante: Enquanto a Verificação em Duas Etapas estiver habilitada, em todo login será necessário informar o código gerado pelo app.**_\\
-
-## Como desabilito a Verificação em Duas Etapas? <a href="#como-desabilito-a-verificao-em-duas-etapas" id="como-desabilito-a-verificao-em-duas-etapas"></a>
-
-1\. Acesse o menu de usuário, clicando sobre seu email no canto superior direito da plataforma;
-
-2\. Clique em clique em "Autenticação";
-
-3\. Será exibida a tela a seguir:
-
-![](<../../.gitbook/assets/Imagem 4 (6).png>)
-
-4\. Abra o app de geração de código de autenticação instalado em seu smartphone;
-
-5\. No campo Código, informe o código gerado pelo app;
-
-6\. Clique em "Desativar".
-
-A verificação em duas etapas está desabilitada. A partir de agora, não será mais necessário fornecer o código de verificação no momento do login.
+1. Faça o login na Digibee Integration Platform
+2. Clique no menu do usuário no canto superior direito
+3. Clique em **AUTENTICAÇÃO DE DOIS FATORES**
+4. Coloque o código de autenticação que está no aplicativo
+5. Clique em **DESATIVAR**
