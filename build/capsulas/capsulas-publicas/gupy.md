@@ -4,11 +4,11 @@ description: Saiba quais são as Cápsulas disponíveis nessa Coleção.
 
 # Gupy
 
-### O que é Gupy? <a href="#h_8d1147ece8" id="h_8d1147ece8"></a>
+## O que é Gupy? <a href="#h_8d1147ece8" id="h_8d1147ece8"></a>
 
 Gupy é uma ferramenta de seleção e admissão de candidatos. Com a Gupy você agiliza a requisição de vagas, divulga as suas oportunidades nos principais portais de emprego do Brasil e qualifica os seus candidatos com dezenas de testes online prontos. Além disso, você simplifica a admissão digital dos novos colaboradores.
 
-#### Pré requisitos Gerais <a href="#h_54bb08168f" id="h_54bb08168f"></a>
+### Pré-requisitos <a href="#h_54bb08168f" id="h_54bb08168f"></a>
 
 Para utilizar as Cápsulas dos serviços Gupy, é necessário possuir um token de autorização, que deve estar cadastrado em uma _account_ do tipo ‘oauth-bearer’ na Digibee Integration Platform.
 

@@ -14,7 +14,7 @@ Após a execução da Cápsula, é possível controlar o fluxo de mensagens, ana
 
 SAP é um dos líderes mundiais de desenvolvimento de _softwares_ para gerenciamento de processos de negócios, que cria soluções para facilitar o processamento efetivo de dados e o fluxo de informações entre as organizações. Clique [aqui](https://www.sap.com/brazil/about/company/what-is-sap.html) para obter mais informações.
 
-### Pré requisitos <a href="#h_b619770c7a" id="h_b619770c7a"></a>
+### Pré-requisitos <a href="#h_b619770c7a" id="h_b619770c7a"></a>
 
 #### 1) Estabelecer VPN <a href="#h_4e6b1f6eea" id="h_4e6b1f6eea"></a>
 
