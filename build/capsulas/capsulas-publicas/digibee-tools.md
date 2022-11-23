@@ -6,7 +6,7 @@ description: Saiba quais são as Cápsulas disponíveis nessa Coleção.
 
 A Coleção de Cápsulas Digibee Tools disponibiliza, de modo padronizado, recursos que são comumente utilizados em _pipelines_. Assim, também por meio das melhores práticas, a construção de _pipelines_ se torna mais produtiva.
 
-### CPF CNPJ Validator <a href="#h_8e45a34869" id="h_8e45a34869"></a>
+#### CPF CNPJ Validator <a href="#h_8e45a34869" id="h_8e45a34869"></a>
 
 Com essa Cápsula é possível validar o valor de números de documentos brasileiros que identificam uma pessoa de forma única: CPF (Cadastro de Pessoas Físicas) e CNPJ (Cadastro Nacional da Pessoa Jurídica).
 
@@ -35,7 +35,7 @@ Em caso de erro na execução do algoritmo _javascript_, será lançado um erro 
 }
 ```
 
-### Digibee Publish Error <a href="#h_fb4e77bea7" id="h_fb4e77bea7"></a>
+#### Digibee Publish Error <a href="#h_fb4e77bea7" id="h_fb4e77bea7"></a>
 
 Utilize essa Cápsula para padronizar o modo com o qual o seu _pipeline_ publica as mensagens de erro. A Cápsula _**Digibee Publish Error**_ não envia as mensagens diretamente para seus _dashboards_ de monitoramento ou aplicativos (Slack, e-mail, etc). O comportamento da Cápsula consiste em padronizar informações que são chave no monitoramento da integração. Além disso, detalhes técnicos referentes à execução são disponibilizados. O próximo passo é criar um _pipeline_ responsável por receber tais mensagens e optar por ações como, por exemplo, enviar e-mail agrupado com os erros.
 
@@ -54,7 +54,7 @@ Veja uma ilustração de uso da Cápsula:
 
 ![](<../../../.gitbook/assets/01 (11).png>)
 
-### **Parallel Execution List to Objects** <a href="#h_5f4ec17e37" id="h_5f4ec17e37"></a>
+#### **Parallel Execution List to Objects** <a href="#h_5f4ec17e37" id="h_5f4ec17e37"></a>
 
 Essa Cápsula transforma um _array_ em um mapa de objetos, utilizando o campo “_executionId_” existente na raiz do _array_. O uso da _**Parallel Execution List to Objects**_** ** pode ser aplicado ao padrão de saída do componente [Parallel Execution](../../../components/logic/parallel-execution.md) na recuperação de objetos resultantes do processamento paralelo.
 
@@ -115,19 +115,19 @@ Utilizando a combinação do componente [Block Execution](../../../components/lo
 }
 ```
 
-### **Send Email Alert** <a href="#h_1b1f5eb271" id="h_1b1f5eb271"></a>
+#### **Send Email Alert** <a href="#h_1b1f5eb271" id="h_1b1f5eb271"></a>
 
 O objetivo dessa Cápsula é facilitar o envio de erros por e-mail com base nas informações preenchidas no formulário de configuração. A _**Send Email Alert**_ possibilita o envio de informações complementares em um _template_ de e-mail pré-determinado para que se entenda a causa raiz do erro.
 
-Para utilizar a Cápsula, é preciso configurar uma conta do tipo “_SMTP Auth And Properties_”. Para saber mais, leia o artigo [Utilização de Contas](../../../configurations/utilizacao-de-contas.md).
+Para utilizar a Cápsula, é preciso configurar uma conta do tipo “_SMTP Auth And Properties_”. Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4280470-utilizacao-de-accounts) para acessar o nosso artigo completo sobre utilização de _accounts_.
 
-Para visualizar um exemplo de configuração utilizando sua conta Google, leia o artigo [Utilizando sua conta Gmail com o componente de e-mail da Digibee (SMTP)](../../../tutoriais-e-melhores-praticas/utilizando-sua-conta-gmail-com-o-componente-de-e-mail-da-digibee-smtp.md).
+Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/2961109-usando-sua-conta-de-gmail-com-o-conector-de-email-smtp-da-digibee) para visualizar um exemplo de configuração utilizando sua conta Google.
 
 {% hint style="info" %}
 **IMPORTANTE:** verifique o limite de mensagens permitidas pela sua conta de e-mail. Para uma melhor confiabilidade na quantidade de e-mails enviados, recomendamos a abordagem apresentada na Cápsula _**Digibee Publish Error**._
 {% endhint %}
 
-### **Sort Array by Field** <a href="#h_5690c3c833" id="h_5690c3c833"></a>
+#### **Sort Array by field** <a href="#h_5690c3c833" id="h_5690c3c833"></a>
 
 O objetivo dessa Cápsula é ordenar o seu _array_ JSON de forma crescente (A-Z) ou de forma decrescente (Z-A).
 
@@ -135,10 +135,10 @@ O objetivo dessa Cápsula é ordenar o seu _array_ JSON de forma crescente (A-Z)
 **IMPORTANTE:** a ordenação não leva em consideração o tempo cronológico de campos de datas, mas apenas a ordenação alfabética. Para uma ordenação correta, a data deve estar no formato ‘yyyy-mm-dd’.
 {% endhint %}
 
-### **Validate Consumers** <a href="#h_100b8854f2" id="h_100b8854f2"></a>
+#### **Validate Consumers** <a href="#h_100b8854f2" id="h_100b8854f2"></a>
 
 Quando o _pipeline_ precisar ser executado com um número máximo de _consumers_ diferente do que consta no padrão de Runtime, utilize a Cápsula _**Validate Consumers**_** ** para impedir que as execuções aconteçam com a configuração incorreta de implantação.
 
 Por exemplo, se o _pipeline_ permite a execução de até 2 requisições simultâneas, mas o Runtime esteja configurado com 10 requisições simultâneas e a Cápsulas com 2, então um erro é lançado nas execuções para que as configurações sejam corrigidas. No entanto, se na configuração da Cápsula constar 2 requisições simultâneas, a implantação deve ser configurada com 1 ou 2 _consumers_ no máximo.
 
-Para saber mais sobre Run, leia o artigo [Conceitos de Run](../../../run/runtime.md).
+Clique [aqui](../../../run/runtime.md) para saber mais sobre Run.
