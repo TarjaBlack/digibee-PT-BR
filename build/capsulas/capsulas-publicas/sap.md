@@ -10,7 +10,7 @@ Para utilizar as Cápsulas RFC, é necessário configurá-las com os parâmetros
 
 Após a execução da Cápsula, é possível controlar o fluxo de mensagens, analisar os casos de sucesso e falha e tratar a mensagem de resposta para o formato JSON para facilitar o trabalho dos dados no fluxo do _pipeline_.
 
-### O que é SAP? <a href="#h_680058c34a" id="h_680058c34a"></a>
+## O que é SAP? <a href="#h_680058c34a" id="h_680058c34a"></a>
 
 SAP é um dos líderes mundiais de desenvolvimento de _softwares_ para gerenciamento de processos de negócios, que cria soluções para facilitar o processamento efetivo de dados e o fluxo de informações entre as organizações. Clique [aqui](https://www.sap.com/brazil/about/company/what-is-sap.html) para obter mais informações.
 
@@ -28,9 +28,9 @@ As Cápsulas do SAP são utilizadas sempre para o fluxo de envio de informaçõe
 
 Se o _Instance Number_ é 20, então a porta a ser liberada no túnel da VPN será a 3320.
 
-**3) Informações SAP Gui**
+#### **3) Informações SAP Gui**
 
-Assim como o __ SAP GUI, as Cápsulas precisam das informações de conexão para habilitar o fluxo. Veja abaixo as informações necessárias:
+Assim como o SAP GUI, as Cápsulas precisam das informações de conexão para habilitar o fluxo. Veja abaixo as informações necessárias:
 
 * **Instance Number e System Id**
 
@@ -42,19 +42,19 @@ Assim como o __ SAP GUI, as Cápsulas precisam das informações de conexão par
 
 ![](<../../../.gitbook/assets/03 (5).png>)
 
-**4) Credenciais**
+#### **4) Credenciais**
 
 Tanto o usuário quanto a senha para acesso ao SAP devem estar cadastrados na Digibee Integration Platform. Deve ser utilizada uma conta do tipo “Basic”.
 
-### Cápsulas SAP <a href="#h_3121b2fcb2" id="h_3121b2fcb2"></a>
+## Cápsulas SAP <a href="#h_3121b2fcb2" id="h_3121b2fcb2"></a>
 
-* #### SAP RFC - Connectivity test <a href="#h_0f62701d2b" id="h_0f62701d2b"></a>
+### **SAP RFC - Connectivity test**
 
 Essa Cápsula possibilita a realização de um teste de conectividade sem que seja necessário conhecer as funções e os parâmetros do SAP. A Cápsula abstraí a chamada para uma RFC padrão (RFC\_READ\_TABLE) já com os parâmetros mínimos pré-definidos.
 
 Se houver erro na resposta após a execução da Cápsula, é preciso checar se os pré-requisitos foram atendidos. Mas se o retorno for _“success” : true_, pode-se seguir adiante com a integração e chamar outras funções do SAP.
 
-* #### **SAP RFC - Connector (JSON Input)** <a href="#h_474bcb453a" id="h_474bcb453a"></a>
+### **SAP RFC - Connector (JSON Input)**
 
 Cápsula genérica, utilizada para qualquer operação com as funções remotas do SAP. É possível ler dados de tabelas e cadastros de modo mais completo, incluir novos cadastros (Fornecedores, Clientes, Endereços, etc.) e também atualizar cadastros.
 
@@ -62,7 +62,7 @@ Por se tratar de uma Cápsula genérica, todas as funções nativas do SAP estã
 
 Entenda melhor como é possível trabalhar com esse dinamismo e qual é a relação com os parâmetros da RFC:
 
-**1. Import Parameters Attributes**
+#### **1. Import Parameters Attributes**
 
 São os parâmetros de entrada (opcionais) que devem ser preenchidos na chamada da função. O campo não aceita parâmetros estruturais.
 
@@ -73,7 +73,7 @@ São os parâmetros de entrada (opcionais) que devem ser preenchidos na chamada 
 }
 ```
 
-**2. Object Params**
+#### **2. Object Params**
 
 São os parâmetros de entrada (opcionais) que devem ser preenchidos na chamada da função. Parâmetros do tipo estrutural são aceitos.
 
@@ -89,7 +89,7 @@ São os parâmetros de entrada (opcionais) que devem ser preenchidos na chamada 
 }
 ```
 
-**3. Table and Fields**
+#### **3. Table and Fields**
 
 Modelo para enviar parâmetros em forma de tabela. Para enviar mais de um item para a mesma tabela, adicione um novo objeto JSON dentro do _array_, conforme exemplo abaixo:
 
@@ -116,7 +116,7 @@ Modelo para enviar parâmetros em forma de tabela. Para enviar mais de um item p
 **IMPORTANTE:** de acordo com as boas práticas do SAP, recomenda-se que os parâmetros de tabelas não sejam enviados como _Import Parameters._
 {% endhint %}
 
-**4. Conhecendo os parâmetros de uma função RFC**
+#### **4. Conhecendo os parâmetros de uma função RFC**
 
 Veja como é possível identificar os parâmetros esperados por uma RFC para realizar o preenchimento na Cápsula SAP RFC (JSON Input).
 
@@ -149,7 +149,7 @@ Agora veja um parâmetro estrutural do tipo tabela, por meio do qual é possíve
 
 De acordo com os exemplos de parâmetros apresentados acima, observe um exemplo de JSON simulando o formato esperado pela Cápsula SAP.
 
-**Import Parameters Attributes**
+#### **Import Parameters Attributes**
 
 ```
 {  
@@ -157,7 +157,7 @@ De acordo com os exemplos de parâmetros apresentados acima, observe um exemplo 
 }
 ```
 
-**Object Params**
+#### **Object Params**
 
 ```
 {
@@ -185,22 +185,21 @@ De acordo com os exemplos de parâmetros apresentados acima, observe um exemplo 
     "LANGU": "X"
   }
 }
-
 ```
 
-**Table and Fields**
+#### **Table and Fields**
 
 ```
 {  "BAPIADTEL": [    {      "COUNTRY": "",      "TELEPHONE": "",      "TEL_NO": ""    },    {      "COUNTRY": "",      "TELEPHONE": "",      "TEL_NO": ""    }  ],  "BAPIADFAX": [    {      "COUNTRY": "",      "FAX": ""    }  ]}
 ```
 
-* #### **SAP RFC - Read Nota Fiscal** <a href="#h_acff11e2a3" id="h_acff11e2a3"></a>
+### **SAP RFC - Read Nota Fiscal**
 
 Cápsula destinada a consultar os dados de qualquer notas fiscais no SAP utilizando o campo DOCNUM.
 
 A RFC utilizada para a consulta é _BAPI\_J\_1B\_NF\_GETDETAIL_. Para obter os detalhes de uma nota fiscal, preencha o valor do campo “DOCNUM”, dentro de _Import Parameters_.
 
-**Lembrete:** utilize expressões _Double Braces_ para passar os valores dinamicamente. Veja um exemplo:
+**Nota:** utilize expressões _Double Braces_ para passar os valores dinamicamente. Veja um exemplo:
 
 ![](https://digibee-d5ff4ba226ed.intercom-attachments-7.com/i/o/362504813/e7976045a5e0255b81d202d8/57ob004gp3aCzuPcAivcfyoyh3Sd9GYJjFgpSsfkLz8t5Sx2K3BZe0XgTCo1oVk6-fbrJ5IUqkmJjCMW6ua\_gm9c-nW\_ItZ9HO9wxlvHQ4ESsmXu0aX2GcH4pSe2CDg8UsC3Kcsy)
 
@@ -227,7 +226,7 @@ A RFC utilizada para a consulta é _BAPI\_J\_1B\_NF\_GETDETAIL_. Para obter os d
 }
 ```
 
-* #### **SAP RFC - Read Table** <a href="#h_5d5c78f46b" id="h_5d5c78f46b"></a>
+### **SAP RFC - Read Table**
 
 Cápsula destinada a realizar consultas diretamente nas tabelas do SAP. Dentre os parâmetros padrões existentes no item “Pré requisitos” ganham destaque:
 
@@ -254,5 +253,3 @@ BUKRS EQ '{{ message.company_code_sap }}'
 {% hint style="info" %}
 **IMPORTANTE**: para identificar o filtro indicado para a sua consulta, verifique os campos da Tabela SAP. A transação _SE37_ permite a realização de testes de consultas através da RFC (READ\_TABLE) e a definição dos parâmetros adequados de busca.
 {% endhint %}
-
-\
