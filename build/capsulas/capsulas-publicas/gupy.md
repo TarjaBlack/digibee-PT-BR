@@ -12,13 +12,13 @@ Gupy é uma ferramenta de seleção e admissão de candidatos. Com a Gupy você 
 
 Para utilizar as Cápsulas dos serviços Gupy, é necessário possuir um token de autorização, que deve estar cadastrado em uma _account_ do tipo ‘oauth-bearer’ na Digibee Integration Platform.
 
-#### **Cápsulas Gupy** <a href="#h_e04c742e16" id="h_e04c742e16"></a>
+## **Cápsulas Gupy** <a href="#h_e04c742e16" id="h_e04c742e16"></a>
 
-* **Configuring Webhook**
+### **Configuring Webhook**
 
-Por meio dessa Cápsula, é possível configurar as requisições enviadas pela Gupy para a Digibee. É preciso configurar os diferentes tipos de notificações que devem ser enviadas ao _pipeline_ sempre que ocorrer uma atualização no ambiente Gupy.
+Por meio desta Cápsula, é possível configurar as requisições enviadas pela Gupy para a Digibee. É preciso configurar os diferentes tipos de notificações que devem ser enviadas ao _pipeline_ sempre que ocorrer uma atualização no ambiente Gupy.
 
-A Cápsula _**Configuring Webhook**_\*\* \*\* permite criar, atualizar ou remover inscrições de eventos de notificações.
+A Cápsula _**Configuring Webhook**_ permite criar, atualizar ou remover inscrições de eventos de notificações.
 
 Para configurar um novo _webhook_, basta escolher um dos eventos listados, inserir as informações do seu _pipeline_ e da respectiva API key para então executar a Cápsula.
 
@@ -26,21 +26,21 @@ Para configurar um novo _webhook_, basta escolher um dos eventos listados, inser
 **IMPORTANTE:** a configuração deve ser realizada uma única vez para cada ambiente e tipo de evento desejado.
 {% endhint %}
 
-* **Listing Webhooks Configurations**
+### **Listing Webhooks Configurations**
 
-Utilize essa Cápsula para consultar os _webhooks_ que já foram configurados anteriormente.
+Utilize esta Cápsula para consultar os _webhooks_ que já foram configurados anteriormente.
 
 A _**Listing Webhooks Configurations**_ lista os eventos e os _pipelines_ configurados para receber as notificações via _webhook_. Caso seja necessário atualizar ou remover algumas das informações, o campo “id” retornado na consulta servirá como campo chave na identificação do registro a ser alterado. Para alterar as configurações, utilize a Cápsula _**Configuring Webhook**_.
 
-* **Upsert Department**
+### **Upsert Department**
 
-Essa Cápsula permite a atualização ou criação de novos departamentos dentro da plataforma Gupy.
+Esta Cápsula permite a atualização ou criação de novos departamentos dentro da plataforma Gupy.
 
 Um novo registro é criado apenas se não for encontrado um departamento já existente através dos parâmetros de busca informados no campo “search”. Se o registro já existir, então o departamento será atualizado na plataforma Gupy. As informações que serão atualizadas são: “name”, “external\_code” e “similar\_to”.
 
-* **Gupy Business Flow JOB**
+### **Gupy Business Flow JOB**
 
-Essa Cápsula possui um fluxo completo de criação da posição de trabalho na Gupy, possibilitando a automatização do processo de requisição para a abertura de vagas.
+Esta Cápsula possui um fluxo completo de criação da posição de trabalho na Gupy, possibilitando a automatização do processo de requisição para a abertura de vagas.
 
 O fluxo contempla a criação da vaga, bem o vínculo ao departamento e ao cargo.
 
@@ -86,5 +86,3 @@ Para facilitar o seu primeiro uso da Cápsula, veja os campos requisitados para 
     }
 } 
 ```
-
-\\

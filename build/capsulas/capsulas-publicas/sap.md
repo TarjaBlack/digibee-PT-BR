@@ -1,5 +1,5 @@
 ---
-description: Saiba quais são as Cápsulas disponíveis nessa Coleção.
+description: Saiba quais são as Cápsulas disponíveis nesta Coleção.
 ---
 
 # SAP
