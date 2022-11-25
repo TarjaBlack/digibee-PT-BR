@@ -230,7 +230,7 @@
   * [JSON Transformer](components/tools/json-transformer.md)
   * [Log](components/tools/log.md)
   * [Pipeline Executor](components/tools/pipeline-executor.md)
-  * [RPA](components/tools/rpa.md)
+  * [RPA (Descontinuado)](components/tools/rpa.md)
   * [Secure PDF](components/tools/secure-pdf.md)
   * [Script](components/tools/script.md)
   * [SSH Remote Command](components/tools/ssh-remote-command.md)

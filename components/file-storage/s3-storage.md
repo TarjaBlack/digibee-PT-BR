@@ -23,7 +23,6 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Generate Download Link:** quando selecionada, a opção gera um _link_ público para _download_ do arquivo.
 * **Expiration Timestamp (in ms):** tempo para expiração do link (em milissegundos). Nesse campo devem ser passados o _timestamp_ atual + o _timestamp_ de expiração. Exemplo: TIMESTAMP ATUAL + 600000 (600000 = 10 minutos informados em milisegundos). Caso o valor não seja informado, será assumido o valor padrão de 15 minutos após _timestamp_ corrente.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
-* **Custom Endpoint:** Se esta opção estiver ativada, você pode inserir um _endpoint_ customizado via URL no _pipeline_. Se esta opção estiver desativada, a URL não poderá ser inserida. Para que a URL seja inserida, é necessário adicioná-la no campo _"Endpoint URL",_ localizado abaixo do parâmetro. Este campo aceita expressões Double Braces.
 
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
 
