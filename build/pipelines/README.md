@@ -9,7 +9,7 @@ A Digibee Integration Platform tem como peça central o _pipeline_, que é uma s
 Um _pipeline_ é composto por:
 
 * 1 _trigger_;
-* pelo menos mais 1 componente.
+* pelo menos 1 componente.
 
 {% hint style="info" %}
 **IMPORTANTE:** _trigger_ e componentes precisam estar interconectados.
