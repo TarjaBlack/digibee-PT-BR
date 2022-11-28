@@ -114,7 +114,7 @@ Além das funcionalidades apresentadas neste artigo, o Novo Canvas conta com out
 
 Durante a coexistência das duas versões do Canvas, você pode transportar seu _pipeline_ para o Canvas antigo. Para isso, abra seu _pipeline_ no Novo Canvas, clique no menu de ajuda e, em seguida, na opção **Suporte ao novo Canvas**.
 
-<figure><img src="../../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image2 (3).png" alt=""><figcaption></figcaption></figure>
 
 Em seguida, basta responder por que você gostaria de usar o Canvas antigo e clicar em **MUDAR**.
 
