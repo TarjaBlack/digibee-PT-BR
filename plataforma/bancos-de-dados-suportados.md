@@ -1,7 +1,7 @@
 ---
 description: >-
-  Saiba quais são os tipos de bancos de dados e versões suportadas pela
-  Digibee Integration Platform.
+  Saiba quais são os tipos de bancos de dados e versões suportadas pela Digibee
+  Integration Platform.
 ---
 
 # Bancos de Dados suportados
@@ -20,6 +20,7 @@ Atualmente a Digibee Integration Platform suporta os seguintes bancos de dados:
 
 Nas versões:
 
+* Microsoft SQL Server 2019
 * Microsoft SQL Server 2017
 * Microsoft SQL Server 2016
 * Microsoft SQL Server 2014
@@ -200,7 +201,7 @@ jdbc:firebirdsql://<HOST>:<PORT>/C:\PATH_TO_DATABASE/DATABASE_FILE.FDB
 
 ## DB Informix <a href="#h_397032b59c" id="h_397032b59c"></a>
 
-**Ao acessar as bases de dados especificadas nessa **_**string**_** de conexão, você concorda que possui as licenças IBM necessárias.**
+**Ao acessar as bases de dados especificadas nessa \_string**\_\*\* de conexão, você concorda que possui as licenças IBM necessárias.\*\*
 
 Sem informação de compatibilidade
 
@@ -212,7 +213,7 @@ jdbc:informix-sqli://<HOST>:<PORT>/<DATABASE>:informixserver=<INFORMIX_SERVER>
 
 ## Netsuite <a href="#h_c94de6d619" id="h_c94de6d619"></a>
 
-**Ao acessar as bases de dados especificadas nessa **_**string**_** de conexão, você concorda que possui as licenças da Netsuite necessárias.**
+**Ao acessar as bases de dados especificadas nessa \_string**\_\*\* de conexão, você concorda que possui as licenças da Netsuite necessárias.\*\*
 
 **IMPORTANTE:** esse _driver_ de banco de dados suporta somente a operação SELECT.
 
