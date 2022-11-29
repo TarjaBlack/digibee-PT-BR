@@ -8,35 +8,49 @@ Uma vez que o fluxo do _pipeline_ tenha sido criado, o próximo passo é disponi
 
 Se quiser saber mais sobre a etapa de Run, onde é feita a gestão das implantações, consulte o [artigo Conceitos de Run](runtime.md).
 
-### **Como implantar um **_**pipeline**_**?** <a href="#h_a34f6b010d" id="h_a34f6b010d"></a>
+## **Como implantar um **_**pipeline**_**?** <a href="#h_a34f6b010d" id="h_a34f6b010d"></a>
 
 O processo para implantar o _pipeline_ em teste ou em produção é simples. Veja:
 
-1. Acesse a tela de _Run_ e clique no botão "+ CRIAR".
+### Tela de Run
+
+Acesse a tela de _Run_ e clique no botão **+ CRIAR**.
 
 ![](<../.gitbook/assets/1 - Run - Tela Principal (1).jpg>)
 
-2\. Selecione um pipeline e sua versão, e em seguida, escolha o tamanho da implantação, como no exemplo abaixo:
+### Configurando o _pipeline_ a ser implantado
 
-> Nota: Se for um _pipeline_ _multi-instance_, selecione uma instância também.
+#### Selecionando o _pipeline_, a versão e o tamanho
+
+Selecione um pipeline e sua versão, e em seguida, escolha o tamanho da implantação. Caso seja um _pipeline_ _multi-instance_, selecione uma instância também.&#x20;
+
+As opções de configuração serão mostradas como no exemplo abaixo:
 
 ![](<../.gitbook/assets/2 - Implantar Pipeline.jpg>)
 
-> Caso o _pipeline_ já esteja implantado, uma seção será exibida informando as configurações atuais, e essas serão automaticamente aplicadas à nova implantação.&#x20;
->
-> Ainda nesta seção, é possível visitar o _pipeline_ atualmente implantado através do _link_ "Abrir o _pipeline_ em uma nova aba".
+Caso o _pipeline_ já esteja implantado, uma seção será exibida informando as configurações atuais, e essas serão automaticamente aplicadas à nova implantação.&#x20;
+
+Ainda nesta seção, é possível visitar o _pipeline_ atualmente implantado através do _link_ **Abrir o **_**pipeline**_** em uma nova aba**.
 
 ![](<../.gitbook/assets/3 - Implatacao Atual Pipeline.jpg>)
 
-3\. Selecione a quantidade de execuções simultâneas como no exemplo abaixo:
+#### Selecionando as execuções simultâneas&#x20;
 
-![](<../.gitbook/assets/implantação\_1 (1).png>)
+Selecione a quantidade de execuções simultâneas, como no exemplo abaixo:
 
-4\. Defina a quantidade de réplicas a serem utilizadas:
+<figure><img src="../.gitbook/assets/Exec. simu..jpg" alt=""><figcaption></figcaption></figure>
 
-![](../.gitbook/assets/implantação\_2.png)
+#### Selecionando a quantidade de réplicas  <a href="#h_dcf51c688c" id="h_dcf51c688c"></a>
 
-5\. Clique no botão “IMPLANTAR”. Ao clicar no botão "IMPLANTAR", um resumo de todas as escolhas feitas será exibido.
+Defina a quantidade de réplicas a serem utilizadas na implantação:
+
+<figure><img src="../.gitbook/assets/Replica.jpg" alt=""><figcaption></figcaption></figure>
+
+Caso o _pipeline_ já tenho sido implantado anteriormente, uma mensagem irá aparecer logo abaixo da seleção de réplicas.
+
+### Implantar o _pipeline_ <a href="#h_9069fee6cc" id="h_9069fee6cc"></a>
+
+Clique no botão **IMPLANTAR**. Ao clicar no botão **IMPLANTAR**, um resumo de todas as escolhas feitas será exibido.
 
 Para usuários com Modelo Baseado em _Pipeline_ será exibida uma tela com o cálculo das licenças consumidas.
 
