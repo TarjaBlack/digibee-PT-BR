@@ -24,7 +24,7 @@ Um componente é um elemento que recebe uma mensagem, podendo interagir ou utili
 * chamar serviços externos (por exemplo, uma chamada a um _endpoint_ REST);
 * processar mensagens (por exemplo, transformar o conteúdo da mensagem);
 * alterar o fluxo de execução (por exemplo, uma bifurcação que permite direcionar o fluxo do _pipeline_ com base em uma condição, como o componente Choice faz);
-* percorre coleções (por exemplo, For Each).
+* percorrer coleções (por exemplo, For Each).
 
 Este último caso é um pouco mais sofisticado e, para entendê-lo, precisamos examiná-lo mais de perto.
 
