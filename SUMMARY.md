@@ -113,8 +113,8 @@
   * [Roadmap de Produto, Q4/22](geral/roadmap-de-produto/roadmap-de-produto-q4-22.md)
   * [Roadmap de Produto, Q3/22](geral/roadmap-de-produto/roadmap-de-produto-q3-22.md)
 * [Certificações em Andamento](geral/certificacoes-em-andamento.md)
-* [Modelo Baseado em Subscription](geral/modelo-baseado-em-subscription.md)
-* [Limites de Uso](geral/limites-de-uso.md)
+* [Modelo baseado em subscription](geral/modelo-baseado-em-subscription.md)
+* [Limites de uso](geral/limites-de-uso.md)
 * [Meu Consumo](geral/meu-consumo.md)
 * [Developer Bootcamp](geral/developer-bootcamp.md)
 

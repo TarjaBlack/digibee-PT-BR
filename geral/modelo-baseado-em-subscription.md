@@ -4,7 +4,7 @@ description: >-
   Platform
 ---
 
-# Modelo Baseado em Subscription
+# Modelo baseado em subscription
 
 Este artigo apresenta conceitos importantes do novo modelo baseado em _subscription_, lançado em Abril de 2022.
 
@@ -14,15 +14,15 @@ Para saber mais sobre como implantar a pipeline, por favor leia o artigo de [imp
 
 ## Definições
 
-### Pipeline Subscription
+### Pipeline subscription
 
 _Pipeline subscription_ é o item de preço inicial que permite aos clientes acessar a plataforma, suporte, serviços de sucesso do cliente e Propriedade Intelectual (IP) da Digibee. Uma _pipeline subscription_ refere-se a um fluxo de integração exclusivo implantado na plataforma da Digibee. Limitado a dois (2) RTUs de produção implantados no ambiente de produção, emparelhados com um (1) RTU de teste implantado no ambiente de teste e toda a infraestrutura subjacente necessária para executá-las conforme definido no artigo [Limites de Uso](limites-de-uso.md).
 
-### Fluxo de Integração Único&#x20;
+### Fluxo de integração único&#x20;
 
 Uma necessidade de negócios ou tecnologia para capturar, transformar e/ou entregar dados de uma fonte para outra. Único porque é uma única pipeline em uma versão específica.&#x20;
 
-### Pipeline Version&#x20;
+### Pipeline version&#x20;
 
 É um número (ex.: 1.2) que representa o estado único de uma pipeline. A Digibee segue o esquema simplificado de Versão Semântica ([www.semver.org](https://www.semver.org)) com apenas os componentes _MAJOR_ e _MINOR_. A Digibee não suporta "rótulos adicionais para metadados de pré-lançamento e compilação", e as versões _MAJOR_ começam com 1. Para cada _pipeline subscription_, apenas uma versão principal do pipeline pode estar ativa (implantada) em um determinado ambiente e momento.
 
@@ -36,9 +36,9 @@ RTU (_Runtime Unit_) é uma medida da capacidade de computação para processar 
 * **RTU de teste** representa a capacidade de processamento para executar integrações em uma _subscription_ ativa em um ambiente de teste. Os RTUs devem ser pareados com uma _pipeline_ _subscription_ existente.&#x20;
 * **RTU de produção** representa a capacidade de processamento para executar integrações sob uma _subscription_ ativa em um ambiente de produção. Para implantar um novo pipeline em um ambiente de produção, as _pipeline_ _subscriptions_ e os RTUs de produção devem estar disponíveis em seu domínio.&#x20;
 
-### Limites de Uso da Plataforma&#x20;
+### Limites de uso da plataforma&#x20;
 
-Os Limites de Uso da Plataforma são limites técnicos impostos em cada _Realm_ para evitar o abuso da plataforma. Eles foram criados com base no uso médio da plataforma. Estes são alguns dos limites:&#x20;
+Os limites de uso da plataforma são limites técnicos impostos em cada _realm_ para evitar o abuso da plataforma. Eles foram criados com base no uso médio da plataforma. Estes são alguns dos limites:&#x20;
 
 * Tamanho de implantação e réplicas (ou seja, CPU e memória para executar um pipeline ou um conjunto de réplicas)&#x20;
 * Tráfego de saída&#x20;
@@ -48,7 +48,7 @@ Os Limites de Uso da Plataforma são limites técnicos impostos em cada _Realm_ 
 * VPN&#x20;
 * Armazenamento de objetos, armazenamento Digibee e dados de relacionamento
 
-## Principais Regras&#x20;
+## Principais regras&#x20;
 
 ### Regras para _pipeline subscription_ implantada&#x20;
 
@@ -68,19 +68,19 @@ Na tabela abaixo, você pode ver quantas RTUs são consumidas por cada tamanho d
 
 Sempre que uma _pipeline_ é implantado em um determinado ambiente, diz-se que uma _pipeline subscription_ foi consumida nesse ambiente. Independentemente do número de RTUs disponíveis, você só poderá implantar a quantidade de pipelines correspondente à quantidade de _pipelines subscription_ disponíveis.
 
-### Versões dos Pipelines&#x20;
+### Versões das pipelines&#x20;
 
 Duas versões _Major_ diferentes da mesma _pipeline_ são consideradas duas _pipelines_ diferentes e exclusivas e, portanto, consomem duas _pipeline subscriptions_.
 
 Para cada _pipeline subscription_, apenas uma versão de _pipeline_ pode estar ativa em um determinado ambiente e momento.&#x20;
 
-### Validação de Subscriptions and RTUs&#x20;
+### Validação de subscriptions e RTUs&#x20;
 
-Antes de cada implantação da _pipeline_ em um determinado ambiente, um algoritmo é aplicado: primeiro, o algoritmo verifica se o número de _pipelines_ exclusivos implantados é menor que o número de _pipeline subscriptions_ disponíveis. Se essa verificação for aprovada, o algoritmo verificará se o número de RTUs disponíveis para esse ambiente específico pode acomodar o número de RTUs solicitados para essa implantação de _pipeline_. Caso essa checagem passar, a _pipeline_ será implantada. Caso contrário, a implantação falhará devido à falta de _pipeline subscriptions_ disponíveis ou de RTUs disponíveis.
+Antes de cada implantação da _pipeline_ em um determinado ambiente, um algoritmo é aplicado: primeiro, o algoritmo verifica se o número de _pipelines_ exclusivos implantados é menor que o número de _pipeline subscriptions_ disponíveis. Se essa verificação for aprovada, o algoritmo verificará se o número de RTUs disponíveis para esse ambiente específico pode acomodar o número de RTUs solicitadas para essa implantação de _pipeline_. Caso essa checagem passar, a _pipeline_ será implantada. Caso contrário, a implantação falhará devido à falta de _pipeline subscriptions_ disponíveis ou de RTUs disponíveis.
 
-### Regras para RTUs implantados
+### Regras para RTUs implantadas
 
-Os RTUs de teste e produção se acumulam à medida que _pipeline subscriptions_ são adicionadas. Quando uma _pipeline_ é implantada em um determinado ambiente, o número de RTUs correspondentes é deduzido do número total de RTUs disponíveis nesse ambiente. Quando não houver mais RTUs disponíveis em um determinado ambiente, nenhum _pipeline_ adicional será implantado.
+As RTUs de teste e produção se acumulam à medida que _pipeline subscriptions_ são adicionadas. Quando uma _pipeline_ é implantada em um determinado ambiente, o número de RTUs correspondentes é deduzido do número total de RTUs disponíveis nesse ambiente. Quando não houver mais RTUs disponíveis em um determinado ambiente, nenhum _pipeline_ adicional será implantado.
 
 RTUs de teste e RTUs de produção são destinados a serem usados em seus respectivos ambientes e não podem ser trocados.
 
