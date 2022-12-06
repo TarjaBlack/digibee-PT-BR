@@ -46,7 +46,7 @@ Defina a quantidade de réplicas a serem utilizadas na implantação:
 
 <figure><img src="../.gitbook/assets/Replica.jpg" alt=""><figcaption></figcaption></figure>
 
-Caso o _pipeline_ já tenho sido implantado anteriormente, uma mensagem irá aparecer logo abaixo da seleção de réplicas.
+Caso o _pipeline_ já tenha sido implantado anteriormente, uma mensagem irá aparecer logo abaixo da seleção de réplicas.
 
 ### Implantar o _pipeline_ <a href="#h_9069fee6cc" id="h_9069fee6cc"></a>
 
