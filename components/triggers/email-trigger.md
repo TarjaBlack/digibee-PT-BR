@@ -4,14 +4,11 @@ description: Conheça o trigger e saiba como utilizá-lo.
 
 # Email Trigger
 
-_Suportamos apenas o protocolo IMAP, sem anexos._\
-&#x20;   &#x20;
+#### IMPORTANTE: Este _trigger_ suporta apenas o protocolo _IMAP_, sem anexos. &#x20;
 
-Digamos que você esteja no Canvas e queira receber dados de uma caixa de e-mail. Com o _trigger_ de e-mail, você consegue fazer tais integrações.
+O Email Trigger permite o recebimento dos dados de uma conta de e-mail no _pipeline_. Veja os parâmetros a serem configurados com o exemplo abaixo:
 
-### **Exemplo:**
-
-**1.** Abra as configurações de _trigger_ e selecione o tipo _**email-trigger**_.
+**1.** Abra as configurações de _trigger_ e selecione o tipo _**email**_.
 
 **2.** Preencha os campos das configurações:
 
@@ -19,8 +16,9 @@ Digamos que você esteja no Canvas e queira receber dados de uma caixa de e-mail
 * **Operation:** escolha a opção "_mark as read_" (existem outras opções, que explicaremos mais à frente).
 * **Hostname:** insira o nome do _host_ do servidor IMAP _(ex.: imap.uol.com)_.
 * **Port:** determine qual é a porta.
-* **Email Folder:** defina o nome da pasta / caixa de entrada que o _trigger_ deve ler _(ex.: inbox) Esta pasta não pode existir mais que 100 mensagens (lidas/não lidas)_.
-* **Destination Email Folder:** aponte para qual pasta a mensagem deve ser movida (o campo aparece apenas quando é escolhida a opção "_move to another folder_").
+* **E-mail Folder:** defina o nome da pasta / caixa de entrada que o _trigger_ deve ler _(ex.: inbox) Esta pasta não pode existir mais que 100 mensagens (lidas/não lidas)_.
+* **Destination E-mail Folder:** aponte para qual pasta a mensagem deve ser movida. \
+  Note que **este campo aparece apenas quando é escolhida a opção "**_**move to another folder**_**"** em "_Operation"_. Como neste exemplo a opção _"mark as read"_ foi escolhida, ele **não ficará visível** entre os parâmetros de configuração.
 * **Maximum Timeout:** preencha o tempo máximo de execução do _trigger_.
 * **Allow Redelivery Of Messages:** se ativada, a opção permite que as mensagens sejam entregues novamente caso o Pipeline Engine falhe. &#x20;
 
@@ -70,7 +68,7 @@ Digamos que você esteja no Canvas e queira receber dados de uma caixa de e-mail
 ### Campo "Operation" <a href="#campo-operation" id="campo-operation"></a>
 
 * _**mark as read**_**:** selecione essa opção se, após processada, você deseja que a mensagem seja marcada como “lida”
-* _**move to another folder**_**:** selecione essa opção se, após processada, você deseja que a mensagem seja movida para uma pasta pré-determinada. O destino é especificado no campo "_Destination e-mail folder"_, que só aparece nas configurações quando "_move to another folder"_ é selecionada.
+* _**move to another folder**_**:** selecione essa opção se, após processada, você deseja que a mensagem seja movida para uma pasta pré-determinada. O destino é especificado no campo "_Destination E-mail folder"_, que só aparece nas configurações quando "_move to another folder"_ é selecionada.
 * _**delete**_**:** selecione essa opção se, após processada, você deseja que a mensagem seja excluída.
 
 ### Anexos <a href="#anexos" id="anexos"></a>
@@ -81,7 +79,7 @@ Caso haja algum anexo no corpo da mensagem recebida pelo _trigger_, ele vai baix
 **IMPORTANTE:** caso haja 2 anexos com o mesmo nome na mensagem, um identificador único será adicionado no nome do anexo baixado.
 {% endhint %}
 
-**Exemplo**
+**Exemplo:**
 
 Há 2 anexos com nome "file.csv" dentro da mensagem. Portanto, o conteúdo da propriedade _**attachments** _ será:
 
@@ -94,5 +92,5 @@ Há 2 anexos com nome "file.csv" dentro da mensagem. Portanto, o conteúdo da pr
 O identificador varia a cada execução.
 
 {% hint style="info" %}
-**P.S.:** Se você utilizar o Gmail como _host_ do servidor IMAP, será necessário autorizar o suporte de aplicações não seguras. Clique [aqui](https://support.google.com/accounts/answer/6010255?hl=pt-BR) para ver o passo-a-passo.
+**Nota:** Se você utilizar o Gmail como _host_ do servidor IMAP, será necessário autorizar o suporte de aplicações não seguras. Clique [aqui](https://support.google.com/accounts/answer/6010255?hl=pt-BR) para ver o passo-a-passo.
 {% endhint %}
