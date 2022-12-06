@@ -122,7 +122,6 @@
 
 * [Triggers](components/triggers/README.md)
   * [Email Trigger V2](components/triggers/email-trigger-v2.md)
-  * [Email Trigger](components/triggers/email-trigger.md)
   * [Event Trigger](components/triggers/event-trigger.md)
   * [HTTP File Trigger](components/triggers/http-file-trigger/README.md)
     * [HTTP File Trigger - Downloads](components/triggers/http-file-trigger/http-file-trigger-downloads.md)
@@ -137,6 +136,7 @@
     * [Configuração Global de CORS](components/triggers/configuracoes-de-triggers/configuracao-global-de-cors.md)
     * [Nova interface de configuração e rotas personalizáveis](components/triggers/configuracoes-de-triggers/nova-interface-de-configuracao-e-rotas-personalizaveis.md)
     * [mTLS](components/triggers/configuracoes-de-triggers/mtls.md)
+  * [Email Trigger](components/triggers/email-trigger.md)
 * [Enterprise applications](components/untitled/README.md)
   * [SAP](components/untitled/sap.md)
 * [File storage](components/file-storage/README.md)

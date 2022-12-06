@@ -33,7 +33,7 @@ Veja o exemplo dos itens listados abaixo, que devem ser substituídos de acordo 
 * \[table] = Tabela relacionada a RFC
 * \[columns] = Colunas da Tabela
 
-&#x20;   &#x20;
+&#x20;   Para mais informações sobre conectividade relacionadas ao SAP, leia o [artigo](https://docs.digibee.com/documentation/build/capsulas/public-capsules/sap-collection#h\_16dfe961b3).&#x20;
 
 ### RECOMENDAÇÃO DE USO <a href="#recomendao-de-uso" id="recomendao-de-uso"></a>
 
