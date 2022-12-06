@@ -21,10 +21,10 @@ O _trigger_ é a condição de disparo do _pipeline_, ou seja, é um elemento qu
 
 Um componente é um elemento que recebe uma mensagem, podendo interagir ou utilizar as informações contidas nela para executar uma das seguintes atividades:
 
-* chamar serviços externos (por exemplo, uma chamada a um _endpoint_ REST);
+* chamar serviços externos (por exemplo, uma chamada a um _endpoint_ [REST](../../components/web-protocols/rest-v2.md));
 * processar mensagens (por exemplo, transformar o conteúdo da mensagem);
-* alterar o fluxo de execução (por exemplo, uma bifurcação que permite direcionar o fluxo do _pipeline_ com base em uma condição, como o componente Choice faz);
-* percorrer coleções (por exemplo, For Each).
+* alterar o fluxo de execução (por exemplo, uma bifurcação que permite direcionar o fluxo do _pipeline_ com base em uma condição, como o componente [Choice](../../components/logic/choice.md) faz);
+* percorrer coleções (por exemplo, [For Each](../../components/logic/for-each/)).
 
 Este último caso é um pouco mais sofisticado e, para entendê-lo, precisamos examiná-lo mais de perto.
 
