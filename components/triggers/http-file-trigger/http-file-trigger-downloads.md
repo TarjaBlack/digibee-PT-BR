@@ -13,7 +13,7 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os CORS headers a serem retornados pelo _endpoint_ quando o processamento no pipeline terminar. O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao pipeline e suas restrições. Para configurar de forma global ao invés de individualmente em cada pipeline consulte o artigo [CORS Global .](../configuracoes-de-triggers/configuracao-global-de-cors.md) Importante: Utilizei vírgula para informar múltiplos valores em um _header_, mas não adicionei espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e gateways.
 
 {% hint style="info" %}
-**Importante:** Utilizamos vírgula para informar múltiplos valores em um header, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
+**IMPORTANTE:** Utilizamos vírgula para informar múltiplos valores em um header, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
 {% endhint %}
 
 * **Form Data Uploads**: habilita/desabilita o recebimento do _upload_ de _form data_ (_multi-part form data_).
@@ -51,7 +51,9 @@ Para isso acontecer, basta você seguir estes passos:
 }
 ```
 
+{% hint style="info" %}
 **IMPORTANTE:** esse passo é fundamental para que o _**HTTP File Trigger**_ entenda que o arquivo serve.
+{% endhint %}
 
 4\. Implante o _pipeline_.
 
