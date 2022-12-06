@@ -14,10 +14,10 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Request Content Types:** determina os tipos de conteúdo que o _endpoint_ pode receber. Se o parâmetro for deixado vazio, qualquer _Content-type_ é aceito.
 * **Response Content Types:** tipos de conteúdo a serem retornados pelo _endpoint_ quando o processamento no _pipeline_ terminar. Esse parâmetro não pode ser deixado vazio (a resposta depende de tratamento com o _mock_ + Double Braces).
 * **Response Headers:** _headers_ a serem retornados pelo _endpoint_ quando o processamento no _pipeline_ terminar. Esse parâmetro não pode ser deixado vazio e aceita _Double Braces_. Caracteres especiais não devem ser utilizados nas chaves, por conta de possiveis falhas em _proxys_ e _gateways_.
-* **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os CORS headers a serem retornados pelo endpoint quando o processamento no pipeline terminar. O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao pipeline e suas restrições. Para configurar de forma global ao invés de individualmente em cada pipeline consulte o artigo [CORS Global .](configuracoes-de-triggers/configuracao-global-de-cors.md) Importante: Utilizei vírgula para informar multiplos valores em um header, mas não adicionei espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possiveis falhas em proxys e gateways.
+* **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os CORS headers a serem retornados pelo endpoint quando o processamento no pipeline terminar. O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao pipeline e suas restrições. Para configurar de forma global ao invés de individualmente em cada pipeline consulte o artigo [CORS Global](configuracoes-de-triggers/configuracao-global-de-cors.md).
 
 {% hint style="info" %}
-**Importante:** Utilizamos vírgula para informar multiplos valores em um header, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possiveis falhas em _proxys_ e _gateways_.
+**IMPORTANTE:** Utilizamos vírgula para informar multiplos valores em um header, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possiveis falhas em _proxys_ e _gateways_.
 {% endhint %}
 
 * **Maximum Timeout:** tempo limite para que o _pipeline_ processe informações antes de retornar uma resposta (padrão = 30000, limite = 300000). Em milissegundos. Caso o processamento demore mais do que a determinação do parâmetro, a requisição é finalizada e retorna _status-code_ 500, porém sem corpo nenhum.
@@ -39,7 +39,7 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Allow Redelivery Of Messages:** se a opção estiver ativada, permite o reenvio da mensagem em caso de falha do _Pipeline Engine_. Leia o artigo sobre o [Pipeline Engine](../../plataforma/pipeline-engine.md) para obter mais detalhes.
 * **mTLS enabled API (BETA Restricted):** se a opção estiver ativada, a API é publicada em um _gateway_ dedicado a APIs com mTLS ativo por padrão. Nesse caso, o _host_ de acesso será diferente dos demais_._ O _pipeline_ pode ter tanto a opção de **External API** quanto a **Internal API** habilitadas simultaneamente, mas é recomendado deixá-las inativas. Este parâmetro não suporta API Key e JWT e está em fase Beta Restricted. Para utilizá-lo no seu realm, é necessário fazer uma solicitação via chat e a Digibee irá avaliar a sua inclusão no programa Beta Restricted.
 
-#### Additional API Routes <a href="#h_b4715f137e" id="h_b4715f137e"></a>
+### Additional API Routes <a href="#h_b4715f137e" id="h_b4715f137e"></a>
 
 Conforme explicado anteriormente, essa opção serve para configurar rotas novas no _endpoint_.
 
@@ -49,7 +49,7 @@ Depois que os _pipelines_ são implantados, as URLs adquirem a seguinte estrutur
 
 TEST: https://test.godigibee.io/pipeline/{realm}/v{n}/{pipeline-name}
 
-&#x20;ou PROD: https://api.godigibee.io/pipeline/{realm}/v{n}/{pipeline-name}
+PROD: https://api.godigibee.io/pipeline/{realm}/v{n}/{pipeline-name}
 
 * **{realm}:** corresponde ao Realm
 * **v{n}:** versão principal (major) do _pipeline_
@@ -65,7 +65,7 @@ https://test.godigibee.io/pipeline/realm/v1/product-list
 
 Agora, veja como configurar uma rota estática para esse caso.
 
-![](https://digibee-d5ff4ba226ed.intercom-attachments-7.com/i/o/300361598/98b19e28dc784c6d0650bedf/1zGq3cxkhxxKdY22MavRoKRzJBhhgWXscC46HnwZo7QPAtLf6AxsJeGh0ZHJsXhy6CU3TVXsT-xI-YtJt56BCotCtBONwRPtLpMeH5AQgL4178dYl1aJvPa5yO9xPBUw28DBrSYi)
+<figure><img src="../../.gitbook/assets/HTTPtrigger_update Dec0622.jpg" alt=""><figcaption></figcaption></figure>
 
 Com essas configurações aplicadas e o _pipeline_ implantado, você obtém uma nova URL:
 
@@ -77,7 +77,7 @@ https://test.godigibee.io/pipeline/realm/v1/products
 
 Usando como exemplo o mesmo _pipeline_ configurado anteriormente, veja como configurar a rota:
 
-![](https://digibee-d5ff4ba226ed.intercom-attachments-7.com/i/o/300361603/d5b2eb8b57481ff2ede2d16a/\_hzEZw6S\_mhvso--W9dpfjfVCcpAcZv\_i3MSMdLQVDQzLFeplSWvj1YuUOWMYX8B6mIyhzX-BwngN633ey68Ga-0KcffADTP97kDL-EDcn5NvkXPtu4mtHpLs3zBwbMSB7ktjGn\_)
+<figure><img src="../../.gitbook/assets/HTTPtrigger_update02 Dec062022.jpg" alt=""><figcaption></figcaption></figure>
 
 Com essas configurações aplicadas e o _pipeline_ implantado, você obtém uma nova URL:
 
@@ -97,18 +97,6 @@ Para utilizar esse valor enviado pela rota dentro do _pipeline_, recorra à sint
 {{ message.queryAndPath.id }}
 ```
 
-## **Adding Response Headers** <a href="#h_965b5606ac" id="h_965b5606ac"></a>
-
-Conforme explicado anteriormente, essa opção serve para configurar _headers_ na resposta do _endpoint_.
-
-**IMPORTANTE**: Não utilizar caracteres especiais.
-
-![](https://lh5.googleusercontent.com/nDuAL25oSOFX0SKlukgUcbkUGGJsUbZuBqsfEuEZyW0dtFfh5AKKy\_aB1Q-u9KWMIKq1K6DyEAM7D3KqLnZsRGQzRRNzfVKWBTs4ksN2nqhBT9NJ6gWAobdMsMQM3qM7xjxGadt7)
-
-Para utilizar esse valor enviado pela rota dentro do _pipeline_, recorra à sintaxe _Double Braces_:
-
-`{{ message.parameter }}`
-
 ### **HTTP Trigger em Ação** <a href="#h_8dce545afc" id="h_8dce545afc"></a>
 
 Veja a seguir como o _trigger_ se comporta em determinada situação e a sua respectiva configuração.
@@ -119,7 +107,7 @@ Observe como configurar um _pipeline_ com o _**HTTP Trigger**_ para retornar uma
 
 Primeiramente, crie um novo _pipeline_ e configure o _trigger_. A configuração pode ser feita da seguinte forma:
 
-![](https://digibee-d5ff4ba226ed.intercom-attachments-7.com/i/o/300361607/203b92abf3624304ce8dc49b/eIvFiQjW7nK4EEXXQfBmr\_XxnHb9K3b32HVRm2cHzKRa6awLxsf2fK8tPGdSo3CTRzno80dXjdcPB1pseaSKl1B8FilxP7fyvR\_P5aQbr6V85ktOsGHr2tWwVRi7xAaLf9BKppxY)
+<figure><img src="../../.gitbook/assets/HTTPtrigger_update03 Dec062022.jpg" alt=""><figcaption></figcaption></figure>
 
 Com as configurações acima, você determina que:
 
@@ -129,7 +117,9 @@ Com as configurações acima, você determina que:
 
 Além disso, você determina que a API é do tipo externa e não precisa de _token_ para a comunicação.
 
+{% hint style="info" %}
 **IMPORTANTE:** esse exemplo serve apenas para fins educacionais. Em alguns casos você não deve deixar o _endpoint_ aberto por questões de segurança.
+{% endhint %}
 
 Agora observe como configurar um [MOCK](../tools/json-generator.md) no _pipeline_ para que ele seja o provedor de dados que o _endpoint_ retorna ao final. Coloque o componente indicado, conecte-o ao _trigge_r e configure-o com o seguinte JSON:
 
@@ -152,7 +142,7 @@ Agora observe como configurar um [MOCK](../tools/json-generator.md) no _pipeline
 
 O próximo passo é adicionar um componente que transforme o JSON previamente criado em um padrão XML. Para isso, utilize o [JSON To XML Transformer](../tools/json-to-xml-transformer.md), adicione-o no _canvas_ e conecte-o logo após o JSON Generator colocado previamente. Mantenha a configuração da seguinte forma:
 
-![](https://digibee-d5ff4ba226ed.intercom-attachments-7.com/i/o/300361610/32f515a62dd0445765885d10/L1l4cLO6j3cr5q\_uPe972uQsUTLj6e7wmUgQWGFDofsATk2ghhW7ltj2zZ3ico4B7acvq2oKJJl6ZaPIRL7ZgMPFl9dN1uLB932359UkhzCYPK-0ywr0gJZqB9dFmJHdb9ObaNPn)
+<figure><img src="../../.gitbook/assets/HTTPtrigger_update04 Dec062022.jpg" alt=""><figcaption></figcaption></figure>
 
 Feito isso, o último passo é formatar e determinar como será realizado o retorno dessas informações para o consumidor. Coloque um MOCK novamente, sendo que dessa vez a sua função é apenas formatar a resposta. Conecte-o à saída do JSON To XML Transformer.
 
@@ -172,7 +162,7 @@ Para a configurar esse MOCK, utilize o seguinte JSON:
 
 Ao finalizar todas essas configurações, você deve ter um _pipeline_ parecido com o que a imagem abaixo demonstra:
 
-![](https://digibee-d5ff4ba226ed.intercom-attachments-7.com/i/o/300361620/f3a5130508b5232d5a6930f9/n-2HIOx9VOY4lKRD04AkPO4y3BD3LwAn5clkl8yqW38PahaJUmlQUFKbI3DPTNnFUAFqB6mDUzKG1vcadaG8ARyjBUR-behvriLyQgjy-miDozZPAMXtgnnY2iNjlY1xsBZHnFsn)
+<figure><img src="../../.gitbook/assets/HTTPtrigger_update05 Dec062022.jpg" alt=""><figcaption></figcaption></figure>
 
 Após a implantação, pegue a _url_ gerada e envie uma requisição do tipo GET. O _endpoint_ deve retornar o _status-code_ 200, conforme definido anteriormente, e o corpo da resposta deve ter a seguinte aparência:
 

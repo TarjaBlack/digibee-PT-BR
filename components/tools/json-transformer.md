@@ -22,7 +22,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 * Action Settings
 
-_**-**_** Root path:** deve ser ativada essa opção quando a propriedade JSON está na raiz do objeto.
+_**-**_\*\* Root path:\*\* deve ser ativada essa opção quando a propriedade JSON está na raiz do objeto.
 
 **- Path (Dot notation):** deve ser preenchida quando a propriedade do JSON não está na raiz. Ela permite indicar _dot notation_, que torna muito simples acessar diferentes níveis do JSON, incluindo atravessar _array_ e _object_ do JSON.
 
@@ -92,8 +92,6 @@ Neste exemplo, veja como renomear "a" para "id" e "b" para "name". As configura�
 
 ![](../../.gitbook/assets/json-transformer.png)
 
-
-
 **Saída**
 
 ```
@@ -109,7 +107,6 @@ Neste exemplo, veja como renomear "a" para "id" e "b" para "name". As configura�
            }
    ]
 }
-
 ```
 
 * **Editando propriedades**
