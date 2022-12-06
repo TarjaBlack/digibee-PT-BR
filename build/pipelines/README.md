@@ -34,9 +34,9 @@ Quando você utiliza um componente que itera em coleções, cada item da coleç�
 
 <figure><img src="../../.gitbook/assets/image1.png" alt=""><figcaption></figcaption></figure>
 
-1. a execução do fluxo principal acontece até chegar ao componente onde o _subpipeline_ é criado (no exemplo acima, o componente é o For Each “Processa registros”);
+1. a execução do fluxo principal acontece até chegar ao componente onde o _subpipeline_ é criado (no exemplo acima, o componente é o For Each **Processa registros**);
 2. a execução passa para o _subpipeline_, onde cada item da coleção será tratado individualmente;
    1. ao término da execução deste item, o controle volta ao início do _subpipeline_, que inicia o processamento do próximo item e assim sucessivamente, até que a coleção seja totalmente processada;
-3. uma vez que toda a coleção tenha sido processada, o controle retorna ao componente For Each, que direciona o fluxo para o próximo componente do fluxo principal (no caso, o componente “Lê todos os dados”).
+3. uma vez que toda a coleção tenha sido processada, o controle retorna ao componente For Each, que direciona o fluxo para o próximo componente do fluxo principal (no caso, o componente **Lê todos os dados**).
 
 Para saber mais, leia o artigo [_Subpipeline_](subpipelines.md).
