@@ -10,10 +10,10 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 
 * **Methods:** define os métodos aceitos pelo _pipeline_ (GET, PUT, POST, PATCH e DELETE).
 * **Response Headers:** _headers_ a serem retornados pelo _endpoint_ quando o processamento no _pipeline_ terminar. Esse parâmetro não pode ser deixado vazio e aceita _Double Braces_. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
-* **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os CORS headers a serem retornados pelo endpoint quando o processamento no pipeline terminar. O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao pipeline e suas restrições. Para configurar de forma global ao invés de individualmente em cada pipeline consulte o artigo CORS Global .&#x20;
+* **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os CORS headers a serem retornados pelo _endpoint_ quando o processamento no pipeline terminar. O _Cross-Origin Resource Sharing (CORS)_ é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao _pipeline_ e suas restrições. Para configurar de forma global ao invés de individualmente em cada _pipeline,_ consulte o artigo CORS Global.&#x20;
 
 {% hint style="info" %}
-Importante: Utilizamos vírgula para informar múltiplos valores em um header, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em proxys e gateways.
+**IMPORTANTE:** Utilizamos vírgula para informar múltiplos valores em um header, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
 {% endhint %}
 
 * **Form Data Uploads**: habilita/desabilita o recebimento do _upload_ de _form data_ (_multi-part form data_).
