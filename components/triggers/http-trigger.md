@@ -55,7 +55,7 @@ PROD: https://api.godigibee.io/pipeline/{realm}/v{n}/{pipeline-name}
 * **v{n}:** versão principal (major) do _pipeline_
 * **{pipeline-name}:** nome dado ao _pipeline_
 
-#### **Rota estática customizada** <a href="#h_9bd4c185b3" id="h_9bd4c185b3"></a>
+### **Rota estática customizada** <a href="#h_9bd4c185b3" id="h_9bd4c185b3"></a>
 
 Vamos supor que você criou o _pipeline_ product-list. Levando em consideração o comentário acima, a sua URL teria a seguinte aparência:
 
@@ -73,7 +73,7 @@ Com essas configurações aplicadas e o _pipeline_ implantado, você obtém uma 
 https://test.godigibee.io/pipeline/realm/v1/products
 ```
 
-#### Rota customizada com parâmetro no caminho <a href="#h_00b02edd10" id="h_00b02edd10"></a>
+### Rota customizada com parâmetro no caminho <a href="#h_00b02edd10" id="h_00b02edd10"></a>
 
 Usando como exemplo o mesmo _pipeline_ configurado anteriormente, veja como configurar a rota:
 
