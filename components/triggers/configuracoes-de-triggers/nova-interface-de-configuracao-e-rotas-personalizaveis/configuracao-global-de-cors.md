@@ -19,4 +19,4 @@ O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao n
 
 Para configurar os parâmetros no seu _realm_, entre em contato com o suporte da Digibee via chat.
 
-IMPORTANTE. Esta funcionalidade faz parte do [programa Beta.](../../../geral/programa-beta.md)
+IMPORTANTE. Esta funcionalidade faz parte do [programa Beta.](../../../../geral/programa-beta.md)
