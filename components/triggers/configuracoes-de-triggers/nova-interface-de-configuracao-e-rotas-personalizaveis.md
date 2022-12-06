@@ -17,7 +17,7 @@ A seguir você pode ver algumas das configurações mais comuns dos _triggers_ n
 
 \- _**Padrão com API Key**_
 
-![](<../../../../.gitbook/assets/nova interface 2.png>)
+![](<../../../.gitbook/assets/nova interface 2.png>)
 
 &#x20;      \
 \- _**Com API Key e JWT**_
@@ -83,12 +83,12 @@ O que vem depois de "v1" é a parte editável. No caso, escolhemos "lista-produt
 **1.** Ative a opção "Additional API Routes".\
 **2.** Digite "/produtos" e aperte ENTER.
 
-![](<../../../../.gitbook/assets/nova interface 5.png>)
+![](<../../../.gitbook/assets/nova interface 5.png>)
 
 **3.** Pronto! Você tem uma rota alternativa, com um novo endereço:\
 [_**https://test.godigibee.io/pipeline/empresa/v1/produtos**_](https://test.godigibee.io/pipeline/empresa/v1/produtos)
 
-![](<../../../../.gitbook/assets/nova interface 6.png>)
+![](<../../../.gitbook/assets/nova interface 6.png>)
 
 Você também pode acrescentar uma rota que recebe um parâmetro - por exemplo, "/produto/:id".&#x20;
 
