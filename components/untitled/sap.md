@@ -73,8 +73,9 @@ Para uma chamada RFC, é importante dar atenção aos seguintes pontos:
 * **SYSTEM RELEASE (opcional):** especifica o SAP Basis Release associado, caso exista, a um IDOC produzido por esse _endpoint_.
 * **APPLICATION RELEASE (opcional):** especifica o Application Release associado, caso exista, a um IDOC produzido por esse _endpoint_.&#x20;
 
-&#x20;  \
-
+{% hint style="info" %}
+**IMPORTANTE:** Lembre-se que IDOCs são processados assincronamente via SAP. Quando um IDOC é enviado, não há indicação de sucesso ou falha. Em caso de erro, é necessário que o usuário reprocesse o IDOC.
+{% endhint %}
 
 ### Estrutura do componente para utilização do campo Template XML       <a href="#estrutura-do-componente-para-utilizao-do-campo-template-xml" id="estrutura-do-componente-para-utilizao-do-campo-template-xml"></a>
 
