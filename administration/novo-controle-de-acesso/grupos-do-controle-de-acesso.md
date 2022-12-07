@@ -52,7 +52,7 @@ Pré-requisitos:
 
 <figure><img src="../../.gitbook/assets/imagem 2.png" alt=""><figcaption></figcaption></figure>
 
-3\. \*\*\*\* Clique na aba **PERMISSÕES** para acessar a lista de vínculos.
+3\. Clique na aba **PERMISSÕES** para acessar a lista de vínculos.
 
 <figure><img src="../../.gitbook/assets/Imagem 3 (3).png" alt=""><figcaption></figcaption></figure>
 

@@ -10,14 +10,14 @@ Para evitar possíveis perdas de acesso, o gestor de acesso do realm deve config
 
 Quando ativada a integração de Grupos IdP, o controle de acesso terá o seguinte comportamento:
 
-* **Usuários nativos** não são afetados pela integração de grupos IdP, assim eles podem ser associados a qualquer grupo Digibee (integrado ou não).
+* **Usuários que fazem login via Digibee Integration Platform:** não são afetados pela integração de grupos IdP, assim eles podem ser associados a qualquer grupo Digibee (integrado ou não).
 * **Usuários integrados (IdP)** poderão participar apenas de **grupos integrados (IdP)** quando a integração for ativada pelo time de Suporte (após solicitação). Caso não esteja ativa, estes usuários podem ser associados manualmente a grupos Digibee.
 
 <figure><img src="../../.gitbook/assets/Imagem 1 (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/imagem 2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Nota:** Caso solicitado, a opção de usuários nativos pode ser desativada no realm, após a validação de todo o ambiente.
+**Nota:** Caso solicitado, a opção de usuários que fazem login via Digibee Integration Platform pode ser desativada no realm, após a validação de todo o ambiente.
 
 Todas as etapas descritas abaixo só terão efeito imediato após ativação com o time de suporte.
 
@@ -229,6 +229,6 @@ Após todos estes passos a integração será arquivada com sucesso.
 
 A ativação da integração não pode ser desfeita. Os usuários podem ter perda de acesso total ou parcial caso os grupos não estejam mapeados corretamente.
 
-Após a ativação, usuários nativos associados a papéis e grupos podem continuar utilizando a página de login da Plataforma.
+Após a ativação, usuários que fazem usuário via Digibee Integration Platform associados a papéis e grupos podem continuar utilizando a página de login da Plataforma.
 
 Suas configurações somente poderão ser ativadas manualmente pelo time de suporte da Digibee. Portanto, quando considerar que o trabalho de mapeamento está completo e desejar que as integrações configuradas passem a valer no momento do login do usuário entre em contato pelo chat.

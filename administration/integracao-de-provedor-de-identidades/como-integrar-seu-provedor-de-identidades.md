@@ -8,9 +8,9 @@ description: >-
 
 Uma vez confirmado que seu provedor de identidade é compatível com o protocolo SAML 2.0, já será possível iniciar os passos para integrá-lo à Digibee Integration Platform. Com a conclusão da integração, a habilitação da autenticação integrada e a funcionalidade de Integração de Grupos, que possibilita a autorização federada ao Realm, já estarão disponíveis.
 
-A funcionalidade Integração de Provedor de Identidade também suporta a integração para múltiplos realms na Digibee Integration Platform para o mesmo provedor de identidade, isto é, habilitar o logon único para todos os realms (do mesmo cliente) simultaneamente a partir de uma única integração.
+A funcionalidade Integração de Provedor de Identidade também suporta a integração para múltiplos _realms_ na Digibee Integration Platform para o mesmo provedor de identidade, isto é, habilitar o logon único para todos os _realms_ (do mesmo cliente) simultaneamente a partir de uma única integração.
 
-**IMPORTANTE:** essa capacidade está disponível apenas para realms existentes na mesma regiões, clusters e instalação.
+**IMPORTANTE:** essa capacidade está disponível apenas para _realms_ existentes na mesma regiões, clusters e instalação.
 
 Para saber mais sobre o que é um provedor de identidade e as vantagens de integrá-lo a Digibee Integration Platform, leia nosso[ artigo](./).
 
@@ -23,7 +23,7 @@ Para iniciar o processo de integração, o primeiro passo é fazer a solicitaç�
 * Solicitar ao time de suporte através do chat da Digibee HIP ou por e-mail suporte@digibee.com;
 * Mediante o seu ponto de contato no time de Customer Service Management (CSM);
 
-**IMPORTANTE:** caso haja o interesse em integrar mais de um realm ao mesmo IdP, basta informar para a Digibee nesta etapa.
+**IMPORTANTE:** caso haja o interesse em integrar mais de um _realm_ ao mesmo IdP, basta informar para a Digibee nesta etapa.
 
 ### **2.Enviar informações essenciais para a integração**
 

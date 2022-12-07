@@ -22,7 +22,7 @@ Aqui estão alguns exemplos de IdPs:
 Uma vez que seu provedor de identidade esteja integrado à Digibee Integration Platform, será possível ter acesso às seguintes funcionalidades:
 
 * **Single Sign-On:** um logon único que elimina a necessidade de gerenciamento de diversos repositórios de senhas;
-* **Autenticação Integrada:** permite que o acesso à plataforma seja verificado pelo próprio IdP, centraliza as informações e facilita a gestão de acesso, podendo ser configurada de uma única vez para um ou mais realms do mesmo cliente;
+* **Autenticação integrada:** permite que o acesso à plataforma seja verificado pelo próprio IdP, centraliza as informações e facilita a gestão de acesso, podendo ser configurada de uma única vez para um ou mais realms do mesmo cliente;
 * **Autorização integrada:** permite fazer a gestão de grupos do provedor de identidade que estão integrados a grupos de acesso da Digibee Integration Platform e, dessa forma, controlar quem tem acesso aos serviços que cada grupo integrado Digibee disponibiliza;
 
 ### **Quais são os requisitos para poder integrar um provedor de identidade à Digibee Integration Platform**

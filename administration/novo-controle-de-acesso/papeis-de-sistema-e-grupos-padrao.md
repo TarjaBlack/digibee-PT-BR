@@ -60,7 +60,7 @@ Para fazer isso, vá até a tela de Papéis na página de configurações, acess
 
 ### **Grupos padrão** <a href="#h_eb3ea5cda2" id="h_eb3ea5cda2"></a>
 
-Para facilitar ainda mais a adoção dos papéis de sistema, cada Realm recebe uma carga de grupos, chamados de grupos padrão. Esses grupos entregam diversos perfis que acreditamos cobrir cenários mais comuns dos usuários da Plataforma.
+Para facilitar ainda mais a adoção dos papéis de sistema, cada _realm_ recebe uma carga de grupos, chamados de grupos padrão. Esses grupos entregam diversos perfis que acreditamos cobrir cenários mais comuns dos usuários da Plataforma.
 
 A seguir apresentaremos os grupos padrão e seus respectivos papéis:
 
@@ -92,7 +92,7 @@ Responsável por analisar o andamento e desempenho das implantações para ofere
 
 ### **Como utilizar os grupos padrão** <a href="#h_72cf0de714" id="h_72cf0de714"></a>
 
-Acesse a tela de Grupos, selecione um grupo padrão e associe os usuários. Os grupos padrão podem ser alterados ou excluídos, se algum grupo não existir mais, pode ser que algum membro do Realm tenha o excluído. Nesse caso, você pode entrar em contato com o time de suporte para recriar os grupos perdidos ou modificados.
+Acesse a tela de Grupos, selecione um grupo padrão e associe os usuários. Os grupos padrão podem ser alterados ou excluídos, se algum grupo não existir mais, pode ser que algum membro do _realm_ tenha o excluído. Nesse caso, você pode entrar em contato com o time de suporte para recriar os grupos perdidos ou modificados.
 
 ### **Feedback** <a href="#h_56a00631b2" id="h_56a00631b2"></a>
 

@@ -4,7 +4,7 @@ description: Entenda mais sobre a transição para o novo modelo de acesso.
 
 # Transição do novo Controle de Acesso
 
-Junto com o novo modelo de controle de acesso, desenvolvemos esta funcionalidade para que os usuários possam sinalizar que já fizeram a transição do modelo antigo para o modelo novo. Isso permitirá ao time de Produto desligar o modelo antigo sem impacto nos realms.
+Junto com o novo modelo de controle de acesso, desenvolvemos esta funcionalidade para que os usuários possam sinalizar que já fizeram a transição do modelo antigo para o modelo novo. Isso permitirá ao time de Produto desligar o modelo antigo sem impacto nos _realms_.
 
 Atualmente, os dois modelos de controle de acesso estão funcionando em um modelo de soma de permissões, para minimizar a perda de acesso devido a transição entre eles. Isso quer dizer que caso um usuário tenha uma permissão em qualquer um dos modelos e não tenha no outro, ele terá acesso ao recurso da Plataforma.
 
@@ -37,13 +37,13 @@ Ao final da transição, todos os usuários devem apresentar um ícone de checkm
 
 ### Tutorial sobre a transição para o novo controle de acesso
 
-Você pode assistir ao vídeo a seguir ou continuar lendo esse artigo para aprender como realizar a transição do seu realm para o novo controle de acesso:
+Você pode assistir ao vídeo a seguir ou continuar lendo esse artigo para aprender como realizar a transição do seu _realm_ para o novo controle de acesso:
 
 {% embed url="https://vimeo.com/689012591" %}
 
 ### Para usuários com acessos replicados no novo modelo: <a href="#h_aae1ee6cbf" id="h_aae1ee6cbf"></a>
 
-Neste exemplo abaixo, os três usuários já estão vinculados a um ou mais grupos. Ao clicar em "**Verificar**'', é possível visualizar os grupos aos quais o usuário pertence e a lista de permissões de cada um deles.
+Neste exemplo abaixo, os três usuários já estão vinculados a um ou mais grupos. Ao clicar em "**VERIFICAR**'', é possível visualizar os grupos aos quais o usuário pertence e a lista de permissões de cada um deles.
 
 ![](<../../.gitbook/assets/Imagem 3 (6).png>)
 
@@ -69,7 +69,7 @@ A transição de usuários pode ser realizada um a um ou de múltiplos usuários
 
 4\. Busque o usuário na barra de pesquisa;
 
-5\. Clique em **“VERIFICAR”** ao lado do usuário\*\*;\*\*
+5\. Clique em **“VERIFICAR”** ao lado do usuário
 
 ![](<../../.gitbook/assets/Imagem 6 (5).png>)
 
