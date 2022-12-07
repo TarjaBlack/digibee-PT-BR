@@ -32,7 +32,7 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Routes:** exibido somente quando o parâmetro _Additional API Routes_ estiver habilitado. É aqui que você consegue definir as rotas adicionais do _endpoint_.
 * **Allow Redelivery Of Messages:** se a opção estiver ativada, permite o reenvio da mensagem em caso de falha do _Pipeline Engine_. Leia o artigo sobre o [Pipeline Engine](../../plataforma/pipeline-engine.md) para obter mais detalhes.
 
-#### Additional API Routes <a href="#h_843b46ed62" id="h_843b46ed62"></a>
+### Additional API Routes <a href="#h_843b46ed62" id="h_843b46ed62"></a>
 
 Conforme explicado anteriormente, essa opção serve para configurar rotas novas no _endpoint_.
 
@@ -52,7 +52,7 @@ ou PROD: https://api.godigibee.io/pipeline/{realm}/v{n}/{pipeline-name}
 
 
 
-#### Rota estática customizada <a href="#h_caf7632844" id="h_caf7632844"></a>
+### Rota estática customizada <a href="#h_caf7632844" id="h_caf7632844"></a>
 
 Vamos supor que você criou o _pipeline_ _product-list_. Levando em consideração o comentário acima, a sua URL teria a seguinte aparência:
 
@@ -70,7 +70,7 @@ Com essas configurações aplicadas e o _pipeline_ implantado, você obtém uma 
 https://test.godigibee.io/pipeline/realm/v1/products
 ```
 
-#### Rota customizada com parâmetro no caminho <a href="#h_7e05ebe9ba" id="h_7e05ebe9ba"></a>
+### Rota customizada com parâmetro no caminho <a href="#h_7e05ebe9ba" id="h_7e05ebe9ba"></a>
 
 Usando como exemplo o mesmo _pipeline_ configurado anteriormente, veja como configurar a rota:
 
@@ -94,23 +94,11 @@ Para utilizar esse valor enviado pela rota dentro do _pipeline_, recorra à sint
 {{ message.queryAndPath.id }}
 ```
 
-### Adding Response Headers
-
-Conforme explicado anteriormente, essa opção serve para configurar headers na resposta do _endpoint_.
-
-**IMPORTANTE:** Não utilizar caracteres especiais.
-
-![](https://lh5.googleusercontent.com/0NfTY3qccxD9TeMbNa-SD3qBzQwPlrNBeWDyrUk5DeMHHJPjy2w1XJRr097MdlZ0tdcQWrJYYnIo6jc5f1L2GgBViVNMMnW-bUbG3zFtTOMO0Fk6xUYhzU1yV2OzjigleM-o29gr)
-
-Para utilizar esse valor enviado pela rota dentro do _pipeline_, recorra à sintaxe _Double Braces_:
-
-`{{ message.parameter }}`
-
 ### REST Trigger em Ação <a href="#h_957f91b1a8" id="h_957f91b1a8"></a>
 
 Veja a seguir como o _trigger_ se comporta em determinada situação e a sua respectiva configuração.
 
-* **API de consulta de informações com retorno em JSON**
+**API de consulta de informações com retorno em JSON**
 
 Observe como configurar um _pipeline_ com o _**REST Trigger**_ para retornar uma informação de dentro do _pipeline_ em formato JSON e como o retorno deve ser tratado especificamente para esse _trigger_.
 
@@ -138,7 +126,7 @@ Feito isso, o _endpoint_ já retornará automaticamente o JSON que definimos aci
 
 Após a implantação, pegue a _url_ gerada e envie uma requisição do tipo GET. O _endpoint_ deve retornar o _status-code_ 200, e o corpo da resposta deve ter a mesma aparência do JSON que previamente definimos dentro do conector MOCK.
 
-* **API de envio de informações com retorno em JSON**
+**API de envio de informações com retorno em JSON**
 
 Observe como configurar um _pipeline_ com o _**REST Trigger**_ para retornar uma informação de dentro do _pipeline_ em formato JSON e como o retorno deve ser tratado especificamente para esse _trigger_.
 
