@@ -56,7 +56,7 @@ O resultado seria:
 }
 ```
 
-* **fileSize:** valor representando o tamanho do arquivo
+* **fileSize:** valor representando o tamanho do arquivo **em bytes.**
 
 Conheça também as funções:
 
