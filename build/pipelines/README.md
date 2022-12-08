@@ -15,7 +15,7 @@ Um _pipeline_ é composto por:
 **IMPORTANTE:** _trigger_ e componentes precisam estar interconectados.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image2 (3).png" alt=""><figcaption></figcaption></figure>
 
 O _trigger_ é a condição de disparo do _pipeline_, ou seja, é um elemento que define como a execução do _pipeline_ será iniciada - por exemplo, através de uma chamada externa, em resposta a um evento ou via agendamento. Para saber mais, leia a [documentação dos _Triggers_ aqui](https://docs.digibee.com/documentation/v/pt-br/components/triggers).
 
@@ -28,11 +28,11 @@ Um componente é um elemento que recebe uma mensagem, podendo interagir ou utili
 
 Este último caso é um pouco mais sofisticado e, para entendê-lo, precisamos examiná-lo mais de perto.
 
-<figure><img src="../../.gitbook/assets/image3 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image3 (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Quando você utiliza um componente que itera em coleções, cada item da coleção é processado em um fluxo separado chamado _subpipeline_. Veja a imagem abaixo:
 
-<figure><img src="../../.gitbook/assets/image1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image1 (2).png" alt=""><figcaption></figcaption></figure>
 
 1. a execução do fluxo principal acontece até chegar ao componente onde o _subpipeline_ é criado (no exemplo acima, o componente é o For Each **Processa registros**);
 2. a execução passa para o _subpipeline_, onde cada item da coleção será tratado individualmente;
