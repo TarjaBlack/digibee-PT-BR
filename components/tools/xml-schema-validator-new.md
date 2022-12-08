@@ -14,6 +14,10 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
+{% hint style="info" %}
+**IMPORTANTE:** Este componente não permite qualquer DTD declarada no conteúdo XML.
+{% endhint %}
+
 #### **Fluxo de mensagens** <a href="#h_6393de0970" id="h_6393de0970"></a>
 
 * #### **Entrada** <a href="#h_a16192b0f3" id="h_a16192b0f3"></a>
