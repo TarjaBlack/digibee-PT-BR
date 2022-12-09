@@ -11,13 +11,12 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 * **Account:** é necessário criar uma conta tipo BASIC para utilizar as credenciais SAP (usuário e senha).
 * **SAP Operation**: **** método de conexão no SAP - o componente suporta acesso via RFC ou IDOC.
-* **Host:** _hostname_ do sistema SAP - para que "IP" e "Porta" sejam suportados, é necessário ter conectividade por VPN (você pode definir o VPN através do SAP Gui). Para resolver o nome do host para um endereço IP, você deve adicionar uma entrada de mapeamento ao arquivo do host da máquina na qual o agente está instalado.
+* **Host:** _hostname_ do sistema SAP - para que "IP" e "Porta" sejam suportados, é necessário ter conectividade por VPN (você pode definir o VPN através do SAP GUI). Para resolver o nome do host para um endereço IP, você deve adicionar uma entrada de mapeamento ao arquivo do host da máquina na qual o agente está instalado.
 * **RFC:** nome da RFC utilizado para se conectar ao sistema SAP - esse campo é informado pelo cliente (os parâmetros de importação da função do SAP devem ser mapeados).
 * **Language:** linguagem a ser utilizada na conexão ao sistema SAP (ex.: "EN" para inglês).
 * **Client ID:** SAP Client ID, normalmente com 3 dígitos, utilizado para se conectar ao SAP.
-* **System Number**: normalmente com 2 dígitos, utilizado para se conectar ao sistema SAP (você pode encontrar essa informação no SAP Gui).
+* **System Number**: normalmente com 2 dígitos, utilizado para se conectar ao sistema SAP (você pode encontrar essa informação no SAP GUI).
 * **Template (XML):** _template_ Apache FreeMarker para a mensagem SOAP enviada na requisição.
-* **Enviroment/SystemName/System Id:** normalmente com 3 caracteres - você pode encontrar essa informação, que vem de um arquivo JSON file, no SAP Gui.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
 &#x20;  \
@@ -210,7 +209,7 @@ ${x?string.computer}
 ```
 
 \
-_**Saída**_
+**Saída**
 
 ```
 42
