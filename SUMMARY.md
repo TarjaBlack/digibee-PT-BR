@@ -205,7 +205,7 @@
 * [Structured data](components/structured-data/README.md)
   * [Cassandra DB](components/structured-data/cassandra-db.md)
   * [DB V2](components/structured-data/db-v2.md)
-  * [DB V1](components/structured-data/db-v1.md)
+  * [DB V1 (Descontinuado)](components/structured-data/db-v1.md)
   * [Mongo DB](components/structured-data/mongo-db.md)
   * [Object Store](components/structured-data/object-store.md)
   * [Relationship](components/structured-data/relationship.md)
