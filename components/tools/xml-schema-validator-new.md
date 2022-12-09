@@ -15,8 +15,16 @@ Dê uma olhada nos parâmetros de configuração do componente:
 Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 {% hint style="info" %}
-**IMPORTANTE:** Este componente não permite qualquer DTD declarada no conteúdo XML.
+**IMPORTANTE:** Este componente não permite qualquer DTD declarada no conteúdo XML. Veja no exemplo abaixo:
 {% endhint %}
+
+**Example:**
+
+{% code overflow="wrap" %}
+```
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE foo [ <!ENTITY xxe SYSTEM \"file:///etc/passwd\"> ]><stockCheck><productId>&xxe;</productId></stockCheck>"
+```
+{% endcode %}
 
 #### **Fluxo de mensagens** <a href="#h_6393de0970" id="h_6393de0970"></a>
 
