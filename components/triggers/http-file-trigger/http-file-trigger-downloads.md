@@ -10,7 +10,7 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 
 * **Methods:** define os métodos aceitos pelo _pipeline_ (GET, PUT, POST, PATCH e DELETE).
 * **Response Headers:** _headers_ a serem retornados pelo _endpoint_ quando o processamento no _pipeline_ terminar. Esse parâmetro não pode ser deixado vazio e aceita _Double_ _Braces_. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
-* **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os CORS headers a serem retornados pelo _endpoint_ quando o processamento no pipeline terminar. O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao pipeline e suas restrições. Para configurar de forma global ao invés de individualmente em cada pipeline consulte o artigo [CORS Global .](../configuracoes-de-triggers/configuracao-global-de-cors.md) Importante: Utilizei vírgula para informar múltiplos valores em um _header_, mas não adicionei espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e gateways.
+* **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os CORS headers a serem retornados pelo _endpoint_ quando o processamento no pipeline terminar. O Cross-Origin Resource Sharing (CORS) é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao pipeline e suas restrições. Para configurar de forma global ao invés de individualmente em cada pipeline consulte o artigo [CORS Global](../configuracoes-de-triggers/configuracao-global-de-cors.md).
 
 {% hint style="info" %}
 **IMPORTANTE:** Utilizamos vírgula para informar múltiplos valores em um header, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
@@ -29,7 +29,6 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Token JWT:** se ativada, a opção vai solicitar o _token_ para consumo do API
 * **Additional API Routes:** se ativada, a opção permite que você adicione novas rotas.
 * **API Routes:** rotas customizáveis.
-* **Security (Legacy):** se ativada, a opção determina a necessidade de uso de um _token_ JWT para acessar a API exposta.
 * **Allow Redelivery Of Messages:** se ativada, a opção permite que as mensagens sejam entregues novamente caso o Pipeline Engine falhe.
 
 ### HTTP File Trigger em Ação <a href="#http-file-trigger-em-ao" id="http-file-trigger-em-ao"></a>

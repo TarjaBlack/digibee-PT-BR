@@ -29,7 +29,6 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Token JWT:** se ativada, a opção vai solicitar o _token_ para consumo do API.
 * **Additional API Routes:** se ativada, a opção permite que você adicione novas rotas.
 * **API Routes:** rotas customizáveis.
-* **Security (Legacy):** se ativada, a opção determina a necessidade de uso de um _token_ JWT para acessar a API exposta.
 * **Allow Redelivery Of Messages:** se ativada, a opção permite que as mensagens sejam entregues novamente caso o Pipeline Engine falhe.
 
 ### HTTP File Trigger em Ação <a href="#http-file-trigger-em-ao" id="http-file-trigger-em-ao"></a>
