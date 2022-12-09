@@ -186,7 +186,7 @@
   * [Kafka](components/queues-and-messaging/kafka.md)
   * [RabbitMQ](components/queues-and-messaging/rabbitmq.md)
   * [SQS](components/queues-and-messaging/sqs.md)
-  * [SQS (AWS) - NEW](components/queues-and-messaging/sqs-aws-new.md)
+  * [SQS (AWS) V2](components/queues-and-messaging/sqs-aws-new.md)
 * [Security components](components/security-components/README.md)
   * [AES Cryptography](components/security-components/aes-cryptography.md)
   * [Asymmetric Cryptography](components/security-components/asymmetric-cryptography.md)
