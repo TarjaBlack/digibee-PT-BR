@@ -215,7 +215,7 @@
   * [Stream DB V1 (Descontinuado)](components/structured-data/stream-db-v1.md)
 * [Tools](components/tools/README.md)
   * [Assert V2](components/tools/assert-v2.md)
-  * [Assert V1](components/tools/assert-v1.md)
+  * [Assert V1 (Descontinuado)](components/tools/assert-v1.md)
   * [Base64](components/tools/base64.md)
   * [CSV to JSON V2](components/tools/csv-to-json-v2.md)
   * [CSV to JSON V1](components/tools/csv-to-json-v1.md)
