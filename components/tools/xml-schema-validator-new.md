@@ -10,7 +10,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 * **XML File Name:** nome do arquivo XML que será validado
 * **XSDs**: uma lista de arquivos XSDs que serão usados para validar o arquivo XML. O arquivo XSD raiz de validação deverá ser informado como primeiro arquivo, e os demais XSDs em sequência. O nome dos arquivos informados deve ser o mesmo dos especificados dentro das importações dentro dos arquivos XSD.
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
 Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
@@ -18,7 +18,7 @@ Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como 
 **IMPORTANTE:** Este componente não permite qualquer DTD declarada no conteúdo XML. Veja no exemplo abaixo:
 {% endhint %}
 
-**Example:**
+**Exemplo:**
 
 {% code overflow="wrap" %}
 ```
