@@ -63,7 +63,7 @@ Para editar um usuário siga os seguintes passos:
 
 **IMPORTANTE:** Por motivos de auditoria, o usuário não é excluído da plataforma. É possível desarquivá-lo se necessário.
 
-## Como desarquivar um usuário <a href="#h_d16f6c5450" id="h_d16f6c5450"></a>
+## Como restaurar um usuário <a href="#h_d16f6c5450" id="h_d16f6c5450"></a>
 
 1. Vá em **Administração** na Digibee Integration Platform
 2. Clique **USUÁRIOS**
