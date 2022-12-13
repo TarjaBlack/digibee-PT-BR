@@ -65,6 +65,7 @@
 * [Conceitos de Run](run/runtime.md)
 * [Implantação de um pipeline](run/deployments.md)
 * [Status de implantação do pipeline](run/status-de-implantacao-do-pipeline.md)
+* [Reimplantando um pipeline](run/reimplantando-um-pipeline.md)
 
 ## Monitor
 
