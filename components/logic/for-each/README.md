@@ -53,7 +53,11 @@ Conforme explicado anteriormente, é possível definir um _subpipeline_ para tra
 
 Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4484877-subpipelines) para entender melhor o funcionamento dos _subpipelines_.
 
-## Erro durante o _subpipeline_ onException <a href="#erro-durante-o-subpipeline-onexception" id="erro-durante-o-subpipeline-onexception"></a>
+{% hint style="info" %}
+**IMPORTANTE:** Não é possível interromper a execução de todo o loop For Each. A interrupção pode ser feita apenas na iteração atual, através de componentes que possuam o parâmetro “Fail On Error” ativado dentro dos _subpipelines_ onProcess e onException.
+{% endhint %}
+
+## Erro grave de estrutura durante o _subpipeline_ onException <a href="#erro-durante-o-subpipeline-onexception" id="erro-durante-o-subpipeline-onexception"></a>
 
 * o _loop_ será interrompido
 * o erro será lançado para o próximo componente ao qual o componente _**For Each**_ esteja associado

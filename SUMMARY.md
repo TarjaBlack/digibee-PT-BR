@@ -64,6 +64,7 @@
 * [Visão Geral](run/visao-geral.md)
 * [Conceitos de Run](run/runtime.md)
 * [Implantação de um pipeline](run/deployments.md)
+* [Status de implantação do pipeline](run/status-de-implantacao-do-pipeline.md)
 
 ## Monitor
 
