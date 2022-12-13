@@ -24,25 +24,27 @@ Já no ambiente _**prod**_** ** é onde o processo final de implantação do _pi
 
 ## **Selecione o projeto**
 
-Após escolher o ambiente de execução, no canto esquerdo da tela selecione o projeto que deseja implantar. Você pode [saber mais sobre os projetos aqui](https://docs.digibee.com/documentation/v/pt-br/build/projetos). Todas as versões desenvolvidas dos pipelines aparecerão na tela para seleção.
+Após escolher o ambiente de execução, no canto esquerdo da tela selecione o projeto que deseja implantar. Você pode [saber mais sobre os projetos aqui](https://docs.digibee.com/documentation/v/pt-br/build/projetos). Todas as versões desenvolvidas dos _pipelines_ aparecerão na tela para seleção.
 
-<figure><img src="../.gitbook/assets/projeto run.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Projetos.jpg" alt=""><figcaption></figcaption></figure>
 
 Cada _pipeline_ contém as informações de tamanho, execuções simultâneas, réplicas e licenças. Para mais detalhes sobre cada item, [leia o artigo sobre os conceitos de Run](https://docs.digibee.com/documentation/v/pt-br/run/runtime).
 
-<figure><img src="../.gitbook/assets/pipeline run.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cards port.jpg" alt=""><figcaption></figcaption></figure>
 
 ## **Opções no **_**pipeline**_
 
-Algumas opções estão disponíveis no _pipeline_. Se clicar nos três pontos, duas aparecerão: **Remover implantação** e **Exibir pipeline.**
+Algumas opções estão disponíveis no _pipeline_. Se clicar nos três pontos, duas aparecerão: **Remover implantação,** **Exibir pipeline** e **Reimplantar.**
 
-<figure><img src="../.gitbook/assets/opcoes pipeline.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tres pontos.jpg" alt=""><figcaption></figcaption></figure>
 
 A primeira opção é **Remover implantação** e, clicando nela, você pode excluir a implantação feita. Essa ação removerá somente a implantação com sua versão selecionada, não afetando outras versões.
 
 A segunda opção é **Exibir **_**pipeline**_. Ao clicar nela, toda a arquitetura do _pipeline_ desenvolvido é exibida, assim como as informações selecionadas no _trigger_.
 
-<figure><img src="../.gitbook/assets/exibir pipeline.jpg" alt=""><figcaption></figcaption></figure>
+A terceira opção é **Reimplantar**. A principal função do Reimplantar é fazer a implantação do mesmo _pipeline_, mas alterando suas configurações. [Para saber mais sobre como reimplantar um pipeline, leia este artigo.](https://docs.digibee.com/documentation/v/pt-br/run/reimplantando-um-pipeline)
+
+
 
 ## **Selecione o **_**pipeline**_
 
