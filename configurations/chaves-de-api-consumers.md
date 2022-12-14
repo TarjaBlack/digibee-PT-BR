@@ -12,7 +12,7 @@ Chaves de API são credenciais de acesso fornecidas para consultas em pipelines 
 
 1\. Acesse o menu **Configurações**.
 
-<figure><img src="../.gitbook/assets/image6 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image6.png" alt=""><figcaption></figcaption></figure>
 
 2\. No menu de configurações, clique em **Chaves de API (Consumers)**.
 
