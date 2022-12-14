@@ -22,7 +22,7 @@ O Novo Canvas traz melhorias relacionadas à experiência de navegação e const
 
 Para utilizar o Novo Canvas, acesse a aba **Build** e clique em **USAR NOVO CANVAS**.
 
-<figure><img src="../../.gitbook/assets/image5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image5 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Esse aviso também estará presente em todos os _pipelines_ criados no Canvas antigo. Ao clicar em **USAR NOVO CANVAS**, você será redirecionado para o Novo Canvas e o _pipeline_ será transferido para a nova versão sem perder nenhum componente, não necessitando de reimplantação.
 
