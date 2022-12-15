@@ -4,7 +4,7 @@
 
 ### MONITOR
 
-* Visão geral: agora, a tabela de visão geral exibe o número de erros e de execuções de _pipeline_ em conjunto. Também omitimos a coluna “dinâmica” e trocamos a posição da tabela e do gráfico nesta página.
+* **Visão geral:** agora, a tabela de visão geral exibe o número de erros e de execuções de _pipeline_ em conjunto. Também omitimos a coluna “dinâmica” e trocamos a posição da tabela e do gráfico nesta página.
 
 
 
@@ -22,14 +22,16 @@ Melhoramos a performance do novo Canvas, dando mais rapidez para a navegação e
 
 ### &#x20;RUN
 
-* **Reimplantar:** a reimplantação do _pipeline_ ficou mais fácil e rápida: basta selecionar a opção REIMPLANTAR no _pipeline card_, que irá abrir um painel lateral com as informações já preenchidas. Então, selecione o novo tamanho, execuções simultâneas e réplicas e finalize clicando em IMPLANTAR.
-* _**Status**_** de implantação do **_**pipeline**_**:** ficou mais fácil acompanhar o _status_ da implantação do _pipeline_. O novo _design_ do _pipeline card_ inclui o _status_ do _pipeline_ em tempo real.
-* _**Auto refresh**_**:** essa nova funcionalidade permite selecionar o intervalo de atualização da página e, consequentemente, a atualização do _status_ do _card_ dos _pipelines_, facilitando obter informações do _pipeline_ em tempo real.
-* **Aviso de conflito de rotas:** temos um novo aviso que ajuda a prevenir e solucionar o problema de conflitos de rota durante a implantação. _Pipelines_ com rotas iguais ou que começam com parâmetros que recebem o valor de ":id" através do "queryAndPath" geram erros e substituem _pipelines_ devido a essas definições.
+* **Reimplantar:** a reimplantação do _pipeline_ ficou mais fácil e rápida: basta selecionar a opção REIMPLANTAR no _pipeline card_, que irá abrir um painel lateral com as informações já preenchidas. Então, selecione o novo tamanho, execuções simultâneas e réplicas e finalize clicando em IMPLANTAR. Leia nossa [documentação sobre reimplantação do pipeline aqui](../../run/reimplantando-um-pipeline.md).
+* _**Status**_** de implantação do **_**pipeline**_**:** ficou mais fácil acompanhar o _status_ da implantação do _pipeline_. O novo _design_ do _pipeline card_ inclui o _status_ do _pipeline_ em tempo real. Leia nossa [documentação sobre o status de implantação do pipeline aqui.](../../run/status-de-implantacao-do-pipeline.md)
+* _**Auto refresh**_**:** essa nova funcionalidade permite selecionar o intervalo de atualização da página e, consequentemente, a atualização do _status_ do _card_ dos _pipelines_, facilitando obter informações do _pipeline_ em tempo real. [Leia sobre o auto refresh aqui.](../../run/status-de-implantacao-do-pipeline.md#intervalo-de-auto-refresh)
+* **Aviso de conflito de rotas:** temos um novo aviso que ajuda a prevenir e solucionar o problema de conflitos de rota durante a implantação. _Pipelines_ com rotas iguais ou que começam com parâmetros que recebem o valor de ":id" através do "queryAndPath" geram erros e substituem _pipelines_ devido a essas definições. Leia mais sobre o [aviso de conflito de rotas aqui.](https://intercom.help/godigibee/pt-BR/articles/6820343-aviso-de-conflito-de-rotas)
 
-### &#x20;MEU CONSUMO
+### &#x20;MEU CONSUMO (Beta restrito)
 
 * **Lista de contatos:** liberamos em nossa página “Meu Consumo” os nomes e e-mails das pessoas que prezam pelo sucesso da sua jornada com a Digibee Integration Platform. Entre em contato com o seu _Customer Success Manager_ (CSM) em caso de dúvidas sobre seu plano.
+
+**IMPORTANTE:** a página “Meu consumo” está no momento em Beta restrito e estará disponível para todos os clientes em breve. Para participar do programa de [Beta restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta), fale com o seu _Customer Success Manager_ (CSM).
 
 \
 
