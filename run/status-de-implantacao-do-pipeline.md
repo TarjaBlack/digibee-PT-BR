@@ -18,7 +18,7 @@ Existem quatro opções de seleção de tempo: **5 segundos**, **10 segundos**, 
 
 ## Informações em tempo real
 
-Agora, quando o _pipeline_ é implantado, é possível ver o status da implantação em tempo real. Com as seguintes informações: **Erro**, **Iniciando** e **Implantado.**
+Agora, quando o _pipeline_ é implantado, é possível ver o status da implantação em tempo real. Com as seguintes informações: **Erro**, **Iniciando,** **Implantado** e **Removendo.**
 
 <figure><img src="../.gitbook/assets/Run_status_.jpg" alt=""><figcaption></figcaption></figure>
 
