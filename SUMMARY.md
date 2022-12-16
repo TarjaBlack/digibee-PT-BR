@@ -82,7 +82,7 @@
   * [Nova tela de login](administration/autenticacao-e-autorizacao-de-usuarios/nova-tela-de-login.md)
   * [Visualização da classificação de acesso na página de usuários](administration/autenticacao-e-autorizacao-de-usuarios/visualizacao-da-classificacao-de-acesso-na-pagina-de-usuarios.md)
 * [Novo Controle de Acesso](administration/novo-controle-de-acesso/README.md)
-  * [Conceitos básicos sobre Usuários](administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios.md)
+  * [Conceitos básicos sobre usuários](administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios.md)
   * [Grupos do Controle de Acesso](administration/novo-controle-de-acesso/grupos-do-controle-de-acesso.md)
   * [Papéis do Controle de Acesso](administration/novo-controle-de-acesso/papeis-do-controle-de-acesso.md)
   * [Papéis de sistema e grupos padrão](administration/novo-controle-de-acesso/papeis-de-sistema-e-grupos-padrao.md)
