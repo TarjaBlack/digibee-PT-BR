@@ -30,6 +30,10 @@ Nas versões:
 * Azure SQL Data Warehouse or Parallel Data Warehouse
 * Azure SQL Managed Instance (Extended Private Preview)
 
+{% hint style="info" %}
+**IMPORTANTE:** embora a conexão através da versão 2019 do Microsoft SQL Server seja suportada, nem todas as funcionalidades desta versão poderão estar disponíveis.
+{% endhint %}
+
 **String de Conexão**
 
 ```
