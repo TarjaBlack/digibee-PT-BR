@@ -27,7 +27,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Save As Local File:** quando ativada, a opção salva o retorno como um arquivo no diretório local do _pipeline_.
 * **Response File Name:** nome do arquivo ou caminho completo do arquivo (ex.: tmp/processed/file.txt). _Double Braces_ são suportados.
 * **Allow Insecure Endpoints:** quando ativada, a opção permite que chamadas a _endpoints_ HTTPS não seguros sejam realizadas.
-* **Enable Retries:** quanto ativada, a opção permite que sejam feitas novas tentativas.
+* **Enable Retries:** quanto ativada, a opção permite que sejam feitas novas tentativas. É importante destacar que a opção de _Retry_ é acionada apenas para casos de _Server Error_. Em outros casos, o componente _**Retry**_ deve ser utilizado. Saiba mais sobre este componente lendo o [artigo](https://docs.digibee.com/documentation/v/pt-br/components/logic/retry).
 * **Number Of Retries:** número máximo de tentativas antes de desistir da chamada.
 * **Time To Wait Between Retries:** tempo máximo entre tentativas (em milissegundos).
 * **Compress Body With GZIP:** quanto ativada, a opção permite que o _body_ seja comprimido com GZIP.
