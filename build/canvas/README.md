@@ -6,13 +6,11 @@ description: >-
 
 # Canvas
 
-O _Canvas_ é o ambiente de construção de _pipelines_ da Digibee Integration Platform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
-
-## Informações iniciais <a href="#h_c2c95ff14a" id="h_c2c95ff14a"></a>
-
-Para criar seu pipeline, acesse a aba Build e clique em **+CRIAR**, selecionando a opção _**Pipeline**_.
+_anvas_ é o ambiente de construção de _pipelines_ da Digibee Integration Platform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
 
 ## Configurações do _pipeline_ <a href="#h_8e2011d038" id="h_8e2011d038"></a>
+
+Para criar seu pipeline, acesse a aba Build e clique em **+CRIAR**, selecionando a opção _**Pipeline**_.
 
 Antes de partir para a construção do fluxo, é preciso configurar o _pipeline_. Para isso, clique na engrenagem (![](https://lh3.googleusercontent.com/PDFbPxPG25G7iTGz\_erHpVfi3DftPBrZ-2LZtRx2weEXKTIaol65mA6UrA19ZkOLuga6I60mf0imvLK8BomnmaHcGQmNw\_7aJRPAMDOtgwMjbHK976caIlTPuxoBIPVDS2xdOLhAHe1URou8TQ)) no canto superior direito do Canvas.
 
@@ -79,12 +77,10 @@ Você pode facilmente navegar pelo pipeline através dos botões **Reorganizar**
 
 O Test mode é uma funcionalidade da Digibee Integration Platform que permite que você execute e teste seu _pipeline_ diretamente da área de desenvolvimento. Utilize o Test mode sempre que quiser avaliar o fluxo de integração, depurar e solucionar problemas. Para saber mais sobre essa funcionalidade, leia o artigo [Test mode](test-mode/).
 
-## Salve o _pipeline_ <a href="#h_aa813df937" id="h_aa813df937"></a>
+### Salve o _pipeline_ <a href="#h_aa813df937" id="h_aa813df937"></a>
 
 Por fim, após construir seu fluxo de integração, clique em **Salvar** no canto superior direito da tela, e defina um nome, uma descrição (opcional) e o projeto no qual o _pipeline_ estará alocado.
 
 ![](../../.gitbook/assets/image3.png)
-
-![](<../../.gitbook/assets/image7 (1).png>)
 
 Caso deseje saber ainda mais sobre _pipelines_, leia o artigo [Pipeline](../pipelines/).
