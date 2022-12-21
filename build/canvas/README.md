@@ -77,7 +77,7 @@ Você pode facilmente navegar pelo pipeline através dos botões **Reorganizar**
 
 O Test mode é uma funcionalidade da Digibee Integration Platform que permite que você execute e teste seu _pipeline_ diretamente da área de desenvolvimento. Utilize o Test mode sempre que quiser avaliar o fluxo de integração, depurar e solucionar problemas. Para saber mais sobre essa funcionalidade, leia o artigo [Test mode](test-mode/).
 
-### Salve o _pipeline_ <a href="#h_aa813df937" id="h_aa813df937"></a>
+## Salve o _pipeline_ <a href="#h_aa813df937" id="h_aa813df937"></a>
 
 Por fim, após construir seu fluxo de integração, clique em **Salvar** no canto superior direito da tela, e defina um nome, uma descrição (opcional) e o projeto no qual o _pipeline_ estará alocado.
 
