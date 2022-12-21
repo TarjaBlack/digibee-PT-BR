@@ -84,10 +84,6 @@ Para configurar o componente a ser utilizado, clique no ícone de engrenagem (![
 
 Para saber mais a respeito de cada componente disponível em nossa lista, acesse a nossa [documentação de componentes](broken-reference).
 
-### Navegação em um _pipeline_ <a href="#h_497047ccf4" id="h_497047ccf4"></a>
-
-Além das funcionalidades apresentadas neste artigo, o Novo Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. Para saber mais, leia o artigo [Navegação em um _pipeline_](navegacao-em-um-pipeline-beta-restrito.md).
-
 ### Validação de construção do _pipeline_ <a href="#h_3e6ea3319e" id="h_3e6ea3319e"></a>
 
 O Novo _Canvas_ exibe alertas durante a construção de _pipelines_. Esses alertas __ ajudam os desenvolvedores a identificarem e corrigirem problemas comuns mais rapidamente. Para saber mais, leia o artigo [Validação de construção do _pipeline_](pipelines/validacao-de-construcao-do-pipeline.md).
@@ -105,6 +101,10 @@ Por fim, após construir seu fluxo de integração, clique em **SALVAR** no cant
 {% hint style="info" %}
 **Nota:** Caso seu _pipeline_ esteja apresentando alertas do tipo Erro, o botão **SALVAR** estará bloqueado, impedindo que você o salve.
 {% endhint %}
+
+### Navegação em um _pipeline_ <a href="#h_497047ccf4" id="h_497047ccf4"></a>
+
+Além das funcionalidades apresentadas neste artigo, o Novo Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. Para saber mais, leia o artigo [Navegação em um _pipeline_](navegacao-em-um-pipeline-beta-restrito.md).
 
 ## Informações adicionais <a href="#h_e33627e7c3" id="h_e33627e7c3"></a>
 

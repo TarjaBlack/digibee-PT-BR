@@ -65,11 +65,9 @@ Para configurar o componente a ser utilizado, clique na engrenagem sobre ele (![
 
 Para saber mais a respeito de cada componente disponível em nossa lista, acesse a nossa [Documentação de componentes](broken-reference/).
 
-### Botões de controle do _Canvas_ <a href="#h_18ac7e89a6" id="h_18ac7e89a6"></a>
+### Navegação em um _pipeline_ <a href="#h_497047ccf4" id="h_497047ccf4"></a>
 
-![](<../../.gitbook/assets/image4 (1).png>)
-
-Você pode facilmente navegar pelo pipeline através dos botões **Reorganizar** (![](https://lh3.googleusercontent.com/J27T\_GWpXoBVLl4TWDx1fp6efXkbGFo9wgmIDTc6Efa1J9mF1c7GU-Shbrpm039UvBZoDqGsQZ58Yja7v3Jvy\_rrBMW\_d3fOtdFMtc7o2B6EpxCz8RlLTd7bZl-GgMXdaAQ-2wuKwHRXxN7txw)), **Ampliar zoom** (![](https://lh6.googleusercontent.com/2qvd6tDFPXxQQEw7JOdrf6z18Aa\_TBZDVXwI5hOyISuAb7dnn\_-CR4oQ7CG0\_Q4UDmza3dRguNiat4etM6U5FOa2Ed0xhJquz4cxE7Drgmlu8rFPJkA39ffwODdbf2baOFfypbQRsFp5fA7Aiw)) e **Reduzir zoom** (![](https://lh5.googleusercontent.com/g\_yrggzADfZNnyO-S1rL53A6whsgcX2XB9oSwGcc5Xd8rIx-qS8yWSpVKHcYnCk3w77cgHkXhVdLKAESPfgL8JkjBSL3n8Sxjj0pJVfCEJs0HSgUl9UimJtyt5plrt4Bf9DWupCVOYOay7Ljag)). O primeiro é utilizado para reorganizar os componentes utilizados de forma que facilite a visualização de cada etapa do fluxo; os outros dois são utilizados para controlar o zoom do _Canvas_.
+Além das funcionalidades apresentadas neste artigo, o Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. Para saber mais, leia o artigo [Navegação em um _pipeline_](../navegacao-em-um-pipeline-beta-restrito.md).
 
 ### Test mode <a href="#h_ae41fc1aa6" id="h_ae41fc1aa6"></a>
 
