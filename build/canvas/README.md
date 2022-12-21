@@ -14,8 +14,6 @@ Para criar seu pipeline, acesse a aba Build e clique em **+CRIAR**, selecionando
 
 Antes de partir para a construção do fluxo, é preciso configurar o _pipeline_. Para isso, clique na engrenagem (![](https://lh3.googleusercontent.com/PDFbPxPG25G7iTGz\_erHpVfi3DftPBrZ-2LZtRx2weEXKTIaol65mA6UrA19ZkOLuga6I60mf0imvLK8BomnmaHcGQmNw\_7aJRPAMDOtgwMjbHK976caIlTPuxoBIPVDS2xdOLhAHe1URou8TQ)) no canto superior direito do Canvas.
 
-![](<../../.gitbook/assets/01 (2).png>)
-
 Na página de configurações do _pipeline_, se necessário, configure os seguintes campos:
 
 ![](../../.gitbook/assets/image12.png)
