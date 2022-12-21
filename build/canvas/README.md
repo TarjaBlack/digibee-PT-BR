@@ -67,7 +67,7 @@ Para saber mais a respeito de cada componente disponível em nossa lista, acesse
 
 ### Navegação em um _pipeline_ <a href="#h_497047ccf4" id="h_497047ccf4"></a>
 
-Além das funcionalidades apresentadas neste artigo, o Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. Para saber mais, leia o artigo [Navegação em um _pipeline_](../navegacao-em-um-pipeline-beta-restrito.md).
+Além das funcionalidades apresentadas neste artigo, o Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. Para saber mais, leia o artigo [Navegação em um _pipeline_](../pipelines/navegacao-em-um-pipeline-beta-restrito.md).
 
 ### Test mode <a href="#h_ae41fc1aa6" id="h_ae41fc1aa6"></a>
 
