@@ -1,7 +1,7 @@
 ---
 description: >-
   Saiba mais sobre o ambiente de construção de pipelines da Digibee Integration
-  Platform
+  Platform.
 ---
 
 # Canvas
