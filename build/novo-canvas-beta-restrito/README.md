@@ -18,7 +18,7 @@ O Novo Canvas traz melhorias relacionadas à experiência de navegação e const
 **Nota:** Ambas as versões do Canvas estarão ativas e coexistirão por tempo indeterminado, com suporte disponível para as duas versões.
 {% endhint %}
 
-### Informações iniciais
+## Como utilizar o Novo Canvas
 
 Para utilizar o Novo Canvas, acesse a aba **Build** e clique em **USAR NOVO CANVAS**.
 
@@ -38,11 +38,9 @@ A tag **Novo Canvas** estará destacada em azul no cabeçalho:
 
 <figure><img src="../../.gitbook/assets/image13.png" alt=""><figcaption></figcaption></figure>
 
-### Configurações do _pipeline_
+## Configurações do _pipeline_
 
 Antes de partir para a construção do fluxo, é preciso configurar o _pipeline_. Para isso, clique na engrenagem (![](../../.gitbook/assets/image16.png)) no canto superior direito do Canvas.
-
-<figure><img src="../../.gitbook/assets/image15.png" alt=""><figcaption></figcaption></figure>
 
 Na página de configurações do _pipeline_, se necessário, configure os seguintes campos:
 
@@ -56,7 +54,7 @@ Na página de configurações do _pipeline_, se necessário, configure os seguin
 
 Após configurar o _pipeline_, você poderá partir para a construção do fluxo.
 
-### Crie um fluxo
+## Crie um fluxo
 
 Todo _pipeline_ é composto por um _trigger_ e por pelo menos um componente, que devem ser conectados entre si para que possam estabelecer um fluxo de integração. No Novo Canvas você consegue organizar e configurar o _trigger_ e os componentes do seu _pipeline_ de acordo com a sua necessidade de negócio.
 
@@ -100,8 +98,6 @@ Por fim, após construir seu fluxo de integração, clique em **SALVAR** no cant
 
 <figure><img src="../../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image7 (3).png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 **Nota:** Caso seu _pipeline_ esteja apresentando alertas do tipo Erro, o botão **SALVAR** estará bloqueado, impedindo que você o salve.
 {% endhint %}
@@ -110,7 +106,7 @@ Por fim, após construir seu fluxo de integração, clique em **SALVAR** no cant
 
 Além das funcionalidades apresentadas neste artigo, o Novo Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. Para saber mais, leia o artigo [Navegação em um _pipeline_](navegacao-em-um-pipeline-beta-restrito.md).
 
-### Informações adicionais <a href="#h_e33627e7c3" id="h_e33627e7c3"></a>
+## Informações adicionais <a href="#h_e33627e7c3" id="h_e33627e7c3"></a>
 
 Durante a coexistência das duas versões do Canvas, você pode transportar seu _pipeline_ para o Canvas antigo. Para isso, abra seu _pipeline_ no Novo Canvas, clique no menu de ajuda e, em seguida, na opção **Suporte ao novo Canvas**.
 

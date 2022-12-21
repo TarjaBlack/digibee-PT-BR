@@ -6,7 +6,7 @@ description: >-
 
 # Canvas
 
-_anvas_ é o ambiente de construção de _pipelines_ da Digibee Integration Platform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
+_Canvas_ é o ambiente de construção de _pipelines_ da Digibee Integration Platform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
 
 ## Configurações do _pipeline_ <a href="#h_8e2011d038" id="h_8e2011d038"></a>
 
