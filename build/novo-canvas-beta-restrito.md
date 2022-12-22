@@ -10,7 +10,7 @@ description: >-
 **IMPORTANTE:** a nova versão do Canvas está em Beta restrito. Para saber mais, leia o artigo [Programa Beta](../geral/programa-beta.md).
 {% endhint %}
 
-O Canvas é o ambiente de construção de _pipelines_ da Plataforma Digibee. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
+O Canvas é o ambiente de construção de _pipelines_ da Digibee Integration Platform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
 
 O Novo Canvas traz melhorias relacionadas à experiência de navegação e construção de _pipelines_ se comparado ao antigo Canvas.
 
