@@ -30,7 +30,7 @@ Após configurar o _pipeline_, você poderá partir para a construção do fluxo
 
 Todo _pipeline_ é composto por um _trigger_ e por pelo menos um componente, que devem ser conectados entre si para que possam estabelecer um fluxo de integração. No _Canvas_ você consegue organizar e configurar o _trigger_ e os componentes do seu _pipeline_ de acordo com a sua necessidade de negócio.
 
-### Trigger <a href="#h_080f25dba4" id="h_080f25dba4"></a>
+#### Trigger <a href="#h_080f25dba4" id="h_080f25dba4"></a>
 
 O primeiro passo para criar um fluxo é escolher um _trigger_. O _trigger_ é o elemento que define como a execução do _pipeline_ será iniciada - através de uma chamada externa, em resposta a um evento ou via agendamento, por exemplo. Atualmente, estão disponíveis diferentes tipos de _trigger_, são eles:
 
