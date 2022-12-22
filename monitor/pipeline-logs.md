@@ -2,11 +2,11 @@
 description: Visualize logs de execução
 ---
 
-# Pipeline Logs
+# Pipeline logs
 
 Na aba Pipeline Logs,você pode acompanhar os _logs_ de eventos que são registrados durante a execução de um _pipeline_.
 
-## Seleção de Ambiente <a href="#h_26d49df614" id="h_26d49df614"></a>
+## Seleção de ambiente <a href="#h_26d49df614" id="h_26d49df614"></a>
 
 Você pode selecionar o ambiente desejado no canto superior esquerdo. O histórico de _logs_ expira após 3 dias no ambiente de teste e após 10 dias no ambiente de produção (prod).
 
@@ -14,7 +14,7 @@ Quando você seleciona um ambiente, a página inteira atualiza e mostra os dados
 
 ![](<../.gitbook/assets/seletordeambiente (2) (1).png>)
 
-## Campos de Busca <a href="#h_00048f8780" id="h_00048f8780"></a>
+## Campos de busca <a href="#h_00048f8780" id="h_00048f8780"></a>
 
 Você pode filtrar os _logs_ de _pipeline_ utilizando os seguintes parâmetros:
 

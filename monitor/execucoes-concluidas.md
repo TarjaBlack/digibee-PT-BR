@@ -2,17 +2,17 @@
 description: Acompanhe as métricas de pipelines e monitore as integrações implantadas.
 ---
 
-# Execuções Concluídas
+# Execuções concluídas
 
 Na aba de execuções concluídas, você pode acompanhar as execuções dos pipelines e de seu histórico de logs, assim como reexecutá-los.
 
-## Seleção de Ambiente&#x20;
+## Seleção de ambiente&#x20;
 
 Você pode selecionar o ambiente desejado no canto superior esquerdo. Quando você seleciona um ambiente, a página inteira é atualizada para mostrar os dados relativos aos pipelines naquele ambiente.
 
 ![](<../.gitbook/assets/seletordeambiente (2) (1).png>)
 
-## **Campos de Busca**
+## **Campos de busca**
 
 Você pode filtrar execuções de pipelines utilizando os seguintes parâmetros:
 
@@ -35,7 +35,7 @@ Você pode clicar no ícone de lupa para ver os detalhes da execução ou no íc
 
 Para que o pipeline seja reexecutado manualmente, seu trigger deve possuir a opção “Allow Redelivery of messages” ativada. É importante notar que você deve re-executar um pipeline manualmente somente quando estiver buscando solucionar um problema, nunca como parte de seu processo de integração.
 
-## Detalhes da Execução
+## Detalhes da execução
 
 No modal de Detalhes da Execução, você pode ver o:
 

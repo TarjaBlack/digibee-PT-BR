@@ -1,6 +1,6 @@
 # Visão geral
 
-Na página de **Visão Geral**, você pode monitorar os pipelines criados. Por enquanto, essa página exibe dados acerca dos 10 pipelines mais executados.
+Na página de **Visão geral**, você pode monitorar os pipelines criados. Por enquanto, essa página exibe dados acerca dos 10 pipelines mais executados.
 
 No canto superior esquerdo da página, você pode selecionar o ambiente desejado: **test** ou **prod**.
 

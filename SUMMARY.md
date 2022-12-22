@@ -70,9 +70,9 @@
 ## Monitor
 
 * [Visão geral](monitor/dashboards.md)
-* [Execuções Concluídas](monitor/execucoes-concluidas.md)
-* [Pipeline Logs](monitor/pipeline-logs.md)
-* [Pipeline Metrics](monitor/pipeline-metrics.md)
+* [Execuções concluídas](monitor/execucoes-concluidas.md)
+* [Pipeline logs](monitor/pipeline-logs.md)
+* [Pipeline metrics](monitor/pipeline-metrics.md)
 
 ## Administração <a href="#administration" id="administration"></a>
 
