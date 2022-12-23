@@ -4,7 +4,7 @@ description: Entenda os conceitos relacionados a Run.
 
 # Conceitos de Run
 
-### **O que é “implantação”?** <a href="#h_cd9a478525" id="h_cd9a478525"></a>
+## **O que é “implantação”?** <a href="#h_cd9a478525" id="h_cd9a478525"></a>
 
 Implantação (_deployment_) é o processo de disponibilização dos _pipelines_ que já possuem _triggers_ configurados.
 
@@ -16,7 +16,7 @@ O fluxo de trabalho dentro da _Digibee Integration Platform_ é composto por tr�
 
 * **Build**
 
-Fase na qual os [_pipelines_](https://docs.digibee.com/documentation/v/pt-br/build/pipelines) são construídos.
+[Fase na qual os _pipelines_ são construídos.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines)
 
 _Pipelines_ são constituídos por **componentes**, os quais são organizados em uma estrutura lógica, sequencial ou paralela para que se possa realizar uma integração (ex: transformar dados e enviar ao ERP, API ou DB).
 
@@ -36,27 +36,13 @@ Dessa maneira, os dados sobre o comportamento dos seus _pipelines_ estarão disp
 
 Isso permite saber, por exemplo, a quantidade de solicitações executadas com sucesso ou com falha, o tempo de resposta e os logs.
 
-### Conceitos de Run <a href="#h_f2ce24e96f" id="h_f2ce24e96f"></a>
+## Conceitos de Run <a href="#h_f2ce24e96f" id="h_f2ce24e96f"></a>
 
 Entenda melhor detalhes sobre os conceitos principais de Run.
 
 A implantação abrange três partes. Saiba quais são elas:
 
-* **Réplicas**
-
-A função das réplicas é determinar a quantidade de réplicas que serão disponibilizadas para atender às suas integrações com alta disponibilidade. Isto garante autonomia, quantidade de execuções simultâneas e redundância .
-
-<figure><img src="../.gitbook/assets/Réplicas - port.jpg" alt=""><figcaption></figcaption></figure>
-
-* **Consumer**
-
-_Consumer_ (ou consumidor) contempla o conceito de execuções simultâneas que cada réplica implantada suporta.
-
-A quantidade máxima de _consumers_ é definida com base em três faixas de tamanho de implantação.
-
-<figure><img src="../.gitbook/assets/Execucoes simul.jpg" alt=""><figcaption></figcaption></figure>
-
-* **Tamanho**
+### **Tamanho**
 
 O tamanho da implantação está diretamente relacionado ao poder de processamento e memória de cada uma das réplicas.
 
@@ -70,7 +56,21 @@ As três faixas de tamanho de implantação são:
 
 Por exemplo, se você configurar 10 _consumers_ (SMALL) para a execução do seu _pipeline_, isso significa que 10 mensagens poderão ser processadas simultaneamente.
 
-* **Ambiente**
+### **Réplicas**
+
+A função das réplicas é determinar a quantidade de réplicas que serão disponibilizadas para atender às suas integrações com alta disponibilidade. Isto garante autonomia, quantidade de execuções simultâneas e redundância .
+
+<figure><img src="../.gitbook/assets/Réplicas - port.jpg" alt=""><figcaption></figcaption></figure>
+
+### Execuções simultâneas
+
+_Consumer_ (ou consumidor) contempla o conceito de execuções simultâneas que cada réplica implantada suporta.
+
+A quantidade máxima de _consumers_ é definida com base em três faixas de tamanho de implantação.
+
+<figure><img src="../.gitbook/assets/Execucoes simul.jpg" alt=""><figcaption></figcaption></figure>
+
+### **Ambiente**
 
 Os ambientes de execução dos _pipelines_ podem ser teste (_test_) e produção (_prod_):
 
