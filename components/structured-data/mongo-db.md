@@ -16,10 +16,14 @@ O **Mongo DB** realiza operações em uma conexão de _database_ Mongo, retornan
 Dê uma olhada nos parâmetros de configuração do componente:
 
 * **Account:** conta a ser utilizada pelo componente.
-* **Operation:** operação a ser executada (FIND, AGGREGATE, DELETE ONE, DELETE MANY, INSERT ONE, INSERT MANY, UPDATE ONE, UPDATE MANY e REPLACE ONE).
+* **Use SSL/TLS to connect:** quando ativada, uma conexão com criptografia SSL/TLS será utilizada.
+* **Custom SSL/TLS certificate:** define o certificado customizado que pode ser usado para a conexão com SSL/TLS. Este campo suporta expressões _Double Braces._
+* **Allow invalid hostnames:** quando ativada, a opção ignora a validação de _hostnames_ em certificados SSL/TLS.
+* **Operation:** operação a ser executada (FIND, AGGREGATE, DELETE ONE, DELETE MANY, INSERT ONE, INSERT MANY, UPDATE ONE, UPDATE MANY, REPLACE ONE, LIST INDEXES, CREATE INDEX e DROP INDEX).
 * **Connection String:** conexão de _string_.
 * **Database Name:** nome da base de dados.
 * **Collection Name:** nome da coleção.
+* **Expire after seconds:** tempo (em segundos) para expiração de documentos que utilizem um índice TTL. Disponível apenas se a operação CREATE INDEX for selecionada.
 * **Query:** especificação Mongo a ser enfileirada. Por exemplo:\
   { \_id: ObjectId( \{{ message.$.id \}} ) }
 * **Limit:** especificação do número máximo de objetos que podem ser retornados.
@@ -416,7 +420,95 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 }
 ```
 
-&#x20; &#x20;
+### Operação LIST INDEXES
+
+**Config**
+
+```
+{
+	"operation": "LIST_INDEXES",
+	"databaseName": "test",
+	"collectionName": "model",
+	"url": "mongodb://localhost:27017",
+	"failOnError": false
+}
+```
+
+**Entrada**
+
+```
+{ }
+```
+
+**Saída**
+
+```
+{
+	"data": [...some data...],
+	"rowCount": 10
+}
+```
+
+### Operação CREATE INDEX
+
+**Config**
+
+```
+{
+	"operation": "CREATE_INDEX",
+	"databaseName": "test",
+	"collectionName": "model",
+	"url": "mongodb://localhost:27017",
+	"expireAfterSeconds": "3600",
+	"query": "{ \"createdAt\": 1 }",
+	"failOnError": false
+}
+```
+
+**Entrada**
+
+```
+{ }
+```
+
+**Saída**
+
+```
+{
+	"data": "createdAt_1",
+	"updateCount": 1
+}
+```
+
+### Operação DROP INDEX
+
+**Config**
+
+```
+{
+	"operation": "DROP_INDEX",
+	"databaseName": "test",
+	"collectionName": "model",
+	"url": "mongodb://localhost:27017",
+	"query": "{ \"createdAt\": 1 }",
+	"failOnError": false
+}
+```
+
+**Entrada**
+
+```
+{ }
+```
+
+**Saída**
+
+```
+{
+	"data": { },
+	"updateCount": 1
+}
+```
 
 \
 O **Mongo DB** suporta _Double Braces_ estáticos nos seguintes parâmetros previamente especificados:
