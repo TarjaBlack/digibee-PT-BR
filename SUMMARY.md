@@ -216,6 +216,7 @@
   * [Stored Procedure](components/structured-data/stored-procedure.md)
   * [Stream DB V3](components/structured-data/stream-db-v3.md)
   * [Stream DB V1 (Descontinuado)](components/structured-data/stream-db-v1.md)
+  * [Big Table Connector](components/structured-data/big-table-connector.md)
 * [Tools](components/tools/README.md)
   * [Assert V2](components/tools/assert-v2.md)
   * [Assert V1 (Descontinuado)](components/tools/assert-v1.md)
