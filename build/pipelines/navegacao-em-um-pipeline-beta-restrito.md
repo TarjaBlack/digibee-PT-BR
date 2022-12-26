@@ -22,7 +22,7 @@ Ao reorganizar, os componentes soltos (não conectados ao fluxo) são ajustados 
 
 No Novo Canvas, você pode navegar pelo _pipeline_ utilizando o minimapa no canto inferior direito da tela.
 
-<figure><img src="../../.gitbook/assets/image2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gravacao-minimap.d6b8a50ec13c1b39b366.gif" alt=""><figcaption></figcaption></figure>
 
 ### Movimentação automática (Beta) <a href="#h_0009c98480" id="h_0009c98480"></a>
 
