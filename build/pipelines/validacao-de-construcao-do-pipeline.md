@@ -1,8 +1,12 @@
 ---
-description: Conheça funcionalidade de validação de construção de pipelines
+description: Saiba mais sobre a funcionalidade de validação de construção de pipelines.
 ---
 
-# Validação de construção do pipeline (Beta restrito)
+# Validação de construção do pipeline (Beta)
+
+{% hint style="danger" %}
+**IMPORTANTE:** esta funcionalidade está em Beta. Para saber mais, leia o artigo [Programa beta](../../geral/programa-beta.md).
+{% endhint %}
 
 O Novo _Canvas_ exibe alertas durante a construção de _pipelines_ que ajudam os desenvolvedores a identificarem e corrigirem problemas comuns mais rapidamente.
 
@@ -123,7 +127,3 @@ A versão do componente que você está tentando utilizar foi descontinuada. Iss
 #### 1. Esta Cápsula não pode ser usada aqui porque ela não existe neste realm (estrutura)
 
 A Cápsula que você está tentando utilizar não existe no _realm_ no qual você está operando. Você precisa apagá-la ou substituí-la por outro conector, fluxo ou uma Cápsula existente neste _realm_.
-
-
-
-**IMPORTANTE:** esta funcionalidade está em Beta restrito. Para saber mais, leia o artigo [Programa Beta](../../geral/programa-beta.md).
