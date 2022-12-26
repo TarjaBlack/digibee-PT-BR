@@ -29,7 +29,7 @@ jdbc:teradata://192.168.64.2/DATABASE=DBC,DBS_PORT=1025
 ```
 
 {% hint style="info" %}
-**IMPORTANTE:** embora a conexão através das versões citadas acima seja suportada, é necessária a ativação do _driver_ licenciado pela sua empresa junto à Teradata. Este procedimento será feito por meio do suporte da Digibee, onde será necessário que o cliente forneça o _driver_ jdbc Teradata a ser utilizado na operação exclusivamente em seu _realm_.
+**IMPORTANTE:** embora a conexão através das versões citadas acima seja suportada, é necessária a ativação do _driver_ licenciado pela sua empresa junto à Teradata. Este procedimento será feito por meio do suporte da Digibee, onde será necessário que o cliente forneça o _driver_ JDBC Teradata a ser utilizado na operação exclusivamente em seu _realm_.
 {% endhint %}
 
 ## SQL Server <a href="#sql-server" id="sql-server"></a>
