@@ -119,7 +119,7 @@
 * [Certificações em Andamento](geral/certificacoes-em-andamento.md)
 * [Modelo baseado em subscription](geral/modelo-baseado-em-subscription.md)
 * [Limites de uso](geral/limites-de-uso.md)
-* [Meu Consumo](geral/meu-consumo.md)
+* [Meu consumo](geral/meu-consumo.md)
 * [Developer Bootcamp](geral/developer-bootcamp.md)
 
 ## Components
