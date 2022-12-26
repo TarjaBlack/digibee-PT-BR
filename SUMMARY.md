@@ -32,6 +32,7 @@
   * [Validação de construção do pipeline (Beta restrito)](build/pipelines/validacao-de-construcao-do-pipeline.md)
   * [Navegação em um pipeline](build/pipelines/navegacao-em-um-pipeline-beta-restrito.md)
   * [Histórico de versões de pipelines](build/pipelines/historico-de-versoes-de-pipelines.md)
+  * [Versionamento de pipelines](build/pipelines/versionamento-de-pipelines.md)
   * [Processamento de mensagens](build/pipelines/processamento-de-mensagens.md)
 * [Cápsulas](build/capsulas/README.md)
   * [Criação de Coleções de Cápsulas](build/capsulas/criacao-de-colecoes-de-capsulas.md)
