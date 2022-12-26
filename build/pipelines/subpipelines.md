@@ -54,11 +54,11 @@ O atributo _**Fail On Error**_ indica que a execução do fluxo do _pipeline_ se
 
 Este _subpipeline_ implementa o fluxo que trata uma exceção na execução do _subpipeline **onProcess**_. Ele tem seu próprio Canvas, que pode ser acessado pelo menu do componente:
 
-<figure><img src="../../.gitbook/assets/image1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image1 (5).png" alt=""><figcaption></figcaption></figure>
 
 Quando o _**onException**_ é executado no processo “Validação de Dados de Cliente”, uma chamada é feita a um _endpoint_ REST, registrando o incidente e gerando uma mensagem de erro na página [Pipeline Logs](../../monitor/pipeline-logs.md).
 
-<figure><img src="../../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image2 (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Nota:** A utilização do _**onException**_ é opcional, no entanto, é uma prática fortemente recomendada. Diversos componentes da Digibee Integration Platform suportam o atributo _**Fail On Error**_ e permitem que estratégias de tratamento de erro e recuperação sejam implementadas através do _**onException**_, tornando o _pipeline_ muito mais robusto e resiliente.
