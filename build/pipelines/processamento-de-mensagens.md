@@ -16,7 +16,7 @@ Essas mensagens estão sempre no formato JSON.
 
 ### Exemplo
 
-Um _pipeline_ é construído utilizando um _trigger_ REST, que é chamado e fornece o parâmetro recebido (`"type": "revenue"`) para o componente seguinte - um Object Store denominado **Delete all**. Um por um, cada componente finaliza a sua execução e aciona o próximo, fornecendo a mensagem resultante do seu processamento.
+Um _pipeline_ é construído utilizando um _trigger_ REST, que é chamado e fornece o parâmetro recebido (`"type": "revenue"`) para o componente seguinte - um Object Store denominado **Deletar tudo**. Um por um, cada componente finaliza a sua execução e aciona o próximo, fornecendo a mensagem resultante do seu processamento.
 
 <figure><img src="../../.gitbook/assets/cr5fFTdAXC.png" alt=""><figcaption></figcaption></figure>
 
