@@ -5,7 +5,7 @@ description: Conheça as funcionalidades que facilitam a navegação em um pipel
 # Navegação em um pipeline
 
 {% hint style="warning" %}
-**IMPORTANTE:** parte das funcionalidades apresentadas neste artigo estão em Beta. Para saber mais, leia o artigo [Programa Beta](../../geral/programa-beta.md).
+**IMPORTANTE:** parte das funcionalidades apresentadas neste artigo estão em Beta. Para saber mais, leia o artigo [Programa beta](../../geral/programa-beta.md).
 {% endhint %}
 
 O Novo Canvas contém funcionalidades que melhoram a experiência de navegação em um _pipeline_, facilitando e agilizando a construção de fluxos de integração.
