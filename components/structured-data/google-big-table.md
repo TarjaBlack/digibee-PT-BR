@@ -2,9 +2,9 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# Big Table Connector
+# Google Big Table
 
-O _**Big Table**_ estabelece uma conexão com o serviço Google BigTable no _pipeline_. Essa funcionalidade permite a execução de diferentes operações usando instâncias de bancos de dados do Google BigTable.
+O _**Google**_ _**Big Table**_ estabelece uma conexão com o serviço Google BigTable no _pipeline_. Essa funcionalidade permite a execução de diferentes operações usando instâncias de bancos de dados do Google BigTable.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
@@ -77,7 +77,7 @@ Ao executar o componente utilizando as operações _Read by rowKey, Read by spec
 * **value:** valor da instância do banco de dados.
 * **success:** _"true"_ se a última operação ocorreu com sucesso.
 
-### Big Table Connector em ação
+### Google Big Table em ação
 
 Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operação nos exemplos a seguir:&#x20;
 
