@@ -15,6 +15,11 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Multiple Sheets:** se “true”, múltiplos arquivos CSV vão resultar em múltiplas planilhas; do contrário, apenas 1 arquivo Excel vai ser criado.
 * **Excel File Name:** nome do arquivo que será salvo - se o campo estiver vazio, será considerada a propriedade "fileName".
 * **Maximum File Size:** tamanho máximo permitido para o arquivo (em _bytes_).
+
+{% hint style="info" %}
+**IMPORTANTE:** Esta configuração é opcional e deve ser usada somente se o usuário desejar mais controle sobre o arquivo gerado. Lembre-se que o arquivo Excel a ser gerado provavelmente será maior do que os dados CSV de entrada.
+{% endhint %}
+
 * **Charset:** codificação do nome para a leitura do arquivo - veja mais sobre _**java.nio.charset.Charset**_.
 * **CSV File Name:** nome do arquivo ou caminho completo do arquivo (ex.: tmp/processed/file.txt) - expressões em _Double Braces_ são suportadas.
 * **Sheet Name:** nome da planilha de Excel - se o campo estiver vazio, a planilha será salva como "Sheet1".
