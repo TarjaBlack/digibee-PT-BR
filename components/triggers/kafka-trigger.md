@@ -48,10 +48,8 @@ Nessa opção, o _poll_ vai enviar apenas 1 mensagem e não um _array_ de mensag
 Dê uma olhada nos parâmetros de configuração do _trigger_:
 
 * **Account:** nome da conta que será utilizada.
-* **Truststore:** caso seja necessário informar uma _truststore_ para realizar o SSL Handshake utilizando certificados privados, deve-se criar uma conta do tipo CERTIFICATE-CHAIN e informar os certificados concatenados. No campo “password” é opcional inserir a senha a ser cadastrada na criação da _truststore_.
-* **Keystore:** caso seja necessário informar uma _keystore_ para realizar a autenticação SSL mútua, deve-se criar uma conta do tipo CERTIFICATE-CHAIN, informar a cadeia completa com os certificados concatenados e a chave privada a ser utilizada para a autenticação SSL mútua. Caso exista uma chave privada, é necessário informá-la no campo “password”.
-* **Truststore:** caso seja necessário informar uma _truststore_ para realizar o SSL Handshake usando certificados privados, crie uma conta do tipo CERTIFICATE-CHAIN e informe os certificados concatenados. No campo “password” é opcional inserir a senha a ser cadastrada na criação da _truststore_.
-* **Keystore:** caso seja necessário informar uma _keystore_ para realizar a autenticação SSL mútua, crie uma conta do tipo CERTIFICATE-CHAIN, informe a cadeia completa com os certificados concatenados e a chave privada a ser utilizada para a autenticação SSL mútua. Caso exista uma chave privada, é necessário informá-la no campo “password”.
+* **Truststore:** caso seja necessário informar uma _truststore_ para realizar o SSL Handshake usando certificados privados, crie uma conta do tipo _CERTIFICATE-CHAIN_ e informe os certificados concatenados. No campo _“password”_ é opcional inserir a senha a ser cadastrada na criação da _truststore_.
+* **Keystore:** caso seja necessário informar uma _keystore_ para realizar a autenticação SSL mútua, crie uma conta do tipo _CERTIFICATE-CHAIN_, informe a cadeia completa com os certificados concatenados e a chave privada a ser utilizada para a autenticação SSL mútua. Caso exista uma chave privada, é necessário informá-la no campo _“password”_.
 * **Brokers:** _brokers_ do servidor (HOST: PORT) usados para o envio de registros. Para informar múltiplos HOSTS, você pode separá-los por vírgula. Exemplo: HOST1:PORT1,HOST2:PORT2,...,HOSTn:PORTn
 * **Topic:** nome do tópico que recupera os registros.
 * **Protocol:** protocolo utilizado para se comunicar com os _brokers_.
