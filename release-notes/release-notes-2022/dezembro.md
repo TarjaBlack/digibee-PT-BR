@@ -1,5 +1,89 @@
 # Dezembro
 
+## Novidades 27/12/2022
+
+### NOVO CANVAS (BETA)
+
+Lançamos o novo Canvas em beta, com melhorias significativas relacionadas à experiência de construção e navegação de _pipelines_, além dos seguintes recursos e funcionalidades:
+
+* _**Flow tree**_, estrutura em forma de árvore que exibe os componentes de um _pipeline_, simplificando a navegação entre subníveis e o entendimento da lógica aplicada no fluxo de integração;
+* **Campo de pesquisa**, que permite ao usuário buscar contas, _globals_ e componentes de maneira fácil e rápida;
+* **Alertas de validação** durante a construção de um pipeline, que ajudam a identificar e corrigir problemas comuns mais rápido. Para saber mais, leia a documentação de [Validação de construção de pipeline](../../build/pipelines/validacao-de-construcao-do-pipeline.md);
+* **Minimapa**, que agiliza a navegação e a leitura durante a construção de um _pipeline_;
+* **Maior precisão** ao colar um componente ou fluxo em uma área específica do novo Canvas;
+* **Seta magnética**, que facilita a conexão entre os componentes;
+* _**Auto pan**_, que facilita a navegação ao arrastar componentes em _pipelines_ muito grandes.
+
+[![](https://downloads.intercomcdn.com/i/o/641671033/34f764b750b3526d86061719/novo+canvas+gif.gif)](https://downloads.intercomcdn.com/i/o/641671033/34f764b750b3526d86061719/novo+canvas+gif.gif)
+
+Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/novo-canvas-beta-restrito.md) e [Navegação em um pipeline](../../build/pipelines/navegacao-em-um-pipeline-beta-restrito.md).
+
+**IMPORTANTE:** ao utilizar o novo Canvas, você automaticamente faz sua adesão ao programa Beta e concorda com os termos de uso. Para mais informações sobre versões beta, leia a documentação [Programa beta](../../geral/programa-beta.md).
+
+## &#x20; 
+
+### COMPONENTES
+
+* **SAP:** evoluímos o [componente SAP](../../build/capsulas/capsulas-publicas/sap.md) que agora conta com dois novos parâmetros (_Send as File_ e _File Name_). Assim, o componente pode fazer requisições para o SAP utilizando um arquivo, sendo útil para envio de conteúdos muito grandes, o que antes não era possível.
+* **Google Big Table:** criamos o [componente BigTable](../../components/structured-data/google-big-table.md), que estabelece uma conexão e permite realizar operações em instâncias de bancos de dados no serviço Google BigTable.
+* **DB V2 suporte TeraData:** atualizamos nossos bancos de dados suportados para incluir o [TeraData Database](../../plataforma/bancos-de-dados-suportados.md#teradata-database). É necessário que o cliente entre em contato com o time de suporte Digibee e providencie a ativação do _driver_ JDBC licenciado junto a TeraData.
+* **MongoDB:** fizemos uma melhoria de funções para o [componente MongoDB.](../../components/structured-data/mongo-db.md) Agora, contamos com suporte ao protocolo de segurança TLS para estabelecer conexões e operações para manipulação de índices.
+* **CassandraDB:** fizemos uma melhoria no [componente Cassandra](../../components/structured-data/cassandra-db.md) e agora, a paginação de resultados com uma grande quantidade de registros é feita automaticamente, consolidando o resultado na saída como uma consulta atômica. Essa melhoria dispensa a necessidade de outras configurações ou ações para obter esses resultados.
+
+### &#x20; MEU CONSUMO
+
+Além de poder visualizar o consumo de [_Pipeline Subscriptions_](../../geral/modelo-baseado-em-subscription.md) __ e[ _RTUs_](../../geral/limites-de-uso.md) no geral, agora também é possível ver em qual ambiente e projeto eles estão sendo consumidos através da página Meu consumo. A nova página reúne as seguintes funcionalidades:
+
+* **Painel de consumo:** visualize a quantidade de _Pipeline Subscriptions_ e _RTUs_ consumidas em cada ambiente.
+* **Lista de consumo:** confira uma lista detalhada de cada item de consumo — projeto, ambiente, _pipeline_, _trigger_, tamanho da implantação, _RTUs_ e réplicas. Você também pode exportar esses dados para um arquivo CSV.
+* **Lista de contato:** acesse facilmente os nomes e endereços de e-mail das pessoas que ajudam em sua jornada com a _Digibee Integration Platform_.
+
+**IMPORTANTE:** no momento, a página Meu consumo está em Beta restrito, mas em breve, estará disponível para todos os clientes. Se quiser fazer parte do [Programa beta restrito](../../geral/programa-beta.md#h\_d59e60e1bd), fale com o seu _Customer Success Manager_ (CSM).
+
+### &#x20;  RUN
+
+* _**Auto refresh**_**:** nós atualizamos o _layout_ do intervalo de _auto refresh_, facilitando sua visualização, deixando de uma forma mais dinâmica.
+* **Informação de projeto e instâncias:** agora, ao selecionar o _pipeline_ para implantar ou reimplantar, são exibidas as informações do projeto e da instância (que pertence ao _pipeline_ que será implantado, ou reimplantado), facilitando o rastreamento de implantações.
+* **Redirecionamento para o projeto do **_**pipeline**_** implantado:** agora, depois de implantar seu _pipeline_, você será redirecionado para a tela de origem do projeto do _pipeline_, para poder acompanhar suas implantações com mais facilidade.
+* **Aviso de conflito de rotas:** atualizamos o aviso de conflito de rotas, que agora informa qual pipeline e versão estão utilizando a rota selecionada no _Additional API Routes_. Desse modo, informamos e impedimos que existam rotas iguais em _pipelines_ diferentes que possam sobrepor uma à outra.
+
+### &#x20;  DESBLOQUEIO DE LOGIN
+
+Usuários que tiveram o login bloqueado agora podem desbloqueá-lo sem acionar o time de suporte. Após o bloqueio do login, um código é enviado automaticamente para o e-mail do usuário. Este código deve ser usado na página de desbloqueio para que o usuário consiga fazer login.
+
+Para saber mais, leia a nossa documentação sobre [Problemas para fazer login na Digibee Integration Platform](https://intercom.help/godigibee/pt-BR/articles/6618894-problemas-para-fazer-o-login-na-digibee-integration-platform).
+
+\
+\
+
+
+### DOCUMENTAÇÃO
+
+Visando melhorar nossa documentação, atualizamos os artigos abaixo:
+
+* [Histórico de versões de pipelines](../../build/pipelines/historico-de-versoes-de-pipelines.md)
+* [Versionamento de pipelines](../../build/pipelines/versionamento-de-pipelines.md)
+* [Processamento de mensagens](../../build/pipelines/processamento-de-mensagens.md)
+* [Grupos do Azure AD não aparecem na federação de grupos](https://intercom.help/godigibee/pt-BR/articles/6852139-grupos-do-azure-ad-nao-aparecem-na-federacao-de-grupos)
+* [Status de implantação do pipeline](../../run/status-de-implantacao-do-pipeline.md)
+* [Reimplantando um pipeline](../../run/reimplantando-um-pipeline.md)
+* [Aviso de conflito de rotas](https://intercom.help/godigibee/pt-BR/articles/6820343-aviso-de-conflito-de-rotas)\
+  \
+  \
+  &#x20;
+
+Nós também solucionamos alguns _bugs_:
+
+* **Contas:** corrigimos o _bug_ que trazia uma página em branco quando o usuário tentava editar _accounts_ do tipo OAuth-2.
+* **Grupos:** corrigimos o _bug_ que impedia o gestor de acessos de remover usuários de grupos a partir da página **Grupos**.
+* **Canvas V1 e novo Canvas:** corrigimos o _bug_ que impedia alguns _pipelines_ de serem salvos enquanto o usuário estivesse navegando pelo fluxo principal.
+* **WebDAV:** corrigimos o _bug_ que causava o comportamento incorreto no componente, obrigando o usuário a informar um arquivo, mesmo numa operação de listagem.
+
+\
+
+
+
+
 ## Novidades 14/12/2022
 
 ### MONITOR
