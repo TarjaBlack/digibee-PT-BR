@@ -46,6 +46,12 @@ O CQL (Cassandra Query Language), como já diz o nome, é a linguagem de consult
 
 ### Operação _SELECT_
 
+{% hint style="info" %}
+**Nota:** Os bancos de dados Cassandra ou Keyspaces da AWS podem retornar automaticamente os resultados de forma paginada caso possuam um número considerável de registros. A Digibee Integration Platform trata essa paginação de forma automática, para que o resultado seja consolidado na mensagem de saída do componente como uma consulta atômica. Isso elimina a necessidade de qualquer configuração ou ações adicionais por parte do usuário para obter esses resultados.
+{% endhint %}
+
+__
+
 ![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.21 (1) (1).png>)
 
 ### **Saída**
