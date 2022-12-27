@@ -14,13 +14,12 @@ Lançamos o novo Canvas em beta, com melhorias significativas relacionadas à ex
 * **Seta magnética**, que facilita a conexão entre os componentes;
 * _**Auto pan**_, que facilita a navegação ao arrastar componentes em _pipelines_ muito grandes.
 
-[![](https://downloads.intercomcdn.com/i/o/641671033/34f764b750b3526d86061719/novo+canvas+gif.gif)](https://downloads.intercomcdn.com/i/o/641671033/34f764b750b3526d86061719/novo+canvas+gif.gif)
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MkqXsI0cPgzRnwxNhnH%2Fuploads%2F0Lqdi02FJ855Y7OYcw45%2Fnovo%20canvas%20gif.gif?alt=media&token=e8899f72-cb69-43e9-956f-3f5e3fce895d" %}
 
 Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/novo-canvas-beta-restrito.md) e [Navegação em um pipeline](../../build/pipelines/navegacao-em-um-pipeline-beta-restrito.md).
 
-**IMPORTANTE:** ao utilizar o novo Canvas, você automaticamente faz sua adesão ao programa Beta e concorda com os termos de uso. Para mais informações sobre versões beta, leia a documentação [Programa beta](../../geral/programa-beta.md).
+**IMPORTANTE:** ao utilizar o novo Canvas, você automaticamente faz sua adesão ao programa Beta e concorda com os termos de uso. Para mais informações sobre versões beta, leia a documentação [Programa beta](../../geral/programa-beta.md).\
 
-## &#x20; 
 
 ### COMPONENTES
 
@@ -40,21 +39,19 @@ Além de poder visualizar o consumo de [_Pipeline Subscriptions_](../../geral/mo
 
 **IMPORTANTE:** no momento, a página Meu consumo está em Beta restrito, mas em breve, estará disponível para todos os clientes. Se quiser fazer parte do [Programa beta restrito](../../geral/programa-beta.md#h\_d59e60e1bd), fale com o seu _Customer Success Manager_ (CSM).
 
-### &#x20;  RUN
+### &#x20; RUN
 
 * _**Auto refresh**_**:** nós atualizamos o _layout_ do intervalo de _auto refresh_, facilitando sua visualização, deixando de uma forma mais dinâmica.
 * **Informação de projeto e instâncias:** agora, ao selecionar o _pipeline_ para implantar ou reimplantar, são exibidas as informações do projeto e da instância (que pertence ao _pipeline_ que será implantado, ou reimplantado), facilitando o rastreamento de implantações.
 * **Redirecionamento para o projeto do **_**pipeline**_** implantado:** agora, depois de implantar seu _pipeline_, você será redirecionado para a tela de origem do projeto do _pipeline_, para poder acompanhar suas implantações com mais facilidade.
 * **Aviso de conflito de rotas:** atualizamos o aviso de conflito de rotas, que agora informa qual pipeline e versão estão utilizando a rota selecionada no _Additional API Routes_. Desse modo, informamos e impedimos que existam rotas iguais em _pipelines_ diferentes que possam sobrepor uma à outra.
 
-### &#x20;  DESBLOQUEIO DE LOGIN
+### &#x20; DESBLOQUEIO DE LOGIN
 
 Usuários que tiveram o login bloqueado agora podem desbloqueá-lo sem acionar o time de suporte. Após o bloqueio do login, um código é enviado automaticamente para o e-mail do usuário. Este código deve ser usado na página de desbloqueio para que o usuário consiga fazer login.
 
 Para saber mais, leia a nossa documentação sobre [Problemas para fazer login na Digibee Integration Platform](https://intercom.help/godigibee/pt-BR/articles/6618894-problemas-para-fazer-o-login-na-digibee-integration-platform).
 
-\
-\
 
 
 ### DOCUMENTAÇÃO
