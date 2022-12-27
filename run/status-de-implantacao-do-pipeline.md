@@ -12,9 +12,11 @@ Com o novo visual do _card_, agora é possível obter informações sobre o _pip
 
 Agora na fase de _Run_, existe uma nova funcionalidade que permite selecionar o tempo em que a página principal de _Run_ seja atualizada.
 
-Existem quatro opções de seleção de tempo: **5 segundos**, **10 segundos**, **30 segundos** e _**OFF**_, caso não queira ver a informação na página.
+<figure><img src="../.gitbook/assets/pagina auto refresh - port.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Atualizacao1.jpg" alt=""><figcaption></figcaption></figure>
+Existem quatro opções de seleção de tempo: **5 segundos**, **10 segundos**, **30 segundos** e _**OFF**_, caso não queira atualizar a informação da página.
+
+<figure><img src="../.gitbook/assets/auto refresh - port.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Informações em tempo real
 

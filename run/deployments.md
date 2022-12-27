@@ -22,17 +22,19 @@ Acesse a tela de _Run_ e clique no botão **+ CRIAR**.
 
 #### Selecionando o _pipeline_, a versão e o tamanho
 
-Selecione um pipeline e sua versão, e em seguida, escolha o tamanho da implantação. Caso seja um _pipeline_ _multi-instance_, selecione uma instância também.&#x20;
+Selecione um pipeline e sua versão. Depois de selecionar o pipeline, são exibidas informações sobre o projeto ao qual ele pertence e a instância, se for um pipeline multi-instância.&#x20;
+
+Em seguida, selecione o tamanho do pipeline desejado. Se for um pipeline de multi-instância, selecione uma instância também.
 
 As opções de configuração serão mostradas como no exemplo abaixo:
 
-![](<../.gitbook/assets/2 - Implantar Pipeline.jpg>)
+<figure><img src="../.gitbook/assets/Pipeline select.jpg" alt=""><figcaption></figcaption></figure>
 
-Caso o _pipeline_ já esteja implantado, uma seção será exibida informando as configurações atuais, e essas serão automaticamente aplicadas à nova implantação.&#x20;
+Caso o _pipeline_ já esteja implantado, uma seção será exibida informando as configurações atuais, e essas serão automaticamente aplicadas à nova implantação. [Para saber mais sobre o status da implantação do pipeline, leia este artigo.](https://docs.digibee.com/documentation/v/pt-br/run/status-de-implantacao-do-pipeline)
 
 Ainda nesta seção, é possível visitar o _pipeline_ atualmente implantado através do _link_ **Abrir o **_**pipeline**_** em uma nova aba**.
 
-![](<../.gitbook/assets/3 - Implatacao Atual Pipeline.jpg>)
+<figure><img src="../.gitbook/assets/Geral info (1).jpg" alt=""><figcaption></figcaption></figure>
 
 #### Selecionando as execuções simultâneas&#x20;
 
@@ -50,11 +52,11 @@ Caso o _pipeline_ já tenha sido implantado anteriormente, uma mensagem irá apa
 
 ### Implantar o _pipeline_ <a href="#h_9069fee6cc" id="h_9069fee6cc"></a>
 
-Clique no botão **IMPLANTAR**. Ao clicar no botão **IMPLANTAR**, um resumo de todas as escolhas feitas será exibido.
+Clique no botão **IMPLANTAR**. Ao clicar no botão **IMPLANTAR**, um resumo de todas as escolhas feitas será exibido. Após clicar em **IMPLANTAR**, a tela será redirecionada para o projeto o qual pertence o _pipeline_, auxiliando a rastrear o _pipeline_.
 
 Para usuários com Modelo Baseado em _Pipeline_ será exibida uma tela com o cálculo das licenças consumidas.
 
-![](<../.gitbook/assets/7 - Botao Implantar.jpg>)
+<figure><img src="../.gitbook/assets/implantação final.jpg" alt=""><figcaption></figcaption></figure>
 
 Para usuários com Modelo Baseado em _Subscription_ será exibida uma tela com o cálculo de RTUs e subscrições.
 

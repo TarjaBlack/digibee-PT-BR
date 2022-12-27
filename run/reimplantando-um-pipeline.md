@@ -20,12 +20,12 @@ Ele é exibido no _card_ do _pipeline_, conforme mostrado abaixo.
 
 ## Operação de reimplantar
 
-Com esta funcionalidade, não é necessário clicar em **CRIAR** e definir todas as informações como antes. Então, ao clicar no botão **Reimplantar**, mostra as informações da implantação existente e todas as informações definidas anteriormente já estão preenchidas.
+Com esta funcionalidade, não é necessário clicar em **CRIAR** e definir todas as informações como antes. Então, ao clicar no botão **Reimplantar**, mostrará as informações da implantação existente, bem como o projeto ao qual o _pipeline_ pertence e a instância, se for um _pipeline_ multi-instância, e todas as informações definidas anteriormente já estão preenchidas.
 
-<figure><img src="../.gitbook/assets/historico.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Projeto - port.jpg" alt=""><figcaption></figcaption></figure>
 
 As únicas alterações que precisam ser feitas são as opções desejadas para reimplantar a versão do _pipeline_ escolhida, como tamanho, execuções simultâneas e réplicas. \
-Uma vez selecionado, basta clicar em **IMPLANTAR** e o _pipeline_ será reimplantado.
+Uma vez selecionado, basta clicar em **IMPLANTAR** e o _pipeline_ será reimplantado. Após essa ação, a tela será redirecionada para o projeto o qual o _pipeline_ pertence.
 
 <figure><img src="../.gitbook/assets/reimplantar.jpg" alt=""><figcaption></figcaption></figure>
 
