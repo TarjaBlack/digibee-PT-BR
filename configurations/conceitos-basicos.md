@@ -8,13 +8,13 @@ A funcionalidade _**Globals**_ foi criada para auxiliar e agilizar a construçã
 
 A manutibilidade também é facilitada, permitindo alterar os parâmetros utilizados por um conjunto de _pipelines_ somente alterando o valor da _global_.
 
-## **Como criar uma \_global**\_ <a href="#h_89a17b068b" id="h_89a17b068b"></a>
+## **Como criar uma global** <a href="#h_89a17b068b" id="h_89a17b068b"></a>
 
 Para criar uma _global,_ siga os seguintes passos:
 
 1. Faça login na Digibee Integration Platform;
-2. Clique no ícone de “Administração”;
-3. Entre na opção de menu “_Globals_”;
+2. Clique no ícone de **Administração**;
+3. Entre na opção de menu **Globals**;
 
 ![](<../.gitbook/assets/01 (17).png>)
 
@@ -39,13 +39,13 @@ Após realizar estes passos, a _global_ será criada com sucesso.
 
 Caso necessite armazenar dados criptografados utilize [**Accounts.**](contas-accounts/)
 
-## **Como editar uma \_global**\_ <a href="#h_e5f70703b2" id="h_e5f70703b2"></a>
+## **Como editar uma global** <a href="#h_e5f70703b2" id="h_e5f70703b2"></a>
 
 Para editar uma _global,_ siga os seguintes passos:
 
 1. Faça login na Digibee Integration Platform;
-2. Clique no ícone de “Administração”;
-3. Entre na opção de menu “_Globals_”;
+2. Clique no ícone de **Administração**;
+3. Entre na opção de menu **Globals**;
 4. Busque a _global_ na barra de pesquisa;
 
 ![](<../.gitbook/assets/03 (1).png>)
@@ -58,18 +58,18 @@ Para editar uma _global,_ siga os seguintes passos:
 
 Após realizar estes passos, a _global_ será editada com sucesso.
 
-## **Como remover uma \_global**\_ <a href="#h_8ef332c3b4" id="h_8ef332c3b4"></a>
+## **Como remover uma global** <a href="#h_8ef332c3b4" id="h_8ef332c3b4"></a>
 
 Para remover uma _global,_ siga os seguintes passos:
 
 1. Faça login na Digibee Integration Platform;
-2. Clique no ícone de “Administração”;
-3. Entre na opção de menu “_Globals_”;
+2. Clique no ícone de **Administração**;
+3. Entre na opção de menu **Globals**;
 
 ![](../.gitbook/assets/edit1.png)
 
-1. Busque a _global_ na barra de pesquisa;
-2. Clique no ícone de lixeira “Remover _global_”;
+1. Busque a global na barra de pesquisa;
+2. Clique no ícone de lixeira **Remover global**;
 
 ![](<../.gitbook/assets/04 (10).png>)
 
@@ -77,7 +77,7 @@ Para remover uma _global,_ siga os seguintes passos:
 
 Após realizar estes passos, a _global_ será removida com sucesso.
 
-## **Como utilizar as \_globals**\_ <a href="#h_8cb725f0e7" id="h_8cb725f0e7"></a>
+## **Como utilizar as globals** <a href="#h_8cb725f0e7" id="h_8cb725f0e7"></a>
 
 As _globals_ podem ser utilizadas das seguintes maneiras:
 
