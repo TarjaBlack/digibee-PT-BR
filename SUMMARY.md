@@ -117,9 +117,6 @@
   * [Roadmap de Produto, Q4/22](geral/roadmap-de-produto/roadmap-de-produto-q4-22.md)
   * [Roadmap de Produto, Q3/22](geral/roadmap-de-produto/roadmap-de-produto-q3-22.md)
 * [Certificações em Andamento](geral/certificacoes-em-andamento.md)
-* [Modelo baseado em subscription](geral/modelo-baseado-em-subscription.md)
-* [Limites de uso](geral/limites-de-uso.md)
-* [Meu consumo](geral/meu-consumo.md)
 * [Developer Bootcamp](geral/developer-bootcamp.md)
 
 ## Components
@@ -295,3 +292,9 @@
 * [Utilizando sua conta Gmail com o componente de e-mail da Digibee (SMTP)](tutoriais-e-melhores-praticas/utilizando-sua-conta-gmail-com-o-componente-de-e-mail-da-digibee-smtp.md)
 * [Como enviar logs para serviços externos](tutoriais-e-melhores-praticas/como-enviar-logs-para-servicos-externos.md)
 * [Como construir fluxos de integração que enviam notificações de erro](tutoriais-e-melhores-praticas/como-construir-fluxos-de-integracao-que-enviam-notificacoes-de-erro.md)
+
+## Licenciamento
+
+* [Modelo baseado em subscription](licenciamento/modelo-baseado-em-subscription.md)
+* [Limites de uso](licenciamento/limites-de-uso.md)
+* [Meu consumo](licenciamento/meu-consumo.md)

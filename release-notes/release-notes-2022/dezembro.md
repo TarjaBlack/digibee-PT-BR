@@ -21,6 +21,8 @@ Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/novo-ca
 **IMPORTANTE:** ao utilizar o novo Canvas, você automaticamente faz sua adesão ao programa Beta e concorda com os termos de uso. Para mais informações sobre versões beta, leia a documentação [Programa beta](../../geral/programa-beta.md).\
 
 
+
+
 ### COMPONENTES
 
 * **SAP:** evoluímos o [componente SAP](../../build/capsulas/capsulas-publicas/sap.md) que agora conta com dois novos parâmetros (_Send as File_ e _File Name_). Assim, o componente pode fazer requisições para o SAP utilizando um arquivo, sendo útil para envio de conteúdos muito grandes, o que antes não era possível.
@@ -31,7 +33,7 @@ Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/novo-ca
 
 ### &#x20; MEU CONSUMO
 
-Além de poder visualizar o consumo de [_Pipeline Subscriptions_](../../geral/modelo-baseado-em-subscription.md) __ e[ _RTUs_](../../geral/limites-de-uso.md) no geral, agora também é possível ver em qual ambiente e projeto eles estão sendo consumidos através da página Meu consumo. A nova página reúne as seguintes funcionalidades:
+Além de poder visualizar o consumo de [_Pipeline Subscriptions_](../../licenciamento/modelo-baseado-em-subscription.md) __ e[ _RTUs_](../../licenciamento/limites-de-uso.md) no geral, agora também é possível ver em qual ambiente e projeto eles estão sendo consumidos através da página Meu consumo. A nova página reúne as seguintes funcionalidades:
 
 * **Painel de consumo:** visualize a quantidade de _Pipeline Subscriptions_ e _RTUs_ consumidas em cada ambiente.
 * **Lista de consumo:** confira uma lista detalhada de cada item de consumo — projeto, ambiente, _pipeline_, _trigger_, tamanho da implantação, _RTUs_ e réplicas. Você também pode exportar esses dados para um arquivo CSV.
