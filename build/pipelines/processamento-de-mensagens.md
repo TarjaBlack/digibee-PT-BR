@@ -14,7 +14,7 @@ O processamento de mensagens entre componentes é feito em três etapas:
 
 Essas mensagens estão sempre no formato JSON.
 
-### Exemplo
+## Exemplo
 
 Um _pipeline_ é construído utilizando um _trigger_ REST, que é chamado e fornece o parâmetro recebido (`"type": "revenue"`) para o componente seguinte - um Object Store denominado **Deletar tudo**. Um por um, cada componente finaliza a sua execução e aciona o próximo, fornecendo a mensagem resultante do seu processamento.
 
