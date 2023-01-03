@@ -1,3 +1,7 @@
+---
+description: Acompanhe os pipelines implementados
+---
+
 # Visão geral
 
 Na página de **Visão geral**, você pode monitorar os pipelines criados. Por enquanto, essa página exibe dados acerca dos 10 pipelines mais executados.
