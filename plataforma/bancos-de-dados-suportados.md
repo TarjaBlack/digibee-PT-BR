@@ -8,9 +8,14 @@ description: >-
 
 O acesso aos bancos de dados é feito por meio do uso de componentes próprios para isso, tais como:
 
-* DB ([V1](../components/structured-data/db-v1.md) e [V2](../components/structured-data/db-v2.md))
-* Stream DB ([V1](../components/structured-data/stream-db-v1.md) e [V3](../components/structured-data/stream-db-v3.md))
+* DB ([V2](../components/structured-data/db-v2.md))
+* Stream DB ([V3](../components/structured-data/stream-db-v3.md))
 * [Stored Procedure](../components/structured-data/stored-procedure.md)
+
+É importante destacar que o suporte não inclui versões descontinuadas de componentes, e que o uso dessas versões não é recomendado:
+
+* Stream DB ([V1](../components/structured-data/stream-db-v1.md))
+* DB ([V1](../components/structured-data/db-v1.md))
 
 Se quiser saber mais sobre os componentes acima, basta clicar em cima dos seus nomes ou das suas versões para ler os respectivos artigos.
 
