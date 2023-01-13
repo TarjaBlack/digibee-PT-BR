@@ -18,6 +18,17 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **System Number**: normalmente com 2 dígitos, utilizado para se conectar ao sistema SAP (você pode encontrar essa informação no SAP GUI).
 * **Send As File:** quando ativada, esta opção permite que um arquivo seja definido e enviado.
 * **File Name:** arquivo que contém o corpo a ser enviado pelo servidor SAP. É recomendável o uso desta capacidade em situações onde o conteúdo é muito grande para ser enviado pelo campo _“Template”_. Utilize outros componentes como[ **Template Transformer**](../tools/template-transformer/) e [**File Writer**](../files/file-writer.md) para escrever o conteúdo desejado.
+
+{% hint style="info" %}
+**IMPORTANTE:** atenção ao tamanho máximo de arquivo para cada tipo de implementação em um _pipeline_ que tenha apenas o componente SAP. Note que esses valores poderão sofrer alterações se o _pipeline_ possuir outros componentes:
+
+Small: 10 MB
+
+Medium: 28 MB
+
+Large: 67 MB
+{% endhint %}
+
 * **Template (XML):** _template_ Apache FreeMarker para a mensagem SOAP enviada na requisição.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
