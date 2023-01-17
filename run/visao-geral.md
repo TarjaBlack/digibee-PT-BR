@@ -24,7 +24,9 @@ Já no ambiente _**prod**_** ** é onde o processo final de implantação do _pi
 
 ## **Selecione o projeto**
 
-Após escolher o ambiente de execução, no canto esquerdo da tela selecione o projeto que deseja implantar. Você pode [saber mais sobre os projetos aqui](https://docs.digibee.com/documentation/v/pt-br/build/projetos). Todas as versões desenvolvidas dos _pipelines_ aparecerão na tela para seleção.
+Após escolher o ambiente de execução, no canto esquerdo da tela selecione o projeto que deseja implantar. Você pode [saber mais sobre os projetos aqui](https://docs.digibee.com/documentation/v/pt-br/build/projetos).&#x20;
+
+Todas as versões desenvolvidas dos _pipelines_ aparecerão na tela para seleção. [Nesse artigo, você encontrará mais informações sobre versionamento de _pipelines_.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/versionamento-de-pipelines)
 
 <figure><img src="../.gitbook/assets/Projetos.jpg" alt=""><figcaption></figcaption></figure>
 
