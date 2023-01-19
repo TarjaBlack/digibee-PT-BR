@@ -38,7 +38,7 @@ O componente pode receber qualquer objeto na entrada e irá repassar o _body_ co
 }
 ```
 
-A propriedade _**Authorization**_ será colocada com o _token_ no _header_ de resposta __ gerado pelas especificações acima.
+A propriedade _**Authorization**_ será colocada com o _token_ no _header_ de resposta \_\_ gerado pelas especificações acima.
 
 **Exemplo**
 
@@ -100,7 +100,7 @@ Criamos um artigo sobre esse componente. Caso queira entender melhor o seu uso e
 
 ## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
 
-Para entender melhor como o _token_ JWT __ é gerado a partir desse componente, veja o exemplo a seguir.
+Para entender melhor como o _token_ JWT \_\_ é gerado a partir desse componente, veja o exemplo a seguir.
 
 Para todo JWT é necessário informar os _headers_, pois eles contêm toda a informação do algoritmo a ser utilizado na criptografia do _token_. Portanto, os _headers_ padrão do _token_ gerado são:
 
@@ -138,5 +138,25 @@ Ao final da execução, o _token_ será gerado dentro do _header **Authorization
 ```
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.jY3Sv72B0BlRCrxLauMXHJi5zLY3v2BmknciOEh3q2c
 ```
+
+### Posicionamento e entrada de dados do JWT
+
+A ordem onde o **Digibee JWT** é inserido no _pipeline_ também influencia a operação e determina quais dados serão inseridos no _token_ JWT. Isso ocorre pois o componente adiciona ao _token_ qualquer conteúdo que esteja em um _step_ anterior (incluindo os dados recebidos na entrada do _pipeline_).
+
+É importante considerar esse comportamento. Portanto, o **Digibee JWT** não deve ser colocado como primeiro componente em um _pipeline_. Componentes como **** [**JSON Transformer**](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-transformer)**,** [**Transformer (JOLT)**](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt) **** e [**JSON Generator**](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-generator) devem ser utilizados antes do JWT para determinar uma entrada de dados apropriada.
+
+O exemplo abaixo indica uma entrada de dados recomendável no JWT:
+
+```
+
+{
+"id": "d0c6392b-6f3d-49ac-a135-4649aaa74f22",
+"number": 1,
+"e-mail": "email@email.com"
+}
+
+```
+
+
 
 Se você quiser saber mais sobre _tokens_ JWT, clique [aqui](https://jwt.io/).
