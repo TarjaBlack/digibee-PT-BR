@@ -45,24 +45,24 @@ _**Test Object Stores**_ são compartilhados entre _Realms_ e crescem de acordo 
 | Tráfego de saída             | Proporcional | 10GB por RTU (mensal)                                  | Cada RTU                                | Todos os RTUs no _Realm_                   |
 | Mensagens Por Segundo (MPS)  | Proporcional | 1 MPS por RTU                                          | Cada RTU                                | Todos os RTUs no _Realm_                   |
 | Fila                         | Proporcional | Máximo de 100.000 de mensagens na fila                 | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
-| Logs de execuções concluídas | Proporcional | 30 dias ou 2.592.000 mensagens                         | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
-| Pipeline logs                | Proporcional | 10 dias ou 10 GB                                       | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
+| Logs de execuções concluídas | Proporcional | 7 dias ou 604,800 mensagens                            | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
+| Pipeline logs                | Proporcional | 3 dias ou 250 MB                                       | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
 | Digibee Storage              | Proporcional | 10MB                                                   | Cada RTU                                | Todos os RTUs no _Realm_                   |
 | _Object Store_               | Intervalo    | Veja a definição de _Object Store_ para mais detalhes. | N/A Converse com seu _Account Manager._ | Todos os RTUs no _Realm_                   |
 | Gestão de Relacionamento     | Proporcional | 100.000 objetos (base) e 10.000 objetos (por RTU)      | Cada RTU                                | Todos os RTUs no _Realm_                   |
-| VPNs                         | Intervalo    | 1 gateway de VPN (A capacidade do gateway VPN cresce)  | Grupo de 10 RTUs                        | Todos os RTUs no _Realm_                   |
+| VPNs                         | Intervalo    | 1 gateway de VPN (a capacidade do gateway VPN cresce)  | Grupo de 10 RTUs                        | Todos os RTUs no _Realm_                   |
 
 ### Limites de uso da capacidade de RTU de produção
 
-| Limite                       | Categoria    | Valor Limite Produção                                                                                       | Crescimento por  | Escopo                                     |
-| ---------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------ |
-| Capacidade de processamento  | Proporcional | 64MB / 20% CPU / 10 execuções simultâneas                                                                   | Cada RTU         | Um único RTU                               |
-| Tráfego de saída             | Proporcional | 1 TB por RTU (mensal)                                                                                       | Cada RTU         | Todos os RTUs no _Realm_                   |
-| Mensagens Por Segundo (MPS)  | Proporcional | 1 MPS por RTU                                                                                               | Cada RTU         | Todos os RTUs no _Realm_                   |
-| Fila                         | Proporcional | Máximo de 1.000.000 de mensagens na fila                                                                    | Cada RTU         | RTUs implantados para uma única _pipeline_ |
-| Logs de execuções concluídas | Proporcional | 30 dias ou 2.592.000 mensagens                                                                              | Cada RTU         | RTUs implantados para uma única _pipeline_ |
-| Pipeline logs                | Proporcional | 10 dias ou 10 GB                                                                                            | Cada RTU         | RTUs implantados para uma única _pipeline_ |
-| Digibee Storage              | Proporcional | 100MB                                                                                                       | Cada RTU         | Todos os RTUs no _Realm_                   |
-| _Object Store_               | Intervalo    | **60 RTUs**: 2 vCPU e 4 GB de RAM. **120 RTUs**: 2 vCPU e 8 GB de RAM. **180 RTUs**: 4 vCPU e 12 GB de RAM. | Grupo de 60 RTUs | Todos os RTUs no _Realm_                   |
-| Gestão de Relacionamento     | Proporcional | 10.000.000 objetos (base) 1.000.000 objetos (por RTU)                                                       | Cada RTU         | Todos os RTUs no _Realm_                   |
-| VPNs                         | Intervalo    | 2 _gateways_ VPN (redundantes) (A capacidade do _gateway_ VPN cresce)                                       | Grupo de 10 RTUs | Todos os RTUs no _Realm_                   |
+| Limite                       | Categoria    | Valor Limite Produção                                                | Crescimento por  | Escopo                                     |
+| ---------------------------- | ------------ | -------------------------------------------------------------------- | ---------------- | ------------------------------------------ |
+| Capacidade de processamento  | Proporcional | 64MB / 20% CPU / 10 execuções simultâneas                            | Cada RTU         | Um único RTU                               |
+| Tráfego de saída             | Proporcional | 1 TB por RTU (mensal)                                                | Cada RTU         | Todos os RTUs no _Realm_                   |
+| Mensagens Por Segundo (MPS)  | Proporcional | 1 MPS por RTU                                                        | Cada RTU         | Todos os RTUs no _Realm_                   |
+| Fila                         | Proporcional | Máximo de 1.000.000 de mensagens na fila                             | Cada RTU         | RTUs implantados para uma única _pipeline_ |
+| Logs de execuções concluídas | Proporcional | 30 dias ou 2.592.000 mensagens                                       | Cada RTU         | RTUs implantados para uma única _pipeline_ |
+| Pipeline logs                | Proporcional | 10 dias ou 10 GB                                                     | Cada RTU         | RTUs implantados para uma única _pipeline_ |
+| Digibee Storage              | Proporcional | 100MB                                                                | Cada RTU         | Todos os RTUs no _Realm_                   |
+| _Object Store_               | Intervalo    | Veja a definição de _Object Store_ para mais detalhes.               | Grupo de 60 RTUs | Todos os RTUs no _Realm_                   |
+| Gestão de Relacionamento     | Proporcional | 10.000.000 objetos (base) 1.000.000 objetos (por RTU)                | Cada RTU         | Todos os RTUs no _Realm_                   |
+| VPNs                         | Intervalo    | 2 _gateways_ VPN (redundantes, a capacidade do _gateway_ VPN cresce) | Grupo de 10 RTUs | Todos os RTUs no _Realm_                   |
