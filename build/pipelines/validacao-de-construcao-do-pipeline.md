@@ -127,3 +127,15 @@ A versão do componente que você está tentando utilizar foi descontinuada. Iss
 #### 1. Esta Cápsula não pode ser usada aqui porque ela não existe neste realm (estrutura)
 
 A Cápsula que você está tentando utilizar não existe no _realm_ no qual você está operando. Você precisa apagá-la ou substituí-la por outro conector, fluxo ou uma Cápsula existente neste _realm_.
+
+### Session Management
+
+#### 1. O campo não foi declarado anteriormente (boas práticas)
+
+Não foi possível utilizar o campo (operação GET) porque o mesmo não foi declarado (operação PUT) anteriormente.
+
+#### 2. O campo foi declarado, mas não está sendo usado (boas práticas)
+
+O campo foi declarado anteriormente (operação PUT), mas não está sendo utilizado.&#x20;
+
+Configure um novo componente Session Management para utilizar (operação GET) ou deletar (operação DELETE) o campo declarado anteriormente.
