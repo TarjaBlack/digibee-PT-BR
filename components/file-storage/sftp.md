@@ -50,15 +50,19 @@ Ao executar um componente SFTP utilizando a operação _list_, a seguinte estrut
 
 ```
 {
-    "remoteDirectory": "pub/example",
-    "success": true,
-    "content": [{"isDirectory": false,
-        "size": 1024,
-        "permission": "drwx------",
-        "flag": 14,
-        "accessed": "Sun Nov 08 16:36:32 BRT 2020",
-        "modified": "Sun Nov 08 16:36:32 BRT 2020"
-    }]
+   "remoteDirectory":"pub/example",
+   "success":true,
+   "content":[
+      {
+         "file":"file.txt",
+         "isDirectory":false,
+         "size":1024,
+         "permission":"-rwxrwxrwx",
+         "flag":14,
+         "accessed":"Sat Jan 14 09:21:05 UTC 2023",
+         "modified":"Sat Jan 14 09:21:05 UTC 2023"
+      }
+   ]
 }
 ```
 
