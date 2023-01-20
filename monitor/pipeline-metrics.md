@@ -2,13 +2,13 @@
 description: Acompanhe a performance dos pipelines
 ---
 
-# Pipeline Metrics
+# Pipeline metrics
 
-Na página Pipeline Metrics você pode analisar gráficos referentes à performance dos pipelines implantados.
+Na página Pipeline Metrics, você pode analisar gráficos referentes à performance dos pipelines implantados.
 
 ## Campos de busca
 
-![](<../.gitbook/assets/search fields.png>)
+<figure><img src="../.gitbook/assets/TfIVMW2.png" alt=""><figcaption></figcaption></figure>
 
 Selecione o ambiente desejado no canto superior esquerdo. Quando você seleciona um ambiente, toda a página é atualizada.
 
