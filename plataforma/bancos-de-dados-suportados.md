@@ -21,6 +21,23 @@ Se quiser saber mais sobre os componentes acima, basta clicar em cima dos seus n
 
 Atualmente a Digibee Integration Platform suporta os seguintes bancos de dados:
 
+## Apache Hive
+
+A plataforma Digibee oferece suporte para o Apache Hive somente via JDBC Connector 2.6.17 for Cloudera Enterprise e cobre as seguintes versões:
+
+* Apache Hive versões 1.0.0 a 3.1
+
+**String de conexão**
+
+```
+ jdbc:hive2://localhost:10002
+
+```
+
+{% hint style="info" %}
+​​​​​​​**IMPORTANTE:** As funcionalidades disponibilizadas são baseadas na [documentação oficial](https://docs.cloudera.com/documentation/other/connectors/hive-jdbc/2-6-17.html) do _driver_ JDBC Cloudera. Embora a conexão através das versões citadas acima seja suportada, é necessária a ativação do _driver_ licenciado pela sua empresa junto a Cloudera. Este procedimento será feito por meio do suporte da Digibee, onde será necessário que o cliente forneça o _driver_ JDBC Cloudera a ser utilizado na operação exclusivamente em seu _realm_.
+{% endhint %}
+
 ## Teradata Database
 
 A plafaforma Digibee oferece suporte às seguintes versões:

@@ -44,10 +44,15 @@ A _Flow tree_ simplifica a navegação e o entendimento da lógica aplicada no f
 
 ### Campo de busca (Beta)
 
-Use o Campo de busca localizado ao lado esquerdo do Canvas para buscar por componentes, Contas e Globals de maneira fácil e rápida.&#x20;
+Use o Campo de busca localizado ao lado esquerdo do Canvas para buscar por componentes, Contas, Globals e quaisquer outros campos definidos nos formulários de configuração dos componentes utilizados no _pipeline_.
 
 <figure><img src="../../.gitbook/assets/search-demo-20122022.gif" alt=""><figcaption></figcaption></figure>
 
-Na barra de pesquisas, busque pelo nome ou partes do nome de um componente, Conta ou Global.&#x20;
+Na barra de pesquisas, digite o nome ou partes do nome de um componente, Conta, Global ou qualquer outro valor definido nos campos do formulário de um componente.&#x20;
 
-Na barra de resultados da pesquisa, você pode ver onde e com que frequência o item é utilizado no _pipeline_ e editá-lo.
+Na barra de resultados, você pode visualizar onde e com que frequência o item é utilizado no _pipeline_ e editá-lo. Os resultados da busca estão divididos pelas seguintes seções:&#x20;
+
+* Contas
+* Globals
+* Componentes
+* Outros campos
