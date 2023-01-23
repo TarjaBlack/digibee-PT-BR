@@ -1,5 +1,5 @@
 ---
-description: Conheça o componente e como usá-lo
+description: Conheça o componente e como usá-lo.
 ---
 
 # Secure PDF
