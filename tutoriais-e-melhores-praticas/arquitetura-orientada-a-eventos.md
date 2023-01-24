@@ -37,7 +37,7 @@ O pipeline de tratamento de erro é um único pipeline que possui um trigger de 
 
 Note que o mesmo evento de erro pode ser publicado por vários pipelines e enviado para o mesmo pipeline de tratamento de erro.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Modelo síncrono</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p><strong>Modelo síncrono</strong></p></figcaption></figure>
 
 {% hint style="success" %}
 Use o modelo síncrono para integrações que exigem confirmação imediata
@@ -64,7 +64,7 @@ Outro modelo que usa a arquitetura orientada a eventos é o modelo assíncrono. 
 
 **O quarto pipeline** é inscrito nos eventos de erro que foram enviados pelos três pipelines anteriores. Depois de receber esses eventos de erro, ele os armazena em um banco de dados e envia esses registros a uma ferramenta de ITSM ou por email.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><strong>Modelo assíncrono</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Modelo assíncrono</strong></p></figcaption></figure>
 
 {% hint style="success" %}
 Use o modelo assíncrono para integrações que:&#x20;

@@ -3,6 +3,8 @@
 * [Visão Geral](README.md)
   * [Visão Geral do Layout da Plataforma](master/visao-geral-do-layout-da-plataforma.md)
 * [Release notes](release-notes/README.md)
+  * [Release notes 2023](release-notes/release-notes-2023/README.md)
+    * [Janeiro](release-notes/release-notes-2023/janeiro.md)
   * [Release notes 2022](release-notes/release-notes-2022/README.md)
     * [Dezembro](release-notes/release-notes-2022/dezembro.md)
     * [Novembro](release-notes/release-notes-2022/novembro.md)
