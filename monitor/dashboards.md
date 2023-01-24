@@ -10,12 +10,11 @@ No canto superior esquerdo da página, você pode selecionar o ambiente desejado
 
 Abaixo do seletor de ambiente, os cartões de monitoramento exibem o número de pipelines criados e implementados, assim como o número de contas criadas no ambiente selecionado.
 
-Use o seletor de período para determinar o intervalo de tempo usado no relatório da visão geral. Você pode selecionar um período de tempo entre os últimos 15 minutos e os últimos 30 dias.
+Use o seletor de período para filtrar o intervalo de tempo usado no relatório da visão geral. Você pode selecionar um período de tempo predeterminado entre os últimos 15 minutos e os últimos 30 dias ou dias e horários específicos de início e fim.
 
-\
+<figure><img src="../.gitbook/assets/g9IJmVl.png" alt=""><figcaption></figcaption></figure>
 
 
-<figure><img src="https://lh3.googleusercontent.com/D7i1dTTYz_Ypa75RAkBww3TTQfEw78WO0lmh5fA66kzzjj_F4sAwghIUxfRogdqOpmlQ5UGBwrgQVYkv9THx0UYvN7IsVnKgJ-w3gIWwEprBHYZkQS_V7SzYMZ_vSLQ1cExyOzvVJNp4L94NFNNxz9yMia81RasKBjr0pCN-mprSPnyFVbAhcbIS7_fbQQ" alt=""><figcaption></figcaption></figure>
 
 A tabela de visão geral mostra um resumo das execuções dos pipelines mais executados no período de tempo selecionado. Você pode clicar no ícone de lupa para ver os detalhes destas execuções na página de **Execuções Concluídas**.
 
