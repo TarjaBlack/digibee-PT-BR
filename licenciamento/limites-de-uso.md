@@ -25,6 +25,9 @@ Recursos computacionais são todos os itens consumidos para execução das integ
 * **Pipeline logs:** para estes _logs_, que são mostrados na página de Monitor da plataforma, sob Pipeline logs, o limite é dado pelo tempo de retenção ou quantidade de byes armazenados, o que vier primeiro. A quantidade de bytes armazenados é contabilizada pelo número de RTUs implementadas em uma determinada _pipeline_.&#x20;
 * **Digibee Storage**: é o sistema de armazenamento em nuvem para que as _pipelines_ leiam e gravem arquivos. A forma como esses arquivos são acessados ​​é através do uso do [Digibee Storage Connector](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/digibee-storage). A plataforma aplica limites no número de _bytes_ armazenados neste sistema _Cloud Storage_.&#x20;
 * **Object Store**: a Digibee fornece acesso a um [sistema de armazenamento temporário de objetos](https://docs.digibee.com/documentation/v/pt-br/components/structured-data/object-store) que pode armazenar qualquer tipo de objeto JSON. Esses objetos podem ser consultados com base em regras específicas.&#x20;
+  * Até 60 RTUs: 2 vCPU e 4GB RAM
+  * Até 120 RTUs: 2 vCPU e 8GB RAM
+  * Até 180 RTUs: 4 vCPU e 12GB RAM
 
 Os armazenamentos de **Objetos de Produção** são fornecidos em camadas que crescem à medida que o número de RTUs aumenta, e em um padrão semelhante para cada novo bloco de 60 RTUs.&#x20;
 
