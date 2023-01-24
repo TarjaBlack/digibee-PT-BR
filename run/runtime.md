@@ -70,12 +70,4 @@ A quantidade máxima de _consumers_ é definida com base em três faixas de tama
 
 <figure><img src="../.gitbook/assets/Execucoes simul.jpg" alt=""><figcaption></figcaption></figure>
 
-### **Ambiente**
-
-Os ambientes de execução dos _pipelines_ podem ser teste (_test_) e produção (_prod_):
-
-<figure><img src="../.gitbook/assets/seletordeambiente.png" alt=""><figcaption></figcaption></figure>
-
-O propósito do ambiente de teste é avaliar a construção do _pipeline_ e, por isso, não possui as mesmas características de atendimento do ambiente de produção. Consequentemente, você tem um ambiente de trabalho que permite a livre construção, onde as aplicações podem ser testadas e validadas.
-
-Quando um _pipeline_ está em ambiente de produção e precisar de uma alteração evolutiva ou apresentar alguma falha, sugerimos que as suas alterações sejam feitas no ambiente de teste para que, somente então, volte à produção.
+Saiba mais detalhes específicos sobre [tamanhos, réplicas e execuções simultâneas dos _pipelines_ em nosso artigo de _Pipeline Engine_.](https://docs.digibee.com/documentation/v/pt-br/plataforma/pipeline-engine#arquitetura-de-operao)
