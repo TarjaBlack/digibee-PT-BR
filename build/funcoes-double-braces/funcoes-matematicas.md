@@ -356,6 +356,8 @@ SUM(num1, num2, ..., numN)
 
 O retorno dessa função será 10.0.
 
+### Outras funções
+
 Conheça também as funções:
 
 * [de comparação](funcoes-de-comparacao.md)
