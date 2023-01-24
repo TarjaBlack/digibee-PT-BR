@@ -20,7 +20,9 @@ Há dois ambientes nos quais é possível fazer a execução dos _pipelines_: **
 
 O ambiente ** **_**test**_** ** é usado para avaliar a construção do _pipeline_, ou seja, para testar e modificar suas aplicações. Desta forma, você tem um ambiente onde pode validar os _pipelines_ antes de irem para produção.
 
-Já no ambiente _**prod**_** ** é onde o processo final de implantação do _pipeline_ ocorre após ter sido testado e validado.
+Já no ambiente _**prod**_** ** é onde o processo final de implantação do _pipeline_ ocorre após ter sido testado e validado.&#x20;
+
+Se um pipeline estiver em ambiente de produção e precisar de uma alteração evolutiva ou apresentar alguma falha, sugerimos que as suas alterações sejam feitas no ambiente de _**test**_ para que, somente então, volte à produção.
 
 ## **Selecione o projeto**
 
