@@ -4,7 +4,7 @@ description: >-
   utilizá-las.
 ---
 
-# Double Braces — Funções de Utilidades
+# Funções de Utilidades
 
 As funções foram criadas para:
 
@@ -20,9 +20,7 @@ Essa função em Double _Braces_ decodifica uma _string_ em um formato base64.
 
 **Sintaxe**
 
-```
-BASEDECODE(value:string, [charset:string - optional])
-```
+BASEDECODE(value:string, \[charset:string - optional])
 
 * **value:** _string_ a ser decodificada
 * **charset:** _charset_ para a decodificação (padrão = UTF-8) (opcional)
@@ -49,9 +47,7 @@ Essa função em _Double Braces_ codifica uma _string_ em um formato base64.
 
 **Sintaxe**
 
-```
-BASEENCODE(value:string, [charset:string - optional])
-```
+BASEENCODE(value:string, \[charset:string - optional])
 
 * **value:** _string_ a ser codificada
 * **charset:** _charset_ para a codificação (padrão = UTF-8) (opcional)
@@ -76,10 +72,11 @@ O resultado esperado será:
 
 Essa função em _Double Braces_ decodifica uma _string_ em um formato base64 no padrão de uso para URL.
 
-**Sintaxe**\
+**Sintaxe**
+
 BASEDECODE(value:string, \[charset:string - optional])
 
-* **value:** string a ser decodificada charset:
+* **value:** string a ser decodificada
 * **charset:** charset para a decodificação (padrão = UTF-8) (opcional)
 
 Digamos que você precise decodificar uma _string_. Você pode fazer o seguinte:
@@ -104,7 +101,8 @@ O resultado será:
 
 Essa função em Double Braces codifica uma string em um formato base64 para uso em URL's.
 
-**Sintaxe**\
+**Sintaxe**
+
 BASEENCODE(value:string, \[charset:string - optional])
 
 * **value**: _string_ a ser codificada&#x20;
@@ -134,9 +132,7 @@ Essa função em _Double Braces_ gera um identificador único universal - o núm
 
 **Sintaxe**
 
-```
 UUID()
-```
 
 Digamos que você precise gerar um identificador único. Você pode fazer o seguinte:
 
@@ -213,9 +209,7 @@ Essa função em Double Braces permite que o tamanho de _strings_, _arrays_ e _o
 
 **Sintaxe**
 
-```
-SIZE(value, [throwErrorOnUnexpectedType:boolean - optional])
-```
+SIZE(value, \[throwErrorOnUnexpectedType:boolean - optional])
 
 * **value:** valor a ser verificado o tamanho
 * **throwErrorOnUnexpectedType:** indica se será retornada uma exceção quando o parâmetro _value_ for de um tipo não esperado pela função. Caso não informado, será assumido valor _true_ e, quando informado valor _false_, o retorno da função será _null_.
@@ -320,6 +314,8 @@ Após a execução, o resultado será o seguinte:
 ```
 
 Dessa forma, não será lançada exceção e poderá ser adotada alguma lógica de verificação no seu fluxo de integração.
+
+### Outras funções
 
 Conheça também as funções:
 

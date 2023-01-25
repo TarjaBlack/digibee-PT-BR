@@ -52,7 +52,7 @@
 * [Funções Double Braces](build/funcoes-double-braces/README.md)
   * [Double Braces e Entrada de Dados](build/funcoes-double-braces/double-braces-e-entrada-de-dados.md)
   * [Funções Matemáticas](build/funcoes-double-braces/funcoes-matematicas.md)
-  * [Double Braces — Funções de Utilidades](build/funcoes-double-braces/double-braces-funcoes-de-utilidades.md)
+  * [Funções de Utilidades](build/funcoes-double-braces/double-braces-funcoes-de-utilidades.md)
   * [Funções Numéricas](build/funcoes-double-braces/funcoes-numericas.md)
   * [Funções de String](build/funcoes-double-braces/funcoes-de-string.md)
   * [Funções de JSON](build/funcoes-double-braces/funcoes-de-json.md)
