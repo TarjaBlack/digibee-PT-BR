@@ -22,14 +22,12 @@ A função pode ser aplicada para converter um elemento do tipo _string_ para um
 
 **Sintaxe**
 
-```
 FORMATNUMBER(valor, "formatDestination", "localeDest"?)
-```
 
 Os itens indicados com "?" podem ser definidos com valor _null_.
 
-* _**asInteger**_ é opcional e do tipo BOOLEAN. Se "true", o resultado será do tipo _Integer_; do contrário, será considerado _BigDecimal_. O valor _default_ é "false".
-* _**localeDest**_ representado _locale_ deve ser considerado para a geração do número. Se o _localeDest_ não for definido, será considerado _en-us_.
+* _**asInteger:**_ é opcional e do tipo BOOLEAN. Se "true", o resultado será do tipo _Integer_; do contrário, será considerado _BigDecimal_. O valor _default_ é "false".
+* _**localeDest:**_ o _locale_ representado __ deve ser considerado para a geração do número. Se o _localeDest_ não for definido, será considerado _en-us_.
 
 **Valor de entrada:**
 
@@ -144,7 +142,7 @@ TOLONG(num1)
 
 O retorno dessa função será 12.
 
-## TONUMBER&#x20;
+### TONUMBER&#x20;
 
 Essa função permite que você converta uma string para um valor numérico com base no seu formato de origem e _locale_.
 
@@ -154,10 +152,10 @@ TONUMBER(_string_, _formatSource_, _localeSource_?, _asInteger_?)
 
 Os parâmetros indicados com "?" são opcionais.
 
-* \- _string_: _string_ a ser convertida
-* \- _formatSource_: formato de origem da _string_. Ex.: "###.###", "###.#", "###,###.##"
-* \- _localeSource_: _locale_ da _string_, que se não for definido, será considerado "en-us"
-* _asInteger_: valor _booleano_ que indica se a _string_ deve ser convertida para um número inteiro. Caso não seja definido, o valor padrão será _false_.
+* _**string**_**:** _string_ a ser convertida
+* _**formatSource**_**:** formato de origem da _string_. Ex.: "###.###", "###.#", "###,###.##"
+* _**localeSource**_**:** _locale_ da _string_, que se não for definido, será considerado "en-us"
+* _**asInteger**_**:** valor _booleano_ que indica se a _string_ deve ser convertida para um número inteiro. Caso não seja definido, o valor padrão será _false_.
 
 Digamos que você precise converter duas _strings_ referentes a um valor numérico genérico e um valor monetário:
 
@@ -223,7 +221,11 @@ O resultado será:
 
 Os valores que definem o intervalo numérico são inclusivos.
 
+{% hint style="info" %}
 **IMPORTANTE:** a função tem limitação numérica e aceita apenas valores dentro do intervalo de -9223372036854775808 a 9223372036854775807. Qualquer valor fora desses limites acarretará em uma execução imprevisível da função.
+{% endhint %}
+
+### Outras funções
 
 Conheça também as funções:
 
