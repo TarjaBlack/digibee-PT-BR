@@ -26,8 +26,8 @@ FORMATNUMBER(valor, "formatDestination", "localeDest"?)
 
 Os itens indicados com "?" podem ser definidos com valor _null_.
 
-* _**asInteger:**_ é opcional e do tipo BOOLEAN. Se "true", o resultado será do tipo _Integer_; do contrário, será considerado _BigDecimal_. O valor _default_ é "false".
-* _**localeDest:**_ o _locale_ representado __ deve ser considerado para a geração do número. Se o _localeDest_ não for definido, será considerado _en-us_.
+* **asInteger:** é opcional e do tipo BOOLEAN. Se "true", o resultado será do tipo _Integer_; do contrário, será considerado _BigDecimal_. O valor _default_ é "false".
+* **localeDest:** o _locale_ representado __ deve ser considerado para a geração do número. Se o _localeDest_ não for definido, será considerado _en-us_.
 
 **Valor de entrada:**
 
@@ -152,10 +152,10 @@ TONUMBER(_string_, _formatSource_, _localeSource_?, _asInteger_?)
 
 Os parâmetros indicados com "?" são opcionais.
 
-* _**string**_**:** _string_ a ser convertida
-* _**formatSource**_**:** formato de origem da _string_. Ex.: "###.###", "###.#", "###,###.##"
-* _**localeSource**_**:** _locale_ da _string_, que se não for definido, será considerado "en-us"
-* _**asInteger**_**:** valor _booleano_ que indica se a _string_ deve ser convertida para um número inteiro. Caso não seja definido, o valor padrão será _false_.
+* **string:** _string_ a ser convertida
+* **formatSource:** formato de origem da _string_. Ex.: "###.###", "###.#", "###,###.##"
+* **localeSource:** _locale_ da _string_, que se não for definido, será considerado "en-us"
+* **asInteger:** valor _booleano_ que indica se a _string_ deve ser convertida para um número inteiro. Caso não seja definido, o valor padrão será _false_.
 
 Digamos que você precise converter duas _strings_ referentes a um valor numérico genérico e um valor monetário:
 
