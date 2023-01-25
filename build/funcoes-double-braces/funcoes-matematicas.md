@@ -22,9 +22,7 @@ A função é aplicada para retornar o valor absoluto de um número.
 
 **Sintaxe**
 
-```
 ABS(número)
-```
 
 Vamos supor que você precisa do valor absoluto do número exemplificado a seguir:
 
