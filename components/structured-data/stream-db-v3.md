@@ -10,6 +10,10 @@ O _**Stream DB V3**_ permite estabelecer uma conexão com um serviço que suport
 
 Diferentemente do componente [DB V1](db-v1.md), o _**Stream DB**_ foi desenvolvido para realizar execução em lotes, ou seja, cada retorno (linha resultante ou _row_) da instrução SQL executada é tratada individualmente através de um _subpipeline_, podendo conter seu próprio fluxo de processamento. Aprenda mais sobre _subpipelines_ clicando [aqui](../../build/pipelines/subpipelines.md).
 
+{% hint style="info" %}
+**IMPORTANTE:** em casos onde um banco de dados Apache Hive é usado, os dados de _Updatecount_ podem estar indisponíveis devido a uma característica do sistema. Essa informação estará disponível apenas se o controle do _updated row count_ estiver habilitado no servidor Apache Hive. Para mais informações sobre suporte Apache Hive para a Digibee Integration Platform, leia o artigo [Banco de dados suportados](https://docs.digibee.com/documentation/v/pt-br/plataforma/bancos-de-dados-suportados#apache-hive).
+{% endhint %}
+
 Dê uma olhada nos parâmetros de configuração do componente:
 
 * **Account:** para o componente fazer a autenticação a um serviço JDBC, é necessário usar uma _account_ do tipo BASIC ou KERBEROS (veja o tópico "Autenticação via Kerberos").
