@@ -6,6 +6,10 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 O **DB V2** efetua operações de SELECT, INSERT, DELETE e UPDATE e também faz chamadas em PROCEDURES, retornando os valores para uma estrutura JSON.
 
+{% hint style="info" %}
+**IMPORTANTE:** em casos onde um banco de dados Apache Hive é usado, os dados de _Updatecount_ podem estar indisponíveis devido a uma característica do sistema. Essa informação estará disponível apenas se o controle do _updated row count_ estiver habilitado no servidor Apache Hive. Para mais informações sobre suporte Apache Hive para a Digibee Integration Platform, leia o artigo [Banco de dados suportados](https://docs.digibee.com/documentation/v/pt-br/plataforma/bancos-de-dados-suportados#apache-hive).
+{% endhint %}
+
 ## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
 
 ### **Autenticação via Kerberos** <a href="#autenticao-via-kerberos" id="autenticao-via-kerberos"></a>
