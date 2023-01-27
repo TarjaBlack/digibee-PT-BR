@@ -210,6 +210,16 @@ Dessa maneira, os arquivos podem ser referenciados e acessados a partir do _pipe
 }
 ```
 
+Outra solução é indicada em situações onde há uma limitação de tamanho de resposta para _payloads_ maiores que 5 MB. Nesse caso, é recomendável que a resposta do _pipeline_ seja um arquivo e não um _payload_. Isso pode ser feito usando o componente [_**File Writer**_](../../files/file-writer.md) para gerar o arquivo e referenciá-lo na resposta do _pipeline_ através da propriedade _"file"_ ao invés da propriedade _"body"_:
+
+```
+{
+"file": {{ message.fileName }},
+"code": 200,
+"Content-Type": "application/json"
+}
+```
+
 {% hint style="info" %}
 **IMPORTANTE:** _**Content-Type**_** ** precisa ser um dos valores definidos em _**Response Content Types**_.
 {% endhint %}
