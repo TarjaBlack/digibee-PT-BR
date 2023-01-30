@@ -12,24 +12,25 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **SMTP Host:** _host_ SMTP do servidor de email. Ex.: (GMail: smtp.gmail.com).
 * **SMTP Port:** porta SMTP do servidor de email. Geralmente utiliza-se a porta 587, mas pode haver variação dependendo do servidor de email utilizado.
 * **From:** remetente do email.
-* **To:** destinatários do email. Caso existam múltiplos destinatários, eles devem ser separados por vírgula. Ex: [a@a.com](mailto:a@a.com),[b@b.com](mailto:b@b.com),....
-* **CC:** destinatários que receberão a cópia do email. Caso existam múltiplos destinatários, eles devem ser separados por vírgula. Ex: [a@a.com](mailto:a@a.com),[b@b.com](mailto:b@b.com),....
-* **BCC:** destinatários que receberão a cópia oculta do email. Caso existam múltiplos destinatários, eles devem ser separados por vírgula. Ex: [a@a.com](mailto:a@a.com),[b@b.com](mailto:b@b.com),....
+* **To:** destinatários do email. Caso existam múltiplos destinatários, eles devem ser separados por vírgula. Ex: a@a.com,b@b.com,....
+* **CC:** destinatários que receberão a cópia do email. Caso existam múltiplos destinatários, eles devem ser separados por vírgula. Ex: a@a.com,b@b.com,....
+* **BCC:** destinatários que receberão a cópia oculta do email. Caso existam múltiplos destinatários, eles devem ser separados por vírgula. Ex: a@a.com,b@b.com,....
 * **Content:** corpo do email. Aceita o uso de _templates_ Freemarker para a geração de HTML dinâmicos.
 * **Charset:** _charset_ que será utilizado no envio do corpo do email.
 * **Subject:** assunto do email.
 * **Authenticated:** se a opção estiver habilitada, é obrigatório passar uma conta com email e senha a serem utilizados para autenticação. Se os envios não precisarem de autenticação, a opção deve ficar desabilitada.
 * **Is Over SSL:** se a opção estiver habilitada, o envio é feito via SSL.
 * **SSL Port:** se a opção _**Is Over SSL**_** ** estiver habilitada, então é obrigatório informar qual porta será utilizada para trafegar a mensagem via SSL.
-* **Is Over TLS:** se a opção estiver habilitada, o envio é feito via TLS.\
-
+* **Is Over TLS:** se a opção estiver habilitada, o envio é feito via TLS.
 * **Force TLSv1.2:** define como obrigatória a conexão com o protocolo TLSv1.2.
 * **Use Attachment As Raw**: se a opção estiver habilitada, o formulário para adicionar anexos será ocultado e o envio em modo RAW poderá ser utilizado, por meio do qual você informa o _array_ de anexos. Mas se a opção estiver desabilitada, será utilizada a abordagem do formulário para a especificação de anexos.
 * **Attachments**: anexos da mensagem. A especificação ocorre via formulário.
 
+{% hint style="info" %}
 **IMPORTANTE**: para adicionar imagens dentro do corpo do email, deve ser informado o prefixo "cid:" antes do nome da imagem. Ex.: \<img src"cid: image.png" />
+{% endhint %}
 
-* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "_success_".
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
@@ -68,9 +69,11 @@ Ao executar um componente _**Email V2**_, a seguinte estrutura de JSON será ger
 * **success:** se a chamada foi bem sucedida.
 * **attachments:** _array_ contendo os anexos enviados.
 
+{% hint style="info" %}
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
+{% endhint %}
 
-Para entender melhor o fluxo das mensagens na plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
+Para entender melhor o fluxo das mensagens na Digibee Integration Platform, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
 
 ## Email V2 em Ação <a href="#email-v2-em-ao" id="email-v2-em-ao"></a>
 
