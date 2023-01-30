@@ -12,7 +12,7 @@ Abaixo do seletor de ambiente, os cartões de monitoramento exibem o número de 
 
 Use o seletor de período para filtrar o intervalo de tempo usado no relatório da visão geral. Você pode selecionar um período de tempo predeterminado entre os últimos 15 minutos e os últimos 30 dias ou dias e horários específicos de início e fim.
 
-<figure><img src="../.gitbook/assets/g9IJmVl.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/specific_time_PTBR.gif" alt=""><figcaption><p>Selecionando um período específico</p></figcaption></figure>
 
 
 
