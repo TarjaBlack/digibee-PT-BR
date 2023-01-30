@@ -58,19 +58,19 @@ Ao executar um componente _**Email V2**_, a seguinte estrutura de JSON será ger
 }
 ```
 
-* **from:** remetente
-* **to:** destinatários
-* **cc:** destinatários em cópia
-* **bcc:** destinatários em cópia oculta
-* **subject:** assunto
+* **from:** remetente.
+* **to:** destinatários.
+* **cc:** destinatários em cópia.
+* **bcc:** destinatários em cópia oculta.
+* **subject:** assunto.
 * **content:** corpo da mensagem. Caso o corpo da mensagem exceda 256 caracteres, esse resultado será truncado.
-* **charset:** _charset_
-* **success:** se a chamada foi bem sucedida
-* **attachments:** _array_ contendo os anexos enviados
+* **charset:** _charset._
+* **success:** se a chamada foi bem sucedida.
+* **attachments:** _array_ contendo os anexos enviados.
 
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
 
-Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
+Para entender melhor o fluxo das mensagens na plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
 
 ## Email V2 em Ação <a href="#email-v2-em-ao" id="email-v2-em-ao"></a>
 
@@ -130,11 +130,11 @@ O resultado será:
 }
 ```
 
-## Veja como passar valores de forma dinâmica usando o conector: <a href="#tecnologia" id="tecnologia"></a>
+Veja como passar valores de forma dinâmica usando o conector:
 
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (20) (1).gif>)
 
-#### Neste exemplo de uso dinâmico, passamos variáveis indicando a emissão de notas fiscais `<a href='${NF}' com uma segunda variável indicando o vencimento ${M_VENC}.`
+Neste exemplo de uso dinâmico, passamos variáveis indicando a emissão de notas fiscais `<a href='${NF}' com uma segunda variável indicando o vencimento ${M_VENC}.`
 
 ```
 <!DOCTYPE html>
@@ -159,13 +159,13 @@ Relacionamento com o Cliente
 
 ```
 
-#### Observe que o conector _permite o uso de_ D_ouble Braces_
+Observe que o conector _permite o uso de_ D_ouble Braces:_
 
 __
 
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (19).gif>)
 
-#### _Dados do JSON_
+#### Dados do _JSON_
 
 ```
 {
