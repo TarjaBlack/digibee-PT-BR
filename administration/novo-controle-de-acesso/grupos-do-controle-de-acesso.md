@@ -1,165 +1,83 @@
 ---
-description: Entenda mais sobre grupos e suas permissões.
+description: Aprenda a criar, editar e arquivar um grupo
 ---
 
-# Grupos do Controle de Acesso
+# Grupos
 
-Os grupos são associações entre um conjunto de usuários e um ou mais papéis com seu respectivo ambiente (teste ou produção). É possível criar, editar e arquivar um grupo.
+{% hint style="info" %}
+Para realizar cada ação descrita nesta página, você deve ter sua respectiva permissão.
+{% endhint %}
 
-A criação do grupo possui nome, descrição e lista de usuários do grupo. Após criar um grupo, é necessário editá-lo para alterar suas permissões.
+{% hint style="info" %}
+Quando você cria, edita ou arquiva um grupo, essas ações são registradas no histórico de alterações da página Auditoria.
+{% endhint %}
 
-Neste passo, é possível adicionar, remover e alterar os vínculos, que são as associações entre um papel (e seus respectivos acessos) e os ambientes onde serão aplicados. Um grupo pode ter zero ou mais vínculos.
+## Como criar um grupo
 
-Caso o papel selecionado para um grupo possua apenas permissões para serviços que não necessitam de definição de ambiente, o campo ambiente ficará desabilitado (Ex: permissões para os serviços Global e Account não necessitam de definição do ambiente).
+Depois de fazer login na Digibee Integration Platform:
 
-## Antes de começar: <a href="#h_a5010c206d" id="h_a5010c206d"></a>
+1. Clique no ícone de **Administração**, no canto superior direito;
+2. Clique em **Grupos**, na aba no canto esquerdo;
+3. Clique no botão **CRIAR**, no canto superior direito;
+4. Preencha o nome e a descrição do grupo;
+5. Clique no ícone **+** para atribuir membros ao novo grupo (opcional);
 
-Leia os seguintes artigos e conheça mais sobre o Novo Controle de Acesso:
+{% hint style="info" %}
+Você pode adicionar ou remover membros de um grupo a qualquer momento.
+{% endhint %}
 
-* [Novo modelo de controle de acesso.](https://intercom.help/godigibee/pt-BR/articles/5808132-novo-modelo-de-controle-de-acesso)
-* [Papéis do controle de acesso.](https://intercom.help/godigibee/pt-BR/articles/5810244-papeis-do-controle-de-acesso)
-* [Conceitos básicos sobre usuários.](https://intercom.help/godigibee/pt-BR/articles/5808313-conceitos-basicos-sobre-usuarios)
+6. Clique em **SALVAR** para criar o novo grupo.
 
-## Como criar um novo grupo <a href="#h_3ac43c518a" id="h_3ac43c518a"></a>
+<figure><img src="https://i.imgur.com/Bih9Upn.gif" alt=""><figcaption><p>Criando um grupo</p></figcaption></figure>
 
-Para criar um grupo, siga os passos a seguir:
+## Como vincular um papel a um grupo
 
-1. Faça login na Digibee Integration Platform.
-2. Clique no ícone de “Administração”;
-3. Entre na opção do menu “Grupos”;
+{% hint style="info" %}
+Você deve criar o papel desejado antes de vinculá-lo a um grupo. Aprenda mais sobre papéis aqui.
+{% endhint %}
 
-![](<../../.gitbook/assets/Imagem 1 (1) (4) (1).png>)
+Depois de fazer login na Digibee Integration Platform:
 
-4\. Clique no botão **+ CRIAR** no canto superior direito;
+1. Clique no ícone de **Administração**, no canto superior direito;
+2. Clique em **Grupos**, na aba no canto esquerdo;
+3. Pesquise na tabela o grupo ao qual você deseja atribuir um vínculo ou use a barra de pesquisa;
+4. Clique no ícone de lápis, na coluna Ações;
+5. Na aba Permissões, clique em **+VÍNCULO**;
+6. Selecione o papel desejado e o ambiente ao qual deseja atribuir as permissões do papel;
+7. Clique em **SALVAR**;
+8. Escreva uma nota descrevendo o motivo das alterações que você acabou de fazer;
+9. Clique em **EDITAR** para confirmar a ação.
 
-![](<../../.gitbook/assets/Imagem 2 (2).png>)
+<figure><img src="https://i.imgur.com/ETLpnzE.gif" alt=""><figcaption><p>Vinculando um papel a um grupo</p></figcaption></figure>
 
-5\. Preencha os campos de nome, descrição e caso deseje já incluir os usuários, selecione os usuários que pertencerão àquele grupo;
+## Como arquivar um grupo
 
-6\. Após preencher, clique em **SALVAR ;**
+Se você arquivar um grupo, ele ficará inativo. Os membros de um grupo arquivado perderão as permissões concedidas por ele.
 
-### **Como vincular um papel a um grupo**
+Para arquivar um grupo, siga esses passos:
 
-Pré-requisitos:
+Depois de fazer login na Digibee Integration Platform:
 
-* O papel com as permissões necessárias precisa já ter sido criado previamente. Para saber mais, leia nossa [documentação sobre como criar um papel](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/papeis-do-controle-de-acesso#h\_3cbcaa1595).
+1. Clique no ícone de **Administração**, no canto superior direito;
+2. Clique em **Grupos**, na aba no canto esquerdo;
+3. Use a barra de pesquisa ou procure na tabela o grupo que deseja arquivar;
+4. Clique no ícone de caixa, na coluna Ações;
+5. Escreva uma nota descrevendo os motivos do arquivamento do grupo;
+6. Clique em **ARQUIVAR**.
 
-1.Clique em **GRUPOS** a partir do menu **ADMINISTRAÇÃO**
+<figure><img src="https://i.imgur.com/iIE8nPz.gif" alt=""><figcaption><p>Arquivando um grupo</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Imagem 1 (1).png" alt=""><figcaption></figcaption></figure>
+## Grupos padrão
 
-2\. Clique no ícone para **EDITAR** a partir do grupo que deseja vincular papéis.
+Além de criar seus próprios grupos, você também pode usar os grupos padrão do Digibee. Cada grupo padrão é vinculado a um conjunto de papéis de sistema. Esses grupos cobrem os tipos de usuários mais comuns da Digibee Integration Platform.
 
-<figure><img src="../../.gitbook/assets/imagem 2.png" alt=""><figcaption></figcaption></figure>
+Ao contrário dos papéis de sistema, os grupos padrão podem ser modificados, excluídos e arquivados.
 
-3\. Clique na aba **PERMISSÕES** para acessar a lista de vínculos.
-
-<figure><img src="../../.gitbook/assets/Imagem 3 (3).png" alt=""><figcaption></figcaption></figure>
-
-4\. Clique em **+ VÍNCULO**
-
-<figure><img src="../../.gitbook/assets/Imagem 4 (4).png" alt=""><figcaption></figcaption></figure>
-
-5\. Clique na caixa de seleção referente a **PAPEL** e escolha o papel previamente criado com as permissões desejadas.
-
-<figure><img src="../../.gitbook/assets/Imagem 5 (1).png" alt=""><figcaption></figcaption></figure>
-
-**Observação:** neste momento, dependendo do papel selecionado, você poderá escolher o ambiente que esse papel será vinculado: **test** ou **prod.**
-
-<figure><img src="../../.gitbook/assets/Imagem 6.png" alt=""><figcaption></figcaption></figure>
-
-6\. Clique em **SALVAR.**
-
-<figure><img src="../../.gitbook/assets/Imagem 7 (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Observação:** É possível vincular um ou mais papéis ao mesmo grupo, criando um acúmulo de permissões. Para verificar as permissões vinculadas ao grupo, clique em **RESUMO DE PERMISSÕES**
-
-<figure><img src="../../.gitbook/assets/Imagem 8.png" alt=""><figcaption></figcaption></figure>
-
-## Como editar um grupo <a href="#h_8dbe8e58b4" id="h_8dbe8e58b4"></a>
-
-Para editar um grupo, siga os passos a seguir:
-
-1. Faça login na Digibee Integration Platform.
-2. Clique no ícone de “Administração”;
-3. Entre na opção do menu “Grupos”;
-
-![](<../../.gitbook/assets/Imagem 6 (6).png>)
-
-4\. Procure o grupo desejado na barra de pesquisa;
-
-![](<../../.gitbook/assets/Imagem 7 (1) (1) (1).png>)
-
-5\. Clique em “Editar”;
-
-6\. A janela de edição do grupo abrirá, permitindo incluir novos membros ou alterar as permissões do grupo;
-
-![](<../../.gitbook/assets/Imagem 8 (3).png>)
-
-7\. Faça as alterações desejadas;
-
-8\. Clique em **SALVAR**.
-
-**IMPORTANTE**: Ao editar um grupo, será solicitado o motivo para registro de histórico, pois ao editar os vínculos entre papéis e grupos, os usuários atribuídos àquele grupo poderão perder acesso à Plataforma. Para consultar o histórico de alterações de um grupo, acesse a tela de auditoria da Plataforma.
-
-## Como arquivar um grupo <a href="#h_507e74fbfb" id="h_507e74fbfb"></a>
-
-Para arquivar um grupo, siga os passos abaixo:
-
-1. Faça login na Digibee Integration Platform.
-2. Clique no ícone de “Administração”;
-3. Entre na opção do menu “Grupos”;
-
-![](<../../.gitbook/assets/Imagem 9 (1).png>)
-
-4\. Procure o grupo desejado na barra de pesquisa;
-
-![](<../../.gitbook/assets/imagem 10 (1).png>)
-
-5\. Clique em “Arquivar”;
-
-6\. Preencha o motivo do arquivamento do grupo;
-
-![](<../../.gitbook/assets/Imagem 11.png>)
-
-![](<../../.gitbook/assets/Imagem 11 (1).png>)
-
-7\. Após preencher, clique em “Arquivar”
-
-**IMPORTANTE:** Ao arquivar um grupo, será solicitado o motivo para registro de histórico. Pois, quaisquer usuários vinculados ao grupo arquivado perderão acesso às permissões atribuídas por aquele grupo. Para consultar o histórico de alterações de um grupo, acesse a tela de auditoria da Plataforma.
-
-## Perguntas Frequentes <a href="#h_eb5d4f3092" id="h_eb5d4f3092"></a>
-
-### Um usuário tem que estar vinculado a um grupo? <a href="#h_720b9fa566" id="h_720b9fa566"></a>
-
-Não. Porém, se um usuário não estiver vinculado a nenhum grupo ele só terá acesso a visualizar e alterar seu perfil.
-
-### Qual a relação entre grupos e usuários? <a href="#h_fc7dde47d4" id="h_fc7dde47d4"></a>
-
-Um usuário pode pertencer a mais de um grupo e herdar as permissões associadas aos grupos ao qual pertence.
-
-Caso um usuário pertença a mais de um grupo, o resultado final dos seus acessos será a **soma das permissões entre todos os grupos que ele pertence**, dentro dos ambientes de cada vínculo.
-
-Por exemplo:
-
-Se em um grupo "teste", o usuário pode fazer _deploys_ no ambiente de teste e em outro grupo "produção", ele pode fazer _deploys_ em produção, o resultado final será que o usuário terá acesso para fazer _deploys_ em “produção” e em “teste”.
-
-Essa informação é bastante importante na hora de **remover** um acesso de um usuário. Pois, caso ele pertença a vários grupos com permissões repetidas, ao remover o acesso de apenas um grupo (ou do papel contido no grupo), o usuário ainda poderá ter acesso aos recursos da Plataforma.
-
-### Como devo fazer para remover uma ou mais permissões de um usuário na Plataforma? <a href="#h_c1dc901385" id="h_c1dc901385"></a>
-
-Ao clicar em” editar um usuário”, a Plataforma apresenta uma tela com a lista de todos os grupos aos quais ele pertence e outra com o resumo de todas as suas permissões.
-
-É preferível que se remova os usuários dos grupos e se verifique no resumo das permissões (_User Details > Permissions),_ se a permissão foi removida de fato.
-
-### A criação de um grupo é completamente personalizável? <a href="#h_15e5325b71" id="h_15e5325b71"></a>
-
-Sim. Basta que o usuário tenha a permissão USER GROUP: CRIAR (GROUP:CREATE) e USER GROUP: ATUALIZAR (GROUP:UPDATE), para respectivamente criar e editar grupos e seus vínculos na Plataforma.
-
-### O que acontece quando uma permissão é removida de um papel que está associado a um grupo? <a href="#h_b081a00dcb" id="h_b081a00dcb"></a>
-
-No momento em que a permissão for removida do papel, todos os grupos que tinham aquele papel como vínculo, perderão o acesso.
-
-Porém, é importante salientar que um grupo pode ter vários vínculos, ou seja, vários papéis aplicados a diferentes ambientes, e eventualmente, ao remover uma permissão de um papel, o grupo pode continuar com o acesso que foi removido devido a uma eventual acúmulo de permissões.
-
-Para remover o acesso de um único usuário (ou seja, remover a associação a um ou mais grupos) é recomendado utilizar a funcionalidade editar usuários.
+| Group name          | System roles                                                                                                                                                                                                                                   |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Developers          | Pipeline Builder, Capsule Builder, Pipeline Manager e Deployment Viewer                                                                                                                                                                        |
+| Deployer            | Deployment Manager e Deployment Viewer                                                                                                                                                                                                         |
+| Access managers     | Users Manager, Roles Manager, Groups Manager e Projects Manager                                                                                                                                                                                |
+| Governance managers | Account Viewer, Global Manager, Global Viewer, Capsule Manager, Capsule Publisher, Pipeline Manager, Audit Viewer, Multi instance Manager, Multi instance Viewer, API Key Manager, API Key Viewer, Relationship Manager e Relationship Viewer. |
+| Credential managers | Account Manager e API Key Manager                                                                                                                                                                                                              |
+| Support             | Pipeline Logs Viewer, Pipeline Metrics Viewer, Running Executions Manager, Running Executions Viewer e Pipeline Executor                                                                                                                       |

@@ -6,7 +6,7 @@ description: Saiba mais sobre o Histórico de versões de pipelines e suas funci
 
 ## Informações iniciais <a href="#h_54a1169b96" id="h_54a1169b96"></a>
 
-Para acessar o Histórico de versões de _pipelines_ e testar as funcionalidades apresentadas neste artigo, você precisa da permissão **BETA: PIPELINE-HISTORY**. Para saber mais sobre os papéis de sistema da Digibee e suas respectivas permissões, leia o artigo [Papéis de sistema e grupos padrão](../../administration/novo-controle-de-acesso/papeis-de-sistema-e-grupos-padrao.md).
+Para acessar o Histórico de versões de _pipelines_ e testar as funcionalidades apresentadas neste artigo, você precisa da permissão **BETA: PIPELINE-HISTORY**. Para saber mais sobre os papéis de sistema da Digibee e suas respectivas permissões, leia o artigo [Papéis de sistema e grupos padrão](broken-reference).
 
 ## Visão geral <a href="#h_0295944262" id="h_0295944262"></a>
 

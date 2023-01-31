@@ -1,105 +1,104 @@
 ---
-description: Entenda mais sobre papéis.
+description: Saiba como criar, editar e arquivar um papel
 ---
 
-# Papéis do Controle de Acesso
+# Papéis
 
-Os papéis agrupam as permissões de acesso aos serviços da Digibee Integration Platform. E devem ser usados para mapear os acessos dos usuários que fazem um trabalho similar dentro da Plataforma. Para isso, basta criar um papel e agrupar todas as permissões daquela função.
+{% hint style="info" %}
+Para realizar cada ação descrita nesta página, você deve ter sua respectiva permissão.
+{% endhint %}
 
-É possível, **criar, editar, duplicar e arquivar** um papel e também duplicar papéis de sistema para facilitar a criação de novos papéis. Para saber mais sobre papéis de sistemas, leia o artigo sobre [Papéis de sistema e grupos padrão.](https://intercom.help/godigibee/pt-BR/articles/5811758-papeis-de-sistema-e-grupos-padrao)
+{% hint style="info" %}
+Quando você cria, edita ou arquiva um papel, essas ações são registradas no histórico de alterações na página Auditoria.
+{% endhint %}
 
-Ao editar ou arquivar um papel, será solicitado um motivo para a ação de registro de histórico. Para consultar o histórico de alterações de um papel, acesse a tela de auditoria da Plataforma.
+## Como criar um papel
 
-## Antes de começar: <a href="#h_4acf5b5178" id="h_4acf5b5178"></a>
+Depois de fazer login na Digibee Integration Platform:
 
-Leia os seguintes artigo e conheça mais sobre o Novo Controle de Acesso:
+1. Clique no ícone de **Administração**, no canto superior direito;
+2. Clique em **Papéis**, na aba no canto esquerdo;
+3. Clique no botão **CRIAR**, no canto superior direito;
+4. Preencha o nome e a descrição do papel;
+5. Clique nos pontos nas colunas Criar, Ler, Atualizar, Deletar e Específico para ativar ou desativar a permissão para o serviço descrito em cada linha. As permissões ativadas são representado por pontos verdes;
+6. Clique em **SALVAR**.
 
-* [Novo modelo de controle de acesso.](https://intercom.help/godigibee/pt-BR/articles/5808132-novo-modelo-de-controle-de-acesso)
-* [Conceitos básicos sobre usuários](https://intercom.help/godigibee/pt-BR/articles/5808313-conceitos-basicos-sobre-usuarios)
+<figure><img src="https://i.imgur.com/3MUwR76.gif" alt=""><figcaption><p>Criando um papel</p></figcaption></figure>
 
-## Como criar seu primeiro papel <a href="#h_3cbcaa1595" id="h_3cbcaa1595"></a>
+## Como editar um papel
 
-Para criar um papel siga os seguintes passos:
+Depois de fazer login na Digibee Integration Platform:
 
-1. Faça login na Digibee Integration Platform.
-2. Clique no ícone de “Administração”
-3. Entre na opção do menu “Papéis”.
+1. Clique no ícone de **Administração**, no canto superior direito;
+2. Clique em **Papéis**, na aba no canto esquerdo;
+3. Pesquise na tabela o papel que deseja editar ou use a barra de pesquisa;
+4. Clique no ícone de lápis, na coluna Ações;
+5. Faça as alterações desejadas no papel;
+6. Clique em **SALVAR**.
 
-![](<../../.gitbook/assets/Imagem 1 (9).png>)
+<figure><img src="https://i.imgur.com/alpvCzw.gif" alt=""><figcaption><p>Editando um papel</p></figcaption></figure>
 
-4\. Clique no botão **+ CRIAR** no canto superior direito.
+## Como duplicar um papel
 
-5\. Em seguida, aparecerá uma tela onde devem ser preenchidos os campos de nome e descrição.
+Depois de fazer login na Digibee Integration Platform:
 
-6\. Abaixo existem as permissões de acesso: **CRIAR**, **LER**, **ATUALIZAR**, **REMOVER** e **ESPECÍFICO** que devem ser marcadas individualmente de acordo com cada serviço e funcionalidade.
+1. Clique no ícone de **Administração**, no canto superior direito;
+2. Clique em **Papéis**, na aba no canto esquerdo;
+3. Pesquise na tabela o papel que deseja duplicar ou use a barra de pesquisa;
+4. Clique no ícone de lápis ou de olho na coluna Ações;
+5. Clique em **DUPLICAR PAPEL**;
+6. Faça as alterações desejadas no novo papel;
+7. Clique em **SALVAR**.
 
-![](<../../.gitbook/assets/image (23).png>)
+<figure><img src="https://i.imgur.com/LliYgq9.gif" alt=""><figcaption><p>Duplicando um papel</p></figcaption></figure>
 
-7\. Após feito esse processo, clique em **SALVAR** no canto inferior direito.
+## Como arquivar um papel
 
-**Observação:** Após criar um papel, você pode vinculá-lo a um grupo. Para saber mais leia a nossa [documentação sobre como vincular um papel a um grupo](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/grupos-do-controle-de-acesso#como-vincular-um-papel-a-um-grupo).
+Ao arquivar um papel, as permissões concedidas por esse papel tornam-se inativas. Para arquivar um papel, siga esses passos:
 
-Existe também a possibilidade de criar os papéis a partir dos papéis já predefinidos na Plataforma usando a opção de duplicar papéis:
+Depois de fazer login na Digibee Integration Platform:
 
-1. Entre no menu “Papéis”.
-2. Selecione o papel pré-definido que deseje duplicar;
+1. Clique no ícone de **Administração**, no canto superior direito;
+2. Clique em **Papéis**, na aba no canto esquerdo;
+3. Procure o papel que deseja arquivar na tabela ou use a barra de pesquisa;
+4. Clique no ícone de caixa na coluna Ações;
+5. Escreva uma nota descrevendo o motivo do arquivamento dessa Papel;
+6. Clique em **CONFIRMAR**.
 
-![](<../../.gitbook/assets/Imagem 3 (2).png>)
+<figure><img src="https://i.imgur.com/9XhFjrZ.gif" alt=""><figcaption><p>Arquivando um papel</p></figcaption></figure>
 
-3\. Clique no ícone de visualizar papel;
+## Papéis de sistema
 
-4\. Será aberta uma página de visualização, clique em **DUPLICAR PAPEL;**
+Além de criar seus próprios papéis, você também pode usar os papéis de sistema da Digibee. Os papéis de sistema são papéis predefinidos criados pelo Digibee. Você não pode editar ou excluir os papéis do sistema, mas você pode replicá-los e editar suas réplicas.
 
-5\. Após isso, será aberta uma página contendo a cópia daquele papel, após realizar as alterações desejadas, clique em salvar que o papel terá sido criado com sucesso;
+Abaixo, você pode ver todos os papéis de sistema e suas respectivas permissões:
 
-O mesmo pode ser feito com papéis criados na Plataforma, facilitando a criação de novos papéis.
-
-## Como editar um papel <a href="#h_79989fc37c" id="h_79989fc37c"></a>
-
-Para editar um papel siga os seguintes passos:
-
-1. Faça login na Digibee Integration Platform;
-2. Clique no ícone de “Administração”
-3. Entre na opção do menu “Papéis”;
-
-![](<../../.gitbook/assets/Imagem 4 (4) (1).png>)
-
-5\. Busque na barra de pesquisa ou na tela de navegação o papel a ser editado;
-
-6\. Clique em “Atualizar”;
-
-7\. Em seguida, uma janela contendo as informações do papel selecionado aparecerá, nela você poderá editar as informações do papel;
-
-![](<../../.gitbook/assets/Imagem 5 (4).png>)
-
-8\. Após realizar as alterações, clique em **SALVAR.**
-
-***
-
-## Como arquivar um papel <a href="#h_5511fe06e1" id="h_5511fe06e1"></a>
-
-Para arquivar um papel siga os seguintes passos:
-
-1. Faça login na Digibee Integration Platform;
-2. Clique no ícone de “Administração”;
-3. Entre na opção do menu “Papéis”;
-4. Busque na barra de pesquisa ou na tela de navegação o papel a ser arquivado;
-
-![](<../../.gitbook/assets/Imagem 6 (7) (1).png>)
-
-5\. Clique em “Arquivar”;
-
-6\. Uma tela solicitando uma justificativa da arquivação aparecerá. Após digitar, clique em **CONFIRMAR**;
-
-![](<../../.gitbook/assets/image (11).png>)
-
-## Perguntas frequentes <a href="#h_f4c0b05002" id="h_f4c0b05002"></a>
-
-1.  **Quem pode criar novos papéis?**
-
-    Com o novo Controle de Acesso, teremos novos recursos que não existiam na plataforma, entre eles: Grupos e Papéis. Para liberar acesso a estes novos recursos, durante a implantação, todos os usuários que tiverem a permissão USER:CREATE e USER:UPDATE no antigo modelo, receberão automaticamente as novas permissões para criar grupos e papéis no modelo antigo.
-
-    Recomenda-se associar os usuários aos grupos padrões ou criar novos grupos e papéis onde os usuários terão um acesso adequado no novo modelo. Após a validação do novo modelo, o administrador do realm deve desligar o modelo antigo.
-2. **Como eu devo utilizar os papéis pré-definidos da Plataforma?**
-
-O sistema já traz alguns papéis pré-definidos para facilitar a criação de grupos, com esses papéis pré-definidos ou a criação de novos papéis a partir da sua cópia. Para maiores detalhes, consulte o documento sobre [Papéis de sistemas e grupos padrão.](https://intercom.help/godigibee/pt-BR/articles/5811758-papeis-de-sistema-e-grupos-padrao)
+| Role Name                  | ACLs                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Account Manager            | <p>ACCOUNT:CREATE</p><p>ACCOUNT:DELETE</p><p>ACCOUNT:READ</p><p>ACCOUNT:UPDATE</p><p>AUDIT:READ</p><p>GLOBAL:CREATE</p><p>GLOBAL:DELETE</p><p>GLOBAL:READ</p><p>GLOBAL:UPDATE</p><p>RELATION:CREATE</p><p>RELATION:DELETE</p><p>RELATION:READ</p><p>RELATION:UPDATE</p><p>USER:READ</p><p>OAUTH:CREATE</p><p>OAUTH:DELETE</p><p>OAUTH:UPDATE</p>                                   |
+| Account Viewer             | <p>ACCOUNT:READ</p><p>AUDIT:READ</p><p>GLOBAL:READ</p><p>RELATION:READ</p><p>USER:READ</p>                                                                                                                                                                                                                                                                                         |
+| Api Key Manager            | <p>APIKEY:CREATE</p><p>APIKEY:CREATE:ACL</p><p>APIKEY:CREATE:APIKEY</p><p>APIKEY:DELETE</p><p>APIKEY:DELETE:APIKEY</p><p>APIKEY:READ</p><p>APIKEY:UPDATE</p><p>AUDIT:READ</p><p>USER:READ</p>                                                                                                                                                                                      |
+| Api Key Viewer             | <p>APIKEY:READ</p><p>AUDIT:READ</p><p>USER:READ</p>                                                                                                                                                                                                                                                                                                                                |
+| Audit Viewer               | AUDIT:READ                                                                                                                                                                                                                                                                                                                                                                         |
+| Capsule Builder            | <p>ACCOUNT:READ</p><p>CAPSULE:CREATE</p><p>CAPSULE:CREATE:GROUP</p><p>CAPSULE:CREATE:HEADER</p><p>CAPSULE:DELETE</p><p>CAPSULE:DELETE:HEADER</p><p>CAPSULE:READ</p><p>CAPSULE:UPDATE</p><p>CAPSULE:UPDATE:HEADER</p><p>GLOBAL:READ</p><p>RELATION:READ</p><p>TEST-MODE:EXECUTE:CAPSULE</p>                                                                                         |
+| Capsule Manager            | <p>CAPSULE:CREATE</p><p>CAPSULE:CREATE:GROUP</p><p>CAPSULE:CREATE:HEADER</p><p>CAPSULE:DELETE</p><p>CAPSULE:DELETE:HEADER</p><p>CAPSULE:READ</p><p>CAPSULE:UPDATE</p><p>CAPSULE:UPDATE:HEADER</p><p>REPLICA:READ</p><p>TEST-MODE:EXECUTE:CAPSULE</p><p>CAPSULE:DELETE:GROUP</p><p>CAPSULE:UPDATE:GROUP</p>                                                                         |
+| Capsule Publisher          | CAPSULE:UPDATE:PUBLISH                                                                                                                                                                                                                                                                                                                                                             |
+| Deployment Manager         | <p>CONFIGURATION:CREATE</p><p>CONFIGURATION:READ</p><p>CONFIGURATION:UPDATE</p><p>DEPLOYMENT:CREATE</p><p>DEPLOYMENT:CREATE:REDEPLOY</p><p>DEPLOYMENT:DELETE</p><p>DEPLOYMENT:EXECUTE</p><p>DEPLOYMENT:READ</p><p>USER:READ:LIST-JWT</p><p>USER:CREATE:GENERATE-JWT</p><p>USER:DELETE:REVOKE-JWT</p><p>USER:READ:OPEN-AUTH-CONFIG</p>                                              |
+| Deployment Viewer          | <p>CONFIGURATION:READ</p><p>DEPLOYMENT:READ</p>                                                                                                                                                                                                                                                                                                                                    |
+| Global Manager             | <p>GLOBAL:CREATE</p><p>GLOBAL:DELETE</p><p>GLOBAL:READ</p><p>GLOBAL:UPDATE</p>                                                                                                                                                                                                                                                                                                     |
+| Global Viewer              | GLOBAL:READ                                                                                                                                                                                                                                                                                                                                                                        |
+| Groups Manager             | <p>GROUP:CREATE</p><p>GROUP:READ</p><p>GROUP:READ:PERMISSION</p><p>GROUP:UPDATE</p><p>GROUP:DELETE</p><p>USER:UPDATE:ASSIGN-GROUP</p><p>USER:READ:PERMISSION</p><p>USER:READ:INACTIVE-PERMISSION</p><p>PERMISSION:READ</p>                                                                                                                                                         |
+| Logs Viewer                | <p>LOG:READ</p><p>MESSAGE:READ</p><p>STATS:READ</p>                                                                                                                                                                                                                                                                                                                                |
+| Multi instance Manager     | <p>REPLICA:READ</p><p>REPLICA:CREATE</p><p>REPLICA:UPDATE</p><p>REPLICA:DELETE</p>                                                                                                                                                                                                                                                                                                 |
+| Multi instance Viewer      | REPLICA:READ                                                                                                                                                                                                                                                                                                                                                                       |
+| Metrics Viewer             | METRIC:READ                                                                                                                                                                                                                                                                                                                                                                        |
+| Pipeline Builder           | <p>ACCOUNT:READ</p><p>CONFIGURATION:CREATE</p><p>CONFIGURATION:READ</p><p>CONFIGURATION:UPDATE</p><p>APIKEY:READ</p><p>GLOBAL:READ</p><p>PIPELINE:CREATE</p><p>PIPELINE:READ</p><p>PIPELINE:READ:HISTORY</p><p>PIPELINE:UPDATE</p><p>PROJECT:READ</p><p>RELATION:READ</p><p>REPLICA:READ</p><p>TEST-MODE:EXECUTE</p>                                                               |
+| Pipeline Executor          | DEPLOYMENT:EXECUTE                                                                                                                                                                                                                                                                                                                                                                 |
+| Pipeline Manager           | <p>ACCOUNT:READ</p><p>CONFIGURATION:CREATE</p><p>CONFIGURATION:READ</p><p>CONFIGURATION:UPDATE</p><p>APIKEY:READ</p><p>GLOBAL:READ</p><p>PIPELINE:CREATE</p><p>PIPELINE:DELETE</p><p>PIPELINE:READ</p><p>PIPELINE:READ:HISTORY</p><p>PIPELINE:UPDATE</p><p>PROJECT:READ</p><p>PROJECT:UPDATE:LINK-WITH-PIPELINE</p><p>RELATION:READ</p><p>REPLICA:READ</p><p>TEST-MODE:EXECUTE</p> |
+| Projects Manager           | <p>AUDIT:READ</p><p>PROJECT:CREATE</p><p>PROJECT:DELETE</p><p>PROJECT:READ</p><p>PROJECT:UPDATE</p><p>PROJECT:UPDATE:LINK-WITH-PIPELINE</p><p>PERMISSION:READ</p>                                                                                                                                                                                                                  |
+| Relationship Manager       | <p>RELATION:READ</p><p>RELATION:CREATE</p><p>RELATION:UPDATE</p><p>RELATION:DELETE</p>                                                                                                                                                                                                                                                                                             |
+| Relationship Viewer        | RELATION:READ                                                                                                                                                                                                                                                                                                                                                                      |
+| Roles Manager              | <p>ROLE:CREATE</p><p>ROLE:READ</p><p>ROLE:UPDATE</p><p>ROLE:DELETE</p><p>PERMISSION:READ</p>                                                                                                                                                                                                                                                                                       |
+| Running Executions Manager | <p>INFLIGHT:CANCEL</p><p>INFLIGHT:READ</p>                                                                                                                                                                                                                                                                                                                                         |
+| Running Executions Viewer  | INFLIGHT:READ                                                                                                                                                                                                                                                                                                                                                                      |
+| Users Manager              | <p>USER:CREATE</p><p>USER:DELETE</p><p>USER:READ</p><p>USER:UPDATE</p><p>PERMISSION:READ</p>                                                                                                                                                                                                                                                                                       |

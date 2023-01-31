@@ -1,45 +1,33 @@
 ---
-description: A nova funcionalidade de gestão de permissões da Digibee Integration Platform
+description: Gerencie permissões de usuário na Digibee Integration Platform
 ---
 
-# Novo Controle de Acesso
+# Controle de acesso
 
-## Visão Geral <a href="#h_2920fcba8e" id="h_2920fcba8e"></a>
+Usando o controle de acesso do Digibee, o gerenciador de acesso pode determinar quais usuários têm permissão para executar determinadas tarefas na Digibee Integration Platform.
 
-O Controle de Acesso é o novo recurso de gestão de acesso para usuários na Digibee Integration Platform. A partir dele são definidas as permissões de acesso dentro de um _realm_.
+## Usuários, grupos e papéis
 
-As atualizações passaram a permitir o agrupamento e reuso de perfis de acessos similares para melhorar a experiência da gestão de acesso do _realm._ O novo modelo de Controle de Acesso permite uma gestão mais ágil, prática e eficaz dos usuários e seus acessos.
+Na Digibee Integration Platform, as permissões são gerenciadas associando **usuários** a **grupos**. Os grupos, por sua vez, são associados a **papéis**. Um papel é um conjunto de permissões. Essas permissões podem mudar de acordo com o ambiente no qual o usuário está: test ou prod.
 
-## Conceitos relacionados ao Controle de Acesso <a href="#h_91b5e85b5a" id="h_91b5e85b5a"></a>
+Para acessar a Digibee Integration Platform, os usuários devem estar atribuídos a pelo menos um grupo. Usuários podem pertencer a vários grupos ao mesmo tempo.
 
-Agora o **Controle de Acesso** possui 3 etapas de criação de acesso: **usuários, papéis e grupos**. Desta forma, para o usuário ter acesso às funcionalidades da Plataforma o mesmo deve pertencer a um grupo que por sua vez possui um ou mais papéis associados
+Para saber mais sobre usuários, grupos e papéis, leia os artigos abaixo:
 
-![](<../../.gitbook/assets/Imagem 1.png>)
+* Usuários
+* Grupos
+* Papéis
 
-**Usuários:** Representam as pessoas que têm acesso à Plataforma e possui os dados pessoais dos usuário, como nome, sobrenome, e-mail e fuso horário .
+## Perguntas frequentes
 
-**Papéis:** Representam um conjunto de permissões, normalmente correspondentes às atividades que um ou mais usuários executam na Plataforma. Esta entidade contém as permissões para os recursos da Plataforma.
+* **Posso atribuir um papel a um usuário?**
 
-**Grupos:** Os Grupos associam um conjunto de usuários, com um ou mais papéis. Os usuários só terão acesso aos recursos da Plataforma se estiverem listados em um ou mais grupos.
+Não diretamente. Para conceder permissão a um usuário para executar uma determinada ação, você deve atribuí-lo a um grupo cujos papéis incluem a permissão para executar essa ação.
 
-## Como funciona? <a href="#h_043a5cc89f" id="h_043a5cc89f"></a>
+* **O que acontece se um usuário não for atribuído a nenhum grupo?**
 
-A figura abaixo apresenta os principais componentes do novo controle de acesso da Digibee HIP:
+Usuários que não estão atribuídos a nenhum grupo podem apenas visualizar e editar seus próprios perfis. Eles não podem interagir com a Digibee Integration Platform.
 
-![](<../../.gitbook/assets/Imagem 2 (3).png>)
+* **O que acontece se eu pertencer a um grupo no qual tenho permissão para realizar uma determinada ação e a outro grupo no qual não tenho?**
 
-Um grupo é uma associação entre um conjunto de usuários (membros) e os vínculos. Um vínculo é uma associação entre um papel (e seus respectivos acessos) e um ambiente (podendo ser teste, produção ou ambos).
-
-Para dar permissão a um novo usuário, o administrador do _realm_ deve criar papéis com seus respectivos acessos, criar usuários (que não terão nenhum acesso por padrão) e criar grupos, os quais vão associar os usuários, aos seus papéis e ambientes.
-
-Há também a opção de utilizar papéis e grupos pré-definidos pela Plataforma. Para saber mais sobre esse assunto, leia o artigo sobre [Papéis de Sistemas e Grupo Padrão](https://intercom.help/godigibee/pt-BR/articles/5811758-papeis-de-sistema-e-grupos-padrao).
-
-## Como começar? <a href="#h_3abe341103" id="h_3abe341103"></a>
-
-Para saber mais sobre como implementar o novo controle de acesso, siga o passo a passo abaixo:
-
-1. Primeiramente, o administrador do _realm_ deve definir quais papéis serão utilizados pelos usuários que terão acesso à Plataforma. Para saber mais sobre a criação de papéis, leia o artigo [Papéis do Controle de Acesso](https://intercom.help/godigibee/pt-BR/articles/5810244-papeis-do-controle-de-acesso)
-   1. Para facilitar a definição dos papéis do controle de acesso, a Plataforma fornece um conjunto de papéis de sistemas (pré-definidos) que podem ser utilizados duplicados para facilitar a criação de novos papéis. Para saber mais sobre Papéis de Sistemas, leia o artigo[ Papéis de Sistema e Grupos Padrão](https://intercom.help/godigibee/pt-BR/articles/5811758-papeis-de-sistema-e-grupos-padrao)
-2. O administrador do _realm_ também deve criar o cadastro dos usuários que terão acesso à Plataforma. Clique aqui para entender mais sobre[ Conceitos básicos sobre Usuários](https://intercom.help/godigibee/pt-BR/articles/5808313-conceitos-basicos-sobre-usuarios)
-3. Por fim, após ter definido os papéis e usuários, o administrador do _realm_ deve criar os grupos que associam um usuário e um ou mais papéis e seu respectivo ambiente. Para saber mais sobre grupos, leia o artigo [Grupos do Controle de Acesso.](https://intercom.help/godigibee/pt-BR/articles/5810361-grupos-do-controle-de-acesso)
-4. Após criar Grupos, Usuários e Papéis, acesse a tela de Usuários para verificar se todos os usuários estão aptos à transição. Os usuários que ainda não tiveram seus acessos replicados no novo modelo aparecerão com um ícone de atenção. Para saber, leia o artigo [Transição do novo Controle de Acesso](https://intercom.help/godigibee/pt-BR/articles/5810530-transicao-do-novo-controle-de-acesso).
+A permissão de um usuário é a soma das permissões dos grupos aos quais ele pertence. Isso significa que ele poderá realizar uma determinada ação se qualquer grupo ao qual ele pertence conceder permissão para isso.
