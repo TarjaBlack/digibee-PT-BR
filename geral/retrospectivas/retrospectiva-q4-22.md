@@ -26,8 +26,7 @@ Uma melhoria no componente S3 Storage que permite a adoção de uma URL de endpo
 
 ### [Cassandra DB](https://docs.digibee.com/documentation/v/pt-br/components/structured-data/cassandra-db)
 
-O componente Cassandra DB executa operações no Apache Cassandra, um banco de dados NoSQL projetado para gerenciar grandes quantidades de dados em tempo real, permitindo resposta imediata e suporte a pontos de falha.\
-
+O componente Cassandra DB executa operações no Apache Cassandra, um banco de dados NoSQL projetado para gerenciar grandes quantidades de dados em tempo real, permitindo resposta imediata e suporte a pontos de falha.
 
 ### [Conexão TLS no MongoDB](https://docs.digibee.com/documentation/v/pt-br/components/structured-data/mongo-db)
 
@@ -41,13 +40,11 @@ A nova versão do ambiente de criação de pipeline da Digibee Integration Platf
 
 ### [Nova Página de Gestão de Subscriptions (Beta restrito)](https://docs.digibee.com/documentation/v/pt-br/licenciamento/meu-consumo)
 
-A página Meu Consumo permite rastrear facilmente o consumo e a disponibilidade de Pipeline Subscriptions e RTUs disponíveis em seu realm.\
-
+A página Meu Consumo permite rastrear facilmente o consumo e a disponibilidade de Pipeline Subscriptions e RTUs disponíveis em seu realm.
 
 ### [Nova operação de redeploy (General Availability, GA)](https://docs.digibee.com/documentation/run/redeploying-a-pipeline)
 
-O recurso de redeploy na página RUN torna o processo de reimplantação do pipeline mais fácil e rápido para os ambientes de Teste e Produção. Isso permite que um pipeline seja reimplantado mais rapidamente quando ocorre um erro.\
-
+O recurso de redeploy na página RUN torna o processo de reimplantação do pipeline mais fácil e rápido para os ambientes de Teste e Produção. Isso permite que um pipeline seja reimplantado mais rapidamente quando ocorre um erro.
 
 ### [Informações do pipeline em tempo real (General Availability, GA)](https://docs.digibee.com/documentation/v/pt-br/run/status-de-implantacao-do-pipeline)
 
@@ -55,8 +52,7 @@ Graças ao redesign da página RUN, você pode acompanhar o status da implantaç
 
 ### [Execuções Concluídas - Melhorias na página (General Availability, GA) ](https://docs.digibee.com/documentation/v/pt-br/monitor/execucoes-concluidas)
 
-A página onde você acompanha a execução dos pipelines e seus históricos de log agora tem mais melhorias: novos botões, adição da unidade de tempo decorrido e melhorias no campo de busca.\
-
+A página onde você acompanha a execução dos pipelines e seus históricos de log agora tem mais melhorias: novos botões, adição da unidade de tempo decorrido e melhorias no campo de busca.
 
 ### [Pipeline Logs - Melhorias na página (General Availability, GA)](https://docs.digibee.com/documentation/v/pt-br/monitor/pipeline-logs)
 
