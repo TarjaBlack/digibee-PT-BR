@@ -69,7 +69,7 @@ Depois de fazer login na Digibee Integration Platform:
 
 ## Grupos padrão
 
-Além de criar seus próprios grupos, você também pode usar os grupos padrão do Digibee. Cada grupo padrão é vinculado a um conjunto de papéis de sistema. Esses grupos cobrem os tipos de usuários mais comuns da Digibee Integration Platform.
+Além de criar seus próprios grupos, você também pode usar os grupos padrão do Digibee. Cada grupo padrão é vinculado a um conjunto de [papéis de sistema](papeis-do-controle-de-acesso.md#papeis-de-sistema). Esses grupos cobrem os tipos de usuários mais comuns da Digibee Integration Platform.
 
 Ao contrário dos papéis de sistema, os grupos padrão podem ser modificados, excluídos e arquivados.
 
