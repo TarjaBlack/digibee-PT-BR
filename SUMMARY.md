@@ -113,6 +113,7 @@
 * [Status Page](geral/status-page.md)
 * [Programa Beta](geral/programa-beta.md)
 * [Retrospectivas](geral/retrospectivas/README.md)
+  * [Retrospectiva, Q4/22](geral/retrospectivas/retrospectiva-q4-22.md)
   * [Retrospectiva, Q3/22](geral/retrospectivas/retrospectiva-q3-22.md)
   * [Retrospectiva, Q2/22](geral/retrospectivas/retrospectiva-q2-22.md)
 * [Roadmap de Produto](geral/roadmap-de-produto/README.md)
