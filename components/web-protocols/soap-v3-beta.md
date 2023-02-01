@@ -11,7 +11,7 @@ Além disso, o componente utiliza templates Apache FreeMaker para gerar a mensag
 ## Dê uma olhada nos parâmetros de configuração do componente:
 
 * **URL:** URL a ser chamada - pode conter os parâmetros seguindo o padrão {:param1}, que serão substituídos pela propriedade correspondente da mensagem de entrada.
-* **Account:** conta a ser utilizada pelo componente.
+* **Account:** conta a ser utilizada pelo componente. Leia a documentação sobre [Contas (Accounts)](https://docs.digibee.com/documentation/v/pt-br/configurations/contas-accounts) para saber mais sobre os tipos de contas disponíveis.
 * **Custom Account #1:** conta adicional a ser utilizada pelo componente por meio de Double Braces \{{ account.custom-1.value \}}. Clique aqui para ler o nosso artigo sobre o tema.&#x20;
 * **Custom Account #2:** conta adicional a ser utilizada pelo componente por meio de Double Braces \{{ account.custom-2.value \}}. Clique aqui para ler o nosso artigo sobre o tema.
 * **Send the Request Body from a File:** se habilitada, a opção considera o conteúdo a ser enviado na chamada através de um arquivo; do contrário, será considerado o que for especificado em "Template".
