@@ -12,7 +12,7 @@ Dê uma olhada nas opções de configuração do componente:
 
 *   **Account:** conta a ser utilizada pelo componente (listar as _accounts_ suportadas pelo componente). As _accounts_ suportadas são: basic e _public key_. A _Basic_ é utilizada para se conectar via _ConnectionString_, deve ser passado o nome da _account_ do _storage_ no campo usuário e a _key1_ no campo _password_. A _public key_ é utilizada caso queira autenticar via _SAS token_, utilizar a _public-key_ no campo key, passar o _SAS token_ gerado pela Azure. Para saber mais sobre esses _accounts_ e os outros tipos existentes, clique no link.
 
-    [Aqui](../../configurations/utilizacao-de-contas.md#contas-accounts).
+    [Aqui](broken-reference).
 * **Step Name:** Nome do passo que o componente é configurado.
 * **Operation:** Qual operação o componente irá realizar, _list_, download, _upload_ ou delete (o preenchimento deste campo é obrigatório).
 * **Container Name:** Nome do _container_ do _Blob Storage_ ( Azure ) que manipulará os arquivos (o preenchimento deste campo é obrigatório).

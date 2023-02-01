@@ -100,7 +100,6 @@
   * [Nova Arquitetura OAuth](configurations/contas-accounts/nova-arquitetura-oauth/README.md)
     * [Cadastro de novos provedores OAuth](configurations/contas-accounts/nova-arquitetura-oauth/cadastro-de-novos-provedores-oauth.md)
   * [Configurando Account Dropbox](configurations/contas-accounts/configurando-account-dropbox.md)
-* [Utilização de Contas](configurations/utilizacao-de-contas.md)
 * [Chaves de API (Consumers)](configurations/chaves-de-api-consumers.md)
 * [Relacionamento](configurations/relacionamento.md)
 * [Multi-Instância](configurations/multi-instancia.md)

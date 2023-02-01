@@ -119,7 +119,7 @@ Utilizando a combinação do componente [Block Execution](../../../components/lo
 
 O objetivo dessa Cápsula é facilitar o envio de erros por e-mail com base nas informações preenchidas no formulário de configuração. A _**Send Email Alert**_ possibilita o envio de informações complementares em um _template_ de e-mail pré-determinado para que se entenda a causa raiz do erro.
 
-Para utilizar a Cápsula, é preciso configurar uma conta do tipo “_SMTP Auth And Properties_”. Para saber mais, leia o artigo [Utilização de Contas](../../../configurations/utilizacao-de-contas.md).
+Para utilizar a Cápsula, é preciso configurar uma conta do tipo “_SMTP Auth And Properties_”. Para saber mais, leia o artigo [Utilização de Contas](broken-reference).
 
 Para visualizar um exemplo de configuração utilizando sua conta Google, leia o artigo [Utilizando sua conta Gmail com o componente de e-mail da Digibee (SMTP)](../../../tutoriais-e-melhores-praticas/utilizando-sua-conta-gmail-com-o-componente-de-e-mail-da-digibee-smtp.md).
 

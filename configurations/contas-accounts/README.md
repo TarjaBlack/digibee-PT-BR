@@ -153,8 +153,19 @@ Conta que configura uma API Key para ser utilizada em _endpoints_ que necessitam
 * **URL-PARAM-NAME:** nome do _query parameter_ em que a API Key configurada será utilizada
 * **API-KEY:** valor da API Key a ser utilizada
 
-**IMPORTANTE**: os provedores abaixo têm um prazo de expiração para seu token de autenticação. Com isso, é necessário atualizar as configurações de suas contas conforme o prazo previsto por eles.
+{% hint style="info" %}
+**IMPORTANTE**: os provedores abaixo têm um prazo de expiração para seu _token_ de autenticação. Com isso, é necessário atualizar as configurações de suas contas conforme o prazo previsto por eles.
+{% endhint %}
 
 Microsoft - 3 meses\
 Google - 6 meses\
 Mercado Livre - 6 meses
+
+### NTLM
+
+O NTLM _(NT Lan Manager)_ é um conjunto de protocolos de segurança Microsoft para autenticação, integridade e confidencialidade que pode ser acessado por meio do componente [SOAP V3](https://docs.digibee.com/documentation/v/pt-br/components/web-protocols/soap-v3-beta).
+
+* **USERNAME:** nome do usuário
+* **PASSWORD:** senha utilizada para o acesso
+* **DOMAIN (opcional):** nome do domínio
+* **HOSTNAME (opcional):** nome do _host_
