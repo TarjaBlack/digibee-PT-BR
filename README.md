@@ -16,15 +16,15 @@ Visite: [https://www.digibee.com.br](https://intercom.help/godigibee/pt-BR/)
 
 ## Sobre a Digibee Integration Platform
 
-A Plataforma de Integração da Digibee conecta aplicações e serviços corporativos 10x mais rápido usando sua abordagem de Integration Low-Code, Cloud Native e Full Life-Cycle. Através de uma arquitetura moderna de integração, a Digibee executa com segurança suas integrações, oferecendo alto desempenho, flexibilidade e resiliência.&#x20;
+A Plataforma de Integração da Digibee conecta aplicações e serviços corporativos 10x mais rápido usando sua abordagem de Integration Low-Code, Cloud Native e Full Life-Cycle. Através de uma arquitetura moderna de integração, a Digibee executa com segurança suas integrações, oferecendo alto desempenho, flexibilidade e resiliência.
 
-A Digibee Integration Platform reduz drasticamente a complexidade dos ambientes de integração e permite que você transforme digitalmente seus sistemas legados 10 vezes mais rápido.&#x20;
+A Digibee Integration Platform reduz drasticamente a complexidade dos ambientes de integração e permite que você transforme digitalmente seus sistemas legados 10 vezes mais rápido.
 
 Acesse a plataforma de integração Digibee em: [https://www.godigibee.io](https://www.godigibee.io)
 
 ## Seções
 
-Este portal de documentação está organizado nas seguintes seções:&#x20;
+Este portal de documentação está organizado nas seguintes seções:
 
 * **Build** - A etapa “Build” é onde ocorre a construção dos pipelines. Aqui você aprenderá como criar um pipeline (fluxo de integração) e como agrupá-los em componentes reutilizáveis ​​chamados Cápsulas.
 * **Run** - A etapa “Run” é quando os pipelines são implantados. Aprenda como implantar e rodar pipelines de maneira eficiente.
@@ -32,6 +32,16 @@ Este portal de documentação está organizado nas seguintes seções:&#x20;
 * **Administração** - Em “Administração”, você aprenderá como gerenciar todos os recursos de governança, como auditoria e controle de acesso.
 * **Configurações** - Aprenda como lidar com suas configurações de _realm_, como Globals, Contas (Accounts), Chaves de API (Consumers), Relacionamento e Multi-Instância.
 * **Geral** - Esta seção apresenta recursos, documentos e programas gerais.
-* **Componentes** - Aqui você pode acessar nossa documentação de referência para Triggers e Conectores da Digibee Integration Platform para construir um pipeline.&#x20;
-* **Tutoriais e Melhores Práticas -**  Acesse nossos guias e dicas para desenvolver os melhores pipelines.
+* **Componentes** - Aqui você pode acessar nossa documentação de referência para Triggers e Conectores da Digibee Integration Platform para construir um pipeline.
+* **Tutoriais e Melhores Práticas -** Acesse nossos guias e dicas para desenvolver os melhores pipelines.
 * **Plataforma -** Confira esta seção para saber mais sobre como a Digibee Integration Platform foi implementada.
+
+## Digibee Academy
+
+Digibee Academy é uma iniciativa da Digibee para expandir o conhecimento dos profissionais em contextos de integração que envolvem cenários de desafios internos de TI, assim como desafios externos com parceiros de seu ecossistema de negócios.
+
+Aplicando nossa metodologia Simplexity Mindset, capacitamos os alunos com uma visão diferente sobre as integrações, para alcançarem o domínio da Digibee Integration Platform através de treinamentos, certificações e trilhas de aprendizado. Isto permite que construam aplicações de alta performance, atingindo consistentemente níveis mais altos de arquitetura e boas práticas.
+
+O objetivo do Digibee Academy é aprimorar o aprendizado de todos os usuários rumo à autossuficiência.
+
+[Inscreva-se já!](https://digibee.academy/login/index.php?utm\_source=education\&utm\_medium=documentation\&utm\_campaign=portal\&utm\_id=07)
