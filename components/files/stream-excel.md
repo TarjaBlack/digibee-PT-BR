@@ -6,7 +6,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 
 
-O **Stream Excel** lê um arquivo local de Excel linha por linha em uma estrutura JSON e dispara _subpipelines_ para processar cada linha. Esse recurso costuma ser indicado em situações nas quais há a necessidade de processamento de arquivos grandes.
+O _**Stream Excel**_** ** lê um arquivo local de Excel linha por linha em uma estrutura JSON e dispara _subpipelines_ para processar cada linha. Esse recurso costuma ser indicado em situações nas quais há a necessidade de processamento de arquivos grandes.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
@@ -25,7 +25,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 O _**Stream Excel**_ realiza processamento em lote. Para entender melhor o conceito, clique [aqui](../../tutoriais-e-melhores-praticas/processamento-em-lote.md).
 
+{% hint style="info" %}
 **IMPORTANTE:** o _**Stream Excel**_ não é capaz de ler arquivos no formato .xls, mas apenas no formato .xlsx.
+{% endhint %}
 
 ### Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
@@ -67,9 +69,13 @@ O componente retorna um JSON contendo o total de execuções, total de sucesso e
 
 O componente joga uma exceção se o arquivo não existir ou não puder ser lido. Do contrário, uma mensagem é produzida na saída com a exceção ocorrida.
 
-A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
+Você também pode encontrar um erro ao fazer o upload de um arquivo .xlsx no Google Drive e, em um _pipeline_, usar o componente _**Google Drive**_ para fazer o download e o componente _**Stream Excel**_ para ler este arquivo.
 
-Este componente realiza processamento em lote. Para entender melhor o conceito, clique [aqui](../../tutoriais-e-melhores-praticas/processamento-em-lote.md).
+Quando você faz essa ação, um comportamento inesperado do Google Sheets altera o arquivo .xlsx. Isso faz com que o _**Stream Excel**_ leia todas as linhas da planilha (incluindo aquelas em branco) ao invés de ler apenas as linhas com conteúdo. Este comportamento não está relacionado com a Digibee Integration Platform.
+
+Como solução alternativa, você pode copiar o conteúdo da planilha e colar em uma nova guia no mesmo arquivo .xlsx. Se você fizer esse procedimento, não copie as linhas em branco ou o mesmo erro irá ocorrer.
+
+A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
 
 ### Stream Excel em Ação <a href="#h_d40e176def" id="h_d40e176def"></a>
 
