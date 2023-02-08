@@ -45,7 +45,7 @@ Para utilizar o componente _**Assert**_ para criar uma validação por usuário 
 
 Depois que você terminar as configurações, é necessário implantar o _pipeline_ no seu devido ambiente de teste ou produção para poder testar o fluxo. Se você tiver alguma dúvida mais específica sobre implantação de _pipelines_ na Plataforma, clique [aqui](../../../build/pipelines/) para ler o nosso artigo sobre o assunto.
 
-Lembre-se que todos os fluxos implantados na Digibee com _trigger_ tipo REST ou HTTP (e seus derivados) precisam fazer uso de _API Key_. Com o _login_ não é diferente. Clique [aqui](../../../tutoriais-e-melhores-praticas/pipelines-checklist-de-construcao.md) para obter mais informações sobre segurança.
+Lembre-se que todos os fluxos implantados na Digibee com _trigger_ tipo REST ou HTTP (e seus derivados) precisam fazer uso de _API Key_. Com o _login_ não é diferente. Clique [aqui](broken-reference) para obter mais informações sobre segurança.
 
 Com a API Key configurada, você pode dar início ao teste. Veja, no exemplo a seguir, como fazer isso utilizando o _postman_. Mas lembre-se: você pode usar o _client_ que está acostumado ou qualquer outra aplicação que preferir.
 

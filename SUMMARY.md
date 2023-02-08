@@ -286,7 +286,7 @@
   * [Tutorial de paginação - parte 4](tutoriais-e-melhores-praticas/tutorial-de-paginacao/tutorial-de-paginacao-parte-4.md)
 * [Processamento em lote](tutoriais-e-melhores-praticas/processamento-em-lote.md)
 * [Arquitetura orientada a eventos](tutoriais-e-melhores-praticas/arquitetura-orientada-a-eventos.md)
-* [Pipelines: checklist de construção](tutoriais-e-melhores-praticas/pipelines-checklist-de-construcao.md)
+* [Checklist de construção de pipelines](tutoriais-e-melhores-praticas/checklist-de-construcao-de-pipelines.md)
 * [Validando mensagens em um Consumer](tutoriais-e-melhores-praticas/validando-mensagens-em-um-consumer.md)
 * [Funções e Utilidades para banco de dados](tutoriais-e-melhores-praticas/funcoes-e-utilidades-para-banco-de-dados.md)
 * [Utilizando sua conta Gmail com o componente de e-mail da Digibee (SMTP)](tutoriais-e-melhores-praticas/utilizando-sua-conta-gmail-com-o-componente-de-e-mail-da-digibee-smtp.md)
