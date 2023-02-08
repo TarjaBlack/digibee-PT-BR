@@ -4,7 +4,7 @@ description: Entenda os conceitos relacionados a Run.
 
 # Conceitos de Run
 
-## **O que é “implantação”?** <a href="#h_cd9a478525" id="h_cd9a478525"></a>
+## **O que é implantação?** <a href="#h_cd9a478525" id="h_cd9a478525"></a>
 
 Implantação (_deployment_) é o processo de disponibilização dos _pipelines_ que já possuem _triggers_ configurados.
 
