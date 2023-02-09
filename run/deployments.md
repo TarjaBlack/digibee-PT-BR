@@ -60,9 +60,9 @@ Para usuários com Modelo Baseado em _Pipeline_ será exibida uma tela com o cá
 
 Para usuários com Modelo Baseado em _Subscription_ será exibida uma tela com o cálculo de RTUs e subscrições.
 
-<figure><img src="../.gitbook/assets/pt deploying.png" alt=""><figcaption></figcaption></figure>
+> Note que a partir de 01/04/2022 adotamos um novo modelo de controle e precificação de implantação, por isso, existe uma tela de confirmação com novas informações. [Saiba mais sobre o Modelo Baseado em _Subscription_.](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelo-baseado-em-subscription)
 
-> Note que a partir de 01/04/2022 adotamos um novo modelo de controle e precificação de implantação, por isso, existe uma tela de confirmação com novas informações. Saiba mais sobre o [Modelo Baseado em _Subscription_](https://docs.digibee.com/help-center/v/pt-br/geral/novo-modelo-saas-subscription).
+<figure><img src="../.gitbook/assets/pt deploying.png" alt=""><figcaption></figcaption></figure>
 
 ### **Feedback** <a href="#h_b71ada9afe" id="h_b71ada9afe"></a>
 
