@@ -89,7 +89,7 @@ headers: {
 
 ## Digibee JWT em ação <a href="#digibee-jwt-em-ao" id="digibee-jwt-em-ao"></a>
 
-Criamos um artigo sobre esse componente. Caso queira entender melhor o seu uso e aplicação, clique [aqui](implementacao-do-digibee-jwt.md).
+Esse componente precisa da implementação do _pipeline_ para funcionar corretamente. Consulte o artigo [Implementação do Digibee JWT](https://docs.digibee.com/documentation/v/pt-br/components/security-components/digibee-jwt/implementacao-do-digibee-jwt) para entender melhor o seu uso e aplicação.
 
 ## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
 
