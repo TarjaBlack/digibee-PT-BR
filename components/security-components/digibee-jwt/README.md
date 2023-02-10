@@ -19,16 +19,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 ### Operação GENERATE <a href="#operao-generate" id="operao-generate"></a>
 
-O componente pode receber qualquer objeto na entrada e irá repassar o _body_ completo para geração do _token_. Se você quiser passar os **Scopes** e/ou **Expiration** dinamicamente, informe-os conforme ilustrado abaixo, junto com qualquer parâmetro adicional dentro da mensagem de entrada:
+**Entrada**
 
-```
-{
-"scopes": "SCOPE1,SCOPE2,...,...",
-"expiration": 1602790847,
-"randomProperty": "someValue",
-...
-}
-```
+O componente pode receber qualquer objeto na entrada e irá repassar o _body_ completo para geração do _token_. Você pode passar os **Scopes** e/ou **Expiration** dinamicamente via _Double Braces_ junto com qualquer parâmetro adicional dentro da mensagem de entrada.
 
 **Saída**
 
@@ -159,4 +152,4 @@ O exemplo abaixo indica uma entrada de dados recomendável no JWT:
 
 
 
-Se você quiser saber mais sobre _tokens_ JWT, clique [aqui](https://jwt.io/).
+Para mais informações, consulte a [documentação do JWT](https://jwt.io/).
