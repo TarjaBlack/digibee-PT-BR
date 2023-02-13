@@ -8,7 +8,7 @@ description: >-
 
 O acesso aos bancos de dados é feito por meio do uso de componentes próprios para isso, tais como:
 
-* DB ([V2](../components/structured-data/db-v2/))
+* DB ([V2](../components/structured-data/db-v2.md))
 * Stream DB ([V3](../components/structured-data/stream-db-v3.md))
 * [Stored Procedure](../components/structured-data/stored-procedure.md)
 
