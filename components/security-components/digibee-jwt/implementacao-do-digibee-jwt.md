@@ -2,7 +2,7 @@
 description: Veja alguns exemplos de uso do componente.
 ---
 
-# Implementação do Digibee JWT
+# Implementação do Digibee JWT (Generate and Decode)
 
 A utilização mais comum do JWT acontece durante a autorização de um serviço exposto na rede via protocolo HTTP.
 
@@ -25,11 +25,11 @@ Se você tiver alguma dúvida sobre como preencher os campos mencionados acima, 
 
 Com o _trigger_ configurado, você pode construir o fluxo utilizando os componentes necessários para a criação do _token_. Mas não se preocupe - existe um componente específico que gera o _token_ JWT. Acompanhe como fazer:
 
-* arraste o ícone do Digibee JWT para a sua área de construção;
+* arraste o ícone do Digibee JWT (Generate and Decode) para a sua área de construção;
 * selecione a _Operation_ _**GENERATE**_ para a criação do _token_;
 * nos campos _Scopes_ e _Expiration_, aplique as regras que melhor atendem o seu negócio.
 
-Se quiser saber mais detalhes sobre o Digibee JWT, é só clicar [aqui](./).
+Se quiser saber mais detalhes sobre o Digibee JWT (Generate and Decode), é só clicar [aqui](./).
 
 ### **Utilizando o Assert** <a href="#utilizando-o-assert" id="utilizando-o-assert"></a>
 
@@ -72,4 +72,4 @@ Se você informar a _API Key_ e não informar o _token_, então um erro de autor
 
 Com esse passo-a-passo sobre o uso do _token_ JWT, você pode aproveitar para customizar a segurança nos seus próximos _pipelines_.
 
-Para conhecer o componente Digibee JWT mais a fundo, clique [aqui](./).
+Para conhecer o componente _Digibee JWT (Generate and Decode)_ mais a fundo, clique [aqui](./).
