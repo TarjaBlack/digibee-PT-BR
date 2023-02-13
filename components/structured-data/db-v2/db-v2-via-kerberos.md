@@ -1,18 +1,12 @@
 ---
-description: Conheça o componente e saiba como utilizá-lo.
+description: >-
+  Saiba mais sobre como você pode usar o componente via Kerberos em alguns
+  cenários.
 ---
 
-# DB V2
+# DB V2 via Kerberos
 
-O **DB V2** efetua operações de SELECT, INSERT, DELETE e UPDATE e também faz chamadas em PROCEDURES, retornando os valores para uma estrutura JSON.
-
-{% hint style="info" %}
-**IMPORTANTE:** em casos onde um banco de dados Apache Hive é usado, os dados de _Updatecount_ podem estar indisponíveis devido a uma característica do sistema. Essa informação estará disponível apenas se o controle do _updated row count_ estiver habilitado no servidor Apache Hive. Para mais informações sobre suporte Apache Hive para a Digibee Integration Platform, leia o artigo [Banco de dados suportados](https://docs.digibee.com/documentation/v/pt-br/plataforma/bancos-de-dados-suportados#apache-hive).
-{% endhint %}
-
-## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
-
-### **Autenticação via Kerberos** <a href="#autenticao-via-kerberos" id="autenticao-via-kerberos"></a>
+## **Autenticação via Kerberos** <a href="#autenticao-via-kerberos" id="autenticao-via-kerberos"></a>
 
 É possível realizar autenticação via Kerberos em componentes de banco de dados. Para isso, basta você:
 
@@ -23,13 +17,13 @@ O **DB V2** efetua operações de SELECT, INSERT, DELETE e UPDATE e também faz 
 \
 Dê uma olhada nos cenários de uso suportados:
 
-_**Cenário 1: Operação QUERY comando SELECT**_\
-Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma _query_ com o comando SELECT. Com isso, você terá acesso ao resultado da operação no _pipeline_ através de um JSON.\
-&#x20;   &#x20;
+### _**Cenário 1: Operação QUERY comando SELECT**_
+
+Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma _query_ com o comando SELECT. Com isso, você terá acesso ao resultado da operação no _pipeline_ através de um JSON.
 
 **Exemplo**
 
-![](../../.gitbook/assets/dbv2.png)
+![](../../../.gitbook/assets/dbv2.png)
 
 **1.** Crie um _pipeline_ e adicione um componente _**DB V2**_\
 **2.** Abra as configurações do componente\
@@ -72,15 +66,14 @@ Digamos que você tenha um banco de dados configurado e uma tabela com dados e q
 ```
 
 &#x20;    \
-O resultado da _query_ retorna um JSON com 3 propriedades em sua raiz: _data_, _updateCount_ e _rowCount_.\
-&#x20;  &#x20;
+O resultado da _query_ retorna um JSON com 3 propriedades em sua raiz: _data_, _updateCount_ e _rowCount_.
 
 * **data:** vetor de objetos representando as linhas retornadas do banco de dados segundo a _query_ definida. Cada elemento desse vetor contém propriedades que representam as colunas definidas na operação SELECT. Se a declaração fosse "_SELECT name FROM CLIENTES_", haveria apenas uma propriedade em cada um dos objetos no vetor _data_.
 * **updateCount:** indica quantas linhas da tabela foram afetadas pela _query_ executada. Nesse exemplo o valor seria zero - já que a operação foi SELECT, nenhuma tabela foi afetada.
-* **rowCount:** indica quantas linhas foram retornadas pela _query_.\
-  &#x20;   &#x20;
+* **rowCount:** indica quantas linhas foram retornadas pela _query_.
 
-_**Cenário 2: Operação QUERY comando UPDATE**_\
+### _**Cenário 2: Operação QUERY comando UPDATE**_
+
 Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma _query_ com a operação UPDATE. Com isso, você terá acesso ao resultado desta operação no _pipeline_ através de um JSON.\
 &#x20;    __         ****    \
 **Exemplo**
@@ -104,14 +97,11 @@ Digamos que você tenha um banco de dados configurado e uma tabela com dados e q
 }
 ```
 
-&#x20; &#x20;
-
 * **updateCount:** nesse exemplo, fica confirmada a alteração em 5 linhas da tabela.
 
-\
-_**Cenário 3: Operação QUERY comando DELETE**_\
-Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma _query_ com a operação DELETE. Com isso, você terá acesso ao resultado desta operação no _pipeline_ através de um JSON.\
+### &#x20;_**Cenário 3: Operação QUERY comando DELETE**_
 
+Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma _query_ com a operação DELETE. Com isso, você terá acesso ao resultado desta operação no _pipeline_ através de um JSON.
 
 **Exemplo**
 
@@ -136,10 +126,8 @@ Digamos que você tenha um banco de dados configurado e uma tabela com dados e q
 
 * **updateCount:** nesse exemplo, fica confirmado que 1 linha da tabela foi apagada.
 
-&#x20;    _****_    &#x20;
+### _**Cenário 4: Operação QUERY comando INSERT**_
 
-\
-_**Cenário 4: Operação QUERY comando INSERT**_\
 Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma _query_ com a operação INSERT. Com isso, você terá acesso ao resultado da operação no _pipeline_ através de um JSON.\
 &#x20;   \
 **Exemplo:**
@@ -166,8 +154,8 @@ Digamos que você tenha um banco de dados configurado e uma tabela com dados e q
 
 * **updateCount:** nesse exemplo, fica confirmado que 1 linha foi criada na tabela.
 
-&#x20;    _****_     \
-_**Cenário 5: Manter a conexão em drivers antigos ou com baixa confiabilidade**_\
+### _**Cenário 5: Manter a conexão em drivers antigos ou com baixa confiabilidade**_
+
 Digamos que você tenha um banco de dados incompatível com JDBC 4.0 ou que falhe em manter uma conexão confiável e que você queira invocar um _**DB V2**_ com uma _query_ qualquer, mas 20 minutos depois fazer a mesma chamada. Com isso, a conexão com o banco de dados não é perdida.\
 &#x20;   &#x20;
 
@@ -190,25 +178,19 @@ Essa opção vai permitir que uma nova conexão seja aberta, caso haja falha no 
 **11.** Execute um teste no _pipeline_ (você pode utilizar o comando CTRL + ENTER)\
 **12.** O resultado da _query_ será apresentado
 
-&#x20;     &#x20;
+### _**Cenário 6: Interromper a execução do pipeline em caso de falha**_
 
-_**Cenário 6: Interromper a execução do pipeline em caso de falha**_\
-Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma QUERY ou PROCEDURE caso a operação falhe na interrupção da execução do _pipeline_.\
-&#x20;   &#x20;
+Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma QUERY ou PROCEDURE caso a operação falhe na interrupção da execução do _pipeline_.
 
-A opção _FAIL ON ERROR_ permite que o _pipeline_ interrompa a sua execução em caso de falha na invocação do _**DB V2**_.\
-&#x20;       __       &#x20;
+A opção _FAIL ON ERROR_ permite que o _pipeline_ interrompa a sua execução em caso de falha na invocação do _**DB V2**_.
 
-&#x20;    _****_     \
-_**Cenário 7: Acessar e escrever arquivos no contexto de banco de dados**_\
+### _**Cenário 7: Acessar e escrever arquivos no contexto de banco de dados**_
+
 Digamos que você tenha um banco de dados configurado e uma tabela com dados do tipo BLOB e/ou CLOB e que você queira invocar um _DB V2_ com uma QUERY ou PROCEDURE. Com isso, você consegue tanto escrever arquivos disponíveis no _pipeline_ quanto acessar arquivos valores de um campo BLOB e/ou CLOB do banco de dados.
 
 As opções _BLOB AS FILE_ e _CLOB AS FILE_ permitem informar um caminho de arquivo para as operações com colunas do tipo BLOB e CLOB respectivamente - ou seja, invocar o comando INSERT e passar o caminho de um arquivo disponível no _pipeline_ fará com que esse arquivo seja escrito no banco.
 
 Caso o comando seja SELECT, o conteúdo do BLOB/CLOB se torna um arquivo dentro do _pipeline_.
-
-\
-&#x20;  &#x20;
 
 **Exemplo: passo 1 (ler arquivo)**
 
@@ -238,12 +220,11 @@ Caso o comando seja SELECT, o conteúdo do BLOB/CLOB se torna um arquivo dentro 
 }
 ```
 
-Um arquivo chamado 'E4G17F.file' e outro chamado 'H2K89G.file' foram gerados e disponibilizados no _pipeline_.\
-&#x20;  &#x20;
+Um arquivo chamado 'E4G17F.file' e outro chamado 'H2K89G.file' foram gerados e disponibilizados no _pipeline_.
 
 **Exemplo: passo 2 (escrever arquivo)**
 
-![](../../.gitbook/assets/dbv2-1.png)
+![](../../../.gitbook/assets/dbv2-1.png)
 
 \
 **1.** Adicione um componente _**DB V2**_\
@@ -286,11 +267,10 @@ Através delas é possível acessar o resultado do último componente. Nesse cas
 }
 ```
 
-&#x20;    \
-O resultado indica que uma linha da tabela foi afetada. Nesse caso, o primeiro componente (Read-file) leu os conteúdos _blob_ e _clob_ do banco de dados e criou dois arquivos. Em seguida, o componente (Write-file) pegou esses arquivos disponíveis no _pipeline_ e os inseriu no banco de dados em um novo registro.\
-&#x20;   &#x20;
+O resultado indica que uma linha da tabela foi afetada. Nesse caso, o primeiro componente (Read-file) leu os conteúdos _blob_ e _clob_ do banco de dados e criou dois arquivos. Em seguida, o componente (Write-file) pegou esses arquivos disponíveis no _pipeline_ e os inseriu no banco de dados em um novo registro.
 
-_**Cenário 8: Executar uma procedure**_\
+### _**Cenário 8: Executar uma procedure**_
+
 Digamos que você tenha um banco de dados configurado com uma _procedure_ existente e que você queira invocar um _**DB V2**_ em modo PROCEDURE. Com isso, você consegue executar uma _procedure_ existente e obter o resultado da operação no _pipeline_ através de um JSON.     __    &#x20;
 
 **Exemplo**
@@ -340,9 +320,10 @@ Através dela é possível acessar o resultado do último componente.\
 }
 ```
 
-&#x20;        _****_         \
-&#x20;      _****_       \
-_**Cenário 9: Definir propriedades personalizadas de conexão**_\
+&#x20;        _****_        &#x20;
+
+### _**Cenário 9: Definir propriedades personalizadas de conexão**_
+
 Digamos que você tenha um banco de dados configurado e que você queira invocar um _**DB V2**_. Com isso, você consegue especificar propriedades personalizadas de conexão.\
 &#x20;     __     &#x20;
 
@@ -368,15 +349,15 @@ Digamos que você tenha um banco de dados configurado e que você queira invocar
 ```
 
 &#x20;    \
-Nesse caso, a propriedade específica de conexão _connectTimeout_ foi definida como _1_ (um segundo) para demonstrar que ela foi considerada e gerou um erro de conexão.\
-&#x20;     &#x20;
+Nesse caso, a propriedade específica de conexão _connectTimeout_ foi definida como _1_ (um segundo) para demonstrar que ela foi considerada e gerou um erro de conexão.
 
-_**Cenário 10: Manter conexão ativa por 5 ou 30 minutos**_\
+### _**Cenário 10: Manter conexão ativa por 5 ou 30 minutos**_
+
 Digamos que você tenha um banco de dados configurado e que você queira invocar um _**DB V2**_. Com isso, você pode optar por manter a conexão com o banco ativa por 5 ou 30 minutos.
 
 A opção _KEEP CONNECTION_ te permite estender o tempo padrão de 5 minutos para 30 minutos de conexão ativa com o banco de dados.
 
-_**Cenário 11: Ler tipos de dados customizados de um banco de dados Oracle**_
+### _**Cenário 11: Ler tipos de dados customizados de um banco de dados Oracle**_
 
 Digamos que você tenha um banco de dados Oracle configurado com uma tabela que contenha dados de um tipo customizado e que você queira invocar um _DB V2_ para consultar esses dados.
 
@@ -456,7 +437,7 @@ Se o tipo customizado utilizar outros tipos customizado na sua estrutura, você 
 
 No exemplo acima, o primeiro elemento do _array_ "owner" __ corresponde ao campo "nome" e o segundo elemento ao campo "email", ambos definidos nessa respectiva ordem dentro do tipo _OWNER_.Para consultas via _PROCEDURE_, o parâmetro _OUT PARAMETER NAME_ em _TYPE PROPERTIES_ deve receber obrigatoriamente o nome do tipo customizado que, no exemplo acima, seria o valor _OWNER_.
 
-_**Cenário 12: Enviar tipos de dados customizados para um banco de dados Oracle**_
+### _**Cenário 12: Enviar tipos de dados customizados para um banco de dados Oracle**_
 
 Digamos que você tenha um banco de dados Oracle configurado com uma tabela que contenha dados de um tipo customizado (_Struct_) e que você queira invocar um _DB V2_ para inserir dados nessa tabela.
 
@@ -518,8 +499,7 @@ Você tem os tipos customizados e a tabela criados com as seguintes estruturas:
 
 &#x20;
 
-Para que esses dados sejam inseridos na tabela, é possível utilizar as seguintes estruturas:\
-
+Para que esses dados sejam inseridos na tabela, é possível utilizar as seguintes estruturas:
 
 Dados a serem inseridos:
 
@@ -534,8 +514,6 @@ Dados a serem inseridos:
 
 &#x20;
 
-&#x20;
-
 * Através de _INSERT_ a partir do resultado de uma _QUERY_
 
 ```sql
@@ -545,8 +523,6 @@ SELECT PERSON(DBMS_RANDOM.VALUE(0,999999), {{ message.personName }}, CONTACT({{ 
 	   3030.67 SALARY
   FROM DUAL
 ```
-
-&#x20;
 
 &#x20;
 
@@ -582,8 +558,6 @@ END;
 
 &#x20;
 
-&#x20;
-
 * Através de _Script SQL_
 
 ```plsql
@@ -604,113 +578,3 @@ DECLARE
 
   END;
 ```
-
-## DB V2 em Ação <a href="#db-v2-em-ao" id="db-v2-em-ao"></a>
-
-### Batch mode <a href="#batch-mode" id="batch-mode"></a>
-
-Quando for necessário realizar um processamento em lote de algumas instruções, você pode realizar chamadas em modo _batch_ nas _queries_.
-
-\
-**Exemplo**
-
-Digamos que você precise informar no componente um _array_ de objetos, que serão utilizados nessa execução em _batch_:
-
-**ITENS**
-
-```
-[   { 
-    "name": "Mathews", "type":"A"
-    }, { 
-    "name": "Jules", "type":"A"
-    }, { 
-    "name": "Raphael", "type":"B"
-    } 
-]
-```
-
-E na instrução SQL, você deverá informá-lo da seguinte maneira:
-
-**SQL**
-
-INSERT INTO TABLE VALUES ( \{{ item.name \}}, \{{ item.type \}} )
-
-Quando você utiliza expressões em _Double Braces_ \{{ item.name \}}, uma iteração é feita dentro do _array_ (informado em itens) e uma propriedade correspondente é buscada dentro do objeto. Nesse caso, a propriedade é "name".
-
-Após a execução, 3 registros são inseridos. O retorno esperado é:
-
-```
-{ 
-    "totalSucceeded":3, 
-    "totalFailed":0 
-}
-```
-
-Caso uma das execuções falhe, será retornado um objeto com a propriedade "error":
-
-```
-{ 
-    "totalSucceeded":1, 
-    "totalFailed":1 
-}
-```
-
-Caso uma das execuções falhe, será retornado um objeto com a propriedade "errors":
-
-```
-{ 
-    "totalSucceeded":1, 
-    "totalFailed":1,
-    "errors": ["erro1", "error2"]
-}
-```
-
-{% hint style="info" %}
-**IMPORTANTE:** os erros retornados na propriedade “errors” variam conforme o _driver_ do banco. Alguns _drivers_ não retornam todos os erros ocorridos durante a execução em modo _batch_.
-{% endhint %}
-
-### Rollback On Error <a href="#rollback-on-error" id="rollback-on-error"></a>
-
-Se essa opção estiver ativada, os _commits_ das operações serão realizados apenas se todas elas forem bem sucedidas. Do contrário, será feito o _rollback_ de todas as operações _batch_.
-
-Se a opção estiver inativa, então o _commit_ e as alterações bem sucedidas por _commit_ serão feitas __ mesmo que ocorra alguma falha entre as execuções.
-
-**IMPORTANTE:** para alguns bancos de dados, principalmente para o Oracle, não é possível retornar o número consolidado execuções bem ou mal sucedidas. Caso algum erro ocorra, um objeto contendo todos os erros será retornado (dentro da propriedade "errors") e consolidado com o valor -1 também será retornado:
-
-```
-{ 
-    "totalSucceeded":-1, 
-    "totalFailed":-1,
-    "errors": ["erro1", "error2"], 
-    "success": false
-}
-```
-
-Para outros bancos, como o Firebird, a ocorrência de erros não é informada. Portanto, um objeto sem nenhum erro pode ser retornado mesmo que tenha ocorrido uma falha:
-
-```
-{ 
-    "totalSucceeded":0, 
-    "totalFailed":3,
-    "errors": ["erro1", "error2"], 
-    "success": false
-}
-```
-
-Para esses casos de erro no _Batch Mode_, não deixe de analisar a propriedade "success". Se ela retornar "false", significa que pelo menos um erro ocorreu durante a execução.
-
-### Pool de conexão <a href="#h_f90a8ac5f6" id="h_f90a8ac5f6"></a>
-
-Por padrão, utilizamos um _pool_ de tamanho baseado nas configurações do _pipeline_ implantado. Por exemplo, caso seja um _pipeline_ SMALL, então o tamanho do _pool_ será de 10. Para o MEDIUM o tamanho seria de 20 e para o LARGE seria de 40.
-
-É possível gerenciar o tamanho do _pool_ na hora da implantação também. Para isso, é necessário habilitar a propriedade “Pool Size By Actual Consumers” no componente. Com isso, é utilizado o que for configurado manualmente na tela de implantação.
-
-Veja na figura abaixo a configuração de um _pipeline_ SMALL com 5 _consumers_. Se você quiser que o _pool_ dos componentes de banco de dados (_**DB V2**_ e _**Stream DB V3**_) utilize esse tamanho, será preciso habilitar a propriedade “Pool Size By Actual Consumers” em todos os componentes existentes:
-
-![](../../.gitbook/assets/dbv2-2.png)
-
-{% hint style="info" %}
-**IMPORTANTE:** atenção ao configurar o tamanho do _pool_ manualmente para que não ocorra nenhum _deadlock_ em chamadas concorrentes ao mesmo banco.
-{% endhint %}
-
-O nosso _pool_ é compartilhado entre os componentes de banco de dados que acessam o mesmo banco de dados dentro do _pipeline_. Caso seja necessário um _pool_ exclusivo para determinado componente, habilite a propriedade “Exclusive Pool”.
