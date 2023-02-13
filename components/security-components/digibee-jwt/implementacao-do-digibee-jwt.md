@@ -6,7 +6,9 @@ description: Veja alguns exemplos de uso do componente.
 
 A utilização mais comum do JWT acontece durante a autorização de um serviço exposto na rede via protocolo HTTP.
 
-Veja a ilustração a seguir, que mostra a forma e a arquitetura do padrão:
+Com esse passo-a-passo sobre o uso do _token_ JWT, você pode aproveitar para customizar a segurança nos seus próximos _pipelines_. [Para conhecer o componente _Digibee JWT (Generate and Decode)_ mais a fundo, clique aqui.](https://docs.digibee.com/documentation/v/pt-br/components/security-components/digibee-jwt)
+
+Agora, veja a ilustração a seguir, que mostra a forma e a arquitetura do padrão:
 
 ![](<../../../.gitbook/assets/implementação jwt (1) (1).png>)
 
@@ -25,11 +27,9 @@ Se você tiver alguma dúvida sobre como preencher os campos mencionados acima, 
 
 Com o _trigger_ configurado, você pode construir o fluxo utilizando os componentes necessários para a criação do _token_. Mas não se preocupe - existe um componente específico que gera o _token_ JWT. Acompanhe como fazer:
 
-* arraste o ícone do Digibee JWT (Generate and Decode) para a sua área de construção;
+* arraste o ícone do _**Digibee JWT (Generate and Decode)**_ para a sua área de construção;
 * selecione a _Operation_ _**GENERATE**_ para a criação do _token_;
 * nos campos _Scopes_ e _Expiration_, aplique as regras que melhor atendem o seu negócio.
-
-Se quiser saber mais detalhes sobre o Digibee JWT (Generate and Decode), é só clicar [aqui](./).
 
 ### **Utilizando o Assert** <a href="#utilizando-o-assert" id="utilizando-o-assert"></a>
 
@@ -43,9 +43,9 @@ Para utilizar o componente _**Assert**_ para criar uma validação por usuário 
 
 ### Chamando o _pipeline_ para o _login_ <a href="#chamando-o-pipeline-para-o-login" id="chamando-o-pipeline-para-o-login"></a>
 
-Depois que você terminar as configurações, é necessário implantar o _pipeline_ no seu devido ambiente de teste ou produção para poder testar o fluxo. Se você tiver alguma dúvida mais específica sobre implantação de _pipelines_ na Plataforma, clique [aqui](../../../build/pipelines/) para ler o nosso artigo sobre o assunto.
+Depois que você terminar as configurações, é necessário implantar o _pipeline_ no seu devido ambiente de teste ou produção para poder testar o fluxo. Se você tiver alguma dúvida mais específica sobre implantação de _pipelines_ na Plataforma, [clique aqui para ler o nosso artigo sobre o assunto.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines)
 
-Lembre-se que todos os fluxos implantados na Digibee com _trigger_ tipo REST ou HTTP (e seus derivados) precisam fazer uso de _API Key_. Com o _login_ não é diferente. Clique [aqui](broken-reference) para obter mais informações sobre segurança.
+Lembre-se que todos os fluxos implantados na Digibee com _trigger_ tipo REST ou HTTP (e seus derivados) precisam fazer uso de _API Key_. Com o _login_ não é diferente.&#x20;
 
 Com a API Key configurada, você pode dar início ao teste. Veja, no exemplo a seguir, como fazer isso utilizando o _postman_. Mas lembre-se: você pode usar o _client_ que está acostumado ou qualquer outra aplicação que preferir.
 
@@ -70,6 +70,3 @@ Se você informar a _API Key_ e não informar o _token_, então um erro de autor
 
 ![](<../../../.gitbook/assets/image (2) (1).png>)
 
-Com esse passo-a-passo sobre o uso do _token_ JWT, você pode aproveitar para customizar a segurança nos seus próximos _pipelines_.
-
-Para conhecer o componente _Digibee JWT (Generate and Decode)_ mais a fundo, clique [aqui](./).
