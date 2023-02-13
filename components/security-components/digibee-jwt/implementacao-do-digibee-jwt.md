@@ -23,7 +23,7 @@ O primeiro passo é configurar o _trigger_ para _login_:
 * entre nas configurações do _trigger_ e selecione a opção REST;
 * ative as opções _**External API**_ e _**API Key.**_
 
-Se você tiver alguma dúvida sobre como preencher os campos mencionados acima, clique [aqui](../../triggers/rest-trigger.md) para consultar o nosso artigo sobre REST Trigger.
+Se você tiver alguma dúvida sobre como preencher os campos mencionados acima, [clique aqui para consultar o nosso artigo sobre REST Trigger.](https://docs.digibee.com/documentation/v/pt-br/components/triggers/rest-trigger)
 
 Com o _trigger_ configurado, você pode construir o fluxo utilizando os componentes necessários para a criação do _token_. Mas não se preocupe - existe um componente específico que gera o _token_ JWT. Acompanhe como fazer:
 
