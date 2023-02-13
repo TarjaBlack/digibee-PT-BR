@@ -120,9 +120,9 @@ Para outros bancos, como o Firebird, a ocorrência de erros não é informada. P
 
 Para esses casos de erro no _Batch Mode_, não deixe de analisar a propriedade "success". Se ela retornar "false", significa que pelo menos um erro ocorreu durante a execução.
 
+## DB V2 via Kerberos&#x20;
 
-
-Agora veja na coleção a seguir como usar o DB V2 via Kerberos em diferentes cenários:
+Veja na coleção a seguir como usar o DB V2 via Kerberos em diferentes cenários:
 
 {% content-ref url="db-v2/db-v2-via-kerberos.md" %}
 [db-v2-via-kerberos.md](db-v2/db-v2-via-kerberos.md)
