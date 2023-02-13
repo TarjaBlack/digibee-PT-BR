@@ -192,7 +192,7 @@
   * [AES Cryptography](components/security-components/aes-cryptography.md)
   * [Asymmetric Cryptography](components/security-components/asymmetric-cryptography.md)
   * [CMS](components/security-components/cms.md)
-  * [Digibee JWT](components/security-components/digibee-jwt/README.md)
+  * [Digibee JWT (Generate and Decode)](components/security-components/digibee-jwt/README.md)
     * [Implementação do Digibee JWT](components/security-components/digibee-jwt/implementacao-do-digibee-jwt.md)
   * [Digital Signature](components/security-components/digital-signature.md)
   * [Google IAP Token](components/security-components/google-iap-token.md)
