@@ -90,6 +90,7 @@ Em uma representação do _JSON Field Path_ contendo a.b.c.d, "a" será procurad
 ```
 
 * **\_body:** se a opção **Preserve Original** estiver habilitada, a propriedade será exibida na saída contendo o JSON de entrada
+* **\_error:** descrição do erro que ocorreu na execução
 * **XPTO:** nome dinâmico baseado na configuração do _JSON Field Path_ nas propriedades do componente
 
 ### JSON to XML Transformer em Ação <a href="#json-to-xml-transformer-em-ao" id="json-to-xml-transformer-em-ao"></a>
