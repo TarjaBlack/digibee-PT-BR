@@ -28,9 +28,7 @@ Esse componente pode ser configurado nas seguintes operações:
 
 Lida com uma sessão onde os valores armazenados estão disponíveis apenas no _pipeline_ em execução corrente.               &#x20;
 
-**Exemplo:**\
-As _tags_ "body" e "data" do passo anterior são armazenadas na sessão **LOCAL**.\
-
+**Exemplo:** As _tags_ "body" e "data" da etapa _"Fields"_ são armazenadas na sessão **LOCAL**.
 
 ### GLOBAL <a href="#global" id="global"></a>
 
