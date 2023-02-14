@@ -49,7 +49,7 @@ Ao executar um componente SFTP utilizando as operações _download, upload_ ou _
 }
 ```
 
-* **stdout: resposta com sucesso da execução do script**
+* **stdout:** resposta com sucesso da execução do script
 * **stderr:** resposta com erros da execução do script
 * **stdoutFileName:** caminho do arquivo salvo contendo as informações exibidas no stdout. Essa propriedade só será exibida caso a flag **Stdout As File** esteja habilitada
 * **stderrFileName:** caminho do arquivo salvo contendo as informações exibidas no stderr. Essa propriedade só será exibida caso a flag **Stderr As File** esteja habilitada
@@ -75,7 +75,7 @@ Ao executar um componente SFTP utilizando as operações _download, upload_ ou _
 
 [Para entender melhor o fluxo das mensagens na Plataforma, clique aqui e leia o nosso artigo.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/processamento-de-mensagens)
 
-## SSH Remote Command em Ação <a href="#h_9a8cd2b071" id="h_9a8cd2b071"></a>
+## _SSH Remote Command_ em Ação <a href="#h_9a8cd2b071" id="h_9a8cd2b071"></a>
 
 ### **Executando um script e recebendo as informações no JSON de resposta do componente**
 
