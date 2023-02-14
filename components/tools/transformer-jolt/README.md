@@ -23,14 +23,14 @@ Exemplo de _**Transformer (JOLT)**_ configurado:
 ![](<../../../.gitbook/assets/transformer jolt.png>)
 
 {% hint style="info" %}
-**IMPORTANTE**: o JSON configurado em _**Type Properties**_ não representa o JSON a ser manipulado e sim a transformação via JOLT em si. O próprio JOLT utiliza uma estrutura JSON para a construção das transformações, que interpretarão o JSON recebido pelo componente&#x20;
+**IMPORTANTE**: o JSON configurado em _**Type Properties**_ não representa o JSON a ser manipulado e sim a transformação via JOLT em si. O próprio JOLT utiliza uma estrutura JSON para a construção das transformações, que interpretarão o JSON recebido pelo componente _**Transformer (JOLT)**_.
 {% endhint %}
 
-_**Transformer (JOLT)**_.
+## Operações JOLT <a href="#h_529946f6d7" id="h_529946f6d7"></a>
 
-#### Operações JOLT <a href="#h_529946f6d7" id="h_529946f6d7"></a>
+### _**Shift**_
 
-* **shift:** utilizada para alterar a estrutura de um JSON, mantendo os valores contidos nesse mesmo JSON.
+Utilizada para alterar a estrutura de um JSON, mantendo os valores contidos nesse mesmo JSON.
 
 **Exemplo:**
 
@@ -69,7 +69,9 @@ Saída
 }
 ```
 
-* **default:** utilizada para adicionar novos campos ou objetos em um JSON, caso esses não existam previamente.
+### _**Default**_
+
+Utilizada para adicionar novos campos ou objetos em um JSON, caso esses não existam previamente.
 
 **Exemplo:**
 
@@ -109,7 +111,9 @@ Saída
 }
 ```
 
-* **remove**: utilizada para remover campos ou objetos de um JSON.
+### _**Remove**_
+
+Utilizada para remover campos ou objetos de um JSON.
 
 **Exemplo:**
 
@@ -149,7 +153,9 @@ Saída
 }
 ```
 
-* **sort:** utilizada para ordenar campos ou objetos de um JSON em ordem alfabética.
+### _**Sort**_** **&#x20;
+
+Utilizada para ordenar campos ou objetos de um JSON em ordem alfabética.
 
 **Exemplo:**
 
@@ -189,7 +195,9 @@ Saída
 }
 ```
 
-* **cardinality:** utilizada para transformar campos e objetos simples em _arrays_ e vice-versa.
+### _**Cardinality**_
+
+Utilizada para transformar campos e objetos simples em _arrays_ e vice-versa.
 
 **Exemplo:**
 
@@ -230,7 +238,9 @@ Saída
 }
 ```
 
-* **modify-default-beta:** utilizada para incluir valores e aplicar funções em um JSON.
+### **Modify-default-beta**
+
+Utilizada para incluir valores e aplicar funções em um JSON.
 
 **Exemplo:**
 
@@ -290,7 +300,9 @@ Saída
 }
 ```
 
-* **modify-overwrite-beta:** utilizada para sobrescrever valores e aplicar funções em um JSON.
+### **Modify-overwrite-beta**
+
+Utilizada para sobrescrever valores e aplicar funções em um JSON.
 
 **Exemplo:**
 
@@ -332,6 +344,6 @@ Saída
 }
 ```
 
-Clique [aqui](transformer-conhecendo-o-jolt.md) para ler o artigo detalhado sobre o Transformer (JOLT).
+[Clique aqui para ler o artigo detalhado sobre o _Transformer (JOLT)_.](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformer-conhecendo-o-jolt)
 
 \
