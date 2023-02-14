@@ -12,14 +12,14 @@ Para uma leitura referente aos conceitos e explicações sobre JOLT:&#x20;
 
 Exemplos contidos neste artigo:
 
-* Separando um campo de Nome completo em campos de Nome e Sobrenome
-* Removendo caracteres especiais de CPF e CNPJ
-* Separando DDD de um número de telefone
-* Eliminando valores duplicados
-* Somando valores numéricos
-* Multiplicando 2 valores numéricos
-* Aplicando filtro no conteúdo de um campo
-* Incluindo valores defaults dentro de uma lista
+* [Separando um campo de Nome completo em campos de Nome e Sobrenome](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#separando-um-campo-de-nome-completo-em-campos-de-nome-e-sobrenome)
+* [Separando DDD de um número de telefone](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#separando-ddd-de-um-nmero-de-telefone)
+* [Removendo caracteres especiais de CPF e CNPJ](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#removendo-caracteres-especiais-de-cpf-e-cnpj)
+* [Eliminando valores duplicados](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#eliminando-valores-duplicados)
+* [Somando valores numéricos](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#somando-valores-numericos)
+* [Multiplicando 2 valores numéricos](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#multiplicando-2-valores-numericos)
+* [Aplicando filtro no conteúdo de um campo](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#aplicando-filtro-no-contedo-de-um-campo)
+* [Incluindo valores defaults dentro de uma lista](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#incluindo-valores-defaults-dentro-de-uma-lista)
 
 ### Separando um campo de Nome completo em campos de Nome e Sobrenome <a href="#separando-um-campo-de-nome-completo-em-campos-de-nome-e-sobrenome" id="separando-um-campo-de-nome-completo-em-campos-de-nome-e-sobrenome"></a>
 
@@ -61,7 +61,7 @@ Transformação:
 ]
 ```
 
-_**Obs.:**_ a **operation remove** apenas remove o campo "nomeCompleto" que já não é mais útil. A mesma não tem impacto na separação do Nome e Sobrenome
+> &#x20;_**Obs.:**_ a **operation remove** apenas remove o campo "nomeCompleto" que já não é mais útil. A mesma não tem impacto na separação do Nome e Sobrenome
 
 ### Separando DDD de um número de telefone <a href="#separando-ddd-de-um-nmero-de-telefone" id="separando-ddd-de-um-nmero-de-telefone"></a>
 
@@ -152,7 +152,7 @@ Transformação:
 ]
 ```
 
-_**Obs.:**_ o uso de **'\[ ]'** na função split serve para aplicarmos **expressões regulares** como parâmetro da função e seu uso não é obrigatório.
+> _**Obs.:**_ o uso de **'\[ ]'** na função split serve para aplicarmos **expressões regulares** como parâmetro da função e seu uso não é obrigatório.
 
 No exemplo de CPF acima, conseguimos garantir que para cada ocorrência dos caracteres **"."** e **"-"**, será aplicado a _split_ na _String_ que estamos manipulando. Caso utilizássemos a função sem os **'\[ ]'** (`"=split('.-',(@1,cpf))"`), a mesma buscaria pela combinação dos caracteres **".-"** e não teríamos efeito nenhum, pois essa combinação não existe no valor do campo "cpf". O mesmo serve para o exemplo de CNPJ.
 
@@ -342,7 +342,7 @@ Transformação:
 
 A ideia com essa transformação é realizar a multiplicação de maneira inversa, ou seja, sempre dividindo um dos valores por 1 e em seguida dividindo o outro valor a ser multiplicado pelo resultado da primeira divisão por 1.
 
-_**Obs.:**_ _as funções `=divide` e `=divideAndRound` não suportam mais que 2 valores em sua declaração._
+> _**Obs.:**_ _as funções `=divide` e `=divideAndRound` não suportam mais que 2 valores em sua declaração._
 
 ### Aplicando filtro no conteúdo de um campo <a href="#aplicando-filtro-no-contedo-de-um-campo" id="aplicando-filtro-no-contedo-de-um-campo"></a>
 
