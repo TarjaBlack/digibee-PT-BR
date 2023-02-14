@@ -14,6 +14,74 @@ As funções foram criadas para:
 
 As funções de _string_ realizam tratamentos, operações e conversões de _string_ e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, clique [aqui](./).
 
+### DEFAULT
+
+Essa função em _Double Braces_ aplica um valor padrão (_default_) quando há uma referência a um valor nulo ou inexistente.
+
+**Sintaxe**
+
+```
+DEFAULT(value:string, defaultValue:string)
+```
+
+Vamos supor que você queira atribuir um valor padrão a uma determinada propriedade com valor nulo (_null_):
+
+```
+{
+  "name": null
+}
+```
+
+Você pode usar a função DEFAULT da seguinte forma:
+
+```
+{
+  "name": {{ DEFAULT(message.firstName, "Jacob") }}
+}
+```
+
+O resultado esperado será:
+
+```
+{
+  "name": "Jacob"
+}
+```
+
+### TRIM
+
+Essa função em _Double Braces_ remove espaços em branco no começo e ao final de uma _string_.
+
+**Sintaxe**
+
+```
+TRIM(value:string)
+```
+
+Digamos que você queira remover os espaços em branco de uma _string_:
+
+```
+{
+  "name": "   John Smith       "
+}
+```
+
+Você pode fazer o seguinte:
+
+```
+{
+  "fullName": {{ TRIM(message.name) }}
+}
+```
+
+O resultado esperado será:
+
+```
+{
+  "fullName": "John Smith"
+}
+```
+
 ### CAPITALIZE <a href="#capitalize" id="capitalize"></a>
 
 Essa função em _Double Braces_ capitaliza uma _string_ ao alterar o primeiro caractere para letra maiúscula. Os outros caracteres não são alterados.
