@@ -21,7 +21,7 @@ O componente espera uma mensagem em qualquer formato, mas vai procurar procurar 
 
 Alguns exemplos válidos de entrada:
 
-#### **Exemplo 1**
+**Exemplo 1**
 
 ```
 {
@@ -44,7 +44,7 @@ Alguns exemplos válidos de entrada:
   }
 ```
 
-#### **Exemplo 2**
+**Exemplo 2**
 
 ```
 {
@@ -95,7 +95,7 @@ Em uma representação do _JSON Field Path_ contendo a.b.c.d, "a" será procurad
 
 ## JSON to XML Transformer em Ação <a href="#json-to-xml-transformer-em-ao" id="json-to-xml-transformer-em-ao"></a>
 
-#### **Exemplo 1**
+**Exemplo 1**
 
 * **JSON Field Path:** orders
 * **Root Element Name:** doc
@@ -150,7 +150,7 @@ Em uma representação do _JSON Field Path_ contendo a.b.c.d, "a" será procurad
 }
 ```
 
-#### **Exemplo 2**
+**Exemplo 2**
 
 * **JSON Field Path:** payload
 * **Root Element Name:** xpto
