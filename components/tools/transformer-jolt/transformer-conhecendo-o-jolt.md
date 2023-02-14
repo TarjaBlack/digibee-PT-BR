@@ -10,7 +10,7 @@ Para desenvolvimento e teste de todos os exemplos contidos neste artigo:
 
 [JOLT playground](http://jolt-demo.appspot.com/#inception)
 
-### **JOLT** - **J**sOn Language for Transform <a href="#jolt---json-language-for-transform" id="jolt---json-language-for-transform"></a>
+### **JOLT** - **JS**ON Language for Transform <a href="#jolt---json-language-for-transform" id="jolt---json-language-for-transform"></a>
 
 Podemos dizer que é uma linguagem usada para transformações em JSONs.\
 Para sua utilização, usamos uma estrutura base que é composta da seguinte maneira:
