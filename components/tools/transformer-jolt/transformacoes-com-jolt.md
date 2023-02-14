@@ -12,14 +12,14 @@ Para uma leitura referente aos conceitos e explicações sobre JOLT:&#x20;
 
 Exemplos contidos neste artigo:
 
-* [Separando um campo de Nome completo em campos de Nome e Sobrenome](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#separando-um-campo-de-nome-completo-em-campos-de-nome-e-sobrenome)
-* [Separando DDD de um número de telefone](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#separando-ddd-de-um-nmero-de-telefone)
-* [Removendo caracteres especiais de CPF e CNPJ](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#removendo-caracteres-especiais-de-cpf-e-cnpj)
-* [Eliminando valores duplicados](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#eliminando-valores-duplicados)
-* [Somando valores numéricos](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#somando-valores-numericos)
-* [Multiplicando 2 valores numéricos](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#multiplicando-2-valores-numericos)
-* [Aplicando filtro no conteúdo de um campo](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#aplicando-filtro-no-contedo-de-um-campo)
-* [Incluindo valores defaults dentro de uma lista](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt/transformacoes-com-jolt#incluindo-valores-defaults-dentro-de-uma-lista)
+* [Separando um campo de Nome completo em campos de Nome e Sobrenome](transformacoes-com-jolt.md#separando-um-campo-de-nome-completo-em-campos-de-nome-e-sobrenome)
+* [Separando DDD de um número de telefone](transformacoes-com-jolt.md#separando-ddd-de-um-nmero-de-telefone)
+* [Removendo caracteres especiais de CPF e CNPJ](transformacoes-com-jolt.md#removendo-caracteres-especiais-de-cpf-e-cnpj)
+* [Eliminando valores duplicados](transformacoes-com-jolt.md#eliminando-valores-duplicados)
+* [Somando valores numéricos](transformacoes-com-jolt.md#somando-valores-numericos)
+* [Multiplicando 2 valores numéricos](transformacoes-com-jolt.md#multiplicando-2-valores-numericos)
+* [Aplicando filtro no conteúdo de um campo](transformacoes-com-jolt.md#aplicando-filtro-no-contedo-de-um-campo)
+* [Incluindo valores defaults dentro de uma lista](transformacoes-com-jolt.md#incluindo-valores-defaults-dentro-de-uma-lista)
 
 ### Separando um campo de Nome completo em campos de Nome e Sobrenome <a href="#separando-um-campo-de-nome-completo-em-campos-de-nome-e-sobrenome" id="separando-um-campo-de-nome-completo-em-campos-de-nome-e-sobrenome"></a>
 
