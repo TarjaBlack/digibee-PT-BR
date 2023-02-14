@@ -16,17 +16,17 @@ Dê uma olhada nos parâmetros de configuração do componente:
 Conheça as demais opções para a declaração JSON Path:
 
 * **$:** raiz do objeto ou vetor.
-* **.propriedade:** seleciona uma propriedade específica no objeto relacionado.
-* **\['propriedade']:** seleciona uma propriedade específica no objeto relacionado. Coloque apenas aspas simples ao redor do nome da propriedade. Dica: considere essa instrução caso o nome da propriedade contenha caracteres especiais, assim como espaços, ou caso comece com caracteres diferentes de A..Za..z\_.
+* **.property:** seleciona uma propriedade específica no objeto relacionado.
+* **\['property']:** seleciona uma propriedade específica no objeto relacionado. Coloque apenas aspas simples ao redor do nome da propriedade. Dica: considere essa instrução caso o nome da propriedade contenha caracteres especiais, assim como espaços, ou caso comece com caracteres diferentes de A..Za..z\_.
 * **\[n]:** seleciona o elemento n de um vetor. Os índices começam com 0.
-* **\[indice1,indice2,…]:** seleciona elementos do vetor com índices específicos e retorna uma lista.
-* **..propriedade:** recursiva descendente. Busca um nome de propriedade decrescentemente e retorna um vetor de todos os valores com esse nome de propriedade. Sempre retorna uma lista, mesmo que apenas 1 propriedade seja encontrada.
+* **\[index1,index2,…]:** seleciona elementos do vetor com índices específicos e retorna uma lista.
+* **..property:** recursiva descendente. Busca um nome de propriedade decrescentemente e retorna um vetor de todos os valores com esse nome de propriedade. Sempre retorna uma lista, mesmo que apenas 1 propriedade seja encontrada.
 * **\*:** o coringa seleciona todos os elementos em um objeto ou vetor, qualquer que sejam os seus nomes ou índices. Por exemplo, “endereço.\*” significa todas as propriedades do objeto endereço, enquanto “livro\[\*]” significa todos os itens de um vetor de livro.
-* **\[entrada:saida] / \[entrada:]:** seleciona elementos de um vetor de entrada e até, porém não necessariamente, um vetor de saída. Se a saída é omitida, selecione todos os vetores até o final do vetor. Uma lista é retornada.
+* **\[input:output] / \[input:]:** seleciona elementos de um vetor de entrada e até, porém não necessariamente, um vetor de saída. Se a saída é omitida, selecione todos os vetores até o final do vetor. Uma lista é retornada.
 * **\[:n]:** seleciona os primeiros n elementos do vetor. Uma lista é retornada.
 * **\[-n:]:** seleciona os últimos n elementos do vetor. Uma lista é retornada.
-* **\[?(expressao)]:** expressão de filtro. Seleciona todos os elementos em um objeto ou vetor que coincidem com o filtro especificado. Uma lista é retornada.
-* **\[(expressao)]:** expressões de _script_ podem ser utilizadas no lugar de nomes explícitos de propriedades ou índices. Por exemplo, \[(@.tamanho-1)], que seleciona o último item de um vetor. Aqui, tamanho se refere ao tamanho do vetor em questão mais do que um arquivo JSON nomeado "tamanho".
+* **\[?(expression)]:** expressão de filtro. Seleciona todos os elementos em um objeto ou vetor que coincidem com o filtro especificado. Uma lista é retornada.
+* **\[(expression)]:** expressões de _script_ podem ser utilizadas no lugar de nomes explícitos de propriedades ou índices. Por exemplo, \[(@.tamanho-1)], que seleciona o último item de um vetor. Aqui, tamanho se refere ao tamanho do vetor em questão mais do que um arquivo JSON nomeado "tamanho".
 * **@:** utilizado em expressões de filtro para fazer referência ao nó atual que está sendo processado.
 * **==:** igual a .1 e '1' são considerados o mesmo resultado. Valores de _string_ devem ser anexados em aspas simples (e não em aspas): \[?(@.cor=='vermelho')].
 * **!=:** diferente de. Valores de _string_ devem ser anexados em aspas simples.
