@@ -4,7 +4,7 @@ description: Dicas de como utilizar todo potencial desse componente.
 
 # Template e suas utilizações
 
-Conheça algumas validações e tratamentos que podem ser feitos com a linguagem _Freemarker_ quando você utiliza o **Template Transformer**. [Para saber mais sobre esse componente, clique aqui e leia o artigo a respeito.](https://docs.digibee.com/documentation/v/pt-br/components/tools/template-transformer)
+Conheça algumas validações e tratamentos que podem ser feitos com a linguagem _Freemarker_ quando você utiliza o **Template Transformer**. Para saber mais sobre esse componente, clique [aqui](https://intercom.help/godigibee/pt-BR/articles/2950086-template-transformer) e leia o artigo a respeito.
 
 Para os exemplos que você verá a seguir, considere o seguinte JSON de entrada:
 
@@ -28,7 +28,7 @@ Para os exemplos que você verá a seguir, considere o seguinte JSON de entrada:
 }
 ```
 
-### _LIST_ <a href="#list" id="list"></a>
+#### LIST <a href="#list" id="list"></a>
 
 Possibilita que você realize iterações em um _array_ (lista) no JSON. Imagine essa função na criação de uma lista dinâmica de elementos na saída, que transforma o JSON em XML.
 
@@ -90,7 +90,7 @@ O que você deve passar no _template_ é:
 **IMPORTANTE:** lembre-se que a saída do **Template** é um XML em uma _string_.
 {% endhint %}
 
-### _IF/ELSE_ <a href="#ifelse" id="ifelse"></a>
+#### IF/ELSE <a href="#ifelse" id="ifelse"></a>
 
 Você pode utilizar essa função para a validação de algumas informações. Mesmo quando os seus campos estiverem nulos ou vazios, não há um grande impacto na sua transformação de dados.
 
@@ -104,8 +104,10 @@ Você pode utilizar essa função para a validação de algumas informações. M
 <#else>
               Bloco de informações caso nenhuma das condições seja tomadas.
 </#if>
-
 ```
+
+\
+
 
 Não existe limitação para a quantidade de _elseif_ e também é possível usar apenas um _if_ sem o _else_ - tudo depende da sua necessidade.
 
@@ -168,9 +170,7 @@ Sabia que a utilização da função não é limitada a condições simples? Voc
 
 ```
 
-{% hint style="info" %}
 **IMPORTANTE:** é possível utilizar operadores lógicos para uma condição mais avançada.
-{% endhint %}
 
 _**&&**_ - para o E (AND).
 
@@ -223,7 +223,7 @@ Caso a condição seja falsa...
 </soap:Envelope
 ```
 
-### _TRIM_ <a href="#trim" id="trim"></a>
+#### TRIM <a href="#trim" id="trim"></a>
 
 Essa função é utilizada para remover os espaços em branco no começo e final de uma _string_.
 
@@ -264,7 +264,7 @@ O que você deve passar no _template_ é:
 </soap:Envelope>
 ```
 
-### _REPLACE_ <a href="#replace" id="replace"></a>
+#### REPLACE <a href="#replace" id="replace"></a>
 
 Essa função é utilizada para substituir um valor pré-determinado no campo.
 
@@ -273,6 +273,9 @@ Essa função é utilizada para substituir um valor pré-determinado no campo.
 ```
 ${SeuCampo?replace}
 ```
+
+\
+
 
 **Exemplo**
 
@@ -304,7 +307,7 @@ O que você deve passar no _template_ é:
 </soap:Envelope>
 ```
 
-### _SLICE (SUBSTRING)_ <a href="#slice-substring" id="slice-substring"></a>
+#### SLICE (SUBSTRING) <a href="#slice-substring" id="slice-substring"></a>
 
 Essa função é utilizada quando o campo é obrigado a ter um terminado tamanho.
 
@@ -318,9 +321,7 @@ ${SeuCampo[0..9]} 0 = valor inicial9 = valor final
 
 Utilizando a entrada informada no começo do artigo, você pode determinar que o campo tenha apenas 10 caracteres, mesmo que o tamanho dele seja maior.
 
-{% hint style="info" %}
 **IMPORTANTE:** uma boa prática aplicável à essa função é utilizar IF/ELSE para validar o tamanho desejado do campo. Dessa forma, você evita erros caso o campo seja menor do que o valor de corte.
-{% endhint %}
 
 O que você deve passar no _template_ é:
 
@@ -354,7 +355,7 @@ O que você deve passar no _template_ é:
 </soap:Envelope>
 ```
 
-### _LOCALE_ <a href="#locale" id="locale"></a>
+#### LOCALE <a href="#locale" id="locale"></a>
 
 Essa função é utilizada no _template_ para configurar a localização de um valor numérico.
 
@@ -402,7 +403,7 @@ O que você deve passar no _template_ é:
 </soap:Envelope>
 ```
 
-### Customizado <a href="#customizado" id="customizado"></a>
+#### Customizado <a href="#customizado" id="customizado"></a>
 
 Caso a formatação desejada não seja aceita pelo seu sistema, você pode definir a formatação necessária do número por meio da _tag "_number\_format". É ela que permite a tratativa personalizada do número.
 
@@ -413,9 +414,7 @@ Caso a formatação desejada não seja aceita pelo seu sistema, você pode defin
 ${seuCampo}
 ```
 
-{% hint style="info" %}
 **IMPORTANTE:** as _hashtag_ (#) definem a quantidade de casas decimais que serão utilizadas.
-{% endhint %}
 
 **Exemplo**
 
