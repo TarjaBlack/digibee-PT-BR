@@ -6,12 +6,12 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 O _**JSON Path Transformer**_ tem a função de receber um objeto em JSON e realizar filtros e extrações de dados a partir de uma expressão.
 
-**JSON Path** é uma linguagem de consulta para JSON com recursos semelhantes ao XPath. Essa expressão é normalmente utilizada para selecionar e extrair os valores de propriedade de um objeto JSON. Para saber mais sobre JSON Path, clique [aqui](https://goessner.net/articles/JsonPath/).
+_**JSON Path**_ é uma linguagem de consulta para JSON com recursos semelhantes ao XPath. Essa expressão é normalmente utilizada para selecionar e extrair os valores de propriedade de um objeto JSON. Para saber mais sobre JSON Path, clique [aqui](https://goessner.net/articles/JsonPath/).
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-* **JSON Path:** serve para indicar qual expressão será utilizada no momento do processamento do JSON. É um parâmetro obrigatório e deve ser configurado de acordo com o que você deseja processar.
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* _**JSON Path**_**:** serve para indicar qual expressão será utilizada no momento do processamento do JSON. É um parâmetro obrigatório e deve ser configurado de acordo com o que você deseja processar.
+* _**Fail On Error**_**:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
 Conheça as demais opções para a declaração JSON Path:
 
@@ -44,9 +44,9 @@ Conheça as demais opções para a declaração JSON Path:
 
 \[?(@.categoria=='ficcao' || @.preco < 10)]
 
-### Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 Para demonstrar a funcionalidade desse componente, você precisa configurar um JSON de entrada em um _pipeline_ com o **JSON Path Transformer.** Após adicioná-lo ao _pipeline_, é preciso configurar a expressão JSON Path como **$.address..\[?(@.postalCode == '02375')].streetAddress** ou o exemplo não vai funcionar.
 
@@ -84,7 +84,7 @@ A intenção deste exemplo é filtrar os endereços de entrada por apenas um ún
 }
 ```
 
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
 A estrutura será o JSON filtrado pela especificação caminho JSON.
 
@@ -94,15 +94,15 @@ A estrutura será o JSON filtrado pela especificação caminho JSON.
 ]
 ```
 
-### JSON Path Transformer em Ação <a href="#json-path-transformer-em-ao" id="json-path-transformer-em-ao"></a>
+## JSON Path Transformer em Ação <a href="#json-path-transformer-em-ao" id="json-path-transformer-em-ao"></a>
 
 Abaixo será demonstrado como o componente se comporta em determinada situação e a sua respectiva configuração.
 
-#### Retornar apenas os autores dos livros com um analisador descendente recursivo <a href="#retornar-apenas-os-autores-dos-livros-com-um-analisador-descendente-recursivo" id="retornar-apenas-os-autores-dos-livros-com-um-analisador-descendente-recursivo"></a>
+### Retornar apenas os autores dos livros com um analisador descendente recursivo <a href="#retornar-apenas-os-autores-dos-livros-com-um-analisador-descendente-recursivo" id="retornar-apenas-os-autores-dos-livros-com-um-analisador-descendente-recursivo"></a>
 
 Neste exemplo, você verá apenas os autores de um _array_ com livros dentro de uma loja. A configuração de expressão do componente deve ser **$..author**.
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -143,7 +143,7 @@ Neste exemplo, você verá apenas os autores de um _array_ com livros dentro de 
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 [
@@ -160,11 +160,11 @@ Neste exemplo, você verá apenas os autores de um _array_ com livros dentro de 
 ]
 ```
 
-#### Retornar apenas produtos com menos que um valor limite especificado <a href="#retornar-apenas-produtos-com-menos-que-um-valor-limite-especificado" id="retornar-apenas-produtos-com-menos-que-um-valor-limite-especificado"></a>
+### Retornar apenas produtos com menos que um valor limite especificado <a href="#retornar-apenas-produtos-com-menos-que-um-valor-limite-especificado" id="retornar-apenas-produtos-com-menos-que-um-valor-limite-especificado"></a>
 
 Neste exemplo, você verá apenas os produtos de um _array_ com preço menor que R$3.300,00. A configuração de expressão do componente deve ser **$..\[?(@.price<3300)]**.
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -182,7 +182,7 @@ Neste exemplo, você verá apenas os produtos de um _array_ com preço menor que
 
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 [
@@ -193,13 +193,13 @@ Neste exemplo, você verá apenas os produtos de um _array_ com preço menor que
 ]
 ```
 
-#### Informando uma expressão inválida com a configuração "Fail On Error: false" <a href="#informando-uma-expresso-invlida-com-a-configurao-fail-on-error-false" id="informando-uma-expresso-invlida-com-a-configurao-fail-on-error-false"></a>
+### Informando uma expressão inválida com a configuração "Fail On Error: false" <a href="#informando-uma-expresso-invlida-com-a-configurao-fail-on-error-false" id="informando-uma-expresso-invlida-com-a-configurao-fail-on-error-false"></a>
 
 Com este exemplo você pode configurar o componente com “Fail On Error” como “false” e utilizar a expressão **$.**
 
 Com essas configurações, o resultado será uma mensagem de erro e com a propriedade **success: false**
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -216,7 +216,7 @@ Com essas configurações, o resultado será uma mensagem de erro e com a propri
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -226,13 +226,13 @@ Com essas configurações, o resultado será uma mensagem de erro e com a propri
 }
 ```
 
-#### Informando uma expressão inválida com a configuração "Fail On Error: true" <a href="#informando-uma-expresso-invlida-com-a-configurao-fail-on-error-true" id="informando-uma-expresso-invlida-com-a-configurao-fail-on-error-true"></a>
+### Informando uma expressão inválida com a configuração "Fail On Error: true" <a href="#informando-uma-expresso-invlida-com-a-configurao-fail-on-error-true" id="informando-uma-expresso-invlida-com-a-configurao-fail-on-error-true"></a>
 
 Com este exemplo você pode configurar o componente com “Fail On Error” como “true” e utilizar a expressão **$.**
 
 Com essas configurações, o resultado será uma mensagem de erro e a execução será interrompida imediatamente.
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -249,7 +249,7 @@ Com essas configurações, o resultado será uma mensagem de erro e a execução
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
