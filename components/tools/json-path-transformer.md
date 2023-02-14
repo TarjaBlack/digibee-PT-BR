@@ -48,7 +48,7 @@ Conheça as demais opções para a declaração JSON Path:
 
 ### Entrada <a href="#entrada" id="entrada"></a>
 
-Para demonstrar a funcionalidade desse componente, você precisa configurar um JSON de entrada em um _pipeline_ com o **JSON Path Transformer.** Após adicioná-lo ao _pipeline_, é preciso configurar a expressão JSON Path como **$.address..\[?(@.postalCode == '02375')].streetAddress** ou o exemplo não vai funcionar.
+Para demonstrar a funcionalidade desse componente, você precisa configurar um JSON de entrada em um _pipeline_ com o _**JSON Path Transformer**_**.** Após adicioná-lo ao _pipeline_, é preciso configurar a expressão JSON Path como **$.address..\[?(@.postalCode == '02375')].streetAddress** ou o exemplo não vai funcionar.
 
 A intenção deste exemplo é filtrar os endereços de entrada por apenas um único código postal e retornar apenas a rua do endereço. Veja:
 
