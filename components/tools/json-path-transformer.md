@@ -6,7 +6,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 O _**JSON Path Transformer**_ tem a função de receber um objeto em JSON e realizar filtros e extrações de dados a partir de uma expressão.
 
-_**JSON Path**_ é uma linguagem de consulta para JSON com recursos semelhantes ao XPath. Essa expressão é normalmente utilizada para selecionar e extrair os valores de propriedade de um objeto JSON. Para saber mais sobre JSON Path, clique [aqui](https://goessner.net/articles/JsonPath/).
+_**JSON Path**_ é uma linguagem de consulta para JSON com recursos semelhantes ao XPath. Essa expressão é normalmente utilizada para selecionar e extrair os valores de propriedade de um objeto JSON. [Para saber mais sobre JSON Path, clique aqui.](https://goessner.net/articles/JsonPath/)
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
