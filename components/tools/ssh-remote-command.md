@@ -29,13 +29,13 @@ Dê uma olhada nos parâmetros de configuração do componente:
 **IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 {% endhint %}
 
-### Fluxo de mensagens <a href="#h_e854786965" id="h_e854786965"></a>
+## Fluxo de mensagens <a href="#h_e854786965" id="h_e854786965"></a>
 
-#### Entrada <a href="#h_0de720fbcf" id="h_0de720fbcf"></a>
+### Entrada <a href="#h_0de720fbcf" id="h_0de720fbcf"></a>
 
 Não se espera nenhuma mensagem específica de entrada.
 
-#### Saída <a href="#h_9908e4ffaa" id="h_9908e4ffaa"></a>
+### Saída <a href="#h_9908e4ffaa" id="h_9908e4ffaa"></a>
 
 Ao executar um componente SFTP utilizando as operações _download, upload_ ou _move_, a seguinte estrutura de JSON será gerada:
 
@@ -55,7 +55,7 @@ Ao executar um componente SFTP utilizando as operações _download, upload_ ou _
 * **stderrFileName:** caminho do arquivo salvo contendo as informações exibidas no stderr. Essa propriedade só será exibida caso a flag **Stderr As File** esteja habilitada
 * **success:** "true" se houve uma conexão e o script foi executado mesmo se retornar erros no stderr
 
-**Saída com erro:**
+### **Saída com erro:**
 
 ```
 {
@@ -73,11 +73,11 @@ Ao executar um componente SFTP utilizando as operações _download, upload_ ou _
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
 {% endhint %}
 
-Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
+[Para entender melhor o fluxo das mensagens na Plataforma, clique aqui e leia o nosso artigo.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/processamento-de-mensagens)
 
-### SSH Remote Command em Ação <a href="#h_9a8cd2b071" id="h_9a8cd2b071"></a>
+## SSH Remote Command em Ação <a href="#h_9a8cd2b071" id="h_9a8cd2b071"></a>
 
-* **Executando um script e recebendo as informações no JSON de resposta do componente**
+### **Executando um script e recebendo as informações no JSON de resposta do componente**
 
 **Hostname:** \<HOST>
 
@@ -103,7 +103,7 @@ Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../bu
 }
 ```
 
-* **Executando um script e salvando as informações em arquivos**
+### **Executando um script e salvando as informações em arquivos**
 
 **Hostname:** \<HOST>
 
