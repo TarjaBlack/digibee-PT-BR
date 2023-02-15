@@ -516,4 +516,4 @@ O **Mongo DB** suporta _Double Braces_ estáticos nos seguintes parâmetros prev
 * operation&#x20;
 * url
 
-Para ler o nosso artigo sobre _Double Braces_, clique [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
+Para ler o nosso artigo sobre _Double Braces_, clique [aqui](broken-reference).

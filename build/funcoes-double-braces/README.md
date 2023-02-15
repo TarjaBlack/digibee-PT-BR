@@ -10,7 +10,7 @@ As funções foram criadas para:
 * diminuir a complexidade dos seus _pipelines;_
 * simplificar conversões e transformações dos dados durante o fluxo dos seus _pipelines._
 
-As funções estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, leia o artigo [Double Braces e Entrada de Dados](double-braces-e-entrada-de-dados.md).
+As funções estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, leia o artigo [Double Braces e Entrada de Dados](broken-reference).
 
 Veja a seguir como as funções se agrupam de acordo com o que executam.
 

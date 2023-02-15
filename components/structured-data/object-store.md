@@ -29,7 +29,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Upsert:** este item só aparece se o parâmetro "Operation" for _Update By Object Id_ ou _Update By Query._ Quando este item estiver ativado, o objeto informado para o componente será inserido na coleção caso ele não exista.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
+Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](broken-reference).
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
@@ -278,7 +278,7 @@ Nesse cenário específico, é possível ver que a saída é apenas um objeto id
 
 * **Agregação para cópia da coleção**
 
-Como exemplo, considere um _**Object Store**_\*\* \*\* chamado **product** que já possui itens cadastrados do tipo produto e que tem as características de nome e preço. A partir disso, crie um novo \*\* **\_**Object Store**\_** \*\* chamado **product-backup**, copiando todos os itens da coleção mencionada acima.
+Como exemplo, considere um _**Object Store**_\*\* \*\* chamado **product** que já possui itens cadastrados do tipo produto e que tem as características de nome e preço. A partir disso, crie um novo \*\* **\_**Object Store\*\*\_\*\* \*\* chamado **product-backup**, copiando todos os itens da coleção mencionada acima.
 
 Você deve receber um _array_ de objetos contendo os _pipelines_ de agregação da _query_ no parâmetro “document”.
 

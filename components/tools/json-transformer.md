@@ -210,4 +210,4 @@ As propriedades podem ser removidas apenas declarando seus nomes no campo “Pro
 
 **Informações adicionais**
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
+Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](broken-reference).
