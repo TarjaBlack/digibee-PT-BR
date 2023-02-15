@@ -64,7 +64,7 @@ _**Test Object Stores**_ são compartilhados entre _Realms_ e crescem de acordo 
 | Mensagens Por Segundo (MPS)  | Proporcional | 1 MPS por RTU                                                        | Cada RTU         | Todos os RTUs no _Realm_                   |
 | Fila                         | Proporcional | Máximo de 1.000.000 de mensagens na fila                             | Cada RTU         | RTUs implantados para uma única _pipeline_ |
 | Logs de execuções concluídas | Proporcional | 30 dias ou 2.592.000 mensagens                                       | Cada RTU         | RTUs implantados para uma única _pipeline_ |
-| Pipeline logs                | Proporcional | 10 dias ou 10 GB                                                     | Cada RTU         | RTUs implantados para uma única _pipeline_ |
+| Pipeline logs                | Proporcional | 10 dias ou 1 GB                                                      | Cada RTU         | RTUs implantados para uma única _pipeline_ |
 | Digibee Storage              | Proporcional | 100MB                                                                | Cada RTU         | Todos os RTUs no _Realm_                   |
 | _Object Store_               | Intervalo    | Veja a definição de _Object Store_ para mais detalhes.               | Grupo de 60 RTUs | Todos os RTUs no _Realm_                   |
 | Gestão de Relacionamento     | Proporcional | 10.000.000 objetos (base) 1.000.000 objetos (por RTU)                | Cada RTU         | Todos os RTUs no _Realm_                   |
