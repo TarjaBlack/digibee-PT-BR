@@ -108,7 +108,7 @@ No cenário acima, será feita uma chamada assíncrona ao _pipeline_ configurado
 > **Nota:** Ao realizar implantações de _pipelines_ que utilizem o Pipeline Executor, esteja atento às configurações de execuções simultâneas tanto no _pipeline_ de origem como no de destino, especialmente quando o  o parâmetro _Operation_ estiver configurado com o valor SYNC.
 
 {% hint style="info" %}
-**IMPORTANTE:** Para evitar erros de enfileiramento de chamadas e timeout ao _pipeline_ de destino, é recomendável que a mesma configuração de execuções c seja adotada para ambos os _pipelines_ (origem e destino).
+**IMPORTANTE:** Para evitar erros de enfileiramento de chamadas e timeout ao _pipeline_ de destino, é recomendável que a mesma configuração de execuções simultâneas seja adotada para ambos os _pipelines_ (origem e destino).
 {% endhint %}
 
 #### **Exemplos de **_**Red Flags**_**:**
