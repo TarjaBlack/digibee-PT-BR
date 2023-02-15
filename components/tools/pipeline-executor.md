@@ -14,7 +14,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Payload**: _payload_ a ser enviado na invocação do _pipeline_.
 * **Timeout**: tempo máximo de execução do _pipeline_ (em milissegundos).
 * **Expiration**: tempo de permanência da mensagem em fila ao tentar executar o _pipeline_ (em milissegundos).
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
@@ -108,7 +108,7 @@ No cenário acima, será feita uma chamada assíncrona ao _pipeline_ configurado
 > **Nota:** Ao realizar implantações de _pipelines_ que utilizem o Pipeline Executor, esteja atento às configurações de execuções concorrentes tanto no _pipeline_ de origem como no de destino, especialmente quando o  o parâmetro _Operation_ estiver configurado com o valor SYNC.
 
 {% hint style="info" %}
-**IMPORTANTE:** Para evitar erros de enfileiramento de chamadas e timeout ao _pipeline_ de destino, é recomendável que a mesma configuração de execuções concorrentes seja adotada para ambos os _pipelines_ (origem e destino).
+**IMPORTANTE:** Para evitar erros de enfileiramento de chamadas e timeout ao _pipeline_ de destino, é recomendável que a mesma configuração de execuções simultâneas seja adotada para ambos os _pipelines_ (origem e destino).
 {% endhint %}
 
 #### **Exemplos de **_**Red Flags**_**:**
@@ -117,7 +117,7 @@ pipeline1(Medium) <-> pipeline2(Small)\
 pipeline1(Large) <-> pipeline2(Medium)\
 pipeline1(Medium) <-> pipeline2(Small)
 
-#### **Limite de Execuções Concorrentes por tipo de implantação:**
+#### **Limite de** Execuções Simultâneas **por tipo de implantação:**
 
 Small - max 10\
 Medium - max 20\
