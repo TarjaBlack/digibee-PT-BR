@@ -16,9 +16,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * _**Body:**_ quando a opção CSV as File estiver desativada, esse campo será exibido e um CSV em forma de JSON (_array_ ou _string_) deverá ser passado.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-### Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 O componente espera uma mensagem com a propriedade. Você pode passar os dados CSV como um _array_ de _strings_:
 
@@ -42,9 +42,7 @@ ou como arquivo:
 File Name: arquivo.csv
 ```
 
-
-
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
 ```
 {
