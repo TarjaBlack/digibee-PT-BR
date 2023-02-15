@@ -11,6 +11,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Method Type:** tipo de método que será utilizado na invocação do serviço. Os tipos de métodos suportados são _Unary_, _Client Stream - via Payload_ e _Client Stream - via File_. Esse parâmetro não suporta _Double Braces_.
 * **URL**: endereço de chamada do serviço gRPC. Ex: localhost:50051. Esse parâmetro não suporta _Double Braces_.
 * **Headers:** configura todos os tipos de _headers_ necessários para chamada (ex.: Authorization: Bearer Co4ECg1FeGFtcGxlLnByb3RvIjwKDEh).
+* **Custom Accounts:** defina a conta a ser usada em expressões com _Double Braces_.
 * **Service name:** nome do serviço que está descrito dentro do arquivo de configuração .proto do servidor gRPC. Esse parâmetro não suporta _Double Braces_. No exemplo abaixo o _Service Name_ será “Greeter”:
 
 ```protobuf
