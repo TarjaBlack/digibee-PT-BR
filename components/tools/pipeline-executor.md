@@ -12,7 +12,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Pipeline Name:** nome do _pipeline_ a ser invocado.
 * **Version Major**: Major Version do _pipeline_ a ser invocado.
 * **Payload**: _payload_ a ser enviado na invocação do _pipeline_.
-* **Timeout**: tempo máximo de execução do _pipeline_.
+* **Timeout**: tempo máximo de execução do _pipeline_ (em milissegundos).
 * **Expiration**: tempo de permanência da mensagem em fila ao tentar executar o _pipeline_ (em milissegundos).
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
