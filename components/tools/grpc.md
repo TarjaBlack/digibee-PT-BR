@@ -61,7 +61,7 @@ Esse parâmetro não suporta _Double Braces_.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
 {% hint style="info" %}
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
+**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. [Para entender como essa linguagem funciona, leia o nosso artigo clicando aqui.](https://docs.digibee.com/documentation/v/pt-br/build/funcoes-double-braces)
 {% endhint %}
 
 ## Fluxo de mensagens <a href="#h_aaf20d022e" id="h_aaf20d022e"></a>
