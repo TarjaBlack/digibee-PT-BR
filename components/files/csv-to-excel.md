@@ -25,6 +25,8 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Sheet Name:** nome da planilha de Excel - se o campo estiver vazio, a planilha será salva como "Sheet1".
 * **Delimiter:** delimitador no qual o CSV está configurado.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Set Password:** se esta opção estiver habilitada, você poderá definir uma senha para proteger o arquivo de saída Excel.
+* **Password:** Senha do arquivo Excel. Este parâmetro fica disponível apenas quando a opção **Set Password** estiver habilitada. Este campo suporta caracteres de texto e expressões em _Double Braces_.
 
 Note que alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](https://intercom.help/godigibee/pt-BR/articles/3185881-double-braces-e-entrada-de-dados).
 

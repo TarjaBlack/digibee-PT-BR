@@ -4,7 +4,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # Session Management
 
-O **Session Management** implementa o gerenciamento de sessão tradicional e a sua função principal para construção de _pipelines_ é bastante utilizada no armazenamento de dados semelhantes às variáveis em desenvolvimento tradicional.\
+O _**Session Management**_ implementa o gerenciamento de sessão tradicional e a sua função principal para construção de _pipelines_ é bastante utilizada no armazenamento de dados semelhantes às variáveis em desenvolvimento tradicional.\
 
 
 Dê uma olhada nos parâmetros de configuração do componente:
