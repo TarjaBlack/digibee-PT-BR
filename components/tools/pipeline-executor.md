@@ -16,13 +16,13 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Expiration**: tempo de permanência da mensagem em fila ao tentar executar o _pipeline_ (em milissegundos).
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-### Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 Não se espera nenhum _payload_ específico na entrada desse componente. A entrada será configurada dinamicamente no campo “Payload” conforme a necessidade do _pipeline_ a ser invocado.
 
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
 ```
 {
@@ -42,11 +42,11 @@ Não se espera nenhum _payload_ específico na entrada desse componente. A entra
 * **payload:** _payload_ utilizado para invocar o _pipeline_ configurado
 * **pipelineResponse:** resposta do _pipeline_ executado. Essa propriedade é retornada apenas na operação SYNC.
 
-### Pipeline Executor em Ação <a href="#pipeline-executor-em-ao" id="pipeline-executor-em-ao"></a>
+## Pipeline Executor em Ação <a href="#pipeline-executor-em-ao" id="pipeline-executor-em-ao"></a>
 
 Veja abaixo como o componente se comporta em determinada situação e a sua respectiva configuração.
 
-* **Realizando uma chamada assíncrona**
+### **Realizando uma chamada assíncrona**
 
 **Operation:** ASYNC
 
@@ -76,7 +76,7 @@ No cenário acima, será feita uma chamada assíncrona ao _pipeline_ configurado
 }
 ```
 
-* **Realizando uma chamada síncrona**
+### **Realizando uma chamada síncrona**
 
 **Operation:** SYNC
 
@@ -105,16 +105,20 @@ No cenário acima, será feita uma chamada assíncrona ao _pipeline_ configurado
 }
 ```
 
-**Nota:** Ao realizar implantações de _pipelines_ que utilizem o Pipeline Executor, esteja atento às configurações de execuções concorrentes tanto no _pipeline_ de origem como no de destino, especialmente quando o  o parâmetro _Operation_ estiver configurado com o valor SYNC.
+> **Nota:** Ao realizar implantações de _pipelines_ que utilizem o Pipeline Executor, esteja atento às configurações de execuções concorrentes tanto no _pipeline_ de origem como no de destino, especialmente quando o  o parâmetro _Operation_ estiver configurado com o valor SYNC.
 
-Para evitar erros de enfileiramento de chamadas e timeout ao _pipeline_ de destino, é recomendável que a mesma configuração de execuções concorrentes seja adotada para ambos os _pipelines_ (origem e destino).
+{% hint style="info" %}
+**IMPORTANTE:** Para evitar erros de enfileiramento de chamadas e timeout ao _pipeline_ de destino, é recomendável que a mesma configuração de execuções concorrentes seja adotada para ambos os _pipelines_ (origem e destino).
+{% endhint %}
 
-**Exemplos de **_**Red Flags**_**:**\
+#### **Exemplos de **_**Red Flags**_**:**
+
 pipeline1(Medium) <-> pipeline2(Small)\
 pipeline1(Large) <-> pipeline2(Medium)\
 pipeline1(Medium) <-> pipeline2(Small)
 
-**Limite de Execuções Concorrentes por tipo de implantação:**\
+#### **Limite de Execuções Concorrentes por tipo de implantação:**
+
 Small - max 10\
 Medium - max 20\
 Large - max 40\
