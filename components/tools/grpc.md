@@ -54,7 +54,7 @@ tLmRpZ2liZWUuZ3JwY0IMRGlnaWJlZVByb3RvUAGiAgNITFdiBnByb3RvMw==
 * **Payload:** o _payload_ de requisição que será enviado ao servidor gRPC. Para o tipo de método _Unary_, deverá ser utlizado um objeto simples que contenha os campos definidos no arquivo .proto. Para o tipo de método _Client Stream - via Payload_ deverá ser utilizado um _array_ de objetos, onde cada item do _array_ é uma mensagem a ser enviada ao servidor gRPC. Esse parâmetro aceita Double Braces.
 * **File Name:** nome do arquivo que será usado para enviar o _payload_ no modo _Client Stream - via File_. Esse arquivo deverá ser um arquivo JSON que contenha um _array_ e, dentro desse _array_, deve haver as mensagens a serem enviadas ao gRPC _server_ de forma assíncrona (_stream_).
 * **JSON Path:** expressão JSON Path que irá determinar como será feita a leitura em _stream_ do arquivo JSON. Somente para o tipo de método _Client Stream - via File_.
-* **Connection Timeout:** tempo de expiração da conexão com o servidor (em milissegundos).
+* **Connect Timeout:** tempo de expiração da conexão com o servidor (em milissegundos).
 * **Request Timeout:** tempo de expiração da chamada de requisição do componente com o servidor gRPC (em milissegundos).
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
