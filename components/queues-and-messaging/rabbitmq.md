@@ -34,7 +34,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Publisher Acknowledgement Timeout**: tempo máximo que o componente aguardará por uma confirmação de publicação da mensagem.
 * **Mandatory Message**: se a opção estiver ativada, então a mensagem é marcada como obrigatória e um erro será lançado caso ela não possa ser roteada; do contrário, então nenhuma verificação de roteamento será feita (é necessário que a opção "Wait for a Publish Acknowledgement" seja habilitada).
 
+{% hint style="info" %}
 **IMPORTANTE:** todos os parâmetros de configuração opcionais não serão definidos na mensagem caso os seus valores sejam deixados em branco.
+{% endhint %}
 
 ### Exemplo de resposta de requisição ao RabbitMQ <a href="#exemplo-de-resposta-de-requisio-ao-rabbitmq" id="exemplo-de-resposta-de-requisio-ao-rabbitmq"></a>
 
@@ -42,7 +44,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 <MESMA MENSAGEM QUE FOI INFORMADA NA ENTRADA>
 ```
 
-IMPORTANTE: o _**RabbitMQ**_ não altera a mensagem apresentada na sua entrada, exceto em caso de erro.
+{% hint style="info" %}
+**IMPORTANTE:** o _**RabbitMQ**_ não altera a mensagem apresentada na sua entrada, exceto em caso de erro.
+{% endhint %}
 
 ### Exemplo de resposta de requisição ao RabbitMQ contendo erro <a href="#exemplo-de-resposta-de-requisio-ao-rabbitmq-contendo-erro" id="exemplo-de-resposta-de-requisio-ao-rabbitmq-contendo-erro"></a>
 
