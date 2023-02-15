@@ -64,13 +64,13 @@ Esse parâmetro não suporta _Double Braces_.
 **IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
 {% endhint %}
 
-### Fluxo de mensagens <a href="#h_aaf20d022e" id="h_aaf20d022e"></a>
+## Fluxo de mensagens <a href="#h_aaf20d022e" id="h_aaf20d022e"></a>
 
-#### Entrada <a href="#h_ab6f4db9e3" id="h_ab6f4db9e3"></a>
+### Entrada <a href="#h_ab6f4db9e3" id="h_ab6f4db9e3"></a>
 
 Espera-se um _payload_ de entrada que será utilizado dentro do parâmetro _payload_ do componente.
 
-#### Saída <a href="#h_c64435e814" id="h_c64435e814"></a>
+### Saída <a href="#h_c64435e814" id="h_c64435e814"></a>
 
 Ao executar um componente SFTP utilizando as operações _download, upload_ ou _move_, a seguinte estrutura de JSON será gerada:
 
@@ -100,9 +100,9 @@ Ao executar um componente SFTP utilizando as operações _download, upload_ ou _
 
 Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
 
-### Componente gRPC em Ação <a href="#h_98436d3a37" id="h_98436d3a37"></a>
+## Componente gRPC em Ação <a href="#h_98436d3a37" id="h_98436d3a37"></a>
 
-* **Unary**
+### **Unary**
 
 Dado o seguinte arquivo .proto:
 
@@ -130,7 +130,7 @@ message HelloReply {
 }
 ```
 
-Primeiramente, é preciso gerar o arquivo “descriptor”:
+Primeiramente, é preciso gerar o arquivo _“descriptor”_:
 
 1\. Dentro do diretório do arquivo, executar o comando:
 
@@ -174,7 +174,7 @@ Configurações do componente:
 }
 ```
 
-* **Client Stream - via Payload**
+### **Client Stream - via Payload**
 
 Dado o arquivo .proto:
 
@@ -202,7 +202,7 @@ message HelloReply {
 }
 ```
 
-Primeiramente, é preciso gerar o arquivo “descriptor”:
+Primeiramente, é preciso gerar o arquivo _“descriptor_”:
 
 1\. Dentro do diretório do arquivo, executar o comando:
 
@@ -256,7 +256,7 @@ Configurações do componente:
 }
 ```
 
-* **Client Stream - via File**
+### **Client Stream - via File**
 
 Dado o seguinte arquivo .proto:
 
@@ -284,7 +284,7 @@ message HelloReply {
 }
 ```
 
-Primeiramente, é preciso gerar o arquivo “descriptor”:
+Primeiramente, é preciso gerar o arquivo _“descriptor”:_
 
 1\. Dentro do diretório do arquivo, executar o comando:
 
