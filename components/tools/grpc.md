@@ -31,9 +31,9 @@ service Greeter {
 }
 ```
 
-* **Proto Descriptor File:** base64 do arquivo “Descriptor” do arquivo .proto. Primeiramente, o “Descriptor” deverá ser gerado a partir de um arquivo .proto. Para fazer isso, basta rodar o seguinte comando no diretório corrente que estiver localizado o arquivo .proto:
+* **Proto Descriptor File:** base64 do arquivo “Descriptor” do arquivo .proto. Esse parâmetro não suporta _Double Braces_. Primeiramente, o “Descriptor” deverá ser gerado a partir de um arquivo .proto. Para fazer isso, basta rodar o seguinte comando no diretório corrente que estiver localizado o arquivo .proto:
 
-**1. Gerar o arquivo "descriptor"**
+#### **1. Gerar o arquivo "descriptor"**
 
 **Arquivo .proto do diretório:** Example.proto
 
@@ -43,15 +43,13 @@ _**protoc --include\_imports --descriptor\_set\_out=proto.desc Example.proto**_
 
 **Download do compilador protoc:** [https://grpc.io/docs/protoc-installation/](https://grpc.io/docs/protoc-installation/)
 
-**2. Realizar o encode deste arquivo para base64:**
+#### **2. Realizar o encode deste arquivo para base64:**
 
 ```
 tLmRpZ2liZWUuZ3JwY0IMRGlnaWJlZVByb3RvUAGiAgNITFdiBnByb3RvMw==
 ```
 
-**3. Informar o base64 na propriedade "Proto Descriptor File"**
-
-Esse parâmetro não suporta _Double Braces_.
+#### **3. Informar o base64 na propriedade "Proto Descriptor File"**
 
 * **Payload:** o _payload_ de requisição que será enviado ao servidor gRPC. Para o tipo de método _Unary_, deverá ser utlizado um objeto simples que contenha os campos definidos no arquivo .proto. Para o tipo de método _Client Stream - via Payload_ deverá ser utilizado um _array_ de objetos, onde cada item do _array_ é uma mensagem a ser enviada ao servidor gRPC. Esse parâmetro aceita Double Braces.
 * **File Name:** nome do arquivo que será usado para enviar o _payload_ no modo _Client Stream - via File_. Esse arquivo deverá ser um arquivo JSON que contenha um _array_ e, dentro desse _array_, deve haver as mensagens a serem enviadas ao gRPC _server_ de forma assíncrona (_stream_).
