@@ -14,11 +14,11 @@ As funções foram criadas para:
 
 As funções de JSON realizam operações em objetos do tipo JSON e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, clique [aqui](./).
 
-### JSONPATH <a href="#jsonpath" id="jsonpath"></a>
+## JSONPATH <a href="#jsonpath" id="jsonpath"></a>
 
 Essa função em _Double Braces_ retorna partes de um determinado documento conforme a expressão enviada.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 JSONPATH(value:string, expression:string)
@@ -54,7 +54,7 @@ O resultado esperado será:
 * stddev()
 * length
 
-**Exemplo:**
+### **Exemplo:**
 
 Suponha que um _array_ de entrada seja recebido:
 
@@ -88,11 +88,11 @@ O resultado será:
 }
 ```
 
-### TOJSON <a href="#tojson" id="tojson"></a>
+## TOJSON <a href="#tojson" id="tojson"></a>
 
 Essa função em _Double Braces_ retorna o valor do JSON a partir do objeto recebido.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 TOJSON(value:string)
@@ -128,11 +128,11 @@ O resultado esperado será:
 }
 ```
 
-### UNESCAPEJSON <a href="#unescapejson" id="unescapejson"></a>
+## UNESCAPEJSON <a href="#unescapejson" id="unescapejson"></a>
 
 Essa função em _Double Braces_ retorna um JSON removendo os _escapes_ encontrados no valor fornecido.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 UNESCAPE(value:string)
@@ -156,11 +156,11 @@ O resultado esperado será:
 }
 ```
 
-### GETELEMENTAT <a href="#h_66a3c0ca98" id="h_66a3c0ca98"></a>
+## GETELEMENTAT <a href="#h_66a3c0ca98" id="h_66a3c0ca98"></a>
 
 Essa função permite que você capture um elemento específico de um _array_.
 
-**Sintaxe**
+### **Sintaxe**
 
 GETELEMENTAT(_array_, índice)
 
@@ -202,13 +202,15 @@ O resultado será:
 
 Se a função receber um índice inexistente, o valor _**null**_ será retornado.
 
-### LASTELEMENT <a href="#h_0931a48b4a" id="h_0931a48b4a"></a>
+## LASTELEMENT <a href="#h_0931a48b4a" id="h_0931a48b4a"></a>
 
 Essa função permite que você capture o último elemento de um _array_.
 
 **Sintaxe**
 
-LASTELEMENT(_array_)
+```
+LASTELEMENT(array)
+```
 
 Vamos supor que você precise capturar o último elemento do _array_ abaixo:
 
@@ -248,13 +250,15 @@ O resultado será:
 
 Se a função receber um _array_ vazio, o valor _**null**_ será retornado.
 
-### **REMOVEAT** <a href="#h_6994f76ca4" id="h_6994f76ca4"></a>
+## **REMOVEAT** <a href="#h_6994f76ca4" id="h_6994f76ca4"></a>
 
 Essa função permite que você remova um elemento específico de um _array_.
 
-**Sintaxe**
+### **Sintaxe**
 
-REMOVEAT(_array, index_)
+```
+REMOVEAT(array, index)
+```
 
 Vamos supor que você precise remover o segundo elemento do _array_ abaixo:
 
@@ -299,13 +303,15 @@ O resultado será:
 
 Se a função receber um índice inexistente, o _array_ original será retornado sem alterações.
 
-### PUSH <a href="#h_f720a597c4" id="h_f720a597c4"></a>
+## PUSH <a href="#h_f720a597c4" id="h_f720a597c4"></a>
 
 Essa função permite que você insira um elemento no final de um _array._
 
-**Syntax**
+### **Syntax**
 
+```
 PUSH(array, element)
+```
 
 Vamos supor que você precise inserir um novo elemento no _array_ abaixo:
 
@@ -353,13 +359,15 @@ O resultado será:
 
 Se a função receber um elemento inexistente ou nulo, o valor _null_ será inserido no final do array
 
-### POP <a href="#h_aa365201c7" id="h_aa365201c7"></a>
+## POP <a href="#h_aa365201c7" id="h_aa365201c7"></a>
 
 Essa função permite que você remova o último elemento de um _array_, retornando o elemento removido e o _array_ remanescente.
 
-**Syntax**
+### **Syntax**
 
+```
 POP(array)
+```
 
 Vamos supor que você precise remover o último elemento do _array_ abaixo:
 
@@ -409,13 +417,15 @@ O resultado será:
 
 Se a função receber um _array_ vazio, o mesmo _array_ vazio será retornado.
 
-**NEWEMPTYOBJECT**
+## **NEWEMPTYOBJECT**
 
 Essa função permite que você crie um novo objeto vazio.
 
-**Sintaxe**
+### **Sintaxe**
 
+```
 NEWEMPTYOBJECT()
+```
 
 Vamos supor que você precise criar um novo objeto vazio:
 
@@ -441,13 +451,15 @@ O resultado será:
 }
 ```
 
-### NEWEMPTYARRAY <a href="#h_09f3fbefe8" id="h_09f3fbefe8"></a>
+## NEWEMPTYARRAY <a href="#h_09f3fbefe8" id="h_09f3fbefe8"></a>
 
 Essa função permite que você crie um novo _array_ vazio.
 
 **Sintaxe**
 
+```
 NEWEMPTYARRAY()
+```
 
 Digamos que você precise criar um novo _array_ vazio:
 
@@ -473,13 +485,15 @@ O resultado será:
 }
 ```
 
-**CARDINALITYONE**
+## **CARDINALITYONE**
 
 Essa função possibilita aplicar uma cardinalidade de _n:1_ na estrutura informada, onde independente da quantidade de elementos na entrada, a saída será sempre 1 elemento.
 
-**Sintaxe**
+### **Sintaxe**
 
-CARDINALITYONE(_data_)
+```
+CARDINALITYONE(data)
+```
 
 Digamos que você precise aplicar a cardinalidade _n:1_ em cada elemento do JSON abaixo:
 
@@ -541,13 +555,15 @@ O resultado será:
 }
 ```
 
-**CARDINALITYMANY**
+## **CARDINALITYMANY**
 
 Essa função possibilita normalizar a saída em cardinalidade múltipla. Ou seja, caso a entrada seja um _array_ com _n_ elementos, a saída será um _array_ com _n_ elementos e caso a entrada seja uma único objeto, a saída será um _array_ contendo este único objeto.
 
-**Sintaxe**
+### **Sintaxe**
 
-CARDINALITYMANY(_data_)
+```
+CARDINALITYMANY(data)
+```
 
 Digamos que você precise aplicar a cardinalidade _m:n_ em cada elemento do JSON abaixo:
 
