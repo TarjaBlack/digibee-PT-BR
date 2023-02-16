@@ -271,7 +271,7 @@
   * [Como obter arquivo de configuração do digibeectl](plataforma/digibeectl/gerando-novo-token.md)
   * [digibeectl - Dúvidas Frequentes](plataforma/digibeectl/digibeectl-duvidas-frequentes.md)
 * [Limpeza de cache da plataforma](plataforma/limpeza-de-cache-da-plataforma.md)
-* [Bancos de Dados suportados](plataforma/bancos-de-dados-suportados.md)
+* [Bancos de dados suportados](plataforma/bancos-de-dados-suportados.md)
 * [Requisitos de sistema](plataforma/requisitos-de-sistema.md)
 
 ## Tutoriais e Melhores Práticas
