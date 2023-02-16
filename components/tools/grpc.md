@@ -8,6 +8,8 @@ O componente _**gRPC**_ permite a realização de chamadas a serviços gRPC do t
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
+* **Authenticate with client certificates:** quando ativado, pode selecionar autenticação de cliente com certificados de cliente (mTLS). Use o tipo de conta _Certificate Chain_.
+* **Authenticate with Google Key:** quando ativado, pode selecionar a autenticação do cliente com _Google Key_. Use o tipo de conta _Google Key._
 * **Method Type:** tipo de método que será utilizado na invocação do serviço. Os tipos de métodos suportados são _Unary_, _Client Stream - via Payload_ e _Client Stream - via File_. Esse parâmetro não suporta _Double Braces_.
 * **URL**: endereço de chamada do serviço gRPC. Ex: localhost:50051. Esse parâmetro não suporta _Double Braces_.
 * **Headers:** configura todos os tipos de _headers_ necessários para chamada (ex.: Authorization: Bearer Co4ECg1FeGFtcGxlLnByb3RvIjwKDEh).
