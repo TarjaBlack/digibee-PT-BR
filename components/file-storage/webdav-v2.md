@@ -6,7 +6,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 
 
-O **WebDAV-V2** se conecta a _endpoints_ do webDAV e emite comandos de _upload_, _download_, _list_ e _delete_. Ele permite o uso de _Double Braces_ nos parâmetros _File Name_, _Remote File Name_ e _Remote Directory._ Leia a[ documentação sobre o componente WebDav](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/webdav).
+O **WebDAV -V2** permite o uso de _Bouble Braces_ nos parâmetros _File Name, Remote File Name e Remote Directory. Leia a Documentação WebDav aqui._
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
