@@ -103,7 +103,7 @@ Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../bu
 
 ## Componente gRPC em Ação <a href="#h_98436d3a37" id="h_98436d3a37"></a>
 
-### **Unary**
+### _**Unary**_
 
 Dado o seguinte arquivo .proto:
 
@@ -175,7 +175,7 @@ Configurações do componente:
 }
 ```
 
-### **Client Stream - via Payload**
+### _**Client Stream - via Payload**_
 
 Dado o arquivo .proto:
 
@@ -257,7 +257,7 @@ Configurações do componente:
 }
 ```
 
-### **Client Stream - via File**
+### _**Client Stream - via File**_
 
 Dado o seguinte arquivo .proto:
 
