@@ -9,65 +9,68 @@ Para realizar cada ação descrita nesta página, você deve ter sua respectiva 
 {% endhint %}
 
 {% hint style="info" %}
-Quando você cria, edita ou arquiva um papel, essas ações são registradas no histórico de alterações na página Auditoria.
+Quando você cria, edita ou arquiva uma papel, essas ações são registradas no histórico de alterações na página Auditoria.
 {% endhint %}
 
-## Como criar um papel
+## A página Papéis <a href="#_9d3g2kn3fxhi" id="_9d3g2kn3fxhi"></a>
 
-Depois de fazer login na Digibee Integration Platform:
+A página **Papéis** exibe uma tabela com papéis ativos em seu _realm_.
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Papéis**, na aba no canto esquerdo;
-3. Clique no botão **CRIAR**, no canto superior direito;
-4. Preencha o nome e a descrição do papel;
-5. Clique nos pontos nas colunas Criar, Ler, Atualizar, Deletar e Específico para ativar ou desativar a permissão para o serviço descrito em cada linha. As permissões ativadas são representado por pontos verdes;
-6. Clique em **SALVAR**.
+Esta tabela mostra o **nome** e **descrição** do papel, assim como botões para visualizá-los, editá-los ou arquivá-los.
 
-<figure><img src="https://i.imgur.com/3MUwR76.gif" alt=""><figcaption><p>Criando um papel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0 (2).png" alt=""><figcaption><p>Página de papéis</p></figcaption></figure>
 
-## Como editar um papel
+## Ações <a href="#_ppjl1sjz4utb" id="_ppjl1sjz4utb"></a>
 
-Depois de fazer login na Digibee Integration Platform:
+### Como criar um papel <a href="#_wnbbosntxrbv" id="_wnbbosntxrbv"></a>
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Papéis**, na aba no canto esquerdo;
-3. Pesquise na tabela o papel que deseja editar ou use a barra de pesquisa;
-4. Clique no ícone de lápis, na coluna Ações;
-5. Faça as alterações desejadas no papel;
-6. Clique em **SALVAR**.
+Para criar um papel:
 
-<figure><img src="https://i.imgur.com/alpvCzw.gif" alt=""><figcaption><p>Editando um papel</p></figcaption></figure>
+1. Clique no botão **CRIAR**, no canto superior direito;
+2. Preencha o nome e a descrição do papel;
+3. Clique nos pontos nas colunas CREATE, READ, UPDATE, DELETE e SPECIFIC para ativar ou desativar uma permissão para o serviço descrito em cada linha. As permissões ativadas são representadas por pontos verdes;
+4. Clique em **SALVAR**.
 
-## Como duplicar um papel
+### Como visualizar ou editar um papel <a href="#_77hw1b3qlr82" id="_77hw1b3qlr82"></a>
 
-Depois de fazer login na Digibee Integration Platform:
+Para visualizar um papel:
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Papéis**, na aba no canto esquerdo;
-3. Pesquise na tabela o papel que deseja duplicar ou use a barra de pesquisa;
-4. Clique no ícone de lápis ou de olho na coluna Ações;
-5. Clique em **DUPLICAR PAPEL**;
-6. Faça as alterações desejadas no novo papel;
-7. Clique em **SALVAR**.
+1. Pesquise na tabela o papel que deseja editar ou use a barra de pesquisa;
+2. Clique no ícone de lápis ou olho na coluna Ações;
 
-<figure><img src="https://i.imgur.com/LliYgq9.gif" alt=""><figcaption><p>Duplicando um papel</p></figcaption></figure>
+Para editar o papel:
 
-## Como arquivar um papel
+1. Faça as alterações desejadas no papel;
+2. Clique em **SALVAR**.
 
-Ao arquivar um papel, as permissões concedidas por esse papel tornam-se inativas. Para arquivar um papel, siga esses passos:
+{% hint style="info" %}
+[Papéis de sistema](papeis-do-controle-de-acesso.md#\_7auxts1l679f) não podem ser editados
+{% endhint %}
 
-Depois de fazer login na Digibee Integration Platform:
+### Como duplicar um papel <a href="#_xulzjx3de8" id="_xulzjx3de8"></a>
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Papéis**, na aba no canto esquerdo;
-3. Procure o papel que deseja arquivar na tabela ou use a barra de pesquisa;
-4. Clique no ícone de caixa na coluna Ações;
-5. Escreva uma nota descrevendo o motivo do arquivamento dessa Papel;
-6. Clique em **CONFIRMAR**.
+Para duplicar um papel:
 
-<figure><img src="https://i.imgur.com/9XhFjrZ.gif" alt=""><figcaption><p>Arquivando um papel</p></figcaption></figure>
+1. Pesquise na tabela o papel que deseja duplicar ou use a barra de pesquisa;
+2. Clique no ícone de lápis ou olho na coluna Ações;
+3. Clique em **DUPLICAR PAPEL**;
+4. Faça as alterações desejadas no novo papel;
+5. Clique em **SALVAR**.
 
-## Papéis de sistema
+### Como arquivar um papel <a href="#_v6bw27hgycyn" id="_v6bw27hgycyn"></a>
+
+Ao arquivar um papel, as permissões concedidas por esse papel tornam-se inativas. Para arquivar um papel:
+
+1. Pesquise na tabela o papel que deseja arquivar ou use a barra de pesquisa;
+2. Clique no ícone de caixa na coluna Ações;
+3. Escreva uma nota descrevendo o motivo do arquivamento desse papel;
+4. Clique em **CONFIRMAR**.
+
+{% hint style="info" %}
+[Papéis de sistema](papeis-do-controle-de-acesso.md#\_7auxts1l679f) não podem ser arquivados
+{% endhint %}
+
+## Papéis de sistema <a href="#_7auxts1l679f" id="_7auxts1l679f"></a>
 
 Além de criar seus próprios papéis, você também pode usar os papéis de sistema da Digibee. Os papéis de sistema são papéis predefinidos criados pelo Digibee. Você não pode editar ou excluir os papéis do sistema, mas você pode replicá-los e editar suas réplicas.
 

@@ -12,67 +12,70 @@ Para realizar cada ação descrita nesta página, você deve ter sua respectiva 
 Quando você cria, edita ou arquiva um usuário, essas ações são registradas no histórico de alterações da página Auditoria.
 {% endhint %}
 
-## Como criar um usuário
+## A página de usuários <a href="#_evy0e5xts9nd" id="_evy0e5xts9nd"></a>
 
-Depois de fazer login na Digibee Integration Platform:
+A página Usuários mostra uma tabela com os usuários ativos em seu _realm_.
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Usuários**, na aba no canto esquerdo;
-3. Clique no botão **Criar**, no canto superior direito;
-4. Preencha as informações do usuário;
-5. Clique em **Salvar**.
+Esta tabela mostra o **nome de usuário e e-mail**, o **status** do usuário e botões para editá-los e arquivá-los.
 
-<figure><img src="https://i.imgur.com/cSln4qr.gif" alt=""><figcaption><p>Criando um usuário</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/users_ptbr.png" alt=""><figcaption><p>Página de usuários</p></figcaption></figure>
 
-## Como editar um usuário
+A variável **status** pode assumir os seguintes valores:
 
-Depois de fazer login na Digibee Integration Platform:
+| Status          | Descrição                                          |
+| --------------- | -------------------------------------------------- |
+| Ativo           | Usuários ativos                                    |
+| Redefinir senha | Usuários ativos que precisam redefinir suas senhas |
+| Inativo         | Usuários arquivados                                |
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Usuários**, na aba no canto esquerdo;
-3. Pesquise na tabela o usuário que deseja editar ou use a barra de pesquisa;
-4. Clique no ícone de lápis na coluna Ações.
+## Ações <a href="#_y34ozqf2iypd" id="_y34ozqf2iypd"></a>
 
-Um modal é exibido, mostrando os grupos aos quais esse usuário é associado e as permissões que ele possui. Neste modal, você pode associar o usuário a grupos ou removê-lo deles. O nome, sobrenome e fuso horário do usuário só podem ser alterados por ele mesmo.
+### Como criar um usuário <a href="#_hfdo6rrjp2l2" id="_hfdo6rrjp2l2"></a>
 
-<figure><img src="https://i.imgur.com/zuPNw7P.gif" alt=""><figcaption><p>Editando um usuário</p></figcaption></figure>
+Para criar um usuário:
 
-## Como visualizar as permissões de um usuário
+1. Clique no botão **CRIAR**, no canto superior direito;
+2. Preencha as informações do usuário;
+3. Clique em **SALVAR**.
 
-Depois de fazer login na Digibee Integration Platform:
+### Como visualizar ou editar um usuário <a href="#_1edn1lub9jaz" id="_1edn1lub9jaz"></a>
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Usuários**, na aba no canto esquerdo;
-3. Pesquise na tabela o usuário cujas permissões você deseja visualizar;
-4. Clique no ícone de lápis na coluna Ações;
-5. Clique na aba de **Permissões**.
+Para visualizar um usuário:
 
-<figure><img src="https://i.imgur.com/wTHl1YE.gif" alt=""><figcaption><p>Visualizando as permissões de um usuário</p></figcaption></figure>
+1. Pesquise na tabela o usuário que deseja visualizar ou editar, ou use a barra de pesquisa;
+2. Clique no ícone de lápis, na coluna Ações.
 
-## Como arquivar um usuário
+Um modal é exibido, como mostrado abaixo:
 
-Ao arquivar um usuário, você desativa suas permissões na plataforma. Para arquivar um usuário, siga estas etapas:
+<figure><img src="../../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
 
-Depois de fazer login na Digibee Integration Platform:
+Se o usuário já tiver feito login anteriormente por meio de um provedor de identidade (IdP), uma mensagem será exibida informando isso. Clique no ícone destacado para ir para a página de integração do grupo. Para saber mais sobre a integração de IdP, leia nossa documentação sobre integração de provedor de identidade.
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Usuários**, na aba no canto esquerdo;
-3. Pesquise na tabela o usuário que deseja arquivar ou use a barra de pesquisa;
-4. Clique no ícone de caixa, na coluna Ações;
-5. Confirme a ação clicando em **ARQUIVAR**.
+Na aba **grupos**, você pode atribuir o usuário a grupos ou removê-lo deles. O nome, sobrenome e fuso horário do usuário só podem ser alterados pelo usuário.
 
-<figure><img src="https://i.imgur.com/mKHs8Qh.gif" alt=""><figcaption><p>Archiving a user</p></figcaption></figure>
+Na aba **permissões**, você pode ver quais permissões este usuário tem. Você não pode editar as permissões do usuário nesta guia.
 
-## Como restaurar um usuário arquivado
+### Como arquivar um usuário <a href="#_dljrmy5eqznt" id="_dljrmy5eqznt"></a>
 
-Depois de fazer login na Digibee Integration Platform:
+Ao arquivar um usuário, você desativa suas permissões na plataforma.
 
-1. Clique no ícone de **Administração**, no canto superior direito;
-2. Clique em **Usuários**, na aba no canto esquerdo;
-3. Clique na seta da barra de pesquisa;
-4. Clique em **arquivado**;
-5. Pesquise na tabela o usuário que deseja restaurar ou use a barra de pesquisa;
-6. Clique no ícone da caixa aberta, na coluna Ações;
-7. Confirme a ação clicando em **RESTAURAR**.
+Para arquivar um usuário:
 
-<figure><img src="https://i.imgur.com/OxJwvvl.gif" alt=""><figcaption><p>Restaurando um usuário arquivado</p></figcaption></figure>
+1. Pesquise na tabela o usuário que deseja arquivar, ou use a barra de pesquisa;
+2. Clique no ícone da caixa, na coluna Ações;
+3. Confirme a ação clicando em **ARQUIVAR**.
+
+### Como visualizar ou restaurar um usuário arquivado <a href="#_w317zsjdeihn" id="_w317zsjdeihn"></a>
+
+Ao restaurar um usuário arquivado, você restaura as permissões que ele tinha antes de ser arquivado.
+
+Para restaurar um usuário arquivado:
+
+1. Clique na seta na barra de pesquisa;
+2. Clique em **arquivado**;
+
+A tabela será atualizada para mostrar apenas os usuários arquivados. Para restaurar um usuário:
+
+1. Pesquise na tabela o usuário que deseja restaurar ou use a barra de pesquisa;
+2. Clique no ícone de caixa aberta, na coluna Ações;
+3. Confirme a ação clicando em **RESTAURAR**.
