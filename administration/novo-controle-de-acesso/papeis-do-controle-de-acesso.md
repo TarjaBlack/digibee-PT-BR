@@ -18,7 +18,7 @@ A página **Papéis** exibe uma tabela com papéis ativos em seu _realm_.
 
 Esta tabela mostra o **nome** e **descrição** do papel, assim como botões para visualizá-los, editá-los ou arquivá-los.
 
-<figure><img src="../../.gitbook/assets/0 (2).png" alt=""><figcaption><p>Página de papéis</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0 (2) (1).png" alt=""><figcaption><p>Página de papéis</p></figcaption></figure>
 
 ## Ações <a href="#_ppjl1sjz4utb" id="_ppjl1sjz4utb"></a>
 

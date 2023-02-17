@@ -47,7 +47,7 @@ Para visualizar um usuário:
 
 Um modal é exibido, como mostrado abaixo:
 
-<figure><img src="../../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0 (2).png" alt=""><figcaption></figcaption></figure>
 
 Se o usuário já tiver feito login anteriormente por meio de um provedor de identidade (IdP), uma mensagem será exibida informando isso. Clique no ícone destacado para ir para a página de integração do grupo. Para saber mais sobre a integração de IdP, leia nossa documentação sobre integração de provedor de identidade.
 
