@@ -10,11 +10,9 @@ No canto superior esquerdo da página, você pode selecionar o ambiente desejado
 
 Abaixo do seletor de ambiente, os cartões de monitoramento exibem o número de pipelines criados e implementados, assim como o número de contas criadas no ambiente selecionado.
 
-Use a barra de pesquisa para filtrar pipelines por nome ou palavras-chave.
-
 Use o seletor de período para filtrar o intervalo de tempo usado no relatório da visão geral. Você pode selecionar um período de tempo predeterminado entre os últimos 15 minutos e os últimos 30 dias ou dias e horários específicos de início e fim.
 
-<figure><img src="https://i.imgur.com/89hNwCR.gif" alt=""><figcaption><p>Selecionando um período específico</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/specific_time_PTBR.gif" alt=""><figcaption><p>Selecionando um período específico</p></figcaption></figure>
 
 
 
