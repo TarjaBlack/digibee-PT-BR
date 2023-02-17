@@ -83,7 +83,6 @@
 * [Autenticação e autorização de usuários](administration/autenticacao-e-autorizacao-de-usuarios/README.md)
   * [Como habilitar e desabilitar a autenticação de dois fatores](administration/autenticacao-e-autorizacao-de-usuarios/verificacao-em-duas-etapas.md)
   * [Nova tela de login](administration/autenticacao-e-autorizacao-de-usuarios/nova-tela-de-login.md)
-  * [Visualização da classificação de acesso na página de usuários](administration/autenticacao-e-autorizacao-de-usuarios/visualizacao-da-classificacao-de-acesso-na-pagina-de-usuarios.md)
   * [Fluxo de login](administration/autenticacao-e-autorizacao-de-usuarios/fluxo-de-login.md)
 * [Controle de acesso](administration/novo-controle-de-acesso/README.md)
   * [Usuários](administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios.md)
