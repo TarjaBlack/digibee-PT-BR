@@ -56,7 +56,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 ## Usando a tecnologia _MTOM_
 
-para utilizar a tecnologia _MTOM_, é necessário que o arquivo ou conteúdo em Base64 seja referenciado diretamente no XML da requisição, sendo substituído pelo valor configurado em **File Name** ou **File ID**, dentro da tag padrão `<inc:Include>` junto do _namespace_ obrigatório `xmlns:inc="http://www.w3.org/2004/08/xop/include"` , referentes ao _MTOM_. Leve em consideração que **File Name** e **File ID** ficam disponíveis apenas quando **Is Binary** estiver ativado em **Attachments (MTOM).**&#x20;
+para utilizar a tecnologia _MTOM_, é necessário que o arquivo ou conteúdo em Base64 seja referenciado diretamente no XML da requisição, sendo substituído pelo valor configurado em **File Name** ou **File ID**, dentro da tag padrão `<inc:Include>` junto do _namespace_ obrigatório `xmlns:inc="http://www.w3.org/2004/08/xop/include"` , referentes ao _MTOM_.&#x20;
+
+Lembre-se que **File Name** e **File ID** ficam disponíveis apenas quando **Is Binary** estiver ativado em **Attachments (MTOM).**&#x20;
 
 Exemplo ao configurar o campo **File Name/File ID** com o valor "`myImage.png"`:
 
@@ -90,7 +92,7 @@ Exemplo ao configurar o campo **File Name/File ID** com o valor "`myImage.png"`:
 
 ## Sobre o _template_ variável&#x20;
 
-O nome da variável também pode conter sinal de menos (-), ponto (.) e dois pontos (:) em qualquer posição, desde que eles sejam acompanhados de uma barra invertida () logo antes. Do contrário, os sinais podem ser interpretados como operadores.
+O nome da variável também pode conter sinal de menos `(-)`, ponto `(.)` e dois pontos `(:)` em qualquer posição, desde que eles sejam acompanhados de uma barra invertida `(\)` logo antes. Do contrário, os sinais podem ser interpretados como operadores.
 
 ## Sobre substituição de números&#x20;
 
