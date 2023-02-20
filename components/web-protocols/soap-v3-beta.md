@@ -15,9 +15,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Send the Request Body from a File:** se habilitada, a opção considera o conteúdo a ser enviado na chamada através de um arquivo; do contrário, será considerado o que for especificado em **Template (XML).**
 * **Request Body File Name:** informa o nome do arquivo a ser enviado na chamada SOAP, se a opção **Send the Request Body from a File** estiver ativada.
 * **Template (XML):** _template_ Apache FreeMarker para que a mensagem SOAP seja enviada na solicitação. Este campo não estará disponível se a opção **Send the Request Body from a File** estiver habilitada.
-* **HEADERS:** _headers_ da chamada.
-* **QUERY PARAMS:** _query parameters_ da chamada.
-* ​​**Attachments (MTOM):** adiciona ou remova opções para configurar arquivos ou conteúdos binários a serem enviados na requisição utilizando a tecnologia _MTOM_. Este parâmetro não estará disponível se a opção **Send the Request Body from a File** estiver habilitada.
+* **Headers:** _headers_ da chamada.
+* **Query Params:** _query parameters_ da chamada.
+* ​​**Attachments (MTOM):** adiciona ou remove opções para configurar arquivos ou conteúdos binários a serem enviados na requisição utilizando a tecnologia _MTOM_. Este parâmetro não estará disponível se a opção **Send the Request Body from a File** estiver habilitada.
 * **Is Binary:** se ativada, o conector deverá receber o conteúdo binário e o ID do arquivo a ser enviado na requisição, do contrário, deve ser informado o nome do arquivo. Disponível apenas quando o parâmetro **Attachments (MTOM)** estiver adicionado.
 * **File Name:** quando a opção **Is Binary** estiver desativada, este campo informa o nome do arquivo a ser enviado junto do XML configurado em **Template (XML)**. Disponível apenas quando o parâmetro **Attachments (MTOM)** estiver adicionado.
 * **File ID:** quando a opção **Is Binary** estiver ativada, este campo informa o ID do arquivo a ser enviado junto do XML configurado em **Template (XML)**. Disponível apenas quando o parâmetro **Attachments (MTOM)** estiver adicionado.
@@ -44,7 +44,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Is Multipart Response:** se ativada, será esperada uma resposta _Multipart_ da chamada, e será exibida uma lista contendo cada _Part_ retornada.
 * **With Namespace:** se ativada, a opção mantém os _namespaces_ no retorno do XML.
 * **Override Response Charset:** quando ativada, a opção irá sobrescrever o _charset_ retornado do _endpoint_ para o _charset_ especificado em **Response Charset**. Quando desabilitada, ela respeitará o retorno do _charset_ no campo _Content-Type_ (dentro do parâmetro **Headers**). Caso não retorne nenhum _charset_ no _Content-Type_, o padrão utilizado será UTF-8.
-* **Response Charset:** determina o uso do _charset_ especificado neste campo. Utilizado somente quando a opção **Override Response Charset** estiver ativa. Padrão: UTF-8.
+* **Response Charset:** determina o uso do _charset_ especificado neste campo. Disponível somente quando a opção **Override Response Charset** estiver ativa. Padrão: UTF-8.
 * **Advanced Settings:** se ativada, os seguintes parâmetros estarão disponíveis:
 * **Allow Insecure:** quando ativada, a opção permite que chamadas não seguras a _endpoints_ HTTPS sejam feitas.
 * **Raw Mode:** se ativada, a opção recebe ou passa um _payload_ sem ser JSON.
@@ -56,7 +56,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 ## Usando a tecnologia _MTOM_
 
-para utilizar a tecnologia _MTOM_, é necessário que o arquivo ou conteúdo em Base64 seja referenciado diretamente no XML da requisição, sendo substituído pelo valor configurado em **File Name** ou **File ID**, dentro da tag padrão `<inc:Include>` junto do _namespace_ obrigatório `xmlns:inc="http://www.w3.org/2004/08/xop/include"` , referentes ao _MTOM_.&#x20;
+para utilizar a tecnologia _MTOM_, é necessário que o arquivo ou conteúdo em Base64 seja referenciado diretamente no XML da requisição, sendo substituído pelo valor configurado em **File Name** ou **File ID**, dentro da tag padrão `<inc:Include>` junto do _namespace_ obrigatório `xmlns:inc="http://www.w3.org/2004/08/xop/include"` , referentes ao _MTOM_. Leve em consideração que **File Name** e **File ID** ficam disponíveis apenas quando **Is Binary** estiver ativado em **Attachments (MTOM).**&#x20;
 
 Exemplo ao configurar o campo **File Name/File ID** com o valor "`myImage.png"`:
 
