@@ -183,7 +183,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. L
 
 &#x20; &#x20;
 
-### Operação UPDATE\_MANY <a href="#operao-updatemany" id="operao-updatemany"></a>
+### Operação UPDATE MANY <a href="#operao-updatemany" id="operao-updatemany"></a>
 
 **Config**
 
