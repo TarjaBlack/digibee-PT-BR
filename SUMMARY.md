@@ -56,7 +56,7 @@
   * [Funções Numéricas](build/funcoes-double-braces/funcoes-numericas.md)
   * [Funções de String](build/funcoes-double-braces/funcoes-de-string.md)
   * [Funções de JSON](build/funcoes-double-braces/funcoes-de-json.md)
-  * [Funções de Data](build/funcoes-double-braces/funcoes-de-data.md)
+  * [Funções de data](build/funcoes-double-braces/funcoes-de-data.md)
   * [Funções de Comparação](build/funcoes-double-braces/funcoes-de-comparacao.md)
   * [Funções de Arquivo](build/funcoes-double-braces/funcoes-de-arquivo.md)
   * [Funções Condicionais](build/funcoes-double-braces/funcoes-condicionais.md)

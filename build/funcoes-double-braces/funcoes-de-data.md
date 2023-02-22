@@ -4,7 +4,7 @@ description: >-
   utilizá-las.
 ---
 
-# Funções de Data
+# Funções de data
 
 As funções foram criadas para:
 
@@ -14,13 +14,13 @@ As funções foram criadas para:
 
 As funções de data realizam tratamento, geração e conversão de datas e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, clique [aqui](./).
 
-### FORMATDATE <a href="#formatdate" id="formatdate"></a>
+## FORMATDATE <a href="#formatdate" id="formatdate"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função é aplicada para formatar data e horário (incluindo a possibilidade de tratar o seu _locale_ e _timezone_).
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 FORMATDATE(valor, "formato-da-origem", "formato-do-destino", "locale-origem"?, "timezone-origem"?, "locale-destino"?, "timezone-destino"?)
@@ -31,7 +31,7 @@ Os itens indicados com "?" podem ser definidos com valor _null_.
 * **definição de formato da data:** dd/MM/yyyy. Também é possível definir apenas a palavra 'timestamp'.
 * o valor será sempre convertido com ISO Zoned Date/Time.
 
-**Valor de entrada:**
+### **Valor de entrada:**
 
 ```
 {
@@ -43,7 +43,7 @@ Os itens indicados com "?" podem ser definidos com valor _null_.
 }
 ```
 
-**Exemplos de conversões:**
+### **Exemplos de conversões:**
 
 ```
 {
@@ -69,15 +69,17 @@ Os itens indicados com "?" podem ser definidos com valor _null_.
 
 Clique [aqui](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) para obter mais informações sobre formatos de datas.
 
-### NOW <a href="#now" id="now"></a>
+## NOW <a href="#now" id="now"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função é aplicada para retornar o valor _double_ de um número inteiro.
 
-**Sintaxe**
+### **Sintaxe**
 
+```
 NOW()
+```
 
 ```
 {
@@ -97,13 +99,13 @@ NOW()
 
 O retorno dessa função será a data atual em milissegundos.
 
-### SUMDATE <a href="#sumdate" id="sumdate"></a>
+## SUMDATE <a href="#sumdate" id="sumdate"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função retorna a soma ou subtração de uma determinada data e hora dada uma unidade de tempo.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 SUMDATE(milliseconds:number, unit:string, value:string)
@@ -119,55 +121,31 @@ SUMDATE(milliseconds:number, unit:string, value:string)
 
 As zonas aceitas (UTC) são:
 
-Australia/Darwin
-
-Australia/Sydney
-
-America/Argentina/Buenos\_Aires
-
-Africa/Cairo
-
-America/Anchorage
-
-America/Sao\_Paulo
-
-Asia/Dhaka
-
-Africa/Harare
-
-America/St\_Johns
-
-America/Chicago
-
-Asia/Shanghai
-
-Africa/Addis\_Ababa
-
-Europe/Paris
-
-America/Indiana/Indianapolis
-
-Asia/Kolkata
-
-Asia/Tokyo
-
-Pacific/Apia
-
-Asia/Yerevan
-
-Pacific/Auckland
-
-Asia/Karachi
-
-America/Phoenix
-
-America/Puerto\_Rico
-
-America/Los\_Angeles
-
-Pacific/Guadalcanal
-
-Asia/Ho\_Chi\_Minh
+* Australia/Darwin
+* Australia/Sydney
+* America/Argentina/Buenos\_Aires
+* Africa/Cairo
+* America/Anchorage
+* America/Sao\_Paulo
+* Asia/Dhaka
+* Africa/Harare
+* America/St\_Johns
+* America/Chicago
+* Asia/Shanghai
+* Africa/Addis\_Ababa
+* Europe/Paris
+* America/Indiana/Indianapolis
+* Asia/Kolkata
+* Asia/Tokyo
+* Pacific/Apia
+* Asia/Yerevan
+* Pacific/Auckland
+* Asia/Karachi
+* America/Phoenix
+* America/Puerto\_Rico
+* America/Los\_Angeles
+* Pacific/Guadalcanal
+* Asia/Ho\_Chi\_Minh
 
 Digamos que você precise obter a data e hora somando à ela 10 segundos. Você pode fazer o seguinte:
 
@@ -185,13 +163,13 @@ O resultado esperado será:
 }
 ```
 
-### TOISODATE <a href="#toisodate" id="toisodate"></a>
+## TOISODATE <a href="#toisodate" id="toisodate"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função é aplicada para converter data e horário para ISO Date (incluindo a possibilidade de tratar o seu _locale_ e _timezone_).
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 TOISODATE(valor, "formatSource", "formatDestination", "locale"?, "timezone"?)
@@ -202,7 +180,7 @@ Os itens indicados com "?" podem ser definidos com valor _null_.
 * **definição do formato da data:** dd/MMMM/yyyy HH:mm:ss. Também é possível definir apenas a palavra 'timestamp'.
 * Se o _timezone_ não for definido, será utilizado o UTC.
 
-**Valor de entrada:**
+### **Valor de entrada:**
 
 ```
 {
@@ -214,7 +192,7 @@ Os itens indicados com "?" podem ser definidos com valor _null_.
 }
 ```
 
-**Exemplos de conversões:**
+### **Exemplos de conversões:**
 
 ```
 {
@@ -232,11 +210,11 @@ Os itens indicados com "?" podem ser definidos com valor _null_.
 }
 ```
 
-### DIFFDATE <a href="#h_7295ffcbca" id="h_7295ffcbca"></a>
+## DIFFDATE <a href="#h_7295ffcbca" id="h_7295ffcbca"></a>
 
 Essa função permite que você calcule a diferença de tempo entre duas datas.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 DIFFDATE(timestamp1, timestamp2, "timeUnit")
@@ -246,7 +224,7 @@ DIFFDATE(timestamp1, timestamp2, "timeUnit")
 * O parâmetro _timeUnit_ aceita apenas os valores: _year_, _month_, _day_, _hour_, _minute_, _second_ e _millisecond_.
 * O cálculo aplicado será: _timestamp2_ - _timestamp1_
 
-**Valores de entrada**
+### **Valores de entrada**
 
 ```
 {
@@ -255,7 +233,7 @@ DIFFDATE(timestamp1, timestamp2, "timeUnit")
 }
 ```
 
-**Exemplos de aplicações**
+### **Exemplos de aplicações**
 
 ```
 {
