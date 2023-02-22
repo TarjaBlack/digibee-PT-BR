@@ -59,7 +59,7 @@ _**document = "{\\"data\\": \[{\\"object\\": \{{ message.$.id1 \}}}, {\\"object\
 \
 Se o Mongo DB precisar de alguma autenticação, você deverá criar uma conta (tipo BASIC) e utilizá-la no componente.&#x20;
 
-Para converter _Double Braces_, nós utilizamos especificações de JSON Path. Clique [aqui](https://github.com/json-path/JsonPath) para saber mais.  \
+Para converter _Double Braces_, nós utilizamos especificações de JSON Path. Leia a [documentação sobre JSON Path no GitHub](https://github.com/json-path/JsonPath). \
 &#x20; &#x20;
 
 ## Mongo DB em Ação <a href="#mongo-db-em-ao" id="mongo-db-em-ao"></a>
@@ -516,4 +516,4 @@ O **Mongo DB** suporta _Double Braces_ estáticos nos seguintes parâmetros prev
 * operation&#x20;
 * url
 
-Para ler o nosso artigo sobre _Double Braces_, clique [aqui](broken-reference).
+Leia mais na [documentação sobre Funções Double Braces](https://docs.digibee.com/documentation/v/pt-br/build/funcoes-double-braces).&#x20;
