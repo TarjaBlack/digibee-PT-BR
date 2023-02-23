@@ -1,5 +1,5 @@
 ---
-description: Conheça a versão beta da funcionalidade e o que ela oferece.
+description: Aprenda o que são projetos e como utilizá-los
 ---
 
 # Projetos
