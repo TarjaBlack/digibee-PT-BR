@@ -4,37 +4,34 @@ description: Conheça a versão beta da funcionalidade e o que ela oferece.
 
 # Projetos
 
-## O que é a funcionalidade Projetos? <a href="#h_0679d0e50e" id="h_0679d0e50e"></a>
+## O que são projetos? <a href="#h_0679d0e50e" id="h_0679d0e50e"></a>
 
-Projetos são como pastas para organizar e agrupar _pipelines_, facilitando a busca e a visualização da sua listagem de _pipelines_.
+Projetos são pastas para organizar e agrupar _pipelines._
 
-## Como utilizar a funcionalidade Projetos <a href="#h_8c33f7c5a1" id="h_8c33f7c5a1"></a>
+## Como usar projetos <a href="#h_8c33f7c5a1" id="h_8c33f7c5a1"></a>
 
-Dê uma olhada no que você pode fazer com a versão beta de Projetos:
+Dê uma olhada no que você pode fazer com projetos:
 
-* **Criar** um projeto com nome e descrição:
+* **Criar** um projeto com nome e descrição
 
-![](<../.gitbook/assets/01 (4).png>)
+![Criando um projeto](https://i.imgur.com/EZvjzfb.png)
 
-* **Editar** a descrição de projetos:
+* **Editar** ou **arquivar** um projeto
 
-![](<../.gitbook/assets/02 (12).png>)
+![Editando ou arquivando um projeto](https://i.imgur.com/bdm0zoB.png)
 
-**IMPORTANTE:** Não é possível editar o nome do projeto devido a questões de Auditoria. Caso o nome do projeto precise ser mudado, é necessário criar outro projeto com o nome correto e migrar os pipelines para ele.
+{% hint style="info" %}
+Por questões de [auditoria](../administration/auditoria.md), você não pode alterar o nome de um projeto. Se você precisa mudar o nome de um projeto, crie um novo projeto com o nome correto e migre os pipelines para ele.
+{% endhint %}
 
-* **Mover** _pipeline_s de um projeto para outro clicando no ícone destacado na imagem abaixo e arrastando um _pipeline_ para qualquer projeto criado. Também é possível selecionar múltiplos _pipelines_. Para isso, basta segurar a tecla CTRL (ou CMD para Mac) e clicar nos _pipelines_ para arrastá-los utilizando o ícone indicado:
+{% hint style="info" %}
+Você só pode arquivar projetos sem pipelines.
+{% endhint %}
 
-![](<../.gitbook/assets/03 (11).png>)
+* **Mover **_**pipeline**_**s entre projetos** clicando no ícone destacado na imagem abaixo e arrastando-o para outro projeto. Você também pode selecionar vários _pipelines_ segurando a tecla CTRL (ou CMD, para Mac), clicando nos _pipelines_ e arrastando-os usando o ícone destacado.
 
-* **Criar** _pipelines_ associados a um projeto - ao criar _pipelines_ com um projeto selecionado, eles serão automaticamente associados a ele.
-* **Arquivar** projetos que não tenham _pipelines_ clicando no ícone destacado na imagem abaixo:
+![Movendo um pipeline entre projetos](https://i.imgur.com/IATTmdd.png)
 
-![](<../.gitbook/assets/04 (9).png>)
+* **Atribuir um **_**pipeline**_** a um projeto durante sua criação** selecionando o projeto desejado ao salvá-lo.
 
-**IMPORTANTE:** todos os _pipelines_ existentes estarão no projeto _default_ quando você acessar a versão beta da funcionalidade Projetos. Quando um novo _pipeline_ for criado fora do contexto beta, ou seja, sem a funcionalidade Projetos habilitada, ele será mantido no projeto _default_.
-
-## Termos de uso <a href="#h_86fdb3bf48" id="h_86fdb3bf48"></a>
-
-Ao acessar a funcionalidade Projetos, você automaticamente realiza a sua adesão ao programa Beta e concorda com os termos de uso.
-
-Você pode encontrar mais informações sobre versões beta clicando [aqui](../geral/programa-beta.md).
+![Atribuindo um pipeline a um projeto durante a criação do pipeline](https://i.imgur.com/cSmANxI.png)
