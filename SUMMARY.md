@@ -141,7 +141,7 @@
 * [Enterprise applications](components/untitled/README.md)
   * [SAP](components/untitled/sap.md)
 * [File storage](components/file-storage/README.md)
-  * [Azure Blob Storage](components/file-storage/azure-blob-storage.md)
+  * [Blob Storage (Azure)](components/file-storage/azure-blob-storage.md)
   * [Digibee Storage](components/file-storage/digibee-storage.md)
   * [Dropbox](components/file-storage/dropbox.md)
   * [FTP](components/file-storage/ftp.md)
