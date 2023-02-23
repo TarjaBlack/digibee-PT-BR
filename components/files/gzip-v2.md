@@ -4,7 +4,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # Gzip V2
 
-O **Gzip V2** zipa um JSON ou um texto como uma _string_ em base64 ou arquivo. Com ele também é possível fazer a compressão e descompressão de arquivos em formato gzip. Essa versão do componente suporta _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
+O **Gzip V2** zipa um JSON ou um texto como uma _string_ em base64 ou arquivo. Com ele também é possível fazer a compressão e descompressão de arquivos em formato gzip. Essa versão do componente suporta _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 Dê uma olhada nos parâmetros de configuração desse componente:
 

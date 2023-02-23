@@ -24,7 +24,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Link Expiration:** tempo para expiração do _link_ em milissegundos. Este parâmetro é válido apenas se a opção _Generate Download Link_ estiver ativada.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
+**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](../../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 ## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 

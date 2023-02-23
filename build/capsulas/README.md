@@ -127,7 +127,7 @@ Veja como utilizar expressões em _Double Braces_ para acessar esses valores:
 {{ capsule.tags }} 
 ```
 
-**Dica:** todas as opções possíveis em _Double Braces_ valem para esse novo recurso \{{ capsule... \}}. Utilize-as combinando com as funções. Clique [aqui](broken-reference) para ler o nosso artigo sobre o tema.
+**Dica:** todas as opções possíveis em _Double Braces_ valem para esse novo recurso \{{ capsule... \}}. Utilize-as combinando com as funções. Clique [aqui](../funcoes-double-braces/double-braces-e-entrada-de-dados.md) para ler o nosso artigo sobre o tema.
 
 #### Configurações - Accounts <a href="#h_e44bbbae31" id="h_e44bbbae31"></a>
 

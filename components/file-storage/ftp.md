@@ -30,7 +30,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Execution Type Protocol:** _private_, _clear_, _confidential_ ou _safe_.
 * **Buffer Size:** tamanho de _buffer_ do canal de dados seguros.
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
+**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 

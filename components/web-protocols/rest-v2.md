@@ -15,8 +15,8 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Query Params:** configura os _query parameters_ necessários para a chamada.
 * **Verb:** especifica o verbo que indica o método HTTP.
 * **Account:** conta a ser utilizada pelo componente.
-* **Custom Account #1:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ _\{{ account.custom-1.value \}}._ Clique [aqui](broken-reference) para ler o nosso artigo sobre o tema.
-* **Custom Account #2:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ _\{{ account.custom-2.value \}}._ Clique [aqui](broken-reference) para ler o nosso artigo sobre o tema.
+* **Custom Account #1:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ _\{{ account.custom-1.value \}}._ Clique [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md) para ler o nosso artigo sobre o tema.
+* **Custom Account #2:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ _\{{ account.custom-2.value \}}._ Clique [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md) para ler o nosso artigo sobre o tema.
 * **Connect Timeout:** tempo de expiração da conexão (em milissegundos).
 * **Read Timeout:** tempo máximo para leitura (em milissegundos).
 * **Stop On Client Error:** se ativada, a opção interrompe a execução do _pipeline_ quando ocorre um erro HTTP da família 4xx na chamada ao _endpoint_.
@@ -37,7 +37,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Disable Connection Pooling:** quando ativada, a opção não mantém as conexões em um _pool_. O seu uso é recomendado para _endpoints_ que apresentam problemas de compatibilidade quando conexões são reutilizadas.
 * **Invalidate SSL Sessions on Every Call:** quando ativada, a opção invalida sessões SSL em todas as chamadas. O seu uso é recomendado para _endpoints_ que apresentam problemas de compatibilidade quando sessões SSL são reutilizadas (ex.: retomada de sessão SSL). Leve em consideração que ativar a opção fará com que o componente tenha um _thread_ único - isso significa que todas as execuções serão sequenciais para o mesmo _**REST**_ adicionado ao _pipeline canvas_.
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
+**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 ## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
@@ -254,4 +254,4 @@ Para os demais serviços da AWS é necessário verificar se o _header_ **X-Amz-C
 
 `X-Amz-Content-Sha256 = required`
 
-E se for preciso utilizar mais de um tipo de _account_ na mesma chamada, tire as suas dúvidas sobre o recurso de _Double Braces custom account_ clicando [aqui](broken-reference).
+E se for preciso utilizar mais de um tipo de _account_ na mesma chamada, tire as suas dúvidas sobre o recurso de _Double Braces custom account_ clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).

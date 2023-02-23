@@ -26,7 +26,7 @@ Dê uma olhada nas opções de configuração do componente:
 * **Next Page Type:** Tipo do próximo registro que será listado na próxima página (apenas quando a operação é _List_ ).
 * **Overwrite File on Upload:** Sobrescreve o arquivo no momento do _upload_ (apenas quando a operação é _Upload_ ). Este parâmetro aceita _Double Braces_.
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando no link [Aqui](broken-reference).
+Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando no link [Aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 ### **Fluxo de mensagens** <a href="#h_721d00c487" id="h_721d00c487"></a>
 

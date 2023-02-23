@@ -34,7 +34,7 @@ O _**Base64**_ realiza a codificação e a decodificação de/para campos, _payl
 **Importante**: Os campos 'File Name' e 'Output File Name', devem receber valores diferentes, caso os valores sejam iguais, produzirá um erro (uma exceção).
 {% endhint %}
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Para compreender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](broken-reference).
+Alguns dos parâmetros acima aceitam _Double Braces_. Para compreender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 ### Fluxo de mensagens <a href="#h_65727873d4" id="h_65727873d4"></a>
 

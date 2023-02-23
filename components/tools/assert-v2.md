@@ -49,7 +49,7 @@ Se _**Fail On Error**_ for “false”:
 
 Conforme visto, você deve utilizar expressões em _Double Braces_ no campo CONDIÇÃO.
 
-Para ler o nosso artigo sobre _Double Braces_, clique [aqui](broken-reference).
+Para ler o nosso artigo sobre _Double Braces_, clique [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 ### Assert V2 em Ação <a href="#assert-v2-em-ao" id="assert-v2-em-ao"></a>
 

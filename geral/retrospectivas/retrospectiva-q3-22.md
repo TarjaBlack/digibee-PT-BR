@@ -18,7 +18,7 @@ Isto ajuda a evitar acesso e mudanças não autorizados em documentos em PDF, da
 
 ## **Funcionalidades** <a href="#h_f8b2ceab04" id="h_f8b2ceab04"></a>
 
-### [Classificação de acesso de usuários](broken-reference) <a href="#h_0721c13838" id="h_0721c13838"></a>
+### [Classificação de acesso de usuários](../../administration/autenticacao-e-autorizacao-de-usuarios/visualizacao-da-classificacao-de-acesso-na-pagina-de-usuarios.md) <a href="#h_0721c13838" id="h_0721c13838"></a>
 
 O gerente de acessos de um _realm_ integrado a um provedor de identidade (IdP) possui visibilidade **** da classificação de acesso de usuários por características de autenticação e autorização, na página de Usuários.
 

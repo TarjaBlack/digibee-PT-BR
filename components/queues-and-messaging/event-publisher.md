@@ -15,7 +15,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Log Each Event Sent:** quando ativada, a opção irá gerar uma entrada de _log_ para cada evento enviado.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](broken-reference).
+Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
 
 ## Como o Event Publisher é utilizado? <a href="#como-o-event-publisher--utilizado" id="como-o-event-publisher--utilizado"></a>
 
