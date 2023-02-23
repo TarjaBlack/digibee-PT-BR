@@ -24,11 +24,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **End range:** define o limite final utilizado para consultar a _rowkey_ de uma linha no Google BigTable.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida. Do contrário, a execução do _pipeline_ continuará, mas o resultado mostrará um valor falso para a propriedade "_success_".
 
-{% hint style="info" %}
-**IMPORTANTE:** alguns dos parâmetros mostrados acima suportam _Double Braces_. Para entender o funcionamento dessa linguagem, leia o [artigo](https://docs.digibee.com/documentation/v/pt-br/build/funcoes-double-braces).
-{% endhint %}
+Alguns dos parâmetros mostrados acima suportam _Double Braces_. Leia o artigo [Como referenciar dados usando Double Braces](../../build/como-referenciar-dados-usando-double-braces.md) para entender o funcionamento dessa linguagem.
 
-### Fluxo de mensagens
+## Fluxo de mensagens
 
 ### Entrada
 
@@ -77,13 +75,13 @@ Ao executar o componente utilizando as operações _Read by rowKey, Read by spec
 * **value:** valor da instância do banco de dados.
 * **success:** _"true"_ se a última operação ocorreu com sucesso.
 
-### Google Big Table em ação
+## Google Big Table em ação
 
 Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operação nos exemplos a seguir:&#x20;
 
 ### Write
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -119,7 +117,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 ]
 ```
 
-* **Saída**
+#### **Saída**
 
 ```
 {
@@ -131,7 +129,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 ### Read by RowKey
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -147,9 +145,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 **RowKey:** BBDC4#20200103
 
-
-
-* **Saída**
+#### **Saída**
 
 {% code overflow="wrap" %}
 ```
@@ -160,11 +156,9 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 ```
 {% endcode %}
 
-****
-
 ### Read by specific cell
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -184,7 +178,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 **Qualifier:** data
 
-* **Saída**
+#### **Saída**
 
 {% code overflow="wrap" %}
 ```
@@ -197,7 +191,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 ### Read by prefix
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -213,7 +207,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 **Prefix:** BBDC4#202001
 
-* **Saída**
+#### **Saída**
 
 {% code overflow="wrap" %}
 ```
@@ -226,7 +220,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 ### Read by range
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -244,7 +238,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 **End range:** BBDC4#20200106
 
-* **Saída**
+#### **Saída**
 
 {% code overflow="wrap" %}
 ```
@@ -255,11 +249,9 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 ```
 {% endcode %}
 
-
-
 ### Delete row by rowKey
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -275,7 +267,7 @@ Dê uma olhada nos parâmetros de entrada e na saída esperada para cada operaç
 
 **Rowkey:** BBDC4#20200102
 
-* **Saída**
+#### **Saída**
 
 ```
 {
