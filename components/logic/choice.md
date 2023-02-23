@@ -14,7 +14,7 @@ Dê uma olhada nos parâmetros de configuração desse componente:
 * **Condition:** declara a condição utilizada para definir se o caminho deve ser executado. Quando as condições previamente definidas gerarem conflito ou causarem uma sobreposição, apenas uma delas será executada (quando **When** for escolhido no parâmetro **Type**).
 
 {% hint style="info" %}
-**IMPORTANTE:** os parâmetros de configuração não estarão disponíveis se o componente não estiver conectado a outros componentes no _pipeline_. Uma vez que você. Após conectá-lo corretamente, clique no ponto de conexão para acessar os parâmetros (ícone de engrenagem) como mostrado no detalhe da imagem abaixo:
+**IMPORTANTE:** os parâmetros de configuração não estarão disponíveis se o componente não estiver conectado a outros componentes no _pipeline_. Uma vez que você. Após conectá-lo corretamente, clique no ponto de conexão e depois no ícone de engrenagem para acessar os parâmetros como mostrado no detalhe da imagem abaixo:
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Choice_image detail update_fev2023.png" alt=""><figcaption></figcaption></figure>
