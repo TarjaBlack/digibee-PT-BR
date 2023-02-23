@@ -29,13 +29,13 @@ O _**Stream Excel**_ realiza processamento em lote. Para entender melhor o conce
 **IMPORTANTE:** o _**Stream Excel**_ não é capaz de ler arquivos no formato .xls, mas apenas no formato .xlsx.
 {% endhint %}
 
-### Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio de _Double Braces_.
 
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
 O componente retorna um JSON contendo o total de execuções, total de sucesso e total de falhas.
 
@@ -77,96 +77,75 @@ Como solução alternativa, você pode copiar o conteúdo da planilha e colar em
 
 A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
 
-### Stream Excel em Ação <a href="#h_d40e176def" id="h_d40e176def"></a>
+## Stream Excel em Ação
 
 Abaixo será demonstrado como o componente se comporta em determinada situação e a sua respectiva configuração.
 
-#### Ler arquivo de Excel e analisar resultado <a href="#h_6d56c866d1" id="h_6d56c866d1"></a>
+### Ler arquivo de Excel e analisar resultado
 
-Para esse exemplo, vamos considerar que já possuímos um arquivo excel no fluxo do _pipeline_ (baixado através de componentes como: [Google Drive](../file-storage/google-drive.md), [OneDrive](../file-storage/onedrive.md) e assim por diante). O arquivo em questão possui uma planilha com os nomes dos 100 bilionários selecionados pela Forbes.
+Para esse exemplo, vamos considerar que já possuímos um arquivo Excel no fluxo do _pipeline_ que foi baixado através de componentes como: [_**Google Drive**_](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/google-drive), [_**OneDrive**_](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/onedrive) e assim por diante. O arquivo em questão possui uma planilha com os nomes dos 100 bilionários selecionados pela Forbes.
 
 O componente _**Stream Excel**_ será configurado da seguinte forma:
 
-![](<../../.gitbook/assets/ezgif.com-gif-maker (22).gif>)
+* **Step Name:** Stream Excel
+* **File Name:** file.xlsx
+* **Sheet Name:** Plan1
+* **Max Fractional Digits:** 5
+* **Read Specific Columns As String:** B,D,F
+* **Column Identifier:** A
 
+Todas as demais opções ficarão desabilitadas para esse exemplo.&#x20;
 
+<figure><img src="https://lh4.googleusercontent.com/-pvA8z_G3T8rofRlazUGDrfundDYQCHBgD-rVX__a61rRz6kQ6T291S4kYbtnkzTPu-ZrlKt-q5EE62XuMlO-x-oZtekm1kYKC5iDUCek0dMIBMsfCyOThcLHSy-RhW7QnTzpHB-xFQWcSxsAa8xgOg" alt=""><figcaption></figcaption></figure>
 
-**Entrada**
+#### **Entrada**
 
 ```
-{    
-    "fileName": "sheets.xlsx"
+{
+"fileName": "sheets.xlsx"
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
-{  
-    "total": 102,  
-    "success": 0,  
-    "failed": 102
+{
+"total": 102,
+"success": 0,
+"failed": 102
 }
 ```
 
-#### Resultado do log <a href="#h_b913885e26" id="h_b913885e26"></a>
+#### **Resultado do log**
 
-Para visualizar esse _log_, será utilizada a aba de mensagens do _pipeline_. Conforme demonstrado na imagem abaixo, todas as linhas da planilha foram lidas individualmente pelo componente, incluindo até o nome das colunas.
+Para visualizar esse _log_, será utilizada a aba de **Mensagens** do _pipeline_. Conforme demonstrado na imagem abaixo, todas as linhas da planilha foram lidas individualmente pelo componente, incluindo até o nome das colunas.
 
-![](<../../.gitbook/assets/stream excel2.png>)
+<figure><img src="https://lh4.googleusercontent.com/5Y91LjptJR4okSCt_P2b6R7mdULdExZCwUW2kyXJwBipJZFwKa7qbWzje-c0Zw-J5lLEYPWfjj6UCg46u-DaTEUUUPC2l4u1BK6GJ2f9bCPKx8PPIFObYyptQq703gApRtIcBRxvveVhg1LP3qVChpE" alt=""><figcaption></figcaption></figure>
 
-
-
-#### Ler arquivo de Excel e analisar uma planilha inexistente no arquivo <a href="#h_0d8636195d" id="h_0d8636195d"></a>
+### Ler arquivo de Excel e analisar uma planilha inexistente no arquivo
 
 Para esse exemplo, considere a mesma planilha analisada anteriormente. No entanto, será selecionada uma planilha que não existe.
 
-O componente _**Stream Excel**_ será configurado da seguinte forma:
-
-![](<../../.gitbook/assets/stream excel3.png>)
-
-
-
-**Entrada**
+O componente _**Stream Excel**_ irá retornar a seguinte mensagem de erro (**Fail On Error** está desativado):
 
 ```
-{    
-    "fileName": "sheets.xlsx"
+{
+"success": false,
+"message": "Sheet 'InvalidSheetName' does not exist",
+"exception": "com.monitorjbl.xlsx.exceptions.MissingSheetException"
 }
 ```
 
-**Saída**
-
-```
-{  
-    "success": false,  
-    "message": "Sheet 'InvalidSheetName' does not exist",  
-    "exception": "com.monitorjbl.xlsx.exceptions.MissingSheetException"
-}
-```
-
-#### Ler arquivo de Excel inválido <a href="#h_26a6d58f9d" id="h_26a6d58f9d"></a>
+### **Ler arquivo de Excel inválido**
 
 Para esse exemplo, considere um arquivo inexistente no fluxo do _pipeline_.
 
-O componente _**Stream Excel**_ será configurado da seguinte forma:
-
-![](<../../.gitbook/assets/stream excel4.png>)
-
-
-
-**Entrada**
+O componente _**Stream Excel**_ irá retornar a seguinte mensagem de erro (**Fail On Error** está desativado):
 
 ```
-{}
-```
-
-**Saída**
-
-```
-{  
-    "success": false,  
-    "message": "File invalidsheets.xlsx does not exist.",  
-    "exception": "com.digibee.pipelineengine.exception.PipelineEngineRuntimeException"
+{
+"success": false,
+"message": "File invalidsheets.xlsx does not exist.",
+"exception": "com.digibee.pipelineengine.exception.PipelineEngineRuntimeException"
 }
 ```
