@@ -161,7 +161,7 @@
   * [File Writer](components/files/file-writer.md)
   * [Como ler e escrever arquivos dentro de pastas](components/files/como-ler-e-escrever-arquivos-dentro-de-pastas.md)
   * [Gzip V2](components/files/gzip-v2.md)
-  * [Gzip V1](components/files/gzip-v1.md)
+  * [GZIP V1 (Descontinuado)](components/files/gzip-v1.md)
   * [NFS (NEW)](components/files/nfs-new.md)
   * [NFS](components/files/nfs.md)
   * [Stream Excel](components/files/stream-excel.md)

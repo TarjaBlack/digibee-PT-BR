@@ -2,9 +2,9 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# Gzip V1
+# GZIP V1 (Descontinuado)
 
-O **Gzip V1** zipa um objeto JSON inteiro como uma _string_.\
+O **GZIP V1** zipa um objeto JSON inteiro como uma _string_.\
 
 
 Dê uma olhada nos parâmetros de configuração do componente:
