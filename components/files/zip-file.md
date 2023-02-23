@@ -9,21 +9,19 @@ O **Zip File** permite a compressão de arquivos no formato Zip.
 Dê uma olhada nos parâmetros de configuração do componente:
 
 * **File Name:** nome do arquivo a ser comprimido.
-* **Zip Operation:** define o tipo de operação (atualmente apenas “Compress” é suportado).
+* **Zip Operation:** define o tipo de operação (_Compress_, _Multiple Compress_ ou _Decompress_).
 * **Output File Name:** nome do arquivo Zip a ser gerado.
-* **Custom Files Specification:** válido somente para operação MULTIPLE COMPRESS. Se a opção estiver habilitada, é possível passar dinamicamente os arquivos a serem comprimidos; do contrário, os arquivos podem ser informados individualmente via chave-valor.
-* **Files:** válido somente para operação MULTIPLE COMPRESS, esse campo serve para definir os arquivos a serem comprimidos.
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
-
-### &#x20;<a href="#h_bb0cd702f6" id="h_bb0cd702f6"></a>
+* **Custom Files Specification:** válido somente para operação _Multiple Compress_. Se a opção estiver habilitada, é possível passar dinamicamente os arquivos a serem comprimidos; do contrário, os arquivos podem ser informados individualmente via chave-valor.
+* **Files:** válido somente para operação _Multiple Compress_, esse campo serve para definir os arquivos a serem comprimidos.
+* **Set Charset:** válido somente para a operação _Decompress_. Se a opção estiver ativada, você pode definir um _charset_ específico para a operação.
+* **Charset:** disponível apenas se **Set Charset** estiver habilitado. Selecione o _charset_ desejado nesse campo.
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
 ## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
 ### **Entrada** <a href="#entrada" id="entrada"></a>
 
 O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio de _Double Braces_.
-
-### &#x20;<a href="#h_9117e8efca" id="h_9117e8efca"></a>
 
 ### **Saída** <a href="#sada" id="sada"></a>
 
@@ -60,8 +58,6 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 
 * **outputFileName:** nome do arquivo escrito
 * **success:** se “true”, a operação foi executada com sucesso; se “false”, houve falha na operação
-
-### &#x20;<a href="#h_7e492fdc4a" id="h_7e492fdc4a"></a>
 
 ### **Resposta de requisição contendo erro** <a href="#resposta-de-requisio-contendo-erro" id="resposta-de-requisio-contendo-erro"></a>
 
