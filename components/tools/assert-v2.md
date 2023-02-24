@@ -6,7 +6,9 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 O **Assert V2** permite que você crie a interrupção da execução do seu _pipeline_ quando uma condição definida não for atendida. Essa condição será avaliada de acordo com itens da mensagem do _pipeline_, sendo que _Double Braces_ são utilizados para isso.
 
-**Dica:** utilize o Assert para garantir uma condição ou interromper o fluxo.
+{% hint style="info" %}
+**DICA:** utilize o Assert para garantir uma condição ou interromper o fluxo.
+{% endhint %}
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
@@ -16,13 +18,13 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **HTTP Status Code:** status de retorno do componente.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-### Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 O componente aceita qualquer mensagem de entrada e pode fazer uso dela através de D_ouble Braces_.
 
-#### **Saída** <a href="#sada" id="sada"></a>
+### **Saída** <a href="#sada" id="sada"></a>
 
 O componente não altera nenhuma informação da mensagem de entrada quando a condição é verdadeira. Portanto, ela é retornada para o componente seguinte ou é utilizada como resposta final se o _**Assert V2**_ for o último passo do _pipeline._
 
@@ -49,9 +51,9 @@ Se _**Fail On Error**_ for “false”:
 
 Conforme visto, você deve utilizar expressões em _Double Braces_ no campo CONDIÇÃO.
 
-Para ler o nosso artigo sobre _Double Braces_, clique [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
+Leia o nosso [artigo sobre Funções Double Braces](https://docs.digibee.com/documentation/v/pt-br/build/funcoes-double-braces).
 
-### Assert V2 em Ação <a href="#assert-v2-em-ao" id="assert-v2-em-ao"></a>
+## Assert V2 em Ação <a href="#assert-v2-em-ao" id="assert-v2-em-ao"></a>
 
 * \{{ AND( EQUALTO(message.name, "Arthur"), LESSTHAN( message.number, 40)) \}}
 
