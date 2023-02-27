@@ -38,13 +38,15 @@ Não se espera nenhuma mensagem de entrada específica e sim apenas a existênci
 * **success:** número total de linhas processadas com sucesso
 * **failed:** número total de linhas cujo processamento falhou
 
+{% hint style="info" %}
 **IMPORTANTE:** para saber se uma linha foi processada corretamente, deve haver o retorno { "success": true } para cada linha processada.
+{% endhint %}
 
 O componente joga uma exceção se o “File Name” não existir ou não puder ser lido.
 
 A manipulação de arquivos dentro de um pipeline ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
 
-O _**Stream XML File Reader**_ realiza processamento em lote. Para entender melhor o conceito, clique [aqui](../../tutoriais-e-melhores-praticas/processamento-em-lote.md).
+O _**Stream XML File Reader**_ realiza processamento em lote. Para entender melhor o conceito, leia o [artigo sobre Processamento em lote](https://docs.digibee.com/documentation/v/pt-br/tutoriais-e-melhores-praticas/processamento-em-lote).&#x20;
 
 ## Stream XML File Reader em Ação <a href="#h_6eb38d0ab7" id="h_6eb38d0ab7"></a>
 
@@ -97,7 +99,7 @@ Os cenários a seguir estão utilizando como base o seguinte arquivo XML:
 
 ### Realizando o stream do arquivo informando o nó desejado <a href="#h_dcd89dcaa5" id="h_dcd89dcaa5"></a>
 
-**Entrada**
+#### **Entrada**
 
 * **file.xml**
 
@@ -105,7 +107,7 @@ Os cenários a seguir estão utilizando como base o seguinte arquivo XML:
 
 **Node Path:** //root/products/product
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -151,7 +153,7 @@ Cada elemento identificado pelo caminho do nó desejado será processado de form
 
 ### Realizando o stream do arquivo informando o nó desejado e campos de contexto <a href="#h_100ca898cb" id="h_100ca898cb"></a>
 
-**Entrada**
+#### **Entrada**
 
 * **file.xml**
 
@@ -161,7 +163,7 @@ Cada elemento identificado pelo caminho do nó desejado será processado de form
 
 **Context Paths:** //root/list-info
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -247,7 +249,7 @@ Cada elemento identificado pelo caminho do nó desejado será processado de form
 
 ### Realizando o stream do arquivo informando o nó desejado, campos de contexto e nós à serem ignorados: <a href="#h_a6b1dbfa6e" id="h_a6b1dbfa6e"></a>
 
-**Entrada**
+#### **Entrada**
 
 * **file.xml**
 
@@ -259,7 +261,7 @@ Cada elemento identificado pelo caminho do nó desejado será processado de form
 
 **Ignore Paths:** //root/products/product/tags
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -345,7 +347,7 @@ Cada elemento identificado pelo caminho do nó desejado será processado de form
 
 ### Realizando o stream do arquivo informando o nó desejado e ignorando nós filhos aninhados <a href="#h_086a4fe07b" id="h_086a4fe07b"></a>
 
-**Entrada**
+#### **Entrada**
 
 * **file.xml**
 
@@ -355,7 +357,7 @@ Cada elemento identificado pelo caminho do nó desejado será processado de form
 
 **Ignore Nested Child Nodes:** verdadeiro
 
-**Saída**
+#### **Saída**
 
 ```
 {
