@@ -29,7 +29,9 @@ Para definir o _subpipeline_ a ser executado, basta clicar no ícone “onProces
 
 Ao clicar nesse ícone, um _subpipeline_ será criado (ou exibido, caso já exista). Então basta construir o fluxo desejado conforme a necessidade de execução.
 
+{% hint style="info" %}
 **IMPORTANTE:** a entrada desse _subpipeline_ será alimentada com a mensagem imediatamente anterior ao _**Block Execution**_.
+{% endhint %}
 
 ### Utilizando o Block Execution para unir caminhos diferentes de um componente de desvio de fluxo <a href="#utilizando-o-block-execution-para-unir-caminhos-diferentes-de-um-componente-de-desvio-de-fluxo" id="utilizando-o-block-execution-para-unir-caminhos-diferentes-de-um-componente-de-desvio-de-fluxo"></a>
 
@@ -64,4 +66,4 @@ Estas são as situações especiais que você deve levar em consideração:
 * se um fluxo “onException” não for definido, o _**Block Execution**_ simplesmente repassa o erro adiante para que outro componente com execução por _subpipeline_ o trate. Por outro lado, se o fluxo principal do _pipeline_ for utilizado, então o _pipeline_ é encerrado com o erro;
 * se um novo erro ocorre durante o _subpipeline_ “onException”, o _**Block Execution**_ também repassa o erro adiante para que outro componente com execução por _subpipeline_ o trate. Mas se o fluxo principal do _pipeline_ for utilizado, o _pipeline_ é igualmente encerrado com o erro.
 
-Para entender melhor o conceito de _subpipelines_, clique [aqui](../../build/pipelines/subpipelines.md).
+Para entender melhor o conceito de _subpipelines_, leia o [artigo Subpipelines](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/subpipelines).&#x20;
