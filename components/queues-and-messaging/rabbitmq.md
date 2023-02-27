@@ -68,8 +68,6 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio de _Double Braces_.
 
-### &#x20;<a href="#h_c8a4396fb8" id="h_c8a4396fb8"></a>
-
 ### Saída <a href="#sada" id="sada"></a>
 
 * **sem erro**
