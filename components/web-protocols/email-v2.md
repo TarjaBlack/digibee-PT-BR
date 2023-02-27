@@ -73,7 +73,7 @@ Ao executar um componente _**Email V2**_, a seguinte estrutura de JSON será ger
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
 {% endhint %}
 
-Para entender melhor o fluxo das mensagens na Digibee Integration Platform, leia o artigo sobre [Processamento de mensagens](../../build/pipelines/processamento-de-mensagens.md).
+Para entender melhor o fluxo das mensagens na Digibee Integration Platform, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
 
 ## Email V2 em Ação <a href="#email-v2-em-ao" id="email-v2-em-ao"></a>
 
@@ -185,4 +185,4 @@ __
 
 ## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
 
-Utilizamos o Freemarker para realizar as nossas conversões e transformações no _template_ do corpo do email. Leia a [documentação externa do Freemarker](https://freemarker.apache.org/docs/dgui\_template\_exp.html) para saber como utilizá-lo.
+Utilizamos o Freemarker para realizar as nossas conversões e transformações no _template_ do corpo do email. Para conhecer mais sobre o Freemaker e como utilizá-lo, clique [aqui](https://freemarker.apache.org/docs/dgui\_template\_exp.html).
