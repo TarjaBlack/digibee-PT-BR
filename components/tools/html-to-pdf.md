@@ -4,20 +4,18 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # HTML to PDF
 
-O **HTML to PDF** permite a criação de arquivos no formato PDF a partir de um HTML.
-
-Além disso, o componente utiliza _templates_ Apache FreeMaker para gerar o HTML através da mensagem JSON do _pipeline_.
+O **HTML to PDF** permite a criação de arquivos no formato PDF a partir de um HTML. O componente utiliza _templates_ Apache FreeMaker para gerar o HTML através da mensagem JSON do _pipeline_.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-* **File Name**: nome do arquivo em PDF que será gerado na saída da execução do componente.
-* **Body**: _template_ em HTML a ser interpretado para gerar o arquivo em PDF (esse campo suporta o template FreeMarker).
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
-* **Secured PDF:** se a opção estiver habilitada, é permitida a inclusão de senha no arquivo em PDF para gerar um documento protegido.
-* **Password:** senha para proteger o arquivo em PDF.
-* **Custom permissions:** se a opção estiver habilitada, diversas opções de permissão de acesso no arquivo em PDF ficam disponíveis; do contrário, o arquivo em PDF será gerado com todas as permissões.
-* **Read only:** permissão de acesso que define o arquivo em PDF como "somente leitura". Se a opção estiver habilitada, todas as outras permissões de acesso serão desabilitadas.
-* **Assemble document:** permite que páginas sejam adicionadas, rotacionadas e removidas do arquivo.
+* **File Name**: nome do arquivo PDF que será gerado na saída da execução do componente.
+* **Template (HTML)**: _template_ em HTML a ser interpretado para gerar o arquivo PDF. Este campo suporta o template FreeMarker.
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "_success_".
+* **Secured PDF:** se a opção estiver habilitada, é permitida a inclusão de senha no arquivo PDF para gerar um documento protegido.
+* **Password:** senha para proteger o arquivo PDF.
+* **Custom permissions:** se a opção estiver habilitada, opções de permissão customizadas para o arquivo PDF ficam disponíveis; do contrário, nenhum dos parâmetros a seguir ficam disponíveis e o arquivo PDF será gerado com todas as permissões.
+* **Read only:** permissão de acesso que define o arquivo PDF como "somente leitura". Se a opção estiver habilitada, todas as outras permissões de acesso serão desabilitadas.
+* **Assemble document:** permite que páginas sejam adicionadas, rotacionadas ou removidas do arquivo.
 * **Modify:** permite modificar o arquivo.
 * **Modify annotations:** permite adicionar ou modificar anotações de texto no arquivo.
 * **Extract content:** permite extrair textos e imagens do arquivo.
@@ -26,15 +24,15 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Print degraded:** permite a impressão _degraded_ do arquivo.
 * **Fill in Form:** permite o preenchimento de formulários com campos interativos.
 
-### Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio de _Double Braces_.
 
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
-* com sucesso
+* **Com sucesso**
 
 ```
 {  
@@ -43,7 +41,7 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 }
 ```
 
-* com erro
+* **Sem sucesso**
 
 ```
 {  
@@ -53,7 +51,7 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 }
 ```
 
-#### Exemplo de resposta de requisição contendo erro <a href="#exemplo-de-resposta-de-requisio-contendo-erro" id="exemplo-de-resposta-de-requisio-contendo-erro"></a>
+### Exemplo de resposta de requisição contendo erro <a href="#exemplo-de-resposta-de-requisio-contendo-erro" id="exemplo-de-resposta-de-requisio-contendo-erro"></a>
 
 ```
 {  
@@ -69,7 +67,7 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 
 **Exemplo:**
 
-Body
+* **Body**
 
 ```
 <p>We have these animals:
@@ -80,7 +78,7 @@ Body
 </table>
 ```
 
-Portanto, na mensagem de entrada é recebido um _array_ de objetos que contêm as propriedades “name” e “price”:
+Portanto, na mensagem de entrada é recebido um _array_ de objetos que contêm as propriedades _“name”_ e _“price”_:
 
 ```
 [
@@ -101,11 +99,11 @@ O _template_ fará a iteração nesse _array_ recebido e preencherá o HTML:
   </table>
 ```
 
-**IMPORTANTE:**
+## Outras aplicações
 
-* **SVG**
+### **SVG**
 
-Para utilizar o SVG como _tag_ HTML, aplique a seguinte propriedade dentro da _tag_ SVG (**xmlns="**[**http://www.w3.org/2000/svg**](http://www.w3.org/2000/svg)**"**):
+Para utilizar o SVG como _tag_ HTML, aplique a seguinte propriedade dentro da _tag_ SVG `xmlns="`[`http://www.w3.org/2000/svg`](http://www.w3.org/2000/svg)`"`:
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="180">
@@ -114,19 +112,21 @@ Para utilizar o SVG como _tag_ HTML, aplique a seguinte propriedade dentro da _t
 </svg>
 ```
 
-* **CSS**
+### **CSS**
 
 Não há suporte para versões acima de 2.1.
 
-* **IMAGENS**
+### **Imagens**
 
-Não é suportada a utilização de imagens em formato base64 dentro de _tags_ HTML.
+A utilização de imagens em formato base64 dentro de _tags_ HTML não é suportada.
 
-**Ex.:** \<img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA…>
+**Exemplo:**&#x20;
+
+`<img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA…>`
 
 Você pode utilizar imagens com referência local e remota:
 
-* **Imagem Local**
+#### **Imagem Local**
 
 ```
 <img src="image.jpg" alt="IMAGE2" >
@@ -134,7 +134,7 @@ Você pode utilizar imagens com referência local e remota:
 
 No exemplo acima, deve existir um arquivo de imagem exatamente com o nome especificado dentro da _tag_ src (image.jpg)
 
-* **Imagem Remota**
+#### **Imagem Remota**
 
 ```
 <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="IMAGE2" >
