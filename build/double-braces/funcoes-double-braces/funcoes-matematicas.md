@@ -12,7 +12,7 @@ As funções foram criadas para:
 * diminuir a complexidade dos seus _pipelines;_
 * simplificar conversões e transformações dos dados durante o fluxo dos seus _pipelines._
 
-As funções matemáticas realizam operações matemáticas e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, leia o artigo [Funções Double Braces](./).
+As funções matemáticas realizam operações matemáticas e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, leia o artigo [Funções Double Braces](../../funcoes-double-braces/).
 
 ### ABS <a href="#abs" id="abs"></a>
 

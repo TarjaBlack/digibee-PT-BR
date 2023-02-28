@@ -277,4 +277,4 @@ O _**LDAP**_ suporta _Double Braces_ estáticos nos seguintes parâmetros previa
 * searchOperation
 * useSsl
 
-Para ler o nosso artigo sobre _Double Braces_, clique [aqui](../../build/double-braces/funcoes-double-braces/).
+Para ler o nosso artigo sobre _Double Braces_, clique [aqui](../../build/funcoes-double-braces/).

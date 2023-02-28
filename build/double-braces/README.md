@@ -14,6 +14,6 @@ Para saber mais sobre a sintaxe de _Double Braces_, leia os artigos abaixo:
 [como-referenciar-dados-usando-double-braces.md](como-referenciar-dados-usando-double-braces.md)
 {% endcontent-ref %}
 
-{% content-ref url="funcoes-double-braces/" %}
-[funcoes-double-braces](funcoes-double-braces/)
+{% content-ref url="../funcoes-double-braces/" %}
+[funcoes-double-braces](../funcoes-double-braces/)
 {% endcontent-ref %}

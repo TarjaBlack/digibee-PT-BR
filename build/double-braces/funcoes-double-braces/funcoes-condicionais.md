@@ -12,7 +12,7 @@ As funções foram criadas para:
 * diminuir a complexidade dos seus _pipelines_
 * simplificar conversões e transformações dos dados durante o fluxo dos seus _pipelines_
 
-As funções condicionais retornam um valor de acordo com o critério que você estabeleceu e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, clique [aqui](./).
+As funções condicionais retornam um valor de acordo com o critério que você estabeleceu e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, clique [aqui](../../funcoes-double-braces/).
 
 ### EQUALTO <a href="#equalto" id="equalto"></a>
 

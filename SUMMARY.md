@@ -52,7 +52,7 @@
     * [Totvs Live: Recuperar Cliente](build/capsulas/capsulas-publicas/totvs-live-recuperar-cliente.md)
 * [Double Braces](build/double-braces/README.md)
   * [Como referenciar dados usando Double Braces](build/double-braces/como-referenciar-dados-usando-double-braces.md)
-  * [Funções Double Braces](build/double-braces/funcoes-double-braces/README.md)
+  * [Funções Double Braces](build/funcoes-double-braces/README.md)
     * [Funções Matemáticas](build/double-braces/funcoes-double-braces/funcoes-matematicas.md)
     * [Funções de Utilidades](build/double-braces/funcoes-double-braces/double-braces-funcoes-de-utilidades.md)
     * [Funções Numéricas](build/double-braces/funcoes-double-braces/funcoes-numericas.md)

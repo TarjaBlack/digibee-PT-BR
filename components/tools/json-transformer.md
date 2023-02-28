@@ -109,7 +109,7 @@ Os valores podem ser transformados aplicando o _Double Braces_ e funções conti
 
 É possível aplicar as funções como _FORMATDATE, CONCAT, REPLACE, FORMATNUMBER_, dentre outras.
 
-Para entender melhor como funcionam esses recursos, leia o artigo [Funções Double Braces](../../build/double-braces/funcoes-double-braces/).
+Para entender melhor como funcionam esses recursos, leia o artigo [Funções Double Braces](../../build/funcoes-double-braces/).
 
 Neste exemplo, veja como transformar o "id" de _Number_ para _String_. As configurações do componente deverão ser:
 
