@@ -197,7 +197,7 @@
   * [Digital Signature](components/security-components/digital-signature.md)
   * [Google IAP Token](components/security-components/google-iap-token.md)
   * [Hash](components/security-components/hash.md)
-  * [JWT V2](components/security-components/jwt-new.md)
+  * [JWT](components/security-components/jwt-new.md)
   * [LDAP](components/security-components/ldap.md)
   * [PBE Cryptography](components/security-components/pbe-cryptography.md)
   * [PGP](components/security-components/pgp.md)
