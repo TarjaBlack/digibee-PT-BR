@@ -8,14 +8,14 @@ O _**Append Files**_ acrescenta um ou mais arquivos textos em um arquivo texto e
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-![](<../../.gitbook/assets/ezgif.com-gif-maker (8).gif>)
+<figure><img src="../../.gitbook/assets/chrome_M64jcTwAT5.gif" alt=""><figcaption></figcaption></figure>
 
 * **File Name:** nome do arquivo que recebe o conteúdo de outros arquivos.
 * **Charset:** _charset_ do arquivo final.
+* **Custom Files Specification**: se a opção estiver habilitada, é possível informar a lista de arquivos ao componente de forma dinâmica.
 * **Files to Append**: lista dos arquivos a serem acrescentados ao arquivo original.
 * **File Name:** nome do arquivo.
-* **Charset:**_charset_ do arquivo.
-* **Custom Append Files Specification**: se a opção estiver habilitada, é possível informar a lista de arquivos ao componente de forma dinâmica.
+* **Charset:** _charset_ do arquivo.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
 ## Fluxo de mensagens <a href="#h_b57caa312c" id="h_b57caa312c"></a>
@@ -76,7 +76,7 @@ file2
 another test
 ```
 
-**Saída**
+### **Saída**
 
 ```
 {
