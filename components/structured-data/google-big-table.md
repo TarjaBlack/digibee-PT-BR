@@ -24,7 +24,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **End range:** define o limite final utilizado para consultar a _rowkey_ de uma linha no Google BigTable.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida. Do contrário, a execução do _pipeline_ continuará, mas o resultado mostrará um valor falso para a propriedade "_success_".
 
-Alguns dos parâmetros mostrados acima suportam _Double Braces_. Leia o artigo [Como referenciar dados usando Double Braces](../../build/como-referenciar-dados-usando-double-braces.md) para entender o funcionamento dessa linguagem.
+Alguns dos parâmetros mostrados acima suportam _Double Braces_. Leia o artigo [Como referenciar dados usando Double Braces](../../build/double-braces/como-referenciar-dados-usando-double-braces.md) para entender o funcionamento dessa linguagem.
 
 ## Fluxo de mensagens
 

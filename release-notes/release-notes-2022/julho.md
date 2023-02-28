@@ -31,7 +31,7 @@ Nós também solucionamos alguns _bugs_:
 
 *   **STRINGMATCHES:** essa função permite realizar buscas de valores dentro de uma _String_ com base em uma _Regex_, retornando os resultados encontrados em um _array_.
 
-    Leia a [documentação sobre funções de string aqui](../../build/funcoes-double-braces/funcoes-de-string.md).
+    Leia a [documentação sobre funções de string aqui](../../build/double-braces/funcoes-double-braces/funcoes-de-string.md).
 
 #### **NOVO MODELO DE CONTROLE DE ACESSO** <a href="#h_764483821c" id="h_764483821c"></a>
 

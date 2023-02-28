@@ -34,7 +34,7 @@ Neste exemplo, vamos utilizar o _endpoint_ padrão do REST V2 ([`https://viacep.
   }
 ```
 
-Observe, na saída desse _endpoint_, os campos “`cep`”, “`ddd`”, “`logradouro`”, “`bairro`”, “`localidade`” e “`uf`”. Vamos utilizar esses campos para elaborar uma nova saída para esse _pipeline_ utilizando o [JSON Generator](../../components/tools/json-generator.md) e as funções [Double Braces](../funcoes-double-braces/) REPLACE, TOINT e CONCAT apresentadas pelo Intellisense.
+Observe, na saída desse _endpoint_, os campos “`cep`”, “`ddd`”, “`logradouro`”, “`bairro`”, “`localidade`” e “`uf`”. Vamos utilizar esses campos para elaborar uma nova saída para esse _pipeline_ utilizando o [JSON Generator](../../components/tools/json-generator.md) e as funções [Double Braces](../double-braces/funcoes-double-braces/) REPLACE, TOINT e CONCAT apresentadas pelo Intellisense.
 
 ![](<../../.gitbook/assets/02 (20).png>)
 
@@ -63,4 +63,4 @@ Dessa forma, este será o resultado da execução:
 }
 ```
 
-Disponibilizamos outras funções no Intellisense além das apresentadas neste artigo, para saber mais, leia o [artigo Funções Double Braces](../funcoes-double-braces/). Os recursos dessa funcionalidade serão acrescidos nos próximos lançamentos da Plataforma.
+Disponibilizamos outras funções no Intellisense além das apresentadas neste artigo, para saber mais, leia o [artigo Funções Double Braces](../double-braces/funcoes-double-braces/). Os recursos dessa funcionalidade serão acrescidos nos próximos lançamentos da Plataforma.

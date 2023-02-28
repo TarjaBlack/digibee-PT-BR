@@ -27,7 +27,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 `/home *(rw,sync,nohide)`
 
-Alguns dos parâmetros acima suportam chaves duplas. Para entender melhor como essa linguagem funciona, leia nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
+Alguns dos parâmetros acima suportam chaves duplas. Para entender melhor como essa linguagem funciona, leia nosso artigo clicando [aqui](broken-reference).
 
 ## **Plataformas Digibee suportadas** <a href="#h_d2062816e7" id="h_d2062816e7"></a>
 

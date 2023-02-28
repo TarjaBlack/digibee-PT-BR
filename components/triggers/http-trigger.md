@@ -157,7 +157,7 @@ Para a configurar esse MOCK, utilize o seguinte JSON:
 ```
 
 * **code:** HTTP _Status Code_ a ser retornado pelo _endpoint_ após a finalização da requisição
-* **body:** corpo da mensagem de resposta (_Double Braces_ estão sendo utilizados para repassar a informação convertida no passo anterior). Esse item precisa ser necessariamente uma _string_. Se o dado que você deseja enviar é um JSON, utilize a função [TOSTRING](../../build/funcoes-double-braces/funcoes-de-string.md).
+* **body:** corpo da mensagem de resposta (_Double Braces_ estão sendo utilizados para repassar a informação convertida no passo anterior). Esse item precisa ser necessariamente uma _string_. Se o dado que você deseja enviar é um JSON, utilize a função [TOSTRING](../../build/double-braces/funcoes-double-braces/funcoes-de-string.md).
 * **Content-type:** tipo de conteúdo do corpo da resposta. Todos os tipos são suportados, porém precisam ser declarados no campo **Response Content Types**.
 
 Ao finalizar todas essas configurações, você deve ter um _pipeline_ parecido com o que a imagem abaixo demonstra:

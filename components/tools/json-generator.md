@@ -36,7 +36,7 @@ Usamos o componente **JSON Generator (Mock)** com a seguinte configuração no p
 }
 ```
 
-Aqui, usamos a função [**Double Braces CONCAT**](../../build/funcoes-double-braces/funcoes-de-string.md) para concatenar o primeiro nome e o sobrenome, com um espaço entre eles.
+Aqui, usamos a função [**Double Braces CONCAT**](../../build/double-braces/funcoes-double-braces/funcoes-de-string.md) para concatenar o primeiro nome e o sobrenome, com um espaço entre eles.
 
 #### Saída
 

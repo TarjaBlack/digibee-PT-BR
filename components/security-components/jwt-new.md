@@ -2,7 +2,7 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# JWT (NEW)
+# JWT
 
 O _**JWT**_ realiza criação de JWS e JWE assim como a verificação de JWS e decodificação de JWE.
 
@@ -31,7 +31,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Payload**: _payload_ que será utilizado na criação do _token_ JWE.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/).
+Alguns dos parâmetros acima aceitam _Double Braces_. [Para entender melhor como funciona essa linguagem, leia o nosso artigo clicando aqui.](https://docs.digibee.com/documentation/v/pt-br/build/double-braces)
 
 ## Fluxo de mensagens <a href="#h_a232432467" id="h_a232432467"></a>
 

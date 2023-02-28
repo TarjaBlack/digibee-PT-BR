@@ -39,7 +39,7 @@ Saiba mais sobre o [programa Beta aqui](../../geral/programa-beta.md).
 * FORMATNUMBER: melhoramos a precisão de pontos flutuantes, adicionando o formato _string_ na entrada da função.\
   Além disso, agora é possível escolher diferentes tipos de arredondamento dos números. São eles: Rounding Mode: UP, DOWN, CEILING, FLOOR, HALF\_UP, HALF\_DOWN e HALF\_EVEN.\
   \
-  Leia [o artigo completo sobre Double Braces - Funções Numéricas aqui](../../build/funcoes-double-braces/funcoes-numericas.md).
+  Leia [o artigo completo sobre Double Braces - Funções Numéricas aqui](../../build/double-braces/funcoes-double-braces/funcoes-numericas.md).
 
 
 

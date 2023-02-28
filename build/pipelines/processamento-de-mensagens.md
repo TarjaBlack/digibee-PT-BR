@@ -22,4 +22,4 @@ Um _pipeline_ é construído utilizando um _trigger_ REST, que é chamado e forn
 
 Se você optar por trafegar somente mensagens no formato JSON, a manipulação e a transformação serão facilitadas, independente de você usar componentes de transformação ou expressões _Double Braces_. Essas expressões precisam fazer referência a elementos da mensagem de entrada para produzir uma mensagem de saída.&#x20;
 
-Para saber mais, leia o artigo [Double Braces e Entrada de Dados](../funcoes-double-braces/double-braces-e-entrada-de-dados.md).
+Para saber mais, leia o artigo [Double Braces e Entrada de Dados](broken-reference).

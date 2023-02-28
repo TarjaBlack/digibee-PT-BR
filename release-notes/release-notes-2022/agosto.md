@@ -85,7 +85,7 @@ Nós também solucionamos um _bug_:
 
 #### **FUNÇÕES** <a href="#h_a00d0b9960" id="h_a00d0b9960"></a>
 
-* **STRINGMATCHES:** a função recebeu uma atualização. Agora, é possível informar mais de um _patternFlag_ para a função. Acesse a [documentação sobre STRINGMATCHES aqui](../../build/funcoes-double-braces/funcoes-de-string.md).
+* **STRINGMATCHES:** a função recebeu uma atualização. Agora, é possível informar mais de um _patternFlag_ para a função. Acesse a [documentação sobre STRINGMATCHES aqui](../../build/double-braces/funcoes-double-braces/funcoes-de-string.md).
 
 #### **MONITOR** <a href="#h_7c3ba15c3a" id="h_7c3ba15c3a"></a>
 

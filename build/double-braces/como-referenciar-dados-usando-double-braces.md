@@ -70,7 +70,7 @@ Para acessar propriedades contidas em outras propriedades, use a notação de ma
 
 ## Referenciando Globals <a href="#_w40qqx1i9zyi" id="_w40qqx1i9zyi"></a>
 
-Globals são variáveis ​​criadas pelo usuário que podem ser referenciadas em vários pipelines. Para aprender mais sobre Globals, [leia esta documentação](../configurations/conceitos-basicos.md).
+Globals são variáveis ​​criadas pelo usuário que podem ser referenciadas em vários pipelines. Para aprender mais sobre Globals, [leia esta documentação](../../configurations/conceitos-basicos.md).
 
 Para fazer referência a um Global usando Double Braces, use a seguinte sintaxe, substituindo os termos entre símbolos de menor e maior que pelo valor desejado:
 
@@ -91,7 +91,7 @@ Suponha que você queira referenciar um Global chamado “meu-global”. Use a n
 
 ## Referenciando contas <a href="#_6kg4o5xryfbp" id="_6kg4o5xryfbp"></a>
 
-As contas são credenciais definidas pelo usuário que podem ser referenciadas em vários pipelines.Para saber mais, [leia nossa documentação sobre contas](../configurations/contas-accounts/).
+As contas são credenciais definidas pelo usuário que podem ser referenciadas em vários pipelines.Para saber mais, [leia nossa documentação sobre contas](../../configurations/contas-accounts/).
 
 Para fazer referência a uma conta, use a seguinte sintaxe, substituindo os termos entre símbolos de menor e maior que pelo valor desejado:
 
@@ -155,9 +155,9 @@ Estes são todos os metadados que você pode acessar com Double Braces:
 
 ### Metadados de execução de pipeline <a href="#_wyxvj3wtt377" id="_wyxvj3wtt377"></a>
 
-| data                     | Descrição                                                                                                                                                                                                |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| execution.key            | ID da execução do pipeline atual                                                                                                                                                                         |
-| execution.timeout        | _Timeout_ configurado do pipeline                                                                                                                                                                        |
-| execution.startTimestamp | _Timestamp_ do início da execução pipeline (em milissegundos, no formato UNIX Epoch)                                                                                                                     |
-| execution.redelivery     | Booleano. _True_ se esta execução for uma nova tentativa de execução. _False,_ se não. Aprenda mais sobre reprocessamento em [nosso artigo sobre o _Pipeline Engine_](../plataforma/pipeline-engine.md). |
+| data                     | Descrição                                                                                                                                                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| execution.key            | ID da execução do pipeline atual                                                                                                                                                                            |
+| execution.timeout        | _Timeout_ configurado do pipeline                                                                                                                                                                           |
+| execution.startTimestamp | _Timestamp_ do início da execução pipeline (em milissegundos, no formato UNIX Epoch)                                                                                                                        |
+| execution.redelivery     | Booleano. _True_ se esta execução for uma nova tentativa de execução. _False,_ se não. Aprenda mais sobre reprocessamento em [nosso artigo sobre o _Pipeline Engine_](../../plataforma/pipeline-engine.md). |

@@ -10,8 +10,8 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 * **URL:** URL a ser chamada - pode conter os parâmetros seguindo o padrão `{:param1}`, que serão substituídos pela propriedade correspondente da mensagem de entrada.
 * **Account:** conta a ser utilizada pelo componente. Leia a documentação sobre [Contas (Accounts)](https://docs.digibee.com/documentation/v/pt-br/configurations/contas-accounts) para saber mais sobre os tipos de contas disponíveis.
-* **Custom Account #1:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ `{{ account.custom-1.value }}`. Leia o artigo [Funções Double Braces](../../build/funcoes-double-braces/#de-data) para saber mas sobre o tema.&#x20;
-* **Custom Account #2:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ `{{ account.custom-2.value }}`. Leia o artigo [Funções Double Braces](../../build/funcoes-double-braces/#de-data) para saber mas sobre o tema.
+* **Custom Account #1:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ `{{ account.custom-1.value }}`. Leia o artigo [Funções Double Braces](../../build/double-braces/funcoes-double-braces/#de-data) para saber mas sobre o tema.&#x20;
+* **Custom Account #2:** conta adicional a ser utilizada pelo componente por meio de _Double Braces_ `{{ account.custom-2.value }}`. Leia o artigo [Funções Double Braces](../../build/double-braces/funcoes-double-braces/#de-data) para saber mas sobre o tema.
 * **Send the Request Body from a File:** se habilitada, a opção considera o conteúdo a ser enviado na chamada através de um arquivo; do contrário, será considerado o que for especificado em **Template (XML).**
 * **Request Body File Name:** informa o nome do arquivo a ser enviado na chamada SOAP, se a opção **Send the Request Body from a File** estiver ativada.
 * **Template (XML):** _template_ Apache FreeMarker para que a mensagem SOAP seja enviada na solicitação. Este campo não estará disponível se a opção **Send the Request Body from a File** estiver habilitada.

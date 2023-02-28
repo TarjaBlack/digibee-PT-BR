@@ -14,7 +14,7 @@
 
 #### **FUNÇÕES**
 
-* **BASEURLENCODE e BASEURLDECODE:** através dessas funções, é possível codificar e decodificar Base64 _URLs_. Leia a [documentação completa das Funções aqui](../../build/funcoes-double-braces/double-braces-funcoes-de-utilidades.md).
+* **BASEURLENCODE e BASEURLDECODE:** através dessas funções, é possível codificar e decodificar Base64 _URLs_. Leia a [documentação completa das Funções aqui](../../build/double-braces/funcoes-double-braces/double-braces-funcoes-de-utilidades.md).
 
 #### **CONTROLE DE ACESSOS**
 
@@ -51,7 +51,7 @@ Nós também solucionamos alguns _bugs_:
 
 #### **FUNÇÕES** <a href="#h_e225ef93c2" id="h_e225ef93c2"></a>
 
-* **URIEncode e URIDecode:** estas duas novas funções permitem codificar e decodificar _URIs_, respectivamente. Leia o [artigo Double Braces - Funções de Utilidades](../../build/funcoes-double-braces/double-braces-funcoes-de-utilidades.md) para mais detalhes.
+* **URIEncode e URIDecode:** estas duas novas funções permitem codificar e decodificar _URIs_, respectivamente. Leia o [artigo Double Braces - Funções de Utilidades](../../build/double-braces/funcoes-double-braces/double-braces-funcoes-de-utilidades.md) para mais detalhes.
 
 #### **GRUPOS DIGIBEE - INTEGRAÇÃO COM PROVEDORES DE IDENTIDADE** <a href="#h_3c33c27e05" id="h_3c33c27e05"></a>
 

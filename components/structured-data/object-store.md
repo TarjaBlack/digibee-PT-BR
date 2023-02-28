@@ -22,7 +22,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Upsert:** esta opção é disponível somente se as operações _Update By Object ID_ ou _Update By Query_ estiverem selecionadas. Quando ativado, o objeto informado para o componente será inserido na coleção caso ele não exista.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Leia o artigo [Como referenciar dados usando Double Braces](../../build/como-referenciar-dados-usando-double-braces.md) para entender melhor como funciona essa linguagem.
+Alguns dos parâmetros acima aceitam _Double Braces_. Leia o artigo [Como referenciar dados usando Double Braces](../../build/double-braces/como-referenciar-dados-usando-double-braces.md) para entender melhor como funciona essa linguagem.
 
 ## Boas práticas de utilização <a href="#h_1c70874a1a" id="h_1c70874a1a"></a>
 

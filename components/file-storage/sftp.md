@@ -24,7 +24,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Host:** _host_ do _proxy._ O parâmetro aceita _Double Braces_.
 * **Port:** porta do _proxy._ O parâmetro aceita Double Braces.
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/double-braces-e-entrada-de-dados.md).
+**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
 
 ### **Fluxo de mensagens** <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
