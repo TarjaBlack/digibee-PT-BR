@@ -50,6 +50,7 @@
     * [Totvs Live: Consultar Status Ticket](build/capsulas/capsulas-publicas/totvs-live-consultar-status-ticket.md)
     * [Totvs Live: Recuperar Lojas](build/capsulas/capsulas-publicas/totvs-live-recuperar-lojas.md)
     * [Totvs Live: Recuperar Cliente](build/capsulas/capsulas-publicas/totvs-live-recuperar-cliente.md)
+* [Double Braces](build/double-braces.md)
 * [Como referenciar dados usando Double Braces](build/como-referenciar-dados-usando-double-braces.md)
 * [Funções Double Braces](build/funcoes-double-braces/README.md)
   * [Funções Matemáticas](build/funcoes-double-braces/funcoes-matematicas.md)
