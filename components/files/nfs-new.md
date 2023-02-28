@@ -23,10 +23,6 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Exact Match:** é um filtro que, se ativado, irá buscar exatamente o que for especificado no campo File Name, caso contrário ele fará uma busca aproximada.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado da propriedade _success_ será _false_ na saída do componente.
 
-**IMPORTANTE:** Para ter acesso ao diretório do servidor NFS pelo nosso componente, o arquivo /etc/exports deverá ser configurado usando o caracter \* para mapear o IP do cliente. Isso ocorre porque os IPs dos _pods kubernetes_ são efêmeros, obrigando o usuário a realizar o mapeamento global. Ex:
-
-`/home *(rw,sync,nohide)`
-
 {% hint style="info" %}
 **IMPORTANTE:** Para ter acesso ao diretório do servidor NFS pelo nosso componente, o arquivo /etc/exports deverá ser configurado usando o caracter \* para mapear o IP do cliente. Isso ocorre porque os IPs dos _pods kubernetes_ são efêmeros, obrigando o usuário a realizar o mapeamento global.&#x20;
 
@@ -47,11 +43,11 @@ Suportamos somente o NFS versão 3.
 
 ## **Fluxo de mensagens** <a href="#h_7c97f4e4b6" id="h_7c97f4e4b6"></a>
 
-* ### **Entrada** <a href="#h_e76a65fbc5" id="h_e76a65fbc5"></a>
+### **Entrada** <a href="#h_e76a65fbc5" id="h_e76a65fbc5"></a>
 
 Não é necessário nenhuma mensagem específica na entrada, bastando apenas configurar os campos necessários para cada operação.
 
-* **Saída**
+### **Saída**
 
 **LIST**
 
@@ -82,8 +78,7 @@ Não é necessário nenhuma mensagem específica na entrada, bastando apenas con
 }
 ```
 
-**DELETE**\
-
+**DELETE**
 
 ```
 {
@@ -93,7 +88,7 @@ Não é necessário nenhuma mensagem específica na entrada, bastando apenas con
 }
 ```
 
-**Erro**
+**ERRO**
 
 ```
 {
@@ -109,7 +104,7 @@ Não é necessário nenhuma mensagem específica na entrada, bastando apenas con
 
 ## **NFS em ação** <a href="#h_d469f3a11f" id="h_d469f3a11f"></a>
 
-**1. Listando com filtro - Exact Match desabilitado**
+### **Listando com filtro - Exact Match desabilitado**
 
 Server IP : 192.168.56.101
 
@@ -158,7 +153,7 @@ Resposta:
 }
 ```
 
-**2- Listando com filtro - Exact Match habilitado**
+### **Listando com filtro - Exact Match habilitado**
 
 Server IP : 192.168.56.101
 
@@ -198,7 +193,7 @@ Resposta:
 }
 ```
 
-3- Download
+### Download
 
 Server IP : 192.168.56.101
 
@@ -232,7 +227,7 @@ Resposta:
 }
 ```
 
-**4- Upload**
+### **Upload**
 
 Server IP : 192.168.56.101
 
@@ -265,7 +260,7 @@ Resposta:
 }
 ```
 
-**5- Delete**
+### **Delete**
 
 Server IP : 192.168.56.101
 
