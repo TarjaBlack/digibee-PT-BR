@@ -2,7 +2,7 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# NFS (NEW)
+# NFS
 
 O componente **NFS** manipula arquivos. É possível listá-los, fazer o download e upload de arquivos e deletá-los.
 
@@ -27,7 +27,13 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 `/home *(rw,sync,nohide)`
 
-Alguns dos parâmetros acima suportam chaves duplas. Para entender melhor como essa linguagem funciona, leia nosso artigo clicando [aqui](broken-reference).
+{% hint style="info" %}
+**IMPORTANTE:** Para ter acesso ao diretório do servidor NFS pelo nosso componente, o arquivo /etc/exports deverá ser configurado usando o caracter \* para mapear o IP do cliente. Isso ocorre porque os IPs dos _pods kubernetes_ são efêmeros, obrigando o usuário a realizar o mapeamento global.&#x20;
+
+Ex: `/home *(rw,sync,nohide)`
+{% endhint %}
+
+Alguns dos parâmetros acima suportam chaves duplas. [Para entender melhor como essa linguagem funciona, leia nosso artigo clicando aqui](https://docs.digibee.com/documentation/v/pt-br/build/double-braces).
 
 ## **Plataformas Digibee suportadas** <a href="#h_d2062816e7" id="h_d2062816e7"></a>
 
