@@ -10,7 +10,6 @@ Esse componente tem duas etapas de configuração: a dos parâmetros que definem
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-* **Step Name**: a propriedade pode ser utilizada para documentar, pois ela se torna o texto apresentado no componente no _pipeline canvas_.
 * **Aggregation Type**: poderá ser configurado como SUMMARY ou COLLATE; veja mais abaixo.
 * **Show Execution Ids:** caso seja habilitada, a propriedade fará com que o id de cada linha de execução seja informado no resultado.
 * **Report Exceptions:** caso seja habilitada, a propriedade fará com que quaisquer exceções sejam informadas no resultado; veja mais abaixo.
@@ -114,19 +113,19 @@ Caso um erro aconteça durante a execução da linha paralela _p-b_, null será 
 
 Veja abaixo como o componente se comporta em determinadas situações e as suas respectivas configurações.
 
-* **Unindo o resultado das execuções paralelas**
+### **Unindo o resultado das execuções paralelas**
 
 Para unir o resultado das execuções paralelas, é importante configurar o componente Parallel Execution dentro de um Block Execution (adicionar link para ele). Ao final do Block Execution, todas as execuções paralelas serão sincronizadas e o resultado será conforme a configuração "Aggregation Type".
 
 ![](<../../.gitbook/assets/parallel execution.png>)
 
-* **Parallel Execution é utilizado no fluxo principal do pipeline**
+### **Parallel Execution é utilizado no fluxo principal do pipeline**
 
 Caso o componente seja utilizado no fluxo principal do pipeline, então as linhas de execução paralelas serão "unidas" ao final da execução do pipeline e o mesmo será terminado com o resultado conforme a configuração "Aggregation Type".
 
 ![](<../../.gitbook/assets/parallel execution1.png>)
 
-* **Parallel Execution é utilizado dentro de outro Parallel Execution**
+### **Parallel Execution é utilizado dentro de outro Parallel Execution**
 
 Neste caso, novas linhas de execução paralelas serão iniciadas e "unidas" ao fim da linha de execução paralela que continha o Parallel Execution mais interno. O Parallel Execution mais externo somente unirá as suas respectivas linhas quando as mais internas finalizarem.
 
