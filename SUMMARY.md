@@ -257,7 +257,7 @@
   * [Email V1](components/web-protocols/email-v1/README.md)
     * [Email V1: Exemplos de uso](components/web-protocols/email-v1/email-v1-exemplos-de-uso.md)
   * [REST V2](components/web-protocols/rest-v2.md)
-  * [REST V1](components/web-protocols/rest-v1.md)
+  * [REST V1 (Descontinuado)](components/web-protocols/rest-v1.md)
   * [SOAP V3 (BETA)](components/web-protocols/soap-v3-beta.md)
   * [SOAP V2](components/web-protocols/soap-v2.md)
   * [SOAP V1](components/web-protocols/soap-v1.md)
