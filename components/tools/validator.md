@@ -6,15 +6,15 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 O _**Validator**_ tem a função de analisar um JSON de entrada e compará-lo ao _schema_ fornecido, para que seja criada uma validação dentro de seu _pipeline_ e interrompa o fluxo se a estrutura não estiver de acordo com o declarado.
 
-_JSON Schema_ é um vocabulário bastante difundido no mercado, que permite validar documentos JSON. Para saber mais sobre esse vocabulário, clique [aqui](https://json-schema.org/).
+_JSON Schema_ é um vocabulário bastante difundido no mercado, que permite validar documentos JSON. [Para saber mais, visite a documentação oficial do JSON](https://json-schema.org/).
 
 Dê uma olhada nos parâmetro de configuração do _**Validator**_:
 
 * **JSON Schema:** definição JSON Schema que valida o JSON
 
-### Fluxo de mensagens <a href="#h_b973e0f591" id="h_b973e0f591"></a>
+## Fluxo de mensagens <a href="#h_b973e0f591" id="h_b973e0f591"></a>
 
-#### Entrada <a href="#h_0e8e92558e" id="h_0e8e92558e"></a>
+### Entrada <a href="#h_0e8e92558e" id="h_0e8e92558e"></a>
 
 O componente aceita mensagens de entrada do tipo JSON para realizar a validação.
 
@@ -33,7 +33,7 @@ O componente aceita mensagens de entrada do tipo JSON para realizar a validaçã
 }
 ```
 
-#### Saída <a href="#h_a5ce7d5374" id="h_a5ce7d5374"></a>
+### Saída <a href="#h_a5ce7d5374" id="h_a5ce7d5374"></a>
 
 O componente não altera nenhuma informação da mensagem de entrada quando o _**JSON Validador**_ estiver de acordo com _JSON Schema_. Portanto, a mensagem é retornada para o componente seguinte ou é utilizada como resposta final se esse componente for o último passo do _pipeline_.
 
@@ -52,11 +52,11 @@ O componente não altera nenhuma informação da mensagem de entrada quando o _*
 }
 ```
 
-### Validator em Ação <a href="#h_be2ba24eca" id="h_be2ba24eca"></a>
+## Validator em Ação <a href="#h_be2ba24eca" id="h_be2ba24eca"></a>
 
 Veja abaixo como o componente se comporta em determinada situação e a sua respectiva configuração.
 
-* **Informando um **_**schema**_** e enviando um JSON que não atende aos requisitos**
+### **Informando um **_**schema**_** e enviando um JSON que não atende aos requisitos**
 
 Configure o componente com o seguinte _schema_:
 
@@ -81,7 +81,7 @@ Configure o componente com o seguinte _schema_:
 
 Depois, envie o seguinte JSON para o componente:
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -90,7 +90,7 @@ Depois, envie o seguinte JSON para o componente:
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -100,7 +100,7 @@ Depois, envie o seguinte JSON para o componente:
 }
 ```
 
-* **Informando um **_**schema**_** e enviando um JSON que atende aos requisitos**
+### **Informando um **_**schema**_** e enviando um JSON que atende aos requisitos**
 
 Configure o componente com o seguinte _schema_:
 
