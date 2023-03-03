@@ -6,7 +6,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 
 
-O _**Stream DB V3**_ permite estabelecer uma conexão com um serviço que suporta o protocolo JDBC (Java Database Connectivity) e executar instruções SQL (Structured Query Language).
+O _**Stream DB V3**_ permite estabelecer uma conexão com um serviço que suporta o protocolo JDBC (_Java Database Connectivity_) e executar instruções SQL (_Structured Query Language_).
 
 Diferentemente do componente [DB V1](db-v1.md), o _**Stream DB**_ foi desenvolvido para realizar execução em lotes, ou seja, cada retorno (linha resultante ou _row_) da instrução SQL executada é tratada individualmente através de um _subpipeline_, podendo conter seu próprio fluxo de processamento. Leia o artigo [Subpipelines](../../build/pipelines/subpipelines.md) para saber mais.
 

@@ -260,7 +260,7 @@
   * [REST V1 (Descontinuado)](components/web-protocols/rest-v1.md)
   * [SOAP V3 (BETA)](components/web-protocols/soap-v3-beta.md)
   * [SOAP V2](components/web-protocols/soap-v2.md)
-  * [SOAP V1](components/web-protocols/soap-v1.md)
+  * [SOAP V1 (Descontinuado)](components/web-protocols/soap-v1.md)
   * [WGet](components/web-protocols/wget.md)
 
 ## Plataforma
