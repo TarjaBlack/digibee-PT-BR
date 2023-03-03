@@ -1,12 +1,12 @@
 ---
-description: Como adicionar um valor a diferentes itens da lista
+description: Como adicionar um valor a diferentes itens da lista.
 ---
 
 # Transformer - Adicionar valores aos elementos da lista
 
-**Como adicionar um valor Fixo em diferentes elementos da lista:**
+## **Adicionar um valor Fixo em diferentes elementos da lista**
 
-**Entrada:**
+### **Entrada**
 
 ```
 {
@@ -30,8 +30,7 @@ description: Como adicionar um valor a diferentes itens da lista
 }
 ```
 
-**Transformer Spec:**\
-
+### **Transformer Spec**
 
 ```
 [
@@ -49,7 +48,7 @@ description: Como adicionar um valor a diferentes itens da lista
 ]
 ```
 
-**Saída:**
+### **Saída**
 
 ```
 {
@@ -72,10 +71,9 @@ description: Como adicionar um valor a diferentes itens da lista
 }
 ```
 
-\
-**Adicionar Valores Dinâmicos**
+## **Adicionar Valores Dinâmicos**
 
-Para adicionar o valor de forma dinâmica, utilizar por exemplo o Transformer Spec abaixo:
+Para adicionar o valor de forma dinâmica, utilize a estrutura do Transformer Spec abaixo:
 
 ```
 [
@@ -94,10 +92,9 @@ Para adicionar o valor de forma dinâmica, utilizar por exemplo o Transformer Sp
 ```
 
 \
-Observação: No exemplo acima, o número 3 indica a quantidade de níveis que deve-se "subir" para acessar o objeto Json. Para entender melhor abaixo um outro exemplo:
+Observação: No exemplo acima, o número 3 indica a quantidade de níveis que deve-se "subir" para acessar o objeto Json. Para entender melhor, veja o exemplo abaixo:
 
-\
-**Entrada:**
+### **Entrada**
 
 ```
 {
@@ -127,7 +124,7 @@ Observação: No exemplo acima, o número 3 indica a quantidade de níveis que d
 }
 ```
 
-**Transformer Spec:**
+### **Transformer Spec**
 
 ```
 [
