@@ -92,7 +92,7 @@ Para adicionar o valor de forma dinâmica, utilize a estrutura do Transformer Sp
 ```
 
 \
-Observação: No exemplo acima, o número 3 indica a quantidade de níveis que deve-se "subir" para acessar o objeto Json. Para entender melhor, veja o exemplo abaixo:
+Observação: No exemplo acima, o número 3 indica a quantidade de níveis que deve-se "subir" para acessar o objeto JSON. Para entender melhor, veja o exemplo abaixo:
 
 ### **Entrada**
 
