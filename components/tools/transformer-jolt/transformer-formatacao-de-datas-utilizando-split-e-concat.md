@@ -4,7 +4,7 @@ description: Exemplo da utilização de split e join para formatação de datas.
 
 # Transformer - Formatação de datas utilizando split e concat
 
-**Entrada json:**
+### **Entrada json**
 
 ```
 {
@@ -14,7 +14,7 @@ description: Exemplo da utilização de split e join para formatação de datas.
 }
 ```
 
-**Transformer Spec:**
+### **Transformer Spec**
 
 ```
 [
@@ -40,13 +40,11 @@ description: Exemplo da utilização de split e join para formatação de datas.
 
 \
 Para esta formatação foi utilizado o "operation": "**modify-overwrite-beta**" que possibilita a alteração do json.\
-Comando =split para separar a data pelo carácter '/' e  criar um array de 3 posições. Também é possível utilizar **regex** no split. Veja mais exemplos em:&#x20;
+Use o comando **=split** para separar a data pelo caracter '/' e  criar um array de 3 posições. Também é possível utilizar **regex** no split. [Para mais exemplos, visite Github - Split Functions](https://github.com/bazaarvoice/jolt/blob/7812399d1c955742d81eae363244a2d0ef86cf3b/jolt-core/src/test/resources/json/modifier/functions/stringsSplitTest.json).
 
-[Github - Split Functions](https://github.com/bazaarvoice/jolt/blob/7812399d1c955742d81eae363244a2d0ef86cf3b/jolt-core/src/test/resources/json/modifier/functions/stringsSplitTest.json)
+Após o split, o comando **=concat** nos dá a possibilidade de concatenar os itens do array de acordo com o index.
 
-Após o Split, o comando =concat nos dá a possibilidade de concatenar os itens do array de acordo com o index.
-
-**Saída** &#x20;
+### **Saída** &#x20;
 
 ```
 {  
