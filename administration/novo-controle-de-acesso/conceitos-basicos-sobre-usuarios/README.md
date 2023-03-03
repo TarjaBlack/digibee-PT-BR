@@ -18,7 +18,7 @@ A página Usuários mostra uma tabela com os usuários ativos em seu _realm_.
 
 Esta tabela mostra o **nome de usuário e e-mail**, o **status** do usuário e botões para editá-los e arquivá-los.
 
-<figure><img src="../../.gitbook/assets/users_ptbr.png" alt=""><figcaption><p>Página de usuários</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/users_ptbr.png" alt=""><figcaption><p>Página de usuários</p></figcaption></figure>
 
 A variável **status** pode assumir os seguintes valores:
 
@@ -47,7 +47,7 @@ Para visualizar um usuário:
 
 Um modal é exibido, como mostrado abaixo:
 
-<figure><img src="../../.gitbook/assets/0 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/0 (2).png" alt=""><figcaption></figcaption></figure>
 
 Se o usuário já tiver feito login anteriormente por meio de um provedor de identidade (IdP), uma mensagem será exibida informando isso. Clique no ícone destacado para ir para a página de integração do grupo. Para saber mais sobre a integração de IdP, leia nossa documentação sobre integração de provedor de identidade.
 
