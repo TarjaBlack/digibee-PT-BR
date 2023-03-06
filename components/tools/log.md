@@ -24,17 +24,17 @@ Ocorreu um erro ao tentar registrar o cliente código \{{ message.id \}}&#x20;
 **IMPORTANTE:** todos os caracteres de quebra de linha (\n ou \r\n) serão removidos na exibição dos logs.
 {% endhint %}
 
-### Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 O componente aceita qualquer mensagem de entrada e pode fazer uso dela através de _Double Braces_.
 
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
 O componente não altera nenhuma informação da mensagem de entrada. Portanto, ela é retornada para o componente seguinte ou é utilizada como resposta final se este componente for o último passo do _pipeline_.
 
-### Campos sensíveis <a href="#h_9296d1d973" id="h_9296d1d973"></a>
+## Campos sensíveis <a href="#h_9296d1d973" id="h_9296d1d973"></a>
 
 Quando configurado campos sensíveis no pipeline ou em seu _realm_, esses campos aparecerão na saída do conector ofuscados com o conjunto de caracteres **"\*\*\*"**.
 
