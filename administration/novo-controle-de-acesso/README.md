@@ -14,7 +14,7 @@ Para acessar a Digibee Integration Platform, os usuários devem estar atribuído
 
 Para saber mais sobre usuários, grupos e papéis, leia os artigos abaixo:
 
-* [Usuários](conceitos-basicos-sobre-usuarios/)
+* [Usuários](conceitos-basicos-sobre-usuarios.md)
 * [Grupos](grupos-do-controle-de-acesso.md)
 * [Papéis](papeis-do-controle-de-acesso.md)
 

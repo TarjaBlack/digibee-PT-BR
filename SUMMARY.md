@@ -87,7 +87,7 @@
   * [Nova tela de login](administration/autenticacao-e-autorizacao-de-usuarios/nova-tela-de-login.md)
   * [Fluxo de login](administration/autenticacao-e-autorizacao-de-usuarios/fluxo-de-login.md)
 * [Controle de acesso](administration/novo-controle-de-acesso/README.md)
-  * [Usuários](administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios/README.md)
+  * [Usuários](administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios.md)
     * [Usuários (realms integrados)](administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios/usuarios-realms-integrados.md)
   * [Grupos](administration/novo-controle-de-acesso/grupos-do-controle-de-acesso.md)
   * [Papéis](administration/novo-controle-de-acesso/papeis-do-controle-de-acesso.md)

@@ -104,7 +104,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 
 ### Operação SEARCH <a href="#h_019ef5a604" id="h_019ef5a604"></a>
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -126,7 +126,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -149,7 +149,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 
 ### Operação ADD <a href="#h_ee7e46186d" id="h_ee7e46186d"></a>
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -170,7 +170,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {"entries": {
@@ -182,7 +182,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -193,7 +193,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 
 ### Operação MODIFY <a href="#h_00ac903a0c" id="h_00ac903a0c"></a>
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -215,7 +215,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {"entries": {
@@ -227,7 +227,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -238,7 +238,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 
 ### Operação DELETE <a href="#h_8844a54707" id="h_8844a54707"></a>
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -258,7 +258,7 @@ Para converter _Double Braces_, nós utilizamos especificações de JSON Path. C
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -277,4 +277,4 @@ O _**LDAP**_ suporta _Double Braces_ estáticos nos seguintes parâmetros previa
 * searchOperation
 * useSsl
 
-Para ler o nosso artigo sobre _Double Braces_, clique [aqui](../../build/funcoes-double-braces/).
+[Para ler o nosso artigo sobre _Double Braces_, clique aqui.](https://docs.digibee.com/documentation/v/pt-br/build/double-braces)

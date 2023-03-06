@@ -124,7 +124,7 @@ Melhoramos a performance do novo Canvas, dando mais rapidez para a navegação e
 Visando melhorar nossa documentação, atualizamos o artigo abaixo:
 
 * [Pipeline](../../build/pipelines/)
-* [Conceitos básicos sobre usuários](../../administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios/#h\_d16f6c5450)
+* [Conceitos básicos sobre usuários](../../administration/novo-controle-de-acesso/conceitos-basicos-sobre-usuarios.md#h\_d16f6c5450)
 * [Subpipelines](../../build/pipelines/subpipelines.md)\
   \
   \
