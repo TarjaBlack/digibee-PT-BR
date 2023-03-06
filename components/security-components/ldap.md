@@ -9,14 +9,17 @@ O _**LDAP**_ realiza operações em um servidor LDAP.
 Dê uma olhada nos parâmetros de configuração do componente:
 
 * **Account:** conta a ser utilizada pelo componente.
-* **Operation:** comando a ser acionado (Add, Delete ou Modify).
-* **Search Operation:** operação de busca (Object, One level ou Sub trees).
+* **Operation:** comando a ser acionado (_Add, Delete_ ou _Modify_).
+* **Search Operation:** operação de busca (_Object, One level_ ou _Sub trees_).
+* **Modify Operation:** comandos disponíveis (_Add Attribute, Remove Attribute, Replace Attribute_ ou _Increment Attribute_).
 * **Host Name:** nome ou IP do servidor LDAP.
 * **Port:** porta do LDAP.
-* **Authentication DN:** Distinguished Name (DN) utilizado para conectar o servidor LDAP.
+* **Authentication DN:** _Distinguished Name (DN)_ utilizado para conectar o servidor LDAP.
+* **Operation DN: **_**** Distinguished Name (DN)_ usado para operações (expressões de _Double Braces_ são suportadas)
 * **Filter:** expressões de filtros.
+* **Entries:** expressão _JSON_ que representa as entradas que serão adicionadas ou modificadas. Suporta expressões de _Double Braces._
 * **SSL:** protocolo de segurança.
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
 {% hint style="info" %}
 **IMPORTANTE**: o parâmetro **Authentication DN** deve ser configurado com o _path_ completo até o usuário desejado. Com isso, se o **Distinguished Name** for igual a "CN=UserExample,OU=FOLDER1,DC=abc,DC=com,DC=br", o parâmetro Authentication DN ficará configurado com "OU=FOLDER1,DC=abc,DC=com,DC=br". A configuração "CN=UserExample" deve ser utilizada no _username ****_ do _account_ configurado no componente, ou seja, _username_ recebe o valor "UserExample".
