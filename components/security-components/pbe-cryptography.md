@@ -25,14 +25,11 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Salt As Hex Value:** se a opção estiver ativada, o retorno do Salt será em hexadecimal; do contrário, será em Base64.
 * **Encrypted Message As Hex:** se a opção estiver ativada, o retorno da _secret key_ será em hexadecimal; do contrário, será em Base64.
 
-Fluxo de Mensagens\
- <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
------------------------------------------------------------
+## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-### Criptografar via _fields_ <a href="#criptografar-via-fields" id="criptografar-via-fields"></a>
+### Criptografar via _fields_ <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-\
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -48,7 +45,7 @@ Fluxo de Mensagens\
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -58,7 +55,7 @@ Fluxo de Mensagens\
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -69,9 +66,9 @@ Fluxo de Mensagens\
 }
 ```
 
-Descriptografar via _fields_\
-\
-**Entrada**
+### Descriptografar via _fields_
+
+#### **Entrada**
 
 ```
 {
@@ -89,7 +86,7 @@ Descriptografar via _fields_\
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -100,7 +97,7 @@ Descriptografar via _fields_\
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -109,15 +106,12 @@ Descriptografar via _fields_\
   },
   "_salt": "ZmRmcwZmRmcw=="
 }
+
 ```
 
-\
-\
+### Criptografar via _payload_ <a href="#criptografarvia-payload" id="criptografarvia-payload"></a>
 
-
-### Criptografar via _payload_  <a href="#criptografarvia-payload" id="criptografarvia-payload"></a>
-
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -133,7 +127,7 @@ Descriptografar via _fields_\
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -143,7 +137,7 @@ Descriptografar via _fields_\
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -155,13 +149,9 @@ Descriptografar via _fields_\
 }
 ```
 
-\
-
-
 ### Descriptografar via _payload_ <a href="#descriptografar-via-payload" id="descriptografar-via-payload"></a>
 
-\
-**Entrada**
+#### **Entrada** <a href="#descriptografar-via-payload" id="descriptografar-via-payload"></a>
 
 ```
 {
@@ -179,7 +169,7 @@ Descriptografar via _fields_\
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -189,7 +179,7 @@ Descriptografar via _fields_\
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
