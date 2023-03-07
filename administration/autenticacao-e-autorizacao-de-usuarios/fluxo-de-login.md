@@ -25,6 +25,10 @@ Depois de configurar sua senha de acesso, faça o login na Digibee Integration P
 Em alguns casos, a Digibee detecta seu _realm_ automaticamente. Neste caso, você só precisa inserir seu e-mail e senha.
 {% endhint %}
 
+{% hint style="warning" %}
+Logins com credenciais Digibee podem ser bloqueados pelos gestores de acesso do seu _realm_. Nesse caso, você deve [fazer login com um IdP](fluxo-de-login.md#\_crldaax16nm3). Você pode ler mais sobre isso em [nosso artigo Acessos via IdP](../integracao-de-provedor-de-identidades/acessos-via-idp.md).
+{% endhint %}
+
 ### Senha expirada <a href="#_do8r0fno659h" id="_do8r0fno659h"></a>
 
 Por razões de segurança, **a Digibee exige que seus usuários alterem suas senhas a cada 15 dias**. Se você tentar fazer login usando uma senha expirada, você será redirecionado para a tela de redefinição de senha.
