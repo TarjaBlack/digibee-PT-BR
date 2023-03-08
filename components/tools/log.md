@@ -6,9 +6,12 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 O **Log** permite criar registros de _logs_ dentro do fluxo de um _pipeline_. Ele auxilia na geração da rastreabilidade do passos quando você desejar.&#x20;
 
-Os _logs_ gerados ficam disponíveis no Dashboard -> Logs.
+Os _logs_ gerados ficam disponíveis em _**Pipeline Logs**_ em _Monitor_.
 
-Além disso, quando você está construindo um _pipeline_ e realiza testes na área _test-mode,_ os resultados ficam disponíveis também na aba LOGS, ao lado de MENSAGENS.\
+Além disso, quando você está construindo um _pipeline_ e realiza testes na área _Test mode,_ os resultados ficam disponíveis também na aba LOGS, ao lado de MENSAGENS.
+
+<figure><img src="../../.gitbook/assets/ezgif.com-gif-maker (1).gif" alt=""><figcaption></figcaption></figure>
+
 
 
 Dê uma olhada nos parâmetros de configuração do componente:
