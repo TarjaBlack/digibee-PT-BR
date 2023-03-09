@@ -85,7 +85,7 @@ Ao executar um componente SFTP utilizando as operações _download, upload_ ou _
 * **response:** JSON de resposta recebido do serviço gRPC
 * **success:** "true" se houve uma conexão e o _script_ foi executado mesmo se retornar erros no _stderr_
 
-**Saída com erro**
+### **Saída com erro**
 
 ```
 {  
