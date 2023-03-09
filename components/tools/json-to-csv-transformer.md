@@ -2,7 +2,7 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# JSON to CSV Transformer
+# JSON to CSV Transformer (Descontinuado)
 
 O **JSON to CSV Transformer** tem a função de receber um objeto em JSON e, a partir dele, gerar um _array_ contendo os dados para o CSV já formatado.
 
@@ -16,9 +16,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 O componente espera uma mensagem com a propriedade "data" no JSON. O valor dessa propriedade pode ser um _array_ ou um objeto. Veja a seguir um exemplo simples que demonstra a funcionalidade do _**JSON to CSV Transformer**_:
 
-### Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 Você precisa configurar um JSON de entrada em um _pipeline_ com o componente **JSON to CSV Transformer.** Após adicioná-lo ao _pipeline_, é preciso configurar os _headers_ como **product,price** ou o exemplo não vai funcionar.
 
@@ -37,7 +37,7 @@ Você precisa configurar um JSON de entrada em um _pipeline_ com o componente **
 }
 ```
 
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
 Com as configurações feitas conforme as especificações acima, o resultado será:
 
@@ -50,15 +50,15 @@ Com as configurações feitas conforme as especificações acima, o resultado se
 }
 ```
 
-### JSON to CSV Transformer em Ação <a href="#json-to-csv-transformer-em-ao" id="json-to-csv-transformer-em-ao"></a>
+## JSON to CSV Transformer em Ação <a href="#json-to-csv-transformer-em-ao" id="json-to-csv-transformer-em-ao"></a>
 
 Veja abaixo como o componente se comporta em determinada situação e a sua respectiva configuração.
 
-#### Informando um valor sendo objeto com a configuração "Coalesce: false" e "Fail On Error: false" <a href="#informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-false" id="informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-false"></a>
+### Informando um valor sendo objeto com a configuração "Coalesce: false" e "Fail On Error: false" <a href="#informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-false" id="informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-false"></a>
 
 Com as configurações indicadas, o JSON não será processado e o resultado será uma mensagem de erro e com a propriedade **success: false**
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -79,7 +79,7 @@ Com as configurações indicadas, o JSON não será processado e o resultado ser
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {   
@@ -88,11 +88,11 @@ Com as configurações indicadas, o JSON não será processado e o resultado ser
 }
 ```
 
-#### Informando um valor sendo objeto com a configuração "Coalesce: true" e "Fail On Error: false" <a href="#informando-um-valor-sendo-objeto-com-a-configurao-coalesce-true-e-fail-on-error-false" id="informando-um-valor-sendo-objeto-com-a-configurao-coalesce-true-e-fail-on-error-false"></a>
+### Informando um valor sendo objeto com a configuração "Coalesce: true" e "Fail On Error: false" <a href="#informando-um-valor-sendo-objeto-com-a-configurao-coalesce-true-e-fail-on-error-false" id="informando-um-valor-sendo-objeto-com-a-configurao-coalesce-true-e-fail-on-error-false"></a>
 
 Com as configurações indicadas, o JSON será processado e o resultado será um csv com o objeto tratado corretamente.
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -113,7 +113,7 @@ Com as configurações indicadas, o JSON será processado e o resultado será um
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -125,11 +125,11 @@ Com as configurações indicadas, o JSON será processado e o resultado será um
 }
 ```
 
-#### Informando um valor sendo objeto com a configuração "Coalesce: false" e "Fail On Error: true" <a href="#informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-true" id="informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-true"></a>
+### Informando um valor sendo objeto com a configuração "Coalesce: false" e "Fail On Error: true" <a href="#informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-true" id="informando-um-valor-sendo-objeto-com-a-configurao-coalesce-false-e-fail-on-error-true"></a>
 
 Com as configurações indicadas, o JSON não será processado e a execução será interrompida imediatamente.
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -150,7 +150,7 @@ Com as configurações indicadas, o JSON não será processado e a execução se
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
