@@ -27,8 +27,9 @@ KEY por ACCOUNT
 
 ### Operação ENCRYPT FIELDS <a href="#operao-encrypt-fields" id="operao-encrypt-fields"></a>
 
-**Entrada**
+#### **Entrada**
 
+{% code overflow="wrap" %}
 ```
 {
 "operation": "encrypt_fields",
@@ -36,10 +37,12 @@ KEY por ACCOUNT
 "padding": "OAEPWithSHA1AndMGF1Padding",
 "encryptedFields": "data,data1",
 "failOnError": true
+"key": "PoeK/VBTcUyRHFkmWYjckbhsRLnZur6S83lKZ78V51EL3KlDNnPJZkdz+m7joRfOxFuEqU=" //Informe o parâmetro Key se o Account não estiver configurado
 }
 ```
+{% endcode %}
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -48,7 +51,7 @@ KEY por ACCOUNT
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -60,7 +63,7 @@ KEY por ACCOUNT
 
 ### Operação DECRYPT FIELDS <a href="#operao-decrypt-fields" id="operao-decrypt-fields"></a>
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -72,7 +75,7 @@ KEY por ACCOUNT
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -81,7 +84,7 @@ KEY por ACCOUNT
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
