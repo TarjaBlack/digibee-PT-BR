@@ -2,7 +2,7 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# CSV to JSON V1
+# CSV to JSON V1 (Descontinuado)
 
 O **CSV to JSON V1** transforma um CSV em um objeto JSON.
 
@@ -13,9 +13,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **CSV Has Reader:** manter a opção ativada caso o CSV a ser transformado tenha _headers_ no início do _array_.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-### Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-#### Entrada <a href="#entrada" id="entrada"></a>
+### Entrada <a href="#entrada" id="entrada"></a>
 
 O componente espera uma mensagem com a propriedade. Você pode passar os dados CSV como um _array_ de _strings_:
 
@@ -33,7 +33,7 @@ ou passar os dados CSV como um _string_ único:
 }
 ```
 
-#### Saída <a href="#sada" id="sada"></a>
+### Saída <a href="#sada" id="sada"></a>
 
 ```
 {
