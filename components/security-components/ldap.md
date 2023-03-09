@@ -101,7 +101,7 @@ O _**LDAP**_ precisa de autenticação. Para isso, você deve criar uma conta co
 
 **IMPORTANTE**: o _username_ a ser utilizado no _account_ deve ser o campo "name" configurado no servidor LDAP.
 
-Para converter _Double Braces_, nós utilizamos especificações de JSON Path. Clique [aqui](https://github.com/json-path/JsonPath) para saber mais.
+Para converter _Double Braces_, nós utilizamos especificações de JSON Path. [Clique aqui para saber mais.](https://github.com/json-path/JsonPath)
 
 ## Fluxo de Mensagens <a href="#h_96698bc8c4" id="h_96698bc8c4"></a>
 
