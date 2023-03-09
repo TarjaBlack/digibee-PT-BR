@@ -91,7 +91,7 @@ headers: {
 
 Esse componente precisa da implementação do _pipeline_ para funcionar corretamente. [Consulte o artigo Implementação do Digibee JWT (Generate and Decode) para entender melhor o seu uso e aplicação.](https://docs.digibee.com/documentation/v/pt-br/components/security-components/digibee-jwt/implementacao-do-digibee-jwt)
 
-## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
+### Tecnologia <a href="#tecnologia" id="tecnologia"></a>
 
 Para entender melhor como o _token_ JWT \_\_ é gerado a partir desse componente, veja o exemplo a seguir.
 
@@ -152,4 +152,4 @@ O exemplo abaixo indica uma entrada de dados recomendável no JWT:
 
 
 
-Para mais informações, consulte a [documentação do JWT](https://jwt.io/).
+[Para mais informações, consulte a documentação do JWT.](https://jwt.io/)
