@@ -16,7 +16,7 @@ Para acessar os serviços, é necessário realizar o _login_ em um _pipeline_, q
 
 Sabia que você também pode utilizar o padrão dentro da Plataforma para garantir a segurança dos fluxos? Veja como.
 
-### Montando um _pipeline_ para fazer _login_ e construir o JWT <a href="#montando-um-pipeline-para-fazer-login-e-construir-o-jwt" id="montando-um-pipeline-para-fazer-login-e-construir-o-jwt"></a>
+## Montando um _pipeline_ para fazer _login_ e construir o JWT <a href="#montando-um-pipeline-para-fazer-login-e-construir-o-jwt" id="montando-um-pipeline-para-fazer-login-e-construir-o-jwt"></a>
 
 O primeiro passo é configurar o _trigger_ para _login_:
 
@@ -31,7 +31,7 @@ Com o _trigger_ configurado, você pode construir o fluxo utilizando os componen
 * selecione a _Operation_ _**GENERATE**_ para a criação do _token_;
 * nos campos _Scopes_ e _Expiration_, aplique as regras que melhor atendem o seu negócio.
 
-### **Utilizando o Assert** <a href="#utilizando-o-assert" id="utilizando-o-assert"></a>
+## **Utilizando o Assert** <a href="#utilizando-o-assert" id="utilizando-o-assert"></a>
 
 Para utilizar o componente _**Assert**_ para criar uma validação por usuário e senha pré-cadastrados na Plataforma, insira o seguinte código no campo CONDITION:
 
@@ -41,7 +41,7 @@ Para utilizar o componente _**Assert**_ para criar uma validação por usuário 
 
 **IMPORTANTE :** a geração do _token_ JWT não é feita em _TEST-MODE_. Isso só é possível quando o _pipeline_ é publicado em algum dos ambientes (TEST ou PROD).
 
-### Chamando o _pipeline_ para o _login_ <a href="#chamando-o-pipeline-para-o-login" id="chamando-o-pipeline-para-o-login"></a>
+## Chamando o _pipeline_ para o _login_ <a href="#chamando-o-pipeline-para-o-login" id="chamando-o-pipeline-para-o-login"></a>
 
 Depois que você terminar as configurações, é necessário implantar o _pipeline_ no seu devido ambiente de teste ou produção para poder testar o fluxo. Se você tiver alguma dúvida mais específica sobre implantação de _pipelines_ na Plataforma, [clique aqui para ler o nosso artigo sobre o assunto.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines)
 
@@ -62,7 +62,7 @@ Ao realizar essa chamada, o serviço retorna o _status_ de sucesso:
 
 Busque a informação necessária nos _headers_ da resposta, no campo _Authorization_ - essa é a autenticação, ou seja, o JWT gerado que será utilizado em combinação com a API Key para outros fluxos que utilizam os _triggers_ de API REST e HTTP.
 
-### Configurando o _trigger_ para os fluxos com a nova autenticação como chave <a href="#configurando-o-trigger-para-os-fluxos-com-a-nova-autenticao-como-chave" id="configurando-o-trigger-para-os-fluxos-com-a-nova-autenticao-como-chave"></a>
+## Configurando o _trigger_ para os fluxos com a nova autenticação como chave <a href="#configurando-o-trigger-para-os-fluxos-com-a-nova-autenticao-como-chave" id="configurando-o-trigger-para-os-fluxos-com-a-nova-autenticao-como-chave"></a>
 
 Comece fazendo configurações necessárias no _trigger_. Para isso, ative as opções _ExternalAPI_, _API Key_ e _Token JWT._ Dessa maneira, sempre que as rotas forem chamadas, será preciso informar a _API Key_ e o _token_ JWT gerados.
 
