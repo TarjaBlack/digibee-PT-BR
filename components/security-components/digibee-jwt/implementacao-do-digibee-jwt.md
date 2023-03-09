@@ -39,7 +39,9 @@ Para utilizar o componente _**Assert**_ para criar uma validação por usuário 
 #{body.user} == #{globals.user} && #{body.password} == #{globals.password}
 ```
 
+{% hint style="info" %}
 **IMPORTANTE :** a geração do _token_ JWT não é feita em _TEST-MODE_. Isso só é possível quando o _pipeline_ é publicado em algum dos ambientes (TEST ou PROD).
+{% endhint %}
 
 ## Chamando o _pipeline_ para o _login_ <a href="#chamando-o-pipeline-para-o-login" id="chamando-o-pipeline-para-o-login"></a>
 
