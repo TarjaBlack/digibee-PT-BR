@@ -14,7 +14,7 @@ A confirmação de cada mensagem recebida pelo _trigger_ acontece de forma autom
 
 **2. Acknowledge manual**
 
-Cada mensagem recebida pelo _trigger_ permanece em "unchecked", um estado de não confirmação, enquanto estiverem sendo processadas pelo _pipeline_. No _acknowledge_ manual, o _broker_ RabbitMQ entende que a mensagem está pendente e, caso haja qualquer problema na infraestrutura do _trigger_ ou o _pipeline_ responda com erro, a mensagem em questão pode ser reprocessada. O número de _consumers_ configurados para o _pipeline_ dita quantas mensagens podem ser processadas ao mesmo tempo. Para isso, o tamanho de _prefetch_ do RabbitMQ é configurado com o mesmo valor de _consumers_ do _pipeline_.
+Cada mensagem recebida pelo _trigger_ permanece em _"unchecked"_, um estado de não confirmação, enquanto estiverem sendo processadas pelo _pipeline_. No _acknowledge_ manual, o _broker_ RabbitMQ entende que a mensagem está pendente e, caso haja qualquer problema na infraestrutura do _trigger_ ou o _pipeline_ responda com erro, a mensagem em questão pode ser reprocessada. O número de _consumers_ configurados para o _pipeline_ dita quantas mensagens podem ser processadas ao mesmo tempo. Para isso, o tamanho de _prefetch_ do RabbitMQ é configurado com o mesmo valor de _consumers_ do _pipeline_.
 
 Dê uma olhada nos parâmetros de configuração desse _trigger_:
 
