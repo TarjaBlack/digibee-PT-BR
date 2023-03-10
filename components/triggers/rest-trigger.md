@@ -110,7 +110,7 @@ Como explicado anteriormente, esta opção é recomendada para remover o prefixo
 
 Digamos que você tenha criado um _pipeline_ e definido o _trigger_ da seguinte forma:
 
-<figure><img src="../../.gitbook/assets/Doc update triggers Remove Digibee Prefix mar 2023 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Doc update triggers Remove Digibee Prefix mar 2023 (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Com as configurações aplicadas e o pipeline implantado, você terá uma nova URL:
 

@@ -107,11 +107,11 @@ Para utilizar esse valor enviado pela rota dentro do _pipeline_, recorra à sint
 
 ## Remove Digibee Prefix from Route
 
-Como explicado anteriormente, esta opção é recomendada para remover o prefixo de rota padrão Digibee da rota do pipeline.
+Como explicado anteriormente, esta opção é recomendada para remover o prefixo de rota padrão Digibee da rota do _pipeline_.
 
-Digamos que você tenha criado um pipeline e definido o trigger da seguinte forma:
+Digamos que você tenha criado um _pipeline_ e definido o _trigger_ da seguinte forma:
 
-<figure><img src="../../.gitbook/assets/Doc update triggers Remove Digibee Prefix mar 2023 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Doc update triggers Remove Digibee Prefix mar 2023 (2).png" alt=""><figcaption></figcaption></figure>
 
 Com as configurações aplicadas e o _pipeline_ implantado, você terá uma nova URL:
 
