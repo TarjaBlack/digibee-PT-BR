@@ -21,11 +21,11 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 }
 ```
 
-* **Response Headers:** _headers_ a serem retornados pelo _endpoint_ quando o processamento no _pipeline_ terminar. Esse parâmetro não pode ser deixado vazio e aceita _Double Braces_. Caracteres especiais não devem ser utilizados nas chaves, por conta de possiveis falhas em _proxys_ e _gateways_.
+* **Response Headers:** _headers_ a serem retornados pelo _endpoint_ quando o processamento no _pipeline_ terminar. Esse parâmetro não pode ser deixado vazio e aceita _Double Braces_. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
 * **Add Cross-Origin Resource Sharing (CORS) - CORS Headers:** adicione os _CORS_ _headers_ a serem retornados pelo _endpoint_ quando o processamento no _pipeline_ terminar. O _Cross-Origin Resource Sharing (CORS)_ é um mecanismo que permite informar ao navegador quais origens tem a permissão para fazer requisições. Este parâmetro define o CORS especificamente ao _pipeline_ e suas restrições. Para configurar de forma global ao invés de individualmente em cada _pipeline,_ consulte o artigo [CORS Global](configuracoes-de-triggers/configuracao-global-de-cors.md).&#x20;
 
 {% hint style="info" %}
-**IMPORTANTE:** utilizamos vírgula para informar multiplos valores em um _header_, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possiveis falhas em _proxys_ e _gateways_.
+**IMPORTANTE:** utilizamos vírgula para informar múltiplos valores em um _header_, mas não adicionamos espaço antes ou após a vírgula. Caracteres especiais não devem ser utilizados nas chaves, por conta de possíveis falhas em _proxys_ e _gateways_.
 {% endhint %}
 
 * **External API:** se a opção estiver ativada, a API é publicada em um _gateway_ externo.
