@@ -8,34 +8,27 @@ O **Symmetric Cryptography** criptografa e descriptografa com base em criptograf
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-* **Crypto Operation:** tipos de operação disponíveis - ENCRYPT e DECRYPT.
-* **Account:** conta a ser utilizada pelo componente.
+* **Crypto Operation:** tipos de operação disponíveis - _ENCRYPT_ e _DECRYPT_.
+* **Account:** conta que será utilizada pelo componente. É esperada uma conta _PRIVATE-KEY_. O tamanho configurado no parâmetro **Algorithm Key Size** deve corresponder ao tamanho do algoritmo _PRIVATE-KEY_. Do contrário, uma mensagem de erro será retornada.
 * **Fields To Encrypt/Decrypt:** campos a serem encriptados/decriptados utilizando uma notação com pontos (ex.: body.field1,body.field2,body).
 * **Algorithm:** algoritmo a ser utilizado para criptografar/descriptografar dados.
-* **Algorithm Key Size:** tamanho da chave do algoritmo.
+* **Algorithm Key Size:** tamanho da chave do algoritmo. Como citado anteriormente, o tamanho configurado neste parâmetro deve corresponder ao tamanho do algoritmo _PRIVATE-KEY._
 * **Operation Mode:** modo de operação a ser utilizado.
 * **Padding:** utilizado em um bloco de cifra no qual os blocos são preenchidos com _bytes_ de _padding_ (ex.: AES 128 bits utiliza 16 _bytes_ de _padding_).
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"._
 * **Advanced Settings:** configurações avançadas.
-* **Use IV:** se selecionada, a opção determina o IV (vetor de inicialização) para o modo CBC.
+* **Use IV:** essa opção é válida somente para a operação _ENCRYPT_. Se selecionada, a opção determina o IV (vetor de inicialização) para o modo CBC.
 * **Use Your Own Key:** se selecionada, a opção utilizará a sua própria chave gerada para criptografar e descriptografar dados.
 * **Encryption Key As Hex Value:** se selecionada, a opção espera/produz uma Encryption Key as Hex; do contrário, será esperada/produzida como base64.
-* **Concatenate IV:** uma mensagem encriptada é esperada/produzida com o Concatenate IV (IV+MESSAGE); do contrário, um parâmetro IV será produzido durante a encriptação e IV em IV será esperado no campo "Decryption".
+* **Concatenate IV:** uma mensagem encriptada é esperada/produzida com o Concatenate IV (IV+MESSAGE); do contrário, um parâmetro IV será produzido durante a encriptação e IV em IV será esperado no campo _"Decryption"_.
+* **IV as Hex Value:** esta opção não é disponível se **Concatenate IV** estiver habilitado. Se for selecionada, a opção espera/produz um parâmetro IV em formato Hex; do contrário, será esperada/produzida como base64.
 * **Encrypted Message As Hex:** se selecionada, a opção espera/produz uma mensagem encriptada em formato Hex; do contrário, será esperada/produzida como base64.
-
-**IMPORTANTE:** se você deseja utilizar a sua própria chave por conta, então será necessário configurar uma conta SECRET-KEY ou passar a respectiva propriedade. Você pode especificá-la por uma solicitação, conforme o modelo abaixo:
-
-```
-{    "encryptionKey": "-- THE FOLLOWING KEY--"}
-```
 
 ## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-* **KEY por ACCOUNT**
+### **KEY por ACCOUNT - Operação ENCRYPT**
 
-### Operação ENCRYPT <a href="#operao-encrypt" id="operao-encrypt"></a>
-
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -52,7 +45,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -62,7 +55,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -71,7 +64,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -88,7 +81,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -98,7 +91,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -108,11 +101,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-* **KEY por REQUEST BODY**
+### **KEY por REQUEST BODY - Operação ENCRYPT**
 
-### Operação ENCRYPT <a href="#operao-encrypt" id="operao-encrypt"></a>
-
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -129,7 +120,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
@@ -139,7 +130,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -148,7 +139,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -165,7 +156,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 }
 ```
 
-**Payload**
+#### **Payload**
 
 ```
 {
