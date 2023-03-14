@@ -60,7 +60,7 @@ O que você deve fazer é:
 
 Ao realizar essa chamada, o serviço retorna o _status_ de sucesso:
 
-![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 Busque a informação necessária nos _headers_ da resposta, no campo _Authorization_ - essa é a autenticação, ou seja, o JWT gerado que será utilizado em combinação com a API Key para outros fluxos que utilizam os _triggers_ de API REST e HTTP.
 

@@ -64,7 +64,7 @@ Outro modelo que usa a arquitetura orientada a eventos é o modelo assíncrono. 
 
 **O quarto pipeline** é inscrito nos eventos de erro que foram enviados pelos três pipelines anteriores. Depois de receber esses eventos de erro, ele os armazena em um banco de dados e envia esses registros a uma ferramenta de ITSM ou por email.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Modelo assíncrono</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>Modelo assíncrono</strong></p></figcaption></figure>
 
 {% hint style="success" %}
 Use o modelo assíncrono para integrações que:&#x20;

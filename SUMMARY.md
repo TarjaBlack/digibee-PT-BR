@@ -300,4 +300,4 @@
 
 * [Modelo baseado em subscription](licenciamento/modelo-baseado-em-subscription.md)
 * [Limites de uso](licenciamento/limites-de-uso.md)
-* [Meu consumo](licenciamento/meu-consumo.md)
+* [Consumo de licenças](licenciamento/consumo-de-licencas.md)

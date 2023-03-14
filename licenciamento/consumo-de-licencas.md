@@ -4,13 +4,13 @@ description: >-
   subscriptions e RTUs.
 ---
 
-# Meu consumo
+# Consumo de licenças
 
 Na página "Meu consumo", você pode verificar facilmente o consumo de [_pipeline subscriptions_ e _RTUs (Runtime Units)_](https://docs.digibee.com/documentation/v/pt-br/geral/modelo-baseado-em-subscription) disponíveis em seu _realm_, bem como as características de tal consumo de forma detalhada.
 
-Em Configurações no canto superior direito, acesse "Meu consumo" sob o menu Licenciamento no painel esquerdo para visualizar o consumo em seu realm. Para ter acesso a esta página, você precisa ter a permissão **license-viewer** concedida à sua conta de usuário ou a um grupo ao qual você pertence.
+Em Configurações no canto superior direito, acesse "Consumo de licenças" sob o menu Licenciamento no painel esquerdo para visualizar o consumo em seu realm. Para ter acesso a esta página, você precisa ter a permissão **license-viewer** concedida à sua conta de usuário ou a um grupo ao qual você pertence.
 
-<figure><img src="https://lh5.googleusercontent.com/t1vqrrqhq8goF_yfFiOtIzlqWjowxKUKYDAYAkHeXeQLh4Hki-x-2OcmKYMMEeYZUl8SyinqFDEpcwlETww1ZAEQHImczX6QZUa-JPHvkjs5nMA23ZCnzmt3mNsnHTjX-naJuwcJYkXeIsv4mXF99ynR2yIzN1hQOb_kByGytR4zqZQdO3svQzhRZvWibw" alt=""><figcaption><p>Visualização da página "Meu consumo" toda</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Visualização da página "Meu consumo" toda</p></figcaption></figure>
 
 ## Painel de consumo
 
@@ -20,15 +20,15 @@ Nesta seção você pode selecionar o ambiente que deseja ver o consumo, clicand
 
 ## Listagem de consumo
 
-<figure><img src="https://lh3.googleusercontent.com/MTCx3Snwr_a2VlnUmpAHyKw0foY8nbk2v3axz07N7W9YPhWX_LO2bvrwzKhU_pJEgr19Pr2K1jzn4n6oc6SYDKt_Pm1TCxnjgugs3UakteYZ4RkSLWa_DTfwL3o5r8XPCfBcwI-ihaRst5po1xaDOtotrU_fsTED3EdOqH7g8vdZQOWIlGIeXLsU2rJIRQ" alt=""><figcaption><p>Barra de opções de projeto para obter listagem detalhada</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Barra de opções de projeto para obter listagem detalhada</p></figcaption></figure>
 
-Você pode pesquisar qual projeto deseja visualizar o consumo. Clique na barra de opções para selecionar qual projeto deseja visualizar e clique no botão "Search" para obter os detalhes.
+Você pode pesquisar qual projeto deseja visualizar o consumo. Clique na barra de opções para selecionar qual projeto deseja visualizar e clique no botão "Pesquisar" para obter os detalhes.
 
-<figure><img src="https://lh5.googleusercontent.com/9hvOdhLSlVRUGrC73DOwspaNp0JMZuKiunfxRSnHqVGNk0aZ2biM34oZedvin_ydBka6YWlp4fcw-0yGA51cxhFQSAkcWigOTLGw-ZcL7muXpuxH5XPv6x5K54aab5c_0in3Q_TgxC5XStA0CaFi-Q_38MWr8K8YdsYePG-FQeaLqZofTPuyggwJlfO0rg" alt=""><figcaption><p>Listagem detalhada de consumo para um dado projeto do <em>realm</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Listagem detalhada de consumo para um dado projeto do <em>realm</em></p></figcaption></figure>
 
 Como resultado, você obterá uma lista detalhada desse consumo: projeto, ambiente, _pipeline_, _trigger_, tamanho da implantação, _RTUs_ e réplicas. Se você passar o mouse sobre um item, uma descrição completa do projeto será fornecida.
 
-Você também pode exportar a lista de consumo para um arquivo CSV clicando no botão "Export".
+Você também pode exportar a lista de consumo para um arquivo CSV clicando no botão "Exportar".
 
 ## Lista de contatos
 
