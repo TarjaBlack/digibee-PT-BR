@@ -88,4 +88,8 @@ As _globals_ podem ser utilizadas das seguintes maneiras:
 
 O _Intellisense_ detecta automaticamente os campos que podem utilizar _globals_ como parâmetro e as exibirá ao lado da configuração do componente, bastando clicar na global desejada.
 
-Também é possível fazer referência à _global_ diretamente pela sua expressão. Basta digitar **\{{global.nomeDaGlobal\}}** substituindo pelo nome da _global_ desejada.
+Também é possível fazer referência à _global_ diretamente pela sua expressão no campo _Database URL_. Basta digitar **\{{global.globalCampo\}}** e após o ponto, substituir o **globalCampo** na expressão pelo nome da _global_ desejada, referenciada como **Campo** nas informações de configuração da _Global_.
+
+Veja o exemplo a seguir:
+
+<figure><img src="../.gitbook/assets/globals.jpg" alt=""><figcaption></figcaption></figure>
