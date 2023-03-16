@@ -8,18 +8,35 @@ description: >-
 
 Você pode acessar bancos de dados usando componentes específicos, tais como:
 
-* DB ([V2](../components/structured-data/db-v2.md))
-* Stream DB ([V3](../components/structured-data/stream-db-v3.md))
+* [DB V2](../components/structured-data/db-v2.md)
+* [Stream DB V3](../components/structured-data/stream-db-v3.md)
 * [Stored Procedure](../components/structured-data/stored-procedure.md)
 
-É importante destacar que o suporte não inclui versões descontinuadas de componentes, e que o uso dessas versões não é recomendado:
+O suporte aos bancos de dados mencionados aqui não se aplicam a versões descontinuadas de componentes. Recomendamos que você não use componentes descontinuados. Alguns exemplos de componentes descontinuados são:
 
-* Stream DB ([V1](../components/structured-data/stream-db-v1.md))
-* DB ([V1](../components/structured-data/db-v1.md))
+* [Stream DB V1](../components/structured-data/stream-db-v1.md)
+* [DB V1](../components/structured-data/db-v1.md)
 
 Se quiser saber mais sobre os componentes acima, basta clicar em cima dos seus nomes ou das suas versões para ler os respectivos artigos.
 
 Atualmente a Digibee Integration Platform suporta os seguintes bancos de dados:
+
+## DB2
+
+A Digibee Integration Platform oferece suporte ao _driver_ JDBC IBM DB2 e cobre as seguintes versões:
+
+* Versão do DB2 level: 11.5
+* Versão do _driver_: 4.26.14
+
+**String de conexão**&#x20;
+
+```
+jdbc:db2://127.0.0.1:1724/dbtest
+```
+
+{% hint style="info" %}
+**IMPORTANTE:** as funcionalidades disponibilizadas são baseadas na [documentação oficial](https://www.ibm.com/support/pages/db2-jdbc-driver-versions-and-downloads) do DB2. O _driver_ licenciado pela sua empresa junto a IBM deve ser ativado para se conectar às versões suportadas dos bancos de dados. Este processo é tratado pelo time de suporte da Digibee, mas você deve fornecer o _driver_ JDBC IBM DB2 para ativação. Este processo é exclusivo ao _realm_ do cliente solicitante.
+{% endhint %}
 
 ## Apache Hive
 
@@ -35,7 +52,7 @@ A plataforma Digibee oferece suporte para o Apache Hive somente via JDBC Connect
 ```
 
 {% hint style="info" %}
-​​​​​​​**IMPORTANTE:** as funcionalidades disponibilizadas são baseadas na [documentação oficial](https://docs.cloudera.com/documentation/other/connectors/hive-jdbc/2-6-17.html) do _driver_ JDBC Cloudera. Embora a conexão através das versões citadas acima seja suportada, é necessária a ativação do _driver_ licenciado pela sua empresa junto a Cloudera. Este procedimento será feito por meio do suporte da Digibee, onde será necessário que o cliente forneça o _driver_ JDBC Cloudera a ser utilizado na operação exclusivamente em seu _realm_.
+​​​​​​​**IMPORTANTE:** as funcionalidades disponibilizadas são baseadas na [documentação oficial](https://docs.cloudera.com/documentation/other/connectors/hive-jdbc/2-6-17.html) do _driver_ JDBC Cloudera. O _driver_ licenciado pela sua empresa junto a Cloudera deve ser ativado para se conectar às versões suportadas dos bancos de dados. Este processo é tratado pelo time de suporte da Digibee, mas você deve fornecer o _driver_ JDBC Cloudera para ativação. Este processo é exclusivo ao _realm_ do cliente solicitante.
 {% endhint %}
 
 ## Teradata Database
@@ -51,7 +68,7 @@ jdbc:teradata://192.168.64.2/DATABASE=DBC,DBS_PORT=1025
 ```
 
 {% hint style="info" %}
-**IMPORTANTE:** embora a conexão através das versões citadas acima seja suportada, é necessária a ativação do _driver_ licenciado pela sua empresa junto à Teradata. Este procedimento será feito por meio do suporte da Digibee, onde será necessário que o cliente forneça o _driver_ JDBC Teradata a ser utilizado na operação exclusivamente em seu _realm_.
+**IMPORTANTE:** o _driver_ licenciado pela sua empresa junto à Teradata deve ser ativado para se conectar às versões suportadas dos bancos de dados. Este processo é tratado pelo time de suporte da Digibee, mas você deve fornecer o _driver_ JDBC Teradata para ativação. Este processo é exclusivo ao _realm_ do cliente solicitante.
 {% endhint %}
 
 ## SQL Server <a href="#sql-server" id="sql-server"></a>
