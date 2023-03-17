@@ -30,7 +30,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **JWS:** campo para informar o _token_ JWS.
 * **Payload Charset**: _charset_ do _payload_ utilizado na criação de _tokens_ JWE. Valor padrão: UTF-8
 * **Payload**: _payload_ que será utilizado na criação do _token_ JWE.
-* **Use JWK:** se a opção estiver habilitada, um JWK é esperado para verificar o _token_ JWT. Esta opção está disponível apenas se _Verify JWS_ estiver selecionada no parâmetro **Operation**. O **Use JWK** também irá desabilitar todas as opções de conta (parâmetros **Secret Key, Private Key** e **Public Key**), além dos parâmetros **Key Charset, Key as Base64** e **JWS Algorithm**.
+* **Use JWK:** se a opção estiver habilitada, um JWK é esperado para verificar o _token_ JWT. Esta opção está disponível apenas se _Verify JWS_ estiver selecionada no parâmetro **Operation**. O **Use JWK** também desabilita todas as opções de conta (parâmetros **Secret Key, Private Key** e **Public Key**), além dos parâmetros **Key Charset, Key as Base64** e **JWS Algorithm**.
 * **JWK:** JWK que será utilizado para verificar o _token_ JWS.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
