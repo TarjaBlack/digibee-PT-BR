@@ -18,13 +18,13 @@ Depois, escolha um pipeline na barra de busca e selecione o período desejado pa
 
 ### Execuções de pipeline por segundo (eps)
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 Esse gráfico mostra o número médio de execuções por segundo, em diversos intervalos de tempo durante o período de tempo selecionado, para todas as réplicas.
 
 ### Tempo de resposta do pipeline (ms)
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Esse gráfico mostra o tempo médio (em milissegundos) decorridos para que o pipeline gerasse uma resposta, em diversos intervalos de tempo durante o período de tempo selecionado, para todas as réplicas.
 
