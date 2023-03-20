@@ -4,6 +4,7 @@
   * [Visão Geral do Layout da Plataforma](master/visao-geral-do-layout-da-plataforma.md)
 * [Release notes](release-notes/README.md)
   * [Release notes 2023](release-notes/release-notes-2023/README.md)
+    * [Março](release-notes/release-notes-2023/marco.md)
     * [Fevereiro](release-notes/release-notes-2023/fevereiro.md)
     * [Janeiro](release-notes/release-notes-2023/janeiro.md)
   * [Release notes 2022](release-notes/release-notes-2022/README.md)
@@ -66,7 +67,7 @@
 
 ## Run
 
-* [Visão Geral de Run](run/visao-geral.md)
+* [Visão geral de Run](run/visao-geral.md)
 * [Conceitos de Run](run/runtime.md)
 * [Implantação de um pipeline](run/deployments.md)
 * [Status de implantação do pipeline](run/status-de-implantacao-do-pipeline.md)
