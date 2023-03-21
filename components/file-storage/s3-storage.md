@@ -6,36 +6,39 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 
 
-O _**S3 Storage**_ se conecta ao AWS S3 Storage e realiza as seguintes operações no _storage_: _list_, _download_, _upload_, _delete_ ou _move_.
+O _**S3 Storage**_ se conecta ao AWS S3 Storage e realiza as seguintes operações no _storage_: _List, Download, Upload, Delete_ ou _Move_.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-* **Account:** conta a ser utilizada pelo componente - obrigatório, o tipo de _account_ deve ser BASIC. É necessário especificar o ID do cliente e a chave secreta fornecida pelo console da AWS.
-* **Operation:** operação a ser executada (_list_, _download_, _upload_, _delete_ ou _move_).
+* **Account:** conta a ser utilizada pelo componente - obrigatório, o tipo de _account_ deve ser BASIC. É necessário especificar o ID do cliente e a _secret key_ fornecida pelo console da AWS.
+* **Operation:** operação a ser executada (_List, Download, Upload, Delete_ ou _Move_).
 * **Region:** região onde o S3 está localizado.
 * **Bucket Name:** nome do Bucket S3.
-* **Bucket Name - Move:** somente para operação MOVE. Nome do _bucket_ do qual será movido o arquivo.
-* **File Name:** nome do arquivo local a passar por _download_ ou _upload_ (a função _delete_ não se aplica).
-* **Remote File Name:** nome do arquivo do Google a passar por _download_, _upload_, _list_ ou _delete_.
-* **Remote File Name - Move:** somente para operação MOVE. Novo nome do arquivo remoto após ser movido.
-* **Remote Directory:** diretório remoto do Google Storage a passar por _download_, _upload_ ou _delete_.
-* **Remote Directory - Move:** somente para operação MOVE. Nome do diretório remoto cujo o arquivo será movido.
+* **Bucket Name - Move:** somente para operação _Move_. Nome do _bucket_ do qual será movido o arquivo.
+* **File Name:** nome do arquivo local a passar por _download_ ou _upload_ (a função _Delete_ não se aplica).
+* **Remote File Name:** nome do arquivo do Google a passar por _Download_, _Upload_, _List_ ou _Delete_.
+* **Remote File Name - Move:** somente para operação _Move_. Novo nome do arquivo remoto após ser movido.
+* **Remote Directory:** diretório remoto do Google Storage a passar por _Download_, _Upload_ ou _Delete_.
+* **Remote Directory - Move:** somente para operação _Move_. Nome do diretório remoto cujo o arquivo será movido.
 * **Generate Download Link:** quando selecionada, a opção gera um _link_ público para _download_ do arquivo.
 * **Expiration Timestamp (in ms):** tempo para expiração do link (em milissegundos). Nesse campo devem ser passados o _timestamp_ atual + o _timestamp_ de expiração. Exemplo: TIMESTAMP ATUAL + 600000 (600000 = 10 minutos informados em milisegundos). Caso o valor não seja informado, será assumido o valor padrão de 15 minutos após _timestamp_ corrente.
-* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
-* **Custom Endpoint:** Se esta opção estiver ativada, você pode inserir um _endpoint_ customizado via URL no _pipeline_. Se esta opção estiver desativada, a URL não poderá ser inserida. Para que a URL seja inserida, é necessário adicioná-la no campo _"Endpoint URL",_ localizado abaixo do parâmetro. Este campo aceita expressões Double Braces.
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
+* **Custom Endpoint:** Se esta opção estiver ativada, você pode inserir um _endpoint_ customizado via URL no _pipeline_. Se esta opção estiver desativada, a URL não poderá ser inserida.&#x20;
+* **Endpoint URL:** a URL do _endpoint_ customizado. Este campo aceita expressões _Double Braces_.
 
+{% hint style="info" %}
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
+{% endhint %}
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-### **Entrada** <a href="#entrada" id="entrada"></a>
+## **Entrada** <a href="#entrada" id="entrada"></a>
 
 Será necessário passar alguma mensagem de entrada apenas se o componente tenha algum campo configurado com expressões em _Double Braces_. Do contrário, o componente não espera nenhuma mensagem de entrada específica - basta configurar os campos exibidos em cada operação selecionada.
 
-### **Saída** <a href="#sada" id="sada"></a>
+## **Saída** <a href="#sada" id="sada"></a>
 
-**Cenário da operação LIST**
+### **Cenário da operação LIST**
 
 ```
 {
@@ -52,27 +55,19 @@ Será necessário passar alguma mensagem de entrada apenas se o componente tenha
 }
 ```
 
-* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”
-* **content:** _array_ contendo informações do arquivo
+* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”.
+* **content:** _array_ contendo informações do arquivo.
+* **bucketName:** nome do _bucket._
+* **key:** nome do diretório + nome do arquivo.
+* **size:** tamanho do arquivo.
+* **lastModified:** data da última modificação do arquivo.
+* **storageClass:** tipo do armazenamento configurado no S3.
+* **owner:** nome do proprietário do arquivo.
+* **etag:** _entity tag_, um _hash_ gerado pelo S3 do arquivo.
+* **count:** número de objetos retornados.
+* **nextToken:** se houver mais de um objeto a ser listado, essa propriedade é exibida para que ocorra a paginação dos itens remanescentes.
 
-**- bucketName:** nome do _bucket_
-
-**- key:** nome do diretório + nome do arquivo
-
-**- size:** tamanho do arquivo
-
-**- lastModified:** data da última modificação do arquivo
-
-**- storageClass:** tipo do armazenamento configurado no S3
-
-**- owner:** nome do proprietário do arquivo
-
-**- etag:** _entity tag_, um _hash_ gerado pelo S3 do arquivo
-
-* **count:** número de objetos retornados
-* **nextToken:** se houver mais de um objeto a ser listado, essa propriedade é exibida para que ocorra a paginação dos itens remanescentes
-
-**Cenário da operação DOWNLOAD**
+### **Cenário da operação DOWNLOAD**
 
 ```
 {
@@ -84,13 +79,13 @@ Será necessário passar alguma mensagem de entrada apenas se o componente tenha
 }
 ```
 
-* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”
-* **fileName:** nome do arquivo baixado no diretório do _pipeline_
-* **remoteDirectory:** nome do diretório remoto do S3
-* **remoteFileName:** nome do arquivo remoto baixado do S3
-* **bucketName:** nome do _bucket_ do S3
+* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”.
+* **fileName:** nome do arquivo baixado no diretório do _pipeline._
+* **remoteDirectory:** nome do diretório remoto do S3.
+* **remoteFileName:** nome do arquivo remoto baixado do S3.
+* **bucketName:** nome do _bucket_ do S3.
 
-**Cenário da operação UPLOAD**
+### **Cenário da operação UPLOAD**
 
 ```
 {
@@ -103,14 +98,14 @@ Será necessário passar alguma mensagem de entrada apenas se o componente tenha
 }
 ```
 
-* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”
-* **fileName:** nome do arquivo no diretório do _pipeline_
-* **remoteDirectory:** nome do diretório remoto do S3
-* **remoteFileName:** nome do arquivo remoto do S3 do qual foi feito _upload_
-* **bucketName**: nome do _bucket_ do S3
-* **urlGenerated:** link de _download_ do arquivo caso a opção _**Generate Download Link**_** ** esteja habilitada
+* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”.
+* **fileName:** nome do arquivo no diretório do _pipeline._
+* **remoteDirectory:** nome do diretório remoto do S3.
+* **remoteFileName:** nome do arquivo remoto do S3 do qual foi feito _upload._
+* **bucketName**: nome do _bucket_ do S3.
+* **urlGenerated:** link de _download_ do arquivo caso a opção **Generate Download Link** esteja habilitada.
 
-**Cenário da operação MOVE**
+### **Cenário da operação MOVE**
 
 ```
 {
@@ -123,15 +118,15 @@ Será necessário passar alguma mensagem de entrada apenas se o componente tenha
 }
 ```
 
-* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”
-* **remoteDirectory:** nome do diretório remoto do S3
-* **remoteFileName:** nome do arquivo remoto movido do S3
-* **bucketName:** nome do _bucket_ do S3
-* **bucketNameMove:** nome do _bucket_ do arquivo movido
-* **remoteDirectoryMove:** nome do diretório remoto do arquivo foi movido
-* **remoteFileNameMove:** novo nome do arquivo remoto a ser movido
+* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”.
+* **remoteDirectory:** nome do diretório remoto do S3.
+* **remoteFileName:** nome do arquivo remoto movido do S3.
+* **bucketName:** nome do _bucket_ do S3.
+* **bucketNameMove:** nome do _bucket_ do arquivo movido.
+* **remoteDirectoryMove:** nome do diretório remoto do arquivo foi movido.
+* **remoteFileNameMove:** novo nome do arquivo remoto a ser movido.
 
-**Cenário da operação DELETE**
+### **Cenário da operação DELETE**
 
 ```
 {
@@ -142,11 +137,11 @@ Será necessário passar alguma mensagem de entrada apenas se o componente tenha
 }
 ```
 
-* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”
-* **remoteDirectory:** nome do diretório remoto do S3
-* **remoteFileName:** nome do arquivo remoto deletado do S3
+* **success:** caso a chamada ocorra com sucesso, o resultado será “true”; do contrário, será “false”.
+* **remoteDirectory:** nome do diretório remoto do S3.
+* **remoteFileName:** nome do arquivo remoto deletado do S3.
 
-**Saída com erro**
+### **Saída com erro**
 
 ```
 {
@@ -156,6 +151,6 @@ Será necessário passar alguma mensagem de entrada apenas se o componente tenha
 }
 ```
 
-* **success:** “false”, pois ocorreu um erro na execução
-* **message:** mensagem de erro do componente
-* **error:** mensagem de erro recebida do servidor S3
+* **success:** “false”, pois ocorreu um erro na execução.
+* **message:** mensagem de erro do componente.
+* **error:** mensagem de erro recebida do servidor S3.
