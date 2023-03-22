@@ -20,7 +20,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 O componente não espera uma mensagem de entrada específica, apenas o preenchimento do parâmetro de configuração **XML Field Path** __ referenciando o caminho do campo a ser transformado. Esse campo deve existir na mensagem do passo anterior à execução do _**XML to JSON Transformer**._
 
-#### Saída <a href="#h_9af5c58cea" id="h_9af5c58cea"></a>
+### Saída <a href="#h_9af5c58cea" id="h_9af5c58cea"></a>
 
 A estrutura será igual a da recebida do passo anterior do fluxo, porém os campos informados no parâmetro **XML Field Path** __ serão transformados em sua representação de objeto JSON. Em caso de erro, a propriedade "error" será criada no mesmo nível da propriedade original.
 
