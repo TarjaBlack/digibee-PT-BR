@@ -53,7 +53,7 @@ Conforme explicado anteriormente, é possível definir um _subpipeline_ para tra
 
 ![](<../../../.gitbook/assets/for each1.png>)
 
-[Clique aqui para entender melhor o funcionamento dos _subpipelines_.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/subpipelines)
+[Leia o artigo _subpipelines_ para entender melhor o funcionamento. ](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/subpipelines)
 
 {% hint style="info" %}
 **IMPORTANTE:** Não é possível interromper a execução de todo o loop For Each. A interrupção pode ser feita apenas na iteração atual, através de componentes que possuam o parâmetro “Fail On Error” ativado dentro dos _subpipelines_ onProcess e onException.
