@@ -20,7 +20,7 @@ Nesta seção você pode selecionar o ambiente que deseja ver o consumo, clicand
 
 ## Listagem de consumo
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Barra de opções de projeto para obter listagem detalhada</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Barra de opções de projeto para obter listagem detalhada</p></figcaption></figure>
 
 Você pode pesquisar qual projeto deseja visualizar o consumo. Clique na barra de opções para selecionar qual projeto deseja visualizar e clique no botão "Busca" para obter os detalhes.
 

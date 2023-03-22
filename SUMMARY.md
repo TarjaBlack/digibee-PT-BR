@@ -180,7 +180,7 @@
   * [Choice](components/logic/choice.md)
   * [Do While](components/logic/do-while.md)
   * [For Each](components/logic/for-each/README.md)
-    * [For Each: Exemplos de Uso](components/logic/for-each/for-each-exemplos-de-uso.md)
+    * [For Each: exemplo de uso](components/logic/for-each/for-each-exemplos-de-uso.md)
   * [Parallel Execution](components/logic/parallel-execution.md)
   * [Retry](components/logic/retry.md)
 * [Queues and messaging](components/queues-and-messaging/README.md)

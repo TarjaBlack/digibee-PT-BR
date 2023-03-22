@@ -1,27 +1,24 @@
 ---
-description: Exemplo de uso do componente.
+description: Veja a seguir um exemplo de uso do componente For Each.
 ---
 
-# For Each: Exemplos de Uso
-
-Veja a seguir um exemplo de uso do componente _**For Each**_.
+# For Each: exemplo de uso
 
 O objetivo do componente _**For Each**_ é percorrer um _array_ JSON e, para cada item do _array_, acionar um _subpipeline_.
 
-**1)** Obtenha um exemplo de JSON _array_ através de uma chamada ao seguinte endereço: [https://viacep.com.br/ws/RS/Porto%20Alegre/Domingos/json/](https://viacep.com.br/ws/RS/Porto%20Alegre/Domingos/json/)
+**1) Obtenha um exemplo de JSON **_**array**_** através de uma chamada ao seguinte endereço**: [https://viacep.com.br/ws/RS/Porto%20Alegre/Domingos/json/](https://viacep.com.br/ws/RS/Porto%20Alegre/Domingos/json/)
 
 Para este passo, utilize também o componente REST.
 
-**2)** O resultado da execução descrita no passo anterior deve retornar uma lista de endereços. Esses endereços estão contidos no objeto "body". Observe:\
-i
+**2)** **O resultado da execução descrita no passo anterior deve retornar uma lista de endereços**. Esses endereços estão contidos no objeto "body". Observe:
 
 ![](<../../../.gitbook/assets/for each usos.png>)
 
 
 
-**3)** Com uma lista para o _**For Each**_ percorrer, arraste o ícone do componente até a área de construção do _pipeline_.
+**3)** **Com uma lista para o **_**For Each**_** percorrer, arraste o ícone do componente até a área de construção do **_**pipeline**_.
 
-**4)** Clique no ícone do _**For Each**_ para abrir as suas configurações e especificar a expressão JSON Path. É por meio dessa expressão que:
+**4) Clique no ícone do **_**For Each**_** para abrir as suas configurações e especificar a expressão JSON Path**. É por meio dessa expressão que:
 
 * se especifica o _array_ a ser iterado;
 * se adicionam filtros para iterar outros itens.
@@ -31,15 +28,17 @@ i
 * **$.body:** percorre o _array body_ inteiro.
 * **$.body.\[?(@.bairro == 'Cristo Redentor')]:** percorre o _array_ somente quando o atributo "bairro" for igual a "Cristo Redentor".
 
-**5)** Acesse o ícone do _**For Each**_ novamente para configurar o _subpipeline_ de execução para cada linha.
+**5) Acesse o ícone do **_**For Each**_** novamente para configurar o **_**subpipeline**_** de execução para cada linha.**
 
 ![](<../../../.gitbook/assets/for each usos1.png>)
 
 
 
-**IMPORTANTE:** é necessário existir ao menos um componente no _subpipeline_.
+{% hint style="info" %}
+É necessário existir ao menos um componente no _subpipeline_.
+{% endhint %}
 
-**6)** Após desenhar o fluxo, execute o _pipeline_ e observe que na saída do JSON é demonstrado um totalizador de execução. Para que a execução seja contabilizada como "sucesso", adicione a mensagem _"success" : true_ no último passo do _subpipeline_.
+**6)** **Após desenhar o fluxo, execute o **_**pipeline**_** e observe que na saída do JSON é demonstrado um totalizador de execução**. Para que a execução seja contabilizada como "sucesso", adicione a mensagem _"success" : true_ no último passo do _subpipeline_.
 
 **Exemplo**
 
