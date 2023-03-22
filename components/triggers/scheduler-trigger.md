@@ -28,7 +28,7 @@ Dê uma olhada nos parâmetros de configuração do **Scheduler Trigger**:
 
 **- se desabilitado**: a execução seguinte, além das demais, não será iniciada até que a execução anterior seja finalizada.
 
-### Scheduler Trigger em Ação <a href="#h_f67ca55d12" id="h_f67ca55d12"></a>
+## Scheduler Trigger em Ação <a href="#h_f67ca55d12" id="h_f67ca55d12"></a>
 
 Esse _trigger_ pode ser usado em alguns casos em que é necessário buscar dados de sistemas que não têm capacidade de enviar os dados para a Digibee utilizando HTTP, REST, HTTP File, Kafka, RabbitMQ e JMS. Alguns desses cenários são:
 
@@ -44,7 +44,7 @@ Observe como configurar um _pipeline_ com o _**Scheduler Trigger**_ para ser exe
 
 Primeiramente, crie um novo _pipeline_ e configure o _trigger_. A configuração pode ser feita da seguinte forma:
 
-![](../../.gitbook/assets/Screenshot\_19.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Agora observe como configurar um [MOCK](../tools/json-generator.md) no _pipeline_ para que ele seja o provedor de dados que o _endpoint_ retorna ao final. Coloque o componente indicado, conecte-o ao _trigge_r e configure-o com o seguinte JSON:
 
@@ -66,7 +66,3 @@ Agora observe como configurar um [MOCK](../tools/json-generator.md) no _pipeline
 ```
 
 Feito isso, a cada vez que o _pipeline_ for executado, o JSON definido como resposta será retornado automaticamente.
-
-Após implantado, é possível ver a execução do _pipeline_ na tela **Painel > Execuções Concluídas:**
-
-![](../../.gitbook/assets/Screenshot\_20.png)
