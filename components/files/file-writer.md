@@ -87,7 +87,7 @@ Para esse exemplo, será utilizada uma entrada de dados estática e no final o a
 
 O componente File Writer será configurado da seguinte forma:
 
-![](<../../.gitbook/assets/ezgif.com-gif-maker (16).gif>)
+<figure><img src="../../.gitbook/assets/File Writer 1.gif" alt=""><figcaption></figcaption></figure>
 
 #### **Entrada**
 
