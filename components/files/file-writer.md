@@ -31,9 +31,11 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Charset:** determina o código de caracteres que será utilizado para a criação do arquivo. O padrão é o UTF-8.
 * **Binary File:** se a entrada de dados para o componente (determinado no parâmetro _**Data**_) for uma _string_ do tipo base64 e esta opção estiver ativada, então o texto será convertido e gravado no arquivo.
 * **Coalesce:** se a opção estiver ativada e um valor da mensagem de entrada for correspondente à algum objeto/_array_, os dados informados serão aceitos pelo componente e o arquivo será gravado com sucesso; do contrário, ao receber um valor como objeto/_array_, será apresentado um erro como resultado e será mostrado "false" para a propriedade _**success**_.
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "_**success**_".
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](../../build/funcoes-double-braces/).
+{% hint style="info" %}
+**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. [Para entender como essa linguagem funciona, leia o nosso artigo clicando aqui.](https://docs.digibee.com/documentation/v/pt-br/build/double-braces/funcoes-double-braces)
+{% endhint %}
 
 ## Manipulação de arquivos no pipeline <a href="#h_449aaa0da6" id="h_449aaa0da6"></a>
 
