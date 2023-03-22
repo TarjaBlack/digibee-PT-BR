@@ -11,9 +11,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **JSON Path Expression:** expressão que é aplicada à estrutura JSON recebida pelo componente _**For Each**_, filtrando-a. O _**For Each**_ pode receber um objeto que possua vários elementos e a expressão _JSON Path_ permite obter apenas aqueles que atenderem a uma condição específica.
 * **Element Identifier:** elemento único que identifica a linha em processamento (ex.: elemento "id").
 * **Parallel Execution:** quando habilitada, a opção faz com que elementos do _array_ recebido pelo _**For Each**_ sejam processados em paralelo, com um limite de até 10 execuções concorrentes - ou seja, caso o _array_ recebido pelo componente _**For Each**_ tenha 20 elementos, os 10 primeiros terão seu processamento iniciado imediatamente. Assim que um desses processamentos terminar, o próximo elemento do _array_ será processado e assim por diante, até que todo o _array_ tenha sido processado. Caso a opção _Parallel Execution_ esteja desabilitada, os elementos do _array_ recebido pelo _**For Each**_ são processados em série - é preciso que o primeiro tenha sido processado para que o processamento do segundo elemento possa começar.
-* **Fail On Error:** a habilitação desse parâmetro suspende a execução do _pipeline_ apenas quando há uma ocorrência grave na estrutura da iteração, impedindo a sua conclusão por completo. A ativação do parâmetro "Fail On Error" não tem ligação com erros ocorridos nos componentes utilizados para a construção dos _subpipelines_ (onProcess e onException). Se você quiser que a execução seja interrompida para qualquer tipo de ocorrência de erro, avalie a utilização do componente _**Do While**_. Clique [aqui](../do-while.md) para ler sobre esse componente e validar se ele se aplica ao seu cenário.
+* **Fail On Error:** a habilitação desse parâmetro suspende a execução do _pipeline_ apenas quando há uma ocorrência grave na estrutura da iteração, impedindo a sua conclusão por completo. A ativação do parâmetro "Fail On Error" não tem ligação com erros ocorridos nos componentes utilizados para a construção dos _subpipelines_ (onProcess e onException). Se você quiser que a execução seja interrompida para qualquer tipo de ocorrência de erro, avalie a utilização do componente _**Do While**_. [Clique aqui para ler sobre esse componente e validar se ele se aplica ao seu cenário.](https://docs.digibee.com/documentation/v/pt-br/components/logic/do-while)
 
-**Exemplos de Expressões **_**JSON Path**_
+## **Exemplos de Expressões **_**JSON Path**_
 
 ```
 $.[?(@.status == 'EXPIRED')]
@@ -41,9 +41,11 @@ Para definir o _subpipeline_ que será executado a cada iteração, basta clicar
 
 Ao clicar nesse ícone, um _subpipeline_ será criado (ou exibido, caso já exista). Então basta construir o fluxo desejado conforme a necessidade de execução de cada iteração.
 
+{% hint style="info" %}
 **IMPORTANTE:** caso sejam utilizados componentes _**Session**_ para manipular dados de cada elemento do _array_ no _subpipeline_ do _**For Each**_ e a opção _**Parallel Execution**_ esteja ativa, é necessário que a opção _**Scoped**_ do _Session_ esteja ativa para que cada execução em paralelo acesse os seus respectivos dados.
+{% endhint %}
 
-### Tratando erros no _loop_ <a href="#tratando-erros-no-loop" id="tratando-erros-no-loop"></a>
+## Tratando erros no _loop_ <a href="#tratando-erros-no-loop" id="tratando-erros-no-loop"></a>
 
 O comportamento padrão do _**For Each**_ é interromper a execução caso algum erro seja encontrado. Erros são situações atípicas na execução de um pipeline que incorrem em uma parada. Por exemplo, o uso de um componente _Assert_ causa um erro no _pipeline_ quando a condição de asserção não for satisfeita. Outras situações de erro ocorrem quando são utilizados componentes com a configuração _"Fail on Error"_ habilitada.
 
@@ -51,7 +53,7 @@ Conforme explicado anteriormente, é possível definir um _subpipeline_ para tra
 
 ![](<../../../.gitbook/assets/for each1.png>)
 
-Clique [aqui](https://intercom.help/godigibee/pt-BR/articles/4484877-subpipelines) para entender melhor o funcionamento dos _subpipelines_.
+[Clique aqui para entender melhor o funcionamento dos _subpipelines_.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/subpipelines)
 
 {% hint style="info" %}
 **IMPORTANTE:** Não é possível interromper a execução de todo o loop For Each. A interrupção pode ser feita apenas na iteração atual, através de componentes que possuam o parâmetro “Fail On Error” ativado dentro dos _subpipelines_ onProcess e onException.
@@ -84,4 +86,6 @@ O _**For Each**_ aceita qualquer estrutura de JSON que contenha um _array_. Se o
 * **success:** número total de elementos processados com sucesso
 * **failed:** número total de elementos que não puderam ser processados
 
-**IMPORTANTE:** para informar que uma linha foi processada corretamente e iterar o valor do campo "success", cada execução do _subpipeline_ _onProcess_ deve responder com { "success": true } ao seu término. Somente desta forma a mensagem de saída representará corretamente o resultado dos processamentos.&#x20;
+{% hint style="info" %}
+**IMPORTANTE:** para informar que uma linha foi processada corretamente e iterar o valor do campo "success", cada execução do _subpipeline_ _onProcess_ deve responder com { "success": true } ao seu término. Somente desta forma a mensagem de saída representará corretamente o resultado dos processamentos.
+{% endhint %}
