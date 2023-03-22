@@ -18,7 +18,7 @@ As funções de arquivo realizam consultas a metadados e fazem validações em a
 
 Verifica se um arquivo existe no diretório virtual de execução do _pipeline_.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 FILEEXISTS(arquivo)
@@ -32,7 +32,7 @@ A função retorna `true` quando o arquivo é encontrado e `false` quando não �
 
 Retorna o tamanho de um arquivo no diretório virtual de execução do _pipeline_.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 FILESIZE(arquivo)

@@ -8,7 +8,8 @@ Ao realizarmos um DE-PARA em um fluxo de integração, é muito comum precisarmo
 \
 Entretanto, em algumas situações, podemos resolver esse tipo de problema com um simples "IF-ELSE", a partir dos próprios dados vindos do lado DE.&#x20;
 
-**Exemplo:**\
+### **Exemplo**
+
 Tenho um JSON com dados de Cliente:
 
 ```
@@ -46,7 +47,7 @@ Neste caso, conseguimos definir a nacionalidade do cliente a partir de seu país
 
 Segue abaixo uma forma simples de resolvermos essa situação usando apenas um **Transformer Connector**.
 
-**Transformação e "IF-ELSE" com JOLT:**
+### **Transformação e "IF-ELSE" com JOLT:**
 
 ```
 [
@@ -76,8 +77,7 @@ Caso seja "Brasil", preenchemos o campo "nacionalidade" com o valor "Brasileira"
 \
 Caso o valor de "paisOrigem" seja qualquer país diferente de "Brasil", preenchemos "nacionalidade" com o valor _****_ "Estrangeira".
 
-\
-**JSON final com Nome e Nacionalidade do Cliente:**
+### **JSON final com Nome e Nacionalidade do Cliente:**
 
 ```
 {
