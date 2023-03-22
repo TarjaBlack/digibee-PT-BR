@@ -61,7 +61,7 @@
     * [Funções de JSON](build/double-braces/funcoes-double-braces/funcoes-de-json.md)
     * [Funções de data](build/double-braces/funcoes-double-braces/funcoes-de-data.md)
     * [Funções de comparação](build/double-braces/funcoes-double-braces/funcoes-de-comparacao.md)
-    * [Funções de Arquivo](build/double-braces/funcoes-double-braces/funcoes-de-arquivo.md)
+    * [Funções de arquivo](build/double-braces/funcoes-double-braces/funcoes-de-arquivo.md)
     * [Funções Condicionais](build/double-braces/funcoes-double-braces/funcoes-condicionais.md)
 * [Projetos](build/projetos.md)
 

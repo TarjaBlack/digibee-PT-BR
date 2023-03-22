@@ -4,7 +4,7 @@ description: >-
   utilizá-las.
 ---
 
-# Funções de Arquivo
+# Funções de arquivo
 
 As funções foram criadas para:
 
@@ -14,9 +14,9 @@ As funções foram criadas para:
 
 As funções de arquivo realizam consultas a metadados e fazem validações em arquivos e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, clique [aqui](../../funcoes-double-braces/).
 
-### FILEEXISTS <a href="#fileexists" id="fileexists"></a>
+## FILEEXISTS <a href="#fileexists" id="fileexists"></a>
 
-Essa função em _Double Braces_ permite descobrir se um arquivo existe no diretório virtual de execução do _pipeline_.
+Verifica se um arquivo existe no diretório virtual de execução do _pipeline_.
 
 **Sintaxe**
 
@@ -26,11 +26,11 @@ FILEEXISTS(arquivo)
 
 * **arquivo:** nome do arquivo no diretório virtual do _pipeline_
 
-A função retorna “true” quando o arquivo é encontrado e “false” quando não é encontrado.
+A função retorna `true` quando o arquivo é encontrado e `false` quando não é encontrado.
 
-### FILESIZE <a href="#filesize" id="filesize"></a>
+## FILESIZE <a href="#filesize" id="filesize"></a>
 
-Essa função em _Double Braces_ permite obter o tamanho de um arquivo no diretório virtual de execução do _pipeline_.
+Retorna o tamanho de um arquivo no diretório virtual de execução do _pipeline_.
 
 **Sintaxe**
 
@@ -40,7 +40,7 @@ FILESIZE(arquivo)
 
 * **arquivo:** nome do arquivo no diretório virtual do _pipeline_
 
-Vamos supor que você precise obter o tamanho do arquivo criado em um passo anterior através do uso do componente _**File Writer**_. Caso a sua configuração de nome de arquivo no _**File Writer**_ tenha sido "arquivo.txt", então utilize o seguinte trecho no componente _**JSON Generator**_:
+Vamos supor que você precise obter o tamanho do arquivo criado em um passo anterior através do uso do componente _**File Writer**_. Caso a sua configuração de nome de arquivo no _**File Writer**_ tenha sido `arquivo.txt`, então utilize o seguinte trecho no componente _**JSON Generator**_:
 
 ```
 {
@@ -56,7 +56,7 @@ O resultado seria:
 }
 ```
 
-* **fileSize:** valor representando o tamanho do arquivo **em bytes.**
+* **fileSize:** valor representando o tamanho do arquivo (em bytes).
 
 Conheça também as funções:
 
