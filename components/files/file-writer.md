@@ -156,7 +156,7 @@ Para esse exemplo, será utilizada uma entrada de dados estática e, no final, o
 
 O componente File Writer será configurado da seguinte forma:
 
-![](<../../.gitbook/assets/file writer 2.png>)
+<figure><img src="../../.gitbook/assets/File Writer 2.png" alt=""><figcaption></figcaption></figure>
 
 #### **Entrada**
 
