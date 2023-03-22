@@ -7,10 +7,8 @@ description: Conheça o componente e saiba como utilizá-lo.
 O **Relationship** cria relações entre 1 ou mais entidades para que sejam feitas buscas em bases diferentes.
 
 {% hint style="info" %}
-**IMPORTANTE:** o componente não suporta acessos simultâneos enquanto está tentando atualizar ou salvar novas relações.
+**IMPORTANTE: o componente não suporta acessos simultâneos enquanto está tentando atualizar ou salvar novas relações.**
 {% endhint %}
-
-
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
@@ -21,7 +19,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **To:** destino da busca.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-### Operações <a href="#operaes" id="operaes"></a>
+## Operações <a href="#operaes" id="operaes"></a>
 
 * **MATCH:** busca por uma equivalência entre 2 campos e o valor declarado.
 * **CREATE:** cria uma relação através do campo.
@@ -30,7 +28,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **TRANSLATE:** traduz uma lista de IDs com base no caminho especificado em "Translate Path".
 * **DELETE EXACT:** exclui a relação exata em todos os campos declarados.
 
+{% hint style="info" %}
 **IMPORTANTE:** é preciso declarar a _query_ dentro do objeto de relação:
+{% endhint %}
 
 ```
 {
