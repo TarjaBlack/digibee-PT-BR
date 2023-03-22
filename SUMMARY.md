@@ -62,7 +62,7 @@
     * [Funções de data](build/double-braces/funcoes-double-braces/funcoes-de-data.md)
     * [Funções de comparação](build/double-braces/funcoes-double-braces/funcoes-de-comparacao.md)
     * [Funções de arquivo](build/double-braces/funcoes-double-braces/funcoes-de-arquivo.md)
-    * [Funções Condicionais](build/double-braces/funcoes-double-braces/funcoes-condicionais.md)
+    * [Funções de condição](build/double-braces/funcoes-double-braces/funcoes-condicionais.md)
 * [Projetos](build/projetos.md)
 
 ## Run

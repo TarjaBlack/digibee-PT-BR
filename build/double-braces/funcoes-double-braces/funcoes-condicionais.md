@@ -4,7 +4,7 @@ description: >-
   utilizá-las.
 ---
 
-# Funções Condicionais
+# Funções de condição
 
 As funções foram criadas para:
 
@@ -14,13 +14,13 @@ As funções foram criadas para:
 
 As funções condicionais retornam um valor de acordo com o critério que você estabeleceu e estão disponíveis para componentes que suportam expressões com _Double Braces_. Para saber como passar informações para os componentes utilizando esse recurso, clique [aqui](../../funcoes-double-braces/).
 
-### EQUALTO <a href="#equalto" id="equalto"></a>
+## EQUALTO <a href="#equalto" id="equalto"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função compara dois objetos (que podem ser números, _strings_, _arrays_, etc.) e verifica se são iguais.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 EQUALTO(obj1, obj2 )
@@ -46,7 +46,7 @@ Vamos supor que você precise validar se este objeto
 }
 ```
 
-No exemplo abaixo o valor "false" será atribuído, pois os objetos são diferentes:
+No exemplo abaixo o valor `false` será atribuído, pois os objetos são diferentes:
 
 ```
 {
@@ -54,21 +54,23 @@ No exemplo abaixo o valor "false" será atribuído, pois os objetos são diferen
 }
 ```
 
-**IMPORTANTE:** o retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
-### GREATERTHAN <a href="#greaterthan" id="greaterthan"></a>
+## GREATERTHAN <a href="#greaterthan" id="greaterthan"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função compara se o primeiro número é maior que o segundo.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
-GREATERTHAN(num1, num2 )
+GREATERTHAN(num1, num2)
 ```
 
-**Payload**
+### **Payload**
 
 ```
 {
@@ -89,21 +91,23 @@ O valor _null_ é considerado como o menor valor possível para comparação.
 
 GREATERTHAN( null, null ) retornará "false".
 
-**IMPORTANTE:** o retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
-### GREATERTHANEQUAL <a href="#greaterthanequal" id="greaterthanequal"></a>
+## GREATERTHANEQUAL <a href="#greaterthanequal" id="greaterthanequal"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função compara se o primeiro número é maior ou igual ao segundo.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 GREATERTHANEQUAL(num1, num2 )
 ```
 
-**Payload**
+### **Payload**
 
 ```
 {
@@ -112,7 +116,7 @@ GREATERTHANEQUAL(num1, num2 )
 }
 ```
 
-No exemplo abaixo o valor "false" será atribuído:
+No exemplo abaixo o valor `false` será atribuído:
 
 ```
 {
@@ -120,13 +124,15 @@ No exemplo abaixo o valor "false" será atribuído:
 }
 ```
 
-O valor _null_ é considerado como o menor valor possível para comparação.
+O valor `null` __ é considerado como o menor valor possível para comparação.
 
-GREATERTHANEQUAL( null, null ) retornará "true".
+`GREATERTHANEQUAL(null, null)` retornará `true`.
 
-**IMPORTANTE:** o retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
-### IF <a href="#if" id="if"></a>
+## IF <a href="#if" id="if"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
@@ -134,13 +140,13 @@ A função permite que você faça comparações lógicas entre um valor e aquil
 
 Portanto, uma instrução IF pode ter 2 resultados. O primeiro resultado acontece quando a comparação é verdadeira e o segundo quando a comparação é falsa.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 IF(comparação, valor-se-verdadeiro, valor-se-falso)
 ```
 
-Vamos supor que você precise tomar decisões dependendo se o valor recebido é "true" ou "false":
+Vamos supor que você precise tomar decisões dependendo se o valor recebido é `true` ou `false`:
 
 ```
 {
@@ -156,21 +162,23 @@ No exemplo abaixo o valor da condição (valor-se-falso) será atribuído ao JSO
 }
 ```
 
-**IMPORTANTE:** o retorno dessa função será qualquer valor passado nas mensagens da condicional "true"/"false".
+{% hint style="info" %}
+O retorno dessa função será qualquer valor passado nas mensagens da condicional `true`/`false`.
+{% endhint %}
 
-### LESSTHAN <a href="#lessthan" id="lessthan"></a>
+## LESSTHAN <a href="#lessthan" id="lessthan"></a>
 
 Utilizando _Double Brace_s, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função compara se o primeiro número é menor que o segundo.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 LESSTHAN(num1, num2 )
 ```
 
-**Payload**
+### **Payload**
 
 ```
 {
@@ -187,25 +195,27 @@ No exemplo abaixo o valor "true" será atribuído:
 }
 ```
 
-O valor _null_ é considerado como o menor valor possível para comparação.
+O valor `null` __ é considerado como o menor valor possível para comparação.
 
-LESSTHAN( null, null ) retornará "false".
+`LESSTHAN(null, null)` retornará `false`.
 
-**IMPORTANTE:** o retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
-### LESSTHANEQUAL <a href="#lessthanequal" id="lessthanequal"></a>
+## LESSTHANEQUAL <a href="#lessthanequal" id="lessthanequal"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função compara se o primeiro número é menor ou igual ao segundo.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
-LESSTHANEQUAL(num1, num2 )
+LESSTHANEQUAL(num1, num2)
 ```
 
-**Payload**
+### **Payload**
 
 ```
 {
@@ -214,7 +224,7 @@ LESSTHANEQUAL(num1, num2 )
 }
 ```
 
-No exemplo abaixo o valor "true" será atribuído:
+No exemplo abaixo o valor `true` será atribuído:
 
 ```
 {
@@ -222,13 +232,15 @@ No exemplo abaixo o valor "true" será atribuído:
 }
 ```
 
-O valor _null_ é considerado como o menor valor possível para comparação.
+O valor `null` __ é considerado como o menor valor possível para comparação.
 
-LESSTHANEQUAL( null, null ) retornará "true".
+`LESSTHANEQUAL(null, null)` retornará `true`.
 
-**IMPORTANTE:** o retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
-### ISOBJECT <a href="#isobject" id="isobject"></a>
+## ISOBJECT <a href="#isobject" id="isobject"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
@@ -256,7 +268,7 @@ Validando o argumento:
 }
 ```
 
-O retorno será "false", pois o valor não é um objeto.
+O retorno será `false`, pois o valor não é um objeto.
 
 Agora passando um objeto para a função:
 
@@ -276,9 +288,9 @@ Validando o argumento:
 }
 ```
 
-O retorno será “true”.
+O retorno será `true`.
 
-### ISARRAY <a href="#isarray" id="isarray"></a>
+## ISARRAY <a href="#isarray" id="isarray"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
@@ -306,7 +318,7 @@ Validando o argumento:
 }
 ```
 
-O retorno será "false", pois o valor não é um _array_.
+O retorno será `false`, pois o valor não é um _array_.
 
 Agora passando um objeto para a função:
 
@@ -326,15 +338,15 @@ Validando o argumento:
 }
 ```
 
-O retorno será “true”.
+O retorno será `true`.
 
-### ISBOOLEAN <a href="#isboolean" id="isboolean"></a>
+## ISBOOLEAN <a href="#isboolean" id="isboolean"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função permite que você verifique se o argumento passado é um valor booleano.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 ISBOOLEAN(objeto)
@@ -356,7 +368,7 @@ Validando o argumento:
 }
 ```
 
-O retorno será "true", pois o valor é booleano.
+O retorno será `true`, pois o valor é booleano.
 
 Agora passando um objeto para a função:
 
@@ -377,21 +389,21 @@ Validando o argumento:
 }
 ```
 
-O retorno será “false”.
+O retorno será `false`.
 
-### ISSTRING <a href="#isstring" id="isstring"></a>
+## ISSTRING <a href="#isstring" id="isstring"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função permite que você verifique se o argumento passado é uma _string_.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 ISSTRING(objeto)
 ```
 
-Vamos supor que você precise verificar se o argumento recebido é uma string:
+Vamos supor que você precise verificar se o argumento recebido é uma _string_:
 
 ```
 {
@@ -407,15 +419,15 @@ Validando o argumento:
 }
 ```
 
-O retorno será "true", pois o valor é uma _string_.
+O retorno será `true`, pois o valor é uma _string_.
 
-### ISNUMBER <a href="#isnumber" id="isnumber"></a>
+## ISNUMBER <a href="#isnumber" id="isnumber"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
 A função permite que você verifique se o argumento passado é um número.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 ISNUMBER(objeto)
@@ -437,15 +449,15 @@ Validando o argumento:
 }
 ```
 
-O retorno será "true", pois o valor é um número.
+O retorno será `true`, pois o valor é um número.
 
-### ISNULL <a href="#isnull" id="isnull"></a>
+## ISNULL <a href="#isnull" id="isnull"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
-A função permite que você verifique se o argumento passado é um valor _null_.
+A função permite que você verifique se o argumento passado é `null`.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 ISNULL(objeto)
@@ -467,15 +479,15 @@ Validando o argumento:
 }
 ```
 
-O retorno será "true", pois o valor é um valor _null_.
+O retorno será `true`, pois o valor é um valor _null_.
 
-### SWITCHCASE <a href="#switchcase" id="switchcase"></a>
+## SWITCHCASE <a href="#switchcase" id="switchcase"></a>
 
 Utilizando _Double Braces_, você pode combinar a função com o acesso ao elemento do JSON de entrada de um componente.
 
-A função permite que você passe várias comparações e os devidos parâmetros que devem ser retornados caso alguma dessas validações retorne “true”. Se nenhuma validação retornar “true”, valor padrão configurado será utilizado.
+A função permite que você passe várias comparações e os devidos parâmetros que devem ser retornados caso alguma dessas validações retorne `true`. Se nenhuma validação retornar `true`, valor padrão configurado será utilizado.
 
-**Sintaxe**
+### **Sintaxe**
 
 ```
 SWITCHCASE(defaultValue, condition1, result1, condition2, result2, …., conditionN, resultN)
