@@ -87,7 +87,6 @@ Arquivos binários não podem ter seu conteúdo expresso de forma natural em pro
 }
 ```
 
-&#x20;            \
 Note que, no caso acima, a propriedade "data" não é apresentada como um _array_ de linhas, mas sim como um único _string_ em base64.      &#x20;
 
 {% hint style="info" %}
