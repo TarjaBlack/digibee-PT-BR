@@ -18,6 +18,8 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Local Save:** se ativada, a opção permite que o arquivo seja salvo localmente.
 * **File Name:** nome do arquivo local a passar por _download_ ou _upload_.
 
+<figure><img src="../../.gitbook/assets/WGet.gif" alt=""><figcaption></figcaption></figure>
+
 ## WGet em Ação <a href="#wget-em-ao" id="wget-em-ao"></a>
 
 ### Exemplo com Double Braces estáticos <a href="#exemplo-com-double-braces-estticos" id="exemplo-com-double-braces-estticos"></a>
