@@ -34,7 +34,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **JWK:** JWK que será utilizado para verificar o _token_ JWS.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 
-Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia a [documentação](../../build/double-braces/).
+Alguns dos parâmetros acima aceitam _Double Braces_. Para entender melhor como funciona essa linguagem, leia a [documentação sobre Double Braces](../../build/double-braces/).
 
 ## Fluxo de mensagens <a href="#h_a232432467" id="h_a232432467"></a>
 
