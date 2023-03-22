@@ -79,7 +79,7 @@ _Double Braces_ dão acesso à saída do componente anterior. Logo, o Page Token
 
 7\. Ligar o _trigger_ e os componentes:
 
-![](<../../../.gitbook/assets/google storage.png>)
+![](https://i.imgur.com/XsPSLxD.png)
 
 
 
