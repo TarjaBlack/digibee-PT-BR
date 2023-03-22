@@ -4,33 +4,35 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # OneDrive
 
-O _**OneDrive**_ permite estabelecer uma conexão com o serviço OneDrive da Microsoft e habilita as seguintes operações: _list_, _list search_, _pagination_, _download_, _download by file ID_, _upload_ e _delete_.
+O _**OneDrive**_ permite estabelecer uma conexão com o serviço OneDrive da Microsoft e habilita as seguintes operações: _List, List Search, Pagination, Download, Download by File ID, Upload_ ou _Delete_.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-![](<../../.gitbook/assets/ezgif.com-gif-maker (9).gif>)
-
 * **Account:** para o componente fazer a autenticação ao serviço do OneDrive é necessário usar uma _account_ do tipo Oath 2 de provedor Microsoft com ao menos o escopo de "offline\_access" e "Files.ReadWrite.All".
-* **Operation:** _list_, _list search_, _pagination_, _download_, _download by file ID_, _upload_ e _delete_.
-* **Remote Directory:** diretório remoto base, que pode ser relativo (ex.: _pub/tmp_) ou absoluto (ex.: _/root/pub_). Este parâmetro aceita _Double Braces_.
-* **Page Size:** utilizado na operação _list_ e _list search_, se refere à quantidade de objetos retornados na busca.
-* **Query:** presente na operação _list search_. Esse parâmetro define o tipo de busca que será feito nos diretórios do OneDrive. Para saber mais sobre esse filtro, clique [aqui](https://docs.microsoft.com/pt-br/onedrive/developer/rest-api/api/driveitem\_search?view=odsp-graph-online).
-* **Next Page:** presente na operação _pagination_.
+* **Operation:** operação a ser executada (_List, List Search, Pagination, Download, Download by File ID, Upload_ ou _Delete)_.
+* **Remote Directory:** diretório remoto base, que pode ser relativo (ex.: pub/tmp) ou absoluto (ex.: __ /root/pub). Este parâmetro aceita _Double Braces_.
+* **Page Size:** utilizado na operação _List_ e _List Search_, se refere à quantidade de objetos retornados na busca.
+* **Query:** presente na operação _List Search_. Esse parâmetro define o tipo de busca que será feito nos diretórios do OneDrive. Para saber mais sobre esse filtro, visite a [documentação oficial Microsoft](https://docs.microsoft.com/pt-br/onedrive/developer/rest-api/api/driveitem\_search?view=odsp-graph-online).
+* **Next Page:** presente na operação _Pagination_.
 
-**IMPORTANTE:** se um componente OneDrive que estiver executando a operação _list_ ou _list search_ gerar mais resultados do que o _Page Size_, então um segundo componente OneDrive ligado pode usar a operação _pagination_ e o parâmetro _Next Page_. Isso pode ocorrer manualmente ou por meio de _Double Braces_. Exemplo: com _\{{ message. nextPage \}}_), mais resultados da operação anterior são carregados.
+{% hint style="info" %}
+**IMPORTANTE:** se um componente _**OneDrive**_ que estiver executando a operação _List_ ou _List Search_ gerar mais resultados do que o **Page Size**, então um segundo componente _**OneDrive**_ ligado pode usar a operação _pagination_ e o parâmetro **Next Page**. Isso pode ocorrer manualmente ou por meio de _Double Braces_. Exemplo: com _\{{ message. nextPage \}}_), mais resultados da operação anterior são carregados.
+{% endhint %}
 
 * **File Name:** nome do arquivo ou caminho completo (_full file path_) para o arquivo. Este parâmetro aceita _Double Braces_.
 * **Remote File Name:** nome do arquivo remoto ou caminho relativo (ex.: tmp/file.txt) para o arquivo remoto. Este parâmetro aceita _Double Braces_.
 * **File ID:** identificador único de um arquivo.
-* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
+Alguns dos parâmetros acima suportam Double Braces. Para entender como essa linguagem funciona, leia a [documentação sobre Double Braces](https://docs.digibee.com/documentation/v/pt-br/build/double-braces).
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-### Saída <a href="#sada" id="sada"></a>
+## Saída <a href="#sada" id="sada"></a>
 
-Ao executar um componente _**OneDrive**_ utilizando as operações _**list**_** ** e _ **list search**_, a seguinte estrutura de JSON será gerada:
+### Operações List e List Search
+
+Ao executar um componente _**OneDrive**_ utilizando as operações **List** e __ **List Search**, a seguinte estrutura de JSON será gerada:
 
 ```
 {
@@ -88,11 +90,11 @@ Ao executar um componente _**OneDrive**_ utilizando as operações _**list**_** 
 }
 ```
 
-* **value\[name]:** nome da pasta ou arquivo
-* **value\[size]:** tamanho em _bytes_
-* **nextPage:** _url_ para carregar mais resultados (ver operação “pagination”)
+* **value\[name]:** nome da pasta ou arquivo.
+* **value\[size]:** tamanho em _bytes._
+* **nextPage:** _url_ para carregar mais resultados (ver operação _Pagination_).
 
-Operação _**download**_:
+### Operação **Download**
 
 ```
 {
@@ -104,12 +106,12 @@ Operação _**download**_:
 
 ```
 
-* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto)
-* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto
-* **fileName:** nome do arquivo local
-* **success:** "true" se a operação sucedeu, "false" caso contrário
+* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto).
+* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto.
+* **fileName:** nome do arquivo local.
+* **success:** "true" se a operação sucedeu, "false" caso contrário.
 
-Operação _**download by file Id**_:
+### Operação **Download **_****_** by File ID**
 
 ```
 {
@@ -119,11 +121,11 @@ Operação _**download by file Id**_:
 }
 ```
 
-* **fileId:** identificador único do arquivo
-* **fileName:** nome do arquivo local
-* **success:** "true" se a operação sucedeu, "false" caso contrário
+* **fileId:** identificador único do arquivo.
+* **fileName:** nome do arquivo local.
+* **success:** "true" se a operação sucedeu, "false" caso contrário.
 
-Operação _**upload**_:
+### Operação **Upload**
 
 ```
 {
@@ -133,12 +135,12 @@ Operação _**upload**_:
 }
 ```
 
-* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto
-* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto)
-* **fileName:** nome do arquivo local
-* **success:** "true" se a operação sucedeu, "false" caso contrário
+* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto.
+* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto).
+* **fileName:** nome do arquivo local.
+* **success:** "true" se a operação sucedeu, "false" caso contrário.
 
-Operação _**delete**_:
+### Operação **Delete**
 
 ```
 {
@@ -146,9 +148,11 @@ Operação _**delete**_:
 }
 ```
 
-* **fileId:** identificador único do arquivo
-* **success:** "true" se a operação sucedeu, "false" caso contrário
+* **fileId:** identificador único do arquivo.
+* **success:** "true" se a operação sucedeu, "false" caso contrário.
 
+{% hint style="info" %}
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
+{% endhint %}
 
-Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
+Leia o artigo [Processamento de mensagens](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/processamento-de-mensagens) para entender como esse conceito funciona na Digibee Integration Platform.
