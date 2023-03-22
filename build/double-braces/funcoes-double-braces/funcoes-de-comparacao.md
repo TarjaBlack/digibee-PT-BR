@@ -34,7 +34,9 @@ No exemplo abaixo, o valor "false" será atribuído:
 }
 ```
 
-**IMPORTANTE:** o valor _null_ é considerado como "false". O retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+o valor `null` __ é considerado como `false`. O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
 ## NOT <a href="#not" id="not"></a>
 
@@ -56,7 +58,9 @@ No exemplo abaixo o valor "true" será atribuído:
 }
 ```
 
-**IMPORTANTE:** o valor _null_ é considerado como "false". O retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+o valor `null` __ é considerado como `false`. O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
 ## OR <a href="#or" id="or"></a>
 
@@ -78,7 +82,9 @@ No exemplo abaixo, o valor "true" será atribuído:
 }
 ```
 
-**IMPORTANTE:** o valor _null_ é considerado como "false". O retorno dessa função será "true" ou "false".
+{% hint style="info" %}
+o valor `null` __ é considerado como `false`. O retorno dessa função será `true` ou `false`.
+{% endhint %}
 
 ## XOR <a href="#xor" id="xor"></a>
 
