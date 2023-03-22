@@ -6,25 +6,29 @@ description: Conheça o trigger e saiba como utilizá-lo.
 
 O **Kafka Trigger** é responsável pelo consumo das mensagens de um _broker_ Kafka.
 
-#### &#x20;Para utilizar esse _trigger_, é necessário entrar em contato com a nossa Equipe de Suporte para obter a liberação. <a href="#para-utilizar-esse-trigger--necessrio-entrar-em-contato-com-a-nossa-equipe-de-suporte-para-obter-a-l" id="para-utilizar-esse-trigger--necessrio-entrar-em-contato-com-a-nossa-equipe-de-suporte-para-obter-a-l"></a>
+{% hint style="info" %}
+**Importante: Para utilizar esse **_**trigger**_**, é necessário entrar em contato com a nossa Equipe de Suporte para obter a liberação.**
+{% endhint %}
 
-\
+## Estratégias de _offsets commit_&#x20;
+
 Esse _trigger_ possui 2 estratégias de _offsets commit_ configuráveis:
 
-**1.** **Commit sem garantia de entrega**
+### **1.** **Commit sem garantia de entrega**
 
-Todas as mensagens recebidas pelo _trigger_ são enviadas ao _pipeline_ de forma mais rápida, porém sem garantia de entrega (ou seja, não será esperado o retorno do _pipeline_ para que o processamento da mensagem seja confirmado). Com o _auto commit_ ativado, utilizaremos o _commit default_ implementado pelo Kafka. O envio de mensagem pode ser configurado por:
+Todas as mensagens recebidas pelo _trigger_ são enviadas ao _pipeline_ de forma mais rápida, porém sem garantia de entrega (ou seja, não será esperado o retorno do _pipeline_ para que o processamento da mensagem seja confirmado).&#x20;
 
-* **Envio batch**
+Com o _auto commit_ ativado, utilizaremos o _commit default_ implementado pelo Kafka. O envio de mensagem pode ser configurado por:
+
+#### **Envio batch**
 
 Todas as mensagens recebidas pelo polling do consumidor serão enviadas juntas em um _array_. Por exemplo, se durante esse _poll_ forem retornadas 10 mensagens, então o _trigger_ enviará um _array_ com essas 10 mensagens.
 
-* **Envio de mensagem uma a uma**
+#### **Envio de mensagem uma a uma**
 
 Será feito um envio ao _pipeline_ ao invés do _array_ total (apenas 1 mensagem por vez). Por exemplo, se durante esse _poll_ forem retornadas 10 mensagens, então o _trigger_ enviará somente 1 mensagem por vez. No total, serão feitos 10 envios de mensagens ao _pipeline_.
 
-\
-**2. Commit com garantia de entrega**
+### **2. Commit com garantia de entrega**
 
 O _trigger_ ficará responsável por realizar o _offsets commit_, que será feito após o recebimento de uma resposta de sucesso do _pipeline_. Somente o envio _batch_ das mensagens é possível, através do qual todas as mensagens recebidas pelo polling do consumidor serão enviadas juntas em um _array_.
 
@@ -34,16 +38,21 @@ Por exemplo: se durante esse _poll_ forem retornadas 10 mensagens, então o _tri
 **IMPORTANTE:** poderá ocorrer um rebalanceamento dos consumidores e/ou das partições do Kafka. Caso isso ocorra entre o retorno da resposta do _pipeline_ ao _trigger_, os _offsets_ vão receber o _commit_. Isso pode acarretar em perdas ou mensagens duplicadas.
 {% endhint %}
 
-**Autocommit "false" e Batch Mode "true"**\
+#### **Autocommit "false" e Batch Mode "true"**
+
 Nessa opção, o _poll_ realizado pode trazer um _array_ de mensagens e o seu tamanho máximo é estipulado pelo _Max Poll Records_. As mensagens passam por _commit_ somente depois que o _pipeline_ retornar a transação com sucesso. Se ocorrer _timeout_ durante o processamento do _pipeline_, as mensagens não vão passar por _commit_.
 
-\
-**Autocommit "false" e Batch Mode "false"**\
+#### **Autocommit "false" e Batch Mode "false"**
+
 Nessa opção, o _poll_ vai enviar apenas 1 mensagem e não um _array_ de mensagens. Assim, o _throughput_ de envio/recebimento de mensagens é diminuído, mas a garantia do processamento bem sucedido é maior - ou seja, não há perda de mensagens.
 
 {% hint style="info" %}
-**IMPORTANTE:** se houver rebalanceamento do Tópico no Broker do Kafka durante o processamento das mensagens e os consumidores tiverem que assumir outras partições, as mensagens vão passar por _commit_ caso ocorra erro no término da execução do _pipeline_. Dessa maneira, as mensagens não vão ser processadas no _poll_ seguinte. Para contornar esse problema, recorra às configurações _**Autocommit "false"**_ e _**Batch Mode "false**_".
+**IMPORTANTE:** se houver rebalanceamento do Tópico no Broker do Kafka durante o processamento das mensagens e os consumidores tiverem que assumir outras partições, as mensagens vão passar por _commit_ caso ocorra erro no término da execução do _pipeline_. Dessa maneira, as mensagens não vão ser processadas no _poll_ seguinte.&#x20;
+
+Para contornar esse problema, recorra às configurações _**Autocommit "false"**_ e _**Batch Mode "false**_".
 {% endhint %}
+
+
 
 Dê uma olhada nos parâmetros de configuração do _trigger_:
 
@@ -76,7 +85,7 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 **Atualmente o suporte ao formato Avro está em fase Beta.**
 {% endhint %}
 
-### &#x20;Consumers
+## _Consumers_
 
 A configuração de consumidores impacta diretamente no _throughput_ de recebimento e saída de mensagens quando o Kafka Trigger é ativado. O cenário ideal de utilização é ter a mesma quantidade de _consumers_ configurados e partições em determinado tópico.
 
@@ -95,9 +104,9 @@ Digamos que exista um tópico chamado _kafka-topic_, um _pipeline_ que utilize u
 
 Digamos que exista um tópico chamado _kafka-topic_, um _pipeline_ que utilize um _trigger_ configurado com o _consumer group_ (groupId) nomeado _digibee_ e um segundo _pipeline_ que utilize um _trigger_ configurado com o mesmo tópico e _consumer group_ (digibee). Ambos os _pipelines_ vão receber as mensagens passadas por esse tópico. No entanto, o Kafka fica encarregado de fazer o balanceamento das partições entre os _consumers_ cadastrados nos dois _triggers_. Nesse caso, ambos os _pipelines_ vão receber mensagens de forma intercalada, de acordo com a distribuição das partições.
 
-### Tecnologia <a href="#tecnologia" id="tecnologia"></a>
+## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
 
-#### **Autenticação usando Kerberos** <a href="#autenticao-usando-kerberos" id="autenticao-usando-kerberos"></a>
+### **Autenticação usando Kerberos** <a href="#autenticao-usando-kerberos" id="autenticao-usando-kerberos"></a>
 
 Para utilizar a autenticação via Kerberos no _**Kafka Trigger**_ é necessário ter cadastrado o arquivo de configuração “krb5.conf” no parâmetro de _Realm_. Caso não tenha feito isso, acione o nosso suporte via _chat_. Após concluir esse passo, basta configurar corretamente uma conta do tipo Kerberos e utilizá-la no componente.
 
