@@ -8,7 +8,7 @@ O **Excel** lê e salva arquivos de Excel.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-![](<../../.gitbook/assets/ezgif.com-gif-maker (10).gif>)
+<figure><img src="../../.gitbook/assets/Gif Excel.gif" alt=""><figcaption></figcaption></figure>
 
 * **Operation:** ação a ser executada pelo componente.
 * **Excel Full Path:** caminho no qual o arquivo de Excel está localizado.
@@ -120,8 +120,6 @@ Os seus parâmetros são:
 * Sheet Name
 * JSON Data (obrigatório)
 * File Name
-
-### &#x20;<a href="#h_267c471847" id="h_267c471847"></a>
 
 **Saída**
 
