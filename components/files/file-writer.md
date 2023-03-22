@@ -14,19 +14,19 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Data:** determina os dados que devem ser escritos no arquivo gerado pelo componente. O campo aceita um _array_ de _strings_ ou uma _string_ simples - caso seja um _array_, cada um dos seus itens será gravado em uma nova linha; mas se o conteúdo for um objeto (e não uma _string_), então a propriedade “Coalesce” precisa ser ativada para evitar a ocorrência de um erro. Esse parâmetro aceita _Double Braces_.
 * **Policy For When File Already Exists:** parâmetro no qual é configurado o comportamento a ser seguido caso um arquivo com o mesmo nome já exista na atual execução. Existem as seguintes opções e definições:
 
-\- APPEND: os dados são adicionados ao arquivo existente;
+\- Append: os dados são adicionados ao arquivo existente;
 
-\- OVERRIDE: o arquivo existente é sobreposto;
+\- Override: o arquivo existente é sobreposto;
 
-\- FAIL: o fluxo é interrompido por um erro.
+\- Fail: o fluxo é interrompido por um erro.
 
 * **End of Line Policy:** determina a política de uso de caracteres de fim de linha. Existem as seguintes opções e definições:
 
-\- WINDOW: 2 caracteres são utilizados para final de linha (CR + LF);
+\- Windows: 2 caracteres são utilizados para final de linha (CR + LF);
 
-\- UNIX: somente 1 caractere é utilizado (LF);
+\- Unix: somente 1 caractere é utilizado (LF);
 
-\- NONE: nenhum caractere se aplica.
+\- None: nenhum caractere se aplica.
 
 * **Charset:** determina o código de caracteres que será utilizado para a criação do arquivo. O padrão é o UTF-8.
 * **Binary File:** se a entrada de dados para o componente (determinado no parâmetro _**Data**_) for uma _string_ do tipo base64 e esta opção estiver ativada, então o texto será convertido e gravado no arquivo.
@@ -47,11 +47,11 @@ Qualquer tentativa de acesso a outros diretórios absolutos será bloqueada dura
 
 ## Fluxo de mensagens <a href="#h_7aad867a94" id="h_7aad867a94"></a>
 
-* **Entrada**
+### **Entrada**
 
 O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio de _Double Braces_.
 
-* **Saída**
+### **Saída**
 
 O componente retorna um JSON contendo o nome do arquivo criado e a propriedade _success_ contendo o valor _**true**_.
 
@@ -79,7 +79,7 @@ O componente retorna um JSON contendo o nome do arquivo criado e a propriedade _
 
 Abaixo será demonstrado como o componente se comporta em determinada situação e a sua respectiva configuração.
 
-* **Criar arquivo txt contendo uma **_**string**_** enviada por **_**Double Braces**_
+### **Criar arquivo txt contendo uma **_**string**_** enviada por **_**Double Braces**_
 
 Para esse exemplo, será utilizada uma entrada de dados estática e no final o arquivo será lido com o componente [**File Reader**](file-reader.md)**.**
 
@@ -87,7 +87,7 @@ O componente File Writer será configurado da seguinte forma:
 
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (16).gif>)
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -95,7 +95,7 @@ O componente File Writer será configurado da seguinte forma:
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -107,7 +107,7 @@ O componente File Writer será configurado da seguinte forma:
 * **fileName:** nome do arquivo que foi escrito
 * **success:** se “true”, a operação foi executada com sucesso; se “false”, a propriedade “Fail On Error” foi ativada
 
-**Leitura do arquivo criado**
+#### **Leitura do arquivo criado**
 
 ```
 {
@@ -148,7 +148,7 @@ O componente File Writer será configurado da seguinte forma:
 }
 ```
 
-* **Criar arquivo txt contendo um dado em base64 que será convertido ao gravar arquivo**
+### **Criar arquivo txt contendo um dado em base64 que será convertido ao gravar arquivo**
 
 Para esse exemplo, será utilizada uma entrada de dados estática e, no final, o arquivo será lido com o componente [**File Reader**](file-reader.md)**.**
 
@@ -156,7 +156,7 @@ O componente File Writer será configurado da seguinte forma:
 
 ![](<../../.gitbook/assets/file writer 2.png>)
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -164,7 +164,7 @@ O componente File Writer será configurado da seguinte forma:
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -173,7 +173,7 @@ O componente File Writer será configurado da seguinte forma:
 }
 ```
 
-**Leitura do arquivo criado**
+#### **Leitura do arquivo criado**
 
 ```
 {
@@ -213,7 +213,7 @@ O componente File Writer será configurado da seguinte forma:
 "lineCoun
 ```
 
-* **Criar arquivo txt contendo uma entrada de dado feita através de um JSON multinível**
+### **Criar arquivo txt contendo uma entrada de dado feita através de um JSON multinível**
 
 Para esse exemplo, será utilizada uma entrada de dados estática e, no final, o arquivo será lido com o componente [**File Reader**](file-reader.md)**.**
 
@@ -221,7 +221,7 @@ O componente File Writer será configurado da seguinte forma:
 
 ![](<../../.gitbook/assets/file writer 3.png>)
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -240,7 +240,7 @@ O componente File Writer será configurado da seguinte forma:
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -249,7 +249,7 @@ O componente File Writer será configurado da seguinte forma:
 }
 ```
 
-**Leitura do arquivo criado**
+#### **Leitura do arquivo criado**
 
 ```
 {
@@ -263,7 +263,7 @@ O componente File Writer será configurado da seguinte forma:
 
 Dessa forma, o JSON com diversos níveis informado ao componente será inserido como uma única linha no arquivo TXT.
 
-* **Arquivo já existe na execução com a política de falha**
+### **Arquivo já existe na execução com a política de falha**
 
 Para esse exemplo, 2 componentes File Writer serão configurados, um seguido do outro com as opções.
 
@@ -275,7 +275,7 @@ Ao final, o _canvas_ terá o seguinte formato:
 
 ![](<../../.gitbook/assets/file writer 5.png>)
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -283,7 +283,7 @@ Ao final, o _canvas_ terá o seguinte formato:
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
