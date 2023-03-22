@@ -252,7 +252,7 @@
     * [Transformer - Formatação de datas utilizando split e concat](components/tools/transformer-jolt/transformer-formatacao-de-datas-utilizando-split-e-concat.md)
     * [IF - ELSE simples com JOLT](components/tools/transformer-jolt/if-else-simples-com-jolt.md)
   * [Validator](components/tools/validator.md)
-  * [XML Schema Validator (NEW)](components/tools/xml-schema-validator-new.md)
+  * [XML Schema Validator](components/tools/xml-schema-validator-new.md)
   * [XML to JSON Transformer](components/tools/xml-to-json-transformer.md)
   * [XML Transformer](components/tools/xml-transformer.md)
 * [Web protocols](components/web-protocols/README.md)

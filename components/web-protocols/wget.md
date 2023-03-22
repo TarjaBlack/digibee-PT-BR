@@ -9,8 +9,8 @@ O **WGet** realiza o _download_ de qualquer arquivo através de uma URL.
 Dê uma olhada nos parâmetros de configuração do componente:
 
 * **URL:** de onde o arquivo será baixado - expressões em _Double Braces_ são suportadas.
-* **HEADERS:** _headers_ da chamada.
-* **QUERY PARAMS:** _query parameters_ da chamada.
+* **Headers:** _headers_ da chamada.
+* **Query Params:** _query parameters_ da chamada.
 * **Account:** conta a ser utilizada pelo componente.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 * **Allow Insecure Calls To HTTPS Endpoints:** quando ativada, a opção permite que chamadas não seguras a _endpoints_ HTTPS sejam feitas.

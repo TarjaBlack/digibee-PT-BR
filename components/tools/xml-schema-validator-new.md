@@ -2,7 +2,7 @@
 description: Conheça o componente e saiba como utilizá-lo
 ---
 
-# XML Schema Validator (NEW)
+# XML Schema Validator
 
 O _**XML Schema Validator**_ valida um arquivo XML contra um ou múltiplos arquivos XSD.
 
@@ -46,6 +46,5 @@ Não é esperado uma mensagem de entrada específica, bastando apenas preencher 
         "publicId": null
     }]
 }
-```
 
-\
+```
