@@ -267,11 +267,11 @@ Dessa forma, o JSON com diversos níveis informado ao componente será inserido 
 
 ### **Arquivo já existe na execução com a política de falha**
 
-Para esse exemplo, 2 componentes File Writer serão configurados, um seguido do outro com as opções.
+Para esse exemplo, dois componentes File Writer serão configurados, um seguido do outro com as opções.
 
 O componente File Writer será configurado da seguinte forma:
 
-![](<../../.gitbook/assets/file writer 4.png>)
+<figure><img src="../../.gitbook/assets/File Writer 4.jpg" alt=""><figcaption></figcaption></figure>
 
 Ao final, o _canvas_ terá o seguinte formato:
 
