@@ -2,9 +2,9 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# WGet
+# WGet (Download HTTP)
 
-O **WGet** realiza o _download_ de qualquer arquivo através de uma URL.
+O **WGet (Download HTTP)** realiza o _download_ de qualquer arquivo através de uma URL.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
