@@ -46,10 +46,12 @@ O **Local File Name** substitui o arquivo local padrão.
 * **success:** número total de linhas processadas com sucesso
 * **failed:** número total de linhas cujo processamento falhou
 
+{% hint style="warning" %}
 **IMPORTANTE:** para saber se uma linha foi processada corretamente, deve haver o retorno { "success": true } para cada linha processada.
+{% endhint %}
 
 O componente joga uma exceção se o _**File Name**_ não existir ou não puder ser lido.
 
 A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
 
-Este componente realiza processamento em lote. Para entender melhor o conceito, clique [aqui](../../tutoriais-e-melhores-praticas/processamento-em-lote.md).
+Este componente realiza processamento em lote. Para entender melhor o conceito, leia o artigo sobre [Processamento em lote](https://docs.digibee.com/documentation/v/pt-br/tutoriais-e-melhores-praticas/processamento-em-lote).&#x20;
