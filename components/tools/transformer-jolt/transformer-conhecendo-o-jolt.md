@@ -6,11 +6,9 @@ description: Entendendo transformações com JOLT e como aplicá-las.
 
 Este artigo visa explicar os conceitos e aplicações do JOLT.
 
-Para desenvolvimento e teste de todos os exemplos contidos neste artigo:
+Para desenvolvimento e teste de todos os exemplos contidos neste artigo, acesse o [JOLT playground](http://jolt-demo.appspot.com/#inception).
 
-[JOLT playground](http://jolt-demo.appspot.com/#inception)
-
-### **JOLT** - **JS**ON Language for Transform <a href="#jolt---json-language-for-transform" id="jolt---json-language-for-transform"></a>
+## **JOLT** - **JS**ON Language for Transform <a href="#jolt---json-language-for-transform" id="jolt---json-language-for-transform"></a>
 
 Podemos dizer que é uma linguagem usada para transformações em JSONs.\
 Para sua utilização, usamos uma estrutura base que é composta da seguinte maneira:
@@ -34,7 +32,7 @@ Onde:
 
 Sua utilização é sempre dependente de um JSON de entrada.
 
-#### **OPERATIONS** <a href="#operations" id="operations"></a>
+## **Operations** <a href="#operations" id="operations"></a>
 
 Existem diversos tipo de _operations_ no JOLT.\
 São elas:
@@ -51,7 +49,7 @@ Cada _operation_ tem sua peculiaridade e fará a transformação de maneira dife
 Entretanto, todas elas seguem o mesmo princípio para as transformações, que é a **navegação** na estrutura do JSON de entrada.\
 Abaixo veremos com mais detalhes como isso ocorre.
 
-#### &#x20;_**shift**_ <a href="#shift" id="shift"></a>
+### **shift** <a href="#shift" id="shift"></a>
 
 Usado para alterar a estrutura de um JSON, mantendo os valores contidos neste mesmo JSON.\
 \
@@ -75,7 +73,6 @@ Temos um JSON de entrada contendo informações de Cliente:
 }
 ```
 
-\
 E queremos um novo JSON com a seguinte estrutura:
 
 ```
@@ -93,7 +90,6 @@ E queremos um novo JSON com a seguinte estrutura:
 }
 ```
 
-\
 Nossa transformação ficará:
 
 ```
@@ -113,15 +109,20 @@ Nossa transformação ficará:
 ] 
 ```
 
-\
 O que fizemos acima foi **navegar** até os **campos** de nosso interesse e informar aonde os **valores** de cada um desses campos devem ser inseridos.
 
 Através da notação **"." (ponto)**, conseguimos definir níveis no novo JSON que queremos criar.\
 Com isso, em `"nome":"customer.name"` **** pegamos o valor do campo **nome** e jogamos para o campo _**name**_ dentro do objeto _**customer**_, e em `"endereco":"customer.address.street"` **** pegamos o valor do campo **endereco** e jogamos para o campo _**street**_ dentro do objeto _**address**_ que também estará contido no objeto _**customer**_.
 
-**Dica:** podemos pegar um mesmo valor de um campo e jogá-lo para mais de 1 campo ao mesmo tempo. Em `"telefone": ["customer.phoneNumber", "customer.mobileNumber"]`, pegamos o valor do campo **telefone** e jogamos para _**phoneNumber**_ e _**mobileNumber**_, ambos dentro de _**customer**_. Essa abordagem nos permite transpor um único valor para _**n**_ novos campos.
+{% hint style="info" %}
+**Nota:** podemos pegar um mesmo valor de um campo e jogá-lo para mais de 1 campo ao mesmo tempo.&#x20;
+{% endhint %}
 
-_**Obs.:** Nesta operation, apenas os campos manipulados na transformação serão considerados, sendo assim, qualquer dado no JSON de entrada que não for utilizado será descartado._
+Em `"telefone": ["customer.phoneNumber", "customer.mobileNumber"]`, pegamos o valor do campo **telefone** e jogamos para _**phoneNumber**_ e _**mobileNumber**_, ambos dentro de _**customer**_. Essa abordagem nos permite transpor um único valor para _**n**_ novos campos.
+
+{% hint style="warning" %}
+**IMPORTANTE:** Nesta operation, apenas os campos manipulados na transformação serão considerados, sendo assim, qualquer dado no JSON de entrada que não for utilizado será descartado.
+{% endhint %}
 
 JSON final:
 
@@ -140,16 +141,15 @@ JSON final:
 }
 ```
 
-\
-
-
-#### _**default**_ <a href="#default" id="default"></a>
+### **default**
 
 Usado para adicionar novos campos ou objetos em um JSON, caso esses não existam previamente.\
 \
 Sua utilização consiste em navegar na estrutura do JSON até o nível desejado e inserir o campo ou objeto com seu respectivo valor.
 
-_**Obs.:**_** ** _Caso o campo declarado na transformação já exista no JSON de entrada, a transformação não terá efeito._
+{% hint style="warning" %}
+**IMPORTANTE:** Caso o campo declarado na transformação já exista no JSON de entrada, a transformação não terá efeito.
+{% endhint %}
 
 Vejamos o exemplo abaixo:
 
@@ -164,7 +164,6 @@ Temos um JSON de entrada contendo informações de Cliente:
 }
 ```
 
-\
 Entretanto, precisamos de um JSON que além das informações de nome e cpf também contenha a data de nascimento do cliente.
 
 ```
@@ -178,7 +177,6 @@ Entretanto, precisamos de um JSON que além das informações de nome e cpf tamb
 
 ```
 
-\
 Nossa transformação ficará:
 
 ```
@@ -194,11 +192,9 @@ Nossa transformação ficará:
 ]
 ```
 
-\
 Acima nós navegamos até o objeto **cliente** e adicionamos o campo **dataNascimento** com um valor padrão.
 
-\
-_**remove**_
+### **remove**
 
 Usado para remover campos ou objetos de um JSON.\
 \
@@ -218,7 +214,6 @@ Temos um JSON de entrada contendo informações de Cliente:
 }
 ```
 
-\
 Entretanto, precisamos de um JSON que contenha apenas as informações de nome e cpf do cliente:
 
 ```
@@ -230,7 +225,6 @@ Entretanto, precisamos de um JSON que contenha apenas as informações de nome e
 }
 ```
 
-\
 Nossa transformação ficará:
 
 ```
@@ -246,16 +240,17 @@ Nossa transformação ficará:
 ]
 ```
 
-\
-O que fizemos acima foi apenas navegar até o campo **dataNascimento** e atribuí-lo para **" " (aspas vazias)**.\
+O que fizemos acima foi apenas navegar até o campo **dataNascimento** e atribuí-lo para **" " (aspas vazias)**.
+
 O campo a ser removido deve ser **sempre** atribuído à uma String vazia(""), caso contrário teremos uma quebra na transformação e a mesma não ocorrerá.
 
-\
-_**sort**_
+### **sort**
 
 Usado para ordenar campos ou objetos de um JSON em ordem alfabética.
 
-_**Obs.:** A ordenação dos campos ou objetos não pode ser configurada, portanto todo JSON será afetado. Apenas os nome dos **campos** recebem a ordenação e não seus valores._
+{% hint style="warning" %}
+**IMPORTANTE:** A ordenação dos campos ou objetos não pode ser configurada, portanto todo JSON será afetado. Apenas os nome dos **campos** recebem a ordenação e não seus valores.
+{% endhint %}
 
 Vejamos o exemplo abaixo:
 
@@ -272,7 +267,6 @@ Temos um JSON de entrada contendo informações de Funcionários:
 }
 ```
 
-\
 Precisamos que todos os campos contidos no JSON sejam ordenados em ordem alfabética:
 
 ```
@@ -287,8 +281,8 @@ Precisamos que todos os campos contidos no JSON sejam ordenados em ordem alfabé
 }
 ```
 
-\
-Para a _operation sort_, não precisamos definir o objeto **"spec"** que sempre usamos junto do campo **"operation"**.\
+Para a _operation sort_, não precisamos definir o objeto **"spec"** que sempre usamos junto do campo **"operation"**.
+
 Nossa transformação será apenas:
 
 ```
@@ -299,11 +293,13 @@ Nossa transformação será apenas:
 ]
 ```
 
-**Cardinality**
+### **cardinality**
 
 Usado para transformarmos campos e objetos simples em objetos listas e vice-versa.
 
-_**Obs.:** Quando transformamos um objeto lista para um campo ou objeto simples, apenas o primeiro item da lista será considerado._
+{% hint style="warning" %}
+**IMPORTANT:** Quando transformamos um objeto lista para um campo ou objeto simples, apenas o primeiro item da lista será considerado.
+{% endhint %}
 
 Vejamos o exemplo abaixo:
 
@@ -319,7 +315,6 @@ Temos um JSON de entrada contendo informações de Produtos:
 }
 ```
 
-\
 Precisamos transformar o **objeto** "produtos" em uma **lista**:
 
 ```
@@ -332,7 +327,6 @@ Precisamos transformar o **objeto** "produtos" em uma **lista**:
 }
 ```
 
-\
 Nossa transformação será:
 
 ```
@@ -390,7 +384,7 @@ Nossa transformação ficará:
 ]
 ```
 
-### **Aprofundando o conhecimento** <a href="#aprofundando-o-conhecimento" id="aprofundando-o-conhecimento"></a>
+## **Aprofundando o conhecimento** <a href="#aprofundando-o-conhecimento" id="aprofundando-o-conhecimento"></a>
 
 Até aqui vimos conceitos essenciais para o entendimento e utilização do JOLT, porém antes de conhecermos as _operations_ restantes, precisamos conhecer alguns conceitos mais elaborados.
 
@@ -431,10 +425,12 @@ Um mesmo curinga pode ter funções diferentes dependendo de sua aplicação **(
 
 Abaixo veremos suas definições e alguns exemplos de aplicações.
 
-#### **&** <a href="#h_6c3778d162" id="h_6c3778d162"></a>
+### **&** <a href="#h_6c3778d162" id="h_6c3778d162"></a>
 
-Usa o conteúdo do que está declarado no **LHS** para compor a estrutura do JSON de saída, sem a necessidade de explicitar este conteúdo na transformação.\
-Este curinga usa como base a **navegação** feita durante a transformação.\
+Usa o conteúdo do que está declarado no **LHS** para compor a estrutura do JSON de saída, sem a necessidade de explicitar este conteúdo na transformação.
+
+Este curinga usa como base a **navegação** feita durante a transformação.
+
 Uso: **RHS**\
 _Operations_: shift
 
@@ -476,12 +472,12 @@ Nossa transformação ficará:
 
 Em **&**, pegamos os valores dos campos "nome" e "email", e atribuímos para outros campos chamados "nome" e "email" dentro do objeto "cliente" . Dessa forma criamos um novo JSON mantendo a estrutura dos campos do JSON de entrada.
 
-#### **\* (asterisco)** <a href="#asterisco" id="asterisco"></a>
+### **\* (asterisco)** <a href="#asterisco" id="asterisco"></a>
 
-Referencia todos os campos e objetos de um JSON sem a necessidade de explicitar seus nomes na transformação.\
+Referencia todos os campos e objetos de um JSON sem a necessidade de explicitar seus nomes na transformação.
+
 Uso: **LHS**\
-_Operations_: shift, remove, cardinality, modify-default-beta e modify-overwrite-beta\
-
+_Operations_: shift, remove, cardinality, modify-default-beta e modify-overwrite-beta
 
 Exemplo:
 
@@ -525,14 +521,14 @@ Nossa transformação ficará:
 ]
 ```
 
-\
 Na linha `"*": "cliente.&"`, estamos pegando qualquer conteúdo que exista no JSON de entrada e colocando em um objeto de nome "cliente" mantendo toda a estrutura de qualquer que seja esse conteúdo. Já para o campo "documento", estamos pegando seu valor e atribuindo a um campo de nome "cpf" também dentro do objeto "cliente".
 
 O uso do curinga **\*** junto do **&** faz com que para cada campo que o **\*** encontre, o **&** manterá seu nome e valor. Essa utilização combinada de curingas é muito útil pois nos permite manipular um JSON sem a necessidade de conhecer e declarar seu conteúdo.
 
-#### **@** <a href="#h_e18ce3599b" id="h_e18ce3599b"></a>
+### **@** <a href="#h_e18ce3599b" id="h_e18ce3599b"></a>
 
-Referencia o valor de um campo ou objeto contido no JSON de entrada, porém possui efeitos diferentes dependendo de sua aplicação.\
+Referencia o valor de um campo ou objeto contido no JSON de entrada, porém possui efeitos diferentes dependendo de sua aplicação.
+
 Uso: **LHS** e **RHS**\
 _Operations_: shift (LHS e RHS), modify-default-beta (RHS) e modify-overwrite-beta (RHS).
 
@@ -624,9 +620,10 @@ A diferença entre modify-default-beta e modify-overwrite-beta é que na **modif
 
 Já para a **modify-overwrite-beta** a inclusão do campo empresa será feita mesmo que já exista o campo "empresa" dentro de "produto". Como o próprio nome _overwrite_ sugere, caso o conteúdo que queremos adicionar já exista no JSON de entrada, ele sempre será sobrescrito.
 
-#### **$** <a href="#h_e8ce5bfd26" id="h_e8ce5bfd26"></a>
+### **$** <a href="#h_e8ce5bfd26" id="h_e8ce5bfd26"></a>
 
-Referencia o **nome** de um campo ou objeto contido no JSON de entrada para ser usado como **valor** de um campo ou objeto no JSON de saída.\
+Referencia o **nome** de um campo ou objeto contido no JSON de entrada para ser usado como **valor** de um campo ou objeto no JSON de saída.
+
 Uso: **LHS**\
 _Operations_: shift
 
@@ -679,10 +676,12 @@ O que fizemos foi selecionar todos **(\*)** os campos do objeto "produto", em se
 
 Dessa forma podemos obter o nome de cada campo e não seus valores.
 
-#### **#** <a href="#h_3c37ac906e" id="h_3c37ac906e"></a>
+### **#** <a href="#h_3c37ac906e" id="h_3c37ac906e"></a>
 
-Se usado no **LHS**, tem a função de inserir valores manualmente no JSON de saída.\
-Já no **RHS**, é aplicável apenas para a criação de **listas** e tem a função de agrupar determinado conteúdo do JSON de entrada dentro da lista a ser criada.\
+Se usado no **LHS**, tem a função de inserir valores manualmente no JSON de saída.
+
+Já no **RHS**, é aplicável apenas para a criação de **listas** e tem a função de agrupar determinado conteúdo do JSON de entrada dentro da lista a ser criada.
+
 Uso: **LHS** e **RHS**\
 _Operations_: shift
 
@@ -793,9 +792,10 @@ Ou seja, em `"codigo": "produtos[#2].&"` estamos pegando o valor do campo "codig
 
 Porém no momento da criação da lista "produtos" olharemos **2 níveis** acima **(nivel da lista "listaProdutos")** e da maneira que cada item estiver agrupado em "listaProdutos", esse agrupamento será mantido na nova lista "produtos".
 
-#### **| (pipe)** <a href="#pipe" id="pipe"></a>
+### **| (pipe)** <a href="#pipe" id="pipe"></a>
 
-Permite referenciar múltiplos campos ou objetos de um JSON de entrada para que, independente do **nome** do campo ou objeto, seu valor seja alocado no mesmo **destino** no JSON de saída.\
+Permite referenciar múltiplos campos ou objetos de um JSON de entrada para que, independente do **nome** do campo ou objeto, seu valor seja alocado no mesmo **destino** no JSON de saída.
+
 Uso: **LHS**\
 _Operations_: shift
 
@@ -839,7 +839,7 @@ Entretanto, no JSON de entrada, existe a possibilidade do campo `"nomeCompleto"`
 ]
 ```
 
-#### Operations modify-default-beta e modify-overwrite-beta <a href="#operations-modify-default-beta-e-modify-overwrite-beta" id="operations-modify-default-beta-e-modify-overwrite-beta"></a>
+### Operations modify-default-beta e modify-overwrite-beta <a href="#operations-modify-default-beta-e-modify-overwrite-beta" id="operations-modify-default-beta-e-modify-overwrite-beta"></a>
 
 Como dito na explicação do **curinga @**, estas _operations_ nos permitem referenciar valores de maneira dinâmica. Enquanto a modify-default-beta atribuirá um valor a um campo caso este não exista, a modify-overwrite-beta sobrescreverá qualquer qualquer valor mesmo que o campo já exista.
 
@@ -848,18 +848,13 @@ Entretanto, a modify-overwrite-beta nos permite também aplicar **funções** em
 São elas:
 
 * **String**\
-  toLower, toUpper, concat, join, split, substring, trim, leftPad e rightPad\
-
+  toLower, toUpper, concat, join, split, substring, trim, leftPad e rightPad
 * **Number**\
-  min, max, abs, avg, intSum, doubleSum, longSum, intSubtract, doubleSubtract, longSubtract, divide e divideAndRound\
-
+  min, max, abs, avg, intSum, doubleSum, longSum, intSubtract, doubleSubtract, longSubtract, divide e divideAndRound
 * **Type**\
-  toInteger, toDouble, toLong, toBoolean, toString, recursivelySquashNulls, squashNulls, size\
-
+  toInteger, toDouble, toLong, toBoolean, toString, recursivelySquashNulls, squashNulls, size
 * **List**\
-  firstElement, lastElement, elementAt, toList, sort\
-  \
-
+  firstElement, lastElement, elementAt, toList, sort
 
 Exemplos:
 
@@ -988,9 +983,9 @@ JSON de saída:
 }
 ```
 
-_**Obs.:** Algumas funções não foram incluídas na transformação acima pois seguem o mesmo princípio de outras que foram inclusas, como por exemplo as funções **doubleSum** e **longSum** que são aplicadas da mesma forma que a **intSum**._
-
-_Referente às funções **recursivelySquashNulls** e **squashNulls**, ambas são aplicáveis apenas em **objetos** e **listas** e servem para removermos campos com valores nulos, porém enquanto a **recursivelySquashNulls** olhará para todos os níveis abaixo do objeto ou lista, a **squashNulls** olhará apenas **1** nível abaixo._
+{% hint style="info" %}
+**Note:** Algumas funções não foram incluídas na transformação acima pois seguem o mesmo princípio de outras que foram inclusas, como por exemplo as funções **doubleSum** e **longSum** que são aplicadas da mesma forma que a **intSum**. Referente às funções **recursivelySquashNulls** e **squashNulls**, ambas são aplicáveis apenas em **objetos** e **listas** e servem para removermos campos com valores nulos, porém enquanto a **recursivelySquashNulls** olhará para todos os níveis abaixo do objeto ou lista, a **squashNulls** olhará apenas **1** nível abaixo.
+{% endhint %}
 
 A modify-overwrite-beta tem sua execução em **cascata**, ou seja, cada nova transformação é impactada pelas transformações anteriores.
 
@@ -1014,8 +1009,6 @@ Em `"produto": "=toLower(@(1,produto))"` mudamos o valor de "produto" para **min
 
 Portanto no momento em que fazemos `"produto_empresa": "=concat(@(1,produto),'_',@(1,empresa))"`, estamos utilizando os valores de "produto" e "empresa" já transformados e não seus valores originais contidos no JSON de entrada, com isso teremos `"produto_empresa": "produto a_EMPRESA A"`.
 
-Para uma leitura mais técnica referente a JOLT:
-
-[Documentação JOLT github](https://github.com/bazaarvoice/jolt)
+Para uma leitura mais técnica a respeito de JOLT, acesse a [documentação sobre JOLT no GitHub](https://github.com/bazaarvoice/jolt).
 
 \
