@@ -4,8 +4,6 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # Dropbox
 
-
-
 O componente _**Dropbox**_ permite que uma conexão com o serviço Dropbox seja estabelecida, além de possibilitar as seguintes operações com arquivos: _Download_, _Upload_ e _Delete_.
 
 Dê uma olhada nos parâmetros de configuração do componente:
@@ -35,7 +33,7 @@ Além disso, é possível fazer a passagem de parâmetros (com exceção do _Acc
 }
 ```
 
-* **Saída**
+### **Saída**
 
 Ao executar o componente, a seguinte estrutura de JSON será gerada quando a operação for realizada com sucesso:
 
@@ -61,13 +59,15 @@ Caso algum erro ocorra durante a execução da operação, a seguinte estrutura 
 }
 ```
 
+{% hint style="warning" %}
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, no qual cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
+{% endhint %}
 
 ## Dropbox em Ação <a href="#h_6e5324e282" id="h_6e5324e282"></a>
 
 ### UPLOAD de um arquivo <a href="#h_1b9ed1e3e1" id="h_1b9ed1e3e1"></a>
 
-* **Entrada**
+#### **Entrada**
 
 **Arquivo local**: data.csv
 
@@ -99,7 +99,7 @@ ou
 }
 ```
 
-* **Saída**
+#### **Saída**
 
 ```
 {
@@ -112,7 +112,7 @@ ou
 
 ### DOWNLOAD de um arquivo <a href="#h_0a995bee78" id="h_0a995bee78"></a>
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -142,7 +142,7 @@ ou
 }
 ```
 
-* **Saída**
+#### **Saída**
 
 ```
 {
@@ -157,7 +157,7 @@ Será realizado o _download_ do arquivo no diretório local do _pipeline._
 
 ### DELETE de um arquivo <a href="#h_f1bc720774" id="h_f1bc720774"></a>
 
-* **Entrada**
+#### **Entrada**
 
 **Parâmetros**
 
@@ -188,7 +188,7 @@ ou
 
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
