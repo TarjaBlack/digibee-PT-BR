@@ -2,11 +2,15 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# WebDav
-
-
+# WebDav (Descontinuado)
 
 O **WebDAV** se conecta a _endpoints_ do webDAV e emite comandos de _upload_, _download_, _list_ e _delete_.
+
+Leia mais sobre nossa versão mais recente:
+
+{% content-ref url="webdav-v2.md" %}
+[webdav-v2.md](webdav-v2.md)
+{% endcontent-ref %}
 
 Dê uma olhada nos parâmetros de configuração do componente:
 

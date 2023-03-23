@@ -156,7 +156,7 @@
   * [S3 Storage](components/file-storage/s3-storage.md)
   * [SFTP](components/file-storage/sftp.md)
   * [WebDav V2](components/file-storage/webdav-v2.md)
-  * [WebDav](components/file-storage/webdav.md)
+  * [WebDav (Descontinuado)](components/file-storage/webdav.md)
 * [Files](components/files/README.md)
   * [Append Files](components/files/append-files.md)
   * [CSV to Excel](components/files/csv-to-excel.md)
