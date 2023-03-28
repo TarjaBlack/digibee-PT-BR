@@ -11,7 +11,7 @@ Os parâmetros desse componente são:
 * **Operation:** operação a ser executada: _upload_, _delete_, _download_, _list_ ou _move._
 * **Account:** conta do tipo BASIC ou PRIVATE KEY. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
 * **Host:** _host_ ou endereço IP a ser usado na conexão. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
-* **User Name:** usado apenas quando o _account type_ for PRIVATE KEY.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Username:** usado apenas quando o _account type_ for PRIVATE KEY.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
 * **Port:** número da porta. Geralmente, assume valor 22.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
 * **File Name:** nome do arquivo ou caminho completo (_full file path_) para o arquivo.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
 * **Remote File Name:** nome do arquivo remoto ou caminho relativo (_i.e. tmp/file.txt_) para o arquivo remoto.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
@@ -20,12 +20,12 @@ Os parâmetros desse componente são:
 * **Overwrite File On Upload:** se `true`, arquivos com nomes confiltantes serão substituídos ao fazer um _upload._
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
 * **Proxy Enabled:** se `true`, você poderá configurar um _proxy_ para estabelecer a conexão com o serviço de SFTP.
-  * **Host:** _host_ do _proxy._ Disponível apenas se Proxy Enabled estiver ativado. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
-  * **Port:** porta do _proxy._ Disponível apenas se Proxy Enabled estiver ativado. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Host:** _host_ do _proxy._ Disponível apenas se Proxy Enabled estiver ativado. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Port:** porta do _proxy._ Disponível apenas se Proxy Enabled estiver ativado. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
 
 ## **Fluxo de mensagens** <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-* **Saída**
+### **Saída**
 
 Ao executar um componente SFTP utilizando as operações _download, upload_ ou _move_, a seguinte estrutura de JSON será gerada:
 
@@ -75,7 +75,7 @@ Ao executar um componente SFTP utilizando a operação _list_, a seguinte estrut
 * **flag:** retorna _flags_, indicando quais atributos estão presentes
 
 {% hint style="info" %}
-A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
+**IMPORTANTE:** A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
 {% endhint %}
 
 Para entender melhor o fluxo das mensagens na Plataforma, [leia esse artigo](../../build/pipelines/processamento-de-mensagens.md).
