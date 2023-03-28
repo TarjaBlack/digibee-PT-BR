@@ -4,29 +4,26 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # SFTP
 
-O _**SFTP**_ permite estabelecer uma conexão com um serviço que suporte o protocolo SFTP (Secure File Transfer Protocol ou SSH File Transfer) e executar os comandos de _upload_, _delete_, _download_, _list_ ou _move_.
+O _**SFTP**_ se conecta a um serviço que suporte o protocolo SFTP (_Secure File Transfer Protocol_ ou _SSH File Transfer_) para fazer upload, deleção, download, listagem ou mover arquivos.
 
-Dê uma olhada nos parâmetros de configuração do componente:
+Os parâmetros desse componente são:
 
-* **Operation:** operação a ser executada, que pode ser _upload_, _delete_, _download_, _list_ ou _move._\
-
-* **Account:** para o componente fazer a autenticação a um serviço SFTP é necessário usar uma _account_ do tipo BASIC ou PRIVATE KEY. O parâmetro aceita _Double Braces_.
-* **Host:** nome do _host_ ou endereço IP para realizar a conexão. O parâmetro aceita _Double Braces_.
-* **User Name:** deve ser usado apenas quando o _account type_ for PRIVATE KEY. O parâmetro aceita _Double Braces_.
-* **Port:** número da porta - geralmente 22. O parâmetro aceita _Double Braces_.
-* **File Name:** nome do arquivo ou caminho completo (_full file path_) para o arquivo. O parâmetro aceita _Double Braces_.
-* **Remote File Name:** nome do arquivo remoto ou caminho relativo (_i.e. tmp/file.txt_) para o arquivo remoto. O parâmetro aceita _Double Braces_.
-* **Remote Directory:** campo obrigatório. Diretório remoto base, pode ser relativo (_i.e. pub/tmp_) ou absoluto (_i.e. /root/pub_). O parâmetro aceita _Double Braces_.
-* **Connection Timeout:** tempo de expiração da conexão com o servidor (em milissegundos).
-* **Overwrite File On Upload:** se "true", em caso de arquivos com nomes conflitantes o arquivo será substituído durante o _upload._
+* **Operation:** operação a ser executada: _upload_, _delete_, _download_, _list_ ou _move._
+* **Account:** conta do tipo BASIC ou PRIVATE KEY. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Host:** _host_ ou endereço IP a ser usado na conexão. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **User Name:** usado apenas quando o _account type_ for PRIVATE KEY.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Port:** número da porta. Geralmente, assume valor 22.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **File Name:** nome do arquivo ou caminho completo (_full file path_) para o arquivo.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Remote File Name:** nome do arquivo remoto ou caminho relativo (_i.e. tmp/file.txt_) para o arquivo remoto.  Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Remote Directory:** Diretório remoto base, pode ser relativo (_i.e. pub/tmp_) ou absoluto (_i.e. /root/pub_).  Esse parâmetro é obrigatório. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+* **Connection Timeout:** tempo limite de expiração da conexão com o servidor (em milissegundos).
+* **Overwrite File On Upload:** se `true`, arquivos com nomes confiltantes serão substituídos ao fazer um _upload._
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
-* **Proxy Enabled:** se "true", permite a configuração de um _proxy_ para estabelecer a conexão com o serviço de SFTP.
-* **Host:** _host_ do _proxy._ O parâmetro aceita _Double Braces_.
-* **Port:** porta do _proxy._ O parâmetro aceita Double Braces.
+* **Proxy Enabled:** se `true`, você poderá configurar um _proxy_ para estabelecer a conexão com o serviço de SFTP.
+  * **Host:** _host_ do _proxy._ Disponível apenas se Proxy Enabled estiver ativado. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
+  * **Port:** porta do _proxy._ Disponível apenas se Proxy Enabled estiver ativado. Esse campo aceita [expressões Double Braces](../../build/double-braces/).
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
-
-### **Fluxo de mensagens** <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
+## **Fluxo de mensagens** <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
 * **Saída**
 
@@ -77,6 +74,8 @@ Ao executar um componente SFTP utilizando a operação _list_, a seguinte estrut
 * **modified:** data da última modificação
 * **flag:** retorna _flags_, indicando quais atributos estão presentes
 
-**IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
+{% hint style="info" %}
+A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
+{% endhint %}
 
-Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
+Para entender melhor o fluxo das mensagens na Plataforma, [leia esse artigo](../../build/pipelines/processamento-de-mensagens.md).
