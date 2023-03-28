@@ -38,10 +38,10 @@ Ao executar um componente SFTP utilizando as operações _download, upload_ ou _
 }
 ```
 
-* **fileName:** nome do arquivo local
-* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto
-* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto)
-* **success:** "true" se a operação foi bem sucedida, "false" caso contrário
+* **fileName:** nome do arquivo local.
+* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto.
+* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto).
+* **success:** "true" se a operação foi bem sucedida, "false" caso contrário.
 
 Ao executar um componente SFTP utilizando a operação _list_, a seguinte estrutura de JSON será gerada:
 
@@ -63,16 +63,16 @@ Ao executar um componente SFTP utilizando a operação _list_, a seguinte estrut
 }
 ```
 
-* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto)
-* **success:** "true" se a operação foi bem sucedida, "false" caso contrário
-* **content:** a lista de arquivos no _remoteDirectory_
-* **file:** nome do arquivo
-* **size:** tamanho do arquivo
-* **isDirectory:** se o objeto retornado é um diretório, será exibido “true”; se for um arquivo, será exibido “false”
-* **permissions:** uma _string_ contendo o tipo de permissão dada ao objeto
-* **accessed:** data do último acesso
-* **modified:** data da última modificação
-* **flag:** retorna _flags_, indicando quais atributos estão presentes
+* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto).
+* **success:** "true" se a operação foi bem sucedida, "false" caso contrário.
+* **content:** a lista de arquivos no _remoteDirectory._
+* **file:** nome do arquivo.
+* **size:** tamanho do arquivo.
+* **isDirectory:** se o objeto retornado é um diretório, será exibido “true”; se for um arquivo, será exibido “false”.
+* **permissions:** uma _string_ contendo o tipo de permissão dada ao objeto.
+* **accessed:** data do último acesso.
+* **modified:** data da última modificação.
+* **flag:** retorna _flags_, indicando quais atributos estão presentes.
 
 {% hint style="info" %}
 **IMPORTANTE:** A manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
