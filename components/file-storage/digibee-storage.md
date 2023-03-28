@@ -11,7 +11,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Operation:** operação a ser executada (_Upload_, _Download_, _List_ ou _Delete_).
 * **File Name:** nome do arquivo ou caminho completo (full file path) para o arquivo local, disponível apenas nas operações _Download_ e _Upload_. Este parâmetro aceita _Double Braces_.
 * **Remote File Name:** nome do arquivo remoto ou caminho relativo (ex.: _tmp/file.txt_) para o arquivo remoto. Este parâmetro aceita _Double Braces_ e é apresentado nas operações _Download_, _Upload e Delete_.
-* **Page Size:** tamanho da página, ou seja, a quantidade de itens a serem retornados quando a operação _List_ é utilizada. Se o valor não for especificado, todos os itens são retornados. Caso haja mais itens do que a quantidade determinada neste parâmetro, é possível solicitar uma segunda página (veja _Page Token_), a qual retorna os itens restantes.
+* **Page Size:** tamanho da página, ou seja, a quantidade de itens a serem retornados quando a operação _List_ é utilizada. Se o valor não for especificado, todos os itens são retornados. Caso haja mais itens do que a quantidade determinada neste parâmetro, é possível solicitar uma segunda página (veja _Page Token_), a qual retorna os itens restantes. Disponível apenas se o parâmetro Operação assumir valor List.
 * **Page Token:** _token_ utilizado para solicitar a próxima página quando a operação _List_ é executada\_.\_ Nessa próxima página será retornada a quantidade de itens definidos no parâmetro _Page Size_.
 * **Remote Directory:** diretório remoto base no qual será realizada a operação selecionada. Este parâmetro aceita _Double Braces_ e é apresentado nas operações _List_, _Download_, _Upload_ e _Delete_.
 * **Generate Download Link:** se a opção estiver ativada, um _link_ público para _download_ do arquivo é gerado. Este parâmetro é aplicável apenas na operação _Upload_.
@@ -136,7 +136,7 @@ Ao executar o componente utilizando as operações _Download, Upload_ e _Delete_
 
 Como é possível ver, o resultado acima retorna a propriedade _pageToken_ com um valor de referência para a próxima página. Essa propriedade será retornada quando o parâmetro _Page Size_ é configurado (no exemplo está definido com o valor 2) e também quando há mais arquivos a serem listados.
 
-* #### LIST de vários arquivos usando paginação <a href="#h_739c9f3068" id="h_739c9f3068"></a>
+* **LIST de vários arquivos usando paginação**
 
 **Entrada**
 
