@@ -188,7 +188,6 @@
     * [JMS: Video sobre Funcionamento](components/queues-and-messaging/jms/jms-video-sobre-funcionamento.md)
   * [Kafka](components/queues-and-messaging/kafka.md)
   * [RabbitMQ](components/queues-and-messaging/rabbitmq.md)
-  * [SQS](components/queues-and-messaging/sqs.md)
   * [SQS (AWS) V2](components/queues-and-messaging/sqs-aws-new.md)
 * [Security components](components/security-components/README.md)
   * [AES Cryptography](components/security-components/aes-cryptography.md)
