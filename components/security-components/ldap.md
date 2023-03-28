@@ -19,6 +19,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Filter:** expressões de filtros.
 * **Entries:** expressão _JSON_ que representa as entradas que serão adicionadas ou modificadas. Suporta expressões de _Double Braces._
 * **SSL:** protocolo de segurança.
+* **Custom SSL certificate:** define o certificado personalizado que pode ser usado para a conexão segura. Este campo suporta expressões _Double Braces._
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
 {% hint style="info" %}
