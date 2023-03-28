@@ -138,7 +138,6 @@
   * [REST Trigger](components/triggers/rest-trigger.md)
   * [Scheduler Trigger](components/triggers/scheduler-trigger.md)
   * [Configurações de Triggers](components/triggers/configuracoes-de-triggers/README.md)
-    * [Nova interface de configuração e rotas personalizáveis](components/triggers/configuracoes-de-triggers/nova-interface-de-configuracao-e-rotas-personalizaveis.md)
     * [Configuração Global de CORS](components/triggers/configuracoes-de-triggers/configuracao-global-de-cors.md)
     * [mTLS](components/triggers/configuracoes-de-triggers/mtls.md)
   * [Email Trigger](components/triggers/email-trigger.md)
