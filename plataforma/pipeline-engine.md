@@ -81,7 +81,7 @@ Nesse caso, é possível configurar o _pipeline_ para definir a abordagem em cas
 
 Quando essa opção estiver ativada, o _pipeline_ aceita que a mensagem seja reprocessada. Quando desativada, o _pipeline_ recebe a mensagem, detecta que se trata de um reprocessamento e a recusa por meio de um erro.
 
-O tempo de retentativas da mensagem será o tempo do Maximum Timeout definido no trigger do pipeline, no caso de um pipeline com trigger Event será o tempo determinado no Expiration.
+O tempo de retentativas da mensagem será o tempo do Maximum Timeout definido no trigger do pipeline, no caso de um pipeline com Event Trigger será o tempo determinado no Expiration.
 
 Também é possível detectar se a mensagem em execução é reprocessada ou não. Para fazer isso, basta utilizar a linguagem _Double Braces_ acessando o escopo de metadados. Exemplo:
 
