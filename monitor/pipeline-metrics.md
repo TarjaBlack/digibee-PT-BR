@@ -28,7 +28,7 @@ Esse gráfico mostra o número médio de execuções por segundo, em diversos in
 
 Esse gráfico mostra o tempo médio (em milissegundos) decorridos para que o pipeline gerasse uma resposta, em diversos intervalos de tempo durante o período de tempo selecionado, para todas as réplicas.
 
-O tempo de reposta é dado pelo tempo decorrido entre a saída da mensagem da fila de execução e uma resposta ser gerada pelo pipeline. Contenções na fila de execução não afetam essa métrica.
+O tempo de resposta é dado pelo tempo decorrido entre a saída da mensagem da fila de execução e uma resposta ser gerada pelo pipeline. Contenções na fila de execução não afetam essa métrica.
 
 Você pode aprender mais sobre filas de execução na seção "Mensagens de Pipeline na Fila (mensagens)" abaixo.
 
