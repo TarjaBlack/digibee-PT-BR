@@ -4,9 +4,11 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # FTP
 
-O _**FTP**_ permite estabelecer uma conexão com um serviço que suporte o protocolo FTP (_File Transfer Protocol_) e executar os comandos de _upload_, _delete_, _download_, _list_ ou _move_.
+O _**FTP**_ permite estabelecer uma conexão com um serviço que suporte o protocolo FTP (_File Transfer Protocol_) e executar os comandos de _Upload_, _Delete_, _Download_, _List_ ou _Move_.
 
+{% hint style="info" %}
 **Nota:** O conector _FTP_ não funciona via VPN (_Virtual Private Network_). Um diretório FTP poderá ser acessado no _pipeline_ apenas se estiver exposto na internet, e redes VPN não se aplicam a esta regra.
+{% endhint %}
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
@@ -14,29 +16,29 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Account:** para o componente fazer a autenticação a um serviço FTP é necessário usar uma _account_ do tipo BASIC.
 * **Host:** nome do _host_ ou endereço IP para realizar a conexão. Este parâmetro aceita _Double Braces_.
 * **Port:** número da porta - geralmente 21 para FTP e 990 para FTPS. Este parâmetro aceita _Double Braces_.
-* **Operation:** operação a ser executada, que pode ser _upload_, _download_, listagem, _delete_ ou _move_.
+* **Operation:** operação a ser executada, que pode ser _Upload_, _Delete_, _Download_, _List_ ou _Move_.
 * **File Name:** nome do arquivo ou caminho completo (_full file path_) para o arquivo. Este parâmetro aceita _Double Braces_.
-* **Remote File Name:** nome do arquivo remoto ou caminho relativo (ex.: _tmp/file.txt_) para o arquivo remoto. Este parâmetro aceita _Double Braces_.
-* **Remote Directory:** campo obrigatório. Diretório remoto base, que pode ser relativo (ex.: _pub/tmp_) ou absoluto (ex.: _/root/pub_). Este parâmetro aceita _Double Braces_.\
-
-* **Binary File:** se "true", a transferência de arquivos será feita no modo binário (TYPE I ou Image); caso "false" o modo texto simples (TYPE A ou ASCII) será utilizado.
+* **Remote File Name:** nome do arquivo remoto ou caminho relativo (ex.: tmp/file.txt) para o arquivo remoto. Este parâmetro aceita _Double Braces_.
+* **Remote Directory:** campo obrigatório. Diretório remoto base, que pode ser relativo (ex.: _pub/tmp_) ou absoluto (ex.: __ /root/pub). Este parâmetro aceita _Double Braces_.
+* **Binary File:** se _"true"_, a transferência de arquivos será feita no modo binário (TYPE I ou Image); caso _"false"_ o modo texto simples (TYPE A ou ASCII) será utilizado.
 * **Connection Timeout:** tempo de expiração da conexão com o servidor (em milissegundos).
 * **Data Timeout:** tempo de expiração para transferência de cada arquivo (em milissegundos).
-* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 * **FTP Security:** se a opção estiver ativada, o FTP é acessado de modo seguro FTPS (FTP-SSL ou FTP Secure).
-* **SSL:** se a opção estiver ativada, o FTP é acessado com o protocolo criptográfico SSL (Secure Sockets Layer).
+* **SSL:** se a opção estiver ativada, o FTP é acessado com o protocolo criptográfico SSL (_Secure Sockets Layer_).
 * **Implicit:** se a opção estiver ativada, a conexão SSL é estabelecida através da porta 990 antes mesmo do _login_ ou antes da transferência de arquivos.
-* **Security Protocol:** tipo de protocolo de segurança que será utilizado - SSL (Secure Sockets Layer) ou TLS (Transport Layer Security).
+* **Remote Verification:** se a opção estiver ativada, permite a verificação do _host_ remoto para confirmar se o _host_ conectado é o mesmo _host_ que está conectado à conexão de controle.
+* **Security Protocol:** tipo de protocolo de segurança que será utilizado - SSL (_Secure Sockets Layer_) ou TLS (_Transport Layer Security_).
 * **Execution Type Protocol:** _private_, _clear_, _confidential_ ou _safe_.
 * **Buffer Size:** tamanho de _buffer_ do canal de dados seguros.
 
-**IMPORTANTE:** note que alguns dos parâmetros acima suportam _Double Braces_. Para entender como essa linguagem funciona, leia o nosso artigo clicando [aqui](broken-reference).
+Alguns dos parâmetros acima suportam _Double Braces_. [Para entender como essa linguagem funciona, leia a documentação](../../build/double-braces/).
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
 ### Saída <a href="#sada" id="sada"></a>
 
-Ao executar um componente FTP utilizando as operações _download, upload_ ou _move_, a seguinte estrutura de JSON será gerada:
+Ao executar um componente FTP utilizando as operações _Download, Upload_ ou _Move_, a seguinte estrutura de JSON será gerada:
 
 ```
 {
@@ -63,12 +65,12 @@ Ao executar um componente FTP utilizando as operações _download, upload_ ou _m
 
 ```
 
-* **fileName:** nome do arquivo local
-* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto
-* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto)
-* **success:** "true" se a operação sucedeu, "false" caso contrário
+* **fileName:** nome do arquivo local.
+* **remoteFileName:** caminho do arquivo remoto ou caminho relativo do arquivo remoto.
+* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto).
+* **success:** "true" se a operação sucedeu, "false" caso contrário.
 
-Ao executar um componente FTP utilizando as operação _list_, a seguinte estrutura de JSON será gerada:
+Ao executar um componente FTP utilizando a operação _List_, a seguinte estrutura de JSON será gerada:
 
 ```
 {
@@ -81,11 +83,13 @@ Ao executar um componente FTP utilizando as operação _list_, a seguinte estrut
 }
 ```
 
-* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto)
-* **success:** "true" se a operação sucedeu, "false" caso contrário
-* **content:** a lista de arquivos no _remoteDirectory_
-* **file:** nome do arquivo
+* **remoteDirectory:** caminho do diretório remoto base (relativo ou absoluto).
+* **success:** "true" se a operação sucedeu, "false" caso contrário.
+* **content:** a lista de arquivos no "_remoteDirectory"._
+* **file:** nome do arquivo.
 
+{% hint style="info" %}
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Os arquivos ficam disponíveis em diretório temporário que somente o _pipeline_ sendo executado tem acesso.
+{% endhint %}
 
-Para entender melhor o fluxo das mensagens na Plataforma, clique [aqui](../../build/pipelines/processamento-de-mensagens.md) e leia o nosso artigo.
+Para entender melhor o fluxo das mensagens na Digibee Integration Platform, [leia a documentação sobre Processamento de mensagens](../../build/pipelines/processamento-de-mensagens.md).
