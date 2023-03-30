@@ -12,6 +12,8 @@ Para realizar cada ação descrita nesta página, você deve ter sua respectiva 
 Quando você cria, edita ou arquiva um usuário, essas ações são registradas no histórico de alterações da página Auditoria.
 {% endhint %}
 
+Usuários são indivíduos que têm acesso à Digibee Integration Platform. Cada conta de usuário é identificada de maneira única por seu e-mail.
+
 ## A página de usuários <a href="#_evy0e5xts9nd" id="_evy0e5xts9nd"></a>
 
 A página Usuários mostra uma tabela com os usuários ativos em seu _realm_.

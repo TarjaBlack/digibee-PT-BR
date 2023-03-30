@@ -8,6 +8,8 @@ Usando o controle de acesso do Digibee, o gerenciador de acesso pode determinar 
 
 ## Usuários, grupos e papéis
 
+A Digibee usa um modelo de controle de acesso baseado em papéis (_Role-based access control_, ou RBAC, em inglês). Esse modelo restringe o acesso a certos recursos do sistema com base nos papéis atribuídos a grupos de usuários.
+
 Na Digibee Integration Platform, as permissões são gerenciadas associando **usuários** a **grupos**. Os grupos, por sua vez, são associados a **papéis**. Um papel é um conjunto de permissões. Essas permissões podem mudar de acordo com o ambiente no qual o usuário está: test ou prod.
 
 Para acessar a Digibee Integration Platform, os usuários devem estar atribuídos a pelo menos um grupo. Usuários podem pertencer a vários grupos ao mesmo tempo.

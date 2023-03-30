@@ -12,7 +12,9 @@ Para realizar cada ação descrita nesta página, você deve ter sua respectiva 
 Quando você cria, edita ou arquiva um grupo, essas ações são registradas no histórico de alterações na página Auditoria.
 {% endhint %}
 
-### A página de Grupos <a href="#_w5vdysfjsn4u" id="_w5vdysfjsn4u"></a>
+Um grupo é um conjunto de usuários que pode ser vinculado a um ou mais papéis.
+
+## A página de grupos <a href="#_w5vdysfjsn4u" id="_w5vdysfjsn4u"></a>
 
 A página Grupos exibe uma tabela que mostra os grupos ativos em seu domínio. Esta tabela mostra o **nome**, **descrição** e **número de membros** de cada grupo.
 

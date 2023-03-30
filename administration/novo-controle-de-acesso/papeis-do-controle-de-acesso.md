@@ -12,7 +12,9 @@ Para realizar cada ação descrita nesta página, você deve ter sua respectiva 
 Quando você cria, edita ou arquiva uma papel, essas ações são registradas no histórico de alterações na página Auditoria.
 {% endhint %}
 
-## A página Papéis <a href="#_9d3g2kn3fxhi" id="_9d3g2kn3fxhi"></a>
+Um papel é um conjunto de permissões que podem ser atribuídas a grupos. Essas permissões podem mudar de acordo com o ambiente no qual o usuário está: **test** ou **production**.
+
+## A página de papéis <a href="#_9d3g2kn3fxhi" id="_9d3g2kn3fxhi"></a>
 
 A página **Papéis** exibe uma tabela com papéis ativos em seu _realm_.
 
