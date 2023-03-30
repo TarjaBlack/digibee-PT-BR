@@ -6,11 +6,9 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 O **Stored Procedure** realiza operações através de uma conexão com um banco de dados e retorna dados de procedimento como um único objeto de JSON.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **IMPORTANTE:** cuidado com o consumo de memória para _datasets_ grandes. BLOB e CLOB ainda não são suportados.
 {% endhint %}
-
-
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
@@ -48,14 +46,16 @@ Digamos que você queira realizar uma chamada a um procedimento com um parâmetr
 * SQL Server:
 * exec proc :?{in; variable}
 
+{% hint style="warning" %}
 **IMPORTANTE:** ainda não é possível configurar o tipo IN (VARCHAR, FLOAT, INTEGER, etc.).
+{% endhint %}
 
 ### Saída <a href="#sada" id="sada"></a>
 
 * :?{out;propertyToOutput;Type;java\_type\_library}
 * **out:** tipo de parâmetro (obrigatório)
 * **propertyToOutput:** nome da propriedade que o componente mostrará no resultado (obrigatório)
-* **Tipo:** CURSOR, VARCHAR, NUMERIC, FLOAT, etc. (obrigatório)
+* **Type:** CURSOR, VARCHAR, NUMERIC, FLOAT, etc. (obrigatório)
 * **java\_type\_library:** caso você precise utilizar um procedimento em que OUT seja um Oracle CURSOR, será necessário especificar a seguinte Biblioteca: oracle.jdbc.OracleTypes (opcional)
 
 **Exemplo**
@@ -75,9 +75,8 @@ Digamos que você queira realizar uma chamada a um procedimento com um parâmetr
 * **variable1:** nome da variável que veio com a entrada de JSON no corpo da solicitação (obrigatório)
 * **out:** tipo de parâmetro (obrigatório)
 * **propertyToOutput:** nome da propriedade que o componente mostrará no resultado (obrigatório)
-* **Tipo:** CURSOR, VARCHAR, NUMERIC, FLOAT, etc. (obrigatório)
-* **java\_type\_library:** caso você precise utilizar um procedimento em que OUT seja um Oracle CURSOR, será necessário especificar a seguinte Biblioteca: oracle.jdbc.OracleTypes (opcional)
-* propertyToOutput: the property's name that this connector will show in the result (mandatory)
+* **Type:** CURSOR, VARCHAR, NUMERIC, FLOAT, etc. (obrigatório)
+* **java\_type\_library:** caso você precise utilizar um procedimento em que OUT seja um Oracle CURSOR, será necessário especificar a seguinte Biblioteca: oracle.jdbc.OracleTypes (opcional).
 
 **Exemplo**
 
