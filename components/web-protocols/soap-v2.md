@@ -34,8 +34,17 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Override Response Charset:** quando ativada, a opção irá sobrescrever o charset retornado do endpoint para o charset especificado na propriedade Response Charset. Quando desabilitada ela respeitará o retorno do charset no header Content-Type. Caso não retorne nenhum charset no content type o padrão utilizado será UTF-8.
 * **Response Charset:** utilizado somente quando a opção Override Response Charset estiver ativa e forçará o uso do charset especificado nesta propriedade. Padrão: UTF-8.
 
+## Fluxo de mensagens
+
+### Entrada
+
 ```
 body: “<a><b>{{ message.b }}</b><#list><references as reference><c>${reference.name}</c></references></#list></a>”
+```
+
+### Saída
+
+```
 {
     headers: {{ message.headers }},
     queryParams: {{ message.queryParams }},
@@ -47,11 +56,15 @@ body: “<a><b>{{ message.b }}</b><#list><references as reference><c>${reference
 }
 ```
 
-**Sobre o template variável**
+## SOAP V2 em ação
+
+### **Sobre o template variável**
 
 O nome da variável também pode conter sinal de menos (-), ponto (.) e dois pontos (:) em qualquer posição, desde que eles sejam acompanhados de uma barra invertida (\\) logo antes. Do contrário, os sinais podem ser interpretados como operadores.
 
-**Sobre substituição de números**
+### **Sobre substituição de números**
+
+### Entrada
 
 ```html
 <#assign x=42>
@@ -63,7 +76,7 @@ O nome da variável também pode conter sinal de menos (-), ponto (.) e dois pon
   ${x?string.computer}
 ```
 
-**Resultado**
+### **Saída**
 
 ```
 42
@@ -74,13 +87,13 @@ $42.00
 42
 ```
 
-**Formato de número**
+### **Formato de número**
 
 ```
 <#setting number_format="0.####">
 ```
 
-Para verificar se o campo não é nulo:
+### Para verificar se o campo não é nulo
 
 ```
 <#if varTest??>${varTest}</#if>
