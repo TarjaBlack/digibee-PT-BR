@@ -34,6 +34,25 @@ Os alertas de **Aviso** exibem pontos de melhoria na construção do _pipeline_.
 
 * Boas práticas: hábitos de construção que tornam seu _pipeline_ mais saudável, e podem facilitar futuras manutenções e melhorias.
 
+## Lista de alertas
+
+Para cada problema encontrado durante a construção de pipelines, um alerta é mostrado em seu componente de origem e em uma lista. Os alertas são divididos seguindo as categorias acima e é possível visualizar quantos alertas de cada tipo há separadamente.\
+
+
+À partir da lista é possível:
+
+1\. Visualizar a imagem e nome do componente com problema junto a uma descrição e link para documentação com orientações sobre como resolvê-lo.
+
+2\. Esconder os alertas temporariamente.
+
+3\. Navegar entre os sub-níveis do pipeline até o componente com erro.
+
+4\. Abrir o formulário de configuração do componente para editá-lo.
+
+<figure><img src="https://lh5.googleusercontent.com/61aaGRoKfmLr2Jt5ItNDcwgstJCq90MZSbig3cy_FW2WRLpOlMzDSNbB6ahkGCxG15sMds0UNVDi1yv6y7nYYTueZ6OwvtFyEnp9d5Z2Ayx2S60WMI9aGX5BWoaAzlPG8OYAwk3z7-Q2IaFofgLtLKs" alt=""><figcaption></figcaption></figure>
+
+Para visualizar a lista, basta clicar no ícone![](https://lh5.googleusercontent.com/wZYM7meIdyA5nNTJ6eFF6oGeGdiYmibzKWph4gkpok0NgMs866kLRHFQokvmBW5T7gfJsGpQjarh1WnsbKn8ugElhwisrANN\_jawM-8orE0plP5deNJRkqhPoYGEdGvs1eLTzoPwoRaXRP24zJsmMc4) localizado na barra de tarefas.
+
 ## Corrigir problemas <a href="#h_b0ce49bd21" id="h_b0ce49bd21"></a>
 
 Todas as validações do Novo _Canvas_ apresentam informações que te ajudam a corrigir o problema. Passe o mouse sobre o ícone ⚠ para que as informações sejam exibidas. Desse modo, você poderá lê-las e verificar a aplicabilidade de cada sugestão no seu _pipeline_.
