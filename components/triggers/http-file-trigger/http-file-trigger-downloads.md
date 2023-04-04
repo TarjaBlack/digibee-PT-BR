@@ -30,6 +30,12 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Additional API Routes:** se ativada, a opção permite que você adicione novas rotas.
 * **Remove Digibee Prefix from Route:** esta opção estará disponível somente quando os parâmetros **External API** e **Internal API** estiverem desabilitados, e os parâmetros **mTLS enabled API** e **Additional API Routes** estiverem habilitados. Defina esta opção para remover o prefixo de rota padrão Digibee "/pipeline/{realm}/v{n}" da rota do _pipeline_. Saiba mais sobre o parâmetro **Remove Digibee Prefix from Route** na [seção](http-file-trigger-downloads.md#remove-digibee-prefix-from-route) abaixo.
 * **API Routes:** rotas customizáveis.
+* **Rate Limit:** se a opção estiver ativada, uma configuração de _rate limiting_ será aplicada no _API Gateway_. Esta opção estará disponível somente quando o parâmetro **API Key** estiver ativado. Veja mais sobre esse parâmetro na seção abaixo.
+* **Limit by:** define a entidade na qual os limites serão aplicados. Opções: _API_.
+* **Aggregate by:** define a entidade agregadora dos limites. Opções. _Consumer_ e _API Keys_.
+* **Options:** define o limite de requisições que podem ser feitas dentro de um período de tempo.
+* **Interval:** define o intervalo de tempo para o limite de requisições. Opções: _second, minute, hour, day_ e _month_.
+* **Limit:** define o número máximo de requisições que os usuários podem fazer no intervalo de tempo especificado.
 * **Allow Redelivery Of Messages:** se ativada, a opção permite que as mensagens sejam entregues novamente caso o _Pipeline Engine_ falhe.
 
 ## Remove Digibee Prefix from Route
@@ -49,6 +55,22 @@ https://test.godigibee.io/products
 
 {% hint style="info" %}
 **IMPORTANTE:** ao remover o prefixo padrão e definir a rota do _pipeline_ pelo parâmetro **Additional API Routes**, tenha cuidado para não definir uma rota de _pipeline_ existente que esteja em uso por outros _pipelines_. Caso você tenha mais do que uma versão principal do _pipeline_, também é importante ter em mente que o versionamento da rota do _pipeline_ deve ser feito pelo usuário devido à ausência de um parâmetro para versionamento da rota. Por exemplo: /pipeline/realm/v1/.
+{% endhint %}
+
+## Rate Limit <a href="#http-file-trigger-em-ao" id="http-file-trigger-em-ao"></a>
+
+Ao criarmos APIs, geralmente queremos limitar o número de requisições da API que usuários podem fazer em um dado intervalo de tempo.
+
+Esta ação pode ser executada ativando a opção **Rate Limit** e aplicando as seguintes configurações:
+
+<figure><img src="../../../.gitbook/assets/Rate Limit OK example april 2023.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**IMPORTANTE:** se a API possui rotas adicionais, o limite é compartilhado entre todas as rotas. Para aplicar as configurações de _rate limit_, a API precisa ser configurada com uma _API Key_ para que o parâmetro **Aggregate by** possa ser usado por grupos de _API Keys_ (opção _Consumer_) ou _API Keys_ individuais (opção _API Key_).
+
+Se vários parâmetros **Interval** estiverem configurados com valores repetidos, apenas um desses valores é considerado. Também é necessário que um valor maior que zero seja informado para o parâmetro **Limit**.
+
+Se as opções de _rate limiting_ não forem definidas corretamente, elas serão ignoradas e um _warning log_ será emitido. Você pode visualizar esse _log_ na página de Pipeline Logs.
 {% endhint %}
 
 ## HTTP File Trigger em Ação <a href="#http-file-trigger-em-ao" id="http-file-trigger-em-ao"></a>
