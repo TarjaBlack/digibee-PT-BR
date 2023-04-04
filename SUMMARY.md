@@ -34,7 +34,7 @@
 * [Novo Canvas (Beta)](build/novo-canvas-beta-restrito.md)
 * [Pipeline](build/pipelines/README.md)
   * [Subpipelines](build/pipelines/subpipelines.md)
-  * [Validação de construção do pipeline (Beta)](build/pipelines/validacao-de-construcao-do-pipeline.md)
+  * [Linter - Validação de construção do pipeline (Beta)](build/pipelines/validacao-de-construcao-do-pipeline.md)
   * [Navegação em um pipeline](build/pipelines/navegacao-em-um-pipeline-beta-restrito.md)
   * [Histórico de versões de pipelines](build/pipelines/historico-de-versoes-de-pipelines.md)
   * [Versionamento de pipelines](build/pipelines/versionamento-de-pipelines.md)
