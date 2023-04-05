@@ -55,6 +55,6 @@ O componente repassa a mensagem recebida do componente anterior sem nenhuma alte
 #### Para configurar o _pipeline_ que consumirá o evento:
 
 * altere o tipo do _trigger_ para _**Event**_ no _pipeline_ Assinante;
-* abra as configurações do _trigger_ e informe o nome do evento a ser consumido na propriedade “Nome do Evento”. Esse valor deve ser idêntico ao informado no _Event Publisher ****_ do _pipeline_ Publicador.
+* abra as configurações do _trigger_ e informe o nome do evento a ser consumido na propriedade “Nome do Evento”. Esse valor deve ser idêntico ao informado no _Event Publisher_ do _pipeline_ Publicador.
 
 \

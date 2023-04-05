@@ -45,12 +45,12 @@ Você pode:
 \- utilizar um JSON fixo:
 
 _**document = "{\\"data\\": \[{\\"object\\": 1}, {\\"object\\": 2}]}"**_\
-&#x20;   _****_   &#x20;
+&#x20;  &#x20;
 
 \- conseguir algum JSON da mensagem, que vai buscar o objeto 'data' da mensagem:
 
 _**document = "\{{ message.$.data \}}**_\
-&#x20;   _****_   &#x20;
+&#x20;  &#x20;
 
 \- combinar ambos os exemplos:
 

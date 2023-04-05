@@ -20,7 +20,7 @@ O fluxo de trabalho dentro da _Digibee Integration Platform_ é composto por tr�
 
 _Pipelines_ são constituídos por **componentes**, os quais são organizados em uma estrutura lógica, sequencial ou paralela para que se possa realizar uma integração (ex: transformar dados e enviar ao ERP, API ou DB).
 
-**Componentes** são unidades de processamento com papéis bem definidos, por exemplo, realizar uma chamada REST para um endereço HTTP. Eles podem fazer uso de recursos externos ao _pipeline_, assim como __ [_accounts_](https://docs.digibee.com/documentation/v/pt-br/configurations/contas-accounts) e [_globals_](https://docs.digibee.com/documentation/v/pt-br/configurations/conceitos-basicos), que além de armazenar uma ou mais informações, também garantem maior segurança e reaproveitamento.
+**Componentes** são unidades de processamento com papéis bem definidos, por exemplo, realizar uma chamada REST para um endereço HTTP. Eles podem fazer uso de recursos externos ao _pipeline_, assim como [_accounts_](https://docs.digibee.com/documentation/v/pt-br/configurations/contas-accounts) e [_globals_](https://docs.digibee.com/documentation/v/pt-br/configurations/conceitos-basicos), que além de armazenar uma ou mais informações, também garantem maior segurança e reaproveitamento.
 
 * **Run**
 

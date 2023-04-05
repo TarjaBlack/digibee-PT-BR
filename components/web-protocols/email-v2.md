@@ -20,7 +20,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Subject:** assunto do email.
 * **Authenticated:** se a opção estiver habilitada, é obrigatório passar uma conta com email e senha a serem utilizados para autenticação. Se os envios não precisarem de autenticação, a opção deve ficar desabilitada.
 * **Is Over SSL:** se a opção estiver habilitada, o envio é feito via SSL.
-* **SSL Port:** se a opção _**Is Over SSL**_** ** estiver habilitada, então é obrigatório informar qual porta será utilizada para trafegar a mensagem via SSL.
+* **SSL Port:** se a opção _**Is Over SSL**_ estiver habilitada, então é obrigatório informar qual porta será utilizada para trafegar a mensagem via SSL.
 * **Is Over TLS:** se a opção estiver habilitada, o envio é feito via TLS.
 * **Force TLSv1.2:** define como obrigatória a conexão com o protocolo TLSv1.2.
 * **Use Attachment As Raw**: se a opção estiver habilitada, o formulário para adicionar anexos será ocultado e o envio em modo RAW poderá ser utilizado, por meio do qual você informa o _array_ de anexos. Mas se a opção estiver desabilitada, será utilizada a abordagem do formulário para a especificação de anexos.
@@ -164,7 +164,7 @@ Relacionamento com o Cliente
 
 Observe que o conector _permite o uso de_ D_ouble Braces:_
 
-__
+
 
 ![](<../../.gitbook/assets/ezgif.com-gif-maker (19).gif>)
 

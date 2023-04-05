@@ -6,7 +6,7 @@ description: Conheça o trigger e saiba como utilizá-lo.
 
 O _**RabbitMQ Trigger**_ é responsável pelo consumo das mensagens de um _broker_ RabbitMQ.
 
-Esse _trigger_ possui 2 estratégias de _acknowledge_ (confirmação de recebimento) __ de mensagens:
+Esse _trigger_ possui 2 estratégias de _acknowledge_ (confirmação de recebimento) de mensagens:
 
 **1. Acknowledge automático**
 

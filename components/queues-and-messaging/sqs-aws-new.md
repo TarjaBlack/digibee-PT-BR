@@ -4,7 +4,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # SQS (AWS) V2
 
-O componente SQS (AWS) permite o envio de mensagens para filas **** do serviço da **** AWS SQS, tanto do tipo standard como do tipo FIFO.
+O componente SQS (AWS) permite o envio de mensagens para filas do serviço da AWS SQS, tanto do tipo standard como do tipo FIFO.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 

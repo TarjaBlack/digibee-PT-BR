@@ -19,7 +19,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Operation:** operação a ser executada, que pode ser _Upload_, _Delete_, _Download_, _List_ ou _Move_.
 * **File Name:** nome do arquivo ou caminho completo (_full file path_) para o arquivo. Este parâmetro aceita _Double Braces_.
 * **Remote File Name:** nome do arquivo remoto ou caminho relativo (ex.: tmp/file.txt) para o arquivo remoto. Este parâmetro aceita _Double Braces_.
-* **Remote Directory:** campo obrigatório. Diretório remoto base, que pode ser relativo (ex.: _pub/tmp_) ou absoluto (ex.: __ /root/pub). Este parâmetro aceita _Double Braces_.
+* **Remote Directory:** campo obrigatório. Diretório remoto base, que pode ser relativo (ex.: _pub/tmp_) ou absoluto (ex.: /root/pub). Este parâmetro aceita _Double Braces_.
 * **Binary File:** se _"true"_, a transferência de arquivos será feita no modo binário (TYPE I ou Image); caso _"false"_ o modo texto simples (TYPE A ou ASCII) será utilizado.
 * **Connection Timeout:** tempo de expiração da conexão com o servidor (em milissegundos).
 * **Data Timeout:** tempo de expiração para transferência de cada arquivo (em milissegundos).

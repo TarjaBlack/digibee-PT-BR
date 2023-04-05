@@ -136,7 +136,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3O
 
 A ordem onde o _**Digibee JWT (Generate and Decode)**_ é inserido no _pipeline_ também influencia a operação e determina quais dados serão inseridos no _token_ JWT. Isso ocorre pois o componente adiciona ao _token_ qualquer conteúdo que esteja em um _step_ anterior (incluindo os dados recebidos na entrada do _pipeline_).
 
-É importante considerar esse comportamento. Portanto, o **Digibee JWT (Generate and Decode)** não deve ser colocado como primeiro componente em um _pipeline_. Componentes como **** [**JSON Transformer**](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-transformer)**,** [**Transformer (JOLT)**](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt) **** e [**JSON Generator**](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-generator) devem ser utilizados antes do JWT para determinar uma entrada de dados apropriada.
+É importante considerar esse comportamento. Portanto, o **Digibee JWT (Generate and Decode)** não deve ser colocado como primeiro componente em um _pipeline_. Componentes como [**JSON Transformer**](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-transformer)**,** [**Transformer (JOLT)**](https://docs.digibee.com/documentation/v/pt-br/components/tools/transformer-jolt) e [**JSON Generator**](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-generator) devem ser utilizados antes do JWT para determinar uma entrada de dados apropriada.
 
 O exemplo abaixo indica uma entrada de dados recomendável no JWT:
 

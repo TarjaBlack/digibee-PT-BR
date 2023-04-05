@@ -34,7 +34,7 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:  &#x20;
 * **Hostname:** o nome do _host_ da conexão _string_ JMS.
 * **SID - Oracle Site Identifier:** nome do banco de dados Oracle.&#x20;
 * **Port:** número da porta de acesso ao servidor Oracle.
-* **JDBC Type:** _driver_ **** Oracle jbdc(ex.: THIN ou OCI).
+* **JDBC Type:** _driver_ Oracle jbdc(ex.: THIN ou OCI).
 * **Durable Subscriber:** consumidor de mensagem que recebe todas as mensagens publicadas em um tópico, incluindo aquelas publicadas enquanto o _subscriber_ está inativo; quando essa opção estiver ativada, é necessário informar o nome específico do _subscriber_ no campo "_Subscriber Name"_.
 * **Set Client ID:** propriedade utilizada especificamente por um provedor JMS para identificar a conexão JMS do cliente e permitir que ela seja durável
 * **Message Selector:** se a sua aplicação precisa filtrar as mensagens recebidas, você pode utilizar um selecionador de mensagens JMS API, que permite ao consumidor de mensagens especificar quais delas interessam - o _message selector_ repassa a filtragem para o provedor JMS.

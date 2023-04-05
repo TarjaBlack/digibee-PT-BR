@@ -10,7 +10,7 @@
 
 * Linter - Lista de alertas de validação: agora o Novo Canvas conta com uma lista de todos os alertas (problemas e alertas) gerados pelo seu _pipeline_.\
   É possível navegar pelos componentes com alertas através da lista, esconder os alertas para otimizar a visualização do seu _pipeline_, e abrir o formulário de configuração dos componentes para uma edição mais rápida.\
-  Também é possível saber exatamente quantos problemas __ e alertas __ foram gerados e onde eles se localizam dentro do fluxo. Saiba mais na [documentação sobre alertas de validação](../../build/pipelines/validacao-de-construcao-do-pipeline.md#h\_303cf6c6b1).
+  Também é possível saber exatamente quantos problemas e alertas foram gerados e onde eles se localizam dentro do fluxo. Saiba mais na [documentação sobre alertas de validação](../../build/pipelines/validacao-de-construcao-do-pipeline.md#h\_303cf6c6b1).
 
 <figure><img src="https://lh6.googleusercontent.com/BQKwDs6aD3IdwdI_SIGTbCwdpXCA0VnbDUGyVdNsJoaWKjhFtndWuaTf459-MoCPu-JTL4EVgZ2rQzpT86SVnDnUUotMRx3CSo_Y15I3wF8F8TpNNtw8peae_jwqvKTPUXrPkIecAq60g_yYaX5XGYU" alt=""><figcaption></figcaption></figure>
 

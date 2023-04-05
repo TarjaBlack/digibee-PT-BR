@@ -33,7 +33,7 @@ Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/novo-ca
 
 ### &#x20; MEU CONSUMO
 
-Além de poder visualizar o consumo de [_Pipeline Subscriptions_](../../licenciamento/modelo-baseado-em-subscription.md) __ e[ _RTUs_](../../licenciamento/limites-de-uso.md) no geral, agora também é possível ver em qual ambiente e projeto eles estão sendo consumidos através da página Meu consumo. A nova página reúne as seguintes funcionalidades:
+Além de poder visualizar o consumo de [_Pipeline Subscriptions_](../../licenciamento/modelo-baseado-em-subscription.md) e[ _RTUs_](../../licenciamento/limites-de-uso.md) no geral, agora também é possível ver em qual ambiente e projeto eles estão sendo consumidos através da página Meu consumo. A nova página reúne as seguintes funcionalidades:
 
 * **Painel de consumo:** visualize a quantidade de _Pipeline Subscriptions_ e _RTUs_ consumidas em cada ambiente.
 * **Lista de consumo:** confira uma lista detalhada de cada item de consumo — projeto, ambiente, _pipeline_, _trigger_, tamanho da implantação, _RTUs_ e réplicas. Você também pode exportar esses dados para um arquivo CSV.
@@ -138,7 +138,7 @@ Nós também solucionamos alguns _bugs_:
 * **Blob Storage (Azure):** corrigimos o _bug_ que exibia tela branca no novo Canvas quando o formulário de configuração do componente Blob Storage (Azure) era aberto.
 * **Flow tree:** corrigimos o _bug_ que impedia o usuário de redimensionar o tamanho da lista de componentes quando a estrutura do _Flow tree_ estivesse aberta no novo Canvas.
 * **Remoção de um Parallel Execution:** corrigimos o _bug_ que exibia uma página branca ao remover ou reconectar o componente Parallel Execution ao fluxo de um _pipeline_ no novo Canvas.
-* **Remoção de um Choice:** corrigimos o _bug_ que exibia uma página branca ao remover os parâmetros “_when”_ ou “_otherwise”_ do componente Choice __ quando no novo Canvas_._
-* _**Test mode**_** na interpretação de HTML:** corrigimos o _bug_ que fazia o _Test mode_ renderizar textos em HTML e não exibí-los simplesmente como _plain text_ nos _logs_ do __ Canvas V1 e novo Canvas.
+* **Remoção de um Choice:** corrigimos o _bug_ que exibia uma página branca ao remover os parâmetros “_when”_ ou “_otherwise”_ do componente Choice quando no novo Canvas_._
+* _**Test mode**_** na interpretação de HTML:** corrigimos o _bug_ que fazia o _Test mode_ renderizar textos em HTML e não exibí-los simplesmente como _plain text_ nos _logs_ do Canvas V1 e novo Canvas.
 
 \

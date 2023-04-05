@@ -56,7 +56,7 @@ Veja uma ilustração de uso da Cápsula:
 
 ### **Parallel Execution List to Objects** <a href="#h_5f4ec17e37" id="h_5f4ec17e37"></a>
 
-Essa Cápsula transforma um _array_ em um mapa de objetos, utilizando o campo “_executionId_” existente na raiz do _array_. O uso da _**Parallel Execution List to Objects**_** ** pode ser aplicado ao padrão de saída do componente [Parallel Execution](../../../components/logic/parallel-execution.md) na recuperação de objetos resultantes do processamento paralelo.
+Essa Cápsula transforma um _array_ em um mapa de objetos, utilizando o campo “_executionId_” existente na raiz do _array_. O uso da _**Parallel Execution List to Objects**_ pode ser aplicado ao padrão de saída do componente [Parallel Execution](../../../components/logic/parallel-execution.md) na recuperação de objetos resultantes do processamento paralelo.
 
 Veja um exemplo de uso, no qual se aplica um fluxo de execução em paralelo:
 
@@ -137,7 +137,7 @@ O objetivo dessa Cápsula é ordenar o seu _array_ JSON de forma crescente (A-Z)
 
 ### **Validate Consumers** <a href="#h_100b8854f2" id="h_100b8854f2"></a>
 
-Quando o _pipeline_ precisar ser executado com um número máximo de _consumers_ diferente do que consta no padrão de Runtime, utilize a Cápsula _**Validate Consumers**_** ** para impedir que as execuções aconteçam com a configuração incorreta de implantação.
+Quando o _pipeline_ precisar ser executado com um número máximo de _consumers_ diferente do que consta no padrão de Runtime, utilize a Cápsula _**Validate Consumers**_ para impedir que as execuções aconteçam com a configuração incorreta de implantação.
 
 Por exemplo, se o _pipeline_ permite a execução de até 2 requisições simultâneas, mas o Runtime esteja configurado com 10 requisições simultâneas e a Cápsulas com 2, então um erro é lançado nas execuções para que as configurações sejam corrigidas. No entanto, se na configuração da Cápsula constar 2 requisições simultâneas, a implantação deve ser configurada com 1 ou 2 _consumers_ no máximo.
 

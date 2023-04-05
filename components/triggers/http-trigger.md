@@ -36,8 +36,8 @@ Dê uma olhada nos parâmetros de configuração do _trigger_:
 * **Token JWT:** se a opção estiver ativada, o _endpoint_ pode ser consumido apenas se for enviado um _token_ JWT previamente gerado por outro _endpoint_ com essa capacidade. Leia o artigo da [implementação JWT](../security-components/digibee-jwt/implementacao-do-digibee-jwt.md) para obter mais detalhes.
 * **Additional API Routes:** se a opção estiver ativada, o _trigger_ permite que você configure novas rotas. Veja mais sobre esse parâmetro na [seção](http-trigger.md#h\_b4715f137e) abaixo.
 * **Remove Digibee Prefix from Route:** esta opção estará disponível somente quando os parâmetros **External API** e **Internal API** estiverem desabilitados, e os parâmetros **mTLS enabled API** e **Additional API Routes** estiverem habilitados. Defina esta opção para remover o prefixo de rota padrão Digibee "/pipeline/{realm}/v{n}" da rota do _pipeline_. Saiba mais sobre o parâmetro **Remove Digibee Prefix from Route** na [seção](http-trigger.md#remove-digibee-prefix-from-route) abaixo.
-* **Routes:** exibido somente quando o parâmetro **Additional API Routes** __ estiver habilitado. É aqui que você consegue definir as rotas adicionais do _endpoint_.
-* **Routes:** exibido somente quando o parâmetro **Additional API Routes** __ estiver habilitado. É aqui que você consegue definir as rotas adicionais do _endpoint_.
+* **Routes:** exibido somente quando o parâmetro **Additional API Routes** estiver habilitado. É aqui que você consegue definir as rotas adicionais do _endpoint_.
+* **Routes:** exibido somente quando o parâmetro **Additional API Routes** estiver habilitado. É aqui que você consegue definir as rotas adicionais do _endpoint_.
 * **Rate Limit:** se a opção estiver ativada, uma configuração de _rate limiting_ será aplicada no _API Gateway_. Esta opção estará disponível somente quando o parâmetro **API Key** estiver ativado. Veja mais sobre esse parâmetro na seção abaixo.
 * **Limit by:** define a entidade na qual os limites serão aplicados. Opções: _API_.
 * **Aggregate by:** define a entidade agregadora dos limites. Opções. _Consumer_ e _API Keys_.

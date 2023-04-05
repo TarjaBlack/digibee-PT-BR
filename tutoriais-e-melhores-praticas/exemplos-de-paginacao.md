@@ -44,7 +44,7 @@ FETCH NEXT {{ message.pageSize}} ROWS ONLY
 
 ## **Spark** <a href="#h_288d411002" id="h_288d411002"></a>
 
-****
+
 
 ```sparql
 WITH CTEResults AS

@@ -4,7 +4,7 @@ description: >-
   utilizá-las.
 ---
 
-# Funções de Comparação
+# Funções de comparação
 
 As funções foram criadas para:
 
@@ -35,7 +35,7 @@ No exemplo abaixo, o valor "false" será atribuído:
 ```
 
 {% hint style="info" %}
-o valor `null` __ é considerado como `false`. O retorno dessa função será `true` ou `false`.
+o valor `null` é considerado como `false`. O retorno dessa função será `true` ou `false`.
 {% endhint %}
 
 ## NOT <a href="#not" id="not"></a>
@@ -59,7 +59,7 @@ No exemplo abaixo o valor "true" será atribuído:
 ```
 
 {% hint style="info" %}
-o valor `null` __ é considerado como `false`. O retorno dessa função será `true` ou `false`.
+o valor `null` é considerado como `false`. O retorno dessa função será `true` ou `false`.
 {% endhint %}
 
 ## OR <a href="#or" id="or"></a>
@@ -83,7 +83,7 @@ No exemplo abaixo, o valor "true" será atribuído:
 ```
 
 {% hint style="info" %}
-o valor `null` __ é considerado como `false`. O retorno dessa função será `true` ou `false`.
+o valor `null` é considerado como `false`. O retorno dessa função será `true` ou `false`.
 {% endhint %}
 
 ## XOR <a href="#xor" id="xor"></a>
@@ -109,7 +109,7 @@ No exemplo abaixo, o valor "true" será atribuído:
 ```
 
 {% hint style="info" %}
-o valor `null` __ é considerado como `false`. O retorno dessa função será `true` ou `false`.
+o valor `null` é considerado como `false`. O retorno dessa função será `true` ou `false`.
 {% endhint %}
 
 Conheça também as funções:

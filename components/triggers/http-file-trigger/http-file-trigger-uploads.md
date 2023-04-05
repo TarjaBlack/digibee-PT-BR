@@ -258,7 +258,7 @@ Outra solução é indicada em situações onde há uma limitação de tamanho d
 ```
 
 {% hint style="info" %}
-**IMPORTANTE:** _**Content-Type**_** ** precisa ser um dos valores definidos em _**Response Content Types**_.
+**IMPORTANTE:** _**Content-Type**_ precisa ser um dos valores definidos em _**Response Content Types**_.
 {% endhint %}
 
 Leia o artigo [HTTP File Trigger - Downloads](https://docs.digibee.com/documentation/v/pt-br/components/triggers/http-file-trigger/http-file-trigger-downloads) para saber como se certificar de que a saída do pipeline seja um arquivo.

@@ -75,7 +75,7 @@ O resultado da _query_ retorna um JSON com 3 propriedades em sua raiz: _data_, _
 ### _**Cenário 2: Operação QUERY comando UPDATE**_
 
 Digamos que você tenha um banco de dados configurado e uma tabela com dados e que você queira invocar um _**DB V2**_ com uma _query_ com a operação UPDATE. Com isso, você terá acesso ao resultado desta operação no _pipeline_ através de um JSON.\
-&#x20;    __         ****    \
+&#x20;        \
 **Exemplo**
 
 **1.** Crie um _pipeline_ e adicione um componente _**DB V2**_\
@@ -172,7 +172,7 @@ Essa opção vai permitir que uma nova conexão seja aberta, caso haja falha no 
 **5.** Defina um _DATABASE URL_ (ex.: _jdbc:mysql://myserver/mydb_)\
 **6.** Defina um _SQL STATEMENT_ (ex.: _INSERT INTO CLIENTES (name, email) VALUES ('My Name', '_[_myname@email.com_](mailto:myname@email.com)_')_)\
 **7.** Conecte o _trigger_ ao _**DB V2**_\
-**8.** __ Selecione a opção _ADVANCED_ (mais opções serão apresentadas)\
+**8.** Selecione a opção _ADVANCED_ (mais opções serão apresentadas)\
 **9.** Defina uma _CONNECTION TEST QUERY_ (ex.: _SELECT version()_)\
 **10.** Clique em CONFIRMAR para salvar as configurações do componente\
 **11.** Execute um teste no _pipeline_ (você pode utilizar o comando CTRL + ENTER)\
@@ -271,7 +271,7 @@ O resultado indica que uma linha da tabela foi afetada. Nesse caso, o primeiro c
 
 ### _**Cenário 8: Executar uma procedure**_
 
-Digamos que você tenha um banco de dados configurado com uma _procedure_ existente e que você queira invocar um _**DB V2**_ em modo PROCEDURE. Com isso, você consegue executar uma _procedure_ existente e obter o resultado da operação no _pipeline_ através de um JSON.     __    &#x20;
+Digamos que você tenha um banco de dados configurado com uma _procedure_ existente e que você queira invocar um _**DB V2**_ em modo PROCEDURE. Com isso, você consegue executar uma _procedure_ existente e obter o resultado da operação no _pipeline_ através de um JSON.    &#x20;
 
 **Exemplo**
 
@@ -320,12 +320,12 @@ Através dela é possível acessar o resultado do último componente.\
 }
 ```
 
-&#x20;        _****_        &#x20;
+&#x20;       &#x20;
 
 ### _**Cenário 9: Definir propriedades personalizadas de conexão**_
 
 Digamos que você tenha um banco de dados configurado e que você queira invocar um _**DB V2**_. Com isso, você consegue especificar propriedades personalizadas de conexão.\
-&#x20;     __     &#x20;
+&#x20;    &#x20;
 
 **Exemplo**
 
@@ -435,7 +435,7 @@ Se o tipo customizado utilizar outros tipos customizado na sua estrutura, você 
 **IMPORTANTE:** consultas de dados customizados não expõem os nomes dos campos informados dentro do tipo customizado, apenas a ordem dos campos.
 {% endhint %}
 
-No exemplo acima, o primeiro elemento do _array_ "owner" __ corresponde ao campo "nome" e o segundo elemento ao campo "email", ambos definidos nessa respectiva ordem dentro do tipo _OWNER_.Para consultas via _PROCEDURE_, o parâmetro _OUT PARAMETER NAME_ em _TYPE PROPERTIES_ deve receber obrigatoriamente o nome do tipo customizado que, no exemplo acima, seria o valor _OWNER_.
+No exemplo acima, o primeiro elemento do _array_ "owner" corresponde ao campo "nome" e o segundo elemento ao campo "email", ambos definidos nessa respectiva ordem dentro do tipo _OWNER_.Para consultas via _PROCEDURE_, o parâmetro _OUT PARAMETER NAME_ em _TYPE PROPERTIES_ deve receber obrigatoriamente o nome do tipo customizado que, no exemplo acima, seria o valor _OWNER_.
 
 ### _**Cenário 12: Enviar tipos de dados customizados para um banco de dados Oracle**_
 

@@ -27,7 +27,7 @@ FORMATNUMBER(valor, "formatDestination", "localeDest"?)
 Os itens indicados com "?" podem ser definidos com valor _null_.
 
 * **asInteger:** é opcional e do tipo BOOLEAN. Se "true", o resultado será do tipo _Integer_; do contrário, será considerado _BigDecimal_. O valor _default_ é "false".
-* **localeDest:** o _locale_ representado __ deve ser considerado para a geração do número. Se o _localeDest_ não for definido, será considerado _en-us_.
+* **localeDest:** o _locale_ representado deve ser considerado para a geração do número. Se o _localeDest_ não for definido, será considerado _en-us_.
 
 **Valor de entrada:**
 

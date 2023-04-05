@@ -7,7 +7,7 @@ description: >-
 # Novo Canvas (Beta)
 
 {% hint style="warning" %}
-**IMPORTANTE:** a nova versão do Canvas está em Beta. Para saber mais, leia o artigo [Programa beta](../geral/programa-beta.md).
+**IMPORTANTE:** a nova versão do Canvas está em Beta. [Para saber mais, leia o artigo Programa beta.](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta)
 {% endhint %}
 
 O Canvas é o ambiente de construção de _pipelines_ da Digibee Integration Platform. Através dele, você consegue desenvolver integrações simples ou complexas arrastando e soltando componentes pré-configurados com rapidez e precisão.
@@ -44,10 +44,10 @@ Antes de partir para a construção do fluxo, é preciso configurar o _pipeline_
 
 Na página de configurações do _pipeline_, se necessário, configure os seguintes campos:
 
-<figure><img src="../.gitbook/assets/image12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/01 - Pipeline Configuracao.jpeg" alt=""><figcaption></figcaption></figure>
 
 * **Descrição**: descrição do _pipeline_.
-* **“É multi-instância?”**: ative esta opção caso o _pipeline_ a ser criado seja multi-instância. Para saber mais sobre essa funcionalidade, leia o artigo [Multi-instância](../configurations/multi-instancia.md).
+* **“É multi-instância?”**: ative esta opção caso o _pipeline_ a ser criado seja multi-instância. [Para saber mais sobre essa funcionalidade, leia o artigo Multi-instância.](https://docs.digibee.com/documentation/v/pt-br/configurations/multi-instancia)
 * **Campo sensível:** dados que precisam ser mascarados durante a execução do fluxo.
 * **InSpec:** entrada do fluxo do _pipeline_.
 * **OutSpec:** saída do fluxo do _pipeline_.
@@ -68,7 +68,7 @@ O primeiro passo para criar um fluxo é escolher um _trigger_. O _trigger_ é o 
 
 Os componentes representam etapas do fluxo e são escolhidos de acordo com as suas necessidades de negócio. Combine todas as etapas do processo de integração que deseja realizar utilizando a lista de componentes à direita do _Canvas_.
 
-<figure><img src="../.gitbook/assets/image8.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/03 - Componentes.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Nota:** Nesta nova versão do Canvas, a seta magnética facilita a conexão entre componentes.
@@ -76,31 +76,31 @@ Os componentes representam etapas do fluxo e são escolhidos de acordo com as su
 
 Para excluir uma linha conectora ou um componente específico do fluxo, clique no ícone de lixeira (![](<../.gitbook/assets/image1 (1).png>)) e no **X**.
 
-<figure><img src="../.gitbook/assets/image10.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/04 -.gif" alt=""><figcaption></figcaption></figure>
 
 Para configurar o componente a ser utilizado, clique no ícone de engrenagem (![](<../.gitbook/assets/image4 (1) (1).png>)) para acessar o formulário de configuração. No exemplo abaixo, é possível visualizar o formulário do [componente Google Drive](../components/file-storage/google-drive.md).
 
-<figure><img src="../.gitbook/assets/image6.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/05 - Google drive port.gif" alt=""><figcaption></figcaption></figure>
 
-Para saber mais a respeito de cada componente disponível em nossa lista, acesse a nossa [documentação de componentes](broken-reference).
+[Para saber mais a respeito de cada componente disponível em nossa lista, acesse a nossa documentação de componentes.](https://docs.digibee.com/documentation/v/pt-br/components/triggers)
 
 ### Navegação em um _pipeline_ <a href="#h_497047ccf4" id="h_497047ccf4"></a>
 
-Além das funcionalidades apresentadas neste artigo, o Novo Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. Para saber mais, leia o artigo [Navegação em um _pipeline_](pipelines/navegacao-em-um-pipeline-beta-restrito.md).
+Além das funcionalidades apresentadas neste artigo, o Novo Canvas conta com outras relacionadas à experiência de navegação no _pipeline_. [Para saber mais, leia o artigo Navegação em um _pipeline_.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/navegacao-em-um-pipeline-beta-restrito)
 
 ### Validação de construção do _pipeline_ <a href="#h_3e6ea3319e" id="h_3e6ea3319e"></a>
 
-O Novo _Canvas_ exibe alertas durante a construção de _pipelines_. Esses alertas __ ajudam os desenvolvedores a identificarem e corrigirem problemas comuns mais rapidamente. Para saber mais, leia o artigo [Validação de construção do _pipeline_](pipelines/validacao-de-construcao-do-pipeline.md).
+O Novo _Canvas_ exibe alertas durante a construção de _pipelines_. Esses alertas ajudam os desenvolvedores a identificarem e corrigirem problemas comuns mais rapidamente. [Para saber mais, leia o artigo Validação de construção do _pipeline_.](https://docs.digibee.com/documentation/v/pt-br/build/pipelines/validacao-de-construcao-do-pipeline)
 
 ### Teste o _pipeline_ <a href="#h_e277eac4b9" id="h_e277eac4b9"></a>
 
-Usando o Test mode, você pode executar e testar seu _pipeline_ diretamente da área de desenvolvimento. Utilize essa funcionalidade sempre que quiser avaliar o fluxo de integração, depurar e solucionar problemas. Para saber mais sobre essa funcionalidade, leia o artigo [Test mode](canvas/test-mode/).
+Usando o Test mode, você pode executar e testar seu _pipeline_ diretamente da área de desenvolvimento. Utilize essa funcionalidade sempre que quiser avaliar o fluxo de integração, depurar e solucionar problemas. [Para saber mais sobre essa funcionalidade, leia o artigo Test mode.](https://docs.digibee.com/documentation/v/pt-br/build/canvas/test-mode)
 
 ### Salve o _pipeline_ <a href="#h_3b2d142001" id="h_3b2d142001"></a>
 
 Por fim, após construir seu fluxo de integração, clique em **SALVAR** no canto superior direito da tela, e defina um nome, uma descrição (opcional) e o projeto no qual o _pipeline_ estará alocado.
 
-<figure><img src="../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/06 - Salvar - crop.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Nota:** Caso seu _pipeline_ esteja apresentando alertas do tipo Erro, o botão **SALVAR** estará bloqueado, impedindo que você o salve.
@@ -110,11 +110,11 @@ Por fim, após construir seu fluxo de integração, clique em **SALVAR** no cant
 
 Durante a coexistência das duas versões do Canvas, você pode transportar seu _pipeline_ para o Canvas antigo. Para isso, abra seu _pipeline_ no Novo Canvas, clique no menu de ajuda e, em seguida, na opção **Suporte ao novo Canvas**.
 
-<figure><img src="../.gitbook/assets/image2 (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/07 - Suporte canvas.jpeg" alt=""><figcaption></figcaption></figure>
 
 Em seguida, basta responder por que você gostaria de usar o Canvas antigo e clicar em **MUDAR**.
 
-<figure><img src="../.gitbook/assets/image14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/08 - Old Canvas.jpeg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **IMPORTANTE**: os componentes desconectados criados no Novo Canvas serão perdidos.

@@ -122,7 +122,7 @@ curl https://godigibee.io/pipeline/realm_name/v1/pipeline_name -v -H 'Content-Ty
 ```
 
 {% hint style="info" %}
-**IMPORTANTE:** _**Content-Type**_** ** precisa ser um dos valores definidos em _**Response Content Types**_.
+**IMPORTANTE:** _**Content-Type**_ precisa ser um dos valores definidos em _**Response Content Types**_.
 {% endhint %}
 
 O _**HTTP File Trigger**_ responde _bodies_ que não sejam arquivos da mesma forma que o _**HTTP Trigger**_ faz. Isso permite que o _pipeline_ responda com o arquivo ou com alguma outra de acordo com o contexto da invocação. Para que o _**HTTP File Trigger**_ responda com um _body_ qualquer, basta que o último passo do _pipeline_ tenha a seguinte estrutura:
@@ -136,5 +136,5 @@ O _**HTTP File Trigger**_ responde _bodies_ que não sejam arquivos da mesma for
 ```
 
 {% hint style="info" %}
-**IMPORTANTE:** _**Content-Type**_** ** precisa ser um dos valores definidos em _**Response Content Types**_.
+**IMPORTANTE:** _**Content-Type**_ precisa ser um dos valores definidos em _**Response Content Types**_.
 {% endhint %}

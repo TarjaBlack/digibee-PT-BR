@@ -10,7 +10,7 @@ O **SAP** permite que você se conecte ao SAP (apenas RFC) para enviar requisiç
 Dê uma olhada nos parâmetros de configuração do componente:
 
 * **Account:** é necessário criar uma conta tipo BASIC para utilizar as credenciais SAP (usuário e senha).
-* **SAP Operation**: **** método de conexão no SAP - o componente suporta acesso via RFC ou IDOC.
+* **SAP Operation**: método de conexão no SAP - o componente suporta acesso via RFC ou IDOC.
 * **Host:** _hostname_ do sistema SAP - para que "IP" e "Porta" sejam suportados, é necessário ter conectividade por VPN (você pode definir o VPN através do SAP GUI). Para resolver o nome do host para um endereço IP, você deve adicionar uma entrada de mapeamento ao arquivo do host da máquina na qual o agente está instalado.
 * **RFC:** nome da RFC utilizado para se conectar ao sistema SAP - esse campo é informado pelo cliente (os parâmetros de importação da função do SAP devem ser mapeados).
 * **Language:** linguagem a ser utilizada na conexão ao sistema SAP (ex.: "EN" para inglês).

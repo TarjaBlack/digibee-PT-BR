@@ -38,7 +38,7 @@ Este Event Publisher é responsável por ativar o pipeline de transmissão de lo
 
 Você poderia deixar esse subpipeline vazio, mas isso não é considerado uma boa prática.
 
-****
+
 
 A parte do seu pipeline de regra de negócio na qual você normalmente colocaria um componente Log deve estar parecida com isso:
 

@@ -14,12 +14,12 @@ Dê uma olhada nas opções de configuração do componente:
 * **Container Account:** nome da _account_ Azure que o Blob Storage utiliza. (O preenchimento deste campo é obrigatório.
 * **Remote File Name:** nome de destino do seu arquivo, o mesmo nome que o arquivo terá no Blob Storage (Azure). O preenchimento deste campo é obrigatório apenas quando as operações _Upload_, _Download_ ou _Delete_ estiverem selecionadas. Este parâmetro aceita _Double Braces_.
 * **File Name:** nome do arquivo que você deseja subir para o seu Blob Storage (Azure). O preenchimento deste campo é obrigatório. Este parâmetro aceita _Double Braces_.
-* **Generate a Download Link:** se a opção é habilitada, você poderá gerar um link __ para download __ do arquivo. Este parâmetro é mostrado somente quando a operação _Upload_ é selecionada.
+* **Generate a Download Link:** se a opção é habilitada, você poderá gerar um link para download do arquivo. Este parâmetro é mostrado somente quando a operação _Upload_ é selecionada.
 * **Page Size:** quantidade de registros que deseja trazer por página. Este parâmetro aceita _Double Braces_ e é mostrado somente quando a operação _List_ é selecionada.
 * **Prefix**: filtra os resultados para retornar apenas _blobs_ cujos nomes começam com o prefixo especificado. Este parâmetro aceita _Double Braces_ e é mostrado somente quando a operação _List_ é selecionada.
 * **Next Page Token:** _NextToken_ que será usado para trazer os registros da próxima página. Este parâmetro aceita _Double Braces_ e é mostrado somente quando a operação _List_ é selecionada.
 * **Next Token Type:** Tipo do próximo registro que será listado na próxima página. Este parâmetro é mostrado somente quando a operação _List_ é selecionada.
-* **Overwrite File on Upload:** sobrescreve o arquivo no momento do upload. __ Este parâmetro aceita _Double Braces_ e é mostrado somente quando a operação _Upload_ é selecionada.
+* **Overwrite File on Upload:** sobrescreve o arquivo no momento do upload. Este parâmetro aceita _Double Braces_ e é mostrado somente quando a operação _Upload_ é selecionada.
 * **Snapshot**: se a opção for ativada, irá incluir _snapshots_ na resposta dos _blobs_. Disponível somente para a operação _List_.
 * **Metadata**: se a opção for ativada, irá incluir metadados (_metadata_) na resposta dos _blobs_. Disponível somente para a operação _List_.
 * **Uncommited**: se a opção for ativada, irá incluir _uncommited blobs_ na resposta. Disponível somente para a operação _List_.

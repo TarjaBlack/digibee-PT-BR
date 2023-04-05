@@ -6,7 +6,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 
 
-O _**Stream Excel**_** ** lê um arquivo local de Excel linha por linha em uma estrutura JSON e dispara _subpipelines_ para processar cada linha. Esse recurso costuma ser indicado em situações nas quais há a necessidade de processamento de arquivos grandes.
+O _**Stream Excel**_ lê um arquivo local de Excel linha por linha em uma estrutura JSON e dispara _subpipelines_ para processar cada linha. Esse recurso costuma ser indicado em situações nas quais há a necessidade de processamento de arquivos grandes.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 

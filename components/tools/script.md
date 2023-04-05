@@ -15,7 +15,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 ### Entrada <a href="#h_dca97c2937" id="h_dca97c2937"></a>
 
-O componente _**Script**_** ** pode receber parâmetros de componentes prévios através do objeto "body" - ou seja, caso a saída do componente anterior ao _**Script**_** ** tiver uma saída que inclui um objeto chamado "body", é possível acessá-lo diretamente no código do _Script_.
+O componente _**Script**_ pode receber parâmetros de componentes prévios através do objeto "body" - ou seja, caso a saída do componente anterior ao _**Script**_ tiver uma saída que inclui um objeto chamado "body", é possível acessá-lo diretamente no código do _Script_.
 
 * **body:** objeto importado para o escopo do código do _**Script**_.
 

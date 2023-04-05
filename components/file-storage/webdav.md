@@ -36,7 +36,7 @@ O componente espera uma mensagem no seguinte formato:
 }
 ```
 
-O **Local File Name** substitui o arquivo local padrão e o _**Remote File Name**_** ** substitui o arquivo remoto padrão.
+O **Local File Name** substitui o arquivo local padrão e o _**Remote File Name**_ substitui o arquivo remoto padrão.
 
 ### Saída <a href="#sada" id="sada"></a>
 
@@ -51,7 +51,7 @@ O **Local File Name** substitui o arquivo local padrão e o _**Remote File Name*
 }
 ```
 
-**Local File Name** é o arquivo local gerado a partir de um _download_. _**Remote File Name**_** ** é o arquivo remoto gerado a partir de um _upload_ de sucesso.
+**Local File Name** é o arquivo local gerado a partir de um _download_. _**Remote File Name**_ é o arquivo remoto gerado a partir de um _upload_ de sucesso.
 
 **IMPORTANTE:** a manipulação de arquivos dentro de um _pipeline_ ocorre de forma protegida. Todos os arquivos podem ser acessados apenas por um diretório temporário, em que cada _pipeline key_ dá acesso ao seu próprio conjunto de arquivos.
 

@@ -19,7 +19,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Account:** para o componente fazer a autenticação a um serviço JDBC, é necessário usar uma _account_ do tipo BASIC ou KERBEROS (veja o tópico [Autenticação via Kerberos](stream-db-v3.md#autenticao-via-kerberos)).
 * **Database URL:** URL (_Uniform Resource Locator_) para estabelecer conexão ao servidor de banco de dados com suporte ao protocolo JDBC. Este parâmetro aceita _Double Braces_.
 * **SQL Statement:** instrução SQL a ser executada.
-* **Column Name:** caso haja um erro no processamento do _subpipeline_ **** _onProcess_, o valor associado à coluna definida neste campo será adicionado à mensagem de erro, em um novo campo chamado "_processedId_" e que poderá ser manipulado pelo _subpipeline onException_. Veja:
+* **Column Name:** caso haja um erro no processamento do _subpipeline_ _onProcess_, o valor associado à coluna definida neste campo será adicionado à mensagem de erro, em um novo campo chamado "_processedId_" e que poderá ser manipulado pelo _subpipeline onException_. Veja:
 
 ```
 {  

@@ -48,7 +48,7 @@ A depender da versão _Minor_ do _pipeline_, determinadas ações podem ser real
 
 ### Editar _pipeline_ ![](<../../.gitbook/assets/04 (15).png>) <a href="#h_8458b2c7ed" id="h_8458b2c7ed"></a>
 
-É possível editar a versão _Minor_ mais recente __ do _pipeline_ desde que esta não esteja arquivada.
+É possível editar a versão _Minor_ mais recente do _pipeline_ desde que esta não esteja arquivada.
 
 Para editá-la, clique no botão **Editar pipeline**, que lhe redirecionará ao _Canvas_.
 

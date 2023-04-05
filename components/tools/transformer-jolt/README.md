@@ -153,7 +153,7 @@ Saída
 }
 ```
 
-### _**Sort**_** **&#x20;
+### _**Sort**_&#x20;
 
 Utilizada para ordenar campos ou objetos de um JSON em ordem alfabética.
 

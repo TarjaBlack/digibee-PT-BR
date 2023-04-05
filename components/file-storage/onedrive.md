@@ -10,7 +10,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 * **Account:** para o componente fazer a autenticação ao serviço do OneDrive é necessário usar uma _account_ do tipo Oath 2 de provedor Microsoft com ao menos o escopo de "offline\_access" e "Files.ReadWrite.All".
 * **Operation:** operação a ser executada (_List, List Search, Pagination, Download, Download by File ID, Upload_ ou _Delete)_.
-* **Remote Directory:** diretório remoto base, que pode ser relativo (ex.: pub/tmp) ou absoluto (ex.: __ /root/pub). Este parâmetro aceita _Double Braces_.
+* **Remote Directory:** diretório remoto base, que pode ser relativo (ex.: pub/tmp) ou absoluto (ex.: /root/pub). Este parâmetro aceita _Double Braces_.
 * **Page Size:** utilizado na operação _List_ e _List Search_, se refere à quantidade de objetos retornados na busca.
 * **Query:** presente na operação _List Search_. Esse parâmetro define o tipo de busca que será feito nos diretórios do OneDrive. Para saber mais sobre esse filtro, visite a [documentação oficial Microsoft](https://docs.microsoft.com/pt-br/onedrive/developer/rest-api/api/driveitem\_search?view=odsp-graph-online).
 * **Next Page:** presente na operação _Pagination_.
@@ -32,7 +32,7 @@ Alguns dos parâmetros acima suportam Double Braces. Para entender como essa lin
 
 ### Operações List e List Search
 
-Ao executar um componente _**OneDrive**_ utilizando as operações **List** e __ **List Search**, a seguinte estrutura de JSON será gerada:
+Ao executar um componente _**OneDrive**_ utilizando as operações **List** e **List Search**, a seguinte estrutura de JSON será gerada:
 
 ```
 {
@@ -111,7 +111,7 @@ Ao executar um componente _**OneDrive**_ utilizando as operações **List** e __
 * **fileName:** nome do arquivo local.
 * **success:** "true" se a operação sucedeu, "false" caso contrário.
 
-### Operação **Download **_****_** by File ID**
+### Operação **Download** **by File ID**
 
 ```
 {

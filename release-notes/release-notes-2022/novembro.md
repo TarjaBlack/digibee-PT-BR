@@ -4,7 +4,7 @@
 
 ### **PÁGINA DE LICENCIAMENTO**
 
-A **** partir de hoje, clientes licenciados no modelo _Subscription-based_ poderão acompanhar o seu consumo de _Pipeline subscriptions_ e _Runtime Units_ (RTUs) disponíveis no _realm_ de forma simples. Entre em Ajustes e acesse o menu lateral Licenciamento para visualizar o consumo sob Meu consumo.
+A partir de hoje, clientes licenciados no modelo _Subscription-based_ poderão acompanhar o seu consumo de _Pipeline subscriptions_ e _Runtime Units_ (RTUs) disponíveis no _realm_ de forma simples. Entre em Ajustes e acesse o menu lateral Licenciamento para visualizar o consumo sob Meu consumo.
 
 
 

@@ -70,7 +70,7 @@ Conforme explicado anteriormente, é possível definir um _subpipeline_ para tra
 
 ### Entrada <a href="#entrada" id="entrada"></a>
 
-O _**For Each**_ aceita qualquer estrutura de JSON que contenha um _array_. Se o _array_ não for a raiz do objeto, então uma expressão JSON Path deve ser definida para localizar e filtrar o _array_. Caso o componente _**For Each**_** ** não receba um _array_, nenhum processamento será executado.
+O _**For Each**_ aceita qualquer estrutura de JSON que contenha um _array_. Se o _array_ não for a raiz do objeto, então uma expressão JSON Path deve ser definida para localizar e filtrar o _array_. Caso o componente _**For Each**_ não receba um _array_, nenhum processamento será executado.
 
 ### Saída <a href="#sada" id="sada"></a>
 

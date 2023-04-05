@@ -124,7 +124,7 @@ No exemplo abaixo o valor `false` será atribuído:
 }
 ```
 
-O valor `null` __ é considerado como o menor valor possível para comparação.
+O valor `null` é considerado como o menor valor possível para comparação.
 
 `GREATERTHANEQUAL(null, null)` retornará `true`.
 
@@ -195,7 +195,7 @@ No exemplo abaixo o valor "true" será atribuído:
 }
 ```
 
-O valor `null` __ é considerado como o menor valor possível para comparação.
+O valor `null` é considerado como o menor valor possível para comparação.
 
 `LESSTHAN(null, null)` retornará `false`.
 
@@ -232,7 +232,7 @@ No exemplo abaixo o valor `true` será atribuído:
 }
 ```
 
-O valor `null` __ é considerado como o menor valor possível para comparação.
+O valor `null` é considerado como o menor valor possível para comparação.
 
 `LESSTHANEQUAL(null, null)` retornará `true`.
 

@@ -2,7 +2,7 @@
 description: Entenda os conceitos relacionados a Run e suas funcionalidades.
 ---
 
-# Visão Geral
+# Visão geral de Run
 
 Run é uma das três fases da _Digibee Integration Platform_, a segunda após a construção do _pipeline_ na fase anterior de _Build_. Seu objetivo é fazer a implantação do _pipeline_, que já possui _triggers_ configurados, executá-lo e colocar a integração em produção.
 
@@ -14,13 +14,13 @@ Ao selecionar a fase Run, o layout da página aparecerá como na imagem abaixo. 
 
 ## **Ambientes**
 
-Há dois ambientes nos quais é possível fazer a execução dos _pipelines_: ** **_**test**_ ou _**prod**_.
+Há dois ambientes nos quais é possível fazer a execução dos _pipelines_: _**test**_ ou _**prod**_.
 
 <figure><img src="../.gitbook/assets/seletordeambiente (2).png" alt=""><figcaption></figcaption></figure>
 
-O ambiente ** **_**test**_** ** é usado para avaliar a construção do _pipeline_, ou seja, para testar e modificar suas aplicações. Desta forma, você tem um ambiente onde pode validar os _pipelines_ antes de irem para produção.
+O ambiente _**test**_ é usado para avaliar a construção do _pipeline_, ou seja, para testar e modificar suas aplicações. Desta forma, você tem um ambiente onde pode validar os _pipelines_ antes de irem para produção.
 
-Já no ambiente _**prod**_** ** é onde o processo final de implantação do _pipeline_ ocorre após ter sido testado e validado.&#x20;
+Já no ambiente _**prod**_ é onde o processo final de implantação do _pipeline_ ocorre após ter sido testado e validado.&#x20;
 
 Se um pipeline estiver em ambiente de produção e precisar de uma alteração evolutiva ou apresentar alguma falha, sugerimos que as suas alterações sejam feitas no ambiente de _**test**_ para que, somente então, volte à produção.
 
@@ -68,6 +68,5 @@ Você pode acompanhar como o _pipeline_ está funcionando na próxima fase da _D
 
 Lá você terá informações como o número de _pipeline_ criados e implantados, a quantidade de contas criadas, um gráfico da monitoração e também um relatório individual. Para saber mais sobre esta fase, [leia o artigo que preparamos](https://docs.digibee.com/documentation/v/pt-br/monitor/dashboards).
 
-_****_
 
-****
+

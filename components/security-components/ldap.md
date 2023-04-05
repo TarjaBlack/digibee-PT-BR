@@ -15,7 +15,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Host Name:** nome ou IP do servidor LDAP.
 * **Port:** porta do LDAP.
 * **Authentication DN:** _Distinguished Name (DN)_ utilizado para conectar o servidor LDAP.
-* **Operation DN: **_**** Distinguished Name (DN)_ usado para operações (expressões de _Double Braces_ são suportadas)
+* **Operation DN:** _Distinguished Name (DN)_ usado para operações (expressões de _Double Braces_ são suportadas)
 * **Filter:** expressões de filtros.
 * **Entries:** expressão _JSON_ que representa as entradas que serão adicionadas ou modificadas. Suporta expressões de _Double Braces._
 * **SSL:** protocolo de segurança.
@@ -23,7 +23,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
 {% hint style="info" %}
-**IMPORTANTE**: o parâmetro **Authentication DN** deve ser configurado com o _path_ completo até o usuário desejado. Com isso, se o **Distinguished Name** for igual a "CN=UserExample,OU=FOLDER1,DC=abc,DC=com,DC=br", o parâmetro Authentication DN ficará configurado com "OU=FOLDER1,DC=abc,DC=com,DC=br". A configuração "CN=UserExample" deve ser utilizada no _username ****_ do _account_ configurado no componente, ou seja, _username_ recebe o valor "UserExample".
+**IMPORTANTE**: o parâmetro **Authentication DN** deve ser configurado com o _path_ completo até o usuário desejado. Com isso, se o **Distinguished Name** for igual a "CN=UserExample,OU=FOLDER1,DC=abc,DC=com,DC=br", o parâmetro Authentication DN ficará configurado com "OU=FOLDER1,DC=abc,DC=com,DC=br". A configuração "CN=UserExample" deve ser utilizada no _username_ do _account_ configurado no componente, ou seja, _username_ recebe o valor "UserExample".
 {% endhint %}
 
 ## LDAP em Ação <a href="#h_b135e18bed" id="h_b135e18bed"></a>

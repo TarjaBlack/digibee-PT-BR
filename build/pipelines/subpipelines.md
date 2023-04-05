@@ -47,7 +47,7 @@ Nesse caso, é gerada uma exceção através do componente **Assert (Erro Intern
 O atributo _**Fail On Error**_ indica que a execução do fluxo do _pipeline_ será interrompida e será lançada uma exceção caso a condição do componente Assert não for validada.
 
 {% hint style="info" %}
-**Nota:** Quando a exceção é gerada por um componente de um _subpipeline_, a execução do _subpipeline **onException** _ é iniciada. Por outro lado, se a exceção decorrer de um componente do fluxo principal, a execução do _pipeline_ será interrompida por erro.
+**Nota:** Quando a exceção é gerada por um componente de um _subpipeline_, a execução do _subpipeline **onException**_ é iniciada. Por outro lado, se a exceção decorrer de um componente do fluxo principal, a execução do _pipeline_ será interrompida por erro.
 {% endhint %}
 
 ### _**onException**_ <a href="#onexception" id="onexception"></a>

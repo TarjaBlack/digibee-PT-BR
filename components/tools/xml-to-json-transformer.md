@@ -18,13 +18,13 @@ Dê uma olhada nos parâmetros de configuração do componente:
 
 ### Entrada <a href="#h_b1242ec6a1" id="h_b1242ec6a1"></a>
 
-O componente não espera uma mensagem de entrada específica, apenas o preenchimento do parâmetro de configuração **XML Field Path** __ referenciando o caminho do campo a ser transformado. Esse campo deve existir na mensagem do passo anterior à execução do _**XML to JSON Transformer**._
+O componente não espera uma mensagem de entrada específica, apenas o preenchimento do parâmetro de configuração **XML Field Path** referenciando o caminho do campo a ser transformado. Esse campo deve existir na mensagem do passo anterior à execução do _**XML to JSON Transformer**._
 
 ### Saída <a href="#h_9af5c58cea" id="h_9af5c58cea"></a>
 
-A estrutura será igual a da recebida do passo anterior do fluxo, porém os campos informados no parâmetro **XML Field Path** __ serão transformados em sua representação de objeto JSON. Em caso de erro, a propriedade "error" será criada no mesmo nível da propriedade original.
+A estrutura será igual a da recebida do passo anterior do fluxo, porém os campos informados no parâmetro **XML Field Path** serão transformados em sua representação de objeto JSON. Em caso de erro, a propriedade "error" será criada no mesmo nível da propriedade original.
 
-Quando o parâmetro **Preserve Original** __ estiver ativado, para cada campo informado no parâmetro **XML Field Path**_,_ será gerada uma nova propriedade apenas adicionando o carácter `"_"` no início de seu nome e contendo o XML _string_ original.
+Quando o parâmetro **Preserve Original** estiver ativado, para cada campo informado no parâmetro **XML Field Path**_,_ será gerada uma nova propriedade apenas adicionando o carácter `"_"` no início de seu nome e contendo o XML _string_ original.
 
 A notação com pontos de JSON vai procurar pelo elemento raiz que está sendo processado pelo _pipeline_ e realizar um cruzamento de acordo com as especificações passadas na propriedade **XML Field Path**.
 

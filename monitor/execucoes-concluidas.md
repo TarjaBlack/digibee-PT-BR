@@ -20,7 +20,7 @@ Você pode filtrar execuções de pipelines utilizando os seguintes parâmetros:
   * **Resposta** : execuções concluídas sem nenhuma interrupção
   * **Erro** : execuções interrompidas
   * **Todos** : qualquer execução
-* **Nome do pipeline** : **** o nome completo do pipeline
+* **Nome do pipeline** : o nome completo do pipeline
 * **Versão do pipeline** (_major_ ou _minor_)
 * **Pipeline key** : um identificador único de uma execução de um pipeline
 * **Payload** : o input ou output do pipeline em formato JSON. Esse campo de busca utiliza [a sintaxe simple query do Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html#simple-query-string-syntax)
@@ -42,7 +42,7 @@ No modal de Detalhes da Execução, você pode ver o:
 * **Pipeline key** : um identificador único de uma execução de um pipeline
 * **Mensagem da requisição :** os dados enviados pelo trigger do pipeline
 * **Mensagem da resposta :** o _output_ do pipeline
-* [**Logs da execução**](https://docs.digibee.com/help-center/v/pt-br/monitor/pipeline-logs)****
+* [**Logs da execução**](https://docs.digibee.com/help-center/v/pt-br/monitor/pipeline-logs)
 
 Chamamos de “[mensagem](https://docs.digibee.com/help-center/v/pt-br/build/pipelines/processamento-de-mensagens)” o dado que é transmitido em formato JSON através do pipeline. Cada componente da pipeline recebe, manipula e exporta uma mensagem. Apenas as 50 primeiras mensagens do pipeline serão exibidas, e somente para pipelines executados em modo de teste.
 

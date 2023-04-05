@@ -70,7 +70,7 @@ Nós também solucionamos alguns bugs:
 * Solucionamos o bug onde a borda do alerta permanecia aparente mesmo após a resolução do problema durante a construção de pipelines.
 * Solucionamos o bug onde o alerta para o Session Management não era exibido corretamente quando existe um componente de subnível entre diferentes Sessions.
 
-****
+
 
 **Novo Canvas (Beta)**
 
@@ -86,7 +86,7 @@ Nós também solucionamos alguns bugs:
 * Solucionamos o bug que mostrava o ícone de um trigger no lugar de uma Cápsula na estrutura do Flow Tree.
 * Solucionamos o bug que às vezes removia componentes colados em um subnível.
 
-****
+
 
 **Cápsulas:**&#x20;
 
@@ -97,11 +97,11 @@ Nós também solucionamos alguns bugs:
 
 **Formulário de configuração de componentes:** solucionamos o bug onde os campos de checkbox dos formulários não persistiam ao salvar a configuração do componente.
 
-****
+
 
 **Visão geral:** solucionamos o bug que impedia a atualização dos dados nesta página quando os usuários a atualizavam.
 
-****
+
 
 **Pipeline metrics**
 

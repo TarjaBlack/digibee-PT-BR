@@ -75,7 +75,7 @@ Na transformação acima, usamos o mesmo princípio de um **IF-ELSE** para verif
 \
 Caso seja "Brasil", preenchemos o campo "nacionalidade" com o valor "Brasileira".\
 \
-Caso o valor de "paisOrigem" seja qualquer país diferente de "Brasil", preenchemos "nacionalidade" com o valor _****_ "Estrangeira".
+Caso o valor de "paisOrigem" seja qualquer país diferente de "Brasil", preenchemos "nacionalidade" com o valor "Estrangeira".
 
 ### **JSON final com Nome e Nacionalidade do Cliente:**
 

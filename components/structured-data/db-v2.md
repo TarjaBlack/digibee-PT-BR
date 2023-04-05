@@ -99,7 +99,7 @@ Caso uma das execuções falhe, será retornado um objeto com a propriedade "err
 
 Se essa opção estiver ativada, os _commits_ das operações serão realizados apenas se todas elas forem bem sucedidas. Do contrário, será feito o _rollback_ de todas as operações _batch_.
 
-Se a opção estiver inativa, então o _commit_ e as alterações bem sucedidas por _commit_ serão feitas __ mesmo que ocorra alguma falha entre as execuções.
+Se a opção estiver inativa, então o _commit_ e as alterações bem sucedidas por _commit_ serão feitas mesmo que ocorra alguma falha entre as execuções.
 
 {% hint style="info" %}
 **IMPORTANTE:** para alguns bancos de dados, principalmente para o Oracle, não é possível retornar o número consolidado execuções bem ou mal sucedidas.&#x20;

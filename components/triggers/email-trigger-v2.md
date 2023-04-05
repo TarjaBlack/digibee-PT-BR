@@ -74,9 +74,9 @@ O Email Trigger permite o recebimento dos dados de uma conta de e-mail no _pipel
 
 ### Anexos <a href="#h_ed7b1075bc" id="h_ed7b1075bc"></a>
 
-Caso haja algum anexo no corpo da mensagem recebida pelo _trigger_, ele vai baixá-las e disponibilizá-las dentro do diretório de execução do _pipeline_. Os nomes dos anexos estarão contidos dentro da propriedade _**attachments** _ e essa propriedade será um _array_ de _strings_ contendo os nomes dos anexos.
+Caso haja algum anexo no corpo da mensagem recebida pelo _trigger_, ele vai baixá-las e disponibilizá-las dentro do diretório de execução do _pipeline_. Os nomes dos anexos estarão contidos dentro da propriedade _**attachments**_ e essa propriedade será um _array_ de _strings_ contendo os nomes dos anexos.
 
-****
+
 
 {% hint style="info" %}
 **IMPORTANTE:** caso haja 2 anexos com o mesmo nome na mensagem, um identificador único será adicionado no nome do anexo baixado.
@@ -84,7 +84,7 @@ Caso haja algum anexo no corpo da mensagem recebida pelo _trigger_, ele vai baix
 
 #### **Exemplo:**
 
-Há 2 anexos com nome "file.csv" dentro da mensagem. Portanto, o conteúdo da propriedade _**attachments** _ será:
+Há 2 anexos com nome "file.csv" dentro da mensagem. Portanto, o conteúdo da propriedade _**attachments**_ será:
 
 ```
 {

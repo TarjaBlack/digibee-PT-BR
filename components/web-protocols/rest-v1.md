@@ -2,7 +2,7 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# REST V1
+# REST V1 (Descontinuado)
 
 O **REST V1** realiza chamadas a _endpoints_ REST a partir de um _pipeline_.
 
@@ -136,5 +136,5 @@ O componente espera uma mensagem no seguinte formato:
 }
 ```
 
-&#x20;  __   \
+&#x20;  \
 **IMPORTANTE:** no caso de alguns erros, _body_ e _headers_ estarão indisponíveis.

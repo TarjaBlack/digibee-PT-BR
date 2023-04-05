@@ -11,7 +11,7 @@ description: >-
 * **Connection String:** ‘string’ de conexão com host, porta e _keyspace_ a ser utilizado.
 * **Query:** especificação CQL, conforme a operação selecionada. Este parâmetro aceita _Double Braces._&#x20;
 * **Max Wait For Operation (in ms):** tempo (em ms) em que a aplicação deve aguardar até a _query_ ser finalizada.&#x20;
-* **Heartbeat Connection Timeout (in ms): **_**** dummy request_ para manter conexões vivas no pool.
+* **Heartbeat Connection Timeout (in ms):** _dummy request_ para manter conexões vivas no pool.
 * **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, e o resultado mostrará o valor false para a propriedade "success".
 * **Advanced:** Abre para posteriores opções de configuração.&#x20;
 * **Pool Size By Actual Consumers:** Se "verdadeiro", o número de conexões agrupadas será equivalente ao número de consumidores configurados durante a implantação do gasoduto, se "falso", então o tamanho do pool é dado pelo tamanho da implantação do pipeline, independentemente do número de consumidores

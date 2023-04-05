@@ -23,7 +23,7 @@ Na Digibee Integration Platform, é possível habilitar a autenticação de dois
 
 **IMPORTANTE:** Logo que clicar em **ATIVAR**, a plataforma direciona o usuário para uma página de desativação. Só é necessário preencher essa página caso queira desabilitar o recurso.
 
-A partir deste momento, será obrigatório informar o código de segurança do aplicativo todas as vezes que fizer o login via Digibee Integration Platform. Para saber mais, leia nossa documentação de **** [fluxo de login](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/fluxo-de-login).
+A partir deste momento, será obrigatório informar o código de segurança do aplicativo todas as vezes que fizer o login via Digibee Integration Platform. Para saber mais, leia nossa documentação de [fluxo de login](https://docs.digibee.com/documentation/v/pt-br/administration/novo-controle-de-acesso/fluxo-de-login).
 
 **IMPORTANTE:** Se por algum motivo não for possível acessar o aplicativo na hora do login, entre em contato com o suporte.
 

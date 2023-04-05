@@ -56,7 +56,7 @@ O [Help Center](https://intercom.help/godigibee/pt-BR/) da Digibee continuará s
 
 #### COMPONENTES
 
-* **Blob Storage (Azure):** fizemos uma melhoria no componente que permite listar _blobs_ de um _container_ como Copiados, Deletados, _Snapshots_ e _Uncommitted_, __ além de filtrar os resultados no momento da busca pelo campo _prefix._ Acesse a [documentação do Blob Storage aqui](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/azure-blob-storage).
+* **Blob Storage (Azure):** fizemos uma melhoria no componente que permite listar _blobs_ de um _container_ como Copiados, Deletados, _Snapshots_ e _Uncommitted_, além de filtrar os resultados no momento da busca pelo campo _prefix._ Acesse a [documentação do Blob Storage aqui](https://docs.digibee.com/documentation/v/pt-br/components/file-storage/azure-blob-storage).
 
 #### MONITOR
 

@@ -20,7 +20,7 @@ Isto ajuda a evitar acesso e mudanças não autorizados em documentos em PDF, da
 
 ### [Classificação de acesso de usuários](broken-reference) <a href="#h_0721c13838" id="h_0721c13838"></a>
 
-O gerente de acessos de um _realm_ integrado a um provedor de identidade (IdP) possui visibilidade **** da classificação de acesso de usuários por características de autenticação e autorização, na página de Usuários.
+O gerente de acessos de um _realm_ integrado a um provedor de identidade (IdP) possui visibilidade da classificação de acesso de usuários por características de autenticação e autorização, na página de Usuários.
 
 Novo controle de acesso - modalidade de somente leituraAs novas páginas de Usuários, Grupos, Integrações de Grupo e Papéis estão disponíveis para todos os usuários com permissão de leitura.
 
@@ -36,7 +36,7 @@ Os clientes que queiram ativar a autorização integrada em seus _realms_, conse
 
 O novo portal oficial de Documentação da Digibee Integration Platform está disponível em [docs.digibee.com](http://docs.digibee.com/). Com ele você pode usufruir de maior facilidade na leitura e navegação dos artigos.
 
-O **** [Help Center](https://intercom.help/godigibee/pt-BR/) da Digibee continuará sendo usado como uma ferramenta de suporte e base de conhecimento para _troubleshooting_.
+O [Help Center](https://intercom.help/godigibee/pt-BR/) da Digibee continuará sendo usado como uma ferramenta de suporte e base de conhecimento para _troubleshooting_.
 
 Manteremos a convivência dos artigos antigos em ambas as plataformas.
 

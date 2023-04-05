@@ -2,7 +2,7 @@
 description: Saiba mais sobre a funcionalidade de validação de construção de pipelines.
 ---
 
-# Validação de construção do pipeline (Beta)
+# Linter - Validação de construção do pipeline (Beta)
 
 {% hint style="danger" %}
 **IMPORTANTE:** esta funcionalidade está em Beta. Para saber mais, leia o artigo [Programa beta](../../geral/programa-beta.md).
@@ -95,7 +95,7 @@ O onProcess define um dos subfluxos do _pipeline_. Estruture e conecte _o subpip
 
 #### 2. O onException precisa ter ao menos um componente conectado (boas práticas) <a href="#h_9d3d716b24" id="h_9d3d716b24"></a>
 
-O onException é o _subpipeline_ onde __ é implementado o fluxo que trata uma exceção na execução do onProcess_._ Estruture e conecte o subfluxo onException para que o fluxo do _pipeline_ não seja interrompido.
+O onException é o _subpipeline_ onde é implementado o fluxo que trata uma exceção na execução do onProcess_._ Estruture e conecte o subfluxo onException para que o fluxo do _pipeline_ não seja interrompido.
 
 #### 3. Existe ao menos um problema dentro de onProcess (estrutura) <a href="#h_d239301ae7" id="h_d239301ae7"></a>
 
@@ -103,7 +103,7 @@ O onProcess define um dos subfluxos do _pipeline_. Verifique os problemas do _su
 
 #### 4. Existe ao menos um problema dentro de onException (estrutura) <a href="#h_6e976cba62" id="h_6e976cba62"></a>
 
-O onException é o _subpipeline_ onde __ é implementado o fluxo que trata uma exceção na execução do onProcess_._ Verifique os problemas do subfluxo onException para prosseguir com a criação do seu _pipeline_.
+O onException é o _subpipeline_ onde é implementado o fluxo que trata uma exceção na execução do onProcess_._ Verifique os problemas do subfluxo onException para prosseguir com a criação do seu _pipeline_.
 
 ### Parallel <a href="#h_9d4020c448" id="h_9d4020c448"></a>
 

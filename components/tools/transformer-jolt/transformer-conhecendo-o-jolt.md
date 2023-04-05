@@ -112,7 +112,7 @@ Nossa transformação ficará:
 O que fizemos acima foi **navegar** até os **campos** de nosso interesse e informar aonde os **valores** de cada um desses campos devem ser inseridos.
 
 Através da notação **"." (ponto)**, conseguimos definir níveis no novo JSON que queremos criar.\
-Com isso, em `"nome":"customer.name"` **** pegamos o valor do campo **nome** e jogamos para o campo _**name**_ dentro do objeto _**customer**_, e em `"endereco":"customer.address.street"` **** pegamos o valor do campo **endereco** e jogamos para o campo _**street**_ dentro do objeto _**address**_ que também estará contido no objeto _**customer**_.
+Com isso, em `"nome":"customer.name"` pegamos o valor do campo **nome** e jogamos para o campo _**name**_ dentro do objeto _**customer**_, e em `"endereco":"customer.address.street"` pegamos o valor do campo **endereco** e jogamos para o campo _**street**_ dentro do objeto _**address**_ que também estará contido no objeto _**customer**_.
 
 {% hint style="info" %}
 **Nota:** podemos pegar um mesmo valor de um campo e jogá-lo para mais de 1 campo ao mesmo tempo.&#x20;

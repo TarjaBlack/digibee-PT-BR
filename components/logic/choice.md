@@ -52,11 +52,11 @@ $.[?(@.cidade == 'Sao Paulo')]
 Conheça as demais opções para a declaração **JSON Path**:
 
 * **$:** a raiz do objeto ou _array_.
-* **.**_**propriedade:**_** ** seleciona uma propriedade específica no objeto relacionado.
+* **.**_**propriedade:**_ seleciona uma propriedade específica no objeto relacionado.
 * **\['**_**propriedade**_**']:** seleciona uma propriedade específica no objeto relacionado. Coloque apenas aspas simples ao redor do nome da propriedade. Dica: considere essa instrução caso o nome da propriedade contenha caracteres especiais, assim como espaços, ou caso comece com caracteres diferentes de A..Za..z\_.
 * **\[**_**n**_**]:** seleciona o elemento _n_ de um _array_. Os índices começam com 0.
 * **\[**_**indice1**_**,**_**indice2**_**,**_**…**_**]:** seleciona elementos do _array_ com índices específicos e retorna uma lista.
-* **..**_**propriedade:**_** ** recursiva descendente: busca um nome de propriedade decrescentemente e retorna um _array_ de todos os valores com esse nome de propriedade. Sempre retorna uma lista, mesmo que apenas 1 propriedade seja encontrada.
+* **..**_**propriedade:**_ recursiva descendente: busca um nome de propriedade decrescentemente e retorna um _array_ de todos os valores com esse nome de propriedade. Sempre retorna uma lista, mesmo que apenas 1 propriedade seja encontrada.
 * **\*:** o curinga seleciona todos os elementos em um objeto ou _array_, qualquer que seja os seus nomes ou índices. Por exemplo, endereço.\* significa todas as propriedades do objeto endereço e livro\[\*] significa todos os itens de um _array_ de livro.
 * **\[**_**entrada**_**:saida] / \[**_**entrada**_**:]:** seleciona elementos de um _array_ de entrada e até, porém não necessariamente, um _array_ de saída. Se a saída é omitida, selecione todos os _arrays_ até o final do _array_. Uma lista é retornada.
 * **\[:**_**n**_**]:** seleciona os primeiros _n_ elementos do _array_. Uma lista é retornada.

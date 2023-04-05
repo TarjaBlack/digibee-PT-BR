@@ -35,8 +35,8 @@ Se você quiser enviar os dados de erros como um arquivo CSV, siga esses passos:
 
 1. **Usando o componente** [**Object Store**](../components/structured-data/object-store.md)**, faça uma requisição ao banco de dados responsável por armazenar dados de erro**
 2. **Adicione um componente JSON Generator para armazenar a propriedade “data”(dados) do output da requisição**
-3. **Converta os dados para o formato CSV usando o componente** [**JSON to CSV V2**](../components/tools/json-to-csv-v2.md)****
-4. **Salve o arquivo CSV usando o componente** [**File Writer**](../components/files/file-writer.md)****
-5. **Envie o arquivo CSV como um anexo usando o componente** [**EMAIL V2**](../components/web-protocols/email-v2.md)****
+3. **Converta os dados para o formato CSV usando o componente** [**JSON to CSV V2**](../components/tools/json-to-csv-v2.md)
+4. **Salve o arquivo CSV usando o componente** [**File Writer**](../components/files/file-writer.md)
+5. **Envie o arquivo CSV como um anexo usando o componente** [**EMAIL V2**](../components/web-protocols/email-v2.md)
 
 <figure><img src="https://lh5.googleusercontent.com/95FN2M_weG2k84JI4UvTcnZ2LF6uOepq3HL4OGsbatrt3YVGyNj1Uo-nGoZlj9hYFTf-MAmlqdjrUndo7cjN1w6y8eiz-5bdhLl2w3u77SzKuUWnKxj_C947BIUdbyCmbnp9R2AjZo6xHhLvDe46NmM" alt=""><figcaption><p>Exemplo de um pipeline que envia alertas de conjuntos de erros como um arquivo CSV por email</p></figcaption></figure>

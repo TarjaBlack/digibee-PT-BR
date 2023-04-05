@@ -28,7 +28,7 @@ Para entender melhor como utilizar o **Template Transformer**, [clique aqui para
 
 * **body:** _template_ transformado
 * **\_error:** descrição do erro que ocorreu na execução
-* **\_body:** se a opção _**Preserve Original**_** ** estiver habilitada, a propriedade será exibida na saída contendo o JSON de entrada
+* **\_body:** se a opção _**Preserve Original**_ estiver habilitada, a propriedade será exibida na saída contendo o JSON de entrada
 
 ### Entrada <a href="#entrada" id="entrada"></a>
 
@@ -53,7 +53,7 @@ Em uma representação do _Model Path_ contendo a.b.c.d, "a" será procurado no 
 }
 ```
 
-* **\_body:** se a opção _**Preserve Original**_** ** estiver habilitada, a propriedade será exibida na saída contendo o JSON de entrada
+* **\_body:** se a opção _**Preserve Original**_ estiver habilitada, a propriedade será exibida na saída contendo o JSON de entrada
 
 ### **Com erro**
 

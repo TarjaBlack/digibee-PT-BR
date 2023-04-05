@@ -18,9 +18,9 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Page Token:** este parâmetro só está disponível quando a operação _List_ é selecionada, e define o _token_ utilizado para solicitar a próxima página quando a operação _List_ é utilizada_._ Nessa próxima página será retornada a quantidade de itens definidos no parâmetro **Page Size**_._
 * **File Name:** nome do arquivo ou caminho completo (_full file path_) para o arquivo local, disponível apenas nas operações _Download_ e _Upload_. Este parâmetro aceita _Double Braces_.
 * **Remote File Name:** nome do arquivo remoto ou caminho relativo (ex.: tmp/file.txt) para o arquivo remoto. Este parâmetro aceita _Double Braces_ e é apresentado nas operações _Download_, _Upload e Delete_.
-* **Remote Directory:** diretório remoto base, que pode ser relativo (ex.: pub/tmp) ou absoluto (ex.: __ /root/pub), no qual será realizada a operação selecionada. Este parâmetro aceita _Double Braces_ e é apresentado nas operações _List_, _Download_, _Upload_ e _Delete_.
-* **Generate Download Link:** se a opção estiver ativada, um link __ público para download __ do arquivo é gerado. Este parâmetro é aplicável apenas na operação _Upload_.
-* **Link Expiration:** tempo para expiração do link __ em milissegundos. Este parâmetro é válido apenas se a opção **Generate Download Link** __ estiver ativada.
+* **Remote Directory:** diretório remoto base, que pode ser relativo (ex.: pub/tmp) ou absoluto (ex.: /root/pub), no qual será realizada a operação selecionada. Este parâmetro aceita _Double Braces_ e é apresentado nas operações _List_, _Download_, _Upload_ e _Delete_.
+* **Generate Download Link:** se a opção estiver ativada, um link público para download do arquivo é gerado. Este parâmetro é aplicável apenas na operação _Upload_.
+* **Link Expiration:** tempo para expiração do link em milissegundos. Este parâmetro é válido apenas se a opção **Generate Download Link** estiver ativada.
 * **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _"success"_.
 
 Alguns dos parâmetros acima suportam _Double Braces_. [Para entender como essa linguagem funciona, leia a documentação.](../../../build/double-braces/)
@@ -111,7 +111,7 @@ Ao executar o componente utilizando as operações _Download, Upload_ e _Delete_
 
 **Project ID**: digibee-test
 
-**Bucket Name**: **** digibee-test-digibee-test-bucket
+**Bucket Name**: digibee-test-digibee-test-bucket
 
 **Remote Directory**: DGB-413
 
@@ -161,7 +161,7 @@ Como é possível ver, o resultado acima retorna a propriedade "_pageToken"_ com
 
 **Project ID**: digibee-test
 
-**Bucket Name**: **** digibee-test-digibee-test-bucket
+**Bucket Name**: digibee-test-digibee-test-bucket
 
 **Remote Directory**: DGB-413
 
@@ -212,7 +212,7 @@ No resultado acima a propriedade "_pageToken_" não foi retornada. Isso sinaliza
 
 **Project ID**: digibee-test
 
-**Bucket Name**: **** digibee-test-digibee-test-bucket
+**Bucket Name**: digibee-test-digibee-test-bucket
 
 **File Name:** iso8859-2.txt
 
@@ -231,7 +231,7 @@ No resultado acima a propriedade "_pageToken_" não foi retornada. Isso sinaliza
 }
 ```
 
-Será realizado o download __ do arquivo no diretório local do _pipeline._
+Será realizado o download do arquivo no diretório local do _pipeline._
 
 ### UPLOAD de um arquivo <a href="#h_75c35bbddc" id="h_75c35bbddc"></a>
 
@@ -247,7 +247,7 @@ Será realizado o download __ do arquivo no diretório local do _pipeline._
 
 **Project ID**: digibee-test
 
-**Bucket Name**: **** digibee-test-digibee-test-bucket
+**Bucket Name**: digibee-test-digibee-test-bucket
 
 **File Name:** file.txt
 
@@ -280,7 +280,7 @@ Será realizado o download __ do arquivo no diretório local do _pipeline._
 
 **Project ID**: digibee-test
 
-**Bucket Name**: **** digibee-test-digibee-test-bucket
+**Bucket Name**: digibee-test-digibee-test-bucket
 
 **File Name:** file.txt
 
@@ -318,7 +318,7 @@ Com a configuração dos parâmetros de entrada acima, o arquivo ficará dispon�
 
 **Project ID**: digibee-test
 
-**Bucket Name**: **** digibee-test-digibee-test-bucket
+**Bucket Name**: digibee-test-digibee-test-bucket
 
 **Remote File Name:** file.txt
 
