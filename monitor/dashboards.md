@@ -18,7 +18,14 @@ Use o seletor de período para filtrar o intervalo de tempo usado no relatório 
 
 
 
-A tabela de visão geral mostra um resumo das execuções dos pipelines mais executados no período de tempo selecionado. Você pode clicar no ícone de lupa para ver os detalhes destas execuções na página de **Execuções Concluídas**.
+A tabela de visão geral mostra um resumo das execuções dos pipelines mais executados no período de tempo selecionado. Nela, você pode ver o:
+
+* Nome do _pipeline_
+* Número total de execuções (com erro ou bem-sucedidas) e de execuções com erro.
+* Versão do _pipeline_
+* Tempo médio de execução do _pipeline_
+
+Você pode clicar no ícone de lupa para ver os detalhes destas execuções na página de **Execuções Concluídas**.
 
 <figure><img src="https://lh6.googleusercontent.com/ChfzcmRiBHWm_QbcRU2Cow1lL8bRwm90C8TE3BqpW6xHijYDWP-JtPjaWWxdB89hV2e37TjvPGj8wpHwrV9o5DNpD-5ecymnzp8dUA-p2V1SyiIiSxQr8BwZT9oyh8MAo1RCkVNdKPhgWJ0RYoryf8IwkIlCNLtx_qqMTyohmZNtVPI_JxmiyADNVXTskA" alt=""><figcaption><p>Tabela de Visão Geral</p></figcaption></figure>
 
