@@ -4,6 +4,10 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # CSV to Excel
 
+{% hint style="info" %}
+Essa _feature_ está em fase Beta. Para aprender mais, leia [nosso artigo sobre o programa Beta da Digibee](../../geral/programa-beta.md).
+{% endhint %}
+
 O **CSV to Excel** converte arquivos em formato CSV em arquivos XLSX. Você pode gerar apenas um arquivo de Excel por execução.
 
 Dê uma olhada nos parâmetros de configuração do componente:

@@ -4,6 +4,10 @@ description: Entenda mais sobre provedores de autenticação OAuth
 
 # Nova Arquitetura OAuth
 
+{% hint style="info" %}
+Essa _feature_ está em fase Beta. Para aprender mais, leia [nosso artigo sobre o programa Beta da Digibee](../../../geral/programa-beta.md).
+{% endhint %}
+
 O OAuth2 é um protocolo padrão para autorização comumente utilizado por APIs web. Para realizar integrações que utilizem o OAuth2, basta logar-se em um provedor - podendo ser o Google, Microsoft, Mercado Livre, Amazon, etc. - e receber um token de acesso. Através deste token, é possível acessar os dados de um usuário sem precisar informar suas credenciais.
 
 Para adicioná-lo em nossa Plataforma, é necessário criar previamente uma aplicação no provedor que deseja utilizar. Uma vez criada a aplicação no provedor, será possível cadastrar e utilizar o protocolo OAuth2 na Digibee Integration Platform.

@@ -12,6 +12,10 @@ Abaixo do seletor de ambiente, os cartões de monitoramento exibem o número de 
 
 Use a barra de pesquisa para filtrar pipelines por nome ou palavras-chave.
 
+{% hint style="info" %}
+O filtro de nomes/palavras-chave está atualmente na fase Beta. Para aprender mais sobre isso, leia [nosso artigo sobre o programa Beta da Digibee](../geral/programa-beta.md).
+{% endhint %}
+
 Use o seletor de período para filtrar o intervalo de tempo usado no relatório da visão geral. Você pode selecionar um período de tempo predeterminado entre os últimos 15 minutos e os últimos 30 dias ou dias e horários específicos de início e fim.
 
 <figure><img src="../.gitbook/assets/specific_time_PTBR.gif" alt=""><figcaption><p>Selecionando um período específico</p></figcaption></figure>

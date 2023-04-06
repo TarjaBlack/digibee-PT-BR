@@ -6,6 +6,10 @@ description: >-
 
 # Cassandra DB
 
+{% hint style="info" %}
+Essa _feature_ está em fase Beta. Para aprender mais, leia [nosso artigo sobre o programa Beta da Digibee](../../geral/programa-beta.md).
+{% endhint %}
+
 * **Account:** conta a ser utilizada pelo componente para conectar na AWS. Pode ser do tipo AWSv4, com _access key_ e _secret_ ou _Basic_ para acesso a servidor do cassandra em uma _data center_, com usuário e senha.&#x20;
 * **Operation:** operação a ser executada (INSERT, UPDATE, SELECT, DELETE).&#x20;
 * **Connection String:** ‘string’ de conexão com host, porta e _keyspace_ a ser utilizado.
