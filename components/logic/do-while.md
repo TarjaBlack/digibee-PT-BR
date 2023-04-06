@@ -13,17 +13,12 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Loop Index:** se a opção estiver ativada, uma propriedade “loopIndex” será inserida na mensagem apresentada a cada iteração do _loop_ e informará o índice da iteração atual (1, 2, 3, …).
 * **Interrupt Loop On Error:** se opção for ativada, um erro ocorrido dentro de uma iteração causará a interrupção do _loop_ como um todo. Do contrário, o _loop_ continuará a partir da próxima iteração.
 
+## Definindo o _subpipeline_ que é executado a cada iteração <a href="#definindo-o-subpipeline-que--executado-a-cada-iterao" id="definindo-o-subpipeline-que--executado-a-cada-iterao"></a>
+
 Para trabalhar com esse tipo de componente, é importante levar em consideração:
 
-#### Subpipeline _definido no bloco "onProcess"_ <a href="#subpipeline-definido-no-bloco-onprocess" id="subpipeline-definido-no-bloco-onprocess"></a>
-
-O _pipeline_ definido nesse bloco é executado a cada iteração do _loop_. Portanto, se o _loop_ tem 10 iterações, o _subpipeline_ é executado 10 vezes.
-
-#### _Subpipeline_ definido no bloco "onException" <a href="#subpipeline-definido-no-bloco-onexception" id="subpipeline-definido-no-bloco-onexception"></a>
-
-O _pipeline_ definido nesse bloco é executado sempre que uma iteração do _loop_ resultar em uma falha.
-
-## Definindo o _subpipeline_ que é executado a cada iteração <a href="#definindo-o-subpipeline-que--executado-a-cada-iterao" id="definindo-o-subpipeline-que--executado-a-cada-iterao"></a>
+* _**Subpipeline**_** definido no bloco "onProcess":** o _pipeline_ definido nesse bloco é executado a cada iteração do _loop_. Portanto, se o _loop_ tem 10 iterações, o _subpipeline_ é executado 10 vezes.
+* _**Subpipeline**_** definido no bloco "onException":** o _pipeline_ definido nesse bloco é executado sempre que uma iteração do _loop_ resultar em uma falha.
 
 Para definir o _subpipeline_ que será executado a cada iteração, basta clicar no ícone “onProcess” do componente _**Do While**_:
 
