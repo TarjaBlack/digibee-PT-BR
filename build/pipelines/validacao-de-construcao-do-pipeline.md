@@ -10,7 +10,7 @@ description: Saiba mais sobre a funcionalidade de validação de construção de
 
 O Novo _Canvas_ exibe alertas durante a construção de _pipelines_ que ajudam os desenvolvedores a identificarem e corrigirem problemas comuns mais rapidamente.
 
-<figure><img src="../../.gitbook/assets/beta (2).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/01 - Erros - crop.gif" alt=""><figcaption></figcaption></figure>
 
 ## Localizar problemas <a href="#h_37abb7de8a" id="h_37abb7de8a"></a>
 
@@ -49,7 +49,7 @@ Para cada problema encontrado durante a construção de pipelines, um alerta é 
 
 4\. Abrir o formulário de configuração do componente para editá-lo.
 
-<figure><img src="https://lh5.googleusercontent.com/61aaGRoKfmLr2Jt5ItNDcwgstJCq90MZSbig3cy_FW2WRLpOlMzDSNbB6ahkGCxG15sMds0UNVDi1yv6y7nYYTueZ6OwvtFyEnp9d5Z2Ayx2S60WMI9aGX5BWoaAzlPG8OYAwk3z7-Q2IaFofgLtLKs" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/02 - Lista Issues.jpeg" alt=""><figcaption></figcaption></figure>
 
 Para visualizar a lista, basta clicar no ícone![](https://lh5.googleusercontent.com/wZYM7meIdyA5nNTJ6eFF6oGeGdiYmibzKWph4gkpok0NgMs866kLRHFQokvmBW5T7gfJsGpQjarh1WnsbKn8ugElhwisrANN\_jawM-8orE0plP5deNJRkqhPoYGEdGvs1eLTzoPwoRaXRP24zJsmMc4) localizado na barra de tarefas.
 
