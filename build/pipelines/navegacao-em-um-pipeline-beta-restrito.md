@@ -22,7 +22,7 @@ Ao reorganizar, os componentes soltos (não conectados ao fluxo) são ajustados 
 
 No Novo Canvas, você pode navegar pelo _pipeline_ utilizando o minimapa no canto inferior direito da tela.
 
-<figure><img src="../../.gitbook/assets/gravacao-minimap.d6b8a50ec13c1b39b366.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/01 - Mini mapa.gif" alt=""><figcaption></figcaption></figure>
 
 ### Movimentação automática (Beta) <a href="#h_0009c98480" id="h_0009c98480"></a>
 
@@ -32,7 +32,7 @@ Com o _auto pan_, ao segurar um componente e o arrastar, a nova tela segue o cur
 
 Esta funcionalidade é uma estrutura em forma de árvore que exibe os componentes de um _pipeline_ de uma forma mais simples e centralizada. Utilizando a _Flow tree_, você pode visualizar todos os componentes do _pipeline_ principal e de todos os _subpipelines_, conectados ou não, em um só lugar.
 
-<figure><img src="../../.gitbook/assets/flowtree-demo-20122022.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/02 - Flow tree - port.gif" alt=""><figcaption></figcaption></figure>
 
 Para navegar até um componente ou _subpipeline_ específico, dê um duplo clique sobre ele dentro da estrutura da Árvore ou clique no ícone de destino (![](../../.gitbook/assets/image1.png)).
 
@@ -46,7 +46,7 @@ A _Flow tree_ simplifica a navegação e o entendimento da lógica aplicada no f
 
 Use o Campo de busca localizado ao lado esquerdo do Canvas para buscar por componentes, Contas, Globals e quaisquer outros campos definidos nos formulários de configuração dos componentes utilizados no _pipeline_.
 
-<figure><img src="../../.gitbook/assets/search-demo-20122022.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/03 - Search - port.gif" alt=""><figcaption></figcaption></figure>
 
 Na barra de pesquisas, digite o nome ou partes do nome de um componente, Conta, Global ou qualquer outro valor definido nos campos do formulário de um componente.&#x20;
 
