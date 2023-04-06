@@ -49,7 +49,7 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 }
 ```
 
-## Zip File em Ação <a href="#zip-file-em-ao" id="zip-file-em-ao"></a>
+## ZIP File em Ação <a href="#zip-file-em-ao" id="zip-file-em-ao"></a>
 
 ### **Resposta de requisição** <a href="#resposta-de-requisio" id="resposta-de-requisio"></a>
 
