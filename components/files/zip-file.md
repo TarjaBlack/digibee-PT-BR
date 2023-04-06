@@ -2,19 +2,19 @@
 description: Conheça o componente e saiba como utilizá-lo.
 ---
 
-# Zip File
+# ZIP File
 
 {% hint style="info" %}
 Essa _feature_ está em fase Beta. Para aprender mais, leia [nosso artigo sobre o programa Beta da Digibee](../../geral/programa-beta.md).
 {% endhint %}
 
-O **Zip File** permite a compressão de arquivos no formato Zip.
+O **ZIP File** permite a compressão de arquivos no formato zip.
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
 * **File Name:** nome do arquivo a ser comprimido.
-* **Zip Operation:** define o tipo de operação (_Compress_, _Multiple Compress_ ou _Decompress_).
-* **Output File Name:** nome do arquivo Zip a ser gerado.
+* **ZIP Operation:** define o tipo de operação (_Compress_, _Multiple Compress_ ou _Decompress_).
+* **Output File Name:** nome do arquivo zip a ser gerado.
 * **Custom Files Specification:** válido somente para operação _Multiple Compress_. Se a opção estiver habilitada, é possível passar dinamicamente os arquivos a serem comprimidos; do contrário, os arquivos podem ser informados individualmente via chave-valor.
 * **Files:** válido somente para operação _Multiple Compress_, esse campo serve para definir os arquivos a serem comprimidos.
 * **Set Charset:** válido somente para a operação _Decompress_. Se a opção estiver ativada, você pode definir um _charset_ específico para a operação.
@@ -29,7 +29,7 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 
 ### **Saída** <a href="#sada" id="sada"></a>
 
-* sem erro
+#### **Sem erro**
 
 ```
 {
@@ -38,7 +38,7 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 }
 ```
 
-* com erro
+**Com erro**
 
 ```
 {
@@ -60,8 +60,8 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 }
 ```
 
-* **outputFileName:** nome do arquivo escrito
-* **success:** se “true”, a operação foi executada com sucesso; se “false”, houve falha na operação
+* **outputFileName:** nome do arquivo escrito.
+* **success:** se “true”, a operação foi executada com sucesso; se “false”, houve falha na operação.
 
 ### **Resposta de requisição contendo erro** <a href="#resposta-de-requisio-contendo-erro" id="resposta-de-requisio-contendo-erro"></a>
 
@@ -73,9 +73,9 @@ O componente aceita qualquer mensagem de entrada, podendo utilizá-la por meio d
 }
 ```
 
-* **success:** “false” quando a operação falha
-* **message:** mensagem sobre o erro
-* **exception:** informação sobre o tipo de erro ocorrido
+* **success:** “false” quando a operação falha.
+* **message:** mensagem sobre o erro.
+* **exception:** informação sobre o tipo de erro ocorrido.
 
 ### **Manipulação de arquivos no pipeline** <a href="#manipulao-de-arquivos-no-pipeline" id="manipulao-de-arquivos-no-pipeline"></a>
 

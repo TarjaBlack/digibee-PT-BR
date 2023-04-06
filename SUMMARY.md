@@ -172,7 +172,7 @@
   * [Stream File Reader Pattern](components/files/stream-file-reader-pattern.md)
   * [Stream JSON File Reader](components/files/stream-json-file-reader.md)
   * [Stream XML File Reader](components/files/stream-xml-file-reader.md)
-  * [Zip File](components/files/zip-file.md)
+  * [ZIP File](components/files/zip-file.md)
 * [Flow](components/flow/README.md)
   * [Delayer](components/flow/delayer.md)
 * [Logic](components/logic/README.md)
