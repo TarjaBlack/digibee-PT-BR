@@ -62,7 +62,7 @@ Todo _pipeline_ é composto por um _trigger_ e por pelo menos um componente, que
 
 O primeiro passo para criar um fluxo é escolher um _trigger_. O _trigger_ é o elemento que define como a execução do _pipeline_ será iniciada - através de uma chamada externa, em resposta a um evento ou via agendamento, por exemplo. Para defini-lo, basta clicar na ícone de engrenagem sobre o trigger (![](../.gitbook/assets/image4.png)) e escolher entre as opções listadas, conforme o exemplo abaixo:
 
-<figure><img src="../.gitbook/assets/image11.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/02 - Trigger port (1).gif" alt=""><figcaption></figcaption></figure>
 
 ### Componentes <a href="#h_eadc6e7b3f" id="h_eadc6e7b3f"></a>
 

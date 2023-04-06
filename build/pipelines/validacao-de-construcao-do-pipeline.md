@@ -5,7 +5,7 @@ description: Saiba mais sobre a funcionalidade de validação de construção de
 # Linter - Validação de construção do pipeline (Beta)
 
 {% hint style="danger" %}
-**IMPORTANTE:** esta funcionalidade está em Beta. Para saber mais, leia o artigo [Programa beta](../../geral/programa-beta.md).
+**IMPORTANTE:** esta funcionalidade está em Beta. [Para saber mais, leia o artigo Programa beta.](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta)
 {% endhint %}
 
 O Novo _Canvas_ exibe alertas durante a construção de _pipelines_ que ajudam os desenvolvedores a identificarem e corrigirem problemas comuns mais rapidamente.
@@ -123,7 +123,7 @@ O Parallel permite a configuração de uma ou mais linhas de execução paralela
 
 #### 1. Trigger não configurado. Para implantar o pipeline, configure o trigger (estrutura) <a href="#h_2689472af5" id="h_2689472af5"></a>
 
-O _trigger_ define como a execução do _pipeline_ será iniciada. Para configurar o _trigger_, selecione uma das opções disponibilizadas pela Digibee Integration Platform. A seguir, conecte-o ao início do fluxo para implantar o _pipeline_ posteriormente. Para mais informações, acesse a [documentação dos triggers](https://docs.digibee.com/help-center/v/pt-br/components/triggers).
+O _trigger_ define como a execução do _pipeline_ será iniciada. Para configurar o _trigger_, selecione uma das opções disponibilizadas pela Digibee Integration Platform. A seguir, conecte-o ao início do fluxo para implantar o _pipeline_ posteriormente. [Para mais informações, acesse a documentação dos triggers.](https://docs.digibee.com/documentation/v/pt-br/components/triggers)
 
 {% hint style="info" %}
 **Nota:** Você pode salvar o _pipeline_ mesmo sem configurar o _trigger_. No entanto, não será possível implantá-lo.
