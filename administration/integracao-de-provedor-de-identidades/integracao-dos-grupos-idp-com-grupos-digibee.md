@@ -4,6 +4,10 @@ description: Entenda como criar e configurar sua integração.
 
 # Integração dos grupos IdP com grupos Digibee
 
+{% hint style="info" %}
+Essa _feature_ está na fase Beta. Para aprender mais sobre o programa Beta da Digibee, leia [esse artigo](../../geral/programa-beta.md).
+{% endhint %}
+
 O realm da Digibee que possui integração com provedor de identidade (IdP), poderá integrar os grupos do provedor de identidade com os grupos Digibee para aumentar a eficiência da gestão de acessos dos seus usuários. Isso permite escalar as mudanças das permissões, e garantir mais facilidade ao gestor de acessos.
 
 Para evitar possíveis perdas de acesso, o gestor de acesso do realm deve configurar as integrações de grupos e solicitar a sua ativação via solicitação ao time de suporte ou Customer Success da Digibee.
