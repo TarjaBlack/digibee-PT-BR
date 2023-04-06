@@ -37,8 +37,6 @@ A funcionalidade Integração de Provedor de Identidade com a Digibee Integratio
 
 ### **SIMULAÇÃO DE INTEGRAÇÃO DE GRUPOS**
 
-Agora, o recurso de simulação de integração de grupos fica disponível para _realms_ que possuem a funcionalidade de integração de grupos visível.
-
 Agora, a _feature_ de simulação da integração de grupos está disponível. Essa _feature_ está em fase Beta e está disponível para _realms_ que já possuem a [_feature_ de integração de grupos](../../administration/integracao-de-provedor-de-identidades/integracao-dos-grupos-idp-com-grupos-digibee.md).
 
 

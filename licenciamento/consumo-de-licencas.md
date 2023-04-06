@@ -6,6 +6,10 @@ description: >-
 
 # Consumo de licenças
 
+{% hint style="info" %}
+Essa _feature_ está na fase Beta Restrito e está disponível apenas para clientes selecionados.
+{% endhint %}
+
 Na página "Consumo de licenças", você pode verificar facilmente o consumo de [_pipeline subscriptions_ e _RTUs (Runtime Units)_](https://docs.digibee.com/documentation/v/pt-br/geral/modelo-baseado-em-subscription) disponíveis em seu _realm_, bem como as características de tal consumo de forma detalhada.
 
 Em Configurações no canto superior direito, acesse "Consumo de licenças" sob o menu Licenciamento no painel esquerdo para visualizar o consumo em seu realm. Para ter acesso a esta página, você precisa ter a permissão **license-viewer** concedida à sua conta de usuário ou a um grupo ao qual você pertence.

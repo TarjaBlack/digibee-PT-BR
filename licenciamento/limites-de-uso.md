@@ -4,10 +4,6 @@ description: Saiba mais sobre os limites de uso da Digibee Integration Platform
 
 # Limites de uso
 
-{% hint style="info" %}
-Essa _feature_ está na fase Beta Restrito e está disponível apenas para clientes selecionados.
-{% endhint %}
-
 Este artigo apresenta os limites de uso aplicados na execução de _pipelines_ na Digibee Integration Platform.
 
 Os limites de uso da plataforma são limites técnicos, criados com base no uso médio da plataforma e aplicados em cada _realm_, ou seja, no espaço privado de cada cliente dentro da plataforma, em que as integrações são construídas, armazenadas e executadas.
