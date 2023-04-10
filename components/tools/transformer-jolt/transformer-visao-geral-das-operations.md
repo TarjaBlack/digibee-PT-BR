@@ -327,7 +327,7 @@ Exemplo:
     "spec": {
        "counterTop": {
          "jar2": {
-             //acessando o Elemento contents e alterando seu valor para upper
+             //acessando o elemento "contents" e alterando seu valor para upper
            "contents": "=toUpper"
         }
       }
@@ -346,7 +346,7 @@ Exemplo:
        "slices" : "slice1"
     },
     "jar2" : {
-      //a saída em UpperCase
+      //a saída está em UpperCase
        "contents" : "JELLY"
     }
   }
