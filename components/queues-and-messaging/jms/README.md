@@ -22,7 +22,7 @@ Dê uma olhada nos parâmetros de configuração do componente, dependendo do ti
 * **Expiration:** tempo de expiração da mensagem dentro da fila ou tópico (Time To Live). Em milissegundos.
 * **Priority:** define a prioridade da mensagem. Um valor de 0 a 4 indica um intervalo de prioridade normal (sendo 4 o valor padrão); os valores de 5 a 9 indicam prioridade acentuada.
 * **Type:** esse campo pode ser utilizado para definir algum valor no envio da mensagem, que poderá ser utilizado para filtrá-la.
-* **JMS Object Properties:** define algumas propriedades JMSX da API JMS. Saiba mais sobre este parâmetro na seção abaixo.
+* **JMS Object Properties:** define algumas propriedades JMSX da API JMS. Saiba mais sobre este parâmetro na [seção](./#jms-object-properties) abaixo.
 
 Existem algumas propriedades específicas para cada _broker_:
 
