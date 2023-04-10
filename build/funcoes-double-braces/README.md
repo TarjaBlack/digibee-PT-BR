@@ -26,6 +26,36 @@ Você pode fazer chamadas a funções Double Braces dentro de outras funções, 
 
 Quando usa essa sintaxe, as funções são executadas de dentro para fora. Isto é, no exemplo acima, `FUNÇÃOINTERNA` é executada primeiro e seu _output_ é usado como um parâmetro de `FUNÇÃOEXTERNA`, que é executada por último.
 
+Diferentemente das linguagens de programação, as expessões Double Braces executam todas as funções ao mesmo tempo, independentemente se a condição do IF é `true` ou `false`. Isso difere das linguagens de programação, que normalmente executam as funções somente após checar a condição do IF.
+
+#### Exemplo
+
+**Input**
+
+```
+{
+    "date": "2022-10-26T03:00:00Z"
+}
+```
+
+**Expressão Double Braces**
+
+```
+{
+    "format": {{ IF(EQUALTO(SIZE(message.date),20),FORMATDATE( message.date, "yyyy-MM-dd'T'HH:mm:ss'Z'", "dd/MM/yyyy"),FORMATDATE( message.date, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", "dd/MM/yyyy")) }}
+}
+```
+
+**Output**
+
+```
+{
+  "success": false,
+  "message": "Encountered a configuration error while generating JSON",
+  "error": "com.digibee.pipelineengine.exception.PipelineEngineConfigurationException: com.digibee.doublebraces.service.DoubleBracesConfigurationException: Syntax error parsing double braces expression {{ IF(EQUALTO(SIZE(message.date),20),FORMATDATE( message.date, \"yyyy-MM-dd'T'HH:mm:ss'Z'\", \"dd/MM/yyyy\"),FORMATDATE( message.date, \"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\", \"dd/MM/yyyy\")) }}: Could not parse date/time evaluating function FORMATDATE. Error: Text '2022-10-26T03:00:00Z' could not be parsed at index 19"
+}
+```
+
 ## Lista de funções
 
 Abaixo, listamos as funções Double Braces por grupos baseados em seu uso.
