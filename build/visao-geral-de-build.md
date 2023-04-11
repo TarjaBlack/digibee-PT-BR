@@ -8,9 +8,9 @@ Na página de Build, você pode criar e gerenciar pipelines e projetos. Nesta p�
 
 ## Build layout
 
-Ao selecionar Build, o layout da página aparece como mostrado na figura abaixo. No canto superior esquerdo estão o Pipeline e as Cápsulas. Quando você seleciona Pipeline, os projetos e pipelines criados são exibidos.
+Ao selecionar Build, o layout da página aparece como mostrado na figura abaixo. No canto superior esquerdo estão o **Pipeline** e as **Cápsulas**. Quando você seleciona Pipeline, os projetos e pipelines criados são exibidos.
 
-No meio da tela, abaixo das informações do Novo Canvas, você encontrará todos os pipelines criados. Ao clicar em Cápsulas, as Cápsulas criadas também serão exibidas. No canto direito você encontrará o botão CRIAR.
+No meio da tela, abaixo das informações do Novo Canvas, você encontrará todos os pipelines criados. Ao clicar em Cápsulas, as Cápsulas criadas também serão exibidas. No canto direito você encontrará o botão **CRIAR**.
 
 Nas próximas seções, você aprenderá mais sobre cada ferramenta.
 
@@ -18,13 +18,13 @@ Nas próximas seções, você aprenderá mais sobre cada ferramenta.
 
 ## Botão CRIAR
 
-Você pode clicar no botão **CRIAR** no canto superior direito da tela para criar um novo pipeline ou projeto. Você também pode encontrar o botão CREATE na tela Run.
+Você pode clicar no botão **CRIAR** no canto superior direito da tela para criar um novo pipeline ou projeto. Você também pode encontrar o botão CRIAR na tela Run.
 
 <figure><img src="../.gitbook/assets/02 - CRIAR.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Criar um pipeline
 
-Para criar um pipeline, selecione **Pipeline** ou **Pipeline (Beta)**. Se você selecionar Pipeline (Beta), um novo pipeline será criado usando o **Novo Canvas**. [Para saber mais sobre o Canvas, leia este artigo.](https://docs.digibee.com/documentation/v/pt-br/build/canvas)
+Para criar um pipeline, selecione **Pipeline** ou **Pipeline (Beta)**. Se você selecionar Pipeline (Beta), um novo pipeline será criado usando o novo Canvas. [Para saber mais sobre o Canvas, leia este artigo.](https://docs.digibee.com/documentation/v/pt-br/build/canvas)
 
 <figure><img src="../.gitbook/assets/03 - icone.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -34,7 +34,7 @@ IMPORTANTE: A diferença entre Pipeline e Pipeline Beta é que na versão Beta v
 
 ### Criar um projeto
 
-Para criar um novo projeto, selecione Projeto. Projetos são pastas onde você pode armazenar seus pipelines. Uma folha lateral aparecerá onde você pode inserir o nome e a descrição do projeto e atribuir o projeto a usuários específicos.
+Para criar um novo projeto, selecione **Projeto**. Projetos são pastas onde você pode armazenar seus pipelines. Uma folha lateral aparecerá onde você pode inserir o nome e a descrição do projeto e atribuir o projeto a usuários específicos.
 
 <figure><img src="../.gitbook/assets/04 - criar projeto.jpg" alt=""><figcaption></figcaption></figure>
 
