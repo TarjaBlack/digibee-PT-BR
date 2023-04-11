@@ -109,6 +109,12 @@
 * [Relacionamento](configurations/relacionamento.md)
 * [Multi-Instância](configurations/multi-instancia.md)
 
+## Licenciamento
+
+* [Modelo baseado em subscription](licenciamento/modelo-baseado-em-subscription.md)
+* [Capacidade e cotas](licenciamento/limites-de-uso.md)
+* [Consumo de licenças](licenciamento/consumo-de-licencas.md)
+
 ## Geral
 
 * [Suporte ao Cliente Digibee](geral/suporte-ao-cliente-digibee.md)
@@ -295,9 +301,3 @@
 * [Utilizando sua conta Gmail com o componente de e-mail da Digibee (SMTP)](tutoriais-e-melhores-praticas/utilizando-sua-conta-gmail-com-o-componente-de-e-mail-da-digibee-smtp.md)
 * [Como enviar logs para serviços externos](tutoriais-e-melhores-praticas/como-enviar-logs-para-servicos-externos.md)
 * [Como construir fluxos de integração que enviam notificações de erro](tutoriais-e-melhores-praticas/como-construir-fluxos-de-integracao-que-enviam-notificacoes-de-erro.md)
-
-## Licenciamento
-
-* [Modelo baseado em subscription](licenciamento/modelo-baseado-em-subscription.md)
-* [Capacidade e cotas](licenciamento/limites-de-uso.md)
-* [Consumo de licenças](licenciamento/consumo-de-licencas.md)
