@@ -27,6 +27,7 @@
 
 ## Build
 
+* [Visão geral de Build](build/visao-geral-de-build.md)
 * [Canvas](build/canvas/README.md)
   * [Test mode](build/canvas/test-mode/README.md)
     * [ERRO: Network error: Failed to fetch (test-mode)](build/canvas/test-mode/erro-network-error-failed-to-fetch-test-mode.md)
