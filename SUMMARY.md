@@ -299,5 +299,5 @@
 ## Licenciamento
 
 * [Modelo baseado em subscription](licenciamento/modelo-baseado-em-subscription.md)
-* [Capacidade e Cotas](licenciamento/limites-de-uso.md)
+* [Capacidade e cotas](licenciamento/limites-de-uso.md)
 * [Consumo de licenças](licenciamento/consumo-de-licencas.md)
