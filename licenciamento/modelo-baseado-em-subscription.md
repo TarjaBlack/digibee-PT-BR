@@ -62,7 +62,7 @@ As cotas de uso da plataforma são limites técnicos impostos em cada _realm_ pa
 
 Você pode **construir** quantos _pipelines_ quiser na Digibee Integration Platform. Todas as cotas são aplicadas na fase de **implantação**. Cada _pipeline_ desenvolvido pode ser implantado em ambientes de teste ou produção, respeitando o número de _pipeline subscriptions_ e RTUs disponíveis.
 
-Os _pipelines_ implantadas em um ambiente consomem RTUs (teste ou produção) de acordo com o tamanho e as réplicas de implantação do _pipeline_.
+Os _pipelines_ implantados em um ambiente consomem RTUs (teste ou produção) de acordo com o tamanho e as réplicas de implantação do _pipeline_.
 
 Na tabela abaixo, você pode ver quantas RTUs são consumidas por cada tamanho de implantação de _pipeline_:
 
