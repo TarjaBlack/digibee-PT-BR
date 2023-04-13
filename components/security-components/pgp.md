@@ -19,7 +19,7 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Armor:** se a opção estiver ativada, irá encriptar as mensagens em ASCII para que elas sejam enviadas em formato padrão, assim como e-mail.
 * **Zip:** se a opção estiver ativada, irá zipar a mensagem antes de ser encriptada.
 * **Integrity Check:** se a opção estiver ativada, irá verificar a integridade da mensagem.
-* **Fail On Error:** se a opção estiver ativada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade _**success**_.
+* **Fail On Error:** se a opção estiver ativada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "_success_".
 
 ## Fluxo de Mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
