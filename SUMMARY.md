@@ -182,6 +182,8 @@
   * [ZIP File](components/files/zip-file.md)
 * [Flow](components/flow/README.md)
   * [Delayer](components/flow/delayer.md)
+* [Industry solutions](components/industry-solutions/README.md)
+  * [HL7 (Beta)](components/industry-solutions/hl7-beta.md)
 * [Logic](components/logic/README.md)
   * [Block Execution](components/logic/block-execution.md)
   * [Choice](components/logic/choice.md)
@@ -271,11 +273,6 @@
   * [SOAP V2](components/web-protocols/soap-v2.md)
   * [SOAP V1 (Descontinuado)](components/web-protocols/soap-v1.md)
   * [WGet (Download HTTP)](components/web-protocols/wget.md)
-
-***
-
-* [Industry solutions](industry-solutions/README.md)
-  * [HL7 (Beta)](industry-solutions/hl7-beta.md)
 
 ## Plataforma
 
