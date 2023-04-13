@@ -4,35 +4,64 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # Hash
 
-O _**Hash**_ gera um _hash_ a partir de uma _string_ passada no campo "Payload" caso a operação selecionada seja _Hash Payload_.
-
-No entanto, se a operação selecionada for _Hash Fields_, então o componente gera um _hash_ a partir de uma _string_ passada nos campos especificados do JSON de entrada.
+O _**Hash**_ gera um _hash_ a partir de uma _string._&#x20;
 
 Dê uma olhada nos parâmetros de configuração do componente:
 
-* **Crypto Operation:** tipos de operação disponíveis - _Hash Fields_ e _Hash Payload._
+* **Crypto Operation:** tipos de operação disponíveis (_Hash Fields,_ _Hash Payload_ e _Hash File)._
+* **File name:** nome ou caminho completo do arquivo (i.e. tmp/processed/file.txt). Este campo fica disponível somente quando _Hash File_ estiver selecionado no parâmetro **Crypto Operation** e suporta somente _MD5 Crypto Algorithm_.
 * **Crypto Algorithm:** tipo de algoritmo utilizado para gerar o _hash_. Os possíveis valores para esse parâmetro são _MD5_, _SHA-1, SHA-256, SHA-384, SHA-512, HmacSHA1, HmacSHA256, HmacSHA384, HmacSHA512_ e _BCrypt_.
-* _**Account:**_ só será exibida caso o algoritmo selecionado no campo **Crypto Algorithm** seja HmacSHA1, HmacSHA256, HmacSHA384 ou HmacSHA512. A conta deve ser do tipo _SECRET\_KEY_ e a chave para fazer o _hash_ deve ser informada.
-* **Secret Key:** só será exibida se nenhuma for conta selecionada e caso o algoritmo selecionado no campo **Crypto Algorithm** seja _HmacSHA1_, _HmacSHA256_, _HmacSHA384_ ou _HmacSHA512_. Essa é uma alternativa para o componente receber a chave para a geração do _hash_ de forma dinâmica.
+* **Account:** só será exibida caso o algoritmo selecionado no campo **Crypto Algorithm** seja _HmacSHA1, HmacSHA256, HmacSHA384_ ou _HmacSHA512_. A conta deve ser do tipo _SECRET\_KEY_ e a chave para fazer o _hash_ deve ser informada.
+* **Secret Key:** só será exibida se nenhuma conta estiver selecionada e caso o algoritmo selecionado no campo **Crypto Algorithm** seja _HmacSHA1_, _HmacSHA256_, _HmacSHA384_ ou _HmacSHA512_. Essa é uma alternativa para o componente receber a chave para a geração do _hash_ de forma dinâmica.
 * **Secret Key Type:** só será exibido caso o algoritmo selecionado no campo **Crypto Algorithm** seja _HmacSHA1_, _HmacSHA256_, _HmacSHA384_ ou _HmacSHA512_. Esse campo também informa para o componente qual é o tipo da chave informada, que pode ser do tipo _String_, _Hexadecimal_ ou _base64_.
-* **BCrypt Version:** versão do algoritmo BCrypt a ser considerada na geração do _hash_. Essa opção será disponibilizada apenas quando o valor do parâmetro _Crypto Algorithm_ for _BCrypt_.
-* **Salt:** _string_ de 16 bytes adicionada ao valor do _hash_. Caso não seja informado, será assumido um valor aleatório. Essa opção será disponibilizada apenas quando o valor do parâmetro _Crypto Algorithm_ for _BCrypt_.
-*   **Cost Factor:** determina a quantidade de rodadas para o _hash_ ser executado. O fator de custo será elevado à potência de 2 e os possíveis valores estão entre 4 e 20. Ex: se o valor do parâmetro for 10, então a quantidade de rodadas para o _hash_ será 2ˆ10 = 1024 rodadas. Essa opção será disponibilizada apenas quando o valor do parâmetro _Crypto Algorithm_ for _BCrypt._
+* **Charset:** charset do tipo da chave informada. Este campo fica disponível somente quando o valor do parâmetro **Secret Key Type** for _String_.
+* **BCrypt Version:** versão do algoritmo _BCrypt_ a ser considerada na geração do _hash_. Essa opção será disponibilizada apenas quando o valor do parâmetro **Crypto Algorithm** for _BCrypt_.
+* **Salt:** _string_ de 16 bytes adicionada ao valor do _hash_. Caso não seja informado, será assumido um valor aleatório. Essa opção será disponibilizada apenas quando o valor do parâmetro **Crypto Algorithm** for _BCrypt_.
+* **Cost Factor:** determina a quantidade de rodadas para o _hash_ ser executado. O fator de custo será elevado à potência de 2 e os possíveis valores estão entre 4 e 20. Ex: se o valor do parâmetro for 10, então a quantidade de rodadas para o _hash_ será 2ˆ10 = 1024 rodadas. Essa opção será disponibilizada apenas quando o valor do parâmetro _Crypto Algorithm_ for _BCrypt._
 
-    **IMPORTANTE**_:_ o fator de custo afeta exponencialmente tempo e recursos de processamento, pois o algoritmo será executado consecutivamente de acordo com o número de rodadas obtidas através do resultado do cálculo 2ˆ_n_, no qual _n_ é o fator de custo.
+{% hint style="info" %}
+**IMPORTANTE**_:_ o fator de custo afeta exponencialmente tempo e recursos de processamento, pois o algoritmo será executado consecutivamente de acordo com o número de rodadas obtidas através do resultado do cálculo 2ˆ_n_, no qual _n_ é o fator de custo. Veja mais na [seção](hash.md#fator-de-custo) abaixo.
+{% endhint %}
+
 * **JSON Field Path:** JSON como caminho do campo _string_ em notação com pontos (_dotted notation_).
 * **Payload:** campo para informar diretamente o _payload_ que terá o _hash_ feito. Ele será exibido apenas se a operação selecionada for _Hash Payload_.
 * **Preserve Original:** se ativada, a opção preserva o campo original como propriedade "Field" no mesmo nível do original.
 * **Result As Hexadecimal:** se ativada, a opção mantém o _hash_ em formato hexadecimal; do contrário, o formato será base64.
-* **Fail On Error:** se a opção estiver habilitada, a execução do pipeline com erro será interrompida; do contrário, a execução do pipeline continua, mas o resultado vai mostrar um valor falso para a propriedade "success".
+* **Fail On Error:** se a opção estiver habilitada, a execução do _pipeline_ com erro será interrompida; do contrário, a execução do _pipeline_ continua, mas o resultado vai mostrar um valor falso para a propriedade "_success_".
+
+{% hint style="info" %}
+**IMPORTANTE:** o componente gera um _hash_ a partir de uma _string_ passada no campo **Payload** caso a operação selecionada seja _Hash Payload_. No entanto, se a operação selecionada for _Hash Fields_, então o componente gera um _hash_ a partir de uma _string_ passada nos campos especificados do JSON de entrada.
+{% endhint %}
+
+## Fator de custo
+
+O fator de custo no algoritmo _BCrypt_ afeta exponencialmente o tempo e os recursos de processamento, pois o algoritmo será executado consecutivamente de acordo com o número de rodadas obtidas através do resultado do cálculo 2^n, no qual "n" é o fator de custo.
+
+Veja alguns exemplos de execução para servir de parâmetro de duração do cálculo do _hash_. Como premissa para aplicar o _hash_ do algoritmo _BCrypt_ estão sendo utilizados um _payload_ de 1MB e um fator de custo com o mínimo e o máximo permitido. Os resultados obtidos são:
+
+**Cost Factor 4**
+
+* **Pipeline Small:** média de 0.98s
+* **Pipeline Medium:** média de 0.64s
+* **Pipeline Large:** média de 0.07s
+
+**Cost Factor 20**
+
+* **Pipeline Small:** média de 8m 7s
+* **Pipeline Medium:** média de 3m 56s
+* **Pipeline Large:** média de 1m 53s
+
+Os resultados acima podem variar de acordo com o fluxo de integração construído, com o tamanho da mensagem a ter o _hash_ aplicado e com o fator de custo.
+
+Outro ponto importante a ser destacado diz respeito aos limites do fator de custo. O fator de custo do algoritmo _BCrypt_ permite uma faixa entre 4 e 31. No entanto, fatores acima de 20 acabam consumindo carga de processamento e tempo muito alto, inviabilizando os parâmetros de _timeout_ de execução de um _pipeline_. Com isso, o componente Hash foi limitado a aceitar no máximo 20 como valor de fator de custo. Partindo dessa premissa, quando for realizado o _hash_ de um valor por meio do componente Hash e com a utilização do algoritmo _BCrypt_, atente-se ao limite de 20 como fator de custo. Dessa forma são evitados problemas de validação ou checagem no seu fluxo de integração.
 
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
-### Entrada <a href="#entrada" id="entrada"></a>
+## Entrada <a href="#entrada" id="entrada"></a>
 
-Se você selecionar a operação _Hash Fields_, o componente recebe qualquer mensagem de entrada, mas você deve configurar o caminho para o _hash_ da mensagem na propriedade **Json Field Path**. Por exemplo:
+Se você selecionar a operação _Hash Fields_, o componente recebe qualquer mensagem de entrada, mas você deve configurar o caminho para o _hash_ da mensagem na propriedade **JSON Field Path**. Por exemplo:
 
-**Json Field Path:** data.test
+**JSON Field Path:** data.test
 
 ```
 {
@@ -47,13 +76,13 @@ Se você selecionar a operação _Hash Fields_, o componente recebe qualquer men
 
 Portanto, o componente faz uma busca na propriedade “test”, dentro da propriedade “data”.
 
-Por outro lado, se você selecionar a operação _Hash Payload,_ então a mensagem de entrada deve ser informada dentro do campo _Payload_.
+Por outro lado, se você selecionar a operação _Hash Payload,_ então a mensagem de entrada deve ser informada dentro do campo **Payload**.
 
-### Saída <a href="#sada" id="sada"></a>
+## Saída <a href="#sada" id="sada"></a>
 
-**Operação Hash Fields**
+### **Operação Hash Fields**
 
-Se você selecionar a operação _Hash Fields_, a saída contém a mesma estrutura de entrada, porém exibindo o _hash_ da mensagem. Caso a propriedade **Preserve Original** estiver habilitada, então a saída preserva o campo original no mesmo nível, adicionando o prefixo '\_' na frente do campo:
+Se você selecionar a operação _Hash Fields_, a saída contém a mesma estrutura de entrada, porém exibindo o _hash_ da mensagem. Se a propriedade **Preserve Original** estiver habilitada, então a saída preserva o campo original no mesmo nível, adicionando o prefixo `'_'` na frente do campo:
 
 ```
 {
@@ -78,7 +107,7 @@ Se você selecionar a operação _Hash Fields_, a saída contém a mesma estrutu
 }
 ```
 
-**Operação Hash Payload**
+### **Operação Hash Payload**
 
 Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "result" com o _hash_ da mensagem passada:
 
@@ -88,7 +117,7 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Erro**
+#### **Erro**
 
 ```
 {
@@ -98,23 +127,23 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-* **success:** “false”, pois ocorreu um erro na execução
-* **message:** mensagem de erro do componente
-* **error:** mensagem de erro recebida do algoritmo de _hash_
+* **success:** “false”, pois ocorreu um erro na execução.
+* **message:** mensagem de erro do componente.
+* **error:** mensagem de erro recebida do algoritmo de _hash._
 
 ## Hash em Ação <a href="#hash-connector-em-ao" id="hash-connector-em-ao"></a>
 
 ### Operação Hash Fields <a href="#operao-hash-fields" id="operao-hash-fields"></a>
 
-**Exemplo 1**
+#### **Exemplo 1**
 
 * **Crypto Operation:** Hash Fields
 * **Crypto Algorithm:** SHA-256
 * **JSON Field Path:** data.test
-* **Preserve Original:** habilitado
-* **Result As Hexadecimal:** habilitado
+* **Preserve Original:** ativado
+* **Result As Hexadecimal:** ativado
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -127,7 +156,7 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -152,18 +181,18 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Exemplo 2**
+#### **Exemplo 2**
 
 * **Crypto Operation:** Hash Fields
 * **Crypto Algorithm:** HmacSHA256
 * **Account:** vazio
 * **Secret Key:** 001def0209
-* **Secret Key Type:** Hexadecimal (a chave passada na propriedade _Secret Key_ deve estar em hexadecimal)
+* **Secret Key Type:** Hexadecimal (a chave passada na propriedade **Secret Key** deve estar em hexadecimal)
 * **JSON Field Path:** data.test
-* **Preserve Original:** habilitado
-* **Result As Hexadecimal:** habilitado
+* **Preserve Original:** ativado
+* **Result As Hexadecimal:** ativado
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -176,7 +205,7 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -201,7 +230,7 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Exemplo 3**
+#### **Exemplo 3**
 
 * **Crypto Operation:** Hash Fields
 * **Crypto Algorithm:** BCrypt
@@ -209,9 +238,9 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 * **Salt:** N9qo8uLOickgx2ZM
 * **Cost:** 6
 * **JSON Field Path:** data.test
-* **Preserve Original:** habilitado
+* **Preserve Original:** ativado
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -224,7 +253,7 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -251,14 +280,14 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 
 ### Operação Hash Payload <a href="#operao-hash-payload" id="operao-hash-payload"></a>
 
-**Exemplo 1**
+#### **Exemplo 1**
 
 * **Crypto Operation:** Hash Payload
 * **Crypto Algorithm:** SHA-256
 * **Payload:** xpto
-* **Result As Hexadecimal:** habilitado
+* **Result As Hexadecimal:** ativado
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -266,17 +295,17 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Exemplo 2**
+#### **Exemplo 2**
 
 * **Crypto Operation:** Hash Payload
 * **Crypto Algorithm:** HmacSHA512
 * **Account:** vazio
 * **Secret Key:** 001def0209
-* **Secret Key Type:** Hexadecimal (a chave passada na propriedade _Secret Key_ deve estar em hexadecimal)
+* **Secret Key Type:** Hexadecimal (a chave passada na propriedade **Secret Key** deve estar em hexadecimal)
 * **Payload:** xpto
-* **Result As Hexadecimal:** habilitado
+* **Result As Hexadecimal:** ativado
 
-**Saída**
+#### **Saída**
 
 ```
 {
@@ -284,7 +313,7 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Exemplo 3**
+#### **Exemplo 3**
 
 * **Crypto Operation:** Hash Payload
 * **Crypto Algorithm:** BCrypt
@@ -293,7 +322,7 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 * **Cost:** 10
 * **Payload:** \{{ message.data \}}
 
-**Entrada**
+#### **Entrada**
 
 ```
 {
@@ -306,33 +335,10 @@ Se você selecionar a operação _Hash Payload_, a saída exibe a propriedade "r
 }
 ```
 
-**Saída**
+#### **Saída**
 
 ```
 {
 "result": "$2b$10$RhjvZxfzRC7nW0rlcBHYROa3UXROXVeKZ3oK4DSc1mV6iJ/pBqBm6"
 }
 ```
-
-**IMPORTANTE**_:_ o fator de custo no algoritmo _BCrypt_ afeta exponencialmente o tempo e os recursos de processamento, pois o algoritmo será executado consecutivamente de acordo com o número de rodadas obtidas através do resultado do cálculo 2^n, no qual "n" é o fator de custo.
-
-Veja alguns exemplos de execução para servir de parâmetro de duração do cálculo do _hash_. Como premissa para aplicar o _hash_ do algoritmo _Bcrypt_ estão sendo utilizados um _payload_ de 1MB e um fator de custo com o mínimo e o máximo permitido. Os resultados obtidos são:
-
-*   **Cost Factor 4**
-
-    **- Pipeline Small:** média de 0.98s
-
-    **- Pipeline Medium:** média de 0.64s
-
-    **- Pipeline Large:** média de 0.07s
-*   **Cost Factor 20**
-
-    **- Pipeline Small:** média de 8m 7s
-
-    **- Pipeline Medium:** média de 3m 56s
-
-    **- Pipeline Large:** média de 1m 53s
-
-Os resultados acima podem variar de acordo com o fluxo de integração construído, com o tamanho da mensagem a ter o _hash_ aplicado e com o fator de custo.
-
-Outro ponto importante a ser destacado diz respeito aos limites do fator de custo. O fator de custo do algoritmo _Bcrypt_ permite uma faixa entre 4 e 31. No entanto, fatores acima de 20 acabam consumindo carga de processamento e tempo muito alto, inviabilizando os parâmetros de _timeout_ de execução de um _pipeline_. Com isso, o componente Hash foi limitado a aceitar no máximo 20 como valor de fator de custo. Partindo dessa premissa, quando for realizado o _hash_ de um valor por meio do componente Hash e com a utilização do algoritmo _BCrypt_, atente-se ao limite de 20 como fator de custo. Dessa forma são evitados problemas de validação ou checagem no seu fluxo de integração.
