@@ -174,8 +174,8 @@ O nosso _pool_ é compartilhado entre os componentes de banco de dados que acess
 
 Veja na coleção a seguir como usar o DB V2 em diferentes cenários:
 
-{% content-ref url="db-v2/db-v2-via-kerberos.md" %}
-[db-v2-via-kerberos.md](db-v2/db-v2-via-kerberos.md)
+{% content-ref url="db-v2/db-v2-cenarios-de-uso.md" %}
+[db-v2-cenarios-de-uso.md](db-v2/db-v2-cenarios-de-uso.md)
 {% endcontent-ref %}
 
 ### &#x20;<a href="#h_f90a8ac5f6" id="h_f90a8ac5f6"></a>

@@ -4,17 +4,8 @@ description: >-
   cenários.
 ---
 
-# DB V2 via Kerberos
+# DB V2 - cenários de uso
 
-## **Autenticação via Kerberos** <a href="#autenticao-via-kerberos" id="autenticao-via-kerberos"></a>
-
-É possível realizar autenticação via Kerberos em componentes de banco de dados. Para isso, basta você:
-
-* informar uma conta do tipo KERBEROS
-* configurar um Kerberos principal
-* configurar uma _keytab_ (que deve ser a base64 do próprio arquivo _keytab_ gerado)
-
-\
 Dê uma olhada nos cenários de uso suportados:
 
 ### _**Cenário 1: Operação QUERY comando SELECT**_

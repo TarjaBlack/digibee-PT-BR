@@ -217,7 +217,7 @@
 * [Structured data](components/structured-data/README.md)
   * [Cassandra DB](components/structured-data/cassandra-db.md)
   * [DB V2](components/structured-data/db-v2.md)
-    * [DB V2 via Kerberos](components/structured-data/db-v2/db-v2-via-kerberos.md)
+    * [DB V2 - cenários de uso](components/structured-data/db-v2/db-v2-cenarios-de-uso.md)
   * [DB V1 (Descontinuado)](components/structured-data/db-v1.md)
   * [Mongo DB](components/structured-data/mongo-db.md)
   * [Object Store](components/structured-data/object-store.md)
