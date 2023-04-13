@@ -271,8 +271,11 @@
   * [SOAP V2](components/web-protocols/soap-v2.md)
   * [SOAP V1 (Descontinuado)](components/web-protocols/soap-v1.md)
   * [WGet (Download HTTP)](components/web-protocols/wget.md)
-  * [Industry Solutions](components/web-protocols/industry-solutions/README.md)
-    * [HL7 (Beta)](components/web-protocols/industry-solutions/hl7-beta.md)
+
+***
+
+* [Industry solutions](industry-solutions/README.md)
+  * [HL7 (Beta)](industry-solutions/hl7-beta.md)
 
 ## Plataforma
 
