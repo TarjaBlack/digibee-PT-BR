@@ -71,6 +71,31 @@ Dê uma olhada nos parâmetros de configuração do componente:
 * **Exclusive DB Pool:** se a opção estiver ativada, um novo _pool_ não-compartilhado sempre será criado para uso exclusivo deste componente. Do contrário, um _pool_ poderá ser compartilhado entre componentes se a URL for a mesma.
 * **Output Column From Label:** para alguns bancos de dados, é importante manter esta opção ativada caso o seu SELECT esteja utilizando algum _alias_, pois dessa maneira garante-se que o nome da coluna será exibido da mesma forma que o _alias_ configurado.
 * **Connection Test Query:** instrução SQL a ser executada antes que cada conexão seja estabelecida (i.e. _select 1 from dual_). Esse parâmetro é opcional e deve ser aplicado apenas a bancos de dados que não possuem informações confiáveis sobre o _status_ da conexão.
+* **Raw SQL Statement:** se a opção estiver ativada, o parâmetro **SQL Statement** permite o uso de _queries_ dinâmicas através de declarações _Double Braces_. Ao utilizar essa funcionalidade, você deve garantir que o _pipeline_ possua mecanismos de segurança contra instruções SQL indesejadas (_SQL Injection_). Veja mais sobre esse parâmetro na [seção](stream-db-v3.md#raw-sql-statement) abaixo.
+
+## Raw SQL Statement
+
+Para trazer mais flexibilidade ao utilizar o **Stream DB V3**, podemos ativar a opção **Raw SQL Statement**, configurar previamente uma _query_ e referenciá-la via _Double Braces_ no parâmetro **SQL Statement** da seguinte maneira:
+
+#### **Query definida previamente via Template Transformer**
+
+<figure><img src="../../.gitbook/assets/DB V2 - Raw SQL 01 - apr 23.png" alt=""><figcaption></figcaption></figure>
+
+#### **Ativação do Raw SQL Statement**
+
+<figure><img src="../../.gitbook/assets/DB v2 - Raw SQL 02 - apr 23.png" alt=""><figcaption></figcaption></figure>
+
+#### **Query referenciada no parâmetro SQL Statement**
+
+<figure><img src="../../.gitbook/assets/DB V2 - Raw SQL 03 - apr 23.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+**IMPORTANTE:** como boa prática, recomendamos fortemente que ao ativar a opção **Raw SQL Statement**, as _queries_ sejam definidas previamente através do componente [**Template Transformer**](https://docs.digibee.com/documentation/components/tools/template-transformer). O uso do **Template Transformer** permite validar parâmetros através da tecnologia FreeMarker e também a declaração de parâmetros via _Double Braces_. Estes parâmetros não são resolvidos pelo **Template Transformer** e sim pelo componente **Stream DB V3**, que por padrão configura e valida os parâmetros da instrução SQL previamente (_PreparedStatement_). Ao aplicar essas medidas de segurança, você diminui os riscos de ataques do tipo _SQL Injection_.
+{% endhint %}
+
+Na imagem abaixo, temos à esquerda um exemplo do uso recomendado do componente (com o _Double Braces_ na cláusula _WHERE_, no destaque verde); e à direita um exemplo do uso não recomendado (com o FreeMarker na cláusula _WHERE_, no destaque vermelho) que pode trazer riscos à segurança do _pipeline_:
+
+<figure><img src="../../.gitbook/assets/DB V2 - Raw SQL 04 exp - apr 23.png" alt=""><figcaption></figcaption></figure>
 
 ## Tecnologia <a href="#tecnologia" id="tecnologia"></a>
 
