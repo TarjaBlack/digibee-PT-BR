@@ -170,12 +170,22 @@ Veja na figura abaixo a configuração de um _pipeline_ SMALL com 5 _consumers_.
 
 O nosso _pool_ é compartilhado entre os componentes de banco de dados que acessam o mesmo banco de dados dentro do _pipeline_. Caso seja necessário um _pool_ exclusivo para determinado componente, habilite a propriedade “Exclusive Pool”.
 
+## Tecnologia
+
+### Autenticação via Kerberos
+
+É possível realizar autenticação via Kerberos em componentes de banco de dados. Para isso, basta você:
+
+* informar uma conta do tipo KERBEROS
+* configurar um Kerberos principal
+* configurar uma _keytab_ (que deve ser a base64 do próprio arquivo _keytab_ gerado)
+
 ## Mais cenários de uso com DB V2&#x20;
 
-Veja na coleção a seguir como usar o DB V2 em diferentes cenários:
+Veja na documentação a seguir como usar o DB V2 em diferentes cenários:
 
-{% content-ref url="db-v2/db-v2-cenarios-de-uso.md" %}
-[db-v2-cenarios-de-uso.md](db-v2/db-v2-cenarios-de-uso.md)
+{% content-ref url="db-v2/db-v2-via-kerberos.md" %}
+[db-v2-via-kerberos.md](db-v2/db-v2-via-kerberos.md)
 {% endcontent-ref %}
 
 ### &#x20;<a href="#h_f90a8ac5f6" id="h_f90a8ac5f6"></a>
