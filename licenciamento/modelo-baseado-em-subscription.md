@@ -46,7 +46,7 @@ Quando dimensionado horizontalmente, cada nova réplica consumirá a mesma quant
 
 ### Cotas de uso da plataforma&#x20;
 
-As cotas de uso da plataforma são limites técnicos impostos em cada _realm_ para evitar a sobrecarga da plataforma. Eles foram criados com base no uso médio da plataforma. Estes são algumas das cotas:&#x20;
+As cotas de uso da plataforma são limites técnicos impostos em cada _realm_ para evitar a sobrecarga da plataforma. Eles foram criados com base no uso médio da plataforma. Estes são alguns dos limites:&#x20;
 
 * Tamanho de implantação e réplicas (ou seja, CPU e memória para executar um _pipeline_ ou um conjunto de réplicas);
 * Tráfego de saída;

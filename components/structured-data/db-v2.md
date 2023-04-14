@@ -36,15 +36,15 @@ Veja alguns dos parâmetros de configuração do componente:
 
 Para trazer mais flexibilidade ao utilizar o **DB V2**, podemos ativar a opção **Raw SQL Statement**, configurar previamente uma _query_ e referenciá-la via _Double Braces_ no parâmetro **SQL Statement** da seguinte maneira:
 
-**Query definida previamente via Template Transformer**
+#### **Query definida previamente via Template Transformer**
 
 <figure><img src="../../.gitbook/assets/DB V2 - Raw SQL 01 - apr 23.png" alt=""><figcaption></figcaption></figure>
 
-**Ativação do Raw SQL Statement**
+#### **Ativação do Raw SQL Statement**
 
 <figure><img src="../../.gitbook/assets/DB v2 - Raw SQL 02 - apr 23.png" alt=""><figcaption></figcaption></figure>
 
-**Query referenciada no parâmetro SQL Statement**
+#### **Query referenciada no parâmetro SQL Statement**
 
 <figure><img src="../../.gitbook/assets/DB V2 - Raw SQL 03 - apr 23.png" alt=""><figcaption></figcaption></figure>
 
