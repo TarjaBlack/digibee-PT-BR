@@ -10,7 +10,7 @@ O programa beta surge como uma oportunidade para verificarmos como os usuários 
 
 Enquanto você estiver utilizando funcionalidades que estão no programa beta, algumas situações indesejadas podem ocorrer. O motivo para isso é que elas **não** são as versões finais e ainda seguem em processo de melhoria. Ao final do período de teste, levando em consideração o _feedback_ dos usuários, o reporte de eventuais erros de execução ou a identificação de problemas de usabilidade, optaremos por prorrogar o programa beta ou disponibilizar as versões finais dos _layouts_ e das funcionalidades.
 
-### Programa Beta Restricted <a href="#h_d59e60e1bd" id="h_d59e60e1bd"></a>
+### Programa Beta Restrito <a href="#h_d59e60e1bd" id="h_d59e60e1bd"></a>
 
 As funcionalidades em Beta Restricted são disponibilizadas para uma base restrita de usuários. O acesso às funcionalidades dentro desse modo é cedido depois que a Digibee cria um critério estratégico de seleção, que valida a escolha dos usuários participantes.
 
