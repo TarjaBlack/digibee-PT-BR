@@ -183,7 +183,7 @@
 * [Flow](components/flow/README.md)
   * [Delayer](components/flow/delayer.md)
 * [Industry solutions](components/industry-solutions/README.md)
-  * [HL7 (Beta)](components/industry-solutions/hl7-beta.md)
+  * [HL7 (Beta Restrito)](components/industry-solutions/hl7-beta-restrito.md)
 * [Logic](components/logic/README.md)
   * [Block Execution](components/logic/block-execution.md)
   * [Choice](components/logic/choice.md)

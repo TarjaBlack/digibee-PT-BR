@@ -12,7 +12,7 @@ Enquanto você estiver utilizando funcionalidades que estão no programa beta, a
 
 ### Programa Beta Restrito <a href="#h_d59e60e1bd" id="h_d59e60e1bd"></a>
 
-As funcionalidades em Beta Restricted são disponibilizadas para uma base restrita de usuários. O acesso às funcionalidades dentro desse modo é cedido depois que a Digibee cria um critério estratégico de seleção, que valida a escolha dos usuários participantes.
+As funcionalidades em Beta Restrito são disponibilizadas para uma base restrita de usuários. O acesso às funcionalidades dentro desse modo é cedido depois que a Digibee cria um critério estratégico de seleção, que valida a escolha dos usuários participantes.
 
 ## Como eu posso aderir ao programa beta? <a href="#h_c563c8260b" id="h_c563c8260b"></a>
 
