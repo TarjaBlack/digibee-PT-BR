@@ -75,6 +75,7 @@
 * [Implantação de um pipeline](run/deployments.md)
 * [Status de implantação do pipeline](run/status-de-implantacao-do-pipeline.md)
 * [Reimplantando um pipeline](run/reimplantando-um-pipeline.md)
+* [Histórico de implantação de pipeline (Beta Restrito)](run/historico-de-implantacao-de-pipeline-beta-restrito.md)
 
 ## Monitor
 
