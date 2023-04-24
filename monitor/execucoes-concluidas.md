@@ -44,10 +44,6 @@ No modal de Detalhes da Execução, você pode ver o:
 * **Mensagem da resposta :** o _output_ do pipeline
 * [**Logs da execução**](https://docs.digibee.com/help-center/v/pt-br/monitor/pipeline-logs)
 
-Você também pode clicar no botão no canto superior direito para abrir o _pipeline_ em uma nova aba. Essa _feature_ está em fase Beta. Você pode aprender mais sobre o programa Beta da Digibee [aqui](../geral/programa-beta.md).
-
-<figure><img src="https://i.imgur.com/eoXbkB5.png" alt=""><figcaption></figcaption></figure>
-
 Chamamos de “[mensagem](https://docs.digibee.com/help-center/v/pt-br/build/pipelines/processamento-de-mensagens)” o dado que é transmitido em formato JSON através do pipeline. Cada componente da pipeline recebe, manipula e exporta uma mensagem. Apenas as 50 primeiras mensagens do pipeline serão exibidas, e somente para pipelines executados em modo de teste.
 
 Em alguns casos, a plataforma apresenta payloads truncados, de acordo com os seguintes critérios:
