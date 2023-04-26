@@ -1,10 +1,10 @@
 ---
 description: >-
-  Saiba mais sobre o novo modelo SaaS subscription da Digibee Integration
+  Saiba mais sobre o novo modelo SaaS Subscription da Digibee Integration
   Platform
 ---
 
-# Modelo baseado em subscription
+# Modelo baseado em Subscription
 
 Este artigo apresenta conceitos importantes do novo modelo baseado em _subscription_, lançado em Abril de 2022.
 

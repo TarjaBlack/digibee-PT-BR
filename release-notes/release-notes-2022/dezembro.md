@@ -33,7 +33,7 @@ Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/novo-ca
 
 ### &#x20; MEU CONSUMO
 
-Além de poder visualizar o consumo de [_Pipeline Subscriptions_](../../licenciamento/modelo-baseado-em-subscription.md) e[ _RTUs_](../../licenciamento/limites-de-uso.md) no geral, agora também é possível ver em qual ambiente e projeto eles estão sendo consumidos através da página Meu consumo. A nova página reúne as seguintes funcionalidades:
+Além de poder visualizar o consumo de [_Pipeline Subscriptions_](broken-reference) e[ _RTUs_](../../licenciamento/limites-de-uso.md) no geral, agora também é possível ver em qual ambiente e projeto eles estão sendo consumidos através da página Meu consumo. A nova página reúne as seguintes funcionalidades:
 
 * **Painel de consumo:** visualize a quantidade de _Pipeline Subscriptions_ e _RTUs_ consumidas em cada ambiente.
 * **Lista de consumo:** confira uma lista detalhada de cada item de consumo — projeto, ambiente, _pipeline_, _trigger_, tamanho da implantação, _RTUs_ e réplicas. Você também pode exportar esses dados para um arquivo CSV.
