@@ -46,7 +46,7 @@ Por exemplo, neste modelo, se de dez (10) _Pipelines_, um tiver que ser utilizad
 
 Nesse caso, você precisaria comprar mais licenças para continuar usando os fluxos restantes. O modelo baseado em _**Subscription**_ funciona de maneira diferente: cada _pipeline_ tem 2 RTUs em _**prod**_ e 1 RTU em _**test**_, o que facilita a implantação do pipeline.
 
-Saiba mais sobre o modelo baseado em _Subscription_ neste artigo.
+[Saiba mais sobre o modelo baseado em _Subscription_ neste artigo.](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-subscription)
 
 ## Consumo de licenças
 

@@ -12,11 +12,13 @@ O modelo baseado em _Pipeline_ foi o primeiro modelo de licença oferecido pela 
 
 Com este modelo, você pode criar quantos _pipelines_ quiser. O limite se aplica apenas à implantação. Como evolução deste plano, foi lançado o modelo baseado em _**Subscription**_, que inclui algumas melhorias e novos recursos.&#x20;
 
-Para obter mais informações sobre o modelo baseado em _Pipeline_, consulte esta seção.
-
 {% hint style="info" %}
 **Nota:** Se você estiver usando o modelo baseado em _Pipeline_, entre em contato com seu _Customer Success Manager_ e solicite que ele faça a migração para outro modelo de licenciamento sem custo algum.
 {% endhint %}
+
+[Para obter mais informações sobre o modelo baseado em _Pipeline_, consulte esta seção abaixo.](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-pipeline)
+
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-pipeline" %}
 
 ## Modelo baseado em _Subscription_
 
@@ -26,7 +28,9 @@ Cada _pipeline subscription_ inclui duas (2) RTUs de implantação no ambiente _
 
 Cada _pipeline subscription_ refere-se a um fluxo de integração exclusivo implantado na Digibee Integration Platform. Isso significa que um _pipeline_ foi criado, testado no ambiente de _test_ e implantado no ambiente de _prod_. Além disso, você também pode escalar sua integração horizontalmente ou verticalmente com os _Runtime Units_ (RTUs).
 
-Leia mais sobre a licença do modelo baseado em _Subscription_ nesta seção.
+[Leia mais sobre a licença do modelo baseado em _Subscription_ nesta seção abaixo.](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-subscription)
+
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-subscription" %}
 
 ## Modelo baseado em _Capacity_
 
