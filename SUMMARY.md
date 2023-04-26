@@ -113,6 +113,7 @@
 
 ## Licenciamento
 
+* [Modelos de licenciamento](licenciamento/modelos-de-licenciamento.md)
 * [Modelo baseado em subscription](licenciamento/modelo-baseado-em-subscription.md)
 * [Capacidade e cotas](licenciamento/limites-de-uso.md)
 * [Consumo de licenças](licenciamento/consumo-de-licencas.md)
