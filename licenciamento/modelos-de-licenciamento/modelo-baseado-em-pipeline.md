@@ -16,7 +16,7 @@ Observe que você pode criar quantos _pipelines_ desejar. A licença é consumid
 
 Com este modelo de licenciamento, você pode usar apenas os ambientes padrão da Digibee Integration Platform: _**test**_ e _**prod**_. Se você quiser criar mais ambientes, o modelo _**Capacity**_ dá a opção de ter mais ambientes.&#x20;
 
-Se você quiser saber mais sobre o modelo _Capacity_, leia este artigo.
+[Se você quiser saber mais sobre o modelo Capacity, leia este artigo.](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-capacity)
 
 ## Hospedagem da plataforma
 

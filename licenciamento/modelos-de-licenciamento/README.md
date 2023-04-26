@@ -38,4 +38,6 @@ Este modelo de licenciamento _Capacity_ é projetado para oferecer suporte a cli
 
 Com esse modelo de licenciamento, você pode criar quantos _pipelines_ quiser. E para cada implantação, um (1) Crédito é consumido para implantar um _pipeline_ em qualquer ambiente. Ainda é possível ter mais ambientes nesse modelo, além de _**test**_ e _**prod**_. Além disso, todos os componentes e muitos outros recursos estão incluídos nesta licença.
 
-Leia este artigo para saber mais sobre o modelo baseado em _Capacity_.
+[Leia mais na seção abaixo para saber mais sobre o modelo baseado em _Capacity_.](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-capacity)
+
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-capacity" %}
