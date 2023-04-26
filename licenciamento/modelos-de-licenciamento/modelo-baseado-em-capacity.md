@@ -41,11 +41,3 @@ Olhando para os tamanhos de implantação disponíveis na Digibee Integration Pl
 | _Large_  | 4                  |
 
 Nesse modelo, não há limite para o número de _pipelines_ que podem ser implantados. Os limites de implantação são definidos apenas pelos Créditos.
-
-## Consumo de licenças
-
-Neste modelo de licenciamento, você pode acompanhar seu uso e gerenciar os _Pipelines_ e Créditos disponíveis em seu _Realm_. Basta acessar as configurações no canto superior direito e clicar em **Consumo de licenças** no canto inferior esquerdo da tela.
-
-<figure><img src="../../.gitbook/assets/License usage - credits - engl.jpg" alt=""><figcaption></figcaption></figure>
-
-Nesta página você pode ter uma visão geral do consumo em seu _Realm_. Para acessar esta página, você deve pertencer a um grupo vinculado à função que possa **visualizar licenças**.

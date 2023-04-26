@@ -47,11 +47,3 @@ Por exemplo, neste modelo, se de dez (10) _Pipelines_, um tiver que ser utilizad
 Nesse caso, você precisaria comprar mais licenças para continuar usando os fluxos restantes. O modelo baseado em _**Subscription**_ funciona de maneira diferente: cada _pipeline_ tem 2 RTUs em _**prod**_ e 1 RTU em _**test**_, o que facilita a implantação do pipeline.
 
 [Saiba mais sobre o modelo baseado em _Subscription_ neste artigo.](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-subscription)
-
-## Consumo de licenças
-
-No modelo baseado em _Pipeline_ e nos outros modelos, você pode acompanhar seu uso e gerenciar os _pipelines_ e as licenças disponíveis em seu _Realm_. Basta acessar as configurações no canto superior direito e clicar em **Consumo de licenças** no canto inferior esquerdo da página.
-
-<figure><img src="../../.gitbook/assets/Consumo licença.jpg" alt=""><figcaption></figcaption></figure>
-
-Nesta página você pode ter uma visão geral do consumo em seu _Realm_. Para acessar esta página, você deve pertencer a um grupo vinculado à função que possa **visualizar licenças**.
