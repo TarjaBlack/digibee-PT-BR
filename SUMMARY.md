@@ -118,7 +118,8 @@
   * [Modelo baseado em Subscription](licenciamento/modelos-de-licenciamento/modelo-baseado-em-subscription.md)
   * [Modelo baseado em Capacity](licenciamento/modelos-de-licenciamento/modelo-baseado-em-capacity.md)
 * [Capacidade e cotas](licenciamento/limites-de-uso.md)
-* [Consumo de licenças (Beta Restrito)](licenciamento/consumo-de-licencas-beta-restrito.md)
+* [Consumo de Licenças (Beta Restrito)](licenciamento/consumo-de-licencas-beta-restrito/README.md)
+  * [Consumo de Licenças no modelo Pipeline](licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-pipeline.md)
 
 ## Geral
 
