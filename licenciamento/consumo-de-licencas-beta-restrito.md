@@ -16,15 +16,14 @@ Este painel exibe informações sobre a quantidade de _pipelines_ utilizados, qu
 
 Além disso, na parte inferior da página, você encontrará uma lista de projetos pertencentes ao _Realm_ e ao ambiente selecionado, junto com informações sobre cada projeto.
 
-<figure><img src="../../.gitbook/assets/dashboard - geral - port.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dashboard - geral - port.jpg" alt=""><figcaption></figcaption></figure>
 
 Essa lista exibe informações como o nome e a descrição do projeto, o ambiente em que está localizado, o número de _pipelines_ implantados no projeto e o número de Licenças, RTUs ou Créditos, dependendo do modelo de licenciamento.&#x20;
 
 Você pode ver mais detalhes sobre o projeto clicando no ícone **Ações**.
 
-<figure><img src="../../.gitbook/assets/lista - geral - port.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/lista - geral - port.jpg" alt=""><figcaption></figcaption></figure>
 
 Abaixo estão três seções que explicam em detalhes como o **Consumo de Licenças** funciona para cada modelo de licenciamento. Selecione o modelo sobre o qual deseja saber mais a seguir.
 
-
-
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-pipeline" %}
