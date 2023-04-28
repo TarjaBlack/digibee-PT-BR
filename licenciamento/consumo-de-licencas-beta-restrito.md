@@ -27,3 +27,5 @@ Você pode ver mais detalhes sobre o projeto clicando no ícone **Ações**.
 Abaixo estão três seções que explicam em detalhes como o **Consumo de Licenças** funciona para cada modelo de licenciamento. Selecione o modelo sobre o qual deseja saber mais a seguir.
 
 {% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-pipeline" %}
+
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-subscription" %}

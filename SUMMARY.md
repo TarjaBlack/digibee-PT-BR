@@ -121,6 +121,7 @@
 * [Consumo de Licenças (Beta Restrito)](licenciamento/consumo-de-licencas-beta-restrito.md)
   * [Consumo de Licenças no modelo Pipeline](licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-pipeline.md)
   * [Consumo de Licenças no modelo Subscription](licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-subscription.md)
+  * [Consumo de Licenças no modelo Capacity](licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-capacity.md)
 
 ## Geral
 

@@ -32,7 +32,7 @@ Para ver uma descrição detalhada de cada projeto, clique no ícone **Ações**
 
 ## Painel de consumo
 
-<figure><img src="../../.gitbook/assets/02 - painel - port.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/02 - painel - port (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Nesta seção, você pode selecionar o ambiente para o qual deseja ver o consumo. Use o menu no canto superior esquerdo para fazer sua escolha. Depois de fazer sua escolha, será exibido o número de _pipelines_ (consumidos, disponíveis e contratados), bem como as RTUs associadas.&#x20;
 
@@ -44,7 +44,7 @@ Este painel fornece _insights_ e informações que permitem que você tome decis
 
 Para visualizar os detalhes de consumo de um determinado projeto, use a função de pesquisa. Selecione o projeto na caixa de pesquisa e clique no botão **BUSCA** para obter seus detalhes. Você também pode exportar a lista de consumo dos projetos para um arquivo `CSV` clicando em **EXPORTAR**.
 
-<figure><img src="../../.gitbook/assets/03 - busca - port.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/03 - busca - port (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Como resultado, você obtém uma lista detalhada de cada consumo dos projetos: nome do projeto e descrição, ambiente, quantidade de _pipelines_ no projeto, quantidade de RTUs utilizadas e um ícone para clicar em **Ações**.
 
@@ -66,4 +66,4 @@ Na parte inferior da página, você encontrará uma lista de todos os projetos n
 
 No canto superior direito, você encontrará uma lista de contatos contendo os responsáveis pela sua conta. Para enviar um e-mail diretamente a uma pessoa, clique no ícone do e-mail.
 
-<figure><img src="../../.gitbook/assets/06 - contatos - port.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/06 - contatos - port (1).jpg" alt=""><figcaption></figcaption></figure>
