@@ -267,7 +267,7 @@
     * [Transformer - Formatação de datas utilizando split e concat](components/tools/transformer-jolt/transformer-formatacao-de-datas-utilizando-split-e-concat.md)
     * [IF - ELSE simples com JOLT](components/tools/transformer-jolt/if-else-simples-com-jolt.md)
   * [Validator V2](components/tools/validator-v2.md)
-  * [Validator (Descontinuado)](components/tools/validator.md)
+  * [Validator V1 (Descontinuado)](components/tools/validator.md)
   * [XML Schema Validator](components/tools/xml-schema-validator-new.md)
   * [XML to JSON Transformer](components/tools/xml-to-json-transformer.md)
   * [XML Transformer](components/tools/xml-transformer.md)
