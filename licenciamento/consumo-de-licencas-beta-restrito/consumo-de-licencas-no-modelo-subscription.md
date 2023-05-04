@@ -14,7 +14,7 @@ O recurso **Consumo de Licenças** agora permite que você rastreie seus _pipeli
 
 ## Visão geral do Consumo de Licenças
 
-No modelo baseado em _Subscription,_ você pode acompanhar seu uso e gerenciar seus _pipelines subscriptions_ e seus _Runtime Units_ (RTUs)  disponíveis em seu _Realm_. Para acessar esse recurso, vá para `Configurações` no canto superior direito e clique em **Consumo de Licenças** em `Licenciamento` no canto inferior esquerdo da página.
+No [modelo baseado em _Subscription_](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-subscription)_,_ você pode acompanhar seu uso e gerenciar seus _pipelines subscriptions_ e seus _Runtime Units_ (RTUs)  disponíveis em seu _Realm_. Para acessar esse recurso, vá para `Configurações` no canto superior direito e clique em **Consumo de Licenças** em `Licenciamento` no canto inferior esquerdo da página.
 
 Para acessar esta página, você deve ter recebido a permissão de **visualizador de licença** para sua conta de usuário ou um grupo ao qual você pertence.
 

@@ -14,7 +14,7 @@ Com o recurso **Consumo de Licenças**, agora você pode rastrear facilmente seu
 
 ## Visão geral do Consumo de Licenças
 
-No modelo baseado em _Capacity_, você pode acompanhar seu uso e gerenciar seus _pipelines_ e os Créditos disponíveis em seu _Realm_. Para acessar esse recurso, vá para `Configurações` no canto superior direito e clique em **Consumo de Licenças** em `Licenciamento` no canto inferior esquerdo da página.
+No [modelo baseado em _Capacity_](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-capacity), você pode acompanhar seu uso e gerenciar seus _pipelines_ e os Créditos disponíveis em seu _Realm_. Para acessar esse recurso, vá para `Configurações` no canto superior direito e clique em **Consumo de Licenças** em `Licenciamento` no canto inferior esquerdo da página.
 
 Para acessar esta página, você deve ter recebido a permissão de **visualizador de licença** para sua conta de usuário ou um grupo ao qual você pertence.
 

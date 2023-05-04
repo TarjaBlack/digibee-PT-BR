@@ -29,3 +29,5 @@ Abaixo estão três seções que explicam em detalhes como o **Consumo de Licen�
 {% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-pipeline" %}
 
 {% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-subscription" %}
+
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/licenciamento/consumo-de-licencas-beta-restrito/consumo-de-licencas-no-modelo-capacity" %}
