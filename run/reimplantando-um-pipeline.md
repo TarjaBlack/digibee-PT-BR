@@ -9,7 +9,7 @@ Depois que o fluxo do _pipeline_ foi criado e implantado, às vezes é necessár
 Com o recurso **Reimplantar**, esse processo se torna mais fácil e rápido e pode ser executado tanto em ambientes de teste quanto de produção.
 
 {% hint style="info" %}
-Para ter acesso à **Implantação**, você deve ter a permissão de **Implantação: Ler e Criar** para sua conta de usuário ou um grupo ao qual você pertence.
+Para ter acesso à **Implantação**, você deve ter a permissão de _**Deployment (test/ prod)**_**: Ler e Criar** para sua conta de usuário ou um grupo ao qual você pertence.
 {% endhint %}
 
 ## Visualização do _pipeline card_
