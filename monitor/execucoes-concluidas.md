@@ -29,20 +29,28 @@ Você pode filtrar execuções de pipelines utilizando os seguintes parâmetros:
 
 As execuções concluídas são exibidas abaixo, de acordo com os parâmetros especificados:
 
-![](../.gitbook/assets/executionlist.png)
+<figure><img src="https://i.imgur.com/h5YSSAz.png" alt=""><figcaption><p>Tabela de execuções concluídas</p></figcaption></figure>
 
-Você pode clicar no ícone de lupa para ver os detalhes da execução ou no ícone de atualização para reexecutar o pipeline.
+Você pode clicar no ícone de lupa para ver os [detalhes da execução](execucoes-concluidas.md#detalhes-da-execucao) ou no ícone de atualização para reexecutar o pipeline.
 
 Para que o pipeline seja reexecutado manualmente, seu trigger deve possuir a opção “Allow Redelivery of messages” ativada. É importante notar que você deve re-executar um pipeline manualmente somente quando estiver buscando solucionar um problema, nunca como parte de seu processo de integração.
 
 ## Detalhes da execução
 
-No modal de Detalhes da Execução, você pode ver o:
+Se você clicar no ícone de lupa na tabela de execuções concluídas, um modal aparecerá exibindo os detalhes da execução.
+
+<figure><img src="https://i.imgur.com/cL9NmDr.png" alt=""><figcaption><p>Modal de detalhes da execução</p></figcaption></figure>
+
+No modal de detalhes da execução, você pode ver o(s):
 
 * **Pipeline key** : um identificador único de uma execução de um pipeline
 * **Mensagem da requisição :** os dados enviados pelo trigger do pipeline
 * **Mensagem da resposta :** o _output_ do pipeline
 * [**Logs da execução**](https://docs.digibee.com/help-center/v/pt-br/monitor/pipeline-logs)
+
+Você também pode clicar no botão no canto superior direito para acessar no Canvas o _pipeline_ cuja execução você está analisando. Esse botão está na fase Beta. Você pode aprender mais sobre o programa Beta da Digibee [aqui](../geral/programa-beta.md).
+
+<figure><img src="https://i.imgur.com/eoXbkB5.png" alt=""><figcaption></figcaption></figure>
 
 Chamamos de “[mensagem](https://docs.digibee.com/help-center/v/pt-br/build/pipelines/processamento-de-mensagens)” o dado que é transmitido em formato JSON através do pipeline. Cada componente da pipeline recebe, manipula e exporta uma mensagem. Apenas as 50 primeiras mensagens do pipeline serão exibidas, e somente para pipelines executados em modo de teste.
 
