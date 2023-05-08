@@ -8,6 +8,10 @@ Uma vez que o fluxo do _pipeline_ tenha sido criado, o próximo passo é disponi
 
 Se quiser saber mais sobre a etapa de Run, onde é feita a gestão das implantações, consulte o [artigo Conceitos de Run](runtime.md).
 
+{% hint style="info" %}
+Para ter acesso à **Implantação**, você deve ter a permissão de **Implantação: Ler e Criar** para sua conta de usuário ou um grupo ao qual você pertence.
+{% endhint %}
+
 ## **Como implantar um **_**pipeline**_**?** <a href="#h_a34f6b010d" id="h_a34f6b010d"></a>
 
 O processo para implantar o _pipeline_ em teste ou em produção é simples. Veja:
