@@ -2,7 +2,7 @@
 description: Saiba mais sobre as cotas de uso da Digibee Integration Platform
 ---
 
-# Capacidade e Cotas
+# Capacidade e cotas
 
 Este artigo apresenta as cotas de uso aplicados na execução de _pipelines_ na Digibee Integration Platform.
 
@@ -19,7 +19,7 @@ Recursos computacionais são todos os itens consumidos para execução das integ
 * **Capacidade de processamento**: é a forma de medir o tamanho de uma RTU.
 * **Tráfego de saída**: é a forma de medir a quantidade de dados trafegados para fora da rede da Digibee Integration Platform.
 * **Mensagem**: é a carga processada sempre que uma pipeline recebe uma solicitação, realiza o processamento e produz uma resposta.
-* **MPS** (Mensagens Por Segundo): é a métrica que calcula quantas mensagens são processadas por um determinado _pipeline_ em uma única janela de 1 segundo. O número máximo de MPS é calculado para todo o _Realm_. Esse número é compartilhado em todos os pipelines implantados. O MPS está diretamente correlacionado com o tempo médio de processamento e não necessariamente com o número máximo de execuções simultâneas.
+* **EPS** (Execuções Por Segundo): é a métrica que calcula quantas mensagens são processadas por um determinado _pipeline_ em uma única janela de 1 segundo. O número máximo de EPS é calculado para todo o _Realm_. Esse número é compartilhado em todos os pipelines implantados. O EPS está diretamente correlacionado com o tempo médio de processamento e não necessariamente com o número máximo de execuções simultâneas.
 * **Fila**: a plataforma permite que as filas de pipeline sejam preenchidas com mensagens pendentes a serem processadas. A cota é imposta ao enfileiramento é calculado por todas as RTUs implantadas em uma única _pipeline_.
 * **Logs de execuções concluídas**: para estes _logs_, que são mostrados na página de Monitor da plataforma, sob Execuções concluídas, a cota é dada pelo tempo de retenção ou quantidade de mensagens, o que vier primeiro. A quantidade de mensagens é contabilizada pelo número de RTUs implementadas em uma determinada _pipeline_.&#x20;
 * **Pipeline logs:** para estes _logs_, que são mostrados na página de Monitor da plataforma, sob Pipeline logs, a cota é dada pelo tempo de retenção ou quantidade de byes armazenados, o que vier primeiro. A quantidade de bytes armazenados é contabilizada pelo número de RTUs implementadas em uma determinada _pipeline_.&#x20;
@@ -46,7 +46,7 @@ _**Test Object Stores**_ são compartilhados entre _Realms_ e crescem de acordo 
 | ---------------------------- | ------------ | ------------------------------------------------------ | --------------------------------------- | ------------------------------------------ |
 | Capacidade de processamento  | Proporcional | 64 MB / 20% de CPU / 10 execuções simultâneas          | Cada RTU                                | Um único RTU                               |
 | Tráfego de saída             | Proporcional | 10GB por RTU (mensal)                                  | Cada RTU                                | Todos os RTUs no _Realm_                   |
-| Mensagens Por Segundo (MPS)  | Proporcional | 1 MPS por RTU                                          | Cada RTU                                | Todos os RTUs no _Realm_                   |
+| Execuções Por Segundo (EPS)  | Proporcional | 1 EPS por RTU                                          | Cada RTU                                | Todos os RTUs no _Realm_                   |
 | Fila                         | Proporcional | Máximo de 100.000 de mensagens na fila                 | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
 | Logs de execuções concluídas | Proporcional | 7 dias ou 604,800 mensagens                            | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
 | Pipeline logs                | Proporcional | 3 dias ou 250 MB                                       | Cada RTU                                | RTUs implantados para uma única _pipeline_ |
@@ -61,7 +61,7 @@ _**Test Object Stores**_ são compartilhados entre _Realms_ e crescem de acordo 
 | ---------------------------- | ------------ | -------------------------------------------------------------------- | ---------------- | ------------------------------------------ |
 | Capacidade de processamento  | Proporcional | 64MB / 20% CPU / 10 execuções simultâneas                            | Cada RTU         | Um único RTU                               |
 | Tráfego de saída             | Proporcional | 1 TB por RTU (mensal)                                                | Cada RTU         | Todos os RTUs no _Realm_                   |
-| Mensagens Por Segundo (MPS)  | Proporcional | 1 MPS por RTU                                                        | Cada RTU         | Todos os RTUs no _Realm_                   |
+| Execuções Por Segundo (MPS)  | Proporcional | 1 EPS por RTU                                                        | Cada RTU         | Todos os RTUs no _Realm_                   |
 | Fila                         | Proporcional | Máximo de 1.000.000 de mensagens na fila                             | Cada RTU         | RTUs implantados para uma única _pipeline_ |
 | Logs de execuções concluídas | Proporcional | 30 dias ou 2.592.000 mensagens                                       | Cada RTU         | RTUs implantados para uma única _pipeline_ |
 | Pipeline logs                | Proporcional | 10 dias ou 1 GB                                                      | Cada RTU         | RTUs implantados para uma única _pipeline_ |
