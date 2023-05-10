@@ -4,10 +4,6 @@ description: Conheça o componente e saiba como utilizá-lo.
 
 # ZIP File
 
-{% hint style="info" %}
-Essa _feature_ está em fase Beta. Para aprender mais, leia [nosso artigo sobre o programa Beta da Digibee](../../geral/programa-beta.md).
-{% endhint %}
-
 O **ZIP File** permite a compressão de arquivos no formato zip.
 
 Dê uma olhada nos parâmetros de configuração do componente:
