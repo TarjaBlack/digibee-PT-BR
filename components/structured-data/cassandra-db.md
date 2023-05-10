@@ -1,14 +1,12 @@
 ---
-description: >-
-  O Cassandra DB realiza operações em uma conexão de database Apache Cassandra.
-  Dê uma olhada em alguns dos parâmetros de configuração do componente:
+description: Conheça o componente e saiba como utilizá-lo.
 ---
 
 # Cassandra DB
 
-{% hint style="info" %}
-Essa _feature_ está em fase Beta. Para aprender mais, leia [nosso artigo sobre o programa Beta da Digibee](../../geral/programa-beta.md).
-{% endhint %}
+O **Cassandra DB** realiza operações em uma conexão de database Apache Cassandra.&#x20;
+
+Dê uma olhada em alguns dos parâmetros de configuração do componente:
 
 * **Account:** conta a ser utilizada pelo componente para conectar na AWS. Pode ser do tipo AWSv4, com _access key_ e _secret_ ou _Basic_ para acesso a servidor do cassandra em uma _data center_, com usuário e senha.&#x20;
 * **Operation:** operação a ser executada (INSERT, UPDATE, SELECT, DELETE).&#x20;
