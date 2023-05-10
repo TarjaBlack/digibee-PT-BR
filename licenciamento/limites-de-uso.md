@@ -61,7 +61,7 @@ _**Test Object Stores**_ são compartilhados entre _Realms_ e crescem de acordo 
 | ---------------------------- | ------------ | -------------------------------------------------------------------- | ---------------- | ------------------------------------------ |
 | Capacidade de processamento  | Proporcional | 64MB / 20% CPU / 10 execuções simultâneas                            | Cada RTU         | Um único RTU                               |
 | Tráfego de saída             | Proporcional | 1 TB por RTU (mensal)                                                | Cada RTU         | Todos os RTUs no _Realm_                   |
-| Execuções Por Segundo (MPS)  | Proporcional | 1 EPS por RTU                                                        | Cada RTU         | Todos os RTUs no _Realm_                   |
+| Execuções Por Segundo (EPS)  | Proporcional | 1 EPS por RTU                                                        | Cada RTU         | Todos os RTUs no _Realm_                   |
 | Fila                         | Proporcional | Máximo de 1.000.000 de mensagens na fila                             | Cada RTU         | RTUs implantados para uma única _pipeline_ |
 | Logs de execuções concluídas | Proporcional | 30 dias ou 2.592.000 mensagens                                       | Cada RTU         | RTUs implantados para uma única _pipeline_ |
 | Pipeline logs                | Proporcional | 10 dias ou 1 GB                                                      | Cada RTU         | RTUs implantados para uma única _pipeline_ |

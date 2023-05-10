@@ -6,7 +6,7 @@
 
 * **Validator V2 (General Availability):** criamos uma nova versão do componente que valida conteúdo JSON de forma dinâmica via Double Braces, com base em um JSON Schema. Saiba mais na [documentação do Validator V2](https://docs.digibee.com/documentation/v/pt-br/components/tools/validator-v2).
 * **HL7 Trigger (Beta Restrito):** criamos um novo trigger que recebe mensagens no formato HL7 (Health Level 7) na Digibee Integration Platform. Este trigger está atualmente em [fase Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta#h\_d59e60e1bd) e disponível somente para clientes específicos.
-* **CassandraDB, CSV to Excel e Zip File (General Availability):** os componentes estão em fase General Availability e disponíveis para todos os usuários.
+* **CassandraDB, CSV to Excel e Zip File (General Availability):** os componentes estão em fase General Availability e disponíveis para todos os usuários. Saiba mais na documentação do [Cassandra DB](https://docs.digibee.com/documentation/v/pt-br/components/structured-data/cassandra-db), [CSV to Excel](https://docs.digibee.com/documentation/v/pt-br/components/files/csv-to-excel) e [Zip File](https://docs.digibee.com/documentation/v/pt-br/components/files/zip-file).
 
 ### &#x20;NOVO CANVAS - TEST MODE
 
