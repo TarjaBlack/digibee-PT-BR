@@ -5,7 +5,7 @@ description: Conheça o componente e saiba como utilizá-lo.
 # HL7 (Beta Restrito)
 
 {% hint style="info" %}
-Atualmente, este componente está na fase Beta Restrito e está disponível apenas para clientes selecionados.
+Atualmente, este componente está na fase Beta Restrito e está disponível apenas para clientes específicos.
 {% endhint %}
 
 O **HL7** envia informações para sistemas de _healthcare_ pelo protocolo de comunicações HL7 ([Health Level 7](https://info.hl7.org/orientation-station)), um padrão da indústria de _healthcare_ para trocar dados entre diferentes sistemas e dispositivos médicos.

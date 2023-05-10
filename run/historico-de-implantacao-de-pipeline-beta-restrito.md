@@ -7,7 +7,7 @@ description: >-
 # Histórico de implantação de pipeline (Beta Restrito)
 
 {% hint style="info" %}
-Essa _feature_ está na fase [Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes selecionados.
+Essa _feature_ está na fase [Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes específicos.
 {% endhint %}
 
 É sempre útil saber como estão os _pipelines_. Com esta parte do histórico de implantação do _pipeline_, a visão geral das implantações mais recentes, fica mais fácil rastrear as alterações mais recentes do _pipeline_ e ver quais foram implantadas em princípio.

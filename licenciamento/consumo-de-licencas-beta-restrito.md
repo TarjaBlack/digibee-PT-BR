@@ -5,7 +5,7 @@ description: Saiba mais sobre seus pipelines e consumo na página Consumo de Lic
 # Consumo de Licenças (Beta Restrito)
 
 {% hint style="info" %}
-Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes selecionados.
+Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes específicos.
 {% endhint %}
 
 Na página **Consumo de Licenças**, você pode gerenciar e rastrear melhor seus _pipelines_ implantados e seu consumo. Isso se aplica às Licenças no [modelo baseado em _Pipeline_](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-pipeline)_,_ RTUs no [modelo baseado em _Subscription_](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-subscription) e Créditos no [modelo baseado em _Capacity_](https://docs.digibee.com/documentation/v/pt-br/licenciamento/modelos-de-licenciamento/modelo-baseado-em-capacity)_._

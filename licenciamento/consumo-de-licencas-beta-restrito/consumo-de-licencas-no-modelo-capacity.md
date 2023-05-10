@@ -7,7 +7,7 @@ description: >-
 # Consumo de Licenças no modelo Capacity
 
 {% hint style="info" %}
-Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes selecionados.
+Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes específicos.
 {% endhint %}
 
 Com o recurso **Consumo de Licenças**, agora você pode rastrear facilmente seus _pipelines_ e Créditos. Você pode obter o número de _pipelines_ para o seu _Realm_, bem como o valor total disponível. Além disso, você pode verificar o número de Créditos disponíveis nos ambientes de _test_ e _prod_ do seu _Realm_, permitindo analisar e implantar seus _pipelines_ com mais eficiência.

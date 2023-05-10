@@ -7,7 +7,7 @@ description: >-
 # Consumo de Licenças no modelo Pipeline
 
 {% hint style="info" %}
-Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes selecionados.
+Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes específicos.
 {% endhint %}
 
 Rastreie facilmente seus _pipelines_ e licenças disponíveis com o recurso **Consumo de Licenças**, que permite avaliar o número de _pipelines_ em seu _Realm_ e o valor total disponível. Além disso, você pode consultar a quantidade de licenças disponíveis nos ambientes de _test_ e _prod_ do seu _Realm_ para realizar implantações de seus _pipelines_.

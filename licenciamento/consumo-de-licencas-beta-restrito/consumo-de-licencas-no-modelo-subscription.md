@@ -7,7 +7,7 @@ description: >-
 # Consumo de Licenças no modelo Subscription
 
 {% hint style="info" %}
-Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes selecionados.
+Essa _feature_ está na fase[ Beta Restrito](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta) e está disponível apenas para clientes específicos.
 {% endhint %}
 
 O recurso **Consumo de Licenças** agora permite que você rastreie seus _pipelines subscriptions_ e seus _Runtime units_ (RTUs) com facilidade. Você pode obter o número de _pipelines subscriptions_ para o seu _Realm_, bem como o valor total disponível. Além disso, você pode verificar o número de RTUs disponíveis nos ambientes de _test_ e _prod_ do seu _Realm_, para poder analisar e implantar seus _pipelines_ com mais eficiência.

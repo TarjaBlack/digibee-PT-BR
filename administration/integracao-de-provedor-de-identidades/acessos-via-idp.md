@@ -7,7 +7,7 @@ description: >-
 # Acessos via IdP
 
 {% hint style="info" %}
-Essa _feature_ está na fase Beta Restrito e está disponível apenas para clientes selecionados.
+Essa _feature_ está na fase Beta Restrito e está disponível apenas para clientes específicos.
 {% endhint %}
 
 Por padrão, se você usar um modelo de acesso integrado, os usuários podem acessar a Digibee Integration Platform usando credenciais Digibee ou por meio de um provedor de identidade (IdP). No entanto, você pode gerenciar regras de acesso para impor acessos via IdP para todos os usuários ou apenas para usuários específicos usando a página de acessos via IdP.
