@@ -56,7 +56,7 @@ Para aprender mais sobre tamanho da implementação, execuções simultâneas e 
 
 ![](../.gitbook/assets/memoryusage.png)
 
-Esse gráfico exibe o uso percentual de memória para cada réplica do pipeline durante diversos intervalos durante o período de tempo selecionado.
+Esse gráfico exibe o uso percentual médio de memória para cada réplica do pipeline durante diversos intervalos durante o período de tempo selecionado.
 
 Essa informação é útil para determinar se o tamanho de pipeline escolhido durante sua implementação foi adequado, já que a exaustão da memória disponível levará a um erro do tipo "Out of Memory".
 
